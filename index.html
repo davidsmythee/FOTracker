@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face-Off Tracker - Lacrosse Analytics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-layout">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h2>📋 Saved Games</h2>
+                <button id="new-game-btn" class="btn btn-primary btn-block">+ New Game</button>
+            </div>
+            
+            
+            <div class="games-list" id="games-list">
+                <div class="no-games-message">
+                    <p>No games yet</p>
+                    <p class="hint">Create your first game to get started!</p>
+                </div>
+            </div>
+            
+            <button id="toggle-sidebar" class="toggle-sidebar-btn" title="Toggle Sidebar">
+                <span class="toggle-icon">◀</span>
+            </button>
+        </aside>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <div class="header-content">
+                    <h1>Coach Dowd - Face-Off Tracker</h1>
+                    <p class="tagline">Princeton Lacrosse</p>
+                </div>
+            </header>
+
+            <!-- Combined Game Info and Stats -->
+            <div class="game-header-section">
+                <div class="game-info-and-stats">
+                    <div class="game-title">
+                        <h2 id="current-opponent">Select a game</h2>
+                        <p id="current-date"></p>
+                    </div>
+                    
+                    <!-- Statistics Dashboard -->
+                    <div class="stats-dashboard" id="stats-dashboard">
+                        <div class="stat-card">
+                            <div class="stat-value" id="stat-wins">0</div>
+                            <div class="stat-label">Wins</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="stat-losses">0</div>
+                            <div class="stat-label">Losses</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="stat-percentage">0%</div>
+                            <div class="stat-label">Win Rate</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="stat-total">0</div>
+                            <div class="stat-label">Total Face-Offs</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <button id="delete-game-btn" class="btn btn-danger" style="display: none;">Delete Game</button>
+            </div>
+
+            <!-- Field Layout Container -->
+            <div class="field-layout">
+                <!-- Lacrosse Field -->
+                <div class="field-container">
+                    <canvas id="lacrosse-field"></canvas>
+                    <div id="field-tooltip" class="field-tooltip"></div>
+                </div>
+
+                <!-- Side Controls -->
+                <div class="side-controls">
+                    <div class="control-section">
+                        <h3>Face-Off Result</h3>
+                        <div class="mode-selector">
+                            <button id="mode-win" class="mode-btn active" data-mode="win">
+                                <span class="mode-icon">✓</span>
+                                <span>Win</span>
+                            </button>
+                            <button id="mode-loss" class="mode-btn" data-mode="loss">
+                                <span class="mode-icon">✗</span>
+                                <span>Loss</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="control-section">
+                        <h3>Face-Off Player</h3>
+                        <select id="player-select" class="player-select">
+                            <option value="">Select Player</option>
+                        </select>
+                        <div class="player-buttons">
+                            <button id="add-player-btn" class="btn btn-secondary btn-small">+ Add Player</button>
+                            <button id="manage-players-btn" class="btn btn-secondary btn-small">Manage Players</button>
+                        </div>
+                    </div>
+
+                    <div class="control-section">
+                        <h3>View Options</h3>
+                        <div class="view-toggle">
+                            <div class="toggle-buttons">
+                                <button id="view-pins" class="view-btn active" data-view="pins">
+                                    📍 Pins
+                                </button>
+                                <button id="view-heatmap" class="view-btn" data-view="heatmap">
+                                    🔥 Heat Map
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="control-section">
+                        <h3>Filter by Player</h3>
+                        <select id="filter-player" class="player-select">
+                            <option value="">Show All Players</option>
+                        </select>
+                    </div>
+
+                    <div class="control-section">
+                        <h3>Actions</h3>
+                        <div class="action-buttons">
+                            <button id="undo-btn" class="btn btn-secondary">↶ Undo</button>
+                            <button id="clear-btn" class="btn btn-secondary">Clear All</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Legend -->
+            <div class="legend">
+                <div class="legend-item">
+                    <span class="legend-marker win-marker"></span>
+                    <span>Face-Off Win</span>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-marker loss-marker"></span>
+                    <span>Face-Off Loss</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- New Game Modal -->
+    <div id="new-game-modal" class="modal">
+        <div class="modal-content">
+            <h2>Create New Game</h2>
+            <form id="new-game-form">
+                <div class="form-group">
+                    <label for="opponent-name">Opponent Name:</label>
+                    <input type="text" id="opponent-name" required placeholder="e.g., Hawks, Tigers, etc.">
+                </div>
+                <div class="form-group">
+                    <label for="game-date">Game Date:</label>
+                    <input type="date" id="game-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="game-notes">Notes (optional):</label>
+                    <textarea id="game-notes" placeholder="Game notes, weather conditions, etc."></textarea>
+                </div>
+                <div class="modal-actions">
+                    <button type="button" id="cancel-modal" class="btn btn-secondary">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Create Game</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Add Player Modal -->
+    <div id="add-player-modal" class="modal">
+        <div class="modal-content">
+            <h2>Add Face-Off Player</h2>
+            <form id="add-player-form">
+                <div class="form-group">
+                    <label for="player-name">Player Name:</label>
+                    <input type="text" id="player-name" list="players-datalist" required placeholder="e.g., John Smith">
+                    <datalist id="players-datalist"></datalist>
+                    <small class="form-hint">Start typing to see existing players</small>
+                </div>
+                <div class="form-group">
+                    <label for="player-number">Jersey Number:</label>
+                    <input type="number" id="player-number" required placeholder="e.g., 12">
+                </div>
+                <div class="form-group">
+                    <label for="player-team">Team:</label>
+                    <input type="text" id="player-team" list="teams-list" required placeholder="e.g., Princeton">
+                    <datalist id="teams-list"></datalist>
+                </div>
+                <div class="modal-actions">
+                    <button type="button" id="cancel-player-modal" class="btn btn-secondary">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Add Player</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Manage Players Modal -->
+    <div id="manage-players-modal" class="modal">
+        <div class="modal-content modal-large">
+            <h2>Manage Players</h2>
+            <div class="players-list" id="players-list">
+                <p class="no-players-message">No players added yet.</p>
+            </div>
+            <div class="modal-actions">
+                <button type="button" id="close-manage-players" class="btn btn-primary">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
