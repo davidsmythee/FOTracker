@@ -1,13 +1,77 @@
+// ===== Import Firebase Service =====
+import firebaseService from './firebase-service.js';
+
 // ===== Data Model =====
 class FaceOffTracker {
-    constructor() {
-        this.games = this.loadGames();
-        this.currentGameId = this.loadCurrentGameId();
+    constructor(useFirebase = true) {
+        this.useFirebase = useFirebase;
+        this.games = {};
+        this.currentGameId = null;
         this.currentMode = 'win'; // 'win' or 'loss'
         this.currentPlayer = null; // Currently selected player
-        this.players = this.loadPlayers();
+        this.players = [];
         this.SEASON_TOTAL_ID = 'season_total';
+        this.isLoading = false;
+        this.onDataChangeCallback = null;
+    }
+
+    async initialize() {
+        if (this.useFirebase && firebaseService.getUserId()) {
+            await this.loadFromFirebase();
+            this.setupFirebaseListeners();
+        } else {
+            this.loadFromLocalStorage();
+        }
         this.ensureSeasonTotalExists();
+    }
+
+    async loadFromFirebase() {
+        try {
+            this.isLoading = true;
+            const [games, players, currentGameId] = await Promise.all([
+                firebaseService.getAllGames(),
+                firebaseService.getAllPlayers(),
+                firebaseService.getCurrentGameId()
+            ]);
+            
+            this.games = games;
+            this.players = players;
+            this.currentGameId = currentGameId;
+            this.isLoading = false;
+        } catch (error) {
+            console.error('Error loading from Firebase:', error);
+            this.isLoading = false;
+            // Fallback to localStorage
+            this.loadFromLocalStorage();
+        }
+    }
+
+    loadFromLocalStorage() {
+        this.games = this.loadGames();
+        this.currentGameId = this.loadCurrentGameId();
+        this.players = this.loadPlayers();
+    }
+
+    setupFirebaseListeners() {
+        // Listen to real-time updates
+        firebaseService.listenToGames((games) => {
+            this.games = games;
+            this.ensureSeasonTotalExists();
+            if (this.onDataChangeCallback) {
+                this.onDataChangeCallback('games');
+            }
+        });
+
+        firebaseService.listenToPlayers((players) => {
+            this.players = players;
+            if (this.onDataChangeCallback) {
+                this.onDataChangeCallback('players');
+            }
+        });
+    }
+
+    onDataChange(callback) {
+        this.onDataChangeCallback = callback;
     }
 
     loadPlayers() {
@@ -15,11 +79,18 @@ class FaceOffTracker {
         return saved ? JSON.parse(saved) : [];
     }
 
-    savePlayers() {
-        localStorage.setItem('faceoff_players', JSON.stringify(this.players));
+    async savePlayers() {
+        if (this.useFirebase && firebaseService.getUserId()) {
+            // Save each player individually to Firebase
+            for (const player of this.players) {
+                await firebaseService.savePlayer(player.id, player);
+            }
+        } else {
+            localStorage.setItem('faceoff_players', JSON.stringify(this.players));
+        }
     }
 
-    addPlayer(name, number = '', team = '') {
+    async addPlayer(name, number = '', team = '') {
         const player = {
             id: Date.now().toString(),
             name,
@@ -28,7 +99,13 @@ class FaceOffTracker {
             createdAt: new Date().toISOString()
         };
         this.players.push(player);
-        this.savePlayers();
+        
+        if (this.useFirebase && firebaseService.getUserId()) {
+            await firebaseService.savePlayer(player.id, player);
+        } else {
+            this.savePlayers();
+        }
+        
         return player;
     }
 
@@ -43,15 +120,85 @@ class FaceOffTracker {
         return Array.from(teams).sort();
     }
 
-    deletePlayer(playerId) {
+    async deletePlayer(playerId) {
         this.players = this.players.filter(p => p.id !== playerId);
         if (this.currentPlayer === playerId) {
             this.currentPlayer = null;
         }
-        this.savePlayers();
+        
+        if (this.useFirebase && firebaseService.getUserId()) {
+            await firebaseService.deletePlayer(playerId);
+        } else {
+            this.savePlayers();
+        }
     }
 
-    ensureSeasonTotalExists() {
+    async addPlayerToRoster(gameId, playerId) {
+        const game = this.games[gameId];
+        if (!game || game.id === this.SEASON_TOTAL_ID) return;
+        
+        // Initialize roster if it doesn't exist (for older games)
+        if (!game.roster) {
+            game.roster = [];
+        }
+        
+        // Add player if not already in roster
+        if (!game.roster.includes(playerId)) {
+            game.roster.push(playerId);
+            await this.saveGame(gameId);
+        }
+    }
+
+    async removePlayerFromRoster(gameId, playerId) {
+        const game = this.games[gameId];
+        if (!game || game.id === this.SEASON_TOTAL_ID) return;
+        
+        if (game.roster) {
+            // Remove player from roster
+            game.roster = game.roster.filter(id => id !== playerId);
+            
+            // Remove all pins by this player from the game
+            const pinsToRemove = game.pins.filter(pin => pin.playerId === playerId);
+            game.pins = game.pins.filter(pin => pin.playerId !== playerId);
+            
+            // Also remove these pins from Season Total
+            const seasonTotal = this.games[this.SEASON_TOTAL_ID];
+            if (seasonTotal && pinsToRemove.length > 0) {
+                // Remove pins that match the player ID and were from this game
+                pinsToRemove.forEach(pinToRemove => {
+                    const index = seasonTotal.pins.findIndex(p => 
+                        p.x === pinToRemove.x && 
+                        p.y === pinToRemove.y && 
+                        p.type === pinToRemove.type && 
+                        p.playerId === pinToRemove.playerId
+                    );
+                    if (index !== -1) {
+                        seasonTotal.pins.splice(index, 1);
+                    }
+                });
+            }
+            
+            await this.saveGame(gameId);
+            await this.saveGame(this.SEASON_TOTAL_ID);
+        }
+    }
+
+    getGameRoster(gameId) {
+        const game = this.games[gameId];
+        if (!game || game.id === this.SEASON_TOTAL_ID) return [];
+        
+        // Initialize roster if it doesn't exist
+        if (!game.roster) {
+            game.roster = [];
+        }
+        
+        // Return player objects for roster IDs
+        return game.roster
+            .map(id => this.players.find(p => p.id === id))
+            .filter(p => p); // Filter out any undefined (deleted players)
+    }
+
+    async ensureSeasonTotalExists() {
         if (!this.games[this.SEASON_TOTAL_ID]) {
             this.games[this.SEASON_TOTAL_ID] = {
                 id: this.SEASON_TOTAL_ID,
@@ -62,7 +209,7 @@ class FaceOffTracker {
                 isSeasonTotal: true,
                 createdAt: new Date().toISOString()
             };
-            this.saveGames();
+            await this.saveGame(this.SEASON_TOTAL_ID);
         }
     }
 
@@ -71,19 +218,39 @@ class FaceOffTracker {
         return saved ? JSON.parse(saved) : {};
     }
 
-    saveGames() {
-        localStorage.setItem('faceoff_games', JSON.stringify(this.games));
+    async saveGames() {
+        if (this.useFirebase && firebaseService.getUserId()) {
+            // Firebase real-time listeners handle this automatically
+            // No need to manually save all games
+        } else {
+            localStorage.setItem('faceoff_games', JSON.stringify(this.games));
+        }
+    }
+
+    async saveGame(gameId) {
+        const game = this.games[gameId];
+        if (!game) return;
+        
+        if (this.useFirebase && firebaseService.getUserId()) {
+            await firebaseService.saveGame(gameId, game);
+        } else {
+            this.saveGames();
+        }
     }
 
     loadCurrentGameId() {
         return localStorage.getItem('faceoff_current_game');
     }
 
-    saveCurrentGameId() {
-        localStorage.setItem('faceoff_current_game', this.currentGameId);
+    async saveCurrentGameId() {
+        if (this.useFirebase && firebaseService.getUserId()) {
+            await firebaseService.saveCurrentGameId(this.currentGameId);
+        } else {
+            localStorage.setItem('faceoff_current_game', this.currentGameId);
+        }
     }
 
-    createGame(opponent, date, notes = '') {
+    async createGame(opponent, date, notes = '') {
         const id = Date.now().toString();
         this.games[id] = {
             id,
@@ -91,15 +258,23 @@ class FaceOffTracker {
             date,
             notes,
             pins: [],
+            roster: [], // Array of player IDs in this game
             createdAt: new Date().toISOString()
         };
         this.currentGameId = id;
-        this.saveGames();
-        this.saveCurrentGameId();
+        
+        if (this.useFirebase && firebaseService.getUserId()) {
+            await firebaseService.saveGame(id, this.games[id]);
+            await this.saveCurrentGameId();
+        } else {
+            this.saveGames();
+            this.saveCurrentGameId();
+        }
+        
         return id;
     }
 
-    deleteGame(id) {
+    async deleteGame(id) {
         // Don't allow deleting season total
         if (id === this.SEASON_TOTAL_ID) return;
 
@@ -127,8 +302,14 @@ class FaceOffTracker {
                 this.currentGameId = gameIds.length > 0 ? gameIds[0] : this.SEASON_TOTAL_ID;
             }
             
-            this.saveGames();
-            this.saveCurrentGameId();
+            if (this.useFirebase && firebaseService.getUserId()) {
+                await firebaseService.deleteGame(id);
+                await this.saveGame(this.SEASON_TOTAL_ID); // Save updated season total
+                await this.saveCurrentGameId();
+            } else {
+                this.saveGames();
+                this.saveCurrentGameId();
+            }
         }
     }
 
@@ -136,7 +317,7 @@ class FaceOffTracker {
         return this.currentGameId ? this.games[this.currentGameId] : null;
     }
 
-    addPin(x, y, type) {
+    async addPin(x, y, type) {
         const game = this.getCurrentGame();
         if (game) {
             const newPin = { 
@@ -151,13 +332,14 @@ class FaceOffTracker {
             // Add to season total if this isn't already the season total game
             if (game.id !== this.SEASON_TOTAL_ID) {
                 this.games[this.SEASON_TOTAL_ID].pins.push({...newPin});
+                await this.saveGame(this.SEASON_TOTAL_ID);
             }
             
-            this.saveGames();
+            await this.saveGame(game.id);
         }
     }
 
-    removeLastPin() {
+    async removeLastPin() {
         const game = this.getCurrentGame();
         if (game && game.pins.length > 0) {
             const removedPin = game.pins.pop();
@@ -174,20 +356,24 @@ class FaceOffTracker {
                 if (index !== -1) {
                     seasonTotal.pins.splice(index, 1);
                 }
+                await this.saveGame(this.SEASON_TOTAL_ID);
             }
             
-            this.saveGames();
+            await this.saveGame(game.id);
             return true;
         }
         return false;
     }
 
-    clearAllPins() {
+    async clearAllPins() {
         const game = this.getCurrentGame();
         if (game) {
             if (game.id === this.SEASON_TOTAL_ID) {
                 // If clearing season total, clear all games
-                Object.values(this.games).forEach(g => g.pins = []);
+                for (const g of Object.values(this.games)) {
+                    g.pins = [];
+                    await this.saveGame(g.id);
+                }
             } else {
                 // Remove this game's pins from both the game and season total
                 const removedPins = game.pins;
@@ -205,8 +391,10 @@ class FaceOffTracker {
                         seasonTotal.pins.splice(index, 1);
                     }
                 });
+                
+                await this.saveGame(game.id);
+                await this.saveGame(this.SEASON_TOTAL_ID);
             }
-            this.saveGames();
         }
     }
 
@@ -587,8 +775,8 @@ class UIController {
     constructor() {
         this.tracker = new FaceOffTracker();
         this.fieldRenderer = new FieldRenderer(document.getElementById('lacrosse-field'));
-        this.viewMode = 'pins'; // 'pins' or 'heatmap'
-        this.filterPlayerId = null; // For filtering pins by player
+        this.displayType = 'pins'; // 'pins' or 'heatmap'
+        this.currentViewMode = 'team'; // 'team' or player ID
         this.initializeElements();
         this.attachEventListeners();
         this.updateUI();
@@ -626,25 +814,28 @@ class UIController {
             viewPins: document.getElementById('view-pins'),
             viewHeatmap: document.getElementById('view-heatmap'),
             playerSelect: document.getElementById('player-select'),
-            addPlayerBtn: document.getElementById('add-player-btn'),
-            managePlayersBtn: document.getElementById('manage-players-btn'),
-            filterPlayer: document.getElementById('filter-player'),
+            addToRosterBtn: document.getElementById('add-to-roster-btn'),
+            rosterList: document.getElementById('roster-list'),
+            viewTeamBtn: document.getElementById('view-team'),
+            playerViewList: document.getElementById('player-view-list'),
             undoBtn: document.getElementById('undo-btn'),
             clearBtn: document.getElementById('clear-btn'),
             canvas: document.getElementById('lacrosse-field'),
             modal: document.getElementById('new-game-modal'),
             newGameForm: document.getElementById('new-game-form'),
             cancelModal: document.getElementById('cancel-modal'),
+            rosterModal: document.getElementById('add-to-roster-modal'),
+            availablePlayersList: document.getElementById('available-players-list'),
+            createNewPlayerBtn: document.getElementById('create-new-player-btn'),
+            cancelRosterModal: document.getElementById('cancel-roster-modal'),
             playerModal: document.getElementById('add-player-modal'),
             addPlayerForm: document.getElementById('add-player-form'),
             cancelPlayerModal: document.getElementById('cancel-player-modal'),
-            managePlayersModal: document.getElementById('manage-players-modal'),
-            closeManagePlayers: document.getElementById('close-manage-players'),
-            playersList: document.getElementById('players-list'),
             statWins: document.getElementById('stat-wins'),
             statLosses: document.getElementById('stat-losses'),
             statPercentage: document.getElementById('stat-percentage'),
             statTotal: document.getElementById('stat-total'),
+            viewIndicator: document.getElementById('view-indicator'),
             seasonGames: document.getElementById('season-games'),
             seasonWins: document.getElementById('season-wins'),
             seasonLosses: document.getElementById('season-losses'),
@@ -664,9 +855,9 @@ class UIController {
         });
 
         // Delete game button
-        this.elements.deleteGameBtn.addEventListener('click', () => {
+        this.elements.deleteGameBtn.addEventListener('click', async () => {
             if (this.tracker.currentGameId && confirm('Are you sure you want to delete this game?')) {
-                this.tracker.deleteGame(this.tracker.currentGameId);
+                await this.tracker.deleteGame(this.tracker.currentGameId);
                 this.updateUI();
             }
         });
@@ -680,48 +871,53 @@ class UIController {
             this.setMode('loss');
         });
 
-        // View mode buttons
+        // Display type buttons (pins vs heatmap)
         this.elements.viewPins.addEventListener('click', () => {
-            this.setViewMode('pins');
+            this.setDisplayType('pins');
         });
 
         this.elements.viewHeatmap.addEventListener('click', () => {
-            this.setViewMode('heatmap');
+            this.setDisplayType('heatmap');
         });
 
-        // Player selection
+        // Player selection for face-off
         this.elements.playerSelect.addEventListener('change', (e) => {
             this.tracker.currentPlayer = e.target.value || null;
         });
 
-        // Add player button
-        this.elements.addPlayerBtn.addEventListener('click', () => {
+        // Add player to roster button
+        this.elements.addToRosterBtn.addEventListener('click', () => {
+            this.showAddToRosterModal();
+        });
+
+        // Create new player from roster modal
+        this.elements.createNewPlayerBtn.addEventListener('click', () => {
+            this.hideAddToRosterModal();
             this.showAddPlayerModal();
         });
 
-        // Manage players button
-        this.elements.managePlayersBtn.addEventListener('click', () => {
-            this.showManagePlayersModal();
+        // Team view button
+        this.elements.viewTeamBtn.addEventListener('click', () => {
+            this.setViewMode('team');
         });
 
-        // Filter by player
-        this.elements.filterPlayer.addEventListener('change', (e) => {
-            this.filterPlayerId = e.target.value || null;
-            this.render();
+        // Roster and player modals
+        this.elements.cancelRosterModal.addEventListener('click', () => {
+            this.hideAddToRosterModal();
         });
 
         // Undo button
-        this.elements.undoBtn.addEventListener('click', () => {
-            if (this.tracker.removeLastPin()) {
+        this.elements.undoBtn.addEventListener('click', async () => {
+            if (await this.tracker.removeLastPin()) {
                 this.render();
                 this.updateStats();
             }
         });
 
         // Clear button
-        this.elements.clearBtn.addEventListener('click', () => {
+        this.elements.clearBtn.addEventListener('click', async () => {
             if (confirm('Are you sure you want to clear all pins?')) {
-                this.tracker.clearAllPins();
+                await this.tracker.clearAllPins();
                 this.render();
                 this.updateStats();
             }
@@ -786,25 +982,55 @@ class UIController {
         this.elements.modeLoss.classList.toggle('active', mode === 'loss');
     }
 
-    setViewMode(mode) {
-        this.viewMode = mode;
+    setDisplayType(type) {
+        this.displayType = type;
         
         // Update button states
-        this.elements.viewPins.classList.toggle('active', mode === 'pins');
-        this.elements.viewHeatmap.classList.toggle('active', mode === 'heatmap');
+        this.elements.viewPins.classList.toggle('active', type === 'pins');
+        this.elements.viewHeatmap.classList.toggle('active', type === 'heatmap');
         
-        // Re-render with new view mode
+        // Re-render with new display type
         this.render();
     }
 
-    handleCanvasClick(event) {
+    setViewMode(mode) {
+        // mode is either 'team' or a player ID
+        this.currentViewMode = mode;
+        
+        // Update view mode buttons
+        this.elements.viewTeamBtn.classList.toggle('active', mode === 'team');
+        
+        // Update player view buttons (will be created dynamically)
+        document.querySelectorAll('.player-view-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.playerId === mode);
+        });
+        
+        // Update stats and re-render
+        this.updateStats();
+        this.render();
+    }
+
+    async handleCanvasClick(event) {
         if (!this.tracker.currentGameId) {
             alert('Please create a game first!');
             return;
         }
 
+        // Don't allow pins on Season Total
+        const currentGame = this.tracker.getCurrentGame();
+        if (currentGame && currentGame.id === this.tracker.SEASON_TOTAL_ID) {
+            alert('Cannot place pins on Season Total view. Please select a specific game.');
+            return;
+        }
+
+        // Enforce player selection
+        if (!this.tracker.currentPlayer) {
+            alert('Please select a player from the roster before placing a face-off pin.\n\nIf the roster is empty, click "Add Player to Game" first.');
+            return;
+        }
+
         const coords = this.fieldRenderer.getClickCoordinates(event);
-        this.tracker.addPin(coords.x, coords.y, this.tracker.currentMode);
+        await this.tracker.addPin(coords.x, coords.y, this.tracker.currentMode);
         this.render();
         this.updateStats();
     }
@@ -820,14 +1046,74 @@ class UIController {
         this.elements.newGameForm.reset();
     }
 
-    createNewGame() {
+    async createNewGame() {
         const opponent = document.getElementById('opponent-name').value;
         const date = document.getElementById('game-date').value;
         const notes = document.getElementById('game-notes').value;
 
-        this.tracker.createGame(opponent, date, notes);
+        await this.tracker.createGame(opponent, date, notes);
         this.hideNewGameModal();
         this.updateUI();
+    }
+
+    showAddToRosterModal() {
+        const currentGame = this.tracker.getCurrentGame();
+        if (!currentGame || currentGame.id === this.tracker.SEASON_TOTAL_ID) {
+            alert('Please select a specific game first.');
+            return;
+        }
+        
+        this.updateAvailablePlayersList();
+        this.elements.rosterModal.classList.add('show');
+    }
+
+    hideAddToRosterModal() {
+        this.elements.rosterModal.classList.remove('show');
+    }
+
+    updateAvailablePlayersList() {
+        const container = this.elements.availablePlayersList;
+        const currentGame = this.tracker.getCurrentGame();
+        
+        if (!currentGame) {
+            container.innerHTML = '<p style="color: var(--text-secondary); text-align: center; padding: 20px;">No game selected</p>';
+            return;
+        }
+
+        const roster = currentGame.roster || [];
+        const availablePlayers = this.tracker.players.filter(p => !roster.includes(p.id));
+
+        if (availablePlayers.length === 0) {
+            container.innerHTML = '<p style="color: var(--text-secondary); text-align: center; padding: 20px;">All players are already in the roster.<br>Create a new player to add more.</p>';
+            return;
+        }
+
+        container.innerHTML = '';
+        availablePlayers.forEach(player => {
+            const item = document.createElement('div');
+            item.className = 'available-player-item';
+            
+            const displayName = player.number ? `#${player.number} ${player.name}` : player.name;
+            
+            item.innerHTML = `
+                <div class="available-player-info">
+                    <div class="available-player-name">${displayName}</div>
+                    <div class="available-player-team">${player.team}</div>
+                </div>
+                <button class="btn-add-to-roster" data-player-id="${player.id}">Add to Game</button>
+            `;
+            
+            const addBtn = item.querySelector('.btn-add-to-roster');
+            addBtn.addEventListener('click', async () => {
+                await this.tracker.addPlayerToRoster(currentGame.id, player.id);
+                this.updateRosterList();
+                this.updatePlayerSelect();
+                this.updatePlayerViewList();
+                this.updateAvailablePlayersList();
+            });
+            
+            container.appendChild(item);
+        });
     }
 
     showAddPlayerModal() {
@@ -901,16 +1187,25 @@ class UIController {
         this.elements.addPlayerForm.reset();
     }
 
-    addNewPlayer() {
+    async addNewPlayer() {
         const name = document.getElementById('player-name').value;
         const number = document.getElementById('player-number').value;
         const team = document.getElementById('player-team').value;
 
-        const player = this.tracker.addPlayer(name, number, team);
+        const player = await this.tracker.addPlayer(name, number, team);
+        
+        // Add to current game's roster if applicable
+        const currentGame = this.tracker.getCurrentGame();
+        if (currentGame && currentGame.id !== this.tracker.SEASON_TOTAL_ID) {
+            await this.tracker.addPlayerToRoster(currentGame.id, player.id);
+        }
+        
         this.tracker.currentPlayer = player.id; // Auto-select the new player
         this.hideAddPlayerModal();
+        this.updateRosterList();
         this.updatePlayerSelect();
-        this.updateFilterPlayerSelect();
+        this.updatePlayerViewList();
+        this.updateAvailablePlayersList();
     }
 
     showManagePlayersModal() {
@@ -1016,7 +1311,7 @@ class UIController {
         return allPins;
     }
 
-    deletePlayer(playerId) {
+    async deletePlayer(playerId) {
         const player = this.tracker.players.find(p => p.id === playerId);
         if (!player) return;
 
@@ -1025,10 +1320,11 @@ class UIController {
             : player.name;
 
         if (confirm(`Are you sure you want to delete ${displayName}?\n\nThis will NOT delete their face-off data, but you won't be able to assign new face-offs to this player.`)) {
-            this.tracker.deletePlayer(playerId);
+            await this.tracker.deletePlayer(playerId);
             this.updatePlayersList();
+            this.updateRosterList();
             this.updatePlayerSelect();
-            this.updateFilterPlayerSelect();
+            this.updatePlayerViewList();
         }
     }
 
@@ -1036,31 +1332,21 @@ class UIController {
         const select = this.elements.playerSelect;
         select.innerHTML = '<option value="">Select Player</option>';
 
-        // Get current game and players who have taken face-offs in THIS game
+        // Get current game roster
         const currentGame = this.tracker.getCurrentGame();
         if (!currentGame || currentGame.id === this.tracker.SEASON_TOTAL_ID) {
             return; // Don't show any players for Season Total or if no game
         }
 
-        // Get unique player IDs from pins in current game
-        const playerIdsInGame = new Set(
-            currentGame.pins
-                .map(pin => pin.playerId)
-                .filter(id => id) // Filter out any undefined/null
-        );
+        const rosterPlayers = this.tracker.getGameRoster(currentGame.id);
 
-        // Filter players to only those in this game
-        const playersInGame = this.tracker.players.filter(player => 
-            playerIdsInGame.has(player.id)
-        );
-
-        if (playersInGame.length === 0) {
-            return; // No players in this game yet
+        if (rosterPlayers.length === 0) {
+            return; // No players in roster yet
         }
 
         // Group players by team
         const playersByTeam = {};
-        playersInGame.forEach(player => {
+        rosterPlayers.forEach(player => {
             const team = player.team || 'No Team';
             if (!playersByTeam[team]) {
                 playersByTeam[team] = [];
@@ -1092,41 +1378,102 @@ class UIController {
         });
     }
 
-    updateFilterPlayerSelect() {
-        const select = this.elements.filterPlayer;
-        select.innerHTML = '<option value="">Show All Players</option>';
+    updateRosterList() {
+        const container = this.elements.rosterList;
+        const currentGame = this.tracker.getCurrentGame();
 
-        // Group players by team
-        const playersByTeam = {};
-        this.tracker.players.forEach(player => {
-            const team = player.team || 'No Team';
-            if (!playersByTeam[team]) {
-                playersByTeam[team] = [];
-            }
-            playersByTeam[team].push(player);
-        });
+        if (!currentGame || currentGame.id === this.tracker.SEASON_TOTAL_ID) {
+            container.innerHTML = '<p style="color: var(--text-secondary); font-size: 0.85rem; margin-top: 10px;">Select a game to manage roster</p>';
+            return;
+        }
 
-        // Add players grouped by team
-        Object.keys(playersByTeam).sort().forEach(team => {
-            const optgroup = document.createElement('optgroup');
-            optgroup.label = team;
+        const rosterPlayers = this.tracker.getGameRoster(currentGame.id);
+
+        if (rosterPlayers.length === 0) {
+            container.innerHTML = '<p style="color: var(--text-secondary); font-size: 0.85rem; margin-top: 10px;">No players in roster yet</p>';
+            return;
+        }
+
+        container.innerHTML = '';
+        rosterPlayers.forEach(player => {
+            const item = document.createElement('div');
+            item.className = 'roster-item';
             
-            playersByTeam[team].forEach(player => {
-                const option = document.createElement('option');
-                option.value = player.id;
-                const displayText = player.number 
-                    ? `#${player.number} ${player.name}` 
-                    : player.name;
-                option.textContent = displayText;
+            const displayName = player.number ? `#${player.number} ${player.name}` : player.name;
+            
+            item.innerHTML = `
+                <div class="roster-item-name">${displayName}</div>
+                <button class="roster-item-remove" data-player-id="${player.id}">Remove</button>
+            `;
+            
+            const removeBtn = item.querySelector('.roster-item-remove');
+            removeBtn.addEventListener('click', async () => {
+                const pinCount = currentGame.pins.filter(p => p.playerId === player.id).length;
+                const confirmMsg = pinCount > 0 
+                    ? `Remove ${displayName} from this game's roster?\n\nThis will also delete ${pinCount} face-off data point(s) attributed to this player.`
+                    : `Remove ${displayName} from this game's roster?`;
                 
-                if (player.id === this.filterPlayerId) {
-                    option.selected = true;
+                if (confirm(confirmMsg)) {
+                    await this.tracker.removePlayerFromRoster(currentGame.id, player.id);
+                    
+                    // Reset view to team if we're viewing the removed player
+                    if (this.currentViewMode === player.id) {
+                        this.setViewMode('team');
+                    }
+                    
+                    // Reset current player if it was the removed player
+                    if (this.tracker.currentPlayer === player.id) {
+                        this.tracker.currentPlayer = null;
+                    }
+                    
+                    this.updateRosterList();
+                    this.updatePlayerSelect();
+                    this.updatePlayerViewList();
+                    this.updateAvailablePlayersList();
+                    this.updateStats();
+                    this.updateSeasonStats();
+                    this.render();
                 }
-                
-                optgroup.appendChild(option);
             });
             
-            select.appendChild(optgroup);
+            container.appendChild(item);
+        });
+    }
+
+    updatePlayerViewList() {
+        const container = this.elements.playerViewList;
+        const currentGame = this.tracker.getCurrentGame();
+
+        if (!currentGame) {
+            container.innerHTML = '';
+            return;
+        }
+
+        const rosterPlayers = this.tracker.getGameRoster(currentGame.id);
+
+        if (rosterPlayers.length === 0) {
+            container.innerHTML = '';
+            return;
+        }
+
+        container.innerHTML = '';
+        rosterPlayers.forEach(player => {
+            const btn = document.createElement('button');
+            btn.className = 'player-view-btn';
+            btn.dataset.playerId = player.id;
+            
+            const displayName = player.number ? `#${player.number} ${player.name}` : player.name;
+            btn.textContent = displayName;
+            
+            if (this.currentViewMode === player.id) {
+                btn.classList.add('active');
+            }
+            
+            btn.addEventListener('click', () => {
+                this.setViewMode(player.id);
+            });
+            
+            container.appendChild(btn);
         });
     }
 
@@ -1247,12 +1594,37 @@ class UIController {
     }
 
     updateStats() {
-        const stats = this.tracker.getStats();
+        const game = this.tracker.getCurrentGame();
+        let stats;
+        let viewText = 'Viewing: Team';
+        
+        if (!game) {
+            stats = { wins: 0, losses: 0, total: 0, percentage: 0 };
+        } else if (this.currentViewMode === 'team') {
+            // Show all team stats
+            stats = this.tracker.getStats();
+            viewText = 'Viewing: Team';
+        } else {
+            // Show specific player stats
+            const player = this.tracker.players.find(p => p.id === this.currentViewMode);
+            if (player) {
+                const displayName = player.number ? `#${player.number} ${player.name}` : player.name;
+                viewText = `Viewing: ${displayName}`;
+            }
+            
+            const playerPins = game.pins.filter(pin => pin.playerId === this.currentViewMode);
+            const wins = playerPins.filter(p => p.type === 'win').length;
+            const losses = playerPins.filter(p => p.type === 'loss').length;
+            const total = wins + losses;
+            const percentage = total > 0 ? Math.round((wins / total) * 100) : 0;
+            stats = { wins, losses, total, percentage };
+        }
         
         this.elements.statWins.textContent = stats.wins;
         this.elements.statLosses.textContent = stats.losses;
         this.elements.statPercentage.textContent = `${stats.percentage}%`;
         this.elements.statTotal.textContent = stats.total;
+        this.elements.viewIndicator.textContent = viewText;
     }
 
     updateSeasonStats() {
@@ -1290,12 +1662,13 @@ class UIController {
         const game = this.tracker.getCurrentGame();
         let pins = game ? game.pins : [];
         
-        // Filter pins by player if a filter is active
-        if (this.filterPlayerId) {
-            pins = pins.filter(pin => pin.playerId === this.filterPlayerId);
+        // Filter pins based on view mode
+        if (this.currentViewMode !== 'team') {
+            // Viewing a specific player
+            pins = pins.filter(pin => pin.playerId === this.currentViewMode);
         }
         
-        if (this.viewMode === 'heatmap') {
+        if (this.displayType === 'heatmap') {
             this.fieldRenderer.renderHeatmap(pins);
         } else {
             this.fieldRenderer.render(pins);
@@ -1305,26 +1678,133 @@ class UIController {
     updateUI() {
         this.updateGamesList();
         this.updateCurrentGameInfo();
+        this.updateRosterList();
+        this.updatePlayerSelect();
+        this.updatePlayerViewList();
         this.updateStats();
         this.updateSeasonStats();
-        this.updatePlayerSelect();
-        this.updateFilterPlayerSelect();
         this.render();
     }
 }
 
-// ===== Initialize App =====
-document.addEventListener('DOMContentLoaded', () => {
+// ===== Initialize App with Firebase Authentication =====
+let appInstance = null;
+
+async function initializeApp() {
     // Small delay to ensure layout is calculated
-    setTimeout(() => {
-        const app = new UIController();
-        
-        // Show welcome message if no games
-        if (Object.keys(app.tracker.games).length === 0) {
-            setTimeout(() => {
-                alert('Welcome to Face-Off Tracker! 🥍\n\nClick "New Game" to start tracking face-offs.\n\nThen click on the field to place pins showing where face-offs were won (green) or lost (red).');
-            }, 500);
+    await new Promise(resolve => setTimeout(resolve, 100));
+    
+    appInstance = new UIController();
+    
+    // Setup real-time sync callback
+    appInstance.tracker.onDataChange((type) => {
+        if (type === 'games' || type === 'players') {
+            appInstance.updateUI();
         }
-    }, 100);
+    });
+    
+    // Initialize Firebase data
+    await appInstance.tracker.initialize();
+    
+    // Update UI after data load
+    appInstance.updateUI();
+    
+    // Show welcome message if no games (excluding season total)
+    const gameKeys = Object.keys(appInstance.tracker.games).filter(id => id !== appInstance.tracker.SEASON_TOTAL_ID);
+    if (gameKeys.length === 0) {
+        setTimeout(() => {
+            alert('Welcome to Face-Off Tracker! 🥍\n\nClick "New Game" to start tracking face-offs.\n\nThen click on the field to place pins showing where face-offs were won (green) or lost (red).');
+        }, 500);
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const authOverlay = document.getElementById('auth-overlay');
+    const appContent = document.getElementById('app-content');
+    const signInBtn = document.getElementById('sign-in-btn');
+    const signOutBtn = document.getElementById('sign-out-btn');
+    const userAvatar = document.getElementById('user-avatar');
+    const userName = document.getElementById('user-name');
+    const syncStatus = document.getElementById('sync-status');
+    
+    // Handle authentication state changes
+    firebaseService.onAuthChange(async (user) => {
+        if (user) {
+            // User signed in
+            authOverlay.style.display = 'none';
+            appContent.style.display = 'flex';
+            
+            // Update user profile
+            userAvatar.src = user.photoURL || '';
+            userName.textContent = user.displayName || user.email;
+            
+            // Attempt migration from localStorage
+            try {
+                const migrated = await firebaseService.migrateFromLocalStorage();
+                if (migrated) {
+                    alert('Your local data has been migrated to the cloud! 🎉\n\nYour data is now synced across all devices.');
+                }
+            } catch (error) {
+                console.error('Migration error:', error);
+            }
+            
+            // Initialize app
+            if (!appInstance) {
+                await initializeApp();
+            }
+        } else {
+            // User signed out
+            authOverlay.style.display = 'flex';
+            appContent.style.display = 'none';
+            
+            // Clear app instance
+            if (appInstance) {
+                appInstance = null;
+            }
+        }
+    });
+    
+    // Sign in button
+    signInBtn.addEventListener('click', async () => {
+        try {
+            await firebaseService.signIn();
+        } catch (error) {
+            console.error('Sign in error:', error);
+            alert('Failed to sign in. Please try again.');
+        }
+    });
+    
+    // Sign out button
+    signOutBtn.addEventListener('click', async () => {
+        try {
+            if (confirm('Are you sure you want to sign out? Your data will be saved in the cloud.')) {
+                await firebaseService.signOutUser();
+            }
+        } catch (error) {
+            console.error('Sign out error:', error);
+            alert('Failed to sign out. Please try again.');
+        }
+    });
+    
+    // Setup sync status display
+    firebaseService.onSyncStatusChange((status) => {
+        syncStatus.className = 'sync-status';
+        if (status === 'synced') {
+            syncStatus.textContent = '● Synced';
+            syncStatus.classList.add('synced');
+        } else if (status === 'syncing') {
+            syncStatus.textContent = '● Syncing...';
+            syncStatus.classList.add('syncing');
+        } else if (status === 'error') {
+            syncStatus.textContent = '● Sync Error';
+            syncStatus.classList.add('error');
+        }
+    });
 });
+
+// Export for debugging
+if (typeof window !== 'undefined') {
+    window.appInstance = appInstance;
+    window.firebaseService = firebaseService;
+}
 

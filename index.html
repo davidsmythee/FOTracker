@@ -7,7 +7,26 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="app-layout">
+    <!-- Authentication Overlay -->
+    <div id="auth-overlay" class="auth-overlay">
+        <div class="auth-container">
+            <h1>🥍 Coach Dowd - Face-Off Tracker</h1>
+            <p class="auth-tagline">Princeton Lacrosse</p>
+            <p class="auth-description">Sign in to access your face-off tracking data across all devices</p>
+            <button id="sign-in-btn" class="btn btn-primary btn-large">
+                <svg width="18" height="18" viewBox="0 0 18 18" style="margin-right: 8px;">
+                    <path fill="#fff" d="M17.64 9.2c0-.637-.057-1.251-.164-1.84H9v3.481h4.844c-.209 1.125-.843 2.078-1.796 2.717v2.258h2.908c1.702-1.567 2.684-3.874 2.684-6.615z"/>
+                    <path fill="#fff" d="M9.003 18c2.43 0 4.467-.806 5.956-2.18L12.05 13.56c-.806.54-1.836.86-3.047.86-2.344 0-4.328-1.584-5.036-3.711H.96v2.332C2.44 15.983 5.485 18 9.003 18z"/>
+                    <path fill="#fff" d="M3.964 10.712c-.18-.54-.282-1.117-.282-1.71 0-.593.102-1.17.282-1.71V4.96H.957C.347 6.175 0 7.55 0 9.002c0 1.452.348 2.827.957 4.042l3.007-2.332z"/>
+                    <path fill="#fff" d="M9.003 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.464.891 11.428 0 9.003 0 5.485 0 2.44 2.017.96 4.958L3.967 7.29c.708-2.127 2.692-3.71 5.036-3.71z"/>
+                </svg>
+                Sign in with Google
+            </button>
+            <p class="auth-note">Your data will be securely stored in the cloud and synced across all your devices</p>
+        </div>
+    </div>
+
+    <div class="app-layout" id="app-content" style="display: none;">
         <!-- Sidebar -->
         <aside class="sidebar" id="sidebar">
             <div class="sidebar-header">
@@ -35,6 +54,14 @@
                 <div class="header-content">
                     <h1>Coach Dowd - Face-Off Tracker</h1>
                     <p class="tagline">Princeton Lacrosse</p>
+                </div>
+                <div class="user-profile" id="user-profile">
+                    <img id="user-avatar" class="user-avatar" src="" alt="User">
+                    <div class="user-info">
+                        <span id="user-name" class="user-name"></span>
+                        <span id="sync-status" class="sync-status">● Synced</span>
+                    </div>
+                    <button id="sign-out-btn" class="btn btn-secondary btn-small">Sign Out</button>
                 </div>
             </header>
 
@@ -65,6 +92,7 @@
                             <div class="stat-label">Total Face-Offs</div>
                         </div>
                     </div>
+                    <div id="view-indicator" class="view-indicator">Viewing: Team</div>
                 </div>
                 
                 <button id="delete-game-btn" class="btn btn-danger" style="display: none;">Delete Game</button>
@@ -95,18 +123,31 @@
                     </div>
 
                     <div class="control-section">
-                        <h3>Face-Off Player</h3>
+                        <h3>Game Roster</h3>
+                        <button id="add-to-roster-btn" class="btn btn-primary btn-small">+ Add Player to Game</button>
+                        <div id="roster-list" class="roster-list"></div>
+                    </div>
+
+                    <div class="control-section">
+                        <h3>Current Player</h3>
                         <select id="player-select" class="player-select">
                             <option value="">Select Player</option>
                         </select>
-                        <div class="player-buttons">
-                            <button id="add-player-btn" class="btn btn-secondary btn-small">+ Add Player</button>
-                            <button id="manage-players-btn" class="btn btn-secondary btn-small">Manage Players</button>
+                        <small class="form-hint">Select who's taking this face-off</small>
+                    </div>
+
+                    <div class="control-section">
+                        <h3>View Mode</h3>
+                        <div class="view-mode-selector">
+                            <button id="view-team" class="view-mode-btn active" data-mode="team">
+                                👥 Team View
+                            </button>
+                            <div id="player-view-list" class="player-view-list"></div>
                         </div>
                     </div>
 
                     <div class="control-section">
-                        <h3>View Options</h3>
+                        <h3>Display Type</h3>
                         <div class="view-toggle">
                             <div class="toggle-buttons">
                                 <button id="view-pins" class="view-btn active" data-view="pins">
@@ -117,13 +158,6 @@
                                 </button>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="control-section">
-                        <h3>Filter by Player</h3>
-                        <select id="filter-player" class="player-select">
-                            <option value="">Show All Players</option>
-                        </select>
                     </div>
 
                     <div class="control-section">
@@ -175,10 +209,22 @@
         </div>
     </div>
 
+    <!-- Add Player to Roster Modal -->
+    <div id="add-to-roster-modal" class="modal">
+        <div class="modal-content">
+            <h2>Add Player to Game Roster</h2>
+            <div id="available-players-list" class="available-players-list"></div>
+            <button id="create-new-player-btn" class="btn btn-primary" style="margin-top: 15px;">+ Create New Player</button>
+            <div class="modal-actions" style="margin-top: 20px;">
+                <button type="button" id="cancel-roster-modal" class="btn btn-secondary">Close</button>
+            </div>
+        </div>
+    </div>
+
     <!-- Add Player Modal -->
     <div id="add-player-modal" class="modal">
         <div class="modal-content">
-            <h2>Add Face-Off Player</h2>
+            <h2>Create New Player</h2>
             <form id="add-player-form">
                 <div class="form-group">
                     <label for="player-name">Player Name:</label>
@@ -197,7 +243,7 @@
                 </div>
                 <div class="modal-actions">
                     <button type="button" id="cancel-player-modal" class="btn btn-secondary">Cancel</button>
-                    <button type="submit" class="btn btn-primary">Add Player</button>
+                    <button type="submit" class="btn btn-primary">Create Player</button>
                 </div>
             </form>
         </div>
@@ -216,7 +262,9 @@
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <!-- Firebase SDK -->
+    <script type="module" src="firebase-config.js"></script>
+    <script type="module" src="script.js"></script>
 </body>
 </html>
 
