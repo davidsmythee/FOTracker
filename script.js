@@ -62,7 +62,8 @@ class FaceOffTracker {
         // Listen to real-time updates
         firebaseService.listenToGames((games) => {
             this.games = games;
-            this.ensureSeasonTotalExists();
+            // Don't trigger saves when receiving updates from Firebase
+            this.ensureSeasonTotalExists(true); // Pass flag to skip saving
             if (this.onDataChangeCallback) {
                 this.onDataChangeCallback('games');
             }
@@ -164,28 +165,12 @@ class FaceOffTracker {
             game.roster = game.roster.filter(id => id !== playerId);
             
             // Remove all pins by this player from the game
-            const pinsToRemove = game.pins.filter(pin => pin.playerId === playerId);
             game.pins = game.pins.filter(pin => pin.playerId !== playerId);
             
-            // Also remove these pins from Season Total
-            const seasonTotal = this.games[this.SEASON_TOTAL_ID];
-            if (seasonTotal && pinsToRemove.length > 0) {
-                // Remove pins that match the player ID and were from this game
-                pinsToRemove.forEach(pinToRemove => {
-                    const index = seasonTotal.pins.findIndex(p => 
-                        p.x === pinToRemove.x && 
-                        p.y === pinToRemove.y && 
-                        p.type === pinToRemove.type && 
-                        p.playerId === pinToRemove.playerId
-                    );
-                    if (index !== -1) {
-                        seasonTotal.pins.splice(index, 1);
-                    }
-                });
-            }
-            
             await this.saveGame(gameId);
-            await this.saveGame(this.SEASON_TOTAL_ID);
+            
+            // Rebuild season total in memory
+            this.rebuildSeasonTotal();
         }
     }
 
@@ -204,7 +189,9 @@ class FaceOffTracker {
             .filter(p => p); // Filter out any undefined (deleted players)
     }
 
-    async ensureSeasonTotalExists() {
+    async ensureSeasonTotalExists(skipSave = false) {
+        let needsCreation = false;
+        
         if (!this.games[this.SEASON_TOTAL_ID]) {
             this.games[this.SEASON_TOTAL_ID] = {
                 id: this.SEASON_TOTAL_ID,
@@ -215,14 +202,19 @@ class FaceOffTracker {
                 isSeasonTotal: true,
                 createdAt: new Date().toISOString()
             };
-            await this.saveGame(this.SEASON_TOTAL_ID);
+            needsCreation = true;
         }
         
-        // Rebuild Season Total from all games
-        await this.rebuildSeasonTotal();
+        // Rebuild Season Total from all games (without saving if from Firebase)
+        this.rebuildSeasonTotal();
+        
+        // Only save if explicitly creating or not skipping
+        if (!skipSave && needsCreation) {
+            await this.saveGame(this.SEASON_TOTAL_ID);
+        }
     }
 
-    async rebuildSeasonTotal() {
+    rebuildSeasonTotal() {
         // Collect all pins from all regular games
         const allPins = [];
         Object.keys(this.games).forEach(gameId => {
@@ -234,10 +226,9 @@ class FaceOffTracker {
             }
         });
 
-        // Update Season Total with all pins
+        // Update Season Total with all pins (in memory only)
         if (this.games[this.SEASON_TOTAL_ID]) {
             this.games[this.SEASON_TOTAL_ID].pins = allPins;
-            await this.saveGame(this.SEASON_TOTAL_ID);
         }
     }
 
@@ -308,20 +299,6 @@ class FaceOffTracker {
 
         const game = this.games[id];
         if (game) {
-            // Remove this game's pins from season total
-            const seasonTotal = this.games[this.SEASON_TOTAL_ID];
-            game.pins.forEach(pin => {
-                const index = seasonTotal.pins.findIndex(p => 
-                    p.x === pin.x && 
-                    p.y === pin.y && 
-                    p.type === pin.type && 
-                    p.timestamp === pin.timestamp
-                );
-                if (index !== -1) {
-                    seasonTotal.pins.splice(index, 1);
-                }
-            });
-
             // Delete the game
             delete this.games[id];
             
@@ -332,8 +309,10 @@ class FaceOffTracker {
             
             if (this.useFirebase && firebaseService.getUserId()) {
                 await firebaseService.deleteGame(id);
-                await this.saveGame(this.SEASON_TOTAL_ID); // Save updated season total
                 await this.saveCurrentGameId();
+                
+                // Rebuild season total in memory
+                this.rebuildSeasonTotal();
             } else {
                 this.saveGames();
                 this.saveCurrentGameId();
@@ -356,38 +335,28 @@ class FaceOffTracker {
                 playerId: this.currentPlayer // Add player info to pin
             };
             game.pins.push(newPin);
-
-            // Add to season total if this isn't already the season total game
-            if (game.id !== this.SEASON_TOTAL_ID) {
-                this.games[this.SEASON_TOTAL_ID].pins.push({...newPin});
-                await this.saveGame(this.SEASON_TOTAL_ID);
-            }
             
             await this.saveGame(game.id);
+            
+            // Rebuild season total in memory (will be saved by Firebase listener)
+            if (game.id !== this.SEASON_TOTAL_ID) {
+                this.rebuildSeasonTotal();
+            }
         }
     }
 
     async removeLastPin() {
         const game = this.getCurrentGame();
         if (game && game.pins.length > 0) {
-            const removedPin = game.pins.pop();
-            
-            // If this isn't the season total, remove the corresponding pin from season total
-            if (game.id !== this.SEASON_TOTAL_ID) {
-                const seasonTotal = this.games[this.SEASON_TOTAL_ID];
-                const index = seasonTotal.pins.findIndex(p => 
-                    p.x === removedPin.x && 
-                    p.y === removedPin.y && 
-                    p.type === removedPin.type && 
-                    p.timestamp === removedPin.timestamp
-                );
-                if (index !== -1) {
-                    seasonTotal.pins.splice(index, 1);
-                }
-                await this.saveGame(this.SEASON_TOTAL_ID);
-            }
+            game.pins.pop();
             
             await this.saveGame(game.id);
+            
+            // Rebuild season total in memory (will be saved by Firebase listener)
+            if (game.id !== this.SEASON_TOTAL_ID) {
+                this.rebuildSeasonTotal();
+            }
+            
             return true;
         }
         return false;
@@ -402,26 +371,16 @@ class FaceOffTracker {
                     g.pins = [];
                     await this.saveGame(g.id);
                 }
+                // Rebuild season total (will be empty)
+                this.rebuildSeasonTotal();
             } else {
-                // Remove this game's pins from both the game and season total
-                const removedPins = game.pins;
+                // Clear this game's pins
                 game.pins = [];
                 
-                const seasonTotal = this.games[this.SEASON_TOTAL_ID];
-                removedPins.forEach(pin => {
-                    const index = seasonTotal.pins.findIndex(p => 
-                        p.x === pin.x && 
-                        p.y === pin.y && 
-                        p.type === pin.type && 
-                        p.timestamp === pin.timestamp
-                    );
-                    if (index !== -1) {
-                        seasonTotal.pins.splice(index, 1);
-                    }
-                });
-                
                 await this.saveGame(game.id);
-                await this.saveGame(this.SEASON_TOTAL_ID);
+                
+                // Rebuild season total in memory
+                this.rebuildSeasonTotal();
             }
         }
     }
