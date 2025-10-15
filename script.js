@@ -13,7 +13,7 @@ class FaceOffTracker {
         this.SEASON_TOTAL_ID = 'season_total';
         this.isLoading = false;
         this.onDataChangeCallback = null;
-        this.seasonTotalSaveTimeout = null; // For debouncing Season Total saves
+        this.hasUnsavedChanges = false; // Track unsaved pins/roster changes
     }
 
     async initialize() {
@@ -141,7 +141,7 @@ class FaceOffTracker {
         }
     }
 
-    async addPlayerToRoster(gameId, playerId) {
+    addPlayerToRoster(gameId, playerId) {
         const game = this.games[gameId];
         if (!game || game.id === this.SEASON_TOTAL_ID) return;
         
@@ -153,11 +153,11 @@ class FaceOffTracker {
         // Add player if not already in roster
         if (!game.roster.includes(playerId)) {
             game.roster.push(playerId);
-            await this.saveGame(gameId);
+            this.markUnsavedChanges();
         }
     }
 
-    async removePlayerFromRoster(gameId, playerId) {
+    removePlayerFromRoster(gameId, playerId) {
         const game = this.games[gameId];
         if (!game || game.id === this.SEASON_TOTAL_ID) return;
         
@@ -168,11 +168,10 @@ class FaceOffTracker {
             // Remove all pins by this player from the game
             game.pins = game.pins.filter(pin => pin.playerId !== playerId);
             
-            await this.saveGame(gameId);
-            
-            // Rebuild and debounce save season total
+            // Rebuild season total
             this.rebuildSeasonTotal();
-            this.debouncedSaveSeasonTotal(); // Debounced save
+            
+            this.markUnsavedChanges();
         }
     }
 
@@ -232,18 +231,41 @@ class FaceOffTracker {
         }
     }
 
-    debouncedSaveSeasonTotal() {
-        // Clear any existing timeout
-        if (this.seasonTotalSaveTimeout) {
-            clearTimeout(this.seasonTotalSaveTimeout);
+    markUnsavedChanges() {
+        this.hasUnsavedChanges = true;
+        if (this.onDataChangeCallback) {
+            this.onDataChangeCallback('unsaved');
         }
-        
-        // Set a new timeout to save after 1 second of inactivity
-        this.seasonTotalSaveTimeout = setTimeout(async () => {
-            if (this.useFirebase && firebaseService.getUserId() && this.games[this.SEASON_TOTAL_ID]) {
-                await firebaseService.saveGame(this.SEASON_TOTAL_ID, this.games[this.SEASON_TOTAL_ID]);
+    }
+
+    async manualSaveGame() {
+        const game = this.getCurrentGame();
+        if (!game) return;
+
+        try {
+            // Save current game to Firebase
+            if (this.useFirebase && firebaseService.getUserId()) {
+                await firebaseService.saveGame(game.id, game);
+                
+                // Also save Season Total if this is a regular game
+                if (game.id !== this.SEASON_TOTAL_ID) {
+                    this.rebuildSeasonTotal();
+                    await firebaseService.saveGame(this.SEASON_TOTAL_ID, this.games[this.SEASON_TOTAL_ID]);
+                }
+            } else {
+                this.saveGames();
             }
-        }, 1000); // Wait 1 second after last action
+
+            this.hasUnsavedChanges = false;
+            if (this.onDataChangeCallback) {
+                this.onDataChangeCallback('saved');
+            }
+        } catch (error) {
+            console.error('Error saving game:', error);
+            if (this.onDataChangeCallback) {
+                this.onDataChangeCallback('save-error');
+            }
+        }
     }
 
     loadGames() {
@@ -339,7 +361,7 @@ class FaceOffTracker {
         return this.currentGameId ? this.games[this.currentGameId] : null;
     }
 
-    async addPin(x, y, type) {
+    addPin(x, y, type) {
         const game = this.getCurrentGame();
         if (game) {
             const newPin = { 
@@ -351,59 +373,54 @@ class FaceOffTracker {
             };
             game.pins.push(newPin);
             
-            // Save the game with the new pin
-            await this.saveGame(game.id);
-            
-            // Rebuild and debounce save season total if this is a regular game
+            // Rebuild season total in memory
             if (game.id !== this.SEASON_TOTAL_ID) {
                 this.rebuildSeasonTotal();
-                this.debouncedSaveSeasonTotal(); // Debounced save
             }
+            
+            // Mark as having unsaved changes
+            this.markUnsavedChanges();
         }
     }
 
-    async removeLastPin() {
+    removeLastPin() {
         const game = this.getCurrentGame();
         if (game && game.pins.length > 0) {
             game.pins.pop();
             
-            await this.saveGame(game.id);
-            
-            // Rebuild and debounce save season total if this is a regular game
+            // Rebuild season total in memory
             if (game.id !== this.SEASON_TOTAL_ID) {
                 this.rebuildSeasonTotal();
-                this.debouncedSaveSeasonTotal(); // Debounced save
             }
+            
+            // Mark as having unsaved changes
+            this.markUnsavedChanges();
             
             return true;
         }
         return false;
     }
 
-    async clearAllPins() {
+    clearAllPins() {
         const game = this.getCurrentGame();
         if (game) {
             if (game.id === this.SEASON_TOTAL_ID) {
                 // If clearing season total, clear all games
                 for (const g of Object.values(this.games)) {
                     g.pins = [];
-                    await this.saveGame(g.id);
                 }
-                // Rebuild season total (will be empty) and save immediately
+                // Rebuild season total (will be empty)
                 this.rebuildSeasonTotal();
-                if (this.useFirebase && firebaseService.getUserId()) {
-                    await firebaseService.saveGame(this.SEASON_TOTAL_ID, this.games[this.SEASON_TOTAL_ID]);
-                }
             } else {
                 // Clear this game's pins
                 game.pins = [];
                 
-                await this.saveGame(game.id);
-                
-                // Rebuild and debounce save season total
+                // Rebuild season total
                 this.rebuildSeasonTotal();
-                this.debouncedSaveSeasonTotal(); // Debounced save
             }
+            
+            // Mark as having unsaved changes
+            this.markUnsavedChanges();
         }
     }
 
@@ -827,8 +844,10 @@ class UIController {
             rosterList: document.getElementById('roster-list'),
             viewTeamBtn: document.getElementById('view-team'),
             playerViewList: document.getElementById('player-view-list'),
+            saveGameBtn: document.getElementById('save-game-btn'),
             undoBtn: document.getElementById('undo-btn'),
             clearBtn: document.getElementById('clear-btn'),
+            unsavedIndicator: document.getElementById('unsaved-indicator'),
             canvas: document.getElementById('lacrosse-field'),
             modal: document.getElementById('new-game-modal'),
             newGameForm: document.getElementById('new-game-form'),
@@ -918,20 +937,28 @@ class UIController {
             this.hideAddToRosterModal();
         });
 
+        // Save game button
+        this.elements.saveGameBtn.addEventListener('click', async () => {
+            await this.tracker.manualSaveGame();
+            this.updateUnsavedIndicator();
+        });
+
         // Undo button
-        this.elements.undoBtn.addEventListener('click', async () => {
-            if (await this.tracker.removeLastPin()) {
+        this.elements.undoBtn.addEventListener('click', () => {
+            if (this.tracker.removeLastPin()) {
                 this.render();
                 this.updateStats();
+                this.updateUnsavedIndicator();
             }
         });
 
         // Clear button
-        this.elements.clearBtn.addEventListener('click', async () => {
+        this.elements.clearBtn.addEventListener('click', () => {
             if (confirm('Are you sure you want to clear all pins?')) {
-                await this.tracker.clearAllPins();
+                this.tracker.clearAllPins();
                 this.render();
                 this.updateStats();
+                this.updateUnsavedIndicator();
             }
         });
 
@@ -1022,7 +1049,7 @@ class UIController {
         this.render();
     }
 
-    async handleCanvasClick(event) {
+    handleCanvasClick(event) {
         if (!this.tracker.currentGameId) {
             alert('Please create a game first!');
             return;
@@ -1042,9 +1069,10 @@ class UIController {
         }
 
         const coords = this.fieldRenderer.getClickCoordinates(event);
-        await this.tracker.addPin(coords.x, coords.y, this.tracker.currentMode);
+        this.tracker.addPin(coords.x, coords.y, this.tracker.currentMode);
         this.render();
         this.updateStats();
+        this.updateUnsavedIndicator();
     }
 
     showNewGameModal() {
@@ -1116,12 +1144,13 @@ class UIController {
             `;
             
             const addBtn = item.querySelector('.btn-add-to-roster');
-            addBtn.addEventListener('click', async () => {
-                await this.tracker.addPlayerToRoster(currentGame.id, player.id);
+            addBtn.addEventListener('click', () => {
+                this.tracker.addPlayerToRoster(currentGame.id, player.id);
                 this.updateRosterList();
                 this.updatePlayerSelect();
                 this.updatePlayerViewList();
                 this.updateAvailablePlayersList();
+                this.updateUnsavedIndicator();
             });
             
             container.appendChild(item);
@@ -1209,12 +1238,13 @@ class UIController {
         // Add to current game's roster if applicable
         const currentGame = this.tracker.getCurrentGame();
         if (currentGame && currentGame.id !== this.tracker.SEASON_TOTAL_ID) {
-            await this.tracker.addPlayerToRoster(currentGame.id, player.id);
+            this.tracker.addPlayerToRoster(currentGame.id, player.id);
         }
         
         this.tracker.currentPlayer = player.id; // Auto-select the new player
         this.hideAddPlayerModal();
         this.updateRosterList();
+        this.updateUnsavedIndicator();
         this.updatePlayerSelect();
         this.updatePlayerViewList();
         this.updateAvailablePlayersList();
@@ -1426,7 +1456,7 @@ class UIController {
                     : `Remove ${displayName} from this game's roster?`;
                 
                 if (confirm(confirmMsg)) {
-                    await this.tracker.removePlayerFromRoster(currentGame.id, player.id);
+                    this.tracker.removePlayerFromRoster(currentGame.id, player.id);
                     
                     // Reset view to team if we're viewing the removed player
                     if (this.currentViewMode === player.id) {
@@ -1443,6 +1473,7 @@ class UIController {
                     this.updatePlayerViewList();
                     this.updateAvailablePlayersList();
                     this.updateStats();
+                    this.updateUnsavedIndicator();
                     this.updateSeasonStats();
                     this.render();
                 }
@@ -1700,6 +1731,16 @@ class UIController {
         }
     }
 
+    updateUnsavedIndicator() {
+        if (this.tracker.hasUnsavedChanges) {
+            this.elements.unsavedIndicator.style.display = 'flex';
+            this.elements.saveGameBtn.classList.add('btn-pulse');
+        } else {
+            this.elements.unsavedIndicator.style.display = 'none';
+            this.elements.saveGameBtn.classList.remove('btn-pulse');
+        }
+    }
+
     updateUI() {
         this.updateGamesList();
         this.updateCurrentGameInfo();
@@ -1708,6 +1749,7 @@ class UIController {
         this.updatePlayerViewList();
         this.updateStats();
         this.updateSeasonStats();
+        this.updateUnsavedIndicator();
         this.render();
     }
 }
@@ -1725,6 +1767,8 @@ async function initializeApp() {
     appInstance.tracker.onDataChange((type) => {
         if (type === 'games' || type === 'players') {
             appInstance.updateUI();
+        } else if (type === 'unsaved' || type === 'saved') {
+            appInstance.updateUnsavedIndicator();
         }
     });
     

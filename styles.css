@@ -647,7 +647,63 @@ body {
 
 .action-buttons {
     display: flex;
+    flex-direction: column;
     gap: 10px;
+}
+
+.action-buttons button {
+    width: 100%;
+}
+
+.unsaved-indicator {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    background: rgba(255, 165, 0, 0.1);
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    font-weight: 600;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.unsaved-indicator span {
+    font-size: 1.2rem;
+    animation: blink 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+    }
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.3;
+    }
+}
+
+.btn-pulse {
+    animation: button-pulse 2s ease-in-out infinite;
+}
+
+@keyframes button-pulse {
+    0%, 100% {
+        box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.7);
+    }
+    50% {
+        box-shadow: 0 0 0 10px rgba(249, 115, 22, 0);
+    }
 }
 
 /* ===== Player Selection ===== */
