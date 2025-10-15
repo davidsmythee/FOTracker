@@ -62,8 +62,8 @@ class FaceOffTracker {
         // Listen to real-time updates
         firebaseService.listenToGames((games) => {
             this.games = games;
-            // Don't trigger saves when receiving updates from Firebase
-            this.ensureSeasonTotalExists(true); // Pass flag to skip saving
+            // Just update local state, don't trigger any saves
+            // Season Total is already correct in Firebase
             if (this.onDataChangeCallback) {
                 this.onDataChangeCallback('games');
             }
@@ -169,8 +169,11 @@ class FaceOffTracker {
             
             await this.saveGame(gameId);
             
-            // Rebuild season total in memory
+            // Rebuild and save season total
             this.rebuildSeasonTotal();
+            if (this.useFirebase && firebaseService.getUserId()) {
+                await firebaseService.saveGame(this.SEASON_TOTAL_ID, this.games[this.SEASON_TOTAL_ID]);
+            }
         }
     }
 
@@ -189,9 +192,7 @@ class FaceOffTracker {
             .filter(p => p); // Filter out any undefined (deleted players)
     }
 
-    async ensureSeasonTotalExists(skipSave = false) {
-        let needsCreation = false;
-        
+    async ensureSeasonTotalExists() {
         if (!this.games[this.SEASON_TOTAL_ID]) {
             this.games[this.SEASON_TOTAL_ID] = {
                 id: this.SEASON_TOTAL_ID,
@@ -202,15 +203,15 @@ class FaceOffTracker {
                 isSeasonTotal: true,
                 createdAt: new Date().toISOString()
             };
-            needsCreation = true;
-        }
-        
-        // Rebuild Season Total from all games (without saving if from Firebase)
-        this.rebuildSeasonTotal();
-        
-        // Only save if explicitly creating or not skipping
-        if (!skipSave && needsCreation) {
+            
+            // Rebuild Season Total from all games
+            this.rebuildSeasonTotal();
+            
+            // Save the newly created Season Total
             await this.saveGame(this.SEASON_TOTAL_ID);
+        } else {
+            // Just rebuild Season Total in memory from existing games
+            this.rebuildSeasonTotal();
         }
     }
 
@@ -311,8 +312,9 @@ class FaceOffTracker {
                 await firebaseService.deleteGame(id);
                 await this.saveCurrentGameId();
                 
-                // Rebuild season total in memory
+                // Rebuild and save season total
                 this.rebuildSeasonTotal();
+                await firebaseService.saveGame(this.SEASON_TOTAL_ID, this.games[this.SEASON_TOTAL_ID]);
             } else {
                 this.saveGames();
                 this.saveCurrentGameId();
@@ -336,11 +338,16 @@ class FaceOffTracker {
             };
             game.pins.push(newPin);
             
+            // Save the game with the new pin
             await this.saveGame(game.id);
             
-            // Rebuild season total in memory (will be saved by Firebase listener)
+            // Rebuild and save season total if this is a regular game
             if (game.id !== this.SEASON_TOTAL_ID) {
                 this.rebuildSeasonTotal();
+                // Save Season Total to Firebase (but not through Firebase listener)
+                if (this.useFirebase && firebaseService.getUserId()) {
+                    await firebaseService.saveGame(this.SEASON_TOTAL_ID, this.games[this.SEASON_TOTAL_ID]);
+                }
             }
         }
     }
@@ -352,9 +359,12 @@ class FaceOffTracker {
             
             await this.saveGame(game.id);
             
-            // Rebuild season total in memory (will be saved by Firebase listener)
+            // Rebuild and save season total if this is a regular game
             if (game.id !== this.SEASON_TOTAL_ID) {
                 this.rebuildSeasonTotal();
+                if (this.useFirebase && firebaseService.getUserId()) {
+                    await firebaseService.saveGame(this.SEASON_TOTAL_ID, this.games[this.SEASON_TOTAL_ID]);
+                }
             }
             
             return true;
@@ -373,14 +383,20 @@ class FaceOffTracker {
                 }
                 // Rebuild season total (will be empty)
                 this.rebuildSeasonTotal();
+                if (this.useFirebase && firebaseService.getUserId()) {
+                    await firebaseService.saveGame(this.SEASON_TOTAL_ID, this.games[this.SEASON_TOTAL_ID]);
+                }
             } else {
                 // Clear this game's pins
                 game.pins = [];
                 
                 await this.saveGame(game.id);
                 
-                // Rebuild season total in memory
+                // Rebuild and save season total
                 this.rebuildSeasonTotal();
+                if (this.useFirebase && firebaseService.getUserId()) {
+                    await firebaseService.saveGame(this.SEASON_TOTAL_ID, this.games[this.SEASON_TOTAL_ID]);
+                }
             }
         }
     }
