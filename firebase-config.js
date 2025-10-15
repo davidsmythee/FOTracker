@@ -6,15 +6,15 @@ import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebas
 import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js';
 import { getFirestore, collection, doc, setDoc, getDoc, getDocs, updateDoc, deleteDoc, onSnapshot, query, where } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js';
 
-// TODO: Replace with your actual Firebase config
-// Get this from: Firebase Console > Project Settings > General > Your apps > SDK setup and configuration
+// Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_PROJECT_ID.appspot.com",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
+    apiKey: "AIzaSyAzXhKB1LX201OR5HUyC0zIo8mMNiL_1mc",
+    authDomain: "faceoff-tracker-51d65.firebaseapp.com",
+    projectId: "faceoff-tracker-51d65",
+    storageBucket: "faceoff-tracker-51d65.firebasestorage.app",
+    messagingSenderId: "950435119285",
+    appId: "1:950435119285:web:fa4ca42ee2ab339b887efc",
+    measurementId: "G-MM5YBEYCLD"
 };
 
 // Initialize Firebase

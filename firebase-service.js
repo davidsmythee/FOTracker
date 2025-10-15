@@ -59,7 +59,10 @@ class FirebaseDataService {
     }
 
     onAuthChange(callback) {
-        return onAuthStateChanged(auth, callback);
+        return onAuthStateChanged(auth, (user) => {
+            this.user = user; // Set user in service when auth state changes
+            callback(user);
+        });
     }
 
     getUserId() {

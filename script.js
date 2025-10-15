@@ -831,6 +831,9 @@ class UIController {
             playerModal: document.getElementById('add-player-modal'),
             addPlayerForm: document.getElementById('add-player-form'),
             cancelPlayerModal: document.getElementById('cancel-player-modal'),
+            managePlayersModal: document.getElementById('manage-players-modal'),
+            closeManagePlayers: document.getElementById('close-manage-players'),
+            playersList: document.getElementById('players-list'),
             statWins: document.getElementById('stat-wins'),
             statLosses: document.getElementById('stat-losses'),
             statPercentage: document.getElementById('stat-percentage'),
@@ -1628,6 +1631,9 @@ class UIController {
     }
 
     updateSeasonStats() {
+        // Check if season stats elements exist (they may not be in the current UI)
+        if (!this.elements.seasonGames) return;
+        
         const gameIds = Object.keys(this.tracker.games);
         
         if (gameIds.length === 0) {
