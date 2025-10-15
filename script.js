@@ -26,8 +26,13 @@ class FaceOffTracker {
         await this.ensureSeasonTotalExists();
         
         // Set current game to Season Total if none selected or invalid
+        const oldGameId = this.currentGameId;
         if (!this.currentGameId || !this.games[this.currentGameId]) {
             this.currentGameId = this.SEASON_TOTAL_ID;
+        }
+        
+        // Only save if we actually changed the game ID
+        if (oldGameId !== this.currentGameId && this.useFirebase && firebaseService.getUserId()) {
             await this.saveCurrentGameId();
         }
     }
@@ -109,6 +114,7 @@ class FaceOffTracker {
         this.players.push(player);
         
         if (this.useFirebase && firebaseService.getUserId()) {
+            console.log('💾 Saving player to Firebase:', player.name);
             await firebaseService.savePlayer(player.id, player);
         } else {
             this.savePlayers();
@@ -192,6 +198,7 @@ class FaceOffTracker {
 
     async ensureSeasonTotalExists() {
         if (!this.games[this.SEASON_TOTAL_ID]) {
+            console.log('📊 Creating Season Total for the first time');
             this.games[this.SEASON_TOTAL_ID] = {
                 id: this.SEASON_TOTAL_ID,
                 opponent: '🏆 Season Total',
@@ -206,9 +213,11 @@ class FaceOffTracker {
             this.rebuildSeasonTotal();
             
             // Save the newly created Season Total
+            console.log('💾 Saving Season Total to Firebase (first time)');
             await this.saveGame(this.SEASON_TOTAL_ID);
         } else {
             // Just rebuild Season Total in memory from existing games
+            console.log('📊 Rebuilding Season Total in memory (no save)');
             this.rebuildSeasonTotal();
         }
     }
@@ -245,11 +254,13 @@ class FaceOffTracker {
         try {
             // Save current game to Firebase
             if (this.useFirebase && firebaseService.getUserId()) {
+                console.log('💾 Manual save: Saving game to Firebase:', game.opponent);
                 await firebaseService.saveGame(game.id, game);
                 
                 // Also save Season Total if this is a regular game
                 if (game.id !== this.SEASON_TOTAL_ID) {
                     this.rebuildSeasonTotal();
+                    console.log('💾 Manual save: Saving Season Total to Firebase');
                     await firebaseService.saveGame(this.SEASON_TOTAL_ID, this.games[this.SEASON_TOTAL_ID]);
                 }
             } else {
@@ -260,8 +271,9 @@ class FaceOffTracker {
             if (this.onDataChangeCallback) {
                 this.onDataChangeCallback('saved');
             }
+            console.log('✅ Manual save complete');
         } catch (error) {
-            console.error('Error saving game:', error);
+            console.error('❌ Error saving game:', error);
             if (this.onDataChangeCallback) {
                 this.onDataChangeCallback('save-error');
             }
@@ -319,7 +331,9 @@ class FaceOffTracker {
         this.currentGameId = id;
         
         if (this.useFirebase && firebaseService.getUserId()) {
+            console.log('💾 Saving game to Firebase:', opponent);
             await firebaseService.saveGame(id, this.games[id]);
+            console.log('💾 Saving current game ID to Firebase');
             await this.saveCurrentGameId();
         } else {
             this.saveGames();
