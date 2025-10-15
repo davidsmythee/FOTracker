@@ -22,7 +22,13 @@ class FaceOffTracker {
         } else {
             this.loadFromLocalStorage();
         }
-        this.ensureSeasonTotalExists();
+        await this.ensureSeasonTotalExists();
+        
+        // Set current game to Season Total if none selected or invalid
+        if (!this.currentGameId || !this.games[this.currentGameId]) {
+            this.currentGameId = this.SEASON_TOTAL_ID;
+            await this.saveCurrentGameId();
+        }
     }
 
     async loadFromFirebase() {
@@ -209,6 +215,28 @@ class FaceOffTracker {
                 isSeasonTotal: true,
                 createdAt: new Date().toISOString()
             };
+            await this.saveGame(this.SEASON_TOTAL_ID);
+        }
+        
+        // Rebuild Season Total from all games
+        await this.rebuildSeasonTotal();
+    }
+
+    async rebuildSeasonTotal() {
+        // Collect all pins from all regular games
+        const allPins = [];
+        Object.keys(this.games).forEach(gameId => {
+            if (gameId !== this.SEASON_TOTAL_ID) {
+                const game = this.games[gameId];
+                if (game && game.pins) {
+                    allPins.push(...game.pins.map(pin => ({...pin})));
+                }
+            }
+        });
+
+        // Update Season Total with all pins
+        if (this.games[this.SEASON_TOTAL_ID]) {
+            this.games[this.SEASON_TOTAL_ID].pins = allPins;
             await this.saveGame(this.SEASON_TOTAL_ID);
         }
     }
@@ -1486,25 +1514,36 @@ class UIController {
 
         const gameIds = Object.keys(this.tracker.games);
         
-        if (gameIds.length <= 1) { // Only season total exists
-            gamesList.innerHTML = `
-                <div class="no-games-message">
-                    <p>No games yet</p>
-                    <p class="hint">Create your first game to get started!</p>
-                </div>
+        // Always show Season Total first
+        if (this.tracker.games[this.tracker.SEASON_TOTAL_ID]) {
+            const seasonTotalCard = this.createGameCard(
+                this.tracker.games[this.tracker.SEASON_TOTAL_ID],
+                this.tracker.currentGameId === this.tracker.SEASON_TOTAL_ID
+            );
+            gamesList.appendChild(seasonTotalCard);
+        }
+        
+        // Check if there are any regular games (non-season total)
+        const regularGameIds = gameIds.filter(id => id !== this.tracker.SEASON_TOTAL_ID);
+        
+        if (regularGameIds.length === 0) {
+            // Show message below Season Total
+            const noGamesMsg = document.createElement('div');
+            noGamesMsg.className = 'no-games-message';
+            noGamesMsg.style.marginTop = '20px';
+            noGamesMsg.innerHTML = `
+                <p>No games yet</p>
+                <p class="hint">Create your first game to get started!</p>
             `;
+            gamesList.appendChild(noGamesMsg);
+            
             this.elements.deleteGameBtn.style.display = 'none';
-            this.elements.currentOpponent.textContent = 'Select a game';
-            this.elements.currentDate.textContent = '';
+            if (this.tracker.currentGameId !== this.tracker.SEASON_TOTAL_ID) {
+                this.elements.currentOpponent.textContent = 'Select a game';
+                this.elements.currentDate.textContent = '';
+            }
             return;
         }
-
-        // Create season total card first
-        const seasonTotalCard = this.createGameCard(
-            this.tracker.games[this.tracker.SEASON_TOTAL_ID],
-            this.tracker.currentGameId === this.tracker.SEASON_TOTAL_ID
-        );
-        gamesList.appendChild(seasonTotalCard);
 
         // Add divider
         const divider = document.createElement('div');
@@ -1516,7 +1555,6 @@ class UIController {
             this.tracker.currentGameId === this.tracker.SEASON_TOTAL_ID ? 'none' : 'block';
 
         // Sort regular games by date (newest first)
-        const regularGameIds = gameIds.filter(id => id !== this.tracker.SEASON_TOTAL_ID);
         regularGameIds.sort((a, b) => {
             return new Date(this.tracker.games[b].date) - new Date(this.tracker.games[a].date);
         });
