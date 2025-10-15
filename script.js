@@ -1523,15 +1523,31 @@ class UIController {
             return;
         }
 
-        const rosterPlayers = this.tracker.getGameRoster(currentGame.id);
+        let playersToShow = [];
+        
+        // For Season Total, show all players who have pins in any game
+        if (currentGame.id === this.tracker.SEASON_TOTAL_ID) {
+            const playerIdsWithPins = new Set();
+            currentGame.pins.forEach(pin => {
+                if (pin.playerId) {
+                    playerIdsWithPins.add(pin.playerId);
+                }
+            });
+            playersToShow = Array.from(playerIdsWithPins)
+                .map(id => this.tracker.players.find(p => p.id === id))
+                .filter(p => p); // Filter out any undefined
+        } else {
+            // For regular games, show only roster players
+            playersToShow = this.tracker.getGameRoster(currentGame.id);
+        }
 
-        if (rosterPlayers.length === 0) {
+        if (playersToShow.length === 0) {
             container.innerHTML = '';
             return;
         }
 
         container.innerHTML = '';
-        rosterPlayers.forEach(player => {
+        playersToShow.forEach(player => {
             const btn = document.createElement('button');
             btn.className = 'player-view-btn';
             btn.dataset.playerId = player.id;
@@ -1665,7 +1681,12 @@ class UIController {
             return;
         }
 
-        this.elements.currentOpponent.textContent = `vs ${game.opponent}`;
+        // For Season Total, don't show "vs"
+        if (game.id === this.tracker.SEASON_TOTAL_ID) {
+            this.elements.currentOpponent.textContent = game.opponent;
+        } else {
+            this.elements.currentOpponent.textContent = `vs ${game.opponent}`;
+        }
         
         const date = new Date(game.date).toLocaleDateString('en-US', {
             weekday: 'long',
@@ -1772,9 +1793,23 @@ class UIController {
         }
     }
 
+    updateGameControls() {
+        const isSeasonTotal = this.tracker.currentGameId === this.tracker.SEASON_TOTAL_ID;
+        const gameOnlyControls = document.querySelectorAll('.game-only-control');
+        
+        gameOnlyControls.forEach(control => {
+            if (isSeasonTotal) {
+                control.classList.add('hidden');
+            } else {
+                control.classList.remove('hidden');
+            }
+        });
+    }
+
     updateUI() {
         this.updateGamesList();
         this.updateCurrentGameInfo();
+        this.updateGameControls(); // Show/hide controls based on Season Total
         this.updateRosterList();
         this.updatePlayerSelect();
         this.updatePlayerViewList();
