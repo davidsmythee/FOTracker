@@ -13,6 +13,7 @@ class FaceOffTracker {
         this.SEASON_TOTAL_ID = 'season_total';
         this.isLoading = false;
         this.onDataChangeCallback = null;
+        this.seasonTotalSaveTimeout = null; // For debouncing Season Total saves
     }
 
     async initialize() {
@@ -169,11 +170,9 @@ class FaceOffTracker {
             
             await this.saveGame(gameId);
             
-            // Rebuild and save season total
+            // Rebuild and debounce save season total
             this.rebuildSeasonTotal();
-            if (this.useFirebase && firebaseService.getUserId()) {
-                await firebaseService.saveGame(this.SEASON_TOTAL_ID, this.games[this.SEASON_TOTAL_ID]);
-            }
+            this.debouncedSaveSeasonTotal(); // Debounced save
         }
     }
 
@@ -231,6 +230,20 @@ class FaceOffTracker {
         if (this.games[this.SEASON_TOTAL_ID]) {
             this.games[this.SEASON_TOTAL_ID].pins = allPins;
         }
+    }
+
+    debouncedSaveSeasonTotal() {
+        // Clear any existing timeout
+        if (this.seasonTotalSaveTimeout) {
+            clearTimeout(this.seasonTotalSaveTimeout);
+        }
+        
+        // Set a new timeout to save after 1 second of inactivity
+        this.seasonTotalSaveTimeout = setTimeout(async () => {
+            if (this.useFirebase && firebaseService.getUserId() && this.games[this.SEASON_TOTAL_ID]) {
+                await firebaseService.saveGame(this.SEASON_TOTAL_ID, this.games[this.SEASON_TOTAL_ID]);
+            }
+        }, 1000); // Wait 1 second after last action
     }
 
     loadGames() {
@@ -312,7 +325,7 @@ class FaceOffTracker {
                 await firebaseService.deleteGame(id);
                 await this.saveCurrentGameId();
                 
-                // Rebuild and save season total
+                // Rebuild and save season total immediately (important action)
                 this.rebuildSeasonTotal();
                 await firebaseService.saveGame(this.SEASON_TOTAL_ID, this.games[this.SEASON_TOTAL_ID]);
             } else {
@@ -341,13 +354,10 @@ class FaceOffTracker {
             // Save the game with the new pin
             await this.saveGame(game.id);
             
-            // Rebuild and save season total if this is a regular game
+            // Rebuild and debounce save season total if this is a regular game
             if (game.id !== this.SEASON_TOTAL_ID) {
                 this.rebuildSeasonTotal();
-                // Save Season Total to Firebase (but not through Firebase listener)
-                if (this.useFirebase && firebaseService.getUserId()) {
-                    await firebaseService.saveGame(this.SEASON_TOTAL_ID, this.games[this.SEASON_TOTAL_ID]);
-                }
+                this.debouncedSaveSeasonTotal(); // Debounced save
             }
         }
     }
@@ -359,12 +369,10 @@ class FaceOffTracker {
             
             await this.saveGame(game.id);
             
-            // Rebuild and save season total if this is a regular game
+            // Rebuild and debounce save season total if this is a regular game
             if (game.id !== this.SEASON_TOTAL_ID) {
                 this.rebuildSeasonTotal();
-                if (this.useFirebase && firebaseService.getUserId()) {
-                    await firebaseService.saveGame(this.SEASON_TOTAL_ID, this.games[this.SEASON_TOTAL_ID]);
-                }
+                this.debouncedSaveSeasonTotal(); // Debounced save
             }
             
             return true;
@@ -381,7 +389,7 @@ class FaceOffTracker {
                     g.pins = [];
                     await this.saveGame(g.id);
                 }
-                // Rebuild season total (will be empty)
+                // Rebuild season total (will be empty) and save immediately
                 this.rebuildSeasonTotal();
                 if (this.useFirebase && firebaseService.getUserId()) {
                     await firebaseService.saveGame(this.SEASON_TOTAL_ID, this.games[this.SEASON_TOTAL_ID]);
@@ -392,11 +400,9 @@ class FaceOffTracker {
                 
                 await this.saveGame(game.id);
                 
-                // Rebuild and save season total
+                // Rebuild and debounce save season total
                 this.rebuildSeasonTotal();
-                if (this.useFirebase && firebaseService.getUserId()) {
-                    await firebaseService.saveGame(this.SEASON_TOTAL_ID, this.games[this.SEASON_TOTAL_ID]);
-                }
+                this.debouncedSaveSeasonTotal(); // Debounced save
             }
         }
     }
