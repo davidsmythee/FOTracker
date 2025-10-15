@@ -14,6 +14,9 @@ class FaceOffTracker {
         this.isLoading = false;
         this.onDataChangeCallback = null;
         this.hasUnsavedChanges = false; // Track unsaved pins/roster changes
+        
+        // Track Firebase operations for debugging
+        this.firebaseOpCount = { reads: 0, writes: 0 };
     }
 
     async initialize() {
@@ -40,11 +43,15 @@ class FaceOffTracker {
     async loadFromFirebase() {
         try {
             this.isLoading = true;
+            console.log('📖 Loading data from Firebase (initial load)...');
             const [games, players, currentGameId] = await Promise.all([
                 firebaseService.getAllGames(),
                 firebaseService.getAllPlayers(),
                 firebaseService.getCurrentGameId()
             ]);
+            
+            this.firebaseOpCount.reads += 3; // 3 read operations
+            console.log(`📊 Total Firebase operations - reads: ${this.firebaseOpCount.reads}, writes: ${this.firebaseOpCount.writes}`);
             
             this.games = games;
             this.players = players;
@@ -65,22 +72,26 @@ class FaceOffTracker {
     }
 
     setupFirebaseListeners() {
-        // Listen to real-time updates
-        firebaseService.listenToGames((games) => {
-            this.games = games;
-            // Just update local state, don't trigger any saves
-            // Season Total is already correct in Firebase
-            if (this.onDataChangeCallback) {
-                this.onDataChangeCallback('games');
-            }
-        });
+        // TEMPORARILY DISABLED: Real-time listeners were causing runaway reads/writes
+        // TODO: Re-implement with proper debouncing and loop prevention
+        console.warn('🚫 Firebase real-time listeners DISABLED to prevent quota exhaustion');
+        
+        // // Listen to real-time updates
+        // firebaseService.listenToGames((games) => {
+        //     this.games = games;
+        //     // Just update local state, don't trigger any saves
+        //     // Season Total is already correct in Firebase
+        //     if (this.onDataChangeCallback) {
+        //         this.onDataChangeCallback('games');
+        //     }
+        // });
 
-        firebaseService.listenToPlayers((players) => {
-            this.players = players;
-            if (this.onDataChangeCallback) {
-                this.onDataChangeCallback('players');
-            }
-        });
+        // firebaseService.listenToPlayers((players) => {
+        //     this.players = players;
+        //     if (this.onDataChangeCallback) {
+        //         this.onDataChangeCallback('players');
+        //     }
+        // });
     }
 
     onDataChange(callback) {
@@ -114,8 +125,10 @@ class FaceOffTracker {
         this.players.push(player);
         
         if (this.useFirebase && firebaseService.getUserId()) {
-            console.log('💾 Saving player to Firebase:', player.name);
+            this.firebaseOpCount.writes++;
+            console.log(`💾 WRITE #${this.firebaseOpCount.writes}: Saving player "${player.name}"`);
             await firebaseService.savePlayer(player.id, player);
+            console.log(`📊 Total Firebase operations - reads: ${this.firebaseOpCount.reads}, writes: ${this.firebaseOpCount.writes}`);
         } else {
             this.savePlayers();
         }
@@ -252,16 +265,15 @@ class FaceOffTracker {
         if (!game) return;
 
         try {
+            console.log(`💾 Manual save initiated for "${game.opponent}"`);
             // Save current game to Firebase
             if (this.useFirebase && firebaseService.getUserId()) {
-                console.log('💾 Manual save: Saving game to Firebase:', game.opponent);
-                await firebaseService.saveGame(game.id, game);
+                await this.saveGame(game.id);
                 
                 // Also save Season Total if this is a regular game
                 if (game.id !== this.SEASON_TOTAL_ID) {
                     this.rebuildSeasonTotal();
-                    console.log('💾 Manual save: Saving Season Total to Firebase');
-                    await firebaseService.saveGame(this.SEASON_TOTAL_ID, this.games[this.SEASON_TOTAL_ID]);
+                    await this.saveGame(this.SEASON_TOTAL_ID);
                 }
             } else {
                 this.saveGames();
@@ -299,7 +311,10 @@ class FaceOffTracker {
         if (!game) return;
         
         if (this.useFirebase && firebaseService.getUserId()) {
+            this.firebaseOpCount.writes++;
+            console.log(`💾 WRITE #${this.firebaseOpCount.writes}: Saving game ${gameId.substring(0, 10)}...`);
             await firebaseService.saveGame(gameId, game);
+            console.log(`📊 Total Firebase operations - reads: ${this.firebaseOpCount.reads}, writes: ${this.firebaseOpCount.writes}`);
         } else {
             this.saveGames();
         }
@@ -311,7 +326,10 @@ class FaceOffTracker {
 
     async saveCurrentGameId() {
         if (this.useFirebase && firebaseService.getUserId()) {
+            this.firebaseOpCount.writes++;
+            console.log(`💾 WRITE #${this.firebaseOpCount.writes}: Saving current game ID`);
             await firebaseService.saveCurrentGameId(this.currentGameId);
+            console.log(`📊 Total Firebase operations - reads: ${this.firebaseOpCount.reads}, writes: ${this.firebaseOpCount.writes}`);
         } else {
             localStorage.setItem('faceoff_current_game', this.currentGameId);
         }
@@ -331,9 +349,8 @@ class FaceOffTracker {
         this.currentGameId = id;
         
         if (this.useFirebase && firebaseService.getUserId()) {
-            console.log('💾 Saving game to Firebase:', opponent);
-            await firebaseService.saveGame(id, this.games[id]);
-            console.log('💾 Saving current game ID to Firebase');
+            console.log(`🎮 Creating new game: "${opponent}"`);
+            await this.saveGame(id); // saveGame will count the write
             await this.saveCurrentGameId();
         } else {
             this.saveGames();
