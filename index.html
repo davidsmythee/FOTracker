@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Face-Off Tracker - Lacrosse Analytics</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
     <!-- Authentication Overlay -->
     <div id="auth-overlay" class="auth-overlay">
         <div class="auth-container">
-            <h1>🥍 Coach Dowd - Face-Off Tracker</h1>
+            <h1>🥍 Face-Off Tracker</h1>
             <p class="auth-tagline">Princeton Lacrosse</p>
             <p class="auth-description">Sign in to access your face-off tracking data across all devices</p>
             <button id="sign-in-btn" class="btn btn-primary btn-large">
@@ -32,6 +33,7 @@
             <div class="sidebar-header">
                 <h2>📋 Saved Games</h2>
                 <button id="new-game-btn" class="btn btn-primary btn-block">+ New Game</button>
+                <button id="manage-players-btn" class="btn btn-secondary btn-block" style="margin-top: 8px;">Manage Players</button>
             </div>
             
             
@@ -52,7 +54,7 @@
             <!-- Header -->
             <header class="header">
                 <div class="header-content">
-                    <h1>Coach Dowd - Face-Off Tracker</h1>
+                    <h1>Face-Off Tracker</h1>
                     <p class="tagline">Princeton Lacrosse</p>
                 </div>
                 <div class="user-profile" id="user-profile">
@@ -60,17 +62,20 @@
                     <div class="user-info">
                         <span id="user-name" class="user-name"></span>
                         <span id="sync-status" class="sync-status">● Synced</span>
+                        <button id="sign-out-btn" class="btn btn-secondary btn-small">Sign Out</button>
                     </div>
-                    <button id="sign-out-btn" class="btn btn-secondary btn-small">Sign Out</button>
                 </div>
             </header>
 
             <!-- Combined Game Info and Stats -->
             <div class="game-header-section">
                 <div class="game-info-and-stats">
-                    <div class="game-title">
-                        <h2 id="current-opponent">Select a game</h2>
-                        <p id="current-date"></p>
+                    <div class="game-title-section">
+                        <div id="view-indicator" class="view-indicator">Viewing: Team</div>
+                        <div class="game-title">
+                            <h2 id="current-opponent">Select a game</h2>
+                            <p id="current-date"></p>
+                        </div>
                     </div>
                     
                     <!-- Statistics Dashboard -->
@@ -92,34 +97,55 @@
                             <div class="stat-label">Total Face-Offs</div>
                         </div>
                     </div>
-                    <div id="view-indicator" class="view-indicator">Viewing: Team</div>
                 </div>
-                
-                <button id="delete-game-btn" class="btn btn-danger" style="display: none;">Delete Game</button>
             </div>
 
             <!-- Field Layout Container -->
             <div class="field-layout">
                 <!-- Lacrosse Field -->
                 <div class="field-container">
+                    <button id="print-field-btn" class="print-field-btn" title="Print Field & Stats">
+                        🖨️ Print
+                    </button>
                     <canvas id="lacrosse-field"></canvas>
                     <div id="field-tooltip" class="field-tooltip"></div>
                 </div>
 
                 <!-- Side Controls -->
                 <div class="side-controls">
+                    <button id="delete-game-btn" class="btn btn-danger" style="display: none; margin-bottom: 12px;">Delete Game</button>
+                    
                     <div class="control-section game-only-control">
-                        <h3>Face-Off Result</h3>
-                        <div class="mode-selector">
-                            <button id="mode-win" class="mode-btn active" data-mode="win">
-                                <span class="mode-icon">✓</span>
-                                <span>Win</span>
-                            </button>
-                            <button id="mode-loss" class="mode-btn" data-mode="loss">
-                                <span class="mode-icon">✗</span>
-                                <span>Loss</span>
-                            </button>
+                        <h3>Face-Off & Clamp Results</h3>
+                        <div class="dual-toggle-container">
+                            <div class="toggle-group">
+                                <label>Face-Off</label>
+                                <div class="mode-selector">
+                                    <button id="mode-win" class="mode-btn active" data-mode="win">
+                                        <span class="mode-icon">✓</span>
+                                        <span>Win</span>
+                                    </button>
+                                    <button id="mode-loss" class="mode-btn" data-mode="loss">
+                                        <span class="mode-icon">✗</span>
+                                        <span>Loss</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="toggle-group">
+                                <label>Clamp</label>
+                                <div class="mode-selector">
+                                    <button id="clamp-win" class="mode-btn active" data-clamp="win">
+                                        <span class="mode-icon">✓</span>
+                                        <span>Win</span>
+                                    </button>
+                                    <button id="clamp-loss" class="mode-btn" data-clamp="loss">
+                                        <span class="mode-icon">✗</span>
+                                        <span>Loss</span>
+                                    </button>
+                                </div>
+                            </div>
                         </div>
+                        <small class="form-hint">Inner = Face-Off, Outer Ring = Clamp</small>
                     </div>
 
                     <div class="control-section game-only-control">
@@ -143,6 +169,24 @@
                                 👥 Team View
                             </button>
                             <div id="player-view-list" class="player-view-list"></div>
+                        </div>
+                        
+                        <div class="filter-section">
+                            <label class="filter-label">Face-Off Filter</label>
+                            <div class="filter-buttons">
+                                <button id="filter-faceoff-all" class="filter-btn active" data-filter="all">All</button>
+                                <button id="filter-faceoff-wins" class="filter-btn" data-filter="win">Wins</button>
+                                <button id="filter-faceoff-losses" class="filter-btn" data-filter="loss">Losses</button>
+                            </div>
+                        </div>
+                        
+                        <div class="filter-section">
+                            <label class="filter-label">Clamp Filter</label>
+                            <div class="filter-buttons">
+                                <button id="filter-clamp-all" class="filter-btn active" data-filter="all">All</button>
+                                <button id="filter-clamp-wins" class="filter-btn" data-filter="win">Wins</button>
+                                <button id="filter-clamp-losses" class="filter-btn" data-filter="loss">Losses</button>
+                            </div>
                         </div>
                     </div>
 
@@ -217,6 +261,9 @@
     <div id="add-to-roster-modal" class="modal">
         <div class="modal-content">
             <h2>Add Player to Game Roster</h2>
+            <div class="form-group">
+                <input type="text" id="player-search" class="player-search-input" placeholder="Search players by name or team...">
+            </div>
             <div id="available-players-list" class="available-players-list"></div>
             <button id="create-new-player-btn" class="btn btn-primary" style="margin-top: 15px;">+ Create New Player</button>
             <div class="modal-actions" style="margin-top: 20px;">
@@ -232,18 +279,20 @@
             <form id="add-player-form">
                 <div class="form-group">
                     <label for="player-name">Player Name:</label>
-                    <input type="text" id="player-name" list="players-datalist" required placeholder="e.g., John Smith">
+                    <input type="text" id="player-name" list="players-datalist" required placeholder="e.g., John Smith" maxlength="25">
                     <datalist id="players-datalist"></datalist>
-                    <small class="form-hint">Start typing to see existing players</small>
+                    <small class="form-hint">Start typing to see existing players (max 25 characters)</small>
                 </div>
                 <div class="form-group">
                     <label for="player-number">Jersey Number:</label>
-                    <input type="number" id="player-number" required placeholder="e.g., 12">
+                    <input type="number" id="player-number" required placeholder="e.g., 12" min="0" max="99">
+                    <small class="form-hint">Number must be between 0-99</small>
                 </div>
                 <div class="form-group">
                     <label for="player-team">Team:</label>
-                    <input type="text" id="player-team" list="teams-list" required placeholder="e.g., Princeton">
+                    <input type="text" id="player-team" list="teams-list" required placeholder="e.g., Princeton" maxlength="25">
                     <datalist id="teams-list"></datalist>
+                    <small class="form-hint">Max 25 characters</small>
                 </div>
                 <div class="modal-actions">
                     <button type="button" id="cancel-player-modal" class="btn btn-secondary">Cancel</button>

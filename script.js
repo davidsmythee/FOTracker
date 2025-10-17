@@ -7,7 +7,8 @@ class FaceOffTracker {
         this.useFirebase = useFirebase;
         this.games = {};
         this.currentGameId = null;
-        this.currentMode = 'win'; // 'win' or 'loss'
+        this.currentMode = 'win'; // 'win' or 'loss' for face-off result
+        this.currentClamp = 'win'; // 'win' or 'loss' for clamp result
         this.currentPlayer = null; // Currently selected player
         this.players = [];
         this.SEASON_TOTAL_ID = 'season_total';
@@ -148,6 +149,33 @@ class FaceOffTracker {
     }
 
     async deletePlayer(playerId) {
+        // Remove all pins associated with this player from all games
+        Object.values(this.games).forEach(game => {
+            if (game.id !== this.SEASON_TOTAL_ID) {
+                const originalPinCount = game.pins.length;
+                game.pins = game.pins.filter(pin => pin.playerId !== playerId);
+                
+                // If pins were removed, save the game
+                if (game.pins.length !== originalPinCount && this.useFirebase && firebaseService.getUserId()) {
+                    firebaseService.saveGame(game.id, game);
+                }
+            }
+        });
+        
+        // Rebuild Season Total to remove player's pins
+        this.rebuildSeasonTotal();
+        if (this.useFirebase && firebaseService.getUserId()) {
+            await firebaseService.saveGame(this.SEASON_TOTAL_ID, this.games[this.SEASON_TOTAL_ID]);
+        }
+        
+        // Remove player from all game rosters
+        Object.values(this.games).forEach(game => {
+            if (game.id !== this.SEASON_TOTAL_ID && game.roster) {
+                game.roster = game.roster.filter(id => id !== playerId);
+            }
+        });
+        
+        // Remove player from players list
         this.players = this.players.filter(p => p.id !== playerId);
         if (this.currentPlayer === playerId) {
             this.currentPlayer = null;
@@ -157,6 +185,7 @@ class FaceOffTracker {
             await firebaseService.deletePlayer(playerId);
         } else {
             this.savePlayers();
+            this.saveGames();
         }
     }
 
@@ -399,6 +428,7 @@ class FaceOffTracker {
                 x, 
                 y, 
                 type, 
+                clamp: this.currentClamp, // Add clamp status
                 timestamp: Date.now(),
                 playerId: this.currentPlayer // Add player info to pin
             };
@@ -485,9 +515,9 @@ class FieldRenderer {
         const FIELD_HEIGHT_YARDS = 110;
         const ASPECT_RATIO = FIELD_HEIGHT_YARDS / FIELD_WIDTH_YARDS;
         
-        const containerWidth = this.canvas.parentElement.clientWidth - 60;
+        const containerWidth = this.canvas.parentElement.clientWidth;
         // Ensure we have a valid width, default to 640 if container isn't ready
-        const maxWidth = containerWidth > 100 ? Math.min(containerWidth, 700) : 640;
+        const maxWidth = containerWidth > 100 ? Math.min(containerWidth, 1000) : 640;
         
         this.canvas.width = maxWidth;
         this.canvas.height = maxWidth * ASPECT_RATIO;
@@ -646,45 +676,52 @@ class FieldRenderer {
         this.pins = pins;
         
         pins.forEach((pin, index) => {
-            this.drawPin(pin.x, pin.y, pin.type, index === pins.length - 1);
+            this.drawPin(pin.x, pin.y, pin.type, pin.clamp, index === pins.length - 1);
         });
     }
 
-    drawPin(x, y, type, isLatest = false) {
+    drawPin(x, y, type, clamp = 'win', isLatest = false) {
         const ctx = this.ctx;
-        const radius = 8;
+        const innerRadius = 5; // Inner circle size
+        const outerRadius = 8; // Outer ring size
 
         // Pin shadow
         ctx.shadowColor = 'rgba(0, 0, 0, 0.5)';
-        ctx.shadowBlur = 8;
+        ctx.shadowBlur = 6;
         ctx.shadowOffsetX = 2;
         ctx.shadowOffsetY = 2;
 
-        // Pin color
-        ctx.fillStyle = type === 'win' ? '#10b981' : '#ef4444';
-        
-        // Draw pin
+        // Draw outer ring (clamp result)
+        const clampColor = clamp === 'win' ? '#10b981' : '#ef4444';
+        ctx.fillStyle = clampColor;
         ctx.beginPath();
-        ctx.arc(x, y, radius, 0, Math.PI * 2);
+        ctx.arc(x, y, outerRadius, 0, Math.PI * 2);
         ctx.fill();
 
-        // White border
-        ctx.strokeStyle = 'white';
-        ctx.lineWidth = 3;
-        ctx.stroke();
-
-        // Reset shadow
+        // Reset shadow for inner circle
         ctx.shadowColor = 'transparent';
         ctx.shadowBlur = 0;
         ctx.shadowOffsetX = 0;
         ctx.shadowOffsetY = 0;
 
+        // Draw inner circle (face-off result)
+        const faceOffColor = type === 'win' ? '#10b981' : '#ef4444';
+        ctx.fillStyle = faceOffColor;
+        ctx.beginPath();
+        ctx.arc(x, y, innerRadius, 0, Math.PI * 2);
+        ctx.fill();
+
+        // White border around inner circle for definition
+        ctx.strokeStyle = 'white';
+        ctx.lineWidth = 1.5;
+        ctx.stroke();
+
         // Highlight latest pin
         if (isLatest) {
-            ctx.strokeStyle = type === 'win' ? '#10b981' : '#ef4444';
+            ctx.strokeStyle = 'white';
             ctx.lineWidth = 2;
             ctx.beginPath();
-            ctx.arc(x, y, radius + 6, 0, Math.PI * 2);
+            ctx.arc(x, y, outerRadius + 3, 0, Math.PI * 2);
             ctx.stroke();
         }
     }
@@ -834,6 +871,8 @@ class UIController {
         this.fieldRenderer = new FieldRenderer(document.getElementById('lacrosse-field'));
         this.displayType = 'pins'; // 'pins' or 'heatmap'
         this.currentViewMode = 'team'; // 'team' or player ID
+        this.faceoffFilter = 'all'; // 'all', 'win', or 'loss'
+        this.clampFilter = 'all'; // 'all', 'win', or 'loss'
         this.initializeElements();
         this.attachEventListeners();
         this.updateUI();
@@ -863,11 +902,15 @@ class UIController {
             toggleSidebar: document.getElementById('toggle-sidebar'),
             gamesList: document.getElementById('games-list'),
             newGameBtn: document.getElementById('new-game-btn'),
+            managePlayersBtn: document.getElementById('manage-players-btn'),
             deleteGameBtn: document.getElementById('delete-game-btn'),
+            printFieldBtn: document.getElementById('print-field-btn'),
             currentOpponent: document.getElementById('current-opponent'),
             currentDate: document.getElementById('current-date'),
             modeWin: document.getElementById('mode-win'),
             modeLoss: document.getElementById('mode-loss'),
+            clampWin: document.getElementById('clamp-win'),
+            clampLoss: document.getElementById('clamp-loss'),
             viewPins: document.getElementById('view-pins'),
             viewHeatmap: document.getElementById('view-heatmap'),
             playerSelect: document.getElementById('player-select'),
@@ -875,6 +918,12 @@ class UIController {
             rosterList: document.getElementById('roster-list'),
             viewTeamBtn: document.getElementById('view-team'),
             playerViewList: document.getElementById('player-view-list'),
+            filterFaceoffAll: document.getElementById('filter-faceoff-all'),
+            filterFaceoffWins: document.getElementById('filter-faceoff-wins'),
+            filterFaceoffLosses: document.getElementById('filter-faceoff-losses'),
+            filterClampAll: document.getElementById('filter-clamp-all'),
+            filterClampWins: document.getElementById('filter-clamp-wins'),
+            filterClampLosses: document.getElementById('filter-clamp-losses'),
             saveGameBtn: document.getElementById('save-game-btn'),
             undoBtn: document.getElementById('undo-btn'),
             clearBtn: document.getElementById('clear-btn'),
@@ -884,6 +933,7 @@ class UIController {
             newGameForm: document.getElementById('new-game-form'),
             cancelModal: document.getElementById('cancel-modal'),
             rosterModal: document.getElementById('add-to-roster-modal'),
+            playerSearch: document.getElementById('player-search'),
             availablePlayersList: document.getElementById('available-players-list'),
             createNewPlayerBtn: document.getElementById('create-new-player-btn'),
             cancelRosterModal: document.getElementById('cancel-roster-modal'),
@@ -916,12 +966,34 @@ class UIController {
             this.showNewGameModal();
         });
 
+        this.elements.managePlayersBtn.addEventListener('click', () => {
+            this.showManagePlayersModal();
+        });
+
         // Delete game button
         this.elements.deleteGameBtn.addEventListener('click', async () => {
-            if (this.tracker.currentGameId && confirm('Are you sure you want to delete this game?')) {
-                await this.tracker.deleteGame(this.tracker.currentGameId);
-                this.updateUI();
+            if (this.tracker.currentGameId) {
+                const result = await Swal.fire({
+                    title: 'Delete Game',
+                    text: 'Are you sure you want to delete this game?',
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#dc2626',
+                    cancelButtonColor: '#6b7280',
+                    confirmButtonText: 'Yes, delete it!',
+                    cancelButtonText: 'Cancel'
+                });
+                
+                if (result.isConfirmed) {
+                    await this.tracker.deleteGame(this.tracker.currentGameId);
+                    this.updateUI();
+                }
             }
+        });
+
+        // Print field button
+        this.elements.printFieldBtn.addEventListener('click', () => {
+            this.printField();
         });
 
         // Mode buttons
@@ -931,6 +1003,15 @@ class UIController {
 
         this.elements.modeLoss.addEventListener('click', () => {
             this.setMode('loss');
+        });
+
+        // Clamp buttons
+        this.elements.clampWin.addEventListener('click', () => {
+            this.setClamp('win');
+        });
+
+        this.elements.clampLoss.addEventListener('click', () => {
+            this.setClamp('loss');
         });
 
         // Display type buttons (pins vs heatmap)
@@ -958,9 +1039,36 @@ class UIController {
             this.showAddPlayerModal();
         });
 
+        // Player search
+        this.elements.playerSearch.addEventListener('input', (e) => {
+            this.updateAvailablePlayersList(e.target.value);
+        });
+
         // Team view button
         this.elements.viewTeamBtn.addEventListener('click', () => {
             this.setViewMode('team');
+        });
+
+        // Face-off filter buttons
+        this.elements.filterFaceoffAll.addEventListener('click', () => {
+            this.setFaceoffFilter('all');
+        });
+        this.elements.filterFaceoffWins.addEventListener('click', () => {
+            this.setFaceoffFilter('win');
+        });
+        this.elements.filterFaceoffLosses.addEventListener('click', () => {
+            this.setFaceoffFilter('loss');
+        });
+
+        // Clamp filter buttons
+        this.elements.filterClampAll.addEventListener('click', () => {
+            this.setClampFilter('all');
+        });
+        this.elements.filterClampWins.addEventListener('click', () => {
+            this.setClampFilter('win');
+        });
+        this.elements.filterClampLosses.addEventListener('click', () => {
+            this.setClampFilter('loss');
         });
 
         // Roster and player modals
@@ -984,8 +1092,19 @@ class UIController {
         });
 
         // Clear button
-        this.elements.clearBtn.addEventListener('click', () => {
-            if (confirm('Are you sure you want to clear all pins?')) {
+        this.elements.clearBtn.addEventListener('click', async () => {
+            const result = await Swal.fire({
+                title: 'Clear All Pins',
+                text: 'Are you sure you want to clear all pins?',
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#dc2626',
+                cancelButtonColor: '#6b7280',
+                confirmButtonText: 'Yes, clear all!',
+                cancelButtonText: 'Cancel'
+            });
+            
+            if (result.isConfirmed) {
                 this.tracker.clearAllPins();
                 this.render();
                 this.updateStats();
@@ -1052,6 +1171,14 @@ class UIController {
         this.elements.modeLoss.classList.toggle('active', mode === 'loss');
     }
 
+    setClamp(clampResult) {
+        this.tracker.currentClamp = clampResult;
+        
+        // Update button states
+        this.elements.clampWin.classList.toggle('active', clampResult === 'win');
+        this.elements.clampLoss.classList.toggle('active', clampResult === 'loss');
+    }
+
     setDisplayType(type) {
         this.displayType = type;
         
@@ -1080,22 +1207,63 @@ class UIController {
         this.render();
     }
 
+    setFaceoffFilter(filter) {
+        this.faceoffFilter = filter;
+        
+        // Update button states
+        this.elements.filterFaceoffAll.classList.toggle('active', filter === 'all');
+        this.elements.filterFaceoffWins.classList.toggle('active', filter === 'win');
+        this.elements.filterFaceoffLosses.classList.toggle('active', filter === 'loss');
+        
+        // Update stats and re-render
+        this.updateStats();
+        this.render();
+    }
+
+    setClampFilter(filter) {
+        this.clampFilter = filter;
+        
+        // Update button states
+        this.elements.filterClampAll.classList.toggle('active', filter === 'all');
+        this.elements.filterClampWins.classList.toggle('active', filter === 'win');
+        this.elements.filterClampLosses.classList.toggle('active', filter === 'loss');
+        
+        // Update stats and re-render
+        this.updateStats();
+        this.render();
+    }
+
     handleCanvasClick(event) {
         if (!this.tracker.currentGameId) {
-            alert('Please create a game first!');
+            Swal.fire({
+                title: 'No Game Selected',
+                text: 'Please create a game first!',
+                icon: 'info',
+                confirmButtonColor: '#f97316'
+            });
             return;
         }
 
         // Don't allow pins on Season Total
         const currentGame = this.tracker.getCurrentGame();
         if (currentGame && currentGame.id === this.tracker.SEASON_TOTAL_ID) {
-            alert('Cannot place pins on Season Total view. Please select a specific game.');
+            Swal.fire({
+                title: 'Season Total View',
+                text: 'Cannot place pins on Season Total view. Please select a specific game.',
+                icon: 'info',
+                confirmButtonColor: '#f97316'
+            });
             return;
         }
 
         // Enforce player selection
         if (!this.tracker.currentPlayer) {
-            alert('Please select a player from the roster before placing a face-off pin.\n\nIf the roster is empty, click "Add Player to Game" first.');
+            Swal.fire({
+                title: 'No Player Selected',
+                text: 'Please select a player from the roster before placing a face-off pin.\n\nIf the roster is empty, click "Add Player to Game" first.',
+                icon: 'warning',
+                confirmButtonColor: '#f97316'
+            });
             return;
         }
 
@@ -1130,19 +1298,26 @@ class UIController {
     showAddToRosterModal() {
         const currentGame = this.tracker.getCurrentGame();
         if (!currentGame || currentGame.id === this.tracker.SEASON_TOTAL_ID) {
-            alert('Please select a specific game first.');
+            Swal.fire({
+                title: 'No Game Selected',
+                text: 'Please select a specific game first.',
+                icon: 'info',
+                confirmButtonColor: '#f97316'
+            });
             return;
         }
         
+        this.elements.playerSearch.value = '';
         this.updateAvailablePlayersList();
         this.elements.rosterModal.classList.add('show');
     }
 
     hideAddToRosterModal() {
         this.elements.rosterModal.classList.remove('show');
+        this.elements.playerSearch.value = '';
     }
 
-    updateAvailablePlayersList() {
+    updateAvailablePlayersList(searchTerm = '') {
         const container = this.elements.availablePlayersList;
         const currentGame = this.tracker.getCurrentGame();
         
@@ -1152,10 +1327,24 @@ class UIController {
         }
 
         const roster = currentGame.roster || [];
-        const availablePlayers = this.tracker.players.filter(p => !roster.includes(p.id));
+        let availablePlayers = this.tracker.players.filter(p => !roster.includes(p.id));
+
+        // Filter by search term
+        if (searchTerm.trim()) {
+            const search = searchTerm.toLowerCase();
+            availablePlayers = availablePlayers.filter(player => 
+                player.name.toLowerCase().includes(search) || 
+                player.team.toLowerCase().includes(search) ||
+                (player.number && player.number.toString().includes(search))
+            );
+        }
 
         if (availablePlayers.length === 0) {
-            container.innerHTML = '<p style="color: var(--text-secondary); text-align: center; padding: 20px;">All players are already in the roster.<br>Create a new player to add more.</p>';
+            if (searchTerm.trim()) {
+                container.innerHTML = '<p style="color: var(--text-secondary); text-align: center; padding: 20px;">No players found matching your search.</p>';
+            } else {
+                container.innerHTML = '<p style="color: var(--text-secondary); text-align: center; padding: 20px;">All players are already in the roster.<br>Create a new player to add more.</p>';
+            }
             return;
         }
 
@@ -1392,12 +1581,46 @@ class UIController {
             ? `#${player.number} ${player.name}` 
             : player.name;
 
-        if (confirm(`Are you sure you want to delete ${displayName}?\n\nThis will NOT delete their face-off data, but you won't be able to assign new face-offs to this player.`)) {
+        // Count total pins for this player
+        const allPins = this.getAllPinsForPlayer(playerId);
+        const pinCount = allPins.length;
+        
+        const confirmMsg = pinCount > 0
+            ? `Are you sure you want to delete <strong>${displayName}</strong>?<br><br>This will permanently remove this player and delete all <strong>${pinCount}</strong> face-off data point(s) associated with them across all games.`
+            : `Are you sure you want to delete <strong>${displayName}</strong>?<br><br>This will permanently remove this player.`;
+
+        const result = await Swal.fire({
+            title: 'Delete Player',
+            html: confirmMsg,
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#dc2626',
+            cancelButtonColor: '#6b7280',
+            confirmButtonText: 'Yes, delete player!',
+            cancelButtonText: 'Cancel'
+        });
+        
+        if (result.isConfirmed) {
             await this.tracker.deletePlayer(playerId);
+            
+            // Reset view to team if we're viewing the removed player
+            if (this.currentViewMode === playerId) {
+                this.setViewMode('team');
+            }
+            
+            // Reset current player if it was the removed player
+            if (this.tracker.currentPlayer === playerId) {
+                this.tracker.currentPlayer = null;
+            }
+            
             this.updatePlayersList();
             this.updateRosterList();
             this.updatePlayerSelect();
             this.updatePlayerViewList();
+            this.updateAvailablePlayersList();
+            this.updateStats();
+            this.updateSeasonStats();
+            this.render();
         }
     }
 
@@ -1483,10 +1706,21 @@ class UIController {
             removeBtn.addEventListener('click', async () => {
                 const pinCount = currentGame.pins.filter(p => p.playerId === player.id).length;
                 const confirmMsg = pinCount > 0 
-                    ? `Remove ${displayName} from this game's roster?\n\nThis will also delete ${pinCount} face-off data point(s) attributed to this player.`
-                    : `Remove ${displayName} from this game's roster?`;
+                    ? `Remove <strong>${displayName}</strong> from this game's roster?<br><br>This will also delete <strong>${pinCount}</strong> face-off data point(s) attributed to this player.`
+                    : `Remove <strong>${displayName}</strong> from this game's roster?`;
                 
-                if (confirm(confirmMsg)) {
+                const result = await Swal.fire({
+                    title: 'Remove Player from Roster',
+                    html: confirmMsg,
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#dc2626',
+                    cancelButtonColor: '#6b7280',
+                    confirmButtonText: 'Yes, remove!',
+                    cancelButtonText: 'Cancel'
+                });
+                
+                if (result.isConfirmed) {
                     this.tracker.removePlayerFromRoster(currentGame.id, player.id);
                     
                     // Reset view to team if we're viewing the removed player
@@ -1705,21 +1939,33 @@ class UIController {
         
         if (!game) {
             stats = { wins: 0, losses: 0, total: 0, percentage: 0 };
-        } else if (this.currentViewMode === 'team') {
-            // Show all team stats
-            stats = this.tracker.getStats();
-            viewText = 'Viewing: Team';
         } else {
-            // Show specific player stats
-            const player = this.tracker.players.find(p => p.id === this.currentViewMode);
-            if (player) {
-                const displayName = player.number ? `#${player.number} ${player.name}` : player.name;
-                viewText = `Viewing: ${displayName}`;
+            // Get pins for current view mode
+            let pins = game.pins;
+            
+            if (this.currentViewMode !== 'team') {
+                // Filter by specific player
+                pins = pins.filter(pin => pin.playerId === this.currentViewMode);
+                const player = this.tracker.players.find(p => p.id === this.currentViewMode);
+                if (player) {
+                    const displayName = player.number ? `#${player.number} ${player.name}` : player.name;
+                    viewText = `Viewing: ${displayName}`;
+                }
             }
             
-            const playerPins = game.pins.filter(pin => pin.playerId === this.currentViewMode);
-            const wins = playerPins.filter(p => p.type === 'win').length;
-            const losses = playerPins.filter(p => p.type === 'loss').length;
+            // Apply face-off filter
+            if (this.faceoffFilter !== 'all') {
+                pins = pins.filter(pin => pin.type === this.faceoffFilter);
+            }
+            
+            // Apply clamp filter
+            if (this.clampFilter !== 'all') {
+                pins = pins.filter(pin => pin.clamp === this.clampFilter);
+            }
+            
+            // Calculate stats from filtered pins
+            const wins = pins.filter(p => p.type === 'win').length;
+            const losses = pins.filter(p => p.type === 'loss').length;
             const total = wins + losses;
             const percentage = total > 0 ? Math.round((wins / total) * 100) : 0;
             stats = { wins, losses, total, percentage };
@@ -1776,6 +2022,16 @@ class UIController {
             pins = pins.filter(pin => pin.playerId === this.currentViewMode);
         }
         
+        // Filter pins based on face-off result
+        if (this.faceoffFilter !== 'all') {
+            pins = pins.filter(pin => pin.type === this.faceoffFilter);
+        }
+        
+        // Filter pins based on clamp result
+        if (this.clampFilter !== 'all') {
+            pins = pins.filter(pin => pin.clamp === this.clampFilter);
+        }
+        
         if (this.displayType === 'heatmap') {
             this.fieldRenderer.renderHeatmap(pins);
         } else {
@@ -1818,6 +2074,283 @@ class UIController {
         this.updateUnsavedIndicator();
         this.render();
     }
+
+    printField() {
+        const game = this.tracker.getCurrentGame();
+        if (!game) {
+            Swal.fire({
+                title: 'No Game Selected',
+                text: 'Please select a game first!',
+                icon: 'info',
+                confirmButtonColor: '#f97316'
+            });
+            return;
+        }
+
+        // Create a new window for printing
+        const printWindow = window.open('', '_blank');
+        
+        // Get the current stats
+        const opponent = game.opponent || 'Unknown Opponent';
+        const date = game.date || '';
+        
+        // Calculate player statistics
+        const playerStats = [];
+        const roster = game.roster || [];
+        let totalWins = 0;
+        let totalLosses = 0;
+        
+        roster.forEach(playerId => {
+            const player = this.tracker.players.find(p => p.id === playerId);
+            if (player) {
+                const playerPins = game.pins.filter(pin => pin.playerId === playerId);
+                const wins = playerPins.filter(p => p.type === 'win').length;
+                const losses = playerPins.filter(p => p.type === 'loss').length;
+                const total = wins + losses;
+                const percentage = total > 0 ? Math.round((wins / total) * 100) : 0;
+                
+                playerStats.push({
+                    name: player.name,
+                    number: player.number,
+                    wins: wins,
+                    losses: losses,
+                    total: total,
+                    percentage: percentage
+                });
+                
+                totalWins += wins;
+                totalLosses += losses;
+            }
+        });
+        
+        // Sort by percentage (descending)
+        playerStats.sort((a, b) => b.percentage - a.percentage);
+        
+        const totalFaceOffs = totalWins + totalLosses;
+        const totalPercentage = totalFaceOffs > 0 ? Math.round((totalWins / totalFaceOffs) * 100) : 0;
+        
+        // Get the canvas as an image
+        const canvas = this.elements.canvas;
+        const imageData = canvas.toDataURL('image/png');
+        
+        // Build player stats table rows
+        const playerRows = playerStats.map(player => {
+            const displayName = player.number ? `#${player.number} ${player.name}` : player.name;
+            return `
+                <tr>
+                    <td>${displayName}</td>
+                    <td>${player.wins}</td>
+                    <td>${player.losses}</td>
+                    <td>${player.total}</td>
+                    <td><strong>${player.percentage}%</strong></td>
+                </tr>
+            `;
+        }).join('');
+        
+        // Build the print HTML
+        const printContent = `
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <title>Face-Off Report - ${opponent}</title>
+                <style>
+                    @page {
+                        size: letter;
+                        margin: 0.15in;
+                    }
+                    * {
+                        box-sizing: border-box;
+                    }
+                    body {
+                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                        margin: 0;
+                        padding: 2px;
+                        color: #1e293b;
+                        font-size: 9px;
+                    }
+                    .container {
+                        max-width: 100%;
+                        page-break-inside: avoid;
+                    }
+                    .header {
+                        text-align: center;
+                        margin-bottom: 8px;
+                    }
+                    .header h1 {
+                        margin: 0;
+                        font-size: 15px;
+                        color: #f97316;
+                        line-height: 1.2;
+                    }
+                    .header h2 {
+                        margin: 4px 0 2px 0;
+                        font-size: 12px;
+                        color: #334155;
+                        line-height: 1.2;
+                    }
+                    .header p {
+                        margin: 2px 0;
+                        color: #64748b;
+                        font-size: 8px;
+                        line-height: 1.1;
+                    }
+                    .content-layout {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 8px;
+                        margin-top: 6px;
+                        page-break-inside: avoid;
+                    }
+                    .stats-section {
+                        margin-bottom: 10px;
+                        page-break-after: avoid;
+                    }
+                    .stats-table {
+                        width: auto;
+                        max-width: 500px;
+                        margin: 0 auto;
+                        border-collapse: collapse;
+                        font-size: 8px;
+                    }
+                    .field-section {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        page-break-before: avoid;
+                        page-break-inside: avoid;
+                    }
+                    .field-image {
+                        width: 100%;
+                        max-width: 900px;
+                    }
+                    .field-image img {
+                        width: 100%;
+                        height: auto;
+                        max-height: 800px;
+                        object-fit: contain;
+                        border: 1px solid #e2e8f0;
+                        border-radius: 3px;
+                    }
+                    .stats-table th {
+                        background: #f97316;
+                        color: white;
+                        padding: 4px 8px;
+                        text-align: left;
+                        font-weight: 600;
+                        border: 1px solid #ea580c;
+                        font-size: 8px;
+                        line-height: 1.2;
+                    }
+                    .stats-table td {
+                        padding: 3px 8px;
+                        border: 1px solid #e2e8f0;
+                        font-size: 8px;
+                        line-height: 1.2;
+                    }
+                    .stats-table tr:nth-child(even) {
+                        background: #f8fafc;
+                    }
+                    .stats-table tfoot td {
+                        background: #f97316;
+                        color: white;
+                        font-weight: bold;
+                        border: 1px solid #ea580c;
+                        padding: 2px 4px;
+                    }
+                    @media print {
+                        html, body {
+                            width: 100%;
+                            height: 100%;
+                        }
+                        body {
+                            padding: 3px;
+                        }
+                        .container {
+                            page-break-inside: avoid;
+                        }
+                        .header {
+                            margin-bottom: 2px;
+                        }
+                        .content-layout {
+                            gap: 4px;
+                            page-break-inside: avoid;
+                        }
+                        .stats-section {
+                            margin-bottom: 2px;
+                            page-break-after: avoid;
+                        }
+                        .field-section {
+                            page-break-before: avoid;
+                        }
+                        .field-image {
+                            max-width: 850px;
+                        }
+                        .field-image img {
+                            max-height: 750px;
+                        }
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="container">
+                    <div class="header">
+                        <h1>Face-Off Tracker Report</h1>
+                        <p>Princeton Lacrosse</p>
+                        <h2>${opponent}</h2>
+                        <p>${date}</p>
+                    </div>
+                    
+                    <div class="content-layout">
+                        <!-- Statistics Section (Top) -->
+                        <div class="stats-section">
+                            <table class="stats-table">
+                                <thead>
+                                    <tr>
+                                        <th>Player</th>
+                                        <th>Wins</th>
+                                        <th>Losses</th>
+                                        <th>Total</th>
+                                        <th>Win %</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    ${playerRows}
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td>TEAM TOTAL</td>
+                                        <td>${totalWins}</td>
+                                        <td>${totalLosses}</td>
+                                        <td>${totalFaceOffs}</td>
+                                        <td>${totalPercentage}%</td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                        
+                        <!-- Field Image (Bottom) -->
+                        <div class="field-section">
+                            <div class="field-image">
+                                <img src="${imageData}" alt="Lacrosse Field Face-Off Map" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <script>
+                    window.onload = function() {
+                        setTimeout(function() {
+                            window.print();
+                        }, 500);
+                    };
+                </script>
+            </body>
+            </html>
+        `;
+        
+        printWindow.document.write(printContent);
+        printWindow.document.close();
+    }
 }
 
 // ===== Initialize App with Firebase Authentication =====
@@ -1848,7 +2381,13 @@ async function initializeApp() {
     const gameKeys = Object.keys(appInstance.tracker.games).filter(id => id !== appInstance.tracker.SEASON_TOTAL_ID);
     if (gameKeys.length === 0) {
         setTimeout(() => {
-            alert('Welcome to Face-Off Tracker! 🥍\n\nClick "New Game" to start tracking face-offs.\n\nThen click on the field to place pins showing where face-offs were won (green) or lost (red).');
+            Swal.fire({
+                title: 'Welcome to Face-Off Tracker! 🥍',
+                html: 'Click <strong>"New Game"</strong> to start tracking face-offs.<br><br>Then click on the field to place pins showing where face-offs were won (green) or lost (red).',
+                icon: 'info',
+                confirmButtonColor: '#f97316',
+                confirmButtonText: 'Got it!'
+            });
         }, 500);
     }
 }
@@ -1877,7 +2416,12 @@ document.addEventListener('DOMContentLoaded', () => {
             try {
                 const migrated = await firebaseService.migrateFromLocalStorage();
                 if (migrated) {
-                    alert('Your local data has been migrated to the cloud! 🎉\n\nYour data is now synced across all devices.');
+                    Swal.fire({
+                        title: 'Data Migrated! 🎉',
+                        text: 'Your local data has been migrated to the cloud!\n\nYour data is now synced across all devices.',
+                        icon: 'success',
+                        confirmButtonColor: '#f97316'
+                    });
                 }
             } catch (error) {
                 console.error('Migration error:', error);
@@ -1905,19 +2449,40 @@ document.addEventListener('DOMContentLoaded', () => {
             await firebaseService.signIn();
         } catch (error) {
             console.error('Sign in error:', error);
-            alert('Failed to sign in. Please try again.');
+            Swal.fire({
+                title: 'Sign In Failed',
+                text: 'Failed to sign in. Please try again.',
+                icon: 'error',
+                confirmButtonColor: '#dc2626'
+            });
         }
     });
     
     // Sign out button
     signOutBtn.addEventListener('click', async () => {
         try {
-            if (confirm('Are you sure you want to sign out? Your data will be saved in the cloud.')) {
+            const result = await Swal.fire({
+            title: 'Sign Out',
+            text: 'Are you sure you want to sign out? Your data will be saved in the cloud.',
+            icon: 'question',
+            showCancelButton: true,
+            confirmButtonColor: '#dc2626',
+            cancelButtonColor: '#6b7280',
+            confirmButtonText: 'Yes, sign out',
+            cancelButtonText: 'Cancel'
+        });
+        
+        if (result.isConfirmed) {
                 await firebaseService.signOutUser();
             }
         } catch (error) {
             console.error('Sign out error:', error);
-            alert('Failed to sign out. Please try again.');
+            Swal.fire({
+                title: 'Sign Out Failed',
+                text: 'Failed to sign out. Please try again.',
+                icon: 'error',
+                confirmButtonColor: '#dc2626'
+            });
         }
     });
     
