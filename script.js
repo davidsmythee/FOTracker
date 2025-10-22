@@ -9,7 +9,6 @@ class FaceOffTracker {
         this.currentGameId = null;
         this.currentMode = 'win'; // 'win' or 'loss' for face-off result
         this.currentClamp = 'win'; // 'win' or 'loss' for clamp result
-        this.currentPlayer = null; // Currently selected player
         this.players = [];
         this.SEASON_TOTAL_ID = 'season_total';
         this.isLoading = false;
@@ -153,7 +152,9 @@ class FaceOffTracker {
         Object.values(this.games).forEach(game => {
             if (game.id !== this.SEASON_TOTAL_ID) {
                 const originalPinCount = game.pins.length;
-                game.pins = game.pins.filter(pin => pin.playerId !== playerId);
+                game.pins = game.pins.filter(pin => 
+                    pin.player1Id !== playerId && pin.player2Id !== playerId && pin.playerId !== playerId
+                );
                 
                 // If pins were removed, save the game
                 if (game.pins.length !== originalPinCount && this.useFirebase && firebaseService.getUserId()) {
@@ -177,9 +178,6 @@ class FaceOffTracker {
         
         // Remove player from players list
         this.players = this.players.filter(p => p.id !== playerId);
-        if (this.currentPlayer === playerId) {
-            this.currentPlayer = null;
-        }
         
         if (this.useFirebase && firebaseService.getUserId()) {
             await firebaseService.deletePlayer(playerId);
@@ -214,7 +212,9 @@ class FaceOffTracker {
             game.roster = game.roster.filter(id => id !== playerId);
             
             // Remove all pins by this player from the game
-            game.pins = game.pins.filter(pin => pin.playerId !== playerId);
+            game.pins = game.pins.filter(pin => 
+                pin.player1Id !== playerId && pin.player2Id !== playerId && pin.playerId !== playerId
+            );
             
             // Rebuild season total
             this.rebuildSeasonTotal();
@@ -421,16 +421,17 @@ class FaceOffTracker {
         return this.currentGameId ? this.games[this.currentGameId] : null;
     }
 
-    addPin(x, y, type) {
+    addPin(x, y, faceoffResult, clampResult, player1Id, player2Id) {
         const game = this.getCurrentGame();
         if (game) {
             const newPin = { 
                 x, 
                 y, 
-                type, 
-                clamp: this.currentClamp, // Add clamp status
-                timestamp: Date.now(),
-                playerId: this.currentPlayer // Add player info to pin
+                faceoffResult, // 'win' or 'loss' for face-off result
+                clampResult,   // 'win' or 'loss' for clamp result
+                player1Id,     // First player ID
+                player2Id,     // Second player ID
+                timestamp: Date.now()
             };
             game.pins.push(newPin);
             
@@ -491,8 +492,15 @@ class FaceOffTracker {
             return { wins: 0, losses: 0, total: 0, percentage: 0 };
         }
 
-        const wins = game.pins.filter(p => p.type === 'win').length;
-        const losses = game.pins.filter(p => p.type === 'loss').length;
+        // Handle both old and new pin data structures
+        const wins = game.pins.filter(p => {
+            const faceoffResult = p.faceoffResult || p.type || 'win';
+            return faceoffResult === 'win';
+        }).length;
+        const losses = game.pins.filter(p => {
+            const faceoffResult = p.faceoffResult || p.type || 'win';
+            return faceoffResult === 'loss';
+        }).length;
         const total = wins + losses;
         const percentage = total > 0 ? Math.round((wins / total) * 100) : 0;
 
@@ -543,23 +551,9 @@ class FieldRenderer {
         // --- basics
         ctx.clearRect(0, 0, w, h);
         
-        // Draw green field background
-        const gradient = ctx.createLinearGradient(0, 0, 0, h);
-        gradient.addColorStop(0, '#2d5016');
-        gradient.addColorStop(0.5, '#3a6b1e');
-        gradient.addColorStop(1, '#2d5016');
-        ctx.fillStyle = gradient;
+        // Draw white field background
+        ctx.fillStyle = '#ffffff';
         ctx.fillRect(0, 0, w, h);
-
-        // Add subtle grass texture
-        ctx.strokeStyle = 'rgba(255, 255, 255, 0.02)';
-        ctx.lineWidth = 1;
-        for (let i = 0; i < h; i += 3) {
-            ctx.beginPath();
-            ctx.moveTo(0, i);
-            ctx.lineTo(w, i);
-            ctx.stroke();
-        }
         
         ctx.save();
       
@@ -573,9 +567,9 @@ class FieldRenderer {
         const creaseR  = Math.max(6, Math.round(Math.min(w, h) * 0.035));   // goal crease radius
         const minusLen = Math.round(creaseR * 0.9);                         // length of the "–" inside crease
       
-        // common styles - WHITE LINES
-        ctx.strokeStyle = "#ffffff";
-        ctx.fillStyle   = "#ffffff";
+        // common styles - BLACK LINES
+        ctx.strokeStyle = "#000000";
+        ctx.fillStyle   = "#000000";
         ctx.lineCap     = "butt";
         ctx.lineJoin    = "miter";
         ctx.lineWidth   = borderW;
@@ -676,11 +670,14 @@ class FieldRenderer {
         this.pins = pins;
         
         pins.forEach((pin, index) => {
-            this.drawPin(pin.x, pin.y, pin.type, pin.clamp, index === pins.length - 1);
+            // Handle both old and new pin data structures for backward compatibility
+            const faceoffResult = pin.faceoffResult || pin.type || 'win';
+            const clampResult = pin.clampResult || pin.clamp || 'win';
+            this.drawPin(pin.x, pin.y, faceoffResult, clampResult, index === pins.length - 1);
         });
     }
 
-    drawPin(x, y, type, clamp = 'win', isLatest = false) {
+    drawPin(x, y, faceoffResult, clampResult, isLatest = false) {
         const ctx = this.ctx;
         const innerRadius = 5; // Inner circle size
         const outerRadius = 8; // Outer ring size
@@ -692,7 +689,7 @@ class FieldRenderer {
         ctx.shadowOffsetY = 2;
 
         // Draw outer ring (clamp result)
-        const clampColor = clamp === 'win' ? '#10b981' : '#ef4444';
+        const clampColor = clampResult === 'win' ? '#10b981' : '#ef4444';
         ctx.fillStyle = clampColor;
         ctx.beginPath();
         ctx.arc(x, y, outerRadius, 0, Math.PI * 2);
@@ -705,7 +702,7 @@ class FieldRenderer {
         ctx.shadowOffsetY = 0;
 
         // Draw inner circle (face-off result)
-        const faceOffColor = type === 'win' ? '#10b981' : '#ef4444';
+        const faceOffColor = faceoffResult === 'win' ? '#10b981' : '#ef4444';
         ctx.fillStyle = faceOffColor;
         ctx.beginPath();
         ctx.arc(x, y, innerRadius, 0, Math.PI * 2);
@@ -753,7 +750,9 @@ class FieldRenderer {
             const row = Math.floor(pin.y / gridSize);
             
             if (row >= 0 && row < rows && col >= 0 && col < cols) {
-                if (pin.type === 'win') {
+                // Handle both old and new pin data structures
+                const faceoffResult = pin.faceoffResult || pin.type || 'win';
+                if (faceoffResult === 'win') {
                     winGrid[row][col]++;
                 } else {
                     lossGrid[row][col]++;
@@ -873,6 +872,7 @@ class UIController {
         this.currentViewMode = 'team'; // 'team' or player ID
         this.faceoffFilter = 'all'; // 'all', 'win', or 'loss'
         this.clampFilter = 'all'; // 'all', 'win', or 'loss'
+        this.selectedGames = new Set(); // Set of selected game IDs for filtering
         this.initializeElements();
         this.attachEventListeners();
         this.updateUI();
@@ -907,13 +907,8 @@ class UIController {
             printFieldBtn: document.getElementById('print-field-btn'),
             currentOpponent: document.getElementById('current-opponent'),
             currentDate: document.getElementById('current-date'),
-            modeWin: document.getElementById('mode-win'),
-            modeLoss: document.getElementById('mode-loss'),
-            clampWin: document.getElementById('clamp-win'),
-            clampLoss: document.getElementById('clamp-loss'),
             viewPins: document.getElementById('view-pins'),
             viewHeatmap: document.getElementById('view-heatmap'),
-            playerSelect: document.getElementById('player-select'),
             addToRosterBtn: document.getElementById('add-to-roster-btn'),
             rosterList: document.getElementById('roster-list'),
             viewTeamBtn: document.getElementById('view-team'),
@@ -943,6 +938,19 @@ class UIController {
             managePlayersModal: document.getElementById('manage-players-modal'),
             closeManagePlayers: document.getElementById('close-manage-players'),
             playersList: document.getElementById('players-list'),
+            pinDetailsModal: document.getElementById('pin-details-modal'),
+            pinDetailsForm: document.getElementById('pin-details-form'),
+            cancelPinDetails: document.getElementById('cancel-pin-details'),
+            faceoffWinBtn: document.getElementById('faceoff-win'),
+            faceoffLossBtn: document.getElementById('faceoff-loss'),
+            clampWinBtn: document.getElementById('clamp-win'),
+            clampLossBtn: document.getElementById('clamp-loss'),
+            player1Select: document.getElementById('player1-select'),
+            player2Select: document.getElementById('player2-select'),
+            gameFilterSection: document.getElementById('game-filter-section'),
+            selectAllGames: document.getElementById('select-all-games'),
+            deselectAllGames: document.getElementById('deselect-all-games'),
+            gameFilterList: document.getElementById('game-filter-list'),
             statWins: document.getElementById('stat-wins'),
             statLosses: document.getElementById('stat-losses'),
             statPercentage: document.getElementById('stat-percentage'),
@@ -996,23 +1004,6 @@ class UIController {
             this.printField();
         });
 
-        // Mode buttons
-        this.elements.modeWin.addEventListener('click', () => {
-            this.setMode('win');
-        });
-
-        this.elements.modeLoss.addEventListener('click', () => {
-            this.setMode('loss');
-        });
-
-        // Clamp buttons
-        this.elements.clampWin.addEventListener('click', () => {
-            this.setClamp('win');
-        });
-
-        this.elements.clampLoss.addEventListener('click', () => {
-            this.setClamp('loss');
-        });
 
         // Display type buttons (pins vs heatmap)
         this.elements.viewPins.addEventListener('click', () => {
@@ -1023,10 +1014,6 @@ class UIController {
             this.setDisplayType('heatmap');
         });
 
-        // Player selection for face-off
-        this.elements.playerSelect.addEventListener('change', (e) => {
-            this.tracker.currentPlayer = e.target.value || null;
-        });
 
         // Add player to roster button
         this.elements.addToRosterBtn.addEventListener('click', () => {
@@ -1161,23 +1148,52 @@ class UIController {
                 this.hideManagePlayersModal();
             }
         });
+
+        // Pin details modal
+        this.elements.cancelPinDetails.addEventListener('click', () => {
+            this.hidePinDetailsModal();
+        });
+
+        this.elements.pinDetailsForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            this.addPinFromModal();
+        });
+
+        // Pin details modal outside click
+        this.elements.pinDetailsModal.addEventListener('click', (e) => {
+            if (e.target === this.elements.pinDetailsModal) {
+                this.hidePinDetailsModal();
+            }
+        });
+
+        // Face-off result buttons
+        this.elements.faceoffWinBtn.addEventListener('click', () => {
+            this.setFaceoffResult('win');
+        });
+
+        this.elements.faceoffLossBtn.addEventListener('click', () => {
+            this.setFaceoffResult('loss');
+        });
+
+        // Clamp result buttons
+        this.elements.clampWinBtn.addEventListener('click', () => {
+            this.setClampResult('win');
+        });
+
+        this.elements.clampLossBtn.addEventListener('click', () => {
+            this.setClampResult('loss');
+        });
+
+        // Game filtering controls
+        this.elements.selectAllGames.addEventListener('click', () => {
+            this.selectAllGames();
+        });
+
+        this.elements.deselectAllGames.addEventListener('click', () => {
+            this.deselectAllGames();
+        });
     }
 
-    setMode(mode) {
-        this.tracker.currentMode = mode;
-        
-        // Update button states
-        this.elements.modeWin.classList.toggle('active', mode === 'win');
-        this.elements.modeLoss.classList.toggle('active', mode === 'loss');
-    }
-
-    setClamp(clampResult) {
-        this.tracker.currentClamp = clampResult;
-        
-        // Update button states
-        this.elements.clampWin.classList.toggle('active', clampResult === 'win');
-        this.elements.clampLoss.classList.toggle('active', clampResult === 'loss');
-    }
 
     setDisplayType(type) {
         this.displayType = type;
@@ -1256,22 +1272,11 @@ class UIController {
             return;
         }
 
-        // Enforce player selection
-        if (!this.tracker.currentPlayer) {
-            Swal.fire({
-                title: 'No Player Selected',
-                text: 'Please select a player from the roster before placing a face-off pin.\n\nIf the roster is empty, click "Add Player to Game" first.',
-                icon: 'warning',
-                confirmButtonColor: '#f97316'
-            });
-            return;
-        }
-
-        const coords = this.fieldRenderer.getClickCoordinates(event);
-        this.tracker.addPin(coords.x, coords.y, this.tracker.currentMode);
-        this.render();
-        this.updateStats();
-        this.updateUnsavedIndicator();
+        // Store click coordinates for later use
+        this.pendingPinCoords = this.fieldRenderer.getClickCoordinates(event);
+        
+        // Show pin details modal
+        this.showPinDetailsModal();
     }
 
     showNewGameModal() {
@@ -1367,7 +1372,6 @@ class UIController {
             addBtn.addEventListener('click', () => {
                 this.tracker.addPlayerToRoster(currentGame.id, player.id);
                 this.updateRosterList();
-                this.updatePlayerSelect();
                 this.updatePlayerViewList();
                 this.updateAvailablePlayersList();
                 this.updateUnsavedIndicator();
@@ -1461,11 +1465,9 @@ class UIController {
             this.tracker.addPlayerToRoster(currentGame.id, player.id);
         }
         
-        this.tracker.currentPlayer = player.id; // Auto-select the new player
         this.hideAddPlayerModal();
         this.updateRosterList();
         this.updateUnsavedIndicator();
-        this.updatePlayerSelect();
         this.updatePlayerViewList();
         this.updateAvailablePlayersList();
     }
@@ -1477,6 +1479,159 @@ class UIController {
 
     hideManagePlayersModal() {
         this.elements.managePlayersModal.classList.remove('show');
+    }
+
+    showPinDetailsModal() {
+        // Reset form
+        this.elements.pinDetailsForm.reset();
+        this.selectedFaceoffResult = 'win';
+        this.selectedClampResult = 'win';
+        
+        // Update button states
+        this.setFaceoffResult('win');
+        this.setClampResult('win');
+        
+        // Update player selects
+        this.updatePinDetailsPlayerSelects();
+        
+        // Show modal
+        this.elements.pinDetailsModal.classList.add('show');
+    }
+
+    hidePinDetailsModal() {
+        this.elements.pinDetailsModal.classList.remove('show');
+        this.pendingPinCoords = null;
+    }
+
+    setFaceoffResult(result) {
+        this.selectedFaceoffResult = result;
+        
+        // Update button states
+        this.elements.faceoffWinBtn.classList.toggle('active', result === 'win');
+        this.elements.faceoffLossBtn.classList.toggle('active', result === 'loss');
+    }
+
+    setClampResult(result) {
+        this.selectedClampResult = result;
+        
+        // Update button states
+        this.elements.clampWinBtn.classList.toggle('active', result === 'win');
+        this.elements.clampLossBtn.classList.toggle('active', result === 'loss');
+    }
+
+    updatePinDetailsPlayerSelects() {
+        const currentGame = this.tracker.getCurrentGame();
+        if (!currentGame || currentGame.id === this.tracker.SEASON_TOTAL_ID) {
+            this.elements.player1Select.innerHTML = '<option value="">No game selected</option>';
+            this.elements.player2Select.innerHTML = '<option value="">No game selected</option>';
+            return;
+        }
+
+        const rosterPlayers = this.tracker.getGameRoster(currentGame.id);
+        
+        if (rosterPlayers.length === 0) {
+            this.elements.player1Select.innerHTML = '<option value="">No players in roster</option>';
+            this.elements.player2Select.innerHTML = '<option value="">No players in roster</option>';
+            return;
+        }
+
+        // Group players by team
+        const playersByTeam = {};
+        rosterPlayers.forEach(player => {
+            const team = player.team || 'No Team';
+            if (!playersByTeam[team]) {
+                playersByTeam[team] = [];
+            }
+            playersByTeam[team].push(player);
+        });
+
+        // Build player options
+        const buildSelectOptions = (selectElement) => {
+            selectElement.innerHTML = '<option value="">Select Player</option>';
+            
+            Object.keys(playersByTeam).sort().forEach(team => {
+                const optgroup = document.createElement('optgroup');
+                optgroup.label = team;
+                
+                playersByTeam[team].forEach(player => {
+                    const option = document.createElement('option');
+                    option.value = player.id;
+                    const displayText = player.number 
+                        ? `#${player.number} ${player.name}` 
+                        : player.name;
+                    option.textContent = displayText;
+                    optgroup.appendChild(option);
+                });
+                
+                selectElement.appendChild(optgroup);
+            });
+        };
+
+        buildSelectOptions(this.elements.player1Select);
+        
+        // Build Player 2 options with "Unknown" option
+        this.elements.player2Select.innerHTML = '<option value="">Select Player 2</option>';
+        this.elements.player2Select.innerHTML += '<option value="unknown">Unknown</option>';
+        
+        Object.keys(playersByTeam).sort().forEach(team => {
+            const optgroup = document.createElement('optgroup');
+            optgroup.label = team;
+            
+            playersByTeam[team].forEach(player => {
+                const option = document.createElement('option');
+                option.value = player.id;
+                const displayText = player.number 
+                    ? `#${player.number} ${player.name}` 
+                    : player.name;
+                option.textContent = displayText;
+                optgroup.appendChild(option);
+            });
+            
+            this.elements.player2Select.appendChild(optgroup);
+        });
+    }
+
+    addPinFromModal() {
+        const player1Id = this.elements.player1Select.value;
+        const player2Id = this.elements.player2Select.value;
+
+        if (!player1Id || !player2Id) {
+            Swal.fire({
+                title: 'Missing Players',
+                text: 'Please select both Player 1 and Player 2.',
+                icon: 'warning',
+                confirmButtonColor: '#f97316'
+            });
+            return;
+        }
+
+        if (player1Id === player2Id && player2Id !== 'unknown') {
+            Swal.fire({
+                title: 'Same Player Selected',
+                text: 'Player 1 and Player 2 must be different players.',
+                icon: 'warning',
+                confirmButtonColor: '#f97316'
+            });
+            return;
+        }
+
+        // Add the pin with the selected details
+        this.tracker.addPin(
+            this.pendingPinCoords.x,
+            this.pendingPinCoords.y,
+            this.selectedFaceoffResult,
+            this.selectedClampResult,
+            player1Id,
+            player2Id
+        );
+
+        // Update UI
+        this.render();
+        this.updateStats();
+        this.updateUnsavedIndicator();
+        
+        // Hide modal
+        this.hidePinDetailsModal();
     }
 
     updatePlayersList() {
@@ -1521,8 +1676,14 @@ class UIController {
 
         // Calculate player stats
         const playerPins = this.getAllPinsForPlayer(player.id);
-        const wins = playerPins.filter(p => p.type === 'win').length;
-        const losses = playerPins.filter(p => p.type === 'loss').length;
+        const wins = playerPins.filter(p => {
+            const faceoffResult = p.faceoffResult || p.type || 'win';
+            return faceoffResult === 'win';
+        }).length;
+        const losses = playerPins.filter(p => {
+            const faceoffResult = p.faceoffResult || p.type || 'win';
+            return faceoffResult === 'loss';
+        }).length;
         const total = wins + losses;
         const percentage = total > 0 ? Math.round((wins / total) * 100) : 0;
 
@@ -1566,7 +1727,9 @@ class UIController {
         const allPins = [];
         Object.values(this.tracker.games).forEach(game => {
             if (game.id !== this.tracker.SEASON_TOTAL_ID) {
-                const playerPins = game.pins.filter(pin => pin.playerId === playerId);
+                const playerPins = game.pins.filter(pin => 
+                    pin.player1Id === playerId || pin.player2Id === playerId || pin.playerId === playerId
+                );
                 allPins.push(...playerPins);
             }
         });
@@ -1615,7 +1778,6 @@ class UIController {
             
             this.updatePlayersList();
             this.updateRosterList();
-            this.updatePlayerSelect();
             this.updatePlayerViewList();
             this.updateAvailablePlayersList();
             this.updateStats();
@@ -1624,55 +1786,6 @@ class UIController {
         }
     }
 
-    updatePlayerSelect() {
-        const select = this.elements.playerSelect;
-        select.innerHTML = '<option value="">Select Player</option>';
-
-        // Get current game roster
-        const currentGame = this.tracker.getCurrentGame();
-        if (!currentGame || currentGame.id === this.tracker.SEASON_TOTAL_ID) {
-            return; // Don't show any players for Season Total or if no game
-        }
-
-        const rosterPlayers = this.tracker.getGameRoster(currentGame.id);
-
-        if (rosterPlayers.length === 0) {
-            return; // No players in roster yet
-        }
-
-        // Group players by team
-        const playersByTeam = {};
-        rosterPlayers.forEach(player => {
-            const team = player.team || 'No Team';
-            if (!playersByTeam[team]) {
-                playersByTeam[team] = [];
-            }
-            playersByTeam[team].push(player);
-        });
-
-        // Add players grouped by team
-        Object.keys(playersByTeam).sort().forEach(team => {
-            const optgroup = document.createElement('optgroup');
-            optgroup.label = team;
-            
-            playersByTeam[team].forEach(player => {
-                const option = document.createElement('option');
-                option.value = player.id;
-                const displayText = player.number 
-                    ? `#${player.number} ${player.name}` 
-                    : player.name;
-                option.textContent = displayText;
-                
-                if (player.id === this.tracker.currentPlayer) {
-                    option.selected = true;
-                }
-                
-                optgroup.appendChild(option);
-            });
-            
-            select.appendChild(optgroup);
-        });
-    }
 
     updateRosterList() {
         const container = this.elements.rosterList;
@@ -1704,7 +1817,9 @@ class UIController {
             
             const removeBtn = item.querySelector('.roster-item-remove');
             removeBtn.addEventListener('click', async () => {
-                const pinCount = currentGame.pins.filter(p => p.playerId === player.id).length;
+                const pinCount = currentGame.pins.filter(p => 
+                    p.player1Id === player.id || p.player2Id === player.id || p.playerId === player.id
+                ).length;
                 const confirmMsg = pinCount > 0 
                     ? `Remove <strong>${displayName}</strong> from this game's roster?<br><br>This will also delete <strong>${pinCount}</strong> face-off data point(s) attributed to this player.`
                     : `Remove <strong>${displayName}</strong> from this game's roster?`;
@@ -1728,13 +1843,8 @@ class UIController {
                         this.setViewMode('team');
                     }
                     
-                    // Reset current player if it was the removed player
-                    if (this.tracker.currentPlayer === player.id) {
-                        this.tracker.currentPlayer = null;
-                    }
                     
                     this.updateRosterList();
-                    this.updatePlayerSelect();
                     this.updatePlayerViewList();
                     this.updateAvailablePlayersList();
                     this.updateStats();
@@ -1763,9 +1873,9 @@ class UIController {
         if (currentGame.id === this.tracker.SEASON_TOTAL_ID) {
             const playerIdsWithPins = new Set();
             currentGame.pins.forEach(pin => {
-                if (pin.playerId) {
-                    playerIdsWithPins.add(pin.playerId);
-                }
+                if (pin.player1Id) playerIdsWithPins.add(pin.player1Id);
+                if (pin.player2Id) playerIdsWithPins.add(pin.player2Id);
+                if (pin.playerId) playerIdsWithPins.add(pin.playerId); // Backward compatibility
             });
             playersToShow = Array.from(playerIdsWithPins)
                 .map(id => this.tracker.players.find(p => p.id === id))
@@ -1864,8 +1974,14 @@ class UIController {
         card.className = 'game-card' + (isActive ? ' active' : '');
         card.dataset.gameId = game.id;
 
-        const wins = game.pins.filter(p => p.type === 'win').length;
-        const losses = game.pins.filter(p => p.type === 'loss').length;
+        const wins = game.pins.filter(p => {
+            const faceoffResult = p.faceoffResult || p.type || 'win';
+            return faceoffResult === 'win';
+        }).length;
+        const losses = game.pins.filter(p => {
+            const faceoffResult = p.faceoffResult || p.type || 'win';
+            return faceoffResult === 'loss';
+        }).length;
         const total = wins + losses;
         const percentage = total > 0 ? Math.round((wins / total) * 100) : 0;
 
@@ -1902,6 +2018,12 @@ class UIController {
 
     selectGame(gameId) {
         this.tracker.currentGameId = gameId;
+        
+        // If switching to Season Total, rebuild it to ensure it has latest pins
+        if (gameId === this.tracker.SEASON_TOTAL_ID) {
+            this.tracker.rebuildSeasonTotal();
+        }
+        
         this.tracker.saveCurrentGameId();
         this.updateUI();
     }
@@ -1943,9 +2065,35 @@ class UIController {
             // Get pins for current view mode
             let pins = game.pins;
             
+            // For Season Total, filter pins by selected games
+            if (game.id === this.tracker.SEASON_TOTAL_ID && this.selectedGames.size > 0) {
+                pins = pins.filter(pin => {
+                    // Find which game this pin belongs to by comparing pin properties
+                    for (const gameId of this.selectedGames) {
+                        const gamePins = this.tracker.games[gameId]?.pins || [];
+                        // Check if this pin matches any pin in the selected game by comparing key properties
+                        const pinMatches = gamePins.some(gamePin => 
+                            gamePin.x === pin.x && 
+                            gamePin.y === pin.y && 
+                            gamePin.timestamp === pin.timestamp &&
+                            (gamePin.player1Id === pin.player1Id || gamePin.playerId === pin.player1Id) &&
+                            (gamePin.player2Id === pin.player2Id || gamePin.playerId === pin.player2Id)
+                        );
+                        if (pinMatches) {
+                            return true;
+                        }
+                    }
+                    return false;
+                });
+            }
+            
             if (this.currentViewMode !== 'team') {
                 // Filter by specific player
-                pins = pins.filter(pin => pin.playerId === this.currentViewMode);
+                pins = pins.filter(pin => 
+                    pin.player1Id === this.currentViewMode || 
+                    pin.player2Id === this.currentViewMode || 
+                    pin.playerId === this.currentViewMode
+                );
                 const player = this.tracker.players.find(p => p.id === this.currentViewMode);
                 if (player) {
                     const displayName = player.number ? `#${player.number} ${player.name}` : player.name;
@@ -1955,17 +2103,29 @@ class UIController {
             
             // Apply face-off filter
             if (this.faceoffFilter !== 'all') {
-                pins = pins.filter(pin => pin.type === this.faceoffFilter);
+                pins = pins.filter(pin => {
+                    const faceoffResult = pin.faceoffResult || pin.type || 'win';
+                    return faceoffResult === this.faceoffFilter;
+                });
             }
             
             // Apply clamp filter
             if (this.clampFilter !== 'all') {
-                pins = pins.filter(pin => pin.clamp === this.clampFilter);
+                pins = pins.filter(pin => {
+                    const clampResult = pin.clampResult || pin.clamp || 'win';
+                    return clampResult === this.clampFilter;
+                });
             }
             
             // Calculate stats from filtered pins
-            const wins = pins.filter(p => p.type === 'win').length;
-            const losses = pins.filter(p => p.type === 'loss').length;
+            const wins = pins.filter(p => {
+                const faceoffResult = p.faceoffResult || p.type || 'win';
+                return faceoffResult === 'win';
+            }).length;
+            const losses = pins.filter(p => {
+                const faceoffResult = p.faceoffResult || p.type || 'win';
+                return faceoffResult === 'loss';
+            }).length;
             const total = wins + losses;
             const percentage = total > 0 ? Math.round((wins / total) * 100) : 0;
             stats = { wins, losses, total, percentage };
@@ -1997,8 +2157,14 @@ class UIController {
 
         gameIds.forEach(id => {
             const game = this.tracker.games[id];
-            const wins = game.pins.filter(p => p.type === 'win').length;
-            const losses = game.pins.filter(p => p.type === 'loss').length;
+            const wins = game.pins.filter(p => {
+                const faceoffResult = p.faceoffResult || p.type || 'win';
+                return faceoffResult === 'win';
+            }).length;
+            const losses = game.pins.filter(p => {
+                const faceoffResult = p.faceoffResult || p.type || 'win';
+                return faceoffResult === 'loss';
+            }).length;
             totalWins += wins;
             totalLosses += losses;
         });
@@ -2016,20 +2182,52 @@ class UIController {
         const game = this.tracker.getCurrentGame();
         let pins = game ? game.pins : [];
         
+        // For Season Total, filter pins by selected games
+        if (game && game.id === this.tracker.SEASON_TOTAL_ID && this.selectedGames.size > 0) {
+            pins = pins.filter(pin => {
+                // Find which game this pin belongs to by comparing pin properties
+                for (const gameId of this.selectedGames) {
+                    const gamePins = this.tracker.games[gameId]?.pins || [];
+                    // Check if this pin matches any pin in the selected game by comparing key properties
+                    const pinMatches = gamePins.some(gamePin => 
+                        gamePin.x === pin.x && 
+                        gamePin.y === pin.y && 
+                        gamePin.timestamp === pin.timestamp &&
+                        (gamePin.player1Id === pin.player1Id || gamePin.playerId === pin.player1Id) &&
+                        (gamePin.player2Id === pin.player2Id || gamePin.playerId === pin.player2Id)
+                    );
+                    if (pinMatches) {
+                        return true;
+                    }
+                }
+                return false;
+            });
+        }
+        
         // Filter pins based on view mode
         if (this.currentViewMode !== 'team') {
             // Viewing a specific player
-            pins = pins.filter(pin => pin.playerId === this.currentViewMode);
+            pins = pins.filter(pin => 
+                pin.player1Id === this.currentViewMode || 
+                pin.player2Id === this.currentViewMode || 
+                pin.playerId === this.currentViewMode
+            );
         }
         
         // Filter pins based on face-off result
         if (this.faceoffFilter !== 'all') {
-            pins = pins.filter(pin => pin.type === this.faceoffFilter);
+            pins = pins.filter(pin => {
+                const faceoffResult = pin.faceoffResult || pin.type || 'win';
+                return faceoffResult === this.faceoffFilter;
+            });
         }
         
         // Filter pins based on clamp result
         if (this.clampFilter !== 'all') {
-            pins = pins.filter(pin => pin.clamp === this.clampFilter);
+            pins = pins.filter(pin => {
+                const clampResult = pin.clampResult || pin.clamp || 'win';
+                return clampResult === this.clampFilter;
+            });
         }
         
         if (this.displayType === 'heatmap') {
@@ -2060,6 +2258,85 @@ class UIController {
                 control.classList.remove('hidden');
             }
         });
+        
+        // Show/hide game filtering section for Season Total
+        this.elements.gameFilterSection.style.display = isSeasonTotal ? 'block' : 'none';
+        
+        if (isSeasonTotal) {
+            this.updateGameFilterList();
+        }
+    }
+
+    updateGameFilterList() {
+        const container = this.elements.gameFilterList;
+        container.innerHTML = '';
+        
+        // Get all games except Season Total
+        const gameIds = Object.keys(this.tracker.games).filter(id => id !== this.tracker.SEASON_TOTAL_ID);
+        
+        if (gameIds.length === 0) {
+            container.innerHTML = '<div style="text-align: center; color: var(--text-secondary); padding: 10px;">No games to filter</div>';
+            return;
+        }
+        
+        // Initialize selectedGames with all games if empty
+        if (this.selectedGames.size === 0) {
+            gameIds.forEach(id => this.selectedGames.add(id));
+        }
+        
+        gameIds.forEach(gameId => {
+            const game = this.tracker.games[gameId];
+            const wins = game.pins.filter(p => {
+                const faceoffResult = p.faceoffResult || p.type || 'win';
+                return faceoffResult === 'win';
+            }).length;
+            const losses = game.pins.filter(p => {
+                const faceoffResult = p.faceoffResult || p.type || 'win';
+                return faceoffResult === 'loss';
+            }).length;
+            const total = wins + losses;
+            
+            const item = document.createElement('div');
+            item.className = 'game-filter-item';
+            item.innerHTML = `
+                <input type="checkbox" id="game-filter-${gameId}" ${this.selectedGames.has(gameId) ? 'checked' : ''}>
+                <label for="game-filter-${gameId}">${game.opponent}</label>
+                <span class="game-stats">${wins}W-${losses}L</span>
+            `;
+            
+            const checkbox = item.querySelector('input');
+            checkbox.addEventListener('change', () => {
+                if (checkbox.checked) {
+                    this.selectedGames.add(gameId);
+                } else {
+                    this.selectedGames.delete(gameId);
+                }
+                this.render();
+                this.updateStats();
+            });
+            
+            container.appendChild(item);
+        });
+    }
+
+    selectAllGames() {
+        const checkboxes = this.elements.gameFilterList.querySelectorAll('input[type="checkbox"]');
+        checkboxes.forEach(checkbox => {
+            checkbox.checked = true;
+            this.selectedGames.add(checkbox.id.replace('game-filter-', ''));
+        });
+        this.render();
+        this.updateStats();
+    }
+
+    deselectAllGames() {
+        const checkboxes = this.elements.gameFilterList.querySelectorAll('input[type="checkbox"]');
+        checkboxes.forEach(checkbox => {
+            checkbox.checked = false;
+            this.selectedGames.delete(checkbox.id.replace('game-filter-', ''));
+        });
+        this.render();
+        this.updateStats();
     }
 
     updateUI() {
@@ -2067,7 +2344,6 @@ class UIController {
         this.updateCurrentGameInfo();
         this.updateGameControls(); // Show/hide controls based on Season Total
         this.updateRosterList();
-        this.updatePlayerSelect();
         this.updatePlayerViewList();
         this.updateStats();
         this.updateSeasonStats();
@@ -2103,9 +2379,17 @@ class UIController {
         roster.forEach(playerId => {
             const player = this.tracker.players.find(p => p.id === playerId);
             if (player) {
-                const playerPins = game.pins.filter(pin => pin.playerId === playerId);
-                const wins = playerPins.filter(p => p.type === 'win').length;
-                const losses = playerPins.filter(p => p.type === 'loss').length;
+                const playerPins = game.pins.filter(pin => 
+                    pin.player1Id === playerId || pin.player2Id === playerId || pin.playerId === playerId
+                );
+                const wins = playerPins.filter(p => {
+                    const faceoffResult = p.faceoffResult || p.type || 'win';
+                    return faceoffResult === 'win';
+                }).length;
+                const losses = playerPins.filter(p => {
+                    const faceoffResult = p.faceoffResult || p.type || 'win';
+                    return faceoffResult === 'loss';
+                }).length;
                 const total = wins + losses;
                 const percentage = total > 0 ? Math.round((wins / total) * 100) : 0;
                 

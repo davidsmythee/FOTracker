@@ -115,38 +115,6 @@
                 <div class="side-controls">
                     <button id="delete-game-btn" class="btn btn-danger" style="display: none; margin-bottom: 12px;">Delete Game</button>
                     
-                    <div class="control-section game-only-control">
-                        <h3>Face-Off & Clamp Results</h3>
-                        <div class="dual-toggle-container">
-                            <div class="toggle-group">
-                                <label>Face-Off</label>
-                                <div class="mode-selector">
-                                    <button id="mode-win" class="mode-btn active" data-mode="win">
-                                        <span class="mode-icon">✓</span>
-                                        <span>Win</span>
-                                    </button>
-                                    <button id="mode-loss" class="mode-btn" data-mode="loss">
-                                        <span class="mode-icon">✗</span>
-                                        <span>Loss</span>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="toggle-group">
-                                <label>Clamp</label>
-                                <div class="mode-selector">
-                                    <button id="clamp-win" class="mode-btn active" data-clamp="win">
-                                        <span class="mode-icon">✓</span>
-                                        <span>Win</span>
-                                    </button>
-                                    <button id="clamp-loss" class="mode-btn" data-clamp="loss">
-                                        <span class="mode-icon">✗</span>
-                                        <span>Loss</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <small class="form-hint">Inner = Face-Off, Outer Ring = Clamp</small>
-                    </div>
 
                     <div class="control-section game-only-control">
                         <h3>Game Roster</h3>
@@ -154,13 +122,6 @@
                         <div id="roster-list" class="roster-list"></div>
                     </div>
 
-                    <div class="control-section game-only-control">
-                        <h3>Current Player</h3>
-                        <select id="player-select" class="player-select">
-                            <option value="">Select Player</option>
-                        </select>
-                        <small class="form-hint">Select who's taking this face-off</small>
-                    </div>
 
                     <div class="control-section">
                         <h3>View Mode</h3>
@@ -187,6 +148,16 @@
                                 <button id="filter-clamp-wins" class="filter-btn" data-filter="win">Wins</button>
                                 <button id="filter-clamp-losses" class="filter-btn" data-filter="loss">Losses</button>
                             </div>
+                        </div>
+                        
+                        <!-- Season Total Game Filtering -->
+                        <div class="filter-section season-total-only" id="game-filter-section" style="display: none;">
+                            <label class="filter-label">Filter by Games</label>
+                            <div class="game-filter-controls">
+                                <button id="select-all-games" class="btn btn-small">Select All</button>
+                                <button id="deselect-all-games" class="btn btn-small">Deselect All</button>
+                            </div>
+                            <div id="game-filter-list" class="game-filter-list"></div>
                         </div>
                     </div>
 
@@ -312,6 +283,62 @@
             <div class="modal-actions">
                 <button type="button" id="close-manage-players" class="btn btn-primary">Close</button>
             </div>
+        </div>
+    </div>
+
+    <!-- Pin Details Modal -->
+    <div id="pin-details-modal" class="modal">
+        <div class="modal-content">
+            <h2>Face-Off Details</h2>
+            <form id="pin-details-form">
+                <div class="form-group">
+                    <label>Face-Off Result:</label>
+                    <div class="result-selector">
+                        <button type="button" id="faceoff-win" class="result-btn" data-result="win">
+                            <span class="result-icon">✓</span>
+                            <span>Win</span>
+                        </button>
+                        <button type="button" id="faceoff-loss" class="result-btn" data-result="loss">
+                            <span class="result-icon">✗</span>
+                            <span>Loss</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label>Clamp Result:</label>
+                    <div class="result-selector">
+                        <button type="button" id="clamp-win" class="result-btn" data-result="win">
+                            <span class="result-icon">✓</span>
+                            <span>Win</span>
+                        </button>
+                        <button type="button" id="clamp-loss" class="result-btn" data-result="loss">
+                            <span class="result-icon">✗</span>
+                            <span>Loss</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="player1-select">Player 1:</label>
+                    <select id="player1-select" class="player-select" required>
+                        <option value="">Select Player 1</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="player2-select">Player 2:</label>
+                    <select id="player2-select" class="player-select" required>
+                        <option value="">Select Player 2</option>
+                        <option value="unknown">Unknown</option>
+                    </select>
+                </div>
+
+                <div class="modal-actions">
+                    <button type="button" id="cancel-pin-details" class="btn btn-secondary">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Add Pin</button>
+                </div>
+            </form>
         </div>
     </div>
 
