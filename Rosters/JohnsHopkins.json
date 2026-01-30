@@ -1,0 +1,280 @@
+{
+  "team": "Johns Hopkins University",
+  "scrapedAt": "2026-01-28T20:35:14.053Z",
+  "playerCount": 39,
+  "players": [
+    {
+      "name": "Carson Brown",
+      "number": "1",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Jack Webb",
+      "number": "2",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Ciaran McCleary",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Jimmy Ayers",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Quintan Kilrain",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Liam Gregorek",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Nicholas Lane",
+      "number": "8",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Andrew Cook",
+      "number": "9",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Dan Sheppard",
+      "number": "12",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Luke Martin",
+      "number": "13",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Charlie Hazard",
+      "number": "14",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Matt Collison",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Sean Crogan",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Gavin Fitzpatrick",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "John McKee",
+      "number": "23",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Gabe Sorichetti",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Brooks English",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Jameson  Smith",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Joe Hobot",
+      "number": "28",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Charlie Iler",
+      "number": "29",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "James Rost",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Carter Kryszak",
+      "number": "32",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Max McCarthy",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "David Disque",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Connor Kuttin",
+      "number": "35",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Mikey Trepeta",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Philip Verdi",
+      "number": "41",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Parker Sorenson",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Tyler Eye",
+      "number": "48",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Jay Rodgers",
+      "number": "49",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Chuck Rawson",
+      "number": "51",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Graham Kaestner",
+      "number": "52",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Alexander Swinnie",
+      "number": "53",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Patrick Hiebert",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Oran Gelinas",
+      "number": "87",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Tripp Didden",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Hunter Chauvette",
+      "number": "91",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Vernon Cooke",
+      "number": "97",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Johns Hopkins University"
+    },
+    {
+      "name": "Dash Lamitie",
+      "number": "99",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Johns Hopkins University"
+    }
+  ]
+}

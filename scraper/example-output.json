@@ -1,0 +1,77 @@
+{
+  "team": "Princeton University",
+  "scrapedAt": "2024-01-28T12:00:00.000Z",
+  "playerCount": 10,
+  "players": [
+    {
+      "name": "John Smith",
+      "number": "1",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Princeton University"
+    },
+    {
+      "name": "Michael Johnson",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Princeton University"
+    },
+    {
+      "name": "David Williams",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Princeton University"
+    },
+    {
+      "name": "James Brown",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Princeton University"
+    },
+    {
+      "name": "Robert Jones",
+      "number": "15",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Princeton University"
+    },
+    {
+      "name": "William Davis",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Princeton University"
+    },
+    {
+      "name": "Richard Miller",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Princeton University"
+    },
+    {
+      "name": "Joseph Wilson",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Graduate",
+      "team": "Princeton University"
+    },
+    {
+      "name": "Thomas Moore",
+      "number": "42",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Princeton University"
+    },
+    {
+      "name": "Charles Taylor",
+      "number": "44",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Princeton University"
+    }
+  ]
+}

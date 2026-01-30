@@ -1,0 +1,350 @@
+{
+  "team": "Rutgers University",
+  "scrapedAt": "2026-01-28T20:56:27.142Z",
+  "playerCount": 49,
+  "players": [
+    {
+      "name": "So.",
+      "number": "0",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Duke Richman II",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Colin Kelly",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Haydn Sommer",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Jr.",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Kasey Mongillo",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Jordan Smikle",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Dylan Finder",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Brady Kurdyla",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Shane Murphy",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Nate Austin-Johnstone",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "David Carroll",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Bennett Raphalian",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Joe Juengerkes",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Ryan Parker",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Colten Yates",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Dylan Groff",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Ryan Splaine",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Marco Wimmershoff",
+      "number": "18",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Exercise Science",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Kyle Worsnup",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Joe Norton",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Andrew Macheca",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Matthew Mannarino",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Caden Kirst",
+      "number": "25",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Fr.",
+      "number": "27",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "John Scarelli",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Hunter Falzon",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Andrew Crosby",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Brock Desmarais",
+      "number": "32",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Conor Udovich",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Evan Large",
+      "number": "35",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Deacon Adams",
+      "number": "37",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Jake Rainero",
+      "number": "39",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Justin Lawler",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Heath Jones",
+      "number": "42",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Jack Lonsinger",
+      "number": "43",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Zach Walsh",
+      "number": "44",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Blake Borges",
+      "number": "45",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Colin Wade",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Charles Eischens",
+      "number": "49",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Colin Zeller",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Avery Bowerman",
+      "number": "54",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Charlie McCullough",
+      "number": "55",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Greyson Vorgang",
+      "number": "77",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Cam Hitchcock",
+      "number": "81",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Colin Kurdyla",
+      "number": "88",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Brenden Kelly",
+      "number": "91",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Rutgers University"
+    },
+    {
+      "name": "Cardin Stoller",
+      "number": "92",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Rutgers University"
+    }
+  ]
+}

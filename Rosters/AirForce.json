@@ -1,0 +1,315 @@
+{
+  "team": "United States Air Force Academy",
+  "scrapedAt": "2026-01-28T19:23:57.728Z",
+  "playerCount": 44,
+  "players": [
+    {
+      "name": "Sam Lovell",
+      "number": "0",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Caelan Driggs",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Rogan Kane",
+      "number": "3",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Reece Pamintuan",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Aidan Chairs",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Henry Spencer",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Jake Mason",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "So.",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Nick Walter",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Alex Rismani",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Cole Cunningham",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Ryan Stadelmaier",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Jackson Gervais",
+      "number": "13",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Luke Vrsansky",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Sam Palmisano",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Jack Schulte",
+      "number": "17",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "John Kleinbeck",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Lucas Vahey",
+      "number": "20",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Marshall Lasewicz",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Jake Park",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Lee Krotee",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Connor Albertson",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Tyler Smart",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Nathan Crouse",
+      "number": "26",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Matt Rosato",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Thomas Sheumack",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Michael Frieri",
+      "number": "30",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Christian Schweiger",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Cole Rassas",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Jack Gounaris",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Ben Heidt",
+      "number": "35",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Wells Flinn",
+      "number": "36",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Michael Edell",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Hee-Cheol Shin",
+      "number": "38",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Cal Schieffer",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Hunter Panzik",
+      "number": "42",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Mana Wilhelm",
+      "number": "43",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Charlie Pyfer",
+      "number": "45",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Nate Estrella",
+      "number": "48",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Seth Aliveto",
+      "number": "50",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Mason Meagher",
+      "number": "52",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Bentley Miller",
+      "number": "53",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Connor Rassas",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "United States Air Force Academy"
+    },
+    {
+      "name": "Joe Cusimano",
+      "number": "59",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "United States Air Force Academy"
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "team": "University of Denver",
+  "scrapedAt": "2026-01-28T19:28:27.133Z",
+  "playerCount": 49,
+  "players": [
+    {
+      "name": "Brody Davis",
+      "number": "1",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Jimmy  Douglas",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Colton  Pawlak",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Chris Merageas",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Blake Kirschke",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Cade Eldred",
+      "number": "6",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "University of Denver"
+    },
+    {
+      "name": "William Hayes",
+      "number": "7",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Justin  Tavares",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Joe Taraboletti",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Tye Scott",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Russell  Overly",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Colm  Barnett",
+      "number": "14",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Caden  Paradine",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Sam Trumble",
+      "number": "16",
+      "position": "SSDM",
+      "classYear": "",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Cody Malawsky",
+      "number": "17",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Cheyne Repp",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Watt Muir",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Luke Shinofield",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Asher  Pressnall",
+      "number": "21",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Colin  Komenda",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Daniel Clark",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Luke Ficeli",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Jack D'Spain",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Patrick  Reilly",
+      "number": "26",
+      "position": "SSDM",
+      "classYear": "",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Gordon Reynolds",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Wyatt Hurd",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Grant  Ramsey",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Blake Benton",
+      "number": "30",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Tim Kirchner",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Denver"
+    },
+    {
+      "name": "John  Seevers",
+      "number": "32",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Tim McNamara",
+      "number": "33",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Marek Tzagournis",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Sawyer Hudgins",
+      "number": "35",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Seamus Faulkner",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Chase Bruno",
+      "number": "37",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Luke Smeader",
+      "number": "41",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Rory Graham",
+      "number": "42",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Billy Carr",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Lucas Klokiw",
+      "number": "45",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Braeden  Lair",
+      "number": "46",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Chris Caldwell",
+      "number": "47",
+      "position": "LSM",
+      "classYear": "",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Grayson Manning",
+      "number": "48",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Jake Brader",
+      "number": "49",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Liam Connors",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Luke  Barkimer",
+      "number": "52",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Hank  Leonard",
+      "number": "54",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Luke Alread",
+      "number": "55",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Brendan  Bateman",
+      "number": "56",
+      "position": "SSDM",
+      "classYear": "",
+      "team": "University of Denver"
+    },
+    {
+      "name": "Kaysey  Choudry",
+      "number": "60",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "University of Denver"
+    }
+  ]
+}

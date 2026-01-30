@@ -1,0 +1,301 @@
+{
+  "team": "High Point University",
+  "scrapedAt": "2026-01-28T20:31:33.978Z",
+  "playerCount": 42,
+  "players": [
+    {
+      "name": "Nicky Souza",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "",
+      "team": "High Point University"
+    },
+    {
+      "name": "Justin Wixted",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "High Point University"
+    },
+    {
+      "name": "Ian Cann",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "High Point University"
+    },
+    {
+      "name": "James Westbrooks",
+      "number": "4",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "High Point University"
+    },
+    {
+      "name": "Cole Motter",
+      "number": "6",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "High Point University"
+    },
+    {
+      "name": "Ryan Hynes",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "High Point University"
+    },
+    {
+      "name": "Caio Stephens",
+      "number": "8",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "High Point University"
+    },
+    {
+      "name": "Jude Smith",
+      "number": "9",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "High Point University"
+    },
+    {
+      "name": "Matt Lutzel",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "High Point University"
+    },
+    {
+      "name": "Collin Rovere",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "High Point University"
+    },
+    {
+      "name": "Owen Corsi",
+      "number": "13",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "High Point University"
+    },
+    {
+      "name": "Scott Moore",
+      "number": "14",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "High Point University"
+    },
+    {
+      "name": "Asher Stull",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "High Point University"
+    },
+    {
+      "name": "Emerson McGrath",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "High Point University"
+    },
+    {
+      "name": "Tyler Gross",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "High Point University"
+    },
+    {
+      "name": "Owen Bunten",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "",
+      "team": "High Point University"
+    },
+    {
+      "name": "Nicholas Steele",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "",
+      "team": "High Point University"
+    },
+    {
+      "name": "Alex Loveland",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "High Point University"
+    },
+    {
+      "name": "Cole Luik",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "High Point University"
+    },
+    {
+      "name": "Noah Stull",
+      "number": "27",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "High Point University"
+    },
+    {
+      "name": "David Manzo",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "High Point University"
+    },
+    {
+      "name": "Crew Nelson",
+      "number": "31",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "High Point University"
+    },
+    {
+      "name": "Ryan Marengo",
+      "number": "32",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "High Point University"
+    },
+    {
+      "name": "Brody Rhee",
+      "number": "33",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "High Point University"
+    },
+    {
+      "name": "Bryce Hoben",
+      "number": "35",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "High Point University"
+    },
+    {
+      "name": "Tucker Chanenchuk",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "High Point University"
+    },
+    {
+      "name": "Chase Harden",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "High Point University"
+    },
+    {
+      "name": "Nick Bounassi",
+      "number": "38",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "High Point University"
+    },
+    {
+      "name": "Charlie Killen",
+      "number": "39",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "High Point University"
+    },
+    {
+      "name": "Owen Cooper",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "High Point University"
+    },
+    {
+      "name": "Luca Accardo",
+      "number": "43",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "High Point University"
+    },
+    {
+      "name": "Zack Overend",
+      "number": "44",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "High Point University"
+    },
+    {
+      "name": "Mason Wolford",
+      "number": "46",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "High Point University"
+    },
+    {
+      "name": "Weston Benson",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "High Point University"
+    },
+    {
+      "name": "Will Swartz",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "High Point University"
+    },
+    {
+      "name": "Magnus Falkiewicz",
+      "number": "51",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "High Point University"
+    },
+    {
+      "name": "Michael Tauscher",
+      "number": "52",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "High Point University"
+    },
+    {
+      "name": "Robby Lang",
+      "number": "54",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "High Point University"
+    },
+    {
+      "name": "Carson Robins",
+      "number": "55",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "High Point University"
+    },
+    {
+      "name": "Kolby Poole",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "High Point University"
+    },
+    {
+      "name": "Quinn Reilly",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "High Point University"
+    },
+    {
+      "name": "Aiden McCullough",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "",
+      "team": "High Point University"
+    }
+  ]
+}

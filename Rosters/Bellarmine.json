@@ -1,0 +1,284 @@
+{
+    "team": "Bellarmine University",
+    "source": "https://athletics.bellarmine.edu/sports/mens-lacrosse/roster",
+    "scrapedAt": "2026-01-28T18:51:02.668Z",
+    "playerCount": 46,
+    "players": [
+      {
+        "name": "Maxton Messner",
+        "number": "0",
+        "position": "Midfielder",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Dillon O'Rourke",
+        "number": "1",
+        "position": "Defense",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Ty Washington",
+        "number": "3",
+        "position": "Midfielder",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Robert MacMichael",
+        "number": "4",
+        "position": "Defense",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "John Burkhardt",
+        "number": "5",
+        "position": "Midfielder",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Grant Crossley",
+        "number": "6",
+        "position": "Goalie",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Aaron Alford",
+        "number": "8",
+        "position": "Defense",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Nick Ferge",
+        "number": "11",
+        "position": "Defense",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Ryan Curry",
+        "number": "14",
+        "position": "Midfielder",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Jacob Hunsinger",
+        "number": "15",
+        "position": "Midfielder",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Niko Madden",
+        "number": "18",
+        "position": "FOGO",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Christian Davis",
+        "number": "19",
+        "position": "Midfielder",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Evan O'Brien",
+        "number": "20",
+        "position": "Defense",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Sam Boylston",
+        "number": "22",
+        "position": "Midfielder",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "John Alie",
+        "number": "23",
+        "position": "Attack",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Joe Alie",
+        "number": "25",
+        "position": "Attack",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Quinn Riley",
+        "number": "26",
+        "position": "Attack",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Jack Love",
+        "number": "27",
+        "position": "Defense",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Ezra Moore",
+        "number": "28",
+        "position": "Attack",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Andrew Hoffmann",
+        "number": "29",
+        "position": "Goalie",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Anderson Wagner",
+        "number": "30",
+        "position": "Midfielder",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Jackson Campisano",
+        "number": "31",
+        "position": "Defense",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Luke Healy",
+        "number": "32",
+        "position": "Midfielder",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Christopher Reynolds",
+        "number": "33",
+        "position": "Defense",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Caden Pickell",
+        "number": "34",
+        "position": "Midfielder",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Devin Ryan",
+        "number": "35",
+        "position": "Midfielder",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Kellen Marks",
+        "number": "36",
+        "position": "Midfielder",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Landon Clark",
+        "number": "38",
+        "position": "Midfielder",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Matt Kirton",
+        "number": "40",
+        "position": "Defense",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Brian O'Connor II",
+        "number": "42",
+        "position": "Midfielder",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Brendan Lehrer",
+        "number": "43",
+        "position": "Midfielder",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Robert Pope",
+        "number": "44",
+        "position": "Midfielder",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Nolan Hudnut",
+        "number": "45",
+        "position": "Goalie",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Ayden Hanna",
+        "number": "47",
+        "position": "Midfielder",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Jackson Sedlacek",
+        "number": "48",
+        "position": "Midfielder",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Grant Guthrie",
+        "number": "49",
+        "position": "FOGO",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Kyle Sanders",
+        "number": "50",
+        "position": "FOGO",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Blake Collier",
+        "number": "52",
+        "position": "Midfielder",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Samuel Churchill",
+        "number": "66",
+        "position": "FOGO",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Zander Gorman",
+        "number": "72",
+        "position": "Defense",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Zach Bailiff",
+        "number": "77",
+        "position": "Attack",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Grant Krebs",
+        "number": "81",
+        "position": "Defense",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Clay Stauffer",
+        "number": "88",
+        "position": "Defense",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Isaac Miller",
+        "number": "90",
+        "position": "Defense",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Oskar Magnusson",
+        "number": "91",
+        "position": "Midfielder",
+        "team": "Bellarmine University"
+      },
+      {
+        "name": "Charles Ellswood",
+        "number": "99",
+        "position": "Defense",
+        "team": "Bellarmine University"
+      }
+    ]
+  }

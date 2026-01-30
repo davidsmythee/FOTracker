@@ -1,0 +1,364 @@
+{
+  "team": "Marquette University",
+  "scrapedAt": "2026-01-28T20:40:20.125Z",
+  "playerCount": 51,
+  "players": [
+    {
+      "name": "Ty Ambush",
+      "number": "0",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Carsen Brandt",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Connor Schoenwetter",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Adam Slager",
+      "number": "3",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Brol Scherman",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Jacob Nottoli",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Andrew Kohlbrenner",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Zach Hulme",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Mike Piraino",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Andrew Bowman",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Colin Maloney",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Colin Sim",
+      "number": "11",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Tucker Mullen",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Beau Westphal",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Matt Hamill",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Nolan Rappis",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Thomas Andriole",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Ethan Salvia",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Connor Coutu",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Michael Maloney",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Bradley Johnson",
+      "number": "21",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Ben Pousak",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Sr.",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Kaiden Kohls",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Justin Daubert",
+      "number": "25",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Hayden Hiltz",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Parker Leslie",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Brock Duerring",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Jack Schwartz",
+      "number": "29",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Iggy LoMedico",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Matt Caputo",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Peter Detwiler",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Chandler Caster",
+      "number": "33",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Jadyn Castillo",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Pierce Johnstone Clark",
+      "number": "37",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Troy Teff",
+      "number": "41",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Luke Montanye",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Lucas Lawas",
+      "number": "45",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Calvin Hicks",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Carson Miks",
+      "number": "49",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Jack Schoenwetter",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Easton McCafferty",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Dylan Duerring",
+      "number": "54",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Jackson Nichols",
+      "number": "55",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Patrick Tuohy",
+      "number": "66",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Jack Casey",
+      "number": "71",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Brady Nicholas",
+      "number": "77",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Harrison Sweeney",
+      "number": "81",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Jack Kask",
+      "number": "89",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Brenden Boyle",
+      "number": "91",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Marquette University"
+    },
+    {
+      "name": "Jake Bair",
+      "number": "99",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Marquette University"
+    }
+  ]
+}

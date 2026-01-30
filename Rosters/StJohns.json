@@ -1,0 +1,343 @@
+{
+  "team": "St. John's University",
+  "scrapedAt": "2026-01-28T21:00:40.044Z",
+  "playerCount": 48,
+  "players": [
+    {
+      "name": "Owen Rogers",
+      "number": "0",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Harry Noel",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Max Mullen",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Sean Rice",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Quinn Falasca",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "St. John's University"
+    },
+    {
+      "name": "James Easton",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Charlie Kingsbury",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "John Bishop",
+      "number": "8",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Wade Bryan",
+      "number": "9",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Jack McCormack",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Jonah Choi",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Matt Nelson",
+      "number": "12",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Drew Lindsay",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Ethan Wiegand",
+      "number": "14",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Cam Konradi",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Maclin Keyser",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Jake Wright",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Brody Hergott",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Christian Todaro",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Logan Lyle",
+      "number": "20",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Dylan Bender",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Jason Pagano",
+      "number": "22",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Chase Huggard",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Danny Seaman",
+      "number": "24",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Griffin Strange",
+      "number": "25",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Tyson Meade",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Max Sciro",
+      "number": "27",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Adrian Nowak",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Henry Coke",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Fr.",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Adam Dembicki",
+      "number": "31",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Marcel Vernon Jr.",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Danny Koch",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Jason Raba",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Luke Lulley",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Corbin Minard",
+      "number": "39",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Kevin Cinotti",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Ryan Farron",
+      "number": "44",
+      "position": "LSM",
+      "classYear": "",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Connor Dodd",
+      "number": "45",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Ryan Miele",
+      "number": "46",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Jayson Cardenas",
+      "number": "49",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Jackson Harcarik",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Ryan Ormond",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Wyatt Maguire",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Joey Asterino",
+      "number": "66",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Edgar Ford",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Noah Plenn",
+      "number": "91",
+      "position": "Attack",
+      "classYear": "",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Jackson Thompson",
+      "number": "99",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "St. John's University"
+    }
+  ]
+}

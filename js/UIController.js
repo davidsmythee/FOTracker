@@ -1,867 +1,8 @@
-// ===== Import Firebase Service =====
-import firebaseService from './firebase-service.js';
-
-// ===== Data Model =====
-class FaceOffTracker {
-    constructor(useFirebase = true) {
-        this.useFirebase = useFirebase;
-        this.games = {};
-        this.currentGameId = null;
-        this.currentMode = 'win'; // 'win' or 'loss' for face-off result
-        this.currentClamp = 'win'; // 'win' or 'loss' for clamp result
-        this.players = [];
-        this.SEASON_TOTAL_ID = 'season_total';
-        this.isLoading = false;
-        this.onDataChangeCallback = null;
-        this.hasUnsavedChanges = false; // Track unsaved pins/roster changes
-        
-        // Track Firebase operations for debugging
-        this.firebaseOpCount = { reads: 0, writes: 0 };
-    }
-
-    async initialize() {
-        if (this.useFirebase && firebaseService.getUserId()) {
-            await this.loadFromFirebase();
-            this.setupFirebaseListeners();
-        } else {
-            this.loadFromLocalStorage();
-        }
-        await this.ensureSeasonTotalExists();
-        
-        // Set current game to Season Total if none selected or invalid
-        const oldGameId = this.currentGameId;
-        if (!this.currentGameId || !this.games[this.currentGameId]) {
-            this.currentGameId = this.SEASON_TOTAL_ID;
-        }
-        
-        // Only save if we actually changed the game ID
-        if (oldGameId !== this.currentGameId && this.useFirebase && firebaseService.getUserId()) {
-            await this.saveCurrentGameId();
-        }
-    }
-
-    async loadFromFirebase() {
-        try {
-            this.isLoading = true;
-            console.log('📖 Loading data from Firebase (initial load)...');
-            const [games, players, currentGameId] = await Promise.all([
-                firebaseService.getAllGames(),
-                firebaseService.getAllPlayers(),
-                firebaseService.getCurrentGameId()
-            ]);
-            
-            this.firebaseOpCount.reads += 3; // 3 read operations
-            console.log(`📊 Total Firebase operations - reads: ${this.firebaseOpCount.reads}, writes: ${this.firebaseOpCount.writes}`);
-            
-            this.games = games;
-            this.players = players;
-            this.currentGameId = currentGameId;
-            this.isLoading = false;
-        } catch (error) {
-            console.error('Error loading from Firebase:', error);
-            this.isLoading = false;
-            // Fallback to localStorage
-            this.loadFromLocalStorage();
-        }
-    }
-
-    loadFromLocalStorage() {
-        this.games = this.loadGames();
-        this.currentGameId = this.loadCurrentGameId();
-        this.players = this.loadPlayers();
-    }
-
-    setupFirebaseListeners() {
-        // TEMPORARILY DISABLED: Real-time listeners were causing runaway reads/writes
-        // TODO: Re-implement with proper debouncing and loop prevention
-        console.warn('🚫 Firebase real-time listeners DISABLED to prevent quota exhaustion');
-        
-        // // Listen to real-time updates
-        // firebaseService.listenToGames((games) => {
-        //     this.games = games;
-        //     // Just update local state, don't trigger any saves
-        //     // Season Total is already correct in Firebase
-        //     if (this.onDataChangeCallback) {
-        //         this.onDataChangeCallback('games');
-        //     }
-        // });
-
-        // firebaseService.listenToPlayers((players) => {
-        //     this.players = players;
-        //     if (this.onDataChangeCallback) {
-        //         this.onDataChangeCallback('players');
-        //     }
-        // });
-    }
-
-    onDataChange(callback) {
-        this.onDataChangeCallback = callback;
-    }
-
-    loadPlayers() {
-        const saved = localStorage.getItem('faceoff_players');
-        return saved ? JSON.parse(saved) : [];
-    }
-
-    async savePlayers() {
-        if (this.useFirebase && firebaseService.getUserId()) {
-            // Save each player individually to Firebase
-            for (const player of this.players) {
-                await firebaseService.savePlayer(player.id, player);
-            }
-        } else {
-            localStorage.setItem('faceoff_players', JSON.stringify(this.players));
-        }
-    }
-
-    async addPlayer(name, number = '', team = '') {
-        const player = {
-            id: Date.now().toString(),
-            name,
-            number,
-            team,
-            createdAt: new Date().toISOString()
-        };
-        this.players.push(player);
-        
-        if (this.useFirebase && firebaseService.getUserId()) {
-            this.firebaseOpCount.writes++;
-            console.log(`💾 WRITE #${this.firebaseOpCount.writes}: Saving player "${player.name}"`);
-            await firebaseService.savePlayer(player.id, player);
-            console.log(`📊 Total Firebase operations - reads: ${this.firebaseOpCount.reads}, writes: ${this.firebaseOpCount.writes}`);
-        } else {
-            this.savePlayers();
-        }
-        
-        return player;
-    }
-
-    getTeams() {
-        // Get unique teams from all players
-        const teams = new Set();
-        this.players.forEach(player => {
-            if (player.team) {
-                teams.add(player.team);
-            }
-        });
-        return Array.from(teams).sort();
-    }
-
-    async deletePlayer(playerId) {
-        // Remove all pins associated with this player from all games
-        Object.values(this.games).forEach(game => {
-            if (game.id !== this.SEASON_TOTAL_ID) {
-                const originalPinCount = game.pins.length;
-                game.pins = game.pins.filter(pin => 
-                    pin.player1Id !== playerId && pin.player2Id !== playerId && pin.playerId !== playerId
-                );
-                
-                // If pins were removed, save the game
-                if (game.pins.length !== originalPinCount && this.useFirebase && firebaseService.getUserId()) {
-                    firebaseService.saveGame(game.id, game);
-                }
-            }
-        });
-        
-        // Rebuild Season Total to remove player's pins
-        this.rebuildSeasonTotal();
-        if (this.useFirebase && firebaseService.getUserId()) {
-            await firebaseService.saveGame(this.SEASON_TOTAL_ID, this.games[this.SEASON_TOTAL_ID]);
-        }
-        
-        // Remove player from all game rosters
-        Object.values(this.games).forEach(game => {
-            if (game.id !== this.SEASON_TOTAL_ID && game.roster) {
-                game.roster = game.roster.filter(id => id !== playerId);
-            }
-        });
-        
-        // Remove player from players list
-        this.players = this.players.filter(p => p.id !== playerId);
-        
-        if (this.useFirebase && firebaseService.getUserId()) {
-            await firebaseService.deletePlayer(playerId);
-        } else {
-            this.savePlayers();
-            this.saveGames();
-        }
-    }
-
-    addPlayerToRoster(gameId, playerId) {
-        const game = this.games[gameId];
-        if (!game || game.id === this.SEASON_TOTAL_ID) return;
-        
-        // Initialize roster if it doesn't exist (for older games)
-        if (!game.roster) {
-            game.roster = [];
-        }
-        
-        // Add player if not already in roster
-        if (!game.roster.includes(playerId)) {
-            game.roster.push(playerId);
-            this.markUnsavedChanges();
-        }
-    }
-
-    removePlayerFromRoster(gameId, playerId) {
-        const game = this.games[gameId];
-        if (!game || game.id === this.SEASON_TOTAL_ID) return;
-        
-        if (game.roster) {
-            // Remove player from roster
-            game.roster = game.roster.filter(id => id !== playerId);
-            
-            // Remove all pins by this player from the game
-            game.pins = game.pins.filter(pin => 
-                pin.player1Id !== playerId && pin.player2Id !== playerId && pin.playerId !== playerId
-            );
-            
-            // Rebuild season total
-            this.rebuildSeasonTotal();
-            
-            this.markUnsavedChanges();
-        }
-    }
-
-    getGameRoster(gameId) {
-        const game = this.games[gameId];
-        if (!game || game.id === this.SEASON_TOTAL_ID) return [];
-        
-        // Initialize roster if it doesn't exist
-        if (!game.roster) {
-            game.roster = [];
-        }
-        
-        // Return player objects for roster IDs
-        return game.roster
-            .map(id => this.players.find(p => p.id === id))
-            .filter(p => p); // Filter out any undefined (deleted players)
-    }
-
-    async ensureSeasonTotalExists() {
-        if (!this.games[this.SEASON_TOTAL_ID]) {
-            console.log('📊 Creating Season Total for the first time');
-            this.games[this.SEASON_TOTAL_ID] = {
-                id: this.SEASON_TOTAL_ID,
-                opponent: '🏆 Season Total',
-                date: new Date().toISOString(),
-                notes: 'All face-offs from every game',
-                pins: [],
-                isSeasonTotal: true,
-                createdAt: new Date().toISOString()
-            };
-            
-            // Rebuild Season Total from all games
-            this.rebuildSeasonTotal();
-            
-            // Save the newly created Season Total
-            console.log('💾 Saving Season Total to Firebase (first time)');
-            await this.saveGame(this.SEASON_TOTAL_ID);
-        } else {
-            // Just rebuild Season Total in memory from existing games
-            console.log('📊 Rebuilding Season Total in memory (no save)');
-            this.rebuildSeasonTotal();
-        }
-    }
-
-    rebuildSeasonTotal() {
-        // Collect all pins from all regular games
-        const allPins = [];
-        Object.keys(this.games).forEach(gameId => {
-            if (gameId !== this.SEASON_TOTAL_ID) {
-                const game = this.games[gameId];
-                if (game && game.pins) {
-                    allPins.push(...game.pins.map(pin => ({...pin})));
-                }
-            }
-        });
-
-        // Update Season Total with all pins (in memory only)
-        if (this.games[this.SEASON_TOTAL_ID]) {
-            this.games[this.SEASON_TOTAL_ID].pins = allPins;
-        }
-    }
-
-    markUnsavedChanges() {
-        this.hasUnsavedChanges = true;
-        if (this.onDataChangeCallback) {
-            this.onDataChangeCallback('unsaved');
-        }
-    }
-
-    async manualSaveGame() {
-        const game = this.getCurrentGame();
-        if (!game) return;
-
-        try {
-            console.log(`💾 Manual save initiated for "${game.opponent}"`);
-            // Save current game to Firebase
-            if (this.useFirebase && firebaseService.getUserId()) {
-                await this.saveGame(game.id);
-                
-                // Also save Season Total if this is a regular game
-                if (game.id !== this.SEASON_TOTAL_ID) {
-                    this.rebuildSeasonTotal();
-                    await this.saveGame(this.SEASON_TOTAL_ID);
-                }
-            } else {
-                this.saveGames();
-            }
-
-            this.hasUnsavedChanges = false;
-            if (this.onDataChangeCallback) {
-                this.onDataChangeCallback('saved');
-            }
-            console.log('✅ Manual save complete');
-        } catch (error) {
-            console.error('❌ Error saving game:', error);
-            if (this.onDataChangeCallback) {
-                this.onDataChangeCallback('save-error');
-            }
-        }
-    }
-
-    loadGames() {
-        const saved = localStorage.getItem('faceoff_games');
-        return saved ? JSON.parse(saved) : {};
-    }
-
-    async saveGames() {
-        if (this.useFirebase && firebaseService.getUserId()) {
-            // Firebase real-time listeners handle this automatically
-            // No need to manually save all games
-        } else {
-            localStorage.setItem('faceoff_games', JSON.stringify(this.games));
-        }
-    }
-
-    async saveGame(gameId) {
-        const game = this.games[gameId];
-        if (!game) return;
-        
-        if (this.useFirebase && firebaseService.getUserId()) {
-            this.firebaseOpCount.writes++;
-            console.log(`💾 WRITE #${this.firebaseOpCount.writes}: Saving game ${gameId.substring(0, 10)}...`);
-            await firebaseService.saveGame(gameId, game);
-            console.log(`📊 Total Firebase operations - reads: ${this.firebaseOpCount.reads}, writes: ${this.firebaseOpCount.writes}`);
-        } else {
-            this.saveGames();
-        }
-    }
-
-    loadCurrentGameId() {
-        return localStorage.getItem('faceoff_current_game');
-    }
-
-    async saveCurrentGameId() {
-        if (this.useFirebase && firebaseService.getUserId()) {
-            this.firebaseOpCount.writes++;
-            console.log(`💾 WRITE #${this.firebaseOpCount.writes}: Saving current game ID`);
-            await firebaseService.saveCurrentGameId(this.currentGameId);
-            console.log(`📊 Total Firebase operations - reads: ${this.firebaseOpCount.reads}, writes: ${this.firebaseOpCount.writes}`);
-        } else {
-            localStorage.setItem('faceoff_current_game', this.currentGameId);
-        }
-    }
-
-    async createGame(opponent, date, notes = '') {
-        const id = Date.now().toString();
-        this.games[id] = {
-            id,
-            opponent,
-            date,
-            notes,
-            pins: [],
-            roster: [], // Array of player IDs in this game
-            createdAt: new Date().toISOString()
-        };
-        this.currentGameId = id;
-        
-        if (this.useFirebase && firebaseService.getUserId()) {
-            console.log(`🎮 Creating new game: "${opponent}"`);
-            await this.saveGame(id); // saveGame will count the write
-            await this.saveCurrentGameId();
-        } else {
-            this.saveGames();
-            this.saveCurrentGameId();
-        }
-        
-        return id;
-    }
-
-    async deleteGame(id) {
-        // Don't allow deleting season total
-        if (id === this.SEASON_TOTAL_ID) return;
-
-        const game = this.games[id];
-        if (game) {
-            // Delete the game
-            delete this.games[id];
-            
-            if (this.currentGameId === id) {
-                const gameIds = Object.keys(this.games).filter(id => id !== this.SEASON_TOTAL_ID);
-                this.currentGameId = gameIds.length > 0 ? gameIds[0] : this.SEASON_TOTAL_ID;
-            }
-            
-            if (this.useFirebase && firebaseService.getUserId()) {
-                await firebaseService.deleteGame(id);
-                await this.saveCurrentGameId();
-                
-                // Rebuild and save season total immediately (important action)
-                this.rebuildSeasonTotal();
-                await firebaseService.saveGame(this.SEASON_TOTAL_ID, this.games[this.SEASON_TOTAL_ID]);
-            } else {
-                this.saveGames();
-                this.saveCurrentGameId();
-            }
-        }
-    }
-
-    getCurrentGame() {
-        return this.currentGameId ? this.games[this.currentGameId] : null;
-    }
-
-    addPin(x, y, faceoffResult, clampResult, player1Id, player2Id) {
-        const game = this.getCurrentGame();
-        if (game) {
-            const newPin = { 
-                x, 
-                y, 
-                faceoffResult, // 'win' or 'loss' for face-off result
-                clampResult,   // 'win' or 'loss' for clamp result
-                player1Id,     // First player ID
-                player2Id,     // Second player ID
-                timestamp: Date.now()
-            };
-            game.pins.push(newPin);
-            
-            // Rebuild season total in memory
-            if (game.id !== this.SEASON_TOTAL_ID) {
-                this.rebuildSeasonTotal();
-            }
-            
-            // Mark as having unsaved changes
-            this.markUnsavedChanges();
-        }
-    }
-
-    removeLastPin() {
-        const game = this.getCurrentGame();
-        if (game && game.pins.length > 0) {
-            game.pins.pop();
-            
-            // Rebuild season total in memory
-            if (game.id !== this.SEASON_TOTAL_ID) {
-                this.rebuildSeasonTotal();
-            }
-            
-            // Mark as having unsaved changes
-            this.markUnsavedChanges();
-            
-            return true;
-        }
-        return false;
-    }
-
-    clearAllPins() {
-        const game = this.getCurrentGame();
-        if (game) {
-            if (game.id === this.SEASON_TOTAL_ID) {
-                // If clearing season total, clear all games
-                for (const g of Object.values(this.games)) {
-                    g.pins = [];
-                }
-                // Rebuild season total (will be empty)
-                this.rebuildSeasonTotal();
-            } else {
-                // Clear this game's pins
-                game.pins = [];
-                
-                // Rebuild season total
-                this.rebuildSeasonTotal();
-            }
-            
-            // Mark as having unsaved changes
-            this.markUnsavedChanges();
-        }
-    }
-
-    getStats() {
-        const game = this.getCurrentGame();
-        if (!game) {
-            return { wins: 0, losses: 0, total: 0, percentage: 0 };
-        }
-
-        // Handle both old and new pin data structures
-        const wins = game.pins.filter(p => {
-            const faceoffResult = p.faceoffResult || p.type || 'win';
-            return faceoffResult === 'win';
-        }).length;
-        const losses = game.pins.filter(p => {
-            const faceoffResult = p.faceoffResult || p.type || 'win';
-            return faceoffResult === 'loss';
-        }).length;
-        const total = wins + losses;
-        const percentage = total > 0 ? Math.round((wins / total) * 100) : 0;
-
-        return { wins, losses, total, percentage };
-    }
-}
-
-// ===== Field Renderer =====
-class FieldRenderer {
-    constructor(canvas) {
-        this.canvas = canvas;
-        this.ctx = canvas.getContext('2d');
-        this.pins = [];
-        this.setupCanvas();
-    }
-
-    setupCanvas() {
-        // Lacrosse field: 110 yards tall × 80 yards wide
-        const FIELD_WIDTH_YARDS = 80;
-        const FIELD_HEIGHT_YARDS = 110;
-        const ASPECT_RATIO = FIELD_HEIGHT_YARDS / FIELD_WIDTH_YARDS;
-        
-        const containerWidth = this.canvas.parentElement.clientWidth;
-        // Ensure we have a valid width, default to 640 if container isn't ready
-        const maxWidth = containerWidth > 100 ? Math.min(containerWidth, 1000) : 640;
-        
-        this.canvas.width = maxWidth;
-        this.canvas.height = maxWidth * ASPECT_RATIO;
-        
-        // Store actual dimensions for calculations
-        this.width = this.canvas.width;
-        this.height = this.canvas.height;
-        
-        // Store yard-to-pixel conversion factor
-        this.yardsToPixels = (this.width - 20) / FIELD_WIDTH_YARDS; // Accounting for margins
-    }
-
-    drawField() {
-        const ctx = this.ctx;
-        const w = this.width;
-        const h = this.height;
-      
-        // Safety check - don't draw if canvas isn't properly sized
-        if (!w || !h || w < 100 || h < 100) {
-            return;
-        }
-      
-        // --- basics
-        ctx.clearRect(0, 0, w, h);
-        
-        // Draw white field background
-        ctx.fillStyle = '#ffffff';
-        ctx.fillRect(0, 0, w, h);
-        
-        ctx.save();
-      
-        // proportions (tweak if you want tighter/looser spacing)
-        const borderW = Math.max(6, Math.round(Math.min(w, h) * 0.012));   // outer border thickness
-        const pad      = Math.max(6, Math.round(Math.min(w, h) * 0.02));   // outer padding used for interior shapes
-        const restrain = Math.round(h * 0.27);                              // distance of restraining lines from each end
-        const wingHalf = Math.round(h * 0.10);                              // half-height of wing lines
-        const wingDx   = Math.round(w * 0.32);                              // horizontal offset of wing lines from center
-        const boxSideInset = Math.round(w * 0.16);                          // left/right inset for top/bottom boxes
-        const creaseR  = Math.max(6, Math.round(Math.min(w, h) * 0.035));   // goal crease radius
-        const minusLen = Math.round(creaseR * 0.9);                         // length of the "–" inside crease
-      
-        // common styles - BLACK LINES
-        ctx.strokeStyle = "#000000";
-        ctx.fillStyle   = "#000000";
-        ctx.lineCap     = "butt";
-        ctx.lineJoin    = "miter";
-        ctx.lineWidth   = borderW;
-      
-        const centerX = w / 2;
-        const topY    = borderW / 2;
-        const botY    = h - borderW / 2;
-      
-        // --- outer border
-        ctx.strokeRect(borderW / 2, borderW / 2, w - borderW, h - borderW);
-      
-        // --- restraining lines (full width)
-        const topRestrainingY    = topY + restrain;
-        const bottomRestrainingY = botY - restrain;
-      
-        ctx.beginPath();
-        ctx.moveTo(borderW / 2, topRestrainingY);
-        ctx.lineTo(w - borderW / 2, topRestrainingY);
-        ctx.moveTo(borderW / 2, bottomRestrainingY);
-        ctx.lineTo(w - borderW / 2, bottomRestrainingY);
-        ctx.stroke();
-      
-        // --- midfield line
-        const midY = h / 2;
-        ctx.beginPath();
-        ctx.moveTo(borderW / 2, midY);
-        ctx.lineTo(w - borderW / 2, midY);
-        ctx.stroke();
-      
-        // --- center "X"
-        const xSize = Math.round(Math.min(w, h) * 0.025);
-        ctx.beginPath();
-        ctx.moveTo(centerX - xSize, midY - xSize);
-        ctx.lineTo(centerX + xSize, midY + xSize);
-        ctx.moveTo(centerX + xSize, midY - xSize);
-        ctx.lineTo(centerX - xSize, midY + xSize);
-        ctx.lineWidth = Math.max(2, Math.round(borderW * 0.5));
-        ctx.stroke();
-      
-        // --- wing lines (short verticals centered on the midfield line)
-        ctx.beginPath();
-        // left
-        ctx.moveTo(centerX - wingDx, midY - wingHalf);
-        ctx.lineTo(centerX - wingDx, midY + wingHalf);
-        // right
-        ctx.moveTo(centerX + wingDx, midY - wingHalf);
-        ctx.lineTo(centerX + wingDx, midY + wingHalf);
-        ctx.lineWidth = borderW; // match image thickness
-        ctx.stroke();
-      
-        // --- top & bottom large boxes (span between end line and restraining line
-        //     with left/right insets)
-        ctx.lineWidth = borderW;
-        // top box
-        ctx.strokeRect(
-          boxSideInset,
-          topY + borderW / 2,
-          w - 2 * boxSideInset,
-          topRestrainingY - (topY + borderW / 2)
-        );
-        // bottom box
-        ctx.strokeRect(
-          boxSideInset,
-          bottomRestrainingY,
-          w - 2 * boxSideInset,
-          (botY - borderW / 2) - bottomRestrainingY
-        );
-      
-        // --- goal creases with "–" inside (top & bottom centers)
-        ctx.lineWidth = borderW;
-        // top crease
-        const topCreaseY = Math.round(topY + restrain * 0.45);
-        ctx.beginPath();
-        ctx.arc(centerX, topCreaseY, creaseR, 0, Math.PI * 2);
-        ctx.stroke();
-        // minus sign
-        ctx.beginPath();
-        ctx.moveTo(centerX - minusLen / 2, topCreaseY);
-        ctx.lineTo(centerX + minusLen / 2, topCreaseY);
-        ctx.stroke();
-      
-        // bottom crease
-        const botCreaseY = Math.round(botY - restrain * 0.45);
-        ctx.beginPath();
-        ctx.arc(centerX, botCreaseY, creaseR, 0, Math.PI * 2);
-        ctx.stroke();
-        // minus sign
-        ctx.beginPath();
-        ctx.moveTo(centerX - minusLen / 2, botCreaseY);
-        ctx.lineTo(centerX + minusLen / 2, botCreaseY);
-        ctx.stroke();
-      
-        ctx.restore();
-      }
-      
-
-    drawPins(pins) {
-        this.pins = pins;
-        
-        pins.forEach((pin, index) => {
-            // Handle both old and new pin data structures for backward compatibility
-            const faceoffResult = pin.faceoffResult || pin.type || 'win';
-            const clampResult = pin.clampResult || pin.clamp || 'win';
-            this.drawPin(pin.x, pin.y, faceoffResult, clampResult, index === pins.length - 1);
-        });
-    }
-
-    drawPin(x, y, faceoffResult, clampResult, isLatest = false) {
-        const ctx = this.ctx;
-        const innerRadius = 5; // Inner circle size
-        const outerRadius = 8; // Outer ring size
-
-        // Pin shadow
-        ctx.shadowColor = 'rgba(0, 0, 0, 0.5)';
-        ctx.shadowBlur = 6;
-        ctx.shadowOffsetX = 2;
-        ctx.shadowOffsetY = 2;
-
-        // Draw outer ring (clamp result)
-        const clampColor = clampResult === 'win' ? '#10b981' : '#ef4444';
-        ctx.fillStyle = clampColor;
-        ctx.beginPath();
-        ctx.arc(x, y, outerRadius, 0, Math.PI * 2);
-        ctx.fill();
-
-        // Reset shadow for inner circle
-        ctx.shadowColor = 'transparent';
-        ctx.shadowBlur = 0;
-        ctx.shadowOffsetX = 0;
-        ctx.shadowOffsetY = 0;
-
-        // Draw inner circle (face-off result)
-        const faceOffColor = faceoffResult === 'win' ? '#10b981' : '#ef4444';
-        ctx.fillStyle = faceOffColor;
-        ctx.beginPath();
-        ctx.arc(x, y, innerRadius, 0, Math.PI * 2);
-        ctx.fill();
-
-        // White border around inner circle for definition
-        ctx.strokeStyle = 'white';
-        ctx.lineWidth = 1.5;
-        ctx.stroke();
-
-        // Highlight latest pin
-        if (isLatest) {
-            ctx.strokeStyle = 'white';
-            ctx.lineWidth = 2;
-            ctx.beginPath();
-            ctx.arc(x, y, outerRadius + 3, 0, Math.PI * 2);
-            ctx.stroke();
-        }
-    }
-
-    render(pins) {
-        this.drawField();
-        this.drawPins(pins);
-    }
-
-    renderHeatmap(pins) {
-        this.drawField();
-        
-        if (pins.length === 0) return;
-
-        const ctx = this.ctx;
-        const w = this.width;
-        const h = this.height;
-
-        // Create heat map grid
-        const gridSize = 30; // Size of each heat map cell
-        const cols = Math.ceil(w / gridSize);
-        const rows = Math.ceil(h / gridSize);
-        const winGrid = Array(rows).fill().map(() => Array(cols).fill(0));
-        const lossGrid = Array(rows).fill().map(() => Array(cols).fill(0));
-
-        // Count pins in each grid cell
-        pins.forEach(pin => {
-            const col = Math.floor(pin.x / gridSize);
-            const row = Math.floor(pin.y / gridSize);
-            
-            if (row >= 0 && row < rows && col >= 0 && col < cols) {
-                // Handle both old and new pin data structures
-                const faceoffResult = pin.faceoffResult || pin.type || 'win';
-                if (faceoffResult === 'win') {
-                    winGrid[row][col]++;
-                } else {
-                    lossGrid[row][col]++;
-                }
-            }
-        });
-
-        // Find max values for normalization
-        let maxWins = 0;
-        let maxLosses = 0;
-        for (let r = 0; r < rows; r++) {
-            for (let c = 0; c < cols; c++) {
-                maxWins = Math.max(maxWins, winGrid[r][c]);
-                maxLosses = Math.max(maxLosses, lossGrid[r][c]);
-            }
-        }
-
-        // Draw heat map
-        for (let r = 0; r < rows; r++) {
-            for (let c = 0; c < cols; c++) {
-                const x = c * gridSize;
-                const y = r * gridSize;
-                const wins = winGrid[r][c];
-                const losses = lossGrid[r][c];
-                
-                if (wins > 0 || losses > 0) {
-                    let color, alpha;
-                    
-                    if (wins > losses) {
-                        // More wins - green
-                        alpha = Math.min(0.7, (wins / maxWins) * 0.7);
-                        color = `rgba(16, 185, 129, ${alpha})`;
-                    } else if (losses > wins) {
-                        // More losses - red
-                        alpha = Math.min(0.7, (losses / maxLosses) * 0.7);
-                        color = `rgba(239, 68, 68, ${alpha})`;
-                    } else {
-                        // Equal - yellow
-                        alpha = 0.5;
-                        color = `rgba(245, 158, 11, ${alpha})`;
-                    }
-                    
-                    ctx.fillStyle = color;
-                    ctx.fillRect(x, y, gridSize, gridSize);
-                    
-                    // Draw count in cell if significant
-                    const total = wins + losses;
-                    if (total >= 3) {
-                        ctx.fillStyle = 'white';
-                        ctx.font = 'bold 12px sans-serif';
-                        ctx.textAlign = 'center';
-                        ctx.textBaseline = 'middle';
-                        ctx.fillText(total, x + gridSize / 2, y + gridSize / 2);
-                    }
-                }
-            }
-        }
-
-        // Draw legend on the field
-        this.drawHeatmapLegend();
-    }
-
-    drawHeatmapLegend() {
-        const ctx = this.ctx;
-        const legendX = 20;
-        const legendY = this.height - 80;
-        
-        // Background
-        ctx.fillStyle = 'rgba(15, 23, 42, 0.9)';
-        ctx.fillRect(legendX, legendY, 200, 60);
-        ctx.strokeStyle = 'white';
-        ctx.lineWidth = 2;
-        ctx.strokeRect(legendX, legendY, 200, 60);
-        
-        // Title
-        ctx.fillStyle = 'white';
-        ctx.font = 'bold 12px sans-serif';
-        ctx.textAlign = 'left';
-        ctx.fillText('Heat Map Legend:', legendX + 10, legendY + 15);
-        
-        // Color samples
-        const sampleY = legendY + 35;
-        const sampleSize = 15;
-        
-        // Green (wins)
-        ctx.fillStyle = 'rgba(16, 185, 129, 0.7)';
-        ctx.fillRect(legendX + 10, sampleY, sampleSize, sampleSize);
-        ctx.fillStyle = 'white';
-        ctx.font = '11px sans-serif';
-        ctx.fillText('Win Zone', legendX + 30, sampleY + 11);
-        
-        // Red (losses)
-        ctx.fillStyle = 'rgba(239, 68, 68, 0.7)';
-        ctx.fillRect(legendX + 100, sampleY, sampleSize, sampleSize);
-        ctx.fillStyle = 'white';
-        ctx.fillText('Loss Zone', legendX + 120, sampleY + 11);
-    }
-
-    getClickCoordinates(event) {
-        const rect = this.canvas.getBoundingClientRect();
-        const scaleX = this.canvas.width / rect.width;
-        const scaleY = this.canvas.height / rect.height;
-        
-        return {
-            x: (event.clientX - rect.left) * scaleX,
-            y: (event.clientY - rect.top) * scaleY
-        };
-    }
-}
+// ===== Import Dependencies =====
+import FaceOffTracker from './FaceOffTracker.js';
+import FieldRenderer from './FieldRenderer.js';
+import { searchSchools, getTeamColor } from './d1-schools.js';
+import { getTeamColor as getTeamColorFromMap } from './TeamColors.js';
 
 // ===== UI Controller =====
 class UIController {
@@ -870,9 +11,13 @@ class UIController {
         this.fieldRenderer = new FieldRenderer(document.getElementById('lacrosse-field'));
         this.displayType = 'pins'; // 'pins' or 'heatmap'
         this.currentViewMode = 'team'; // 'team' or player ID
-        this.faceoffFilter = 'all'; // 'all', 'win', or 'loss'
-        this.clampFilter = 'all'; // 'all', 'win', or 'loss'
+        this.selectedStatsTeam = 'A'; // 'A' or 'B' - which team's stats to display
+        this.showClampRings = true; // Whether to show clamp result rings on pins
         this.selectedGames = new Set(); // Set of selected game IDs for filtering
+        this.selectedTeamAPlayers = new Set(); // Set of selected Team A player IDs for filtering
+        this.selectedTeamBPlayers = new Set(); // Set of selected Team B player IDs for filtering
+        this.lastTeamAPlayer = null; // Last selected Team A player ID
+        this.lastTeamBPlayer = null; // Last selected Team B player ID
         this.initializeElements();
         this.attachEventListeners();
         this.updateUI();
@@ -911,14 +56,14 @@ class UIController {
             viewHeatmap: document.getElementById('view-heatmap'),
             addToRosterBtn: document.getElementById('add-to-roster-btn'),
             rosterList: document.getElementById('roster-list'),
-            viewTeamBtn: document.getElementById('view-team'),
-            playerViewList: document.getElementById('player-view-list'),
-            filterFaceoffAll: document.getElementById('filter-faceoff-all'),
-            filterFaceoffWins: document.getElementById('filter-faceoff-wins'),
-            filterFaceoffLosses: document.getElementById('filter-faceoff-losses'),
-            filterClampAll: document.getElementById('filter-clamp-all'),
-            filterClampWins: document.getElementById('filter-clamp-wins'),
-            filterClampLosses: document.getElementById('filter-clamp-losses'),
+            teamAFilterLabel: document.getElementById('team-a-filter-label'),
+            teamBFilterLabel: document.getElementById('team-b-filter-label'),
+            selectAllTeamA: document.getElementById('select-all-team-a'),
+            deselectAllTeamA: document.getElementById('deselect-all-team-a'),
+            selectAllTeamB: document.getElementById('select-all-team-b'),
+            deselectAllTeamB: document.getElementById('deselect-all-team-b'),
+            teamAPlayerFilters: document.getElementById('team-a-player-filters'),
+            teamBPlayerFilters: document.getElementById('team-b-player-filters'),
             saveGameBtn: document.getElementById('save-game-btn'),
             undoBtn: document.getElementById('undo-btn'),
             clearBtn: document.getElementById('clear-btn'),
@@ -1026,32 +171,51 @@ class UIController {
             this.updateAvailablePlayersList(e.target.value);
         });
 
-        // Team view button
-        this.elements.viewTeamBtn.addEventListener('click', () => {
-            this.setViewMode('team');
-        });
+        // Player filter select all/none buttons
+        if (this.elements.selectAllTeamA) {
+            this.elements.selectAllTeamA.addEventListener('click', () => {
+                this.selectAllTeamPlayers('A', true);
+            });
+        }
+        if (this.elements.deselectAllTeamA) {
+            this.elements.deselectAllTeamA.addEventListener('click', () => {
+                this.selectAllTeamPlayers('A', false);
+            });
+        }
+        if (this.elements.selectAllTeamB) {
+            this.elements.selectAllTeamB.addEventListener('click', () => {
+                this.selectAllTeamPlayers('B', true);
+            });
+        }
+        if (this.elements.deselectAllTeamB) {
+            this.elements.deselectAllTeamB.addEventListener('click', () => {
+                this.selectAllTeamPlayers('B', false);
+            });
+        }
 
-        // Face-off filter buttons
-        this.elements.filterFaceoffAll.addEventListener('click', () => {
-            this.setFaceoffFilter('all');
-        });
-        this.elements.filterFaceoffWins.addEventListener('click', () => {
-            this.setFaceoffFilter('win');
-        });
-        this.elements.filterFaceoffLosses.addEventListener('click', () => {
-            this.setFaceoffFilter('loss');
-        });
+        // Show clamp rings checkbox
+        const showClampRingsCheckbox = document.getElementById('show-clamp-rings');
+        if (showClampRingsCheckbox) {
+            // Initialize from checkbox state
+            this.showClampRings = showClampRingsCheckbox.checked;
 
-        // Clamp filter buttons
-        this.elements.filterClampAll.addEventListener('click', () => {
-            this.setClampFilter('all');
-        });
-        this.elements.filterClampWins.addEventListener('click', () => {
-            this.setClampFilter('win');
-        });
-        this.elements.filterClampLosses.addEventListener('click', () => {
-            this.setClampFilter('loss');
-        });
+            showClampRingsCheckbox.addEventListener('change', (e) => {
+                this.showClampRings = e.target.checked;
+                this.render();
+            });
+        }
+
+        // Team toggle buttons for stats
+        const toggleTeamA = document.getElementById('toggle-team-a');
+        const toggleTeamB = document.getElementById('toggle-team-b');
+        if (toggleTeamA && toggleTeamB) {
+            toggleTeamA.addEventListener('click', () => {
+                this.setStatsTeam('A');
+            });
+            toggleTeamB.addEventListener('click', () => {
+                this.setStatsTeam('B');
+            });
+        }
 
         // Roster and player modals
         this.elements.cancelRosterModal.addEventListener('click', () => {
@@ -1202,46 +366,193 @@ class UIController {
     }
 
     setViewMode(mode) {
-        // mode is either 'team' or a player ID
-        this.currentViewMode = mode;
-        
-        // Update view mode buttons
-        this.elements.viewTeamBtn.classList.toggle('active', mode === 'team');
-        
-        // Update player view buttons (will be created dynamically)
-        document.querySelectorAll('.player-view-btn').forEach(btn => {
-            btn.classList.toggle('active', btn.dataset.playerId === mode);
+        // View mode feature has been removed - always use 'team' mode
+        // Player filtering is now handled by the Player Filter checkboxes
+        this.currentViewMode = 'team';
+
+        // Update stats and re-render
+        this.updateStats();
+        this.render();
+    }
+
+    selectAllTeamPlayers(team, selected) {
+        const game = this.tracker.getCurrentGame();
+        if (!game) return;
+
+        const playerSet = team === 'A' ? this.selectedTeamAPlayers : this.selectedTeamBPlayers;
+
+        // Get all players who have been involved in face-offs for this team
+        const pins = game.pins || [];
+        const teamPlayerIds = new Set();
+
+        pins.forEach(pin => {
+            if (team === 'A') {
+                const teamAPlayerId = pin.teamAPlayerId || pin.player1Id;
+                if (teamAPlayerId) teamPlayerIds.add(teamAPlayerId);
+            } else {
+                const teamBPlayerId = pin.teamBPlayerId || pin.player2Id;
+                if (teamBPlayerId && teamBPlayerId !== 'unknown') teamPlayerIds.add(teamBPlayerId);
+            }
         });
-        
+
+        if (selected) {
+            // Add all players to the set
+            teamPlayerIds.forEach(id => playerSet.add(id));
+        } else {
+            // Remove all players from the set
+            teamPlayerIds.forEach(id => playerSet.delete(id));
+        }
+
+        // Update checkboxes
+        const container = team === 'A' ? this.elements.teamAPlayerFilters : this.elements.teamBPlayerFilters;
+        const checkboxes = container.querySelectorAll('input[type="checkbox"]');
+        checkboxes.forEach(cb => cb.checked = selected);
+
         // Update stats and re-render
         this.updateStats();
         this.render();
     }
 
-    setFaceoffFilter(filter) {
-        this.faceoffFilter = filter;
-        
-        // Update button states
-        this.elements.filterFaceoffAll.classList.toggle('active', filter === 'all');
-        this.elements.filterFaceoffWins.classList.toggle('active', filter === 'win');
-        this.elements.filterFaceoffLosses.classList.toggle('active', filter === 'loss');
-        
+    togglePlayerFilter(playerId, team) {
+        const playerSet = team === 'A' ? this.selectedTeamAPlayers : this.selectedTeamBPlayers;
+
+        if (playerSet.has(playerId)) {
+            playerSet.delete(playerId);
+        } else {
+            playerSet.add(playerId);
+        }
+
         // Update stats and re-render
         this.updateStats();
         this.render();
     }
 
-    setClampFilter(filter) {
-        this.clampFilter = filter;
-        
+    populatePlayerFilters() {
+        const game = this.tracker.getCurrentGame();
+
+        if (!game) {
+            this.elements.teamAPlayerFilters.innerHTML = '<p style="font-size: 0.7rem; color: var(--text-secondary); padding: 8px;">No face-offs yet</p>';
+            this.elements.teamBPlayerFilters.innerHTML = '<p style="font-size: 0.7rem; color: var(--text-secondary); padding: 8px;">No face-offs yet</p>';
+            return;
+        }
+
+        // Update team labels
+        this.elements.teamAFilterLabel.textContent = `${game.teamA || 'Team A'} Players`;
+        this.elements.teamBFilterLabel.textContent = `${game.teamB || 'Team B'} Players`;
+
+        // Get all pins and extract unique players who have been involved in face-offs
+        const pins = game.pins || [];
+
+        const teamAPlayerIds = new Set();
+        const teamBPlayerIds = new Set();
+
+        pins.forEach(pin => {
+            const teamAPlayerId = pin.teamAPlayerId || pin.player1Id;
+            const teamBPlayerId = pin.teamBPlayerId || pin.player2Id;
+
+            if (teamAPlayerId) teamAPlayerIds.add(teamAPlayerId);
+            if (teamBPlayerId && teamBPlayerId !== 'unknown') teamBPlayerIds.add(teamBPlayerId);
+        });
+
+        // Convert sets to arrays and get player objects
+        const teamAPlayers = Array.from(teamAPlayerIds)
+            .map(id => this.tracker.getPlayerById(id))
+            .filter(p => p !== undefined)
+            .sort((a, b) => {
+                const numA = parseInt(a.number) || 999;
+                const numB = parseInt(b.number) || 999;
+                return numA - numB;
+            });
+
+        const teamBPlayers = Array.from(teamBPlayerIds)
+            .map(id => this.tracker.getPlayerById(id))
+            .filter(p => p !== undefined)
+            .sort((a, b) => {
+                const numA = parseInt(a.number) || 999;
+                const numB = parseInt(b.number) || 999;
+                return numA - numB;
+            });
+
+        // Initialize selected players - default all to checked
+        teamAPlayers.forEach(p => {
+            if (!this.selectedTeamAPlayers.has(p.id)) {
+                this.selectedTeamAPlayers.add(p.id);
+            }
+        });
+        teamBPlayers.forEach(p => {
+            if (!this.selectedTeamBPlayers.has(p.id)) {
+                this.selectedTeamBPlayers.add(p.id);
+            }
+        });
+
+        // Populate Team A filters
+        this.elements.teamAPlayerFilters.innerHTML = '';
+        if (teamAPlayers.length === 0) {
+            this.elements.teamAPlayerFilters.innerHTML = '<p style="font-size: 0.7rem; color: var(--text-secondary); padding: 8px;">No face-offs yet</p>';
+        } else {
+            teamAPlayers.forEach(player => {
+                const item = document.createElement('div');
+                item.className = 'player-filter-item';
+
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.id = `filter-player-a-${player.id}`;
+                checkbox.checked = this.selectedTeamAPlayers.has(player.id);
+                checkbox.addEventListener('change', () => {
+                    this.togglePlayerFilter(player.id, 'A');
+                });
+
+                const label = document.createElement('label');
+                label.htmlFor = checkbox.id;
+                label.textContent = `${player.name} (#${player.number})`;
+
+                item.appendChild(checkbox);
+                item.appendChild(label);
+                this.elements.teamAPlayerFilters.appendChild(item);
+            });
+        }
+
+        // Populate Team B filters
+        this.elements.teamBPlayerFilters.innerHTML = '';
+        if (teamBPlayers.length === 0) {
+            this.elements.teamBPlayerFilters.innerHTML = '<p style="font-size: 0.7rem; color: var(--text-secondary); padding: 8px;">No face-offs yet</p>';
+        } else {
+            teamBPlayers.forEach(player => {
+                const item = document.createElement('div');
+                item.className = 'player-filter-item';
+
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.id = `filter-player-b-${player.id}`;
+                checkbox.checked = this.selectedTeamBPlayers.has(player.id);
+                checkbox.addEventListener('change', () => {
+                    this.togglePlayerFilter(player.id, 'B');
+                });
+
+                const label = document.createElement('label');
+                label.htmlFor = checkbox.id;
+                label.textContent = `${player.name} (#${player.number})`;
+
+                item.appendChild(checkbox);
+                item.appendChild(label);
+                this.elements.teamBPlayerFilters.appendChild(item);
+            });
+        }
+    }
+
+    setStatsTeam(team) {
+        this.selectedStatsTeam = team;
+
         // Update button states
-        this.elements.filterClampAll.classList.toggle('active', filter === 'all');
-        this.elements.filterClampWins.classList.toggle('active', filter === 'win');
-        this.elements.filterClampLosses.classList.toggle('active', filter === 'loss');
-        
-        // Update stats and re-render
+        const toggleTeamA = document.getElementById('toggle-team-a');
+        const toggleTeamB = document.getElementById('toggle-team-b');
+        if (toggleTeamA && toggleTeamB) {
+            toggleTeamA.classList.toggle('active', team === 'A');
+            toggleTeamB.classList.toggle('active', team === 'B');
+        }
+
+        // Update stats display
         this.updateStats();
-        this.render();
     }
 
     handleCanvasClick(event) {
@@ -1250,7 +561,7 @@ class UIController {
                 title: 'No Game Selected',
                 text: 'Please create a game first!',
                 icon: 'info',
-                confirmButtonColor: '#f97316'
+                confirmButtonColor: '#FFFFFF', confirmButtonTextColor: '#000000'
             });
             return;
         }
@@ -1262,7 +573,7 @@ class UIController {
                 title: 'Season Total View',
                 text: 'Cannot place pins on Season Total view. Please select a specific game.',
                 icon: 'info',
-                confirmButtonColor: '#f97316'
+                confirmButtonColor: '#FFFFFF', confirmButtonTextColor: '#000000'
             });
             return;
         }
@@ -1277,7 +588,88 @@ class UIController {
     showNewGameModal() {
         // Set default date to today
         document.getElementById('game-date').valueAsDate = new Date();
+
+        // Setup autocomplete for team inputs
+        this.setupTeamAutocomplete('team-a-name');
+        this.setupTeamAutocomplete('team-b-name');
+
         this.elements.modal.classList.add('show');
+    }
+
+    setupTeamAutocomplete(inputId) {
+        const input = document.getElementById(inputId);
+        if (!input) return;
+
+        // Check if already initialized
+        if (input.dataset.autocompleteInitialized === 'true') {
+            return;
+        }
+        input.dataset.autocompleteInitialized = 'true';
+
+        // Create autocomplete container if it doesn't exist
+        let autocompleteContainer = document.getElementById(`${inputId}-autocomplete`);
+        if (!autocompleteContainer) {
+            autocompleteContainer = document.createElement('div');
+            autocompleteContainer.id = `${inputId}-autocomplete`;
+            autocompleteContainer.className = 'autocomplete-dropdown';
+            input.parentNode.style.position = 'relative';
+            input.parentNode.appendChild(autocompleteContainer);
+        }
+
+        // Handle input changes
+        const handleInput = () => {
+            const query = input.value.trim();
+
+            if (query.length === 0) {
+                autocompleteContainer.innerHTML = '';
+                autocompleteContainer.style.display = 'none';
+                return;
+            }
+
+            const results = searchSchools(query);
+
+            if (results.length === 0) {
+                autocompleteContainer.innerHTML = '<div class="autocomplete-item no-results">No matches found</div>';
+                autocompleteContainer.style.display = 'block';
+                return;
+            }
+
+            // Limit to top 8 results
+            const limitedResults = results.slice(0, 8);
+
+            autocompleteContainer.innerHTML = limitedResults.map(school => `
+                <div class="autocomplete-item" data-school-name="${school.name}">
+                    <div class="autocomplete-school-name">${school.name}</div>
+                    <div class="autocomplete-school-details">${school.city} • ${school.conference}</div>
+                </div>
+            `).join('');
+
+            autocompleteContainer.style.display = 'block';
+
+            // Add click handlers for each item
+            autocompleteContainer.querySelectorAll('.autocomplete-item').forEach(item => {
+                item.addEventListener('click', () => {
+                    const schoolName = item.dataset.schoolName;
+                    if (schoolName) {
+                        input.value = schoolName;
+                        autocompleteContainer.innerHTML = '';
+                        autocompleteContainer.style.display = 'none';
+                    }
+                });
+            });
+        };
+
+        input.addEventListener('input', handleInput);
+
+        // Close dropdown when clicking outside
+        const closeDropdown = (e) => {
+            if (!input.contains(e.target) && !autocompleteContainer.contains(e.target)) {
+                autocompleteContainer.innerHTML = '';
+                autocompleteContainer.style.display = 'none';
+            }
+        };
+
+        document.addEventListener('click', closeDropdown);
     }
 
     hideNewGameModal() {
@@ -1286,11 +678,31 @@ class UIController {
     }
 
     async createNewGame() {
-        const opponent = document.getElementById('opponent-name').value;
+        const teamA = document.getElementById('team-a-name').value;
+        const teamB = document.getElementById('team-b-name').value;
         const date = document.getElementById('game-date').value;
         const notes = document.getElementById('game-notes').value;
 
-        await this.tracker.createGame(opponent, date, notes);
+        await this.tracker.createGame(teamA, teamB, date, notes);
+
+        // Auto-add FOGO players from both teams
+        const currentGame = this.tracker.getCurrentGame();
+        if (currentGame) {
+            // Load Team A roster and add FOGOs
+            const teamARoster = await this.loadTeamRoster(teamA);
+            const teamAFogos = teamARoster.filter(p => p.position === 'FOGO');
+            for (const fogo of teamAFogos) {
+                await this.addRosterPlayerToGame(fogo, 'A');
+            }
+
+            // Load Team B roster and add FOGOs
+            const teamBRoster = await this.loadTeamRoster(teamB);
+            const teamBFogos = teamBRoster.filter(p => p.position === 'FOGO');
+            for (const fogo of teamBFogos) {
+                await this.addRosterPlayerToGame(fogo, 'B');
+            }
+        }
+
         this.hideNewGameModal();
         this.updateUI();
     }
@@ -1302,11 +714,69 @@ class UIController {
                 title: 'No Game Selected',
                 text: 'Please select a specific game first.',
                 icon: 'info',
-                confirmButtonColor: '#f97316'
+                confirmButtonColor: '#FFFFFF', confirmButtonTextColor: '#000000'
             });
             return;
         }
-        
+
+        // Initialize team selection
+        this.selectedTeam = 'A';
+
+        // Update team button labels with actual team names
+        const teamABtn = document.getElementById('select-team-a');
+        const teamBBtn = document.getElementById('select-team-b');
+        teamABtn.textContent = currentGame.teamA || 'Team A';
+        teamBBtn.textContent = currentGame.teamB || 'Team B';
+
+        // Get team colors
+        const teamAColor = getTeamColor(currentGame.teamA);
+        const teamBColor = getTeamColor(currentGame.teamB);
+
+        // Store colors for later use
+        teamABtn.dataset.teamColor = teamAColor || '';
+        teamBBtn.dataset.teamColor = teamBColor || '';
+
+        // Set initial active state with team colors
+        teamABtn.classList.add('active');
+        teamBBtn.classList.remove('active');
+        if (teamAColor) {
+            teamABtn.style.backgroundColor = teamAColor;
+            teamABtn.style.borderColor = teamAColor;
+        }
+
+        // Add event listeners for team buttons
+        teamABtn.onclick = () => {
+            this.selectedTeam = 'A';
+            teamABtn.classList.add('active');
+            teamBBtn.classList.remove('active');
+
+            // Apply team colors
+            if (teamAColor) {
+                teamABtn.style.backgroundColor = teamAColor;
+                teamABtn.style.borderColor = teamAColor;
+            }
+            teamBBtn.style.backgroundColor = '';
+            teamBBtn.style.borderColor = '';
+
+            this.updateAvailablePlayersList(this.elements.playerSearch.value);
+        };
+
+        teamBBtn.onclick = () => {
+            this.selectedTeam = 'B';
+            teamBBtn.classList.add('active');
+            teamABtn.classList.remove('active');
+
+            // Apply team colors
+            if (teamBColor) {
+                teamBBtn.style.backgroundColor = teamBColor;
+                teamBBtn.style.borderColor = teamBColor;
+            }
+            teamABtn.style.backgroundColor = '';
+            teamABtn.style.borderColor = '';
+
+            this.updateAvailablePlayersList(this.elements.playerSearch.value);
+        };
+
         this.elements.playerSearch.value = '';
         this.updateAvailablePlayersList();
         this.elements.rosterModal.classList.add('show');
@@ -1317,33 +787,85 @@ class UIController {
         this.elements.playerSearch.value = '';
     }
 
-    updateAvailablePlayersList(searchTerm = '') {
+    async updateAvailablePlayersList(searchTerm = '') {
         const container = this.elements.availablePlayersList;
         const currentGame = this.tracker.getCurrentGame();
-        
+
         if (!currentGame) {
             container.innerHTML = '<p style="color: var(--text-secondary); text-align: center; padding: 20px;">No game selected</p>';
             return;
         }
 
+        // Show loading state
+        container.innerHTML = '<p style="color: var(--text-secondary); text-align: center; padding: 20px;">Loading roster...</p>';
+
+        // Get the team name for the selected team
+        const teamName = this.selectedTeam === 'A' ? currentGame.teamA : currentGame.teamB;
+
+        // Load roster data from JSON file
+        const rosterPlayers = await this.loadTeamRoster(teamName);
+
+        if (!rosterPlayers || rosterPlayers.length === 0) {
+            container.innerHTML = `<p style="color: var(--text-secondary); text-align: center; padding: 20px;">No roster found for ${teamName}.<br>Please add players manually.</p>`;
+            return;
+        }
+
         const roster = currentGame.roster || [];
-        let availablePlayers = this.tracker.players.filter(p => !roster.includes(p.id));
+
+        // Get the player IDs that are already in the roster for this team
+        const rosterPlayerIds = roster
+            .filter(r => {
+                if (typeof r === 'string') return false; // Old format
+                return r.team === this.selectedTeam;
+            })
+            .map(r => r.playerId);
+
+        // Get the actual player objects from the tracker for comparison
+        const rosterPlayers_inGame = rosterPlayerIds
+            .map(id => this.tracker.players.find(p => p.id === id))
+            .filter(p => p); // Remove any nulls
+
+        // Filter out players already in roster for the selected team
+        // Match by name, number, and team (not by ID, since roster JSON IDs differ from tracker IDs)
+        let availablePlayers = rosterPlayers.filter(p => {
+            const alreadyInRoster = rosterPlayers_inGame.some(rp =>
+                rp.name === p.name &&
+                rp.number === p.number &&
+                rp.team === p.team
+            );
+            return !alreadyInRoster;
+        });
 
         // Filter by search term
         if (searchTerm.trim()) {
             const search = searchTerm.toLowerCase();
-            availablePlayers = availablePlayers.filter(player => 
-                player.name.toLowerCase().includes(search) || 
-                player.team.toLowerCase().includes(search) ||
-                (player.number && player.number.toString().includes(search))
+            availablePlayers = availablePlayers.filter(player =>
+                player.name.toLowerCase().includes(search) ||
+                (player.number && player.number.toString().includes(search)) ||
+                (player.position && player.position.toLowerCase().includes(search))
             );
         }
+
+        // Sort players: FOGOs first, then by jersey number
+        availablePlayers.sort((a, b) => {
+            // First priority: FOGO position
+            const aIsFOGO = a.position === 'FOGO';
+            const bIsFOGO = b.position === 'FOGO';
+
+            if (aIsFOGO && !bIsFOGO) return -1;
+            if (!aIsFOGO && bIsFOGO) return 1;
+
+            // Second priority: Jersey number
+            const aNum = parseInt(a.number) || 999;
+            const bNum = parseInt(b.number) || 999;
+            return aNum - bNum;
+        });
 
         if (availablePlayers.length === 0) {
             if (searchTerm.trim()) {
                 container.innerHTML = '<p style="color: var(--text-secondary); text-align: center; padding: 20px;">No players found matching your search.</p>';
             } else {
-                container.innerHTML = '<p style="color: var(--text-secondary); text-align: center; padding: 20px;">All players are already in the roster.<br>Create a new player to add more.</p>';
+                container.innerHTML = `<p style="color: var(--text-secondary); text-align: center; padding: 20px;">All ${teamName} players are already in the game roster.</p>`;
             }
             return;
         }
@@ -1352,28 +874,167 @@ class UIController {
         availablePlayers.forEach(player => {
             const item = document.createElement('div');
             item.className = 'available-player-item';
-            
+
             const displayName = player.number ? `#${player.number} ${player.name}` : player.name;
-            
+            const positionBadge = player.position ?
+                `<span class="position-badge ${player.position === 'FOGO' ? 'fogo-badge' : ''}">${player.position}</span>` : '';
+
             item.innerHTML = `
                 <div class="available-player-info">
-                    <div class="available-player-name">${displayName}</div>
+                    <div class="available-player-name">${displayName} ${positionBadge}</div>
                     <div class="available-player-team">${player.team}</div>
                 </div>
-                <button class="btn-add-to-roster" data-player-id="${player.id}">Add to Game</button>
+                <button class="btn-add-to-roster" data-player-json='${JSON.stringify(player)}'>Add to Game</button>
             `;
-            
+
             const addBtn = item.querySelector('.btn-add-to-roster');
-            addBtn.addEventListener('click', () => {
-                this.tracker.addPlayerToRoster(currentGame.id, player.id);
+            addBtn.addEventListener('click', async () => {
+                const playerData = JSON.parse(addBtn.getAttribute('data-player-json'));
+                await this.addRosterPlayerToGame(playerData, this.selectedTeam);
                 this.updateRosterList();
                 this.updatePlayerViewList();
                 this.updateAvailablePlayersList();
                 this.updateUnsavedIndicator();
             });
-            
+
             container.appendChild(item);
         });
+    }
+
+    async loadTeamRoster(teamName) {
+        if (!teamName) return [];
+
+        // Convert team name to filename format (e.g., "Princeton University" -> "Princeton.json")
+        const fileName = this.teamNameToFileName(teamName);
+        const rosterPath = `Rosters/${fileName}`;
+
+        try {
+            const response = await fetch(rosterPath);
+            if (!response.ok) {
+                console.warn(`Roster file not found: ${rosterPath}`);
+                return [];
+            }
+
+            const rosterData = await response.json();
+
+            // Ensure each player has an ID (use name+number as unique ID if not present)
+            return (rosterData.players || []).map(p => ({
+                ...p,
+                id: p.id || `${teamName}-${p.number}-${p.name.replace(/\s+/g, '-')}`
+            }));
+        } catch (error) {
+            console.error(`Error loading roster for ${teamName}:`, error);
+            return [];
+        }
+    }
+
+    teamNameToFileName(teamName) {
+        // Mapping of full team names to their roster file names
+        const teamFileMap = {
+            'Bellarmine University': 'Bellarmine.json',
+            'Boston University': 'Boston.json',
+            'Brown University': 'Brown.json',
+            'Bryant University': 'Bryant.json',
+            'Bucknell University': 'Bucknell.json',
+            'Canisius College': 'Canisius.json',
+            'Cleveland State University': 'ClevelandState.json',
+            'Colgate University': 'Colgate.json',
+            'College of the Holy Cross': 'HolyCross.json',
+            'Cornell University': 'Cornell.json',
+            'Dartmouth College': 'Dartmouth.json',
+            'Drexel University': 'Drexel.json',
+            'Duke University': 'Duke.json',
+            'Fairfield University': 'Fairfield.json',
+            'Georgetown University': 'Georgetown.json',
+            'Hampton University': 'Hampton.json',
+            'Harvard University': 'Harvard.json',
+            'High Point University': 'HighPoint.json',
+            'Hobart & William Smith College': 'Hobart.json',
+            'Hofstra University': 'Hofstra.json',
+            'Iona University': 'Iona.json',
+            'Jacksonville University': 'Jacksonville.json',
+            'Johns Hopkins University': 'JohnsHopkins.json',
+            'Lafayette College': 'Lafayette.json',
+            'Lehigh University': 'Lehigh.json',
+            'Lindenwood University': 'Lindenwood.json',
+            'Long Island University': 'LongIsland.json',
+            'Loyola University Maryland': 'Loyola.json',
+            'Manhattan College': 'Manhattan.json',
+            'Marist College': 'Marist.json',
+            'Marquette University': 'Marquette.json',
+            'Mercer University': 'Mercer.json',
+            'Merrimack College': 'Merrimack.json',
+            'Monmouth University': 'Monmouth.json',
+            "Mount St. Mary's University": 'MountStMarys.json',
+            'New Jersey Institute of Technology': 'NJIT.json',
+            'Ohio State University': 'OhioState.json',
+            'Penn State': 'PennState.json',
+            'Princeton University': 'Princeton.json',
+            'Providence College': 'Providence.json',
+            'Queens University of Charlotte': 'Queens.json',
+            'Quinnipiac University': 'Quinnipiac.json',
+            'Robert Morris University': 'RobertMorris.json',
+            'Rutgers University': 'Rutgers.json',
+            'Sacred Heart University': 'SacredHeart.json',
+            "Saint Joseph's University": 'SaintJosephs.json',
+            'Siena College': 'Siena.json',
+            'St. Bonaventure University': 'StBonaventure.json',
+            "St. John's University": 'StJohns.json',
+            'SUNY Binghamton University': 'Binghamton.json',
+            'SUNY Stony Brook University': 'StonyBrook.json',
+            'SUNY University at Albany': 'Albany.json',
+            'Syracuse University': 'Syracuse.json',
+            'Towson University': 'Towson.json',
+            'United States Air Force Academy': 'AirForce.json',
+            'United States Military Academy': 'Army.json',
+            'United States Naval Academy': 'Navy.json',
+            'University of Delaware': 'Delaware.json',
+            'University of Denver': 'Denver.json',
+            'University of Detroit Mercy': 'DetroitMercy.json',
+            'University of Maryland': 'Maryland.json',
+            'University of Maryland – Baltimore County': 'UMBC.json',
+            'University of Massachusetts – Amherst': 'UMassAmherst.json',
+            'University of Massachusetts – Lowell': 'UMassLowell.json',
+            'University of Michigan': 'Michigan.json',
+            'University of North Carolina at Chapel Hill': 'NorthCarolina.json',
+            'University of Notre Dame': 'NotreDame.json',
+            'University of Pennsylvania': 'Penn.json',
+            'University of Richmond': 'Richmond.json',
+            'University of Utah': 'Utah.json',
+            'University of Vermont': 'Vermont.json',
+            'University of Virginia': 'Virginia.json',
+            'Villanova University': 'Villanova.json',
+            'Virginia Military Institute': 'VMI.json',
+            'Wagner College': 'Wagner.json',
+            'Yale University': 'Yale.json'
+        };
+
+        return teamFileMap[teamName] || `${teamName.replace(/[^a-zA-Z0-9]/g, '')}.json`;
+    }
+
+    async addRosterPlayerToGame(playerData, team) {
+        // Check if player exists in global database
+        let existingPlayer = this.tracker.players.find(p =>
+            p.name === playerData.name &&
+            p.number === playerData.number &&
+            p.team === playerData.team
+        );
+
+        // If player doesn't exist, add them to the database
+        if (!existingPlayer) {
+            existingPlayer = await this.tracker.addPlayer(
+                playerData.name,
+                playerData.number,
+                playerData.team,
+                playerData.position || ''
+            );
+        }
+
+        // Add player to game roster
+        const currentGame = this.tracker.getCurrentGame();
+        if (currentGame && existingPlayer) {
+            this.tracker.addPlayerToRoster(currentGame.id, existingPlayer.id, team);
+        }
     }
 
     showAddPlayerModal() {
@@ -1477,18 +1138,60 @@ class UIController {
     }
 
     showPinDetailsModal() {
+        const currentGame = this.tracker.getCurrentGame();
+        if (!currentGame) return;
+
         // Reset form
         this.elements.pinDetailsForm.reset();
-        this.selectedFaceoffResult = 'win';
-        this.selectedClampResult = 'win';
-        
-        // Update button states
-        this.setFaceoffResult('win');
-        this.setClampResult('win');
-        
+
+        // Set modal title and subtitle
+        document.getElementById('pin-modal-title').textContent = `${currentGame.teamA} vs ${currentGame.teamB}`;
+        document.getElementById('pin-modal-subtitle').textContent = 'Record face-off details';
+
+        // Update team labels
+        document.getElementById('team-a-player-label').textContent = `${currentGame.teamA} Player:`;
+        document.getElementById('team-b-player-label').textContent = `${currentGame.teamB} Player:`;
+
+        // Set default winner labels
+        document.getElementById('faceoff-team-a-label').textContent = `${currentGame.teamA} Player`;
+        document.getElementById('faceoff-team-b-label').textContent = `${currentGame.teamB} Player`;
+        document.getElementById('clamp-team-a-label').textContent = `${currentGame.teamA} Player`;
+        document.getElementById('clamp-team-b-label').textContent = `${currentGame.teamB} Player`;
+
         // Update player selects
         this.updatePinDetailsPlayerSelects();
-        
+
+        // Set up event listeners to update winner labels when players are selected
+        const teamASelect = document.getElementById('team-a-player-select');
+        const teamBSelect = document.getElementById('team-b-player-select');
+
+        teamASelect.onchange = () => {
+            const player = this.tracker.players.find(p => p.id === teamASelect.value);
+            if (player) {
+                const displayName = player.number ? `${player.name} (#${player.number})` : player.name;
+                document.getElementById('faceoff-team-a-label').textContent = displayName;
+                document.getElementById('clamp-team-a-label').textContent = displayName;
+            } else {
+                document.getElementById('faceoff-team-a-label').textContent = `${currentGame.teamA} Player`;
+                document.getElementById('clamp-team-a-label').textContent = `${currentGame.teamA} Player`;
+            }
+        };
+
+        teamBSelect.onchange = () => {
+            const player = this.tracker.players.find(p => p.id === teamBSelect.value);
+            if (player) {
+                const displayName = player.number ? `${player.name} (#${player.number})` : player.name;
+                document.getElementById('faceoff-team-b-label').textContent = displayName;
+                document.getElementById('clamp-team-b-label').textContent = displayName;
+            } else if (teamBSelect.value === 'unknown') {
+                document.getElementById('faceoff-team-b-label').textContent = 'Unknown Player';
+                document.getElementById('clamp-team-b-label').textContent = 'Unknown Player';
+            } else {
+                document.getElementById('faceoff-team-b-label').textContent = `${currentGame.teamB} Player`;
+                document.getElementById('clamp-team-b-label').textContent = `${currentGame.teamB} Player`;
+            }
+        };
+
         // Show modal
         this.elements.pinDetailsModal.classList.add('show');
     }
@@ -1516,115 +1219,123 @@ class UIController {
 
     updatePinDetailsPlayerSelects() {
         const currentGame = this.tracker.getCurrentGame();
+        const teamASelect = document.getElementById('team-a-player-select');
+        const teamBSelect = document.getElementById('team-b-player-select');
+
         if (!currentGame || currentGame.id === this.tracker.SEASON_TOTAL_ID) {
-            this.elements.player1Select.innerHTML = '<option value="">No game selected</option>';
-            this.elements.player2Select.innerHTML = '<option value="">No game selected</option>';
+            teamASelect.innerHTML = '<option value="">No game selected</option>';
+            teamBSelect.innerHTML = '<option value="">No game selected</option>';
             return;
         }
 
         const rosterPlayers = this.tracker.getGameRoster(currentGame.id);
-        
+
         if (rosterPlayers.length === 0) {
-            this.elements.player1Select.innerHTML = '<option value="">No players in roster</option>';
-            this.elements.player2Select.innerHTML = '<option value="">No players in roster</option>';
+            teamASelect.innerHTML = '<option value="">No players in roster</option>';
+            teamBSelect.innerHTML = '<option value="">No players in roster</option>';
             return;
         }
 
-        // Group players by team
-        const playersByTeam = {};
-        rosterPlayers.forEach(player => {
-            const team = player.team || 'No Team';
-            if (!playersByTeam[team]) {
-                playersByTeam[team] = [];
+        // Separate players by team
+        const teamAPlayers = rosterPlayers.filter(p => p.gameTeam === 'A');
+        const teamBPlayers = rosterPlayers.filter(p => p.gameTeam === 'B');
+
+        // Build Team A dropdown
+        teamASelect.innerHTML = '<option value="">Select Player</option>';
+        teamAPlayers.forEach(player => {
+            const option = document.createElement('option');
+            option.value = player.id;
+            const displayText = player.number
+                ? `#${player.number} ${player.name}`
+                : player.name;
+            option.textContent = displayText;
+            teamASelect.appendChild(option);
+        });
+
+        // Build Team B dropdown with "Unknown" option
+        teamBSelect.innerHTML = '<option value="">Select Player</option>';
+        teamBSelect.innerHTML += '<option value="unknown">Unknown</option>';
+        teamBPlayers.forEach(player => {
+            const option = document.createElement('option');
+            option.value = player.id;
+            const displayText = player.number
+                ? `#${player.number} ${player.name}`
+                : player.name;
+            option.textContent = displayText;
+            teamBSelect.appendChild(option);
+        });
+
+        // Auto-fill with last selected players
+        if (this.lastTeamAPlayer && teamAPlayers.some(p => p.id === this.lastTeamAPlayer)) {
+            teamASelect.value = this.lastTeamAPlayer;
+            // Trigger change event to update labels
+            if (teamASelect.onchange) teamASelect.onchange();
+        }
+        if (this.lastTeamBPlayer) {
+            const isInTeamB = teamBPlayers.some(p => p.id === this.lastTeamBPlayer) || this.lastTeamBPlayer === 'unknown';
+            if (isInTeamB) {
+                teamBSelect.value = this.lastTeamBPlayer;
+                // Trigger change event to update labels
+                if (teamBSelect.onchange) teamBSelect.onchange();
             }
-            playersByTeam[team].push(player);
-        });
-
-        // Build player options
-        const buildSelectOptions = (selectElement) => {
-            selectElement.innerHTML = '<option value="">Select Player</option>';
-            
-            Object.keys(playersByTeam).sort().forEach(team => {
-                const optgroup = document.createElement('optgroup');
-                optgroup.label = team;
-                
-                playersByTeam[team].forEach(player => {
-                    const option = document.createElement('option');
-                    option.value = player.id;
-                    const displayText = player.number 
-                        ? `#${player.number} ${player.name}` 
-                        : player.name;
-                    option.textContent = displayText;
-                    optgroup.appendChild(option);
-                });
-                
-                selectElement.appendChild(optgroup);
-            });
-        };
-
-        buildSelectOptions(this.elements.player1Select);
-        
-        // Build Player 2 options with "Unknown" option
-        this.elements.player2Select.innerHTML = '<option value="">Select Player 2</option>';
-        this.elements.player2Select.innerHTML += '<option value="unknown">Unknown</option>';
-        
-        Object.keys(playersByTeam).sort().forEach(team => {
-            const optgroup = document.createElement('optgroup');
-            optgroup.label = team;
-            
-            playersByTeam[team].forEach(player => {
-                const option = document.createElement('option');
-                option.value = player.id;
-                const displayText = player.number 
-                    ? `#${player.number} ${player.name}` 
-                    : player.name;
-                option.textContent = displayText;
-                optgroup.appendChild(option);
-            });
-            
-            this.elements.player2Select.appendChild(optgroup);
-        });
+        }
     }
 
     addPinFromModal() {
-        const player1Id = this.elements.player1Select.value;
-        const player2Id = this.elements.player2Select.value;
+        const teamAPlayerId = document.getElementById('team-a-player-select').value;
+        const teamBPlayerId = document.getElementById('team-b-player-select').value;
 
-        if (!player1Id || !player2Id) {
+        if (!teamAPlayerId || !teamBPlayerId) {
             Swal.fire({
                 title: 'Missing Players',
-                text: 'Please select both Player 1 and Player 2.',
+                text: 'Please select players from both teams.',
                 icon: 'warning',
-                confirmButtonColor: '#f97316'
+                confirmButtonColor: '#FFFFFF', confirmButtonTextColor: '#000000'
             });
             return;
         }
 
-        if (player1Id === player2Id && player2Id !== 'unknown') {
+        // Get winner selections
+        const faceoffWinnerRadio = document.querySelector('input[name="faceoff-winner"]:checked');
+        const clampWinnerRadio = document.querySelector('input[name="clamp-winner"]:checked');
+
+        if (!faceoffWinnerRadio || !clampWinnerRadio) {
             Swal.fire({
-                title: 'Same Player Selected',
-                text: 'Player 1 and Player 2 must be different players.',
+                title: 'Missing Winner Selection',
+                text: 'Please select who won the face-off and clamp.',
                 icon: 'warning',
-                confirmButtonColor: '#f97316'
+                confirmButtonColor: '#FFFFFF', confirmButtonTextColor: '#000000'
             });
             return;
         }
 
-        // Add the pin with the selected details
+        const faceoffWinner = faceoffWinnerRadio.value;
+        const clampWinner = clampWinnerRadio.value;
+
+        // Determine winner IDs
+        const faceoffWinnerId = faceoffWinner === 'teamA' ? teamAPlayerId : teamBPlayerId;
+        const clampWinnerId = clampWinner === 'teamA' ? teamAPlayerId : teamBPlayerId;
+
+        // Add the pin with the new structure
         this.tracker.addPin(
             this.pendingPinCoords.x,
             this.pendingPinCoords.y,
-            this.selectedFaceoffResult,
-            this.selectedClampResult,
-            player1Id,
-            player2Id
+            teamAPlayerId,
+            teamBPlayerId,
+            faceoffWinnerId,
+            clampWinnerId
         );
+
+        // Save the selected players for auto-fill next time
+        this.lastTeamAPlayer = teamAPlayerId;
+        this.lastTeamBPlayer = teamBPlayerId;
 
         // Update UI
         this.render();
         this.updateStats();
+        this.populatePlayerFilters();
         this.updateUnsavedIndicator();
-        
+
         // Hide modal
         this.hidePinDetailsModal();
     }
@@ -1798,112 +1509,97 @@ class UIController {
             return;
         }
 
+        // Group players by team
+        const teamAPlayers = rosterPlayers.filter(p => p.gameTeam === 'A');
+        const teamBPlayers = rosterPlayers.filter(p => p.gameTeam === 'B');
+
         container.innerHTML = '';
-        rosterPlayers.forEach(player => {
-            const item = document.createElement('div');
-            item.className = 'roster-item';
-            
-            const displayName = player.number ? `#${player.number} ${player.name}` : player.name;
-            
-            item.innerHTML = `
-                <div class="roster-item-name">${displayName}</div>
-                <button class="roster-item-remove" data-player-id="${player.id}">Remove</button>
-            `;
-            
-            const removeBtn = item.querySelector('.roster-item-remove');
-            removeBtn.addEventListener('click', async () => {
-                const pinCount = currentGame.pins.filter(p => 
-                    p.player1Id === player.id || p.player2Id === player.id || p.playerId === player.id
-                ).length;
-                const confirmMsg = pinCount > 0 
-                    ? `Remove <strong>${displayName}</strong> from this game's roster?<br><br>This will also delete <strong>${pinCount}</strong> face-off data point(s) attributed to this player.`
-                    : `Remove <strong>${displayName}</strong> from this game's roster?`;
-                
-                const result = await Swal.fire({
-                    title: 'Remove Player from Roster',
-                    html: confirmMsg,
-                    icon: 'warning',
-                    showCancelButton: true,
-                    confirmButtonColor: '#dc2626',
-                    cancelButtonColor: '#6b7280',
-                    confirmButtonText: 'Yes, remove!',
-                    cancelButtonText: 'Cancel'
-                });
-                
-                if (result.isConfirmed) {
-                    this.tracker.removePlayerFromRoster(currentGame.id, player.id);
-                    
-                    // Reset view to team if we're viewing the removed player
-                    if (this.currentViewMode === player.id) {
-                        this.setViewMode('team');
-                    }
-                    
-                    
-                    this.updateRosterList();
-                    this.updatePlayerViewList();
-                    this.updateAvailablePlayersList();
-                    this.updateStats();
-                    this.updateUnsavedIndicator();
-                    this.updateSeasonStats();
-                    this.render();
-                }
+
+        // Team A Section
+        if (teamAPlayers.length > 0) {
+            const teamASection = document.createElement('div');
+            teamASection.className = 'roster-team-group';
+            teamASection.innerHTML = `<h4>${currentGame.teamA || 'Team A'}</h4>`;
+
+            teamAPlayers.forEach(player => {
+                const item = this.createRosterItem(player, currentGame);
+                teamASection.appendChild(item);
             });
-            
-            container.appendChild(item);
+
+            container.appendChild(teamASection);
+        }
+
+        // Team B Section
+        if (teamBPlayers.length > 0) {
+            const teamBSection = document.createElement('div');
+            teamBSection.className = 'roster-team-group';
+            teamBSection.innerHTML = `<h4>${currentGame.teamB || 'Team B'}</h4>`;
+
+            teamBPlayers.forEach(player => {
+                const item = this.createRosterItem(player, currentGame);
+                teamBSection.appendChild(item);
+            });
+
+            container.appendChild(teamBSection);
+        }
+    }
+
+    createRosterItem(player, currentGame) {
+        const item = document.createElement('div');
+        item.className = 'roster-item';
+
+        const displayName = player.number ? `#${player.number} ${player.name}` : player.name;
+
+        item.innerHTML = `
+            <div class="roster-item-name">${displayName}</div>
+            <button class="roster-item-remove" data-player-id="${player.id}">Remove</button>
+        `;
+
+        const removeBtn = item.querySelector('.roster-item-remove');
+        removeBtn.addEventListener('click', async () => {
+            const pinCount = currentGame.pins.filter(p =>
+                p.player1Id === player.id || p.player2Id === player.id || p.playerId === player.id ||
+                p.teamAPlayerId === player.id || p.teamBPlayerId === player.id
+            ).length;
+            const confirmMsg = pinCount > 0
+                ? `Remove <strong>${displayName}</strong> from this game's roster?<br><br>This will also delete <strong>${pinCount}</strong> face-off data point(s) attributed to this player.`
+                : `Remove <strong>${displayName}</strong> from this game's roster?`;
+
+            const result = await Swal.fire({
+                title: 'Remove Player from Roster',
+                html: confirmMsg,
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#dc2626',
+                cancelButtonColor: '#6b7280',
+                confirmButtonText: 'Yes, remove!',
+                cancelButtonText: 'Cancel'
+            });
+
+            if (result.isConfirmed) {
+                this.tracker.removePlayerFromRoster(currentGame.id, player.id);
+
+                // Reset view to team if we're viewing the removed player
+                if (this.currentViewMode === player.id) {
+                    this.setViewMode('team');
+                }
+
+                this.updateRosterList();
+                this.updatePlayerViewList();
+                this.updateAvailablePlayersList();
+                this.updateStats();
+                this.updateUnsavedIndicator();
+                this.updateSeasonStats();
+                this.render();
+            }
         });
+
+        return item;
     }
 
     updatePlayerViewList() {
-        const container = this.elements.playerViewList;
-        const currentGame = this.tracker.getCurrentGame();
-
-        if (!currentGame) {
-            container.innerHTML = '';
-            return;
-        }
-
-        let playersToShow = [];
-        
-        // For Season Total, show all players who have pins in any game
-        if (currentGame.id === this.tracker.SEASON_TOTAL_ID) {
-            const playerIdsWithPins = new Set();
-            currentGame.pins.forEach(pin => {
-                if (pin.player1Id) playerIdsWithPins.add(pin.player1Id);
-                if (pin.player2Id) playerIdsWithPins.add(pin.player2Id);
-                if (pin.playerId) playerIdsWithPins.add(pin.playerId); // Backward compatibility
-            });
-            playersToShow = Array.from(playerIdsWithPins)
-                .map(id => this.tracker.players.find(p => p.id === id))
-                .filter(p => p); // Filter out any undefined
-        } else {
-            // For regular games, show only roster players
-            playersToShow = this.tracker.getGameRoster(currentGame.id);
-        }
-
-        if (playersToShow.length === 0) {
-            container.innerHTML = '';
-            return;
-        }
-
-        container.innerHTML = '';
-        playersToShow.forEach(player => {
-            const btn = document.createElement('button');
-            btn.className = 'player-view-btn';
-            btn.dataset.playerId = player.id;
-            
-            const displayName = player.number ? `#${player.number} ${player.name}` : player.name;
-            btn.textContent = displayName;
-            
-            if (this.currentViewMode === player.id) {
-                btn.classList.add('active');
-            }
-            
-            btn.addEventListener('click', () => {
-                this.setViewMode(player.id);
-            });
-            
-            container.appendChild(btn);
-        });
+        // View mode feature has been removed - player filtering is now handled by the Player Filter checkboxes
+        return;
     }
 
     updateGamesList() {
@@ -1986,9 +1682,11 @@ class UIController {
             year: 'numeric'
         });
 
+        const gameTitle = game.opponent || `${game.teamA} vs ${game.teamB}`;
+
         card.innerHTML = `
             <div class="game-card-header">
-                <div class="game-card-title">${game.opponent}</div>
+                <div class="game-card-title">${gameTitle}</div>
             </div>
             <div class="game-card-date">${date}</div>
             <div class="game-card-stats">
@@ -2032,11 +1730,13 @@ class UIController {
             return;
         }
 
-        // For Season Total, don't show "vs"
+        // Display game title
         if (game.id === this.tracker.SEASON_TOTAL_ID) {
-            this.elements.currentOpponent.textContent = game.opponent;
+            this.elements.currentOpponent.textContent = game.opponent || `${game.teamA} ${game.teamB}`;
         } else {
-            this.elements.currentOpponent.textContent = `vs ${game.opponent}`;
+            // Show team matchup
+            const gameTitle = game.opponent ? `vs ${game.opponent}` : `${game.teamA} vs ${game.teamB}`;
+            this.elements.currentOpponent.textContent = gameTitle;
         }
         
         const date = new Date(game.date).toLocaleDateString('en-US', {
@@ -2050,8 +1750,66 @@ class UIController {
     }
 
     updateStats() {
-        // Stats are now displayed in the stats table, updated separately
-        // This function is kept as a no-op for backward compatibility
+        const game = this.tracker.getCurrentGame();
+        let stats;
+        let viewText = 'Viewing: Team';
+        
+        if (!game) {
+            stats = { wins: 0, losses: 0, total: 0, percentage: 0 };
+        } else {
+            // Get pins for current view mode
+            let pins = game.pins;
+            
+            // For Season Total, filter pins by selected games
+            if (game.id === this.tracker.SEASON_TOTAL_ID && this.selectedGames.size > 0) {
+                pins = pins.filter(pin => {
+                    // Find which game this pin belongs to by comparing pin properties
+                    for (const gameId of this.selectedGames) {
+                        const gamePins = this.tracker.games[gameId]?.pins || [];
+                        // Check if this pin matches any pin in the selected game by comparing key properties
+                        const pinMatches = gamePins.some(gamePin => 
+                            gamePin.x === pin.x && 
+                            gamePin.y === pin.y && 
+                            gamePin.timestamp === pin.timestamp &&
+                            (gamePin.player1Id === pin.player1Id || gamePin.playerId === pin.player1Id) &&
+                            (gamePin.player2Id === pin.player2Id || gamePin.playerId === pin.player2Id)
+                        );
+                        if (pinMatches) {
+                            return true;
+                        }
+                    }
+                    return false;
+                });
+            }
+
+            // Apply player filters
+            pins = pins.filter(pin => {
+                const teamAPlayerId = pin.teamAPlayerId || pin.player1Id;
+                const teamBPlayerId = pin.teamBPlayerId || pin.player2Id;
+                const teamAMatch = this.selectedTeamAPlayers.size === 0 || this.selectedTeamAPlayers.has(teamAPlayerId);
+                const teamBMatch = this.selectedTeamBPlayers.size === 0 || this.selectedTeamBPlayers.has(teamBPlayerId);
+                return teamAMatch && teamBMatch;
+            });
+            
+            // Calculate stats from filtered pins
+            let wins = pins.filter(p => {
+                const faceoffResult = p.faceoffResult || p.type || 'win';
+                return faceoffResult === 'win';
+            }).length;
+            let losses = pins.filter(p => {
+                const faceoffResult = p.faceoffResult || p.type || 'win';
+                return faceoffResult === 'loss';
+            }).length;
+            const total = wins + losses;
+
+            // If viewing Team B stats, swap wins and losses (complementary stats)
+            if (this.selectedStatsTeam === 'B') {
+                [wins, losses] = [losses, wins]; // Swap: Team B's wins are Team A's losses
+            }
+
+            const percentage = total > 0 ? Math.round((wins / total) * 100) : 0;
+            stats = { wins, losses, total, percentage };
+        }
     }
 
     updateSeasonStats() {
@@ -2097,7 +1855,17 @@ class UIController {
     render() {
         const game = this.tracker.getCurrentGame();
         let pins = game ? game.pins : [];
-        
+
+        // Get team A player IDs for this game (for filtering)
+        const teamAPlayerIds = game && game.roster
+            ? game.roster
+                .filter(r => {
+                    if (typeof r === 'object') return r.team === 'A';
+                    return true; // Old format - assume team A
+                })
+                .map(r => typeof r === 'string' ? r : r.playerId)
+            : [];
+
         // For Season Total, filter pins by selected games
         if (game && game.id === this.tracker.SEASON_TOTAL_ID && this.selectedGames.size > 0) {
             pins = pins.filter(pin => {
@@ -2105,12 +1873,14 @@ class UIController {
                 for (const gameId of this.selectedGames) {
                     const gamePins = this.tracker.games[gameId]?.pins || [];
                     // Check if this pin matches any pin in the selected game by comparing key properties
-                    const pinMatches = gamePins.some(gamePin => 
-                        gamePin.x === pin.x && 
-                        gamePin.y === pin.y && 
+                    const pinMatches = gamePins.some(gamePin =>
+                        gamePin.x === pin.x &&
+                        gamePin.y === pin.y &&
                         gamePin.timestamp === pin.timestamp &&
-                        (gamePin.player1Id === pin.player1Id || gamePin.playerId === pin.player1Id) &&
-                        (gamePin.player2Id === pin.player2Id || gamePin.playerId === pin.player2Id)
+                        (gamePin.player1Id === pin.player1Id || gamePin.playerId === pin.player1Id ||
+                         gamePin.teamAPlayerId === pin.teamAPlayerId) &&
+                        (gamePin.player2Id === pin.player2Id || gamePin.playerId === pin.player2Id ||
+                         gamePin.teamBPlayerId === pin.teamBPlayerId)
                     );
                     if (pinMatches) {
                         return true;
@@ -2119,37 +1889,69 @@ class UIController {
                 return false;
             });
         }
-        
-        // Filter pins based on view mode
-        if (this.currentViewMode !== 'team') {
-            // Viewing a specific player
-            pins = pins.filter(pin => 
-                pin.player1Id === this.currentViewMode || 
-                pin.player2Id === this.currentViewMode || 
-                pin.playerId === this.currentViewMode
-            );
+
+        // Filter pins based on selected players
+        // Only show pins where both players are in the selected sets
+        pins = pins.filter(pin => {
+            const teamAPlayerId = pin.teamAPlayerId || pin.player1Id;
+            const teamBPlayerId = pin.teamBPlayerId || pin.player2Id;
+
+            // Check if the pin's players are in the selected sets
+            // If the set is empty (no filters yet), show all
+            const teamAMatch = this.selectedTeamAPlayers.size === 0 || this.selectedTeamAPlayers.has(teamAPlayerId);
+            const teamBMatch = this.selectedTeamBPlayers.size === 0 || this.selectedTeamBPlayers.has(teamBPlayerId);
+
+            // Only show pin if both players are selected
+            return teamAMatch && teamBMatch;
+        });
+
+        // Get team colors
+        let teamAColor = '#10b981'; // Default green
+        let teamBColor = '#ef4444'; // Default red
+
+        if (game) {
+            if (game.teamA) {
+                teamAColor = getTeamColorFromMap(game.teamA);
+            }
+            if (game.teamB) {
+                teamBColor = getTeamColorFromMap(game.teamB);
+            } else if (game.opponent) {
+                // Legacy format - use opponent name for team B color
+                teamBColor = getTeamColorFromMap(game.opponent);
+            }
         }
-        
-        // Filter pins based on face-off result
-        if (this.faceoffFilter !== 'all') {
-            pins = pins.filter(pin => {
-                const faceoffResult = pin.faceoffResult || pin.type || 'win';
-                return faceoffResult === this.faceoffFilter;
-            });
-        }
-        
-        // Filter pins based on clamp result
-        if (this.clampFilter !== 'all') {
-            pins = pins.filter(pin => {
-                const clampResult = pin.clampResult || pin.clamp || 'win';
-                return clampResult === this.clampFilter;
-            });
-        }
-        
+
+        // Convert new pin format with team colors for FieldRenderer
+        const renderPins = pins.map(pin => {
+            if (pin.faceoffWinnerId || pin.clampWinnerId) {
+                // New format - add team colors based on winner
+                const faceoffWonByTeamA = teamAPlayerIds.includes(pin.faceoffWinnerId);
+                const clampWonByTeamA = teamAPlayerIds.includes(pin.clampWinnerId);
+
+                return {
+                    x: pin.x,
+                    y: pin.y,
+                    faceoffColor: faceoffWonByTeamA ? teamAColor : teamBColor,
+                    clampColor: clampWonByTeamA ? teamAColor : teamBColor,
+                    faceoffResult: faceoffWonByTeamA ? 'win' : 'loss', // Keep for backward compatibility
+                    clampResult: clampWonByTeamA ? 'win' : 'loss', // Keep for backward compatibility
+                    timestamp: pin.timestamp
+                };
+            }
+            // Old format - add default team colors
+            return {
+                ...pin,
+                faceoffColor: pin.faceoffResult === 'win' ? teamAColor : teamBColor,
+                clampColor: pin.clampResult === 'win' ? teamAColor : teamBColor
+            };
+        });
+
         if (this.displayType === 'heatmap') {
-            this.fieldRenderer.renderHeatmap(pins);
+            const teamAName = game?.teamA || 'Team A';
+            const teamBName = game?.teamB || game?.opponent || 'Team B';
+            this.fieldRenderer.renderHeatmap(renderPins, teamAColor, teamBColor, teamAName, teamBName);
         } else {
-            this.fieldRenderer.render(pins);
+            this.fieldRenderer.render(renderPins, this.showClampRings);
         }
     }
 
@@ -2261,6 +2063,7 @@ class UIController {
         this.updateGameControls(); // Show/hide controls based on Season Total
         this.updateRosterList();
         this.updatePlayerViewList();
+        this.populatePlayerFilters(); // Populate player filter checkboxes
         this.updateStats();
         this.updateSeasonStats();
         this.updateUnsavedIndicator();
@@ -2274,7 +2077,7 @@ class UIController {
                 title: 'No Game Selected',
                 text: 'Please select a game first!',
                 icon: 'info',
-                confirmButtonColor: '#f97316'
+                confirmButtonColor: '#FFFFFF', confirmButtonTextColor: '#000000'
             });
             return;
         }
@@ -2553,158 +2356,6 @@ class UIController {
     }
 }
 
-// ===== Initialize App with Firebase Authentication =====
-let appInstance = null;
 
-async function initializeApp() {
-    // Small delay to ensure layout is calculated
-    await new Promise(resolve => setTimeout(resolve, 100));
-    
-    appInstance = new UIController();
-    
-    // Setup real-time sync callback
-    appInstance.tracker.onDataChange((type) => {
-        if (type === 'games' || type === 'players') {
-            appInstance.updateUI();
-        } else if (type === 'unsaved' || type === 'saved') {
-            appInstance.updateUnsavedIndicator();
-        }
-    });
-    
-    // Initialize Firebase data
-    await appInstance.tracker.initialize();
-    
-    // Update UI after data load
-    appInstance.updateUI();
-    
-    // Show welcome message if no games (excluding season total)
-    const gameKeys = Object.keys(appInstance.tracker.games).filter(id => id !== appInstance.tracker.SEASON_TOTAL_ID);
-    if (gameKeys.length === 0) {
-        setTimeout(() => {
-            Swal.fire({
-                title: 'Welcome to Face-Off Tracker! 🥍',
-                html: 'Click <strong>"New Game"</strong> to start tracking face-offs.<br><br>Then click on the field to place pins showing where face-offs were won (green) or lost (red).',
-                icon: 'info',
-                confirmButtonColor: '#f97316',
-                confirmButtonText: 'Got it!'
-            });
-        }, 500);
-    }
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-    const authOverlay = document.getElementById('auth-overlay');
-    const appContent = document.getElementById('app-content');
-    const signInBtn = document.getElementById('sign-in-btn');
-    const signOutBtn = document.getElementById('sign-out-btn');
-    const userAvatar = document.getElementById('user-avatar');
-    const userName = document.getElementById('user-name');
-    const syncStatus = document.getElementById('sync-status');
-    
-    // Handle authentication state changes
-    firebaseService.onAuthChange(async (user) => {
-        if (user) {
-            // User signed in
-            authOverlay.style.display = 'none';
-            appContent.style.display = 'flex';
-            
-            // Update user profile
-            userAvatar.src = user.photoURL || '';
-            userName.textContent = user.displayName || user.email;
-            
-            // Attempt migration from localStorage
-            try {
-                const migrated = await firebaseService.migrateFromLocalStorage();
-                if (migrated) {
-                    Swal.fire({
-                        title: 'Data Migrated! 🎉',
-                        text: 'Your local data has been migrated to the cloud!\n\nYour data is now synced across all devices.',
-                        icon: 'success',
-                        confirmButtonColor: '#f97316'
-                    });
-                }
-            } catch (error) {
-                console.error('Migration error:', error);
-            }
-            
-            // Initialize app
-            if (!appInstance) {
-                await initializeApp();
-            }
-        } else {
-            // User signed out
-            authOverlay.style.display = 'flex';
-            appContent.style.display = 'none';
-            
-            // Clear app instance
-            if (appInstance) {
-                appInstance = null;
-            }
-        }
-    });
-    
-    // Sign in button
-    signInBtn.addEventListener('click', async () => {
-        try {
-            await firebaseService.signIn();
-        } catch (error) {
-            console.error('Sign in error:', error);
-            Swal.fire({
-                title: 'Sign In Failed',
-                text: 'Failed to sign in. Please try again.',
-                icon: 'error',
-                confirmButtonColor: '#dc2626'
-            });
-        }
-    });
-    
-    // Sign out button
-    signOutBtn.addEventListener('click', async () => {
-        try {
-            const result = await Swal.fire({
-            title: 'Sign Out',
-            text: 'Are you sure you want to sign out? Your data will be saved in the cloud.',
-            icon: 'question',
-            showCancelButton: true,
-            confirmButtonColor: '#dc2626',
-            cancelButtonColor: '#6b7280',
-            confirmButtonText: 'Yes, sign out',
-            cancelButtonText: 'Cancel'
-        });
-        
-        if (result.isConfirmed) {
-                await firebaseService.signOutUser();
-            }
-        } catch (error) {
-            console.error('Sign out error:', error);
-            Swal.fire({
-                title: 'Sign Out Failed',
-                text: 'Failed to sign out. Please try again.',
-                icon: 'error',
-                confirmButtonColor: '#dc2626'
-            });
-        }
-    });
-    
-    // Setup sync status display
-    firebaseService.onSyncStatusChange((status) => {
-        syncStatus.className = 'sync-status';
-        if (status === 'synced') {
-            syncStatus.textContent = '● Synced';
-            syncStatus.classList.add('synced');
-        } else if (status === 'syncing') {
-            syncStatus.textContent = '● Syncing...';
-            syncStatus.classList.add('syncing');
-        } else if (status === 'error') {
-            syncStatus.textContent = '● Sync Error';
-            syncStatus.classList.add('error');
-        }
-    });
-});
-
-// Export for debugging
-if (typeof window !== 'undefined') {
-    window.appInstance = appInstance;
-    window.firebaseService = firebaseService;
-}
-
+// Export UIController class
+export default UIController;

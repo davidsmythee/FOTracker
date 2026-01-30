@@ -1,0 +1,301 @@
+{
+  "team": "Marist College",
+  "scrapedAt": "2026-01-28T20:39:28.738Z",
+  "playerCount": 42,
+  "players": [
+    {
+      "name": "Dylan Rocchio",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Marist College"
+    },
+    {
+      "name": "Jackson O'Keefe",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Marist College"
+    },
+    {
+      "name": "Sebastian Rzeczycki",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Marist College"
+    },
+    {
+      "name": "Josh Smith",
+      "number": "6",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Marist College"
+    },
+    {
+      "name": "Charlie Maraganis",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Marist College"
+    },
+    {
+      "name": "Vincent Crispi",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Marist College"
+    },
+    {
+      "name": "Finn Evans",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Marist College"
+    },
+    {
+      "name": "Drew Weissman",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Marist College"
+    },
+    {
+      "name": "Collin Patrick",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Marist College"
+    },
+    {
+      "name": "Peter Murray",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Marist College"
+    },
+    {
+      "name": "Derek Hoffmann",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Marist College"
+    },
+    {
+      "name": "Luke Walser",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Marist College"
+    },
+    {
+      "name": "Mason Bader",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Marist College"
+    },
+    {
+      "name": "Joshua Arneson",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Marist College"
+    },
+    {
+      "name": "Kevin Radmann",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Marist College"
+    },
+    {
+      "name": "Aiden McCaffrey",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Marist College"
+    },
+    {
+      "name": "Ryan Herr",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Marist College"
+    },
+    {
+      "name": "Simon Bowen",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Marist College"
+    },
+    {
+      "name": "Sean Mullan",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Marist College"
+    },
+    {
+      "name": "Christian Colantonio",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Marist College"
+    },
+    {
+      "name": "Tommy Nolan",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Marist College"
+    },
+    {
+      "name": "Brady Dolan",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Marist College"
+    },
+    {
+      "name": "Richie Metzger",
+      "number": "26",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Marist College"
+    },
+    {
+      "name": "Dylan Stadler",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Marist College"
+    },
+    {
+      "name": "Jayce Konowitz",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Marist College"
+    },
+    {
+      "name": "Gavin Marzigliano",
+      "number": "29",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Marist College"
+    },
+    {
+      "name": "Matthew Chadwick",
+      "number": "30",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Marist College"
+    },
+    {
+      "name": "Connor Aughe",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Marist College"
+    },
+    {
+      "name": "Drew Cornax",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Marist College"
+    },
+    {
+      "name": "Drew Anderson",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Marist College"
+    },
+    {
+      "name": "Adam Wachholder",
+      "number": "35",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Marist College"
+    },
+    {
+      "name": "Barret Jorgensen",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Marist College"
+    },
+    {
+      "name": "Sam Guercio",
+      "number": "37",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Marist College"
+    },
+    {
+      "name": "Happy Rosenberg",
+      "number": "38",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Marist College"
+    },
+    {
+      "name": "Sean Murtagh",
+      "number": "39",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Marist College"
+    },
+    {
+      "name": "Andrew Mullan",
+      "number": "40",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Marist College"
+    },
+    {
+      "name": "Brady Kirk",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Marist College"
+    },
+    {
+      "name": "Steven Cain",
+      "number": "42",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Marist College"
+    },
+    {
+      "name": "Jonathan Alfiero",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Marist College"
+    },
+    {
+      "name": "Michael Cassano",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Marist College"
+    },
+    {
+      "name": "Matthew Stewart",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Marist College"
+    },
+    {
+      "name": "Nico Wang",
+      "number": "49",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Marist College"
+    }
+  ]
+}

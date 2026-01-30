@@ -1,0 +1,427 @@
+{
+  "team": "Jacksonville University",
+  "scrapedAt": "2026-01-28T20:34:32.635Z",
+  "playerCount": 60,
+  "players": [
+    {
+      "name": "Quentin  Pellegrino",
+      "number": "1",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Quinn  Fuller",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Bryce Wojnovich",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Tommy Bonavita",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Cameron Pack",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Alex Madson",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Kai Smith",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Drew Kessenich",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Breyden Harrison",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Grant Maloney",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Gavin Angell",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Parker Addison",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Braden McCassie",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Nicky  Brown",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Jack  Taylor",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Phillip Busenius",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Lucas Osborne",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Jack Russo",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Michael Clark",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Owen Lenox",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Nick Tzimas",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Parker Yearego",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Chase Paschuck",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Mason Hauseman",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Benton Owens",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "William Krupsky",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Kyle Gonsiorek",
+      "number": "27",
+      "position": "LSM",
+      "classYear": "",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Dylan Smith",
+      "number": "28",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Wesley Cohn",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Zane Czeschin",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Drew Rippeon",
+      "number": "31",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Charlie DiGennaro",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Tate Jones",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "George Bowdouris",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Fr.",
+      "number": "35",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Evan Sharp",
+      "number": "36",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Jonathan Bucciarelli",
+      "number": "37",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Ryan Della Rocco",
+      "number": "38",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Maddox Johnson",
+      "number": "39",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Peyton Tallo",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Aaron  Toguri",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Daylin John-Hill",
+      "number": "43",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Noah Seabolt",
+      "number": "44",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Lucas Fraser",
+      "number": "45",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Sam Rodriguez",
+      "number": "46",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Ethan  Duerk",
+      "number": "47",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Sean Hassis",
+      "number": "48",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "George Cecil",
+      "number": "49",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Connor Sydnor",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Josh Hedderich",
+      "number": "51",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Leo Bellanca",
+      "number": "52",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Sam Alexander",
+      "number": "53",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Henry Fleckner",
+      "number": "54",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Jack Mullins",
+      "number": "55",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Calvin Taulbee",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Andrew Cowan",
+      "number": "71",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Keller Holmes",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Kyle Saeger",
+      "number": "81",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Riley Simpson",
+      "number": "91",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Jacksonville University"
+    },
+    {
+      "name": "Charlie O’Brien",
+      "number": "99",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Jacksonville University"
+    }
+  ]
+}

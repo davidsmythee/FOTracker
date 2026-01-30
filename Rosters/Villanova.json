@@ -1,0 +1,231 @@
+{
+  "team": "Villanova University",
+  "scrapedAt": "2026-01-28T21:26:00.696Z",
+  "playerCount": 32,
+  "players": [
+    {
+      "name": "Aidan  Haggerty",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Tucker Hess",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Brady Dumont",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Villanova University"
+    },
+    {
+      "name": "David Evanchick",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Scot Mackie",
+      "number": "6",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Nick Lucchesi",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Matt Swirbalus",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Gavin Michener",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Eddie  Jones",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Beau  Kemler",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Villanova University"
+    },
+    {
+      "name": "James Beeghly",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Will Stewart",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Michael Berkery",
+      "number": "15",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Kessy Cox",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Luke Williams",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Jack Shoemaker",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Villanova University"
+    },
+    {
+      "name": "George  Glomb",
+      "number": "20",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Colin Michener",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Ryan Martin",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Jack Koch",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Lachlan Moffatt",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Reid Chisholm",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Joe Bogle",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Parker Harms",
+      "number": "31",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Ryan O'Connor",
+      "number": "32",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Jake  Melchionni",
+      "number": "33",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Ryan Cunningham",
+      "number": "35",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Daniel Flaim",
+      "number": "39",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Nate Macpherson",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Jack  Gormley",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Tate Seeman",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Villanova University"
+    },
+    {
+      "name": "Ryan Welgos",
+      "number": "81",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Villanova University"
+    }
+  ]
+}

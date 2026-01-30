@@ -1,0 +1,287 @@
+{
+  "team": "University of Massachusetts – Lowell",
+  "scrapedAt": "2026-01-28T21:22:29.327Z",
+  "playerCount": 40,
+  "players": [
+    {
+      "name": "Brody Bernhardt",
+      "number": "0",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Jack Jimenez",
+      "number": "2",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Devin German",
+      "number": "3",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Danny Burke",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Brenden Ferraro",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Luke Grant",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "James  Donnelly",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Brady Brennan",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Joe Girardi",
+      "number": "10",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Jackson  Rudo",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Jayden Consigli",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Patrick Browne",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Mitch Lanthaler",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Braden McMahon",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Tommy Cassar",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Nolan Marshall",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Liam Goodwin",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Hayden Almeida",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Colby Frigon",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Stony Brook",
+      "number": "23",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Jackson Schlicker",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Cullen Britz",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Tommy Kane",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Justin Alexander",
+      "number": "27",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Hayden Hockenbrock",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "John Logue",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Jack Fredriksen",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Josh Adey",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Ryan Cho",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Miles Kempski",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Jonny Seero",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Dylan Rummel",
+      "number": "36",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Brendan Meskill",
+      "number": "41",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Ryan Proctor",
+      "number": "42",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Johnny Soi",
+      "number": "44",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Trevor Galgano",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Maverick Chedel",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Owen Fitzgerald",
+      "number": "55",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Carter O'Brien",
+      "number": "88",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "University of Massachusetts – Lowell"
+    },
+    {
+      "name": "Devon Larsen",
+      "number": "96",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Massachusetts – Lowell"
+    }
+  ]
+}

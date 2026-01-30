@@ -1,0 +1,294 @@
+{
+  "team": "University of Utah",
+  "scrapedAt": "2026-01-28T21:24:19.255Z",
+  "playerCount": 41,
+  "players": [
+    {
+      "name": "Jacob Osborn",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Sky Rold",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Will Overly",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Ryan Stines",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Jordan Reed",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Karson Sparks",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Will Potter",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Luke Sheppard",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Zachary White",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Price Jeffris",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Freddie DiMarzo",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Marco Pascarella",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Blake Franckowiak",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Gavin Howard",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Luca Pivetta",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Dallin Tanner",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Luke McNamara",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Mikey Crane",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Luke Haley",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Cade Faulkner",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Sean Siracusa",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Bryce Horton",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Brady Grandstaff",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Bryce Roach",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Nathan Chalmers",
+      "number": "29",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Luke Shale",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Joe DelMauro",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Brad Schuster",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Joel Mullen",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Anthony Dara",
+      "number": "34",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Seamus McCarthy",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Kyle Harrison",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Ian Ludewig",
+      "number": "38",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Jake Likes",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Conner Flanagan",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Ben Trask",
+      "number": "42",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Trace White",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Ryan Sheppard",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Ryker Kemp",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Utah"
+    },
+    {
+      "name": "Nikko DiPonio",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Utah"
+    },
+    {
+      "name": "John Klinge",
+      "number": "51",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Utah"
+    }
+  ]
+}

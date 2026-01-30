@@ -1,0 +1,301 @@
+{
+  "team": "Duke University",
+  "scrapedAt": "2026-01-28T19:31:12.649Z",
+  "playerCount": 42,
+  "players": [
+    {
+      "name": "Patrick Jameison",
+      "number": "1",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Duke University"
+    },
+    {
+      "name": "Jack Kiefer",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Duke University"
+    },
+    {
+      "name": "Austin Hicks",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Duke University"
+    },
+    {
+      "name": "Henry Bard",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Duke University"
+    },
+    {
+      "name": "Luke Warrington",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Duke University"
+    },
+    {
+      "name": "Tomas Delgado",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Duke University"
+    },
+    {
+      "name": "Jack Pappendick",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Duke University"
+    },
+    {
+      "name": "Luke Engelke",
+      "number": "9",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Duke University"
+    },
+    {
+      "name": "Michael Ortlieb",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Duke University"
+    },
+    {
+      "name": "Ian Dykes",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Duke University"
+    },
+    {
+      "name": "Nikolas Menendez",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Duke University"
+    },
+    {
+      "name": "Henry Blake",
+      "number": "14",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Duke University"
+    },
+    {
+      "name": "Max Sloat",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Duke University"
+    },
+    {
+      "name": "Colin McLane",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Duke University"
+    },
+    {
+      "name": "Benn Johnston",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Duke University"
+    },
+    {
+      "name": "Thomas Mencke",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Duke University"
+    },
+    {
+      "name": "Stephen Finnell",
+      "number": "21",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "Duke University"
+    },
+    {
+      "name": "Aidan Maguire",
+      "number": "23",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Duke University"
+    },
+    {
+      "name": "Jackson Spells",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Duke University"
+    },
+    {
+      "name": "Petey Malitas",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Duke University"
+    },
+    {
+      "name": "Charlie Johnson",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Duke University"
+    },
+    {
+      "name": "Will Tantillo",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Duke University"
+    },
+    {
+      "name": "Connor Nolen",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Duke University"
+    },
+    {
+      "name": "Owen Mears",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Duke University"
+    },
+    {
+      "name": "Sam Blake",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Duke University"
+    },
+    {
+      "name": "Ben McCarthy",
+      "number": "33",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Duke University"
+    },
+    {
+      "name": "Luke Christmas",
+      "number": "36",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Duke University"
+    },
+    {
+      "name": "Mac Christmas",
+      "number": "37",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Duke University"
+    },
+    {
+      "name": "Preston Whitehurst",
+      "number": "38",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Duke University"
+    },
+    {
+      "name": "Zach Jepson",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Duke University"
+    },
+    {
+      "name": "Cal Girard",
+      "number": "41",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Duke University"
+    },
+    {
+      "name": "Vincent Fowler",
+      "number": "43",
+      "position": "LSM",
+      "classYear": "",
+      "team": "Duke University"
+    },
+    {
+      "name": "Buck Cunningham",
+      "number": "44",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Duke University"
+    },
+    {
+      "name": "Axel Blom",
+      "number": "46",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Duke University"
+    },
+    {
+      "name": "Matthew Sardis",
+      "number": "48",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "Duke University"
+    },
+    {
+      "name": "Marcos Ramos",
+      "number": "49",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Duke University"
+    },
+    {
+      "name": "Brady Scioletti",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Duke University"
+    },
+    {
+      "name": "Liam Kershis",
+      "number": "55",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Duke University"
+    },
+    {
+      "name": "Brendan Fulham",
+      "number": "56",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Duke University"
+    },
+    {
+      "name": "Cam Taylor",
+      "number": "66",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Duke University"
+    },
+    {
+      "name": "Anthony Drago",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Duke University"
+    },
+    {
+      "name": "Will Pedicano",
+      "number": "91",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Duke University"
+    }
+  ]
+}

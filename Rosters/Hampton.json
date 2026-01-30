@@ -1,0 +1,266 @@
+{
+  "team": "Hampton University",
+  "scrapedAt": "2026-01-28T19:33:43.201Z",
+  "playerCount": 37,
+  "players": [
+    {
+      "name": "Darius Stanley",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Myles Johnson",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Zachary Ramseur",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Jadon Myers",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Hampton University"
+    },
+    {
+      "name": "James Greene",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Kevin Wallace",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Hilton Head High",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Athan Barmer",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Maliik Wood",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Craig Williams",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Robert Mitchell",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Reed Shaw",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Nikki Rattan",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Landyn Burgis",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Sukijai Phillips",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Howard Casterlow",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Owen Parham",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Spire Academy",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Mason Brown",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Blake Martin",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Payton Riddle",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Noah Wright",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Judah Johnson-Nixon",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Canyon Steverson",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Jordan Alston",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Dillon Bethea",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Connor Dansby",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Ian Nicholson",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Davis Munchus",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Dylan Munchus",
+      "number": "42",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Quinlan Coryat",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Sean Boyd",
+      "number": "45",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Hampton University"
+    },
+    {
+      "name": "David Jackson",
+      "number": "46",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Chris Stargill",
+      "number": "48",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Ayron Norton",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Broadneck High",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Hampton University"
+    },
+    {
+      "name": "Quincy Newland",
+      "number": "99",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Hampton University"
+    }
+  ]
+}

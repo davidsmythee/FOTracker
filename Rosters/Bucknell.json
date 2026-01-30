@@ -1,0 +1,336 @@
+{
+    "team": "Bucknell University",
+    "scrapedAt": "2026-01-28T19:11:38.455Z",
+    "playerCount": 47,
+    "players": [
+      {
+        "name": "Luke Brennan",
+        "number": "0",
+        "position": "Midfielder",
+        "classYear": "Sophomore",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Parker Day",
+        "number": "00",
+        "position": "Goalie",
+        "classYear": "Sophomore",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Crispin Kaye",
+        "number": "1",
+        "position": "Attack",
+        "classYear": "Sophomore",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Charlie Miller",
+        "number": "2",
+        "position": "Midfielder",
+        "classYear": "Sophomore",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Luke Brunner",
+        "number": "3",
+        "position": "Midfielder",
+        "classYear": "Junior",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Brandon Riggione",
+        "number": "4",
+        "position": "Defense",
+        "classYear": "Junior",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Michael Meyer",
+        "number": "5",
+        "position": "Attack",
+        "classYear": "Senior",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Graham Garrigan",
+        "number": "6",
+        "position": "Attack",
+        "classYear": "Sophomore",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Zach Hepworth",
+        "number": "7",
+        "position": "FOGO",
+        "classYear": "Sophomore",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "John Young",
+        "number": "8",
+        "position": "LSM",
+        "classYear": "Senior",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Grayson Falk",
+        "number": "9",
+        "position": "Defense",
+        "classYear": "Sophomore",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Luke Fliss",
+        "number": "10",
+        "position": "Midfielder",
+        "classYear": "Sophomore",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Mac O'Neill",
+        "number": "11",
+        "position": "Defense",
+        "classYear": "Junior",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Jack Morvillo",
+        "number": "12",
+        "position": "LSM",
+        "classYear": "Senior",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Henry Boykin",
+        "number": "13",
+        "position": "Midfielder",
+        "classYear": "Junior",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Patrick Mullen",
+        "number": "14",
+        "position": "Midfielder",
+        "classYear": "Junior",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Hans Huber",
+        "number": "15",
+        "position": "Midfielder",
+        "classYear": "Junior",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Will Pickering",
+        "number": "16",
+        "position": "Defense",
+        "classYear": "Senior",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Wasson Burns",
+        "number": "17",
+        "position": "Midfielder",
+        "classYear": "Freshman",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Sean Murray",
+        "number": "18",
+        "position": "Attack",
+        "classYear": "Freshman",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Jack Tully",
+        "number": "19",
+        "position": "Midfielder",
+        "classYear": "Sophomore",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Brennan Lane",
+        "number": "20",
+        "position": "Defense",
+        "classYear": "Sophomore",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Sean Berrigan",
+        "number": "21",
+        "position": "Midfielder",
+        "classYear": "Junior",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Anthony Panetti",
+        "number": "22",
+        "position": "Attack",
+        "classYear": "Sophomore",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Chris Begier",
+        "number": "23",
+        "position": "Midfielder",
+        "classYear": "Senior",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Grant Carle",
+        "number": "24",
+        "position": "FOGO",
+        "classYear": "Freshman",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Steven Pepe",
+        "number": "25",
+        "position": "FOGO",
+        "classYear": "Senior",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Riggs Taylor",
+        "number": "26",
+        "position": "LSM",
+        "classYear": "Freshman",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Troy Monte",
+        "number": "27",
+        "position": "Defense",
+        "classYear": "Freshman",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Luke Renaud",
+        "number": "28",
+        "position": "Goalie",
+        "classYear": "Senior",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Louie Germain",
+        "number": "30",
+        "position": "Defense",
+        "classYear": "Senior",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Griffin Graham",
+        "number": "31",
+        "position": "Midfielder",
+        "classYear": "Freshman",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Jameson Blakeslee",
+        "number": "32",
+        "position": "Midfielder",
+        "classYear": "Freshman",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Caleb Lewis",
+        "number": "33",
+        "position": "Defense",
+        "classYear": "Junior",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Joey Matassa",
+        "number": "34",
+        "position": "Attack",
+        "classYear": "Freshman",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Dean Sanders",
+        "number": "38",
+        "position": "Goalie",
+        "classYear": "Freshman",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Owen Wuchte",
+        "number": "40",
+        "position": "Midfielder",
+        "classYear": "Freshman",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Peter Grandolfo",
+        "number": "41",
+        "position": "Midfielder",
+        "classYear": "Junior",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Jaz Zanelli",
+        "number": "42",
+        "position": "Goalie",
+        "classYear": "Senior",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Jake Coronato",
+        "number": "43",
+        "position": "Defense",
+        "classYear": "Freshman",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Ollie Hau",
+        "number": "44",
+        "position": "LSM",
+        "classYear": "Sophomore",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Sean Kerwick",
+        "number": "50",
+        "position": "Midfielder",
+        "classYear": "Sophomore",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Will Hopkins",
+        "number": "55",
+        "position": "Attack",
+        "classYear": "Senior",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Corbin Lukanski",
+        "number": "66",
+        "position": "Defense",
+        "classYear": "Junior",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Owen Kovacs",
+        "number": "77",
+        "position": "Attack",
+        "classYear": "Senior",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Mac McGahren",
+        "number": "88",
+        "position": "Defense",
+        "classYear": "Junior",
+        "team": "Bucknell University"
+      },
+      {
+        "name": "Pingree School",
+        "number": "99",
+        "position": "FOGO",
+        "classYear": "Junior",
+        "team": "Bucknell University"
+      }
+    ]
+  }

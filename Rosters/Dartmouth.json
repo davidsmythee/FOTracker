@@ -1,0 +1,301 @@
+{
+  "team": "Dartmouth College",
+  "scrapedAt": "2026-01-28T19:26:28.786Z",
+  "playerCount": 42,
+  "players": [
+    {
+      "name": "Stu Gates",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Eli Goldstein",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Jackson Monte",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Jack Mulholland",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Evan Busby",
+      "number": "5",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Elliott Fee",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "George Hawley",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Will Cohen",
+      "number": "8",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Tyler Juhlin",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Gavin Parks",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Jesse Phelan",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Thomas Power",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "William Stahl",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Matthew Scheible",
+      "number": "15",
+      "position": "LSM",
+      "classYear": "",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Hopper Zappitello",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Frank Argilagos",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Thomas Goguen",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Zach Bye",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Julian Navab",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Alex Jessey",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Max Becker",
+      "number": "23",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Kevin Bryan",
+      "number": "24",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Kevin Graff",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "John Stenberg",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Dylan Baumgarth",
+      "number": "27",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Nick Moore",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Campbell Florence",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Griffin Ellis",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Colin Fagan",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Gordie Leary",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Thomas Vandenberg",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Marco Dzamba",
+      "number": "35",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Spencer Reagan",
+      "number": "36",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Christian Noriega",
+      "number": "38",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Luke Lowery",
+      "number": "40",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Emmett Paradine",
+      "number": "42",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "David Sullivan",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Ryan Williamson",
+      "number": "44",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Max Voigt",
+      "number": "45",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "The Hill Academy",
+      "number": "48",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Jr.",
+      "number": "49",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Dartmouth College"
+    },
+    {
+      "name": "Quinn Stankovits",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Dartmouth College"
+    }
+  ]
+}

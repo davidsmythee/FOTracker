@@ -1,0 +1,224 @@
+{
+  "team": "New Jersey Institute of Technology",
+  "scrapedAt": "2026-01-28T20:47:07.861Z",
+  "playerCount": 31,
+  "players": [
+    {
+      "name": "Dylan Sebastian",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Carson Piscitiello",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Christopher Eiselein",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "General Engineering",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Alexander Cartwright",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Owen Mercado",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Blake Piscitiello",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Kelly Jackson",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Callum Zarsky",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Cayston Conover",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Frankie Semiraglio",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Ryan Sininsky",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Evan Schmitt",
+      "number": "17",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Walker Zabransky",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Carson Bowley",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Benjamin Roberts",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Michael Flaccavento",
+      "number": "25",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Tristan Harrison",
+      "number": "28",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Colin Lowe",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Emmerick Dopona",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Wade Meissner",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Austin Exley",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Will Corry",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Michael Gaffney",
+      "number": "41",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Evan Lastella",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Austin Hahn",
+      "number": "44",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Jake Apel",
+      "number": "45",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Chase Ford",
+      "number": "50",
+      "position": "LSM",
+      "classYear": "",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Mechanical Engineering",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Wyatt Viste",
+      "number": "66",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "New Jersey Institute of Technology"
+    },
+    {
+      "name": "Nirio Garcia",
+      "number": "88",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "New Jersey Institute of Technology"
+    }
+  ]
+}

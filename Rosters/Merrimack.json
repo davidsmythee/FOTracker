@@ -1,0 +1,280 @@
+{
+  "team": "Merrimack College",
+  "scrapedAt": "2026-01-28T20:43:25.166Z",
+  "playerCount": 39,
+  "players": [
+    {
+      "name": "Carmine Jaconi",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Gavin Gray",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Tate  Flint",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Dominick Deering",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "John Savino",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Max Field",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Tyler Maille",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Matthew  Rosen",
+      "number": "8",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Josh Younger",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Rob Tyra",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Colin Kruger",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Colin Butters",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Luke Maslowski",
+      "number": "15",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Jack Salva",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Ryan Buonomo",
+      "number": "17",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Evan  Stockton",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Tyler Peterson",
+      "number": "19",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Conor  Noone",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Aiden  Laurendeau",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Noah Smith",
+      "number": "23",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Cody Rehder",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Daniel Bezrutchenko",
+      "number": "26",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Evan Napolitano",
+      "number": "28",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Carter  Vaillancourt",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Indi  Backman",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Ryan Cowan",
+      "number": "32",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Jaden  Galfano",
+      "number": "34",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Reid Betner",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Patrick Welch",
+      "number": "38",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Jack Parker",
+      "number": "40",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Gavan Henry",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Bennett  Della Valle",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Antonio  Izzo",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Nolan Martindale",
+      "number": "45",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Anthony Kulturides",
+      "number": "47",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Brendan Harty",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Casey Herod",
+      "number": "51",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Brady  Covey",
+      "number": "55",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Merrimack College"
+    },
+    {
+      "name": "Logan  DelPonte",
+      "number": "77",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Merrimack College"
+    }
+  ]
+}

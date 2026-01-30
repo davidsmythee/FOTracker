@@ -1,0 +1,329 @@
+{
+    "team": "College of the Holy Cross",
+    "scrapedAt": "2026-01-28T19:15:09.382Z",
+    "playerCount": 46,
+    "players": [
+      {
+        "name": "Harry Attell",
+        "number": "0",
+        "position": "FOGO",
+        "classYear": "Sophomore",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Shane McDonnell",
+        "number": "1",
+        "position": "FOGO",
+        "classYear": "Freshman",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Damien Ramondo",
+        "number": "2",
+        "position": "Attack",
+        "classYear": "Senior",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "William Russler",
+        "number": "3",
+        "position": "Midfielder",
+        "classYear": "Junior",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Jude Lynch",
+        "number": "4",
+        "position": "Midfielder",
+        "classYear": "Junior",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Jack Dowling",
+        "number": "5",
+        "position": "Midfielder",
+        "classYear": "Senior",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Davis Campbell",
+        "number": "6",
+        "position": "Midfielder",
+        "classYear": "Freshman",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Andrew Ottomanelli",
+        "number": "7",
+        "position": "Attack",
+        "classYear": "Sophomore",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Ryan Botek",
+        "number": "8",
+        "position": "Midfielder",
+        "classYear": "Junior",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Connor Bouvier",
+        "number": "9",
+        "position": "Midfielder",
+        "classYear": "Junior",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Carter McAndrew",
+        "number": "10",
+        "position": "Midfielder",
+        "classYear": "Freshman",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Julian Jenkins",
+        "number": "11",
+        "position": "Defense",
+        "classYear": "Senior",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Tim Golden",
+        "number": "12",
+        "position": "FOGO",
+        "classYear": "Junior",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Nick Bang",
+        "number": "13",
+        "position": "Defense",
+        "classYear": "Sophomore",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Brendan Lane",
+        "number": "14",
+        "position": "Midfielder",
+        "classYear": "Senior",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Teddy McKeigue",
+        "number": "15",
+        "position": "Defense",
+        "classYear": "Freshman",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Gavin Ouhrabka",
+        "number": "16",
+        "position": "FOGO",
+        "classYear": "Junior",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Jack Durnan",
+        "number": "17",
+        "position": "Goalie",
+        "classYear": "Freshman",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Matthew Marchetta",
+        "number": "18",
+        "position": "LSM",
+        "classYear": "Sophomore",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Caleb DaRocha",
+        "number": "19",
+        "position": "Midfielder",
+        "classYear": "Freshman",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Paul Armstrong",
+        "number": "21",
+        "position": "Attack",
+        "classYear": "Freshman",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Tyler Marmo",
+        "number": "22",
+        "position": "Attack",
+        "classYear": "Senior",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Will Deo",
+        "number": "24",
+        "position": "Attack",
+        "classYear": "Junior",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Jaydon Franklin",
+        "number": "25",
+        "position": "LSM",
+        "classYear": "Sophomore",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Gavin Clary",
+        "number": "26",
+        "position": "Defense",
+        "classYear": "Junior",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Paul Korian",
+        "number": "27",
+        "position": "Defense",
+        "classYear": "Junior",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Jon-Luke Duley",
+        "number": "28",
+        "position": "Midfielder",
+        "classYear": "Junior",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Michael Rincon",
+        "number": "30",
+        "position": "LSM",
+        "classYear": "Senior",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Joe Arizin",
+        "number": "31",
+        "position": "LSM",
+        "classYear": "Freshman",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Sam McDonald",
+        "number": "32",
+        "position": "Attack",
+        "classYear": "Junior",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Billy Black",
+        "number": "33",
+        "position": "Midfielder",
+        "classYear": "Senior",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Cooper Fallon",
+        "number": "34",
+        "position": "Defense",
+        "classYear": "Junior",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Matthew Plunkett",
+        "number": "35",
+        "position": "Midfielder",
+        "classYear": "Freshman",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Sean Miller",
+        "number": "36",
+        "position": "Goalie",
+        "classYear": "Senior",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "William Vieceli",
+        "number": "40",
+        "position": "Defense",
+        "classYear": "Sophomore",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Aiden Froh",
+        "number": "41",
+        "position": "LSM",
+        "classYear": "Sophomore",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Mateo Corcoran",
+        "number": "43",
+        "position": "Defense",
+        "classYear": "Freshman",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Bo Webster",
+        "number": "44",
+        "position": "Attack",
+        "classYear": "Junior",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Owen Tunney",
+        "number": "45",
+        "position": "Attack",
+        "classYear": "Sophomore",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Riley Stanton",
+        "number": "46",
+        "position": "Goalie",
+        "classYear": "Junior",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Giacomo Bevacqua",
+        "number": "49",
+        "position": "Attack",
+        "classYear": "Sophomore",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Max Hubler",
+        "number": "55",
+        "position": "Defense",
+        "classYear": "Senior",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Jake Doran",
+        "number": "66",
+        "position": "Midfielder",
+        "classYear": "Sophomore",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Sr.",
+        "number": "77",
+        "position": "Goalie",
+        "classYear": "Senior",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Aedan Cassidy",
+        "number": "88",
+        "position": "Attack",
+        "classYear": "Freshman",
+        "team": "College of the Holy Cross"
+      },
+      {
+        "name": "Aidan Considine",
+        "number": "99",
+        "position": "Midfielder",
+        "classYear": "Sophomore",
+        "team": "College of the Holy Cross"
+      }
+    ]
+  }

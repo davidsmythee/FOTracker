@@ -1,0 +1,27 @@
+{
+  "name": "fotracker-roster-scraper",
+  "version": "1.0.0",
+  "description": "Web scraping tools to extract lacrosse roster data for FOTracker",
+  "main": "roster-scraper.js",
+  "scripts": {
+    "scrape": "node roster-scraper.js",
+    "parse": "open roster-parser.html",
+    "import": "node import-to-fotracker.js",
+    "batch": "chmod +x scrape-all-d1-teams.sh && ./scrape-all-d1-teams.sh"
+  },
+  "keywords": [
+    "lacrosse",
+    "roster",
+    "scraper",
+    "web-scraping",
+    "sports",
+    "analytics"
+  ],
+  "author": "FOTracker",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

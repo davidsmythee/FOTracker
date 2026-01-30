@@ -1,0 +1,308 @@
+{
+  "team": "Mount St. Mary's University",
+  "scrapedAt": "2026-01-28T20:45:51.931Z",
+  "playerCount": 43,
+  "players": [
+    {
+      "name": "Garrett Conley",
+      "number": "1",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Teagan Fingar",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Collin Thomson",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Aidan Kilduff",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Owen Rupp",
+      "number": "5",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Nicolas Belmonte",
+      "number": "6",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Xandr Godzilevsky",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Gavin Schaffer",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Harrison Wolpoe",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Cole Angeline",
+      "number": "10",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Kyle Gould",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Chris Grimaldi",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Marcelo Carreiro",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Brody Atkinson",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Will Simmons",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Trevor Sutton",
+      "number": "17",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Brendan Wright",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Jameson Carl",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Sean Center-Wilhelm",
+      "number": "22",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Jack Slater",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Jaden Saysanam",
+      "number": "24",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Alex Guy",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Sean Connelly",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Dorain Connolley",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Nico Chirieleison",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Jack Durham",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Conner Aquino",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Darryl Kuriger",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Dylan Sander",
+      "number": "33",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Ryan Reynolds",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Cole Quenzer",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Josh Marson",
+      "number": "37",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Nicholas Kern",
+      "number": "39",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Kevin Whitty",
+      "number": "40",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Kevin Kane",
+      "number": "41",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Nate Committee",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Bennett Wright",
+      "number": "44",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Isaac Prantera",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Brady Rauner",
+      "number": "47",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Owen Fasulka",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Sam Azbill",
+      "number": "51",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Brayden Ragland",
+      "number": "52",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Mount St. Mary's University"
+    },
+    {
+      "name": "Kenny McGoldrick",
+      "number": "54",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Mount St. Mary's University"
+    }
+  ]
+}

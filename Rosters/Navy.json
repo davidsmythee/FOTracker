@@ -1,0 +1,385 @@
+{
+  "team": "United States Naval Academy",
+  "scrapedAt": "2026-01-28T20:46:25.889Z",
+  "playerCount": 54,
+  "players": [
+    {
+      "name": "Parker Love",
+      "number": "2",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Kade Smith",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Race Ripley",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Jr.",
+      "number": "5",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Alec Gregorek",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Chase Green",
+      "number": "8",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Mac Haley",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Max Thomas",
+      "number": "10",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Jr.",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Harrison Richards",
+      "number": "13",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Cody Collier",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Ryan Landolphi",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Preston Lugar",
+      "number": "16",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Cooper Kurtz",
+      "number": "17",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Jackson Roberts",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Chad Connolly",
+      "number": "19",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Zach Hayashi",
+      "number": "20",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Ryan Trafford",
+      "number": "21",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Jack Nichtern",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Andrew Ross",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Josh Nagy",
+      "number": "24",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Aydan DiRocco",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Patrick Flaherty",
+      "number": "26",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Jack Ponzio",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Graham Parker",
+      "number": "28",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Matt Byrnes",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Jake Mendenhall",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Jack Flaherty",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Quinn Anzelone",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Nick Golini",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Carter King",
+      "number": "35",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Justin Queen",
+      "number": "36",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Sean Gallagher",
+      "number": "37",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Tristan Mullahey",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Sam Muir",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Paul McLucas",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Tristan Bach",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Rory Blanchard",
+      "number": "44",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Colin Shadowens",
+      "number": "45",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Aidan Hurdle",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Aidan Lough",
+      "number": "47",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Paul Garza",
+      "number": "48",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Nathan Pechin",
+      "number": "52",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Luke Cascadden",
+      "number": "53",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Andrew Daly",
+      "number": "55",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Anthony Mancinelli",
+      "number": "57",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Joey Bucci",
+      "number": "58",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Ben Norten",
+      "number": "59",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Mike Anzelone",
+      "number": "61",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Brock LaRochelle",
+      "number": "63",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Ben Ruiz",
+      "number": "64",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Liam Hurley",
+      "number": "65",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Connor Ross",
+      "number": "66",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "United States Naval Academy"
+    },
+    {
+      "name": "Billy Francois",
+      "number": "68",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "United States Naval Academy"
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "team": "SUNY University at Albany",
+  "scrapedAt": "2026-01-28T19:24:43.833Z",
+  "playerCount": 46,
+  "players": [
+    {
+      "name": "Ben Wimmer",
+      "number": "0",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Ryan Doherty",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Wally Swiney",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Matthew Pettis",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Luke Grove",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Peter Marietta",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Brendon Barnard",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Daniel Kesselring",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Brendan O'Keefe",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Jr.",
+      "number": "9",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Ben Coghill",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Tayoni Galante",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Carter Kempney",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Kevin Carney",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Jackson Palumb",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Silas Richmond",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Alex Pfeiffer",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Brady Quill",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Will Hardy",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Noah Nahrebeski",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Trevor Saccomandi",
+      "number": "23",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "James Reid",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Fr.",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Dalton Kane",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Deegan Rankin",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Damon Jones",
+      "number": "28",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Patrick Boyle",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Zachary Kerner",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Mason Sanden",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Cade Galko",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Austin Oppenheim",
+      "number": "34",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Trevor Corless",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Frederick Hicks",
+      "number": "38",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Connor Kelly",
+      "number": "40",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Arjay Johnson",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Paul Canton",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Teharonhiorens  McComber",
+      "number": "43",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Max Neeson",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Justin Lee",
+      "number": "45",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Connor Gerlach",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Rocco Mareno",
+      "number": "48",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Will Oliverio",
+      "number": "50",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Jacob Smith",
+      "number": "77",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Koleton Marquis",
+      "number": "88",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Jack Hadden",
+      "number": "91",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY University at Albany"
+    },
+    {
+      "name": "Dillon Mehta",
+      "number": "99",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "SUNY University at Albany"
+    }
+  ]
+}

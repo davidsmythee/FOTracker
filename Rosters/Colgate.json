@@ -1,0 +1,322 @@
+{
+    "team": "Colgate University",
+    "scrapedAt": "2026-01-28T19:14:22.862Z",
+    "playerCount": 45,
+    "players": [
+      {
+        "name": "Elias McLaughlin",
+        "number": "1",
+        "position": "Attack",
+        "classYear": "",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Quinn Spillett",
+        "number": "2",
+        "position": "Midfielder",
+        "classYear": "Junior",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Jack Rabazzi",
+        "number": "3",
+        "position": "Defense",
+        "classYear": "",
+        "team": "Colgate University"
+      },
+      {
+        "name": "John Carrabine",
+        "number": "4",
+        "position": "Defense",
+        "classYear": "Junior",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Hunter Drouin",
+        "number": "5",
+        "position": "Midfielder",
+        "classYear": "Senior",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Jack Gerber",
+        "number": "6",
+        "position": "Attack",
+        "classYear": "Senior",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Sam Erickson",
+        "number": "7",
+        "position": "LSM",
+        "classYear": "Senior",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Nick Lancaster",
+        "number": "8",
+        "position": "Defense",
+        "classYear": "Junior",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Charlie Lohman",
+        "number": "9",
+        "position": "Midfielder",
+        "classYear": "Senior",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Freddy Fowler",
+        "number": "10",
+        "position": "Attack",
+        "classYear": "Sophomore",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Andrew Kiefer",
+        "number": "11",
+        "position": "Midfielder",
+        "classYear": "Sophomore",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Casey Quinson",
+        "number": "12",
+        "position": "Attack",
+        "classYear": "Sophomore",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Grant Ettinger",
+        "number": "14",
+        "position": "Defense",
+        "classYear": "Junior",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Ryan Bilello",
+        "number": "15",
+        "position": "Defense",
+        "classYear": "Senior",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Matt Nemsick",
+        "number": "16",
+        "position": "Defense",
+        "classYear": "Junior",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Andrew  Lehrman",
+        "number": "17",
+        "position": "Goalie",
+        "classYear": "Sophomore",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Gavin Javorsky",
+        "number": "18",
+        "position": "Midfielder",
+        "classYear": "Junior",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Ben Thomas",
+        "number": "19",
+        "position": "LSM",
+        "classYear": "Senior",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Ryan Ornstein",
+        "number": "20",
+        "position": "Midfielder",
+        "classYear": "Sophomore",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Carter  Cadin",
+        "number": "21",
+        "position": "Midfielder",
+        "classYear": "",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Emmet Crotty",
+        "number": "23",
+        "position": "Midfielder",
+        "classYear": "",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Andrew Allen",
+        "number": "24",
+        "position": "Attack",
+        "classYear": "",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Euan McKeever",
+        "number": "25",
+        "position": "Goalie",
+        "classYear": "",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Henry Cunningham",
+        "number": "26",
+        "position": "FOGO",
+        "classYear": "",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Johnny Hartzell",
+        "number": "27",
+        "position": "FOGO",
+        "classYear": "Senior",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Luke Knezovic",
+        "number": "30",
+        "position": "Midfielder",
+        "classYear": "Sophomore",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Parker  Barhydt",
+        "number": "31",
+        "position": "LSM",
+        "classYear": "",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Will Rose",
+        "number": "32",
+        "position": "Defense",
+        "classYear": "Senior",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Charlie  Carbonaro",
+        "number": "33",
+        "position": "Midfielder",
+        "classYear": "",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Larkin Divine",
+        "number": "34",
+        "position": "Goalie",
+        "classYear": "Senior",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Kyle  Rummel",
+        "number": "36",
+        "position": "FOGO",
+        "classYear": "Junior",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Miller  Marks",
+        "number": "39",
+        "position": "Midfielder",
+        "classYear": "Senior",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Cam Essensa",
+        "number": "41",
+        "position": "Attack",
+        "classYear": "Senior",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Wylie Warchol",
+        "number": "42",
+        "position": "Midfielder",
+        "classYear": "Junior",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Ryan Favaro",
+        "number": "44",
+        "position": "Attack",
+        "classYear": "Senior",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Sam Barton",
+        "number": "46",
+        "position": "Defense",
+        "classYear": "Junior",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Kyle  Van Dam",
+        "number": "47",
+        "position": "Defense",
+        "classYear": "Sophomore",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Patty Eldredge",
+        "number": "48",
+        "position": "Midfielder",
+        "classYear": "Senior",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Fischer Burke",
+        "number": "49",
+        "position": "FOGO",
+        "classYear": "Sophomore",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Tristan Schaefer",
+        "number": "50",
+        "position": "Midfielder",
+        "classYear": "",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Rett  Zeigler",
+        "number": "51",
+        "position": "LSM",
+        "classYear": "Sophomore",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Jake  Kozlowski",
+        "number": "55",
+        "position": "Goalie",
+        "classYear": "Senior",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Andy Croddick",
+        "number": "66",
+        "position": "Midfielder",
+        "classYear": "Sophomore",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Michael Clifford",
+        "number": "77",
+        "position": "Defense",
+        "classYear": "",
+        "team": "Colgate University"
+      },
+      {
+        "name": "Thomas  Lala",
+        "number": "88",
+        "position": "LSM",
+        "classYear": "Junior",
+        "team": "Colgate University"
+      }
+    ]
+  }

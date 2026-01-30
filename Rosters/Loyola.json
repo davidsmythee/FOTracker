@@ -1,0 +1,364 @@
+{
+  "team": "Loyola University Maryland",
+  "scrapedAt": "2026-01-28T20:38:22.734Z",
+  "playerCount": 51,
+  "players": [
+    {
+      "name": "Cam McCarthy",
+      "number": "0",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Joe Houlihan",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Henry Haberman",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Michael Callahan",
+      "number": "4",
+      "position": "SSDM",
+      "classYear": "",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Vinnie Trujillo",
+      "number": "5",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Aiden Kammerer",
+      "number": "6",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Matthew Minicus",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Will McCulloch",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Ryan McGorry",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Jacob Sullivan",
+      "number": "11",
+      "position": "SSDM",
+      "classYear": "",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Tyler Olsen",
+      "number": "12",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Will Musgrove",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Kyle McCarthy",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Davis Michaluk",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Chase Gregory",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Brodi Reidel",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Thomas Kline",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Carter Blackburn",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Will Rheude",
+      "number": "21",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Austin Cote",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Bruno Chapman",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Carson Hall",
+      "number": "26",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Ryan Cane",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Luke Murphy",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Mitch Kavey",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Mason Graves",
+      "number": "30",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Grady O'Day",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Nolan Bellotti",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Carter Sherwood",
+      "number": "35",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Connor Wilbur",
+      "number": "36",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Hayden Holmes",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Briggs McGuckin",
+      "number": "38",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Alex Dumont",
+      "number": "39",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Ronan Peterson",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Mason Sulek",
+      "number": "41",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Marek Seaman",
+      "number": "42",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Jack Schwartz",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Kenan Everhart",
+      "number": "44",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Matthew Everson",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Mike Brescia",
+      "number": "47",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Brady Rogoff",
+      "number": "48",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Matthias Beals",
+      "number": "49",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Brady Quinn",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Mason Cook",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Aidan Hevia",
+      "number": "55",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Miles Halter",
+      "number": "57",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Ryan Bowerman",
+      "number": "59",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Parker Villarin",
+      "number": "66",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Brady West",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Chase Brody",
+      "number": "82",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "Loyola University Maryland"
+    },
+    {
+      "name": "Jake Wilson",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Loyola University Maryland"
+    }
+  ]
+}

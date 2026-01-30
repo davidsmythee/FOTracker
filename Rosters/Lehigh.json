@@ -1,0 +1,336 @@
+{
+  "team": "Lehigh University",
+  "scrapedAt": "2026-01-28T20:36:19.495Z",
+  "playerCount": 47,
+  "players": [
+    {
+      "name": "Hansen Polonkey",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Austin Conner",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Luke Winkler",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Charlie Haley",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Bo Horvath",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Chris Rathwell",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Brandon Kunz",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Cole Frank",
+      "number": "8",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Peter Debusschere",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Colin French",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Luke Breslin",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Andrew Kelly",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Matthew Sparhuber",
+      "number": "14",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Charlie Sherman",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Calvert Hall",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Peter Theodoropoulos",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Clayton Gengras",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Hunter Polonkey",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Grant Rodny",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Ryan Metz",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Harrison Vassel",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Brian Delaney Jr.",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Connor Riley",
+      "number": "28",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Gordon Smith",
+      "number": "29",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Steele Croom",
+      "number": "30",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Bryan Folsom",
+      "number": "31",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Clark Rich",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Will Cawley",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Jack Archer",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Owen Murphy",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Max Weisman",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Rowan Collins",
+      "number": "37",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Bryce Pang",
+      "number": "38",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Christopher Constantine",
+      "number": "40",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Ryan Penton",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Peter Gerbasi",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Trevor Brotons",
+      "number": "43",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Kasey Heath",
+      "number": "44",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Richard Checo",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Trevor Busch",
+      "number": "46",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Calvert Hall",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Kimball Union Academy",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Finn Morgan",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Zach Mesa",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Malvern Prep",
+      "number": "66",
+      "position": "SSDM",
+      "classYear": "",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Brody Muly",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lehigh University"
+    },
+    {
+      "name": "Brian Mullen",
+      "number": "99",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Lehigh University"
+    }
+  ]
+}

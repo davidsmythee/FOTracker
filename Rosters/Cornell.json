@@ -1,0 +1,322 @@
+{
+  "team": "Cornell University",
+  "scrapedAt": "2026-01-28T19:25:54.366Z",
+  "playerCount": 45,
+  "players": [
+    {
+      "name": "Sebastian Reyes",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Jaden Ciappara",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Ryan Waldman",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Antonio Topouzis",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Matthew Swartz",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Seamus Riordan",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Luke Robinson",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Griffin McGovern",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Matthew Perfetto",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Anthony Bartolotto",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Charlie Box",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Billy Hughes",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Rowyn Nurry",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Blake  Cascadden",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Eli Friedman",
+      "number": "23",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Jimmy Troy",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Michael Melkonian",
+      "number": "25",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Will Burfeind",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Cornell University"
+    },
+    {
+      "name": "John Rodehorst",
+      "number": "27",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Beck Mahoney",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Grady Taylor",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Ryan Goldstein",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Jack Herendeen",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Brendan Staub",
+      "number": "33",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Drew  Diviney",
+      "number": "35",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Sam Ricci",
+      "number": "36",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Tim Piacentini",
+      "number": "37",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Jr.",
+      "number": "38",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Jack Carroll",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Brian Box",
+      "number": "42",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Michael Marshall",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Sr.",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Bowie Horsman",
+      "number": "45",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Eddie Rayhill",
+      "number": "46",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Ethan Ruller",
+      "number": "47",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Treysen Santos-Stewart",
+      "number": "48",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Peyton Booth",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Willem Firth",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Jaxon Smart",
+      "number": "52",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Walker Schwartz",
+      "number": "53",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Matthew Tully",
+      "number": "55",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Cornell University"
+    },
+    {
+      "name": "George LaCombe",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Luke Gilmartin",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Matt Dooley",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Cornell University"
+    },
+    {
+      "name": "Ike Lohnes",
+      "number": "93",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Cornell University"
+    }
+  ]
+}

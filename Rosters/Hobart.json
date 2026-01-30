@@ -1,0 +1,371 @@
+{
+  "team": "Hobart & William Smith College",
+  "scrapedAt": "2026-01-28T20:32:06.599Z",
+  "playerCount": 52,
+  "players": [
+    {
+      "name": "Michael Johnson",
+      "number": "0",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Dylan Penn",
+      "number": "1",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Slade Engstrom",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Teddy Fenlin",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Cade Dino",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Julian Race",
+      "number": "5",
+      "position": "SSDM",
+      "classYear": "Graduate",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Brandon Penn",
+      "number": "6",
+      "position": "SSDM",
+      "classYear": "",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Max Snellenburg",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Loyola Academy",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Chase Hallam",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Trevor Fox",
+      "number": "10",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "South Side",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Daniel Cano",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Gordon Bennett",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Rees Chandler",
+      "number": "15",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Rufus Robertson",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Johnny Harding",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Emmerich Braham",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Nickolas Sotiropoulos",
+      "number": "19",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Sheldon Broughton",
+      "number": "20",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Tyler Cavo",
+      "number": "21",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "David Peterkin",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Michael Schafer",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Michael Scarpati",
+      "number": "24",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Jacob Janke",
+      "number": "25",
+      "position": "SSDM",
+      "classYear": "",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Seamus Schofield",
+      "number": "26",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Peter Gilliam",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "James Stanton",
+      "number": "28",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Colden Swisher",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Cole George",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Jack Schleicher",
+      "number": "31",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Jackson Faiola",
+      "number": "32",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Brady Comella",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Michael Bennett",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Graduate",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Brady McEnroe",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Tye Steenhuis",
+      "number": "39",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Luke Bieberbach",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Jackson Galiani",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Andre Wiest",
+      "number": "44",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Drew O'Buck",
+      "number": "47",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Ethan Winterbottom",
+      "number": "49",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Liam Rubingh",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Alex Begina",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Elhanan Wilson",
+      "number": "54",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "James Hamilton",
+      "number": "55",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Jack Moye",
+      "number": "56",
+      "position": "SSDM",
+      "classYear": "",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Adam Franasiak",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Colman Craft",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Brady Smith",
+      "number": "81",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Mike Valent",
+      "number": "88",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Cole Bryant",
+      "number": "91",
+      "position": "SSDM",
+      "classYear": "",
+      "team": "Hobart & William Smith College"
+    },
+    {
+      "name": "Bryce Johnson",
+      "number": "99",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Hobart & William Smith College"
+    }
+  ]
+}

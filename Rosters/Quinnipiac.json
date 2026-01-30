@@ -1,0 +1,315 @@
+{
+  "team": "Quinnipiac University",
+  "scrapedAt": "2026-01-28T20:54:35.956Z",
+  "playerCount": 44,
+  "players": [
+    {
+      "name": "Cole Marsala",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Jr.",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Glenn Platania",
+      "number": "3",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Justin Robbert",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Jake Gallose",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Owen Murray",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Duncan Zielke",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Aiden Whitehouse",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Drew Bradley",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Carter Hills",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Brendan Johnson",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Will Cronin",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Luke Hendricks",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Joe Konesco",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Drew Hansen",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Adam Kim",
+      "number": "17",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Chad Pelonzi",
+      "number": "18",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Nate Watson",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Nick Meoni",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Augie Silver",
+      "number": "21",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Jaxon Gill",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Ryan Novak",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Ethan McGerald",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Nick Smith",
+      "number": "27",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Evan Miner",
+      "number": "28",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Ryan Downing",
+      "number": "29",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Austin Boardo",
+      "number": "30",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Mason Oak",
+      "number": "31",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Ryan Goodman",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Giovanni Guerrette",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Frank Mousa",
+      "number": "36",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Lance Starr",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Luca Cutolo",
+      "number": "38",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "AJ Amandolare",
+      "number": "39",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Colin Redmond",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Tommy Andruzzi",
+      "number": "42",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Sean McCaffery",
+      "number": "43",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Chase Young",
+      "number": "44",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "William Steinkrauss",
+      "number": "45",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Luke Byman",
+      "number": "46",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Matty Kelleher",
+      "number": "47",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Thomas Andria",
+      "number": "48",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Kevin Fiola",
+      "number": "49",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Quinnipiac University"
+    },
+    {
+      "name": "Riley Ruane",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Quinnipiac University"
+    }
+  ]
+}
