@@ -86,12 +86,8 @@ class UIController {
             pinDetailsModal: document.getElementById('pin-details-modal'),
             pinDetailsForm: document.getElementById('pin-details-form'),
             cancelPinDetails: document.getElementById('cancel-pin-details'),
-            faceoffWinBtn: document.getElementById('faceoff-win'),
-            faceoffLossBtn: document.getElementById('faceoff-loss'),
-            clampWinBtn: document.getElementById('clamp-win'),
-            clampLossBtn: document.getElementById('clamp-loss'),
-            player1Select: document.getElementById('player1-select'),
-            player2Select: document.getElementById('player2-select'),
+            teamAPlayerSelect: document.getElementById('team-a-player-select'),
+            teamBPlayerSelect: document.getElementById('team-b-player-select'),
             gameFilterSection: document.getElementById('game-filter-section'),
             selectAllGames: document.getElementById('select-all-games'),
             deselectAllGames: document.getElementById('deselect-all-games'),
@@ -99,7 +95,11 @@ class UIController {
             seasonGames: document.getElementById('season-games'),
             seasonWins: document.getElementById('season-wins'),
             seasonLosses: document.getElementById('season-losses'),
-            seasonPercentage: document.getElementById('season-percentage')
+            seasonPercentage: document.getElementById('season-percentage'),
+            newFolderBtn: document.getElementById('new-folder-btn'),
+            newFolderModal: document.getElementById('new-folder-modal'),
+            newFolderForm: document.getElementById('new-folder-form'),
+            cancelFolderModal: document.getElementById('cancel-folder-modal')
         };
     }
 
@@ -116,6 +116,22 @@ class UIController {
 
         this.elements.managePlayersBtn.addEventListener('click', () => {
             this.showManagePlayersModal();
+        });
+
+        // New folder button
+        this.elements.newFolderBtn.addEventListener('click', () => {
+            this.showNewFolderModal();
+        });
+
+        // Cancel folder modal
+        this.elements.cancelFolderModal.addEventListener('click', () => {
+            this.hideNewFolderModal();
+        });
+
+        // New folder form submission
+        this.elements.newFolderForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            await this.createNewFolder();
         });
 
         // Delete game button
@@ -323,24 +339,6 @@ class UIController {
             if (e.target === this.elements.pinDetailsModal) {
                 this.hidePinDetailsModal();
             }
-        });
-
-        // Face-off result buttons
-        this.elements.faceoffWinBtn.addEventListener('click', () => {
-            this.setFaceoffResult('win');
-        });
-
-        this.elements.faceoffLossBtn.addEventListener('click', () => {
-            this.setFaceoffResult('loss');
-        });
-
-        // Clamp result buttons
-        this.elements.clampWinBtn.addEventListener('click', () => {
-            this.setClampResult('win');
-        });
-
-        this.elements.clampLossBtn.addEventListener('click', () => {
-            this.setClampResult('loss');
         });
 
         // Game filtering controls
@@ -566,14 +564,14 @@ class UIController {
             return;
         }
 
-        // Don't allow pins on Season Total
+        // Don't allow pins on Season Total or Cumulative Folders
         const currentGame = this.tracker.getCurrentGame();
-        if (currentGame && currentGame.id === this.tracker.SEASON_TOTAL_ID) {
+        if (currentGame && (currentGame.id === this.tracker.SEASON_TOTAL_ID || currentGame.isCumulativeFolder)) {
             Swal.fire({
-                title: 'Season Total View',
-                text: 'Cannot place pins on Season Total view. Please select a specific game.',
+                title: 'Cannot Add Pins',
+                text: 'This is a read-only cumulative view. Select a regular game to add pins.',
                 icon: 'info',
-                confirmButtonColor: '#FFFFFF', confirmButtonTextColor: '#000000'
+                confirmButtonColor: '#FFFFFF'
             });
             return;
         }
@@ -705,6 +703,53 @@ class UIController {
 
         this.hideNewGameModal();
         this.updateUI();
+    }
+
+    showNewFolderModal() {
+        this.elements.newFolderModal.style.display = 'flex';
+        document.getElementById('folder-name').focus();
+    }
+
+    hideNewFolderModal() {
+        this.elements.newFolderModal.style.display = 'none';
+        this.elements.newFolderForm.reset();
+    }
+
+    async createNewFolder() {
+        const name = document.getElementById('folder-name').value.trim();
+        const hasCumulativeTracker = document.getElementById('folder-cumulative-tracker').checked;
+
+        if (!name) {
+            Swal.fire({
+                title: 'Missing Folder Name',
+                text: 'Please enter a folder name',
+                icon: 'warning',
+                confirmButtonColor: '#FFFFFF'
+            });
+            return;
+        }
+
+        try {
+            await this.tracker.createFolder(name, hasCumulativeTracker);
+            this.hideNewFolderModal();
+            this.updateUI();
+
+            Swal.fire({
+                title: 'Folder Created!',
+                text: `"${name}" has been created`,
+                icon: 'success',
+                timer: 2000,
+                showConfirmButton: false
+            });
+        } catch (error) {
+            console.error('Error creating folder:', error);
+            Swal.fire({
+                title: 'Error',
+                text: 'Failed to create folder',
+                icon: 'error',
+                confirmButtonColor: '#FFFFFF'
+            });
+        }
     }
 
     showAddToRosterModal() {
@@ -1606,8 +1651,6 @@ class UIController {
         const gamesList = this.elements.gamesList;
         gamesList.innerHTML = '';
 
-        const gameIds = Object.keys(this.tracker.games);
-        
         // Always show Season Total first
         if (this.tracker.games[this.tracker.SEASON_TOTAL_ID]) {
             const seasonTotalCard = this.createGameCard(
@@ -1615,13 +1658,41 @@ class UIController {
                 this.tracker.currentGameId === this.tracker.SEASON_TOTAL_ID
             );
             gamesList.appendChild(seasonTotalCard);
+
+            // Add divider
+            const divider = document.createElement('div');
+            divider.className = 'games-list-divider';
+            gamesList.appendChild(divider);
         }
-        
-        // Check if there are any regular games (non-season total)
-        const regularGameIds = gameIds.filter(id => id !== this.tracker.SEASON_TOTAL_ID);
-        
-        if (regularGameIds.length === 0) {
-            // Show message below Season Total
+
+        // Get all folders sorted by creation date
+        const folderIds = Object.keys(this.tracker.folders).sort((a, b) => {
+            return new Date(this.tracker.folders[a].createdAt) -
+                   new Date(this.tracker.folders[b].createdAt);
+        });
+
+        // Get all regular games (not Season Total, not cumulative folders)
+        const allGameIds = Object.keys(this.tracker.games).filter(id =>
+            id !== this.tracker.SEASON_TOTAL_ID &&
+            !this.tracker.games[id].isCumulativeFolder
+        );
+
+        // Render each folder
+        folderIds.forEach(folderId => {
+            const folder = this.tracker.folders[folderId];
+            const folderSection = this.createFolderSection(folder);
+            gamesList.appendChild(folderSection);
+        });
+
+        // Render unfiled games section
+        const unfiledGames = allGameIds.filter(id => !this.tracker.games[id].folderId);
+        if (unfiledGames.length > 0) {
+            const unfiledSection = this.createUnfiledGamesSection(unfiledGames);
+            gamesList.appendChild(unfiledSection);
+        }
+
+        // Show "no games" message if no games exist
+        if (allGameIds.length === 0) {
             const noGamesMsg = document.createElement('div');
             noGamesMsg.className = 'no-games-message';
             noGamesMsg.style.marginTop = '20px';
@@ -1630,39 +1701,154 @@ class UIController {
                 <p class="hint">Create your first game to get started!</p>
             `;
             gamesList.appendChild(noGamesMsg);
-            
-            this.elements.deleteGameBtn.style.display = 'none';
-            if (this.tracker.currentGameId !== this.tracker.SEASON_TOTAL_ID) {
-                this.elements.currentOpponent.textContent = 'Select a game';
-                this.elements.currentDate.textContent = '';
-            }
-            return;
         }
-
-        // Add divider
-        const divider = document.createElement('div');
-        divider.className = 'games-list-divider';
-        gamesList.appendChild(divider);
-
-        // Show/hide delete button based on whether season total is selected
-        this.elements.deleteGameBtn.style.display = 
-            this.tracker.currentGameId === this.tracker.SEASON_TOTAL_ID ? 'none' : 'block';
-
-        // Sort regular games by date (newest first)
-        regularGameIds.sort((a, b) => {
-            return new Date(this.tracker.games[b].date) - new Date(this.tracker.games[a].date);
-        });
-
-        regularGameIds.forEach(id => {
-            const game = this.tracker.games[id];
-            const gameCard = this.createGameCard(game, id === this.tracker.currentGameId);
-            gamesList.appendChild(gameCard);
-        });
     }
 
-    createGameCard(game, isActive) {
+    createFolderSection(folder) {
+        const section = document.createElement('div');
+        section.className = 'folder-section';
+        section.dataset.folderId = folder.id;
+
+        // Folder header (collapsible)
+        const header = document.createElement('div');
+        header.className = 'folder-header';
+
+        const toggle = document.createElement('span');
+        toggle.className = 'folder-toggle';
+        toggle.textContent = '▼'; // Expanded by default
+
+        const nameSpan = document.createElement('span');
+        nameSpan.className = 'folder-name';
+        nameSpan.textContent = `📁 ${folder.name}`;
+
+        const actionsDiv = document.createElement('div');
+        actionsDiv.className = 'folder-actions';
+
+        // Delete folder button
+        const deleteBtn = document.createElement('button');
+        deleteBtn.className = 'folder-action-btn';
+        deleteBtn.innerHTML = '🗑️';
+        deleteBtn.title = 'Delete Folder';
+        deleteBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            this.confirmDeleteFolder(folder.id);
+        });
+
+        actionsDiv.appendChild(deleteBtn);
+        header.appendChild(toggle);
+        header.appendChild(nameSpan);
+        header.appendChild(actionsDiv);
+
+        // Folder content (games)
+        const content = document.createElement('div');
+        content.className = 'folder-content';
+
+        // Add cumulative game if folder has it
+        if (folder.hasCumulativeTracker) {
+            const cumulativeId = `${this.tracker.CUMULATIVE_ID_PREFIX}${folder.id}`;
+            const cumulativeGame = this.tracker.games[cumulativeId];
+            if (cumulativeGame) {
+                const cumulativeCard = this.createGameCard(
+                    cumulativeGame,
+                    this.tracker.currentGameId === cumulativeId,
+                    true  // isCumulative flag
+                );
+                content.appendChild(cumulativeCard);
+            }
+        }
+
+        // Get games in this folder
+        const folderGames = Object.values(this.tracker.games)
+            .filter(g => g.folderId === folder.id && !g.isCumulativeFolder)
+            .sort((a, b) => new Date(b.date) - new Date(a.date));
+
+        // Render games
+        folderGames.forEach(game => {
+            const gameCard = this.createGameCard(
+                game,
+                game.id === this.tracker.currentGameId
+            );
+
+            // Add move to folder option on right-click
+            gameCard.addEventListener('contextmenu', (e) => {
+                e.preventDefault();
+                this.showGameContextMenu(e, game.id);
+            });
+
+            content.appendChild(gameCard);
+        });
+
+        // Toggle collapse/expand
+        header.addEventListener('click', () => {
+            section.classList.toggle('collapsed');
+            toggle.textContent = section.classList.contains('collapsed') ? '▶' : '▼';
+        });
+
+        section.appendChild(header);
+        section.appendChild(content);
+
+        return section;
+    }
+
+    createUnfiledGamesSection(gameIds) {
+        const section = document.createElement('div');
+        section.className = 'folder-section';
+
+        const header = document.createElement('div');
+        header.className = 'folder-header';
+
+        const toggle = document.createElement('span');
+        toggle.className = 'folder-toggle';
+        toggle.textContent = '▼';
+
+        const nameSpan = document.createElement('span');
+        nameSpan.className = 'folder-name';
+        nameSpan.textContent = '📂 Unfiled Games';
+
+        header.appendChild(toggle);
+        header.appendChild(nameSpan);
+
+        const content = document.createElement('div');
+        content.className = 'folder-content';
+
+        // Sort by date
+        gameIds.sort((a, b) => {
+            return new Date(this.tracker.games[b].date) -
+                   new Date(this.tracker.games[a].date);
+        });
+
+        gameIds.forEach(id => {
+            const game = this.tracker.games[id];
+            const gameCard = this.createGameCard(
+                game,
+                id === this.tracker.currentGameId
+            );
+
+            gameCard.addEventListener('contextmenu', (e) => {
+                e.preventDefault();
+                this.showGameContextMenu(e, game.id);
+            });
+
+            content.appendChild(gameCard);
+        });
+
+        header.addEventListener('click', () => {
+            section.classList.toggle('collapsed');
+            toggle.textContent = section.classList.contains('collapsed') ? '▶' : '▼';
+        });
+
+        section.appendChild(header);
+        section.appendChild(content);
+
+        return section;
+    }
+
+    createGameCard(game, isActive, isCumulative = false) {
         const card = document.createElement('div');
         card.className = 'game-card' + (isActive ? ' active' : '');
+        if (isCumulative || game.isCumulativeFolder) {
+            card.classList.add('cumulative-game');
+        }
         card.dataset.gameId = game.id;
 
         const wins = game.pins.filter(p => {
@@ -1683,10 +1869,12 @@ class UIController {
         });
 
         const gameTitle = game.opponent || `${game.teamA} vs ${game.teamB}`;
+        const cumulativeBadge = (isCumulative || game.isCumulativeFolder) ? '<div class="cumulative-badge">📊 Cumulative</div>' : '';
 
         card.innerHTML = `
             <div class="game-card-header">
                 <div class="game-card-title">${gameTitle}</div>
+                ${cumulativeBadge}
             </div>
             <div class="game-card-date">${date}</div>
             <div class="game-card-stats">
@@ -1721,9 +1909,110 @@ class UIController {
         this.updateUI();
     }
 
+    showGameContextMenu(event, gameId) {
+        // Remove existing context menu
+        const existing = document.querySelector('.game-context-menu');
+        if (existing) existing.remove();
+
+        const menu = document.createElement('div');
+        menu.className = 'game-context-menu';
+        menu.style.left = `${event.clientX}px`;
+        menu.style.top = `${event.clientY}px`;
+
+        // Move to folder options
+        const folders = Object.values(this.tracker.folders);
+
+        if (folders.length > 0) {
+            const moveToHeader = document.createElement('div');
+            moveToHeader.className = 'context-menu-header';
+            moveToHeader.textContent = 'Move to Folder';
+            menu.appendChild(moveToHeader);
+
+            folders.forEach(folder => {
+                const option = document.createElement('div');
+                option.className = 'context-menu-item';
+                option.textContent = `📁 ${folder.name}`;
+                option.addEventListener('click', () => {
+                    this.moveGameToFolder(gameId, folder.id);
+                    menu.remove();
+                });
+                menu.appendChild(option);
+            });
+        }
+
+        // Remove from folder option
+        const game = this.tracker.games[gameId];
+        if (game.folderId) {
+            const removeOption = document.createElement('div');
+            removeOption.className = 'context-menu-item';
+            removeOption.textContent = '📂 Move to Unfiled';
+            removeOption.addEventListener('click', () => {
+                this.moveGameToFolder(gameId, null);
+                menu.remove();
+            });
+            menu.appendChild(removeOption);
+        }
+
+        document.body.appendChild(menu);
+
+        // Remove on click outside
+        const removeMenu = (e) => {
+            if (!menu.contains(e.target)) {
+                menu.remove();
+                document.removeEventListener('click', removeMenu);
+            }
+        };
+        setTimeout(() => document.addEventListener('click', removeMenu), 0);
+    }
+
+    async moveGameToFolder(gameId, folderId) {
+        await this.tracker.moveGameToFolder(gameId, folderId);
+        this.updateUI();
+
+        const folderName = folderId ? this.tracker.folders[folderId].name : 'Unfiled Games';
+        Swal.fire({
+            title: 'Game Moved!',
+            text: `Game moved to ${folderName}`,
+            icon: 'success',
+            timer: 1500,
+            showConfirmButton: false
+        });
+    }
+
+    async confirmDeleteFolder(folderId) {
+        const folder = this.tracker.folders[folderId];
+        const gamesInFolder = Object.values(this.tracker.games)
+            .filter(g => g.folderId === folderId && !g.isCumulativeFolder);
+
+        const result = await Swal.fire({
+            title: 'Delete Folder?',
+            html: `
+                <p>Are you sure you want to delete "${folder.name}"?</p>
+                <p class="text-secondary">${gamesInFolder.length} game(s) will be moved to Unfiled Games</p>
+            `,
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#ef4444',
+            confirmButtonText: 'Delete Folder',
+            cancelButtonText: 'Cancel'
+        });
+
+        if (result.isConfirmed) {
+            await this.tracker.deleteFolder(folderId);
+            this.updateUI();
+
+            Swal.fire({
+                title: 'Folder Deleted',
+                icon: 'success',
+                timer: 1500,
+                showConfirmButton: false
+            });
+        }
+    }
+
     updateCurrentGameInfo() {
         const game = this.tracker.getCurrentGame();
-        
+
         if (!game) {
             this.elements.currentOpponent.textContent = 'Select a game';
             this.elements.currentDate.textContent = '';
@@ -1738,15 +2027,48 @@ class UIController {
             const gameTitle = game.opponent ? `vs ${game.opponent}` : `${game.teamA} vs ${game.teamB}`;
             this.elements.currentOpponent.textContent = gameTitle;
         }
-        
+
         const date = new Date(game.date).toLocaleDateString('en-US', {
             weekday: 'long',
             month: 'long',
             day: 'numeric',
             year: 'numeric'
         });
-        
+
         this.elements.currentDate.textContent = date;
+    }
+
+    updateLegend() {
+        const game = this.tracker.getCurrentGame();
+
+        const legendTeamALabel = document.getElementById('legend-team-a-label');
+        const legendTeamBLabel = document.getElementById('legend-team-b-label');
+        const legendTeamAMarker = document.getElementById('legend-team-a-marker');
+        const legendTeamBMarker = document.getElementById('legend-team-b-marker');
+
+        if (!game) {
+            legendTeamALabel.textContent = 'Team A Win';
+            legendTeamBLabel.textContent = 'Team B Win';
+            legendTeamAMarker.style.backgroundColor = '#10b981';
+            legendTeamBMarker.style.backgroundColor = '#ef4444';
+            return;
+        }
+
+        // Get team names
+        const teamAName = game.teamA || 'Team A';
+        const teamBName = game.teamB || game.opponent || 'Team B';
+
+        // Update legend labels
+        legendTeamALabel.textContent = `${teamAName} Win`;
+        legendTeamBLabel.textContent = `${teamBName} Win`;
+
+        // Get team colors
+        const teamAColor = getTeamColor(teamAName);
+        const teamBColor = getTeamColor(teamBName);
+
+        // Update marker colors
+        legendTeamAMarker.style.backgroundColor = teamAColor;
+        legendTeamBMarker.style.backgroundColor = teamBColor;
     }
 
     updateStats() {
@@ -1967,19 +2289,23 @@ class UIController {
 
     updateGameControls() {
         const isSeasonTotal = this.tracker.currentGameId === this.tracker.SEASON_TOTAL_ID;
+        const game = this.tracker.getCurrentGame();
+        const isCumulative = game?.isCumulativeFolder;
+        const isReadOnly = isSeasonTotal || isCumulative;
+
         const gameOnlyControls = document.querySelectorAll('.game-only-control');
-        
+
         gameOnlyControls.forEach(control => {
-            if (isSeasonTotal) {
+            if (isReadOnly) {
                 control.classList.add('hidden');
             } else {
                 control.classList.remove('hidden');
             }
         });
-        
-        // Show/hide game filtering section for Season Total
+
+        // Show/hide game filtering section for Season Total only
         this.elements.gameFilterSection.style.display = isSeasonTotal ? 'block' : 'none';
-        
+
         if (isSeasonTotal) {
             this.updateGameFilterList();
         }
@@ -2060,6 +2386,7 @@ class UIController {
     updateUI() {
         this.updateGamesList();
         this.updateCurrentGameInfo();
+        this.updateLegend(); // Update legend with team names and colors
         this.updateGameControls(); // Show/hide controls based on Season Total
         this.updateRosterList();
         this.updatePlayerViewList();

@@ -11,6 +11,9 @@ export default class FaceOffTracker {
         this.currentClamp = 'win'; // 'win' or 'loss' for clamp result
         this.players = [];
         this.SEASON_TOTAL_ID = 'season_total';
+        this.folders = {}; // Folder storage {id: folder}
+        this.FOLDER_ID_PREFIX = 'folder_'; // Folder ID prefix
+        this.CUMULATIVE_ID_PREFIX = 'cumulative_'; // Cumulative game ID prefix
         this.isLoading = false;
         this.onDataChangeCallback = null;
         this.hasUnsavedChanges = false; // Track unsaved pins/roster changes
@@ -48,17 +51,19 @@ export default class FaceOffTracker {
         try {
             this.isLoading = true;
             console.log('📖 Loading data from Firebase (initial load)...');
-            const [games, players, currentGameId] = await Promise.all([
+            const [games, players, folders, currentGameId] = await Promise.all([
                 firebaseService.getAllGames(),
                 firebaseService.getAllPlayers(),
+                firebaseService.getAllFolders(),
                 firebaseService.getCurrentGameId()
             ]);
 
-            this.firebaseOpCount.reads += 3; // 3 read operations
+            this.firebaseOpCount.reads += 4; // 4 read operations
             console.log(`📊 Total Firebase operations - reads: ${this.firebaseOpCount.reads}, writes: ${this.firebaseOpCount.writes}`);
 
             this.games = games;
             this.players = players;
+            this.folders = folders || {};
             this.currentGameId = currentGameId;
             this.isLoading = false;
         } catch (error) {
@@ -73,6 +78,7 @@ export default class FaceOffTracker {
         this.games = this.loadGames();
         this.currentGameId = this.loadCurrentGameId();
         this.players = this.loadPlayers();
+        this.folders = this.loadFolders();
     }
 
     setupFirebaseListeners() {
@@ -426,7 +432,21 @@ export default class FaceOffTracker {
         }
     }
 
-    async createGame(teamA, teamB, date, notes = '') {
+    loadFolders() {
+        const stored = localStorage.getItem('faceoff_folders');
+        return stored ? JSON.parse(stored) : {};
+    }
+
+    async saveFolders() {
+        if (this.useFirebase && firebaseService.getUserId()) {
+            // Firebase saves folders individually via saveFolder()
+            // No need to save all folders at once
+        } else {
+            localStorage.setItem('faceoff_folders', JSON.stringify(this.folders));
+        }
+    }
+
+    async createGame(teamA, teamB, date, notes = '', folderId = null) {
         const id = Date.now().toString();
         this.games[id] = {
             id,
@@ -436,6 +456,7 @@ export default class FaceOffTracker {
             notes,
             pins: [],
             roster: [], // Array of {playerId, team} objects
+            folderId: folderId, // Folder ID (null if unfiled)
             createdAt: new Date().toISOString()
         };
         this.currentGameId = id;
@@ -447,6 +468,12 @@ export default class FaceOffTracker {
         } else {
             this.saveGames();
             this.saveCurrentGameId();
+        }
+
+        // Rebuild cumulative folder if game is in folder
+        if (folderId && this.folders[folderId]?.hasCumulativeTracker) {
+            this.rebuildCumulativeFolder(folderId);
+            await this.saveGame(`${this.CUMULATIVE_ID_PREFIX}${folderId}`);
         }
 
         return id;
@@ -480,13 +507,141 @@ export default class FaceOffTracker {
         }
     }
 
+    async createFolder(name, hasCumulativeTracker = false) {
+        const id = `${this.FOLDER_ID_PREFIX}${Date.now()}`;
+        this.folders[id] = {
+            id,
+            name,
+            hasCumulativeTracker,
+            createdAt: new Date().toISOString(),
+            updatedAt: new Date().toISOString(),
+            isFolder: true
+        };
+
+        // If cumulative tracker enabled, create virtual game
+        if (hasCumulativeTracker) {
+            await this.createCumulativeGame(id);
+        }
+
+        // Save folder
+        if (this.useFirebase && firebaseService.getUserId()) {
+            this.firebaseOpCount.writes++;
+            console.log(`📁 WRITE #${this.firebaseOpCount.writes}: Creating folder "${name}"`);
+            await firebaseService.saveFolder(id, this.folders[id]);
+        } else {
+            this.saveFolders();
+        }
+
+        return id;
+    }
+
+    async createCumulativeGame(folderId) {
+        const folder = this.folders[folderId];
+        const cumulativeId = `${this.CUMULATIVE_ID_PREFIX}${folderId}`;
+
+        this.games[cumulativeId] = {
+            id: cumulativeId,
+            teamA: 'All',
+            teamB: 'Teams',
+            date: new Date().toISOString(),
+            notes: `Aggregated pins from: ${folder.name}`,
+            pins: [],
+            isCumulativeFolder: true,
+            folderId: folderId,
+            createdAt: new Date().toISOString()
+        };
+
+        // Build cumulative pins
+        this.rebuildCumulativeFolder(folderId);
+
+        // Save cumulative game
+        if (this.useFirebase && firebaseService.getUserId()) {
+            await this.saveGame(cumulativeId);
+        }
+    }
+
+    rebuildCumulativeFolder(folderId) {
+        const cumulativeId = `${this.CUMULATIVE_ID_PREFIX}${folderId}`;
+        const cumulativeGame = this.games[cumulativeId];
+
+        if (!cumulativeGame) return;
+
+        // Collect all pins from games in this folder
+        const folderPins = [];
+        Object.values(this.games).forEach(game => {
+            if (game.folderId === folderId && !game.isCumulativeFolder) {
+                if (game.pins) {
+                    folderPins.push(...game.pins.map(pin => ({...pin})));
+                }
+            }
+        });
+
+        // Update cumulative game pins (in memory only)
+        cumulativeGame.pins = folderPins;
+    }
+
+    async moveGameToFolder(gameId, folderId) {
+        const game = this.games[gameId];
+        if (!game || game.isSeasonTotal || game.isCumulativeFolder) return;
+
+        const oldFolderId = game.folderId;
+        game.folderId = folderId;
+
+        // Rebuild old and new cumulative folders
+        if (oldFolderId && this.folders[oldFolderId]?.hasCumulativeTracker) {
+            this.rebuildCumulativeFolder(oldFolderId);
+            await this.saveGame(`${this.CUMULATIVE_ID_PREFIX}${oldFolderId}`);
+        }
+        if (folderId && this.folders[folderId]?.hasCumulativeTracker) {
+            this.rebuildCumulativeFolder(folderId);
+            await this.saveGame(`${this.CUMULATIVE_ID_PREFIX}${folderId}`);
+        }
+
+        // Save game
+        await this.saveGame(gameId);
+    }
+
+    async deleteFolder(folderId) {
+        const folder = this.folders[folderId];
+        if (!folder) return;
+
+        // Remove folder reference from all games
+        Object.values(this.games).forEach(game => {
+            if (game.folderId === folderId) {
+                game.folderId = null;
+            }
+        });
+
+        // Delete cumulative game if exists
+        const cumulativeId = `${this.CUMULATIVE_ID_PREFIX}${folderId}`;
+        if (this.games[cumulativeId]) {
+            delete this.games[cumulativeId];
+            if (this.useFirebase && firebaseService.getUserId()) {
+                await firebaseService.deleteGame(cumulativeId);
+            }
+        }
+
+        // Delete folder
+        delete this.folders[folderId];
+        if (this.useFirebase && firebaseService.getUserId()) {
+            this.firebaseOpCount.writes++;
+            console.log(`🗑️ WRITE #${this.firebaseOpCount.writes}: Deleting folder "${folder.name}"`);
+            await firebaseService.deleteFolder(folderId);
+        } else {
+            this.saveFolders();
+        }
+
+        // Rebuild Season Total
+        this.rebuildSeasonTotal();
+    }
+
     getCurrentGame() {
         return this.currentGameId ? this.games[this.currentGameId] : null;
     }
 
     addPin(x, y, teamAPlayerId, teamBPlayerId, faceoffWinnerId, clampWinnerId) {
         const game = this.getCurrentGame();
-        if (game) {
+        if (game && !game.isCumulativeFolder) { // Prevent adding to cumulative folders
             const newPin = {
                 x,
                 y,
@@ -497,6 +652,11 @@ export default class FaceOffTracker {
                 timestamp: Date.now()
             };
             game.pins.push(newPin);
+
+            // Rebuild cumulative folder if game is in folder
+            if (game.folderId && this.folders[game.folderId]?.hasCumulativeTracker) {
+                this.rebuildCumulativeFolder(game.folderId);
+            }
 
             // Rebuild season total in memory
             if (game.id !== this.SEASON_TOTAL_ID) {
@@ -510,8 +670,13 @@ export default class FaceOffTracker {
 
     removeLastPin() {
         const game = this.getCurrentGame();
-        if (game && game.pins.length > 0) {
+        if (game && game.pins.length > 0 && !game.isCumulativeFolder) {
             game.pins.pop();
+
+            // Rebuild cumulative folder if game is in folder
+            if (game.folderId && this.folders[game.folderId]?.hasCumulativeTracker) {
+                this.rebuildCumulativeFolder(game.folderId);
+            }
 
             // Rebuild season total in memory
             if (game.id !== this.SEASON_TOTAL_ID) {
@@ -528,7 +693,7 @@ export default class FaceOffTracker {
 
     clearAllPins() {
         const game = this.getCurrentGame();
-        if (game) {
+        if (game && !game.isCumulativeFolder) {
             if (game.id === this.SEASON_TOTAL_ID) {
                 // If clearing season total, clear all games
                 for (const g of Object.values(this.games)) {
@@ -536,9 +701,20 @@ export default class FaceOffTracker {
                 }
                 // Rebuild season total (will be empty)
                 this.rebuildSeasonTotal();
+                // Rebuild all cumulative folders
+                Object.keys(this.folders).forEach(folderId => {
+                    if (this.folders[folderId]?.hasCumulativeTracker) {
+                        this.rebuildCumulativeFolder(folderId);
+                    }
+                });
             } else {
                 // Clear this game's pins
                 game.pins = [];
+
+                // Rebuild cumulative folder if game is in folder
+                if (game.folderId && this.folders[game.folderId]?.hasCumulativeTracker) {
+                    this.rebuildCumulativeFolder(game.folderId);
+                }
 
                 // Rebuild season total
                 this.rebuildSeasonTotal();

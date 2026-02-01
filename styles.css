@@ -251,6 +251,133 @@ body {
     color: var(--primary-color);
 }
 
+/* ===== Folder Section ===== */
+.folder-section {
+    margin-bottom: 10px;
+}
+
+.folder-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    gap: 8px;
+}
+
+.folder-header:hover {
+    background: var(--bg-secondary);
+    border-color: var(--primary-color);
+}
+
+.folder-toggle {
+    font-size: 12px;
+    color: var(--text-secondary);
+    transition: transform 0.2s;
+}
+
+.folder-section.collapsed .folder-toggle {
+    transform: rotate(-90deg);
+}
+
+.folder-name {
+    flex: 1;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.folder-actions {
+    display: flex;
+    gap: 4px;
+}
+
+.folder-action-btn {
+    padding: 4px 8px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+}
+
+.folder-action-btn:hover {
+    opacity: 1;
+}
+
+.folder-content {
+    margin-top: 6px;
+    margin-left: 16px;
+    padding-left: 8px;
+    border-left: 2px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.folder-section.collapsed .folder-content {
+    display: none;
+}
+
+/* ===== Cumulative Game Badge ===== */
+.cumulative-badge {
+    font-size: 11px;
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.cumulative-game {
+    background: linear-gradient(135deg,
+        var(--bg-tertiary) 0%,
+        rgba(37, 99, 235, 0.05) 100%);
+    border-left: 3px solid var(--primary-color);
+}
+
+/* ===== Context Menu ===== */
+.game-context-menu {
+    position: fixed;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    z-index: 1000;
+    min-width: 180px;
+    padding: 4px 0;
+}
+
+.context-menu-header {
+    padding: 8px 12px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.context-menu-item {
+    padding: 10px 12px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-size: 14px;
+}
+
+.context-menu-item:hover {
+    background: var(--bg-tertiary);
+}
+
+/* ===== New Folder Button ===== */
+#new-folder-btn {
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+}
+
+#new-folder-btn:hover {
+    background: var(--bg-secondary);
+    border-color: var(--primary-color);
+}
+
 .toggle-sidebar-btn {
     position: absolute;
     right: -40px;

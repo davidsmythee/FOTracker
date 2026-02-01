@@ -120,7 +120,7 @@ class FirebaseDataService {
 
     async deleteGame(gameId) {
         if (!this.user) throw new Error('Not authenticated');
-        
+
         try {
             this.setSyncStatus('syncing');
             const gameRef = doc(db, `users/${this.user.uid}/games`, gameId);
@@ -128,6 +128,57 @@ class FirebaseDataService {
             this.setSyncStatus('synced');
         } catch (error) {
             console.error('Error deleting game:', error);
+            this.setSyncStatus('error');
+            throw error;
+        }
+    }
+
+    // Folder Operations
+    async saveFolder(folderId, folderData) {
+        if (!this.user) throw new Error('Not authenticated');
+
+        try {
+            this.setSyncStatus('syncing');
+            const folderRef = doc(db, `users/${this.user.uid}/folders`, folderId);
+            await setDoc(folderRef, {
+                ...folderData,
+                updatedAt: new Date().toISOString()
+            }, { merge: true });
+            this.setSyncStatus('synced');
+        } catch (error) {
+            console.error('Error saving folder:', error);
+            this.setSyncStatus('error');
+            throw error;
+        }
+    }
+
+    async getAllFolders() {
+        if (!this.user) throw new Error('Not authenticated');
+
+        try {
+            const foldersRef = collection(db, `users/${this.user.uid}/folders`);
+            const foldersSnap = await getDocs(foldersRef);
+            const folders = {};
+            foldersSnap.forEach(doc => {
+                folders[doc.id] = { id: doc.id, ...doc.data() };
+            });
+            return folders;
+        } catch (error) {
+            console.error('Error getting folders:', error);
+            throw error;
+        }
+    }
+
+    async deleteFolder(folderId) {
+        if (!this.user) throw new Error('Not authenticated');
+
+        try {
+            this.setSyncStatus('syncing');
+            const folderRef = doc(db, `users/${this.user.uid}/folders`, folderId);
+            await deleteDoc(folderRef);
+            this.setSyncStatus('synced');
+        } catch (error) {
+            console.error('Error deleting folder:', error);
             this.setSyncStatus('error');
             throw error;
         }

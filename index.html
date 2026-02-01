@@ -30,8 +30,9 @@
         <!-- Sidebar -->
         <aside class="sidebar" id="sidebar">
             <div class="sidebar-header">
-                <h2>📋 Saved Games</h2>
-                <button id="new-game-btn" class="btn btn-primary btn-block">+ New Game</button>
+                <h2>📋 Games & Folders</h2>
+                <button id="new-folder-btn" class="btn btn-secondary btn-block">+ New Folder</button>
+                <button id="new-game-btn" class="btn btn-primary btn-block" style="margin-top: 4px;">+ New Game</button>
                 <button id="manage-players-btn" class="btn btn-secondary btn-block" style="margin-top: 8px;">Manage Players</button>
             </div>
             
@@ -182,12 +183,12 @@
             <!-- Legend -->
             <div class="legend">
                 <div class="legend-item">
-                    <span class="legend-marker win-marker"></span>
-                    <span>Face-Off Win</span>
+                    <span id="legend-team-a-marker" class="legend-marker win-marker"></span>
+                    <span id="legend-team-a-label">Team A Win</span>
                 </div>
                 <div class="legend-item">
-                    <span class="legend-marker loss-marker"></span>
-                    <span>Face-Off Loss</span>
+                    <span id="legend-team-b-marker" class="legend-marker loss-marker"></span>
+                    <span id="legend-team-b-label">Team B Win</span>
                 </div>
             </div>
         </div>
@@ -348,6 +349,32 @@
                 <div class="modal-actions">
                     <button type="button" id="cancel-pin-details" class="btn btn-secondary">Cancel</button>
                     <button type="submit" class="btn btn-primary">Add Pin</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- New Folder Modal -->
+    <div id="new-folder-modal" class="modal">
+        <div class="modal-content">
+            <h2>Create New Folder</h2>
+            <form id="new-folder-form">
+                <div class="form-group">
+                    <label for="folder-name">Folder Name:</label>
+                    <input type="text" id="folder-name" required placeholder="e.g., Spring 2024 Games" maxlength="50">
+                </div>
+                <div class="form-group">
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="folder-cumulative-tracker" checked>
+                        <label for="folder-cumulative-tracker">Enable Cumulative Tracker</label>
+                    </div>
+                    <small class="form-hint">
+                        Cumulative tracker creates a virtual game showing all face-offs from games in this folder
+                    </small>
+                </div>
+                <div class="modal-actions">
+                    <button type="button" id="cancel-folder-modal" class="btn btn-secondary">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Create Folder</button>
                 </div>
             </form>
         </div>
