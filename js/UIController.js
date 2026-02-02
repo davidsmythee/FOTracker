@@ -1266,6 +1266,7 @@ class UIController {
             'New Jersey Institute of Technology': 'NJIT.json',
             'Ohio State University': 'OhioState.json',
             'Penn State': 'PennState.json',
+            'Penn State University': 'PennState.json',
             'Princeton University': 'Princeton.json',
             'Providence College': 'Providence.json',
             'Queens University of Charlotte': 'Queens.json',

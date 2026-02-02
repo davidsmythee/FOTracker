@@ -1,6 +1,343 @@
 {
-  "team": "Penn State",
-  "scrapedAt": "",
-  "playerCount": 0,
-  "players": []
+  "team": "Penn State University",
+  "scrapedAt": "2026-02-02T19:24:15.176Z",
+  "playerCount": 48,
+  "players": [
+    {
+      "name": "Ben Johnson",
+      "number": "1",
+      "position": "Goalie",
+      "classYear": "Redshirt Sophomore",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Brendan Leary",
+      "number": "2",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Max Grube",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Kyle Lehman",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Roman DiBartolomeo",
+      "number": "5",
+      "position": "SSDM",
+      "classYear": "Redshirt Freshman",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Alex Ross",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Luke Danna",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Peri DiBartolomeo",
+      "number": "8",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Colby Baldwin",
+      "number": "9",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Jack Iannantuono",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Jon King",
+      "number": "11",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Luke Marra",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Mac Hobbs",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Kris Henning",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Ryan O'Connor",
+      "number": "16",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Patrick Carragher",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Redshirt Sophomore",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Lucca DiBartolomeo",
+      "number": "18",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Wesley Scurci",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Redshirt Junior",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Luke Walstrum",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Redshirt Senior",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Chase Robertson",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Hunter Aquino",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Enzo Grieco",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Redshirt Freshman",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Beckett Vance",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Mark McNamara",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Brad Piffath",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Redshirt Freshman",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Will Costin",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Mark McKeon",
+      "number": "29",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Matthew Beachley",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Patrick Keenan",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Redshirt Sophomore",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Reid Gills",
+      "number": "32",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Michael Faraone",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Redshirt Senior",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Preston Hawkins",
+      "number": "35",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Joe Calandrino",
+      "number": "36",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Jake Anzelone",
+      "number": "39",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Luke Scarpello",
+      "number": "40",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Penn State University"
+    },
+    {
+      "name": "John Jude Considine",
+      "number": "41",
+      "position": "Midfielder",
+      "classYear": "Graduate Student",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Paul Bruder",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Billy Henderson",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Sammy McAvoy",
+      "number": "45",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Will Mitchell",
+      "number": "46",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Dillon Torggler",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Andrew Beard",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "Redshirt Freshman",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Liam Matthews",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "Redshirt Sophomore",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Zach Arbuckle",
+      "number": "55",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Ryan DiRocco",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Aharon Bloshuk",
+      "number": "84",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Hayes Schreiner",
+      "number": "88",
+      "position": "Goalie",
+      "classYear": "Redshirt Freshman",
+      "team": "Penn State University"
+    },
+    {
+      "name": "Mark Watters",
+      "number": "91",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Penn State University"
+    }
+  ]
 }

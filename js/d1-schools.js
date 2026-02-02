@@ -37,7 +37,7 @@ export const d1LacrosseSchools = [
     { name: "Mount St. Mary's University", city: "Emmitsburg, Maryland", conference: "Metro Atlantic Athletic Conference", color: "#003087" },
     { name: "New Jersey Institute of Technology", city: "Newark, New Jersey", conference: "American East Conference", color: "#C8102E" },
     { name: "Ohio State University", city: "Columbus, Ohio", conference: "Big Ten Conference", color: "#BB0000" },
-    { name: "Penn State", city: "University Park, Pennsylvania", conference: "Big Ten Conference", color: "#041E42" },
+    { name: "Penn State University", city: "University Park, Pennsylvania", conference: "Big Ten Conference", color: "#041E42" },
     { name: "Princeton University", city: "Princeton, New Jersey", conference: "Ivy League", color: "#FF8F00" },
     { name: "Providence College", city: "Providence, Rhode Island", conference: "Big East Conference", color: "#000000" },
     { name: "Queens University of Charlotte", city: "Charlotte, North Carolina", conference: "Atlantic Sun Conference", color: "#003876" },
