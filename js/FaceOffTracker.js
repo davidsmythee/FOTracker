@@ -33,12 +33,15 @@ export default class FaceOffTracker {
         // Migrate old data format to new format
         this.migrateOldGames();
 
-        await this.ensureSeasonTotalExists();
+        // REMOVED: Season Total feature - cumulative tracking now only available via folders
+        // await this.ensureSeasonTotalExists();
 
-        // Set current game to Season Total if none selected or invalid
+        // Set current game to first available game if none selected or invalid
         const oldGameId = this.currentGameId;
         if (!this.currentGameId || !this.games[this.currentGameId]) {
-            this.currentGameId = this.SEASON_TOTAL_ID;
+            // Find first regular game or cumulative folder game
+            const gameIds = Object.keys(this.games);
+            this.currentGameId = gameIds.length > 0 ? gameIds[0] : null;
         }
 
         // Only save if we actually changed the game ID
@@ -208,11 +211,7 @@ export default class FaceOffTracker {
             }
         });
 
-        // Rebuild Season Total to remove player's pins
-        this.rebuildSeasonTotal();
-        if (this.useFirebase && firebaseService.getUserId()) {
-            await firebaseService.saveGame(this.SEASON_TOTAL_ID, this.games[this.SEASON_TOTAL_ID]);
-        }
+        // REMOVED: Season Total rebuild (cumulative tracking now only via folders)
 
         // Remove player from all game rosters
         Object.values(this.games).forEach(game => {
@@ -277,8 +276,7 @@ export default class FaceOffTracker {
                 pin.teamBPlayerId !== playerId
             );
 
-            // Rebuild season total
-            this.rebuildSeasonTotal();
+            // REMOVED: Season Total rebuild (cumulative tracking now only via folders)
 
             this.markUnsavedChanges();
         }
@@ -305,50 +303,51 @@ export default class FaceOffTracker {
             .filter(p => p); // Filter out any undefined (deleted players)
     }
 
-    async ensureSeasonTotalExists() {
-        if (!this.games[this.SEASON_TOTAL_ID]) {
-            console.log('📊 Creating Season Total for the first time');
-            this.games[this.SEASON_TOTAL_ID] = {
-                id: this.SEASON_TOTAL_ID,
-                teamA: 'All',
-                teamB: 'Teams',
-                date: new Date().toISOString(),
-                notes: 'All face-offs from every game',
-                pins: [],
-                isSeasonTotal: true,
-                createdAt: new Date().toISOString()
-            };
-
-            // Rebuild Season Total from all games
-            this.rebuildSeasonTotal();
-
-            // Save the newly created Season Total
-            console.log('💾 Saving Season Total to Firebase (first time)');
-            await this.saveGame(this.SEASON_TOTAL_ID);
-        } else {
-            // Just rebuild Season Total in memory from existing games
-            console.log('📊 Rebuilding Season Total in memory (no save)');
-            this.rebuildSeasonTotal();
-        }
-    }
-
-    rebuildSeasonTotal() {
-        // Collect all pins from all regular games
-        const allPins = [];
-        Object.keys(this.games).forEach(gameId => {
-            if (gameId !== this.SEASON_TOTAL_ID) {
-                const game = this.games[gameId];
-                if (game && game.pins) {
-                    allPins.push(...game.pins.map(pin => ({...pin})));
-                }
-            }
-        });
-
-        // Update Season Total with all pins (in memory only)
-        if (this.games[this.SEASON_TOTAL_ID]) {
-            this.games[this.SEASON_TOTAL_ID].pins = allPins;
-        }
-    }
+    // REMOVED: Season Total feature - cumulative tracking now only available via folders
+    // async ensureSeasonTotalExists() {
+    //     if (!this.games[this.SEASON_TOTAL_ID]) {
+    //         console.log('📊 Creating Season Total for the first time');
+    //         this.games[this.SEASON_TOTAL_ID] = {
+    //             id: this.SEASON_TOTAL_ID,
+    //             teamA: 'All',
+    //             teamB: 'Teams',
+    //             date: new Date().toISOString(),
+    //             notes: 'All face-offs from every game',
+    //             pins: [],
+    //             isSeasonTotal: true,
+    //             createdAt: new Date().toISOString()
+    //         };
+    //
+    //         // Rebuild Season Total from all games
+    //         this.rebuildSeasonTotal();
+    //
+    //         // Save the newly created Season Total
+    //         console.log('💾 Saving Season Total to Firebase (first time)');
+    //         await this.saveGame(this.SEASON_TOTAL_ID);
+    //     } else {
+    //         // Just rebuild Season Total in memory from existing games
+    //         console.log('📊 Rebuilding Season Total in memory (no save)');
+    //         this.rebuildSeasonTotal();
+    //     }
+    // }
+    //
+    // rebuildSeasonTotal() {
+    //     // Collect all pins from all regular games
+    //     const allPins = [];
+    //     Object.keys(this.games).forEach(gameId => {
+    //         if (gameId !== this.SEASON_TOTAL_ID) {
+    //             const game = this.games[gameId];
+    //             if (game && game.pins) {
+    //                 allPins.push(...game.pins.map(pin => ({...pin})));
+    //             }
+    //         }
+    //     });
+    //
+    //     // Update Season Total with all pins (in memory only)
+    //     if (this.games[this.SEASON_TOTAL_ID]) {
+    //         this.games[this.SEASON_TOTAL_ID].pins = allPins;
+    //     }
+    // }
 
     markUnsavedChanges() {
         this.hasUnsavedChanges = true;
@@ -367,11 +366,7 @@ export default class FaceOffTracker {
             if (this.useFirebase && firebaseService.getUserId()) {
                 await this.saveGame(game.id);
 
-                // Also save Season Total if this is a regular game
-                if (game.id !== this.SEASON_TOTAL_ID) {
-                    this.rebuildSeasonTotal();
-                    await this.saveGame(this.SEASON_TOTAL_ID);
-                }
+                // REMOVED: Season Total rebuild/save (cumulative tracking now only via folders)
             } else {
                 this.saveGames();
             }
@@ -480,29 +475,41 @@ export default class FaceOffTracker {
     }
 
     async deleteGame(id) {
-        // Don't allow deleting season total
+        // Don't allow deleting season total or cumulative folders
         if (id === this.SEASON_TOTAL_ID) return;
 
         const game = this.games[id];
-        if (game) {
-            // Delete the game
-            delete this.games[id];
+        if (!game || game.isCumulativeFolder) return;
 
-            if (this.currentGameId === id) {
-                const gameIds = Object.keys(this.games).filter(id => id !== this.SEASON_TOTAL_ID);
-                this.currentGameId = gameIds.length > 0 ? gameIds[0] : this.SEASON_TOTAL_ID;
+        // Store folder ID before deleting
+        const folderId = game.folderId;
+
+        // Delete the game
+        delete this.games[id];
+
+        if (this.currentGameId === id) {
+            const gameIds = Object.keys(this.games);
+            this.currentGameId = gameIds.length > 0 ? gameIds[0] : null;
+        }
+
+        if (this.useFirebase && firebaseService.getUserId()) {
+            await firebaseService.deleteGame(id);
+            await this.saveCurrentGameId();
+
+            // REMOVED: Season Total rebuild/save (cumulative tracking now only via folders)
+
+            // Rebuild cumulative folder if game was in a folder
+            if (folderId && this.folders[folderId]?.hasCumulativeTracker) {
+                this.rebuildCumulativeFolder(folderId);
+                await this.saveGame(`${this.CUMULATIVE_ID_PREFIX}${folderId}`);
             }
+        } else {
+            this.saveGames();
+            this.saveCurrentGameId();
 
-            if (this.useFirebase && firebaseService.getUserId()) {
-                await firebaseService.deleteGame(id);
-                await this.saveCurrentGameId();
-
-                // Rebuild and save season total immediately (important action)
-                this.rebuildSeasonTotal();
-                await firebaseService.saveGame(this.SEASON_TOTAL_ID, this.games[this.SEASON_TOTAL_ID]);
-            } else {
-                this.saveGames();
-                this.saveCurrentGameId();
+            // Rebuild cumulative folder if game was in a folder
+            if (folderId && this.folders[folderId]?.hasCumulativeTracker) {
+                this.rebuildCumulativeFolder(folderId);
             }
         }
     }
@@ -541,8 +548,8 @@ export default class FaceOffTracker {
 
         this.games[cumulativeId] = {
             id: cumulativeId,
-            teamA: 'All',
-            teamB: 'Teams',
+            teamA: 'Total',
+            teamB: 'Tracker',
             date: new Date().toISOString(),
             notes: `Aggregated pins from: ${folder.name}`,
             pins: [],
@@ -601,6 +608,30 @@ export default class FaceOffTracker {
         await this.saveGame(gameId);
     }
 
+    async renameFolder(folderId, newName) {
+        const folder = this.folders[folderId];
+        if (!folder) return;
+
+        folder.name = newName;
+        folder.updatedAt = new Date().toISOString();
+
+        // Update cumulative game notes if it exists
+        const cumulativeId = `${this.CUMULATIVE_ID_PREFIX}${folderId}`;
+        if (this.games[cumulativeId]) {
+            this.games[cumulativeId].notes = `Aggregated pins from: ${newName}`;
+            if (this.useFirebase && firebaseService.getUserId()) {
+                await this.saveGame(cumulativeId);
+            }
+        }
+
+        // Save folder
+        if (this.useFirebase && firebaseService.getUserId()) {
+            await firebaseService.saveFolder(folderId, folder);
+        } else {
+            this.saveFolders();
+        }
+    }
+
     async deleteFolder(folderId) {
         const folder = this.folders[folderId];
         if (!folder) return;
@@ -631,15 +662,14 @@ export default class FaceOffTracker {
             this.saveFolders();
         }
 
-        // Rebuild Season Total
-        this.rebuildSeasonTotal();
+        // REMOVED: Season Total rebuild (cumulative tracking now only via folders)
     }
 
     getCurrentGame() {
         return this.currentGameId ? this.games[this.currentGameId] : null;
     }
 
-    addPin(x, y, teamAPlayerId, teamBPlayerId, faceoffWinnerId, clampWinnerId) {
+    addPin(x, y, teamAPlayerId, teamBPlayerId, faceoffWinnerId, clampWinnerId, isWhistleViolation = false, isPostWhistleViolation = false) {
         const game = this.getCurrentGame();
         if (game && !game.isCumulativeFolder) { // Prevent adding to cumulative folders
             const newPin = {
@@ -648,7 +678,9 @@ export default class FaceOffTracker {
                 teamAPlayerId,      // Player from Team A
                 teamBPlayerId,      // Player from Team B (or "unknown")
                 faceoffWinnerId,    // Who won face-off (player ID)
-                clampWinnerId,      // Who won clamp (player ID)
+                clampWinnerId,      // Who won clamp (player ID) - null if whistle violation
+                isWhistleViolation, // Flag indicating whistle violation (no actual faceoff)
+                isPostWhistleViolation, // Flag indicating post-whistle violation (faceoff occurred)
                 timestamp: Date.now()
             };
             game.pins.push(newPin);
@@ -658,10 +690,7 @@ export default class FaceOffTracker {
                 this.rebuildCumulativeFolder(game.folderId);
             }
 
-            // Rebuild season total in memory
-            if (game.id !== this.SEASON_TOTAL_ID) {
-                this.rebuildSeasonTotal();
-            }
+            // REMOVED: Season Total rebuild (cumulative tracking now only via folders)
 
             // Mark as having unsaved changes
             this.markUnsavedChanges();
@@ -678,10 +707,7 @@ export default class FaceOffTracker {
                 this.rebuildCumulativeFolder(game.folderId);
             }
 
-            // Rebuild season total in memory
-            if (game.id !== this.SEASON_TOTAL_ID) {
-                this.rebuildSeasonTotal();
-            }
+            // REMOVED: Season Total rebuild (cumulative tracking now only via folders)
 
             // Mark as having unsaved changes
             this.markUnsavedChanges();
@@ -694,31 +720,15 @@ export default class FaceOffTracker {
     clearAllPins() {
         const game = this.getCurrentGame();
         if (game && !game.isCumulativeFolder) {
-            if (game.id === this.SEASON_TOTAL_ID) {
-                // If clearing season total, clear all games
-                for (const g of Object.values(this.games)) {
-                    g.pins = [];
-                }
-                // Rebuild season total (will be empty)
-                this.rebuildSeasonTotal();
-                // Rebuild all cumulative folders
-                Object.keys(this.folders).forEach(folderId => {
-                    if (this.folders[folderId]?.hasCumulativeTracker) {
-                        this.rebuildCumulativeFolder(folderId);
-                    }
-                });
-            } else {
-                // Clear this game's pins
-                game.pins = [];
+            // Clear this game's pins
+            game.pins = [];
 
-                // Rebuild cumulative folder if game is in folder
-                if (game.folderId && this.folders[game.folderId]?.hasCumulativeTracker) {
-                    this.rebuildCumulativeFolder(game.folderId);
-                }
-
-                // Rebuild season total
-                this.rebuildSeasonTotal();
+            // Rebuild cumulative folder if game is in folder
+            if (game.folderId && this.folders[game.folderId]?.hasCumulativeTracker) {
+                this.rebuildCumulativeFolder(game.folderId);
             }
+
+            // REMOVED: Season Total rebuild and special handling (cumulative tracking now only via folders)
 
             // Mark as having unsaved changes
             this.markUnsavedChanges();

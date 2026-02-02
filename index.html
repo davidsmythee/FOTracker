@@ -80,6 +80,9 @@
                         <button id="print-field-btn" class="btn btn-secondary" title="Print Field & Stats">
                             🖨️ Print
                         </button>
+                        <button id="view-stats-btn" class="btn btn-secondary" title="View Statistics">
+                            📊 Stats
+                        </button>
                         <button id="delete-game-btn" class="btn btn-danger" style="display: none;">Delete Game</button>
                     </div>
                 </div>
@@ -317,31 +320,43 @@
                 </div>
 
                 <!-- Face-Off Winner Selection -->
-                <div class="form-group">
+                <div class="form-group form-group-compact">
                     <label>Who Won the Face-Off?</label>
                     <div class="winner-selector">
                         <label class="winner-option">
                             <input type="radio" name="faceoff-winner" value="teamA" required>
-                            <span id="faceoff-team-a-label">Team A Player</span>
+                            <span id="faceoff-team-a-label">Team A</span>
                         </label>
                         <label class="winner-option">
                             <input type="radio" name="faceoff-winner" value="teamB">
-                            <span id="faceoff-team-b-label">Team B Player</span>
+                            <span id="faceoff-team-b-label">Team B</span>
                         </label>
                     </div>
                 </div>
 
+                <!-- Violation Checkboxes -->
+                <div class="form-group form-group-compact">
+                    <div class="checkbox-option checkbox-compact">
+                        <input type="checkbox" id="pin-whistle-violation-checkbox">
+                        <label for="pin-whistle-violation-checkbox">Whistle Violation (no faceoff)</label>
+                    </div>
+                    <div class="checkbox-option checkbox-compact" style="margin-top: 4px;">
+                        <input type="checkbox" id="pin-post-whistle-violation-checkbox">
+                        <label for="pin-post-whistle-violation-checkbox">Post-Whistle Violation</label>
+                    </div>
+                </div>
+
                 <!-- Clamp Winner Selection -->
-                <div class="form-group">
+                <div class="form-group form-group-compact" id="clamp-winner-section">
                     <label>Who Won the Clamp?</label>
                     <div class="winner-selector">
                         <label class="winner-option">
                             <input type="radio" name="clamp-winner" value="teamA" required>
-                            <span id="clamp-team-a-label">Team A Player</span>
+                            <span id="clamp-team-a-label">Team A</span>
                         </label>
                         <label class="winner-option">
                             <input type="radio" name="clamp-winner" value="teamB">
-                            <span id="clamp-team-b-label">Team B Player</span>
+                            <span id="clamp-team-b-label">Team B</span>
                         </label>
                     </div>
                 </div>
@@ -377,6 +392,24 @@
                     <button type="submit" class="btn btn-primary">Create Folder</button>
                 </div>
             </form>
+        </div>
+    </div>
+
+    <!-- Stats Modal -->
+    <div id="stats-modal" class="modal">
+        <div class="modal-content modal-large">
+            <div class="modal-header">
+                <div>
+                    <h2>📊 Statistics</h2>
+                    <p id="stats-total-count" class="stats-subtitle"></p>
+                </div>
+                <button id="close-stats-modal" class="close-modal-btn" type="button">&times;</button>
+            </div>
+            <div class="stats-modal-body">
+                <div id="stats-table-container">
+                    <!-- Stats table will be dynamically generated here -->
+                </div>
+            </div>
         </div>
     </div>
 

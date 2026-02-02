@@ -178,10 +178,10 @@ body {
 
 .game-card {
     background: var(--bg-tertiary);
-    border: 2px solid var(--border-color);
-    border-radius: 10px;
-    padding: 10px;
-    margin-bottom: 6px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 6px 8px;
+    margin-bottom: 4px;
     cursor: pointer;
     transition: all 0.2s ease;
 }
@@ -202,25 +202,25 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: start;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
 }
 
 .game-card-title {
     font-weight: 600;
-    font-size: 0.95rem;
+    font-size: 0.875rem;
     color: var(--text-primary);
 }
 
 .game-card-date {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     color: var(--text-secondary);
-    margin-bottom: 6px;
+    margin-bottom: 4px;
 }
 
 .game-card-stats {
     display: flex;
-    gap: 12px;
-    font-size: 0.8rem;
+    gap: 8px;
+    font-size: 0.75rem;
 }
 
 .game-card-stat {
@@ -230,24 +230,11 @@ body {
 }
 
 .stat-badge {
-    padding: 1px 6px;
+    padding: 2px 6px;
     border-radius: 4px;
     font-weight: 600;
-    font-size: 0.75rem;
-}
-
-.stat-badge.wins {
-    background: rgba(16, 185, 129, 0.2);
-    color: var(--success-color);
-}
-
-.stat-badge.losses {
-    background: rgba(239, 68, 68, 0.2);
-    color: var(--danger-color);
-}
-
-.stat-badge.percentage {
-    background: rgba(37, 99, 235, 0.2);
+    font-size: 0.7rem;
+    background: rgba(37, 99, 235, 0.15);
     color: var(--primary-color);
 }
 
@@ -273,10 +260,18 @@ body {
     border-color: var(--primary-color);
 }
 
+.folder-header.folder-selected {
+    background: rgba(37, 99, 235, 0.15);
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
 .folder-toggle {
     font-size: 12px;
     color: var(--text-secondary);
     transition: transform 0.2s;
+    cursor: pointer;
+    padding: 4px;
 }
 
 .folder-section.collapsed .folder-toggle {
@@ -322,10 +317,10 @@ body {
 
 /* ===== Cumulative Game Badge ===== */
 .cumulative-badge {
-    font-size: 11px;
+    font-size: 10px;
     color: var(--primary-color);
     font-weight: 600;
-    margin-left: 8px;
+    margin-left: 6px;
 }
 
 .cumulative-game {
@@ -365,6 +360,20 @@ body {
 
 .context-menu-item:hover {
     background: var(--bg-tertiary);
+}
+
+.context-menu-divider {
+    height: 1px;
+    background: var(--border-color);
+    margin: 4px 0;
+}
+
+.context-menu-item-danger {
+    color: #ef4444;
+}
+
+.context-menu-item-danger:hover {
+    background: rgba(239, 68, 68, 0.1);
 }
 
 /* ===== New Folder Button ===== */
@@ -1067,6 +1076,30 @@ body {
     border: 1px solid var(--border-color);
 }
 
+#pin-details-modal .modal-content {
+    padding: 20px 24px;
+    max-width: 420px;
+}
+
+#pin-details-modal .modal-content h2 {
+    margin-bottom: 12px;
+    font-size: 1.3rem;
+}
+
+#pin-details-modal .form-group {
+    margin-bottom: 14px;
+}
+
+#pin-details-modal .form-group label {
+    margin-bottom: 6px;
+    font-size: 0.85rem;
+}
+
+#pin-details-modal .player-select {
+    padding: 6px 8px;
+    margin-bottom: 0;
+}
+
 .modal-content h2 {
     margin-bottom: 20px;
     color: var(--text-primary);
@@ -1076,11 +1109,20 @@ body {
     margin-bottom: 20px;
 }
 
+.form-group-compact {
+    margin-bottom: 12px;
+}
+
 .form-group label {
     display: block;
     margin-bottom: 8px;
     color: var(--text-secondary);
     font-weight: 600;
+}
+
+.form-group-compact label {
+    margin-bottom: 6px;
+    font-size: 0.85rem;
 }
 
 .form-group input,
@@ -1212,6 +1254,10 @@ body {
     padding: 8px 0;
 }
 
+.checkbox-compact {
+    padding: 4px 0;
+}
+
 .checkbox-option input[type="checkbox"] {
     width: 16px;
     height: 16px;
@@ -1224,6 +1270,10 @@ body {
     color: var(--text-primary);
     cursor: pointer;
     user-select: none;
+}
+
+.checkbox-compact label {
+    font-size: 0.75rem;
 }
 
 /* Player Filter Styles */
@@ -1725,15 +1775,15 @@ body {
 .winner-selector {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 8px;
 }
 
 .winner-option {
     display: flex;
     align-items: center;
-    padding: 12px;
+    padding: 8px 10px;
     border: 2px solid var(--border-color);
-    border-radius: 8px;
+    border-radius: 6px;
     cursor: pointer;
     transition: all 0.2s ease;
     background: var(--bg-secondary);
@@ -1788,6 +1838,157 @@ body {
 .text-secondary {
     color: var(--text-secondary);
     font-size: 0.9rem;
+}
+
+/* ===== Stats Modal ===== */
+.modal-large {
+    max-width: 900px;
+    width: 95%;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.modal-header h2 {
+    margin-bottom: 0;
+}
+
+.stats-subtitle {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-top: 4px;
+}
+
+.close-modal-btn {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: var(--text-secondary);
+    cursor: pointer;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s;
+}
+
+.close-modal-btn:hover {
+    color: var(--text-primary);
+}
+
+.stats-modal-body {
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+.stats-table thead th {
+    position: sticky;
+    top: 0;
+    background: var(--bg-secondary);
+    padding: 10px 8px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid var(--border-color);
+    z-index: 10;
+}
+
+.stats-table thead th:nth-child(1) {
+    width: 25%;
+}
+
+.stats-table thead th:nth-child(2) {
+    width: 8%;
+    text-align: center;
+}
+
+.stats-table thead th:nth-child(n+3) {
+    text-align: center;
+    width: 11%;
+}
+
+.stats-table tbody tr {
+    border-bottom: 1px solid var(--border-color);
+    transition: background 0.2s;
+}
+
+.stats-table tbody tr:hover {
+    background: var(--bg-tertiary);
+}
+
+.stats-table tbody tr:nth-child(even) {
+    background: var(--bg-secondary);
+}
+
+.stats-table tbody tr:nth-child(even):hover {
+    background: var(--bg-tertiary);
+}
+
+.stats-table tbody td {
+    padding: 8px;
+}
+
+.stats-table tbody td:nth-child(1) {
+    font-weight: 500;
+}
+
+.stats-table tbody td:nth-child(2) {
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}
+
+.stats-table tbody td:nth-child(n+3) {
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+}
+
+.stats-table tbody tr.team-subtotal {
+    background: var(--bg-tertiary);
+    font-weight: 600;
+    border-top: 2px solid var(--border-color);
+    border-bottom: 2px solid var(--border-color);
+}
+
+.stats-table tbody tr.team-subtotal:hover {
+    background: var(--bg-tertiary);
+}
+
+.stats-table tbody tr.team-subtotal td {
+    padding: 10px 8px;
+}
+
+.stats-table tbody tr.team-subtotal td:first-child {
+    color: var(--primary-color);
+}
+
+.no-stats-message {
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--text-secondary);
+}
+
+.no-stats-message p {
+    margin-bottom: 8px;
+}
+
+.no-stats-message .hint {
+    font-size: 0.85rem;
 }
 
 /* ===== Responsive adjustments for new elements ===== */

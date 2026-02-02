@@ -159,11 +159,15 @@ export default class FieldRenderer {
     drawPins(pins, showClampRings = true) {
         this.pins = pins;
 
-        pins.forEach((pin, index) => {
+        // Filter out whistle violation pins - they should not appear on the field/heat map
+        // Post-whistle violations should still appear since faceoff occurred
+        const visiblePins = pins.filter(pin => !pin.isWhistleViolation);
+
+        visiblePins.forEach((pin, index) => {
             // Use team colors if provided, otherwise fall back to old format
             const faceoffColor = pin.faceoffColor || (pin.faceoffResult === 'win' ? '#10b981' : '#ef4444');
             const clampColor = pin.clampColor || (pin.clampResult === 'win' ? '#10b981' : '#ef4444');
-            this.drawPin(pin.x, pin.y, faceoffColor, clampColor, showClampRings, index === pins.length - 1);
+            this.drawPin(pin.x, pin.y, faceoffColor, clampColor, showClampRings, index === visiblePins.length - 1);
         });
     }
 
@@ -222,7 +226,11 @@ export default class FieldRenderer {
     renderHeatmap(pins, teamAColor = '#10b981', teamBColor = '#ef4444', teamAName = 'Team A', teamBName = 'Team B') {
         this.drawField();
 
-        if (pins.length === 0) return;
+        // Filter out whistle violation pins - they should not appear on the field/heat map
+        // Post-whistle violations should still appear since faceoff occurred
+        const visiblePins = pins.filter(pin => !pin.isWhistleViolation);
+
+        if (visiblePins.length === 0) return;
 
         const ctx = this.ctx;
         const w = this.width;
@@ -236,7 +244,7 @@ export default class FieldRenderer {
         const teamBGrid = Array(rows).fill().map(() => Array(cols).fill(0));
 
         // Count pins in each grid cell
-        pins.forEach(pin => {
+        visiblePins.forEach(pin => {
             const col = Math.floor(pin.x / gridSize);
             const row = Math.floor(pin.y / gridSize);
 

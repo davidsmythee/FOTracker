@@ -18,6 +18,7 @@ class UIController {
         this.selectedTeamBPlayers = new Set(); // Set of selected Team B player IDs for filtering
         this.lastTeamAPlayer = null; // Last selected Team A player ID
         this.lastTeamBPlayer = null; // Last selected Team B player ID
+        this.selectedFolderId = null; // Currently selected folder for auto-filing new games
         this.initializeElements();
         this.attachEventListeners();
         this.updateUI();
@@ -99,7 +100,11 @@ class UIController {
             newFolderBtn: document.getElementById('new-folder-btn'),
             newFolderModal: document.getElementById('new-folder-modal'),
             newFolderForm: document.getElementById('new-folder-form'),
-            cancelFolderModal: document.getElementById('cancel-folder-modal')
+            cancelFolderModal: document.getElementById('cancel-folder-modal'),
+            viewStatsBtn: document.getElementById('view-stats-btn'),
+            statsModal: document.getElementById('stats-modal'),
+            closeStatsModal: document.getElementById('close-stats-modal'),
+            statsTableContainer: document.getElementById('stats-table-container')
         };
     }
 
@@ -132,6 +137,16 @@ class UIController {
         this.elements.newFolderForm.addEventListener('submit', async (e) => {
             e.preventDefault();
             await this.createNewFolder();
+        });
+
+        // View stats button
+        this.elements.viewStatsBtn.addEventListener('click', () => {
+            this.showStatsModal();
+        });
+
+        // Close stats modal
+        this.elements.closeStatsModal.addEventListener('click', () => {
+            this.hideStatsModal();
         });
 
         // Delete game button
@@ -564,9 +579,9 @@ class UIController {
             return;
         }
 
-        // Don't allow pins on Season Total or Cumulative Folders
+        // Don't allow pins on Cumulative Folders
         const currentGame = this.tracker.getCurrentGame();
-        if (currentGame && (currentGame.id === this.tracker.SEASON_TOTAL_ID || currentGame.isCumulativeFolder)) {
+        if (currentGame && currentGame.isCumulativeFolder) {
             Swal.fire({
                 title: 'Cannot Add Pins',
                 text: 'This is a read-only cumulative view. Select a regular game to add pins.',
@@ -681,7 +696,8 @@ class UIController {
         const date = document.getElementById('game-date').value;
         const notes = document.getElementById('game-notes').value;
 
-        await this.tracker.createGame(teamA, teamB, date, notes);
+        // Pass selectedFolderId to auto-file the game in the selected folder
+        await this.tracker.createGame(teamA, teamB, date, notes, this.selectedFolderId);
 
         // Auto-add FOGO players from both teams
         const currentGame = this.tracker.getCurrentGame();
@@ -750,6 +766,242 @@ class UIController {
                 confirmButtonColor: '#FFFFFF'
             });
         }
+    }
+
+    showStatsModal() {
+        const currentGame = this.tracker.getCurrentGame();
+        if (!currentGame) {
+            Swal.fire({
+                title: 'No Game Selected',
+                text: 'Please select a game to view statistics.',
+                icon: 'info',
+                confirmButtonColor: '#FFFFFF'
+            });
+            return;
+        }
+
+        // Calculate and render statistics
+        this.renderStatsTable(currentGame);
+        this.elements.statsModal.style.display = 'flex';
+    }
+
+    hideStatsModal() {
+        this.elements.statsModal.style.display = 'none';
+    }
+
+    renderStatsTable(game) {
+        const container = this.elements.statsTableContainer;
+
+        // Check if game has pins
+        if (!game.pins || game.pins.length === 0) {
+            container.innerHTML = `
+                <div class="no-stats-message">
+                    <p>No statistics available</p>
+                    <p class="hint">Add face-off pins to see statistics</p>
+                </div>
+            `;
+            document.getElementById('stats-total-count').textContent = '';
+            return;
+        }
+
+        // Calculate statistics for each player
+        const stats = this.calculatePlayerStats(game);
+
+        // Update total count
+        const totalFaceoffs = game.pins.length;
+        document.getElementById('stats-total-count').textContent = `Total Face-Offs: ${totalFaceoffs}`;
+
+        // Build table HTML
+        let tableHTML = `
+            <table class="stats-table">
+                <thead>
+                    <tr>
+                        <th>Player</th>
+                        <th>#</th>
+                        <th>FO Wins</th>
+                        <th>FO Losses</th>
+                        <th>FO %</th>
+                        <th>Clamp Wins</th>
+                        <th>Clamp Losses</th>
+                        <th>Clamp %</th>
+                    </tr>
+                </thead>
+                <tbody>
+        `;
+
+        // Group players by team
+        const teamAStats = stats.filter(s => s.team === 'A');
+        const teamBStats = stats.filter(s => s.team === 'B');
+
+        // Render Team A
+        if (teamAStats.length > 0) {
+            teamAStats.forEach(playerStat => {
+                tableHTML += this.renderPlayerRow(playerStat);
+            });
+            tableHTML += this.renderTeamSubtotal(game.teamA, teamAStats);
+        }
+
+        // Render Team B
+        if (teamBStats.length > 0) {
+            teamBStats.forEach(playerStat => {
+                tableHTML += this.renderPlayerRow(playerStat);
+            });
+            tableHTML += this.renderTeamSubtotal(game.teamB, teamBStats);
+        }
+
+        tableHTML += `
+                </tbody>
+            </table>
+        `;
+
+        container.innerHTML = tableHTML;
+    }
+
+    calculatePlayerStats(game) {
+        const playerStatsMap = new Map();
+
+        // Initialize stats for all players in the roster
+        if (game.roster) {
+            game.roster.forEach(rosterEntry => {
+                const player = this.tracker.players.find(p => p.id === rosterEntry.playerId);
+                if (player) {
+                    playerStatsMap.set(player.id, {
+                        player: player,
+                        team: rosterEntry.team,
+                        foWins: 0,
+                        foLosses: 0,
+                        clampWins: 0,
+                        clampLosses: 0
+                    });
+                }
+            });
+        }
+
+        // Count stats from pins
+        game.pins.forEach(pin => {
+            const teamAPlayerId = pin.teamAPlayerId;
+            const teamBPlayerId = pin.teamBPlayerId;
+            const winnerId = pin.faceoffWinnerId;
+            const clampWinnerId = pin.clampWinnerId;
+
+            // Face-off wins/losses (count both violation types)
+            if (winnerId === teamAPlayerId) {
+                if (playerStatsMap.has(teamAPlayerId)) {
+                    playerStatsMap.get(teamAPlayerId).foWins++;
+                }
+                if (playerStatsMap.has(teamBPlayerId)) {
+                    playerStatsMap.get(teamBPlayerId).foLosses++;
+                }
+            } else if (winnerId === teamBPlayerId) {
+                if (playerStatsMap.has(teamBPlayerId)) {
+                    playerStatsMap.get(teamBPlayerId).foWins++;
+                }
+                if (playerStatsMap.has(teamAPlayerId)) {
+                    playerStatsMap.get(teamAPlayerId).foLosses++;
+                }
+            }
+
+            // Clamp wins/losses (only if not a whistle violation)
+            if (!pin.isWhistleViolation && clampWinnerId) {
+                if (clampWinnerId === teamAPlayerId) {
+                    if (playerStatsMap.has(teamAPlayerId)) {
+                        playerStatsMap.get(teamAPlayerId).clampWins++;
+                    }
+                    if (playerStatsMap.has(teamBPlayerId)) {
+                        playerStatsMap.get(teamBPlayerId).clampLosses++;
+                    }
+                } else if (clampWinnerId === teamBPlayerId) {
+                    if (playerStatsMap.has(teamBPlayerId)) {
+                        playerStatsMap.get(teamBPlayerId).clampWins++;
+                    }
+                    if (playerStatsMap.has(teamAPlayerId)) {
+                        playerStatsMap.get(teamAPlayerId).clampLosses++;
+                    }
+                }
+            }
+        });
+
+        // Convert to array and calculate percentages
+        const statsArray = Array.from(playerStatsMap.values()).map(stat => {
+            const foTotal = stat.foWins + stat.foLosses;
+            const clampTotal = stat.clampWins + stat.clampLosses;
+
+            return {
+                ...stat,
+                foPercentage: foTotal > 0 ? ((stat.foWins / foTotal) * 100).toFixed(1) : '0.0',
+                clampPercentage: clampTotal > 0 ? ((stat.clampWins / clampTotal) * 100).toFixed(1) : '0.0'
+            };
+        });
+
+        // Sort by team, then by number
+        return statsArray.sort((a, b) => {
+            if (a.team !== b.team) return a.team.localeCompare(b.team);
+            const numA = parseInt(a.player.number) || 999;
+            const numB = parseInt(b.player.number) || 999;
+            return numA - numB;
+        });
+    }
+
+    renderPlayerRow(playerStat) {
+        const { player, foWins, foLosses, foPercentage, clampWins, clampLosses, clampPercentage } = playerStat;
+
+        return `
+            <tr>
+                <td>${player.name}</td>
+                <td>${player.number || '-'}</td>
+                <td>${foWins}</td>
+                <td>${foLosses}</td>
+                <td>${foPercentage}%</td>
+                <td>${clampWins}</td>
+                <td>${clampLosses}</td>
+                <td>${clampPercentage}%</td>
+            </tr>
+        `;
+    }
+
+    renderTeamSubtotal(teamName, teamStats) {
+        // Sum up team totals
+        const totals = teamStats.reduce((acc, stat) => {
+            acc.foWins += stat.foWins;
+            acc.foLosses += stat.foLosses;
+            acc.clampWins += stat.clampWins;
+            acc.clampLosses += stat.clampLosses;
+            return acc;
+        }, { foWins: 0, foLosses: 0, clampWins: 0, clampLosses: 0 });
+
+        const foTotal = totals.foWins + totals.foLosses;
+        const clampTotal = totals.clampWins + totals.clampLosses;
+        const foPercentage = foTotal > 0 ? ((totals.foWins / foTotal) * 100).toFixed(1) : '0.0';
+        const clampPercentage = clampTotal > 0 ? ((totals.clampWins / clampTotal) * 100).toFixed(1) : '0.0';
+
+        // Get team color
+        const teamColor = getTeamColor(teamName);
+        const styleAttr = teamColor ? ` style="background-color: ${this.hexToRGBA(teamColor, 0.15)};"` : '';
+
+        return `
+            <tr class="team-subtotal"${styleAttr}>
+                <td>${teamName} Total</td>
+                <td>-</td>
+                <td>${totals.foWins}</td>
+                <td>${totals.foLosses}</td>
+                <td>${foPercentage}%</td>
+                <td>${totals.clampWins}</td>
+                <td>${totals.clampLosses}</td>
+                <td>${clampPercentage}%</td>
+            </tr>
+        `;
+    }
+
+    hexToRGBA(hex, alpha) {
+        // Remove # if present
+        hex = hex.replace('#', '');
+
+        // Parse hex values
+        const r = parseInt(hex.substring(0, 2), 16);
+        const g = parseInt(hex.substring(2, 4), 16);
+        const b = parseInt(hex.substring(4, 6), 16);
+
+        return `rgba(${r}, ${g}, ${b}, ${alpha})`;
     }
 
     showAddToRosterModal() {
@@ -1237,6 +1489,41 @@ class UIController {
             }
         };
 
+        // Handle violation checkboxes to show/hide clamp winner section
+        const whistleViolationCheckbox = document.getElementById('pin-whistle-violation-checkbox');
+        const postWhistleViolationCheckbox = document.getElementById('pin-post-whistle-violation-checkbox');
+        const clampWinnerSection = document.getElementById('clamp-winner-section');
+
+        // Whistle violation hides clamp (no faceoff occurred)
+        whistleViolationCheckbox.onchange = () => {
+            if (whistleViolationCheckbox.checked) {
+                // Uncheck post-whistle if whistle is checked (mutually exclusive)
+                postWhistleViolationCheckbox.checked = false;
+
+                clampWinnerSection.style.display = 'none';
+                // Remove required attribute from clamp winner radios when hidden
+                document.querySelectorAll('input[name="clamp-winner"]').forEach(radio => {
+                    radio.removeAttribute('required');
+                });
+            } else {
+                clampWinnerSection.style.display = 'block';
+                // Re-add required attribute when visible
+                document.querySelector('input[name="clamp-winner"][value="teamA"]').setAttribute('required', '');
+            }
+        };
+
+        // Post-whistle violation keeps clamp visible (faceoff occurred)
+        postWhistleViolationCheckbox.onchange = () => {
+            if (postWhistleViolationCheckbox.checked) {
+                // Uncheck whistle if post-whistle is checked (mutually exclusive)
+                whistleViolationCheckbox.checked = false;
+
+                // Ensure clamp section is visible
+                clampWinnerSection.style.display = 'block';
+                document.querySelector('input[name="clamp-winner"][value="teamA"]').setAttribute('required', '');
+            }
+        };
+
         // Show modal
         this.elements.pinDetailsModal.classList.add('show');
     }
@@ -1340,14 +1627,19 @@ class UIController {
             return;
         }
 
+        // Check violation types
+        const whistleViolationCheckbox = document.getElementById('pin-whistle-violation-checkbox');
+        const postWhistleViolationCheckbox = document.getElementById('pin-post-whistle-violation-checkbox');
+        const isWhistleViolation = whistleViolationCheckbox.checked;
+        const isPostWhistleViolation = postWhistleViolationCheckbox.checked;
+
         // Get winner selections
         const faceoffWinnerRadio = document.querySelector('input[name="faceoff-winner"]:checked');
-        const clampWinnerRadio = document.querySelector('input[name="clamp-winner"]:checked');
 
-        if (!faceoffWinnerRadio || !clampWinnerRadio) {
+        if (!faceoffWinnerRadio) {
             Swal.fire({
                 title: 'Missing Winner Selection',
-                text: 'Please select who won the face-off and clamp.',
+                text: 'Please select who won the face-off.',
                 icon: 'warning',
                 confirmButtonColor: '#FFFFFF', confirmButtonTextColor: '#000000'
             });
@@ -1355,11 +1647,27 @@ class UIController {
         }
 
         const faceoffWinner = faceoffWinnerRadio.value;
-        const clampWinner = clampWinnerRadio.value;
-
-        // Determine winner IDs
         const faceoffWinnerId = faceoffWinner === 'teamA' ? teamAPlayerId : teamBPlayerId;
-        const clampWinnerId = clampWinner === 'teamA' ? teamAPlayerId : teamBPlayerId;
+
+        let clampWinnerId = null;
+
+        // Only require clamp winner if not a whistle violation (no faceoff occurred)
+        if (!isWhistleViolation) {
+            const clampWinnerRadio = document.querySelector('input[name="clamp-winner"]:checked');
+
+            if (!clampWinnerRadio) {
+                Swal.fire({
+                    title: 'Missing Clamp Winner',
+                    text: 'Please select who won the clamp.',
+                    icon: 'warning',
+                    confirmButtonColor: '#FFFFFF', confirmButtonTextColor: '#000000'
+                });
+                return;
+            }
+
+            const clampWinner = clampWinnerRadio.value;
+            clampWinnerId = clampWinner === 'teamA' ? teamAPlayerId : teamBPlayerId;
+        }
 
         // Add the pin with the new structure
         this.tracker.addPin(
@@ -1368,7 +1676,9 @@ class UIController {
             teamAPlayerId,
             teamBPlayerId,
             faceoffWinnerId,
-            clampWinnerId
+            clampWinnerId,
+            isWhistleViolation,
+            isPostWhistleViolation
         );
 
         // Save the selected players for auto-fill next time
@@ -1651,31 +1961,18 @@ class UIController {
         const gamesList = this.elements.gamesList;
         gamesList.innerHTML = '';
 
-        // Always show Season Total first
-        if (this.tracker.games[this.tracker.SEASON_TOTAL_ID]) {
-            const seasonTotalCard = this.createGameCard(
-                this.tracker.games[this.tracker.SEASON_TOTAL_ID],
-                this.tracker.currentGameId === this.tracker.SEASON_TOTAL_ID
-            );
-            gamesList.appendChild(seasonTotalCard);
+        // Get all regular games (not cumulative folders)
+        const allGameIds = Object.keys(this.tracker.games).filter(id =>
+            !this.tracker.games[id].isCumulativeFolder
+        );
 
-            // Add divider
-            const divider = document.createElement('div');
-            divider.className = 'games-list-divider';
-            gamesList.appendChild(divider);
-        }
+        // REMOVED: Season Total rendering (cumulative tracking now only via folders)
 
         // Get all folders sorted by creation date
         const folderIds = Object.keys(this.tracker.folders).sort((a, b) => {
             return new Date(this.tracker.folders[a].createdAt) -
                    new Date(this.tracker.folders[b].createdAt);
         });
-
-        // Get all regular games (not Season Total, not cumulative folders)
-        const allGameIds = Object.keys(this.tracker.games).filter(id =>
-            id !== this.tracker.SEASON_TOTAL_ID &&
-            !this.tracker.games[id].isCumulativeFolder
-        );
 
         // Render each folder
         folderIds.forEach(folderId => {
@@ -1717,12 +2014,29 @@ class UIController {
         toggle.className = 'folder-toggle';
         toggle.textContent = '▼'; // Expanded by default
 
+        // Toggle arrow handles collapse/expand
+        toggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            section.classList.toggle('collapsed');
+            toggle.textContent = section.classList.contains('collapsed') ? '▶' : '▼';
+        });
+
         const nameSpan = document.createElement('span');
         nameSpan.className = 'folder-name';
         nameSpan.textContent = `📁 ${folder.name}`;
 
         const actionsDiv = document.createElement('div');
         actionsDiv.className = 'folder-actions';
+
+        // Rename folder button
+        const renameBtn = document.createElement('button');
+        renameBtn.className = 'folder-action-btn';
+        renameBtn.innerHTML = '✏️';
+        renameBtn.title = 'Rename Folder';
+        renameBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            this.renameFolder(folder.id);
+        });
 
         // Delete folder button
         const deleteBtn = document.createElement('button');
@@ -1734,10 +2048,16 @@ class UIController {
             this.confirmDeleteFolder(folder.id);
         });
 
+        actionsDiv.appendChild(renameBtn);
         actionsDiv.appendChild(deleteBtn);
         header.appendChild(toggle);
         header.appendChild(nameSpan);
         header.appendChild(actionsDiv);
+
+        // Mark as selected if this is the selected folder
+        if (this.selectedFolderId === folder.id) {
+            header.classList.add('folder-selected');
+        }
 
         // Folder content (games)
         const content = document.createElement('div');
@@ -1778,10 +2098,13 @@ class UIController {
             content.appendChild(gameCard);
         });
 
-        // Toggle collapse/expand
-        header.addEventListener('click', () => {
-            section.classList.toggle('collapsed');
-            toggle.textContent = section.classList.contains('collapsed') ? '▶' : '▼';
+        // Clicking the header (but not toggle or actions) selects the folder
+        header.addEventListener('click', (e) => {
+            // Don't select if clicking actions
+            if (e.target.closest('.folder-actions') || e.target.closest('.folder-toggle')) {
+                return;
+            }
+            this.selectFolder(folder.id);
         });
 
         section.appendChild(header);
@@ -1801,12 +2124,24 @@ class UIController {
         toggle.className = 'folder-toggle';
         toggle.textContent = '▼';
 
+        // Toggle arrow handles collapse/expand
+        toggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            section.classList.toggle('collapsed');
+            toggle.textContent = section.classList.contains('collapsed') ? '▶' : '▼';
+        });
+
         const nameSpan = document.createElement('span');
         nameSpan.className = 'folder-name';
         nameSpan.textContent = '📂 Unfiled Games';
 
         header.appendChild(toggle);
         header.appendChild(nameSpan);
+
+        // Mark as selected if no folder is selected (unfiled)
+        if (this.selectedFolderId === null) {
+            header.classList.add('folder-selected');
+        }
 
         const content = document.createElement('div');
         content.className = 'folder-content';
@@ -1832,9 +2167,13 @@ class UIController {
             content.appendChild(gameCard);
         });
 
-        header.addEventListener('click', () => {
-            section.classList.toggle('collapsed');
-            toggle.textContent = section.classList.contains('collapsed') ? '▶' : '▼';
+        // Clicking the header (but not toggle) clears folder selection
+        header.addEventListener('click', (e) => {
+            // Don't select if clicking toggle
+            if (e.target.closest('.folder-toggle')) {
+                return;
+            }
+            this.selectFolder(null); // Clear selection (unfiled)
         });
 
         section.appendChild(header);
@@ -1851,16 +2190,7 @@ class UIController {
         }
         card.dataset.gameId = game.id;
 
-        const wins = game.pins.filter(p => {
-            const faceoffResult = p.faceoffResult || p.type || 'win';
-            return faceoffResult === 'win';
-        }).length;
-        const losses = game.pins.filter(p => {
-            const faceoffResult = p.faceoffResult || p.type || 'win';
-            return faceoffResult === 'loss';
-        }).length;
-        const total = wins + losses;
-        const percentage = total > 0 ? Math.round((wins / total) * 100) : 0;
+        const total = game.pins ? game.pins.length : 0;
 
         const date = new Date(game.date).toLocaleDateString('en-US', {
             month: 'short',
@@ -1879,13 +2209,7 @@ class UIController {
             <div class="game-card-date">${date}</div>
             <div class="game-card-stats">
                 <div class="game-card-stat">
-                    <span class="stat-badge wins">${wins}W</span>
-                </div>
-                <div class="game-card-stat">
-                    <span class="stat-badge losses">${losses}L</span>
-                </div>
-                <div class="game-card-stat">
-                    <span class="stat-badge percentage">${percentage}%</span>
+                    <span class="stat-badge">${total} Face-Off${total !== 1 ? 's' : ''}</span>
                 </div>
             </div>
         `;
@@ -1953,6 +2277,25 @@ class UIController {
             menu.appendChild(removeOption);
         }
 
+        // Add divider if there were folder options
+        if (folders.length > 0 || game.folderId) {
+            const divider = document.createElement('div');
+            divider.className = 'context-menu-divider';
+            menu.appendChild(divider);
+        }
+
+        // Delete game option (don't allow deleting cumulative folders)
+        if (!game.isCumulativeFolder) {
+            const deleteOption = document.createElement('div');
+            deleteOption.className = 'context-menu-item context-menu-item-danger';
+            deleteOption.textContent = '🗑️ Delete Game';
+            deleteOption.addEventListener('click', () => {
+                this.confirmDeleteGame(gameId);
+                menu.remove();
+            });
+            menu.appendChild(deleteOption);
+        }
+
         document.body.appendChild(menu);
 
         // Remove on click outside
@@ -1979,6 +2322,43 @@ class UIController {
         });
     }
 
+    async renameFolder(folderId) {
+        const folder = this.tracker.folders[folderId];
+        if (!folder) return;
+
+        const result = await Swal.fire({
+            title: 'Rename Folder',
+            input: 'text',
+            inputValue: folder.name,
+            inputPlaceholder: 'Enter folder name',
+            showCancelButton: true,
+            confirmButtonText: 'Rename',
+            cancelButtonText: 'Cancel',
+            inputValidator: (value) => {
+                if (!value || !value.trim()) {
+                    return 'Folder name cannot be empty';
+                }
+                if (value.length > 50) {
+                    return 'Folder name is too long (max 50 characters)';
+                }
+            }
+        });
+
+        if (result.isConfirmed && result.value) {
+            const newName = result.value.trim();
+            await this.tracker.renameFolder(folderId, newName);
+            this.updateUI();
+
+            Swal.fire({
+                title: 'Folder Renamed!',
+                text: `Folder renamed to "${newName}"`,
+                icon: 'success',
+                timer: 1500,
+                showConfirmButton: false
+            });
+        }
+    }
+
     async confirmDeleteFolder(folderId) {
         const folder = this.tracker.folders[folderId];
         const gamesInFolder = Object.values(this.tracker.games)
@@ -2003,6 +2383,46 @@ class UIController {
 
             Swal.fire({
                 title: 'Folder Deleted',
+                icon: 'success',
+                timer: 1500,
+                showConfirmButton: false
+            });
+        }
+    }
+
+    selectFolder(folderId) {
+        this.selectedFolderId = folderId;
+        this.updateGamesList(); // Refresh to show selection
+    }
+
+    async confirmDeleteGame(gameId) {
+        const game = this.tracker.games[gameId];
+        if (!game) return;
+
+        const gameTitle = game.opponent || `${game.teamA} vs ${game.teamB}`;
+        const pinCount = game.pins ? game.pins.length : 0;
+
+        const result = await Swal.fire({
+            title: 'Delete Game?',
+            html: `
+                <p>Are you sure you want to delete this game?</p>
+                <p class="text-secondary"><strong>${gameTitle}</strong></p>
+                <p class="text-secondary">${pinCount} pin(s) will be permanently deleted</p>
+            `,
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#ef4444',
+            confirmButtonText: 'Delete Game',
+            cancelButtonText: 'Cancel'
+        });
+
+        if (result.isConfirmed) {
+            await this.tracker.deleteGame(gameId);
+            this.updateUI();
+
+            Swal.fire({
+                title: 'Game Deleted',
+                text: `${gameTitle} has been deleted`,
                 icon: 'success',
                 timer: 1500,
                 showConfirmButton: false
@@ -2081,28 +2501,8 @@ class UIController {
         } else {
             // Get pins for current view mode
             let pins = game.pins;
-            
-            // For Season Total, filter pins by selected games
-            if (game.id === this.tracker.SEASON_TOTAL_ID && this.selectedGames.size > 0) {
-                pins = pins.filter(pin => {
-                    // Find which game this pin belongs to by comparing pin properties
-                    for (const gameId of this.selectedGames) {
-                        const gamePins = this.tracker.games[gameId]?.pins || [];
-                        // Check if this pin matches any pin in the selected game by comparing key properties
-                        const pinMatches = gamePins.some(gamePin => 
-                            gamePin.x === pin.x && 
-                            gamePin.y === pin.y && 
-                            gamePin.timestamp === pin.timestamp &&
-                            (gamePin.player1Id === pin.player1Id || gamePin.playerId === pin.player1Id) &&
-                            (gamePin.player2Id === pin.player2Id || gamePin.playerId === pin.player2Id)
-                        );
-                        if (pinMatches) {
-                            return true;
-                        }
-                    }
-                    return false;
-                });
-            }
+
+            // REMOVED: Season Total game filtering (cumulative tracking now only via folders)
 
             // Apply player filters
             pins = pins.filter(pin => {
@@ -2188,29 +2588,7 @@ class UIController {
                 .map(r => typeof r === 'string' ? r : r.playerId)
             : [];
 
-        // For Season Total, filter pins by selected games
-        if (game && game.id === this.tracker.SEASON_TOTAL_ID && this.selectedGames.size > 0) {
-            pins = pins.filter(pin => {
-                // Find which game this pin belongs to by comparing pin properties
-                for (const gameId of this.selectedGames) {
-                    const gamePins = this.tracker.games[gameId]?.pins || [];
-                    // Check if this pin matches any pin in the selected game by comparing key properties
-                    const pinMatches = gamePins.some(gamePin =>
-                        gamePin.x === pin.x &&
-                        gamePin.y === pin.y &&
-                        gamePin.timestamp === pin.timestamp &&
-                        (gamePin.player1Id === pin.player1Id || gamePin.playerId === pin.player1Id ||
-                         gamePin.teamAPlayerId === pin.teamAPlayerId) &&
-                        (gamePin.player2Id === pin.player2Id || gamePin.playerId === pin.player2Id ||
-                         gamePin.teamBPlayerId === pin.teamBPlayerId)
-                    );
-                    if (pinMatches) {
-                        return true;
-                    }
-                }
-                return false;
-            });
-        }
+        // REMOVED: Season Total game filtering (cumulative tracking now only via folders)
 
         // Filter pins based on selected players
         // Only show pins where both players are in the selected sets
@@ -2257,6 +2635,8 @@ class UIController {
                     clampColor: clampWonByTeamA ? teamAColor : teamBColor,
                     faceoffResult: faceoffWonByTeamA ? 'win' : 'loss', // Keep for backward compatibility
                     clampResult: clampWonByTeamA ? 'win' : 'loss', // Keep for backward compatibility
+                    isWhistleViolation: pin.isWhistleViolation || false, // Whistle violation (no faceoff)
+                    isPostWhistleViolation: pin.isPostWhistleViolation || false, // Post-whistle violation
                     timestamp: pin.timestamp
                 };
             }
@@ -2288,10 +2668,10 @@ class UIController {
     }
 
     updateGameControls() {
-        const isSeasonTotal = this.tracker.currentGameId === this.tracker.SEASON_TOTAL_ID;
+        // REMOVED: Season Total check (cumulative tracking now only via folders)
         const game = this.tracker.getCurrentGame();
         const isCumulative = game?.isCumulativeFolder;
-        const isReadOnly = isSeasonTotal || isCumulative;
+        const isReadOnly = isCumulative; // Only cumulative folders are read-only now
 
         const gameOnlyControls = document.querySelectorAll('.game-only-control');
 
@@ -2303,12 +2683,7 @@ class UIController {
             }
         });
 
-        // Show/hide game filtering section for Season Total only
-        this.elements.gameFilterSection.style.display = isSeasonTotal ? 'block' : 'none';
-
-        if (isSeasonTotal) {
-            this.updateGameFilterList();
-        }
+        // REMOVED: Game filtering section (was only for Season Total)
     }
 
     updateGameFilterList() {
