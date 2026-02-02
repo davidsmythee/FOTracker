@@ -702,16 +702,16 @@ class UIController {
         // Auto-add FOGO players from both teams
         const currentGame = this.tracker.getCurrentGame();
         if (currentGame) {
-            // Load Team A roster and add FOGOs
+            // Load Team A roster and add FOGOs (accept both "FOGO" and "FO")
             const teamARoster = await this.loadTeamRoster(teamA);
-            const teamAFogos = teamARoster.filter(p => p.position === 'FOGO');
+            const teamAFogos = teamARoster.filter(p => p.position === 'FOGO' || p.position === 'FO');
             for (const fogo of teamAFogos) {
                 await this.addRosterPlayerToGame(fogo, 'A');
             }
 
-            // Load Team B roster and add FOGOs
+            // Load Team B roster and add FOGOs (accept both "FOGO" and "FO")
             const teamBRoster = await this.loadTeamRoster(teamB);
-            const teamBFogos = teamBRoster.filter(p => p.position === 'FOGO');
+            const teamBFogos = teamBRoster.filter(p => p.position === 'FOGO' || p.position === 'FO');
             for (const fogo of teamBFogos) {
                 await this.addRosterPlayerToGame(fogo, 'B');
             }
@@ -1025,9 +1025,9 @@ class UIController {
         teamABtn.textContent = currentGame.teamA || 'Team A';
         teamBBtn.textContent = currentGame.teamB || 'Team B';
 
-        // Get team colors
-        const teamAColor = getTeamColor(currentGame.teamA);
-        const teamBColor = getTeamColor(currentGame.teamB);
+        // Get team colors (with conflict resolution)
+        const teamAColor = getTeamColor(currentGame.teamA, 'A', currentGame.teamB);
+        const teamBColor = getTeamColor(currentGame.teamB, 'B', currentGame.teamA);
 
         // Store colors for later use
         teamABtn.dataset.teamColor = teamAColor || '';
@@ -1145,9 +1145,9 @@ class UIController {
 
         // Sort players: FOGOs first, then by jersey number
         availablePlayers.sort((a, b) => {
-            // First priority: FOGO position
-            const aIsFOGO = a.position === 'FOGO';
-            const bIsFOGO = b.position === 'FOGO';
+            // First priority: FOGO position (accept both "FOGO" and "FO")
+            const aIsFOGO = a.position === 'FOGO' || a.position === 'FO';
+            const bIsFOGO = b.position === 'FOGO' || b.position === 'FO';
 
             if (aIsFOGO && !bIsFOGO) return -1;
             if (!aIsFOGO && bIsFOGO) return 1;
@@ -1174,7 +1174,7 @@ class UIController {
 
             const displayName = player.number ? `#${player.number} ${player.name}` : player.name;
             const positionBadge = player.position ?
-                `<span class="position-badge ${player.position === 'FOGO' ? 'fogo-badge' : ''}">${player.position}</span>` : '';
+                `<span class="position-badge ${(player.position === 'FOGO' || player.position === 'FO') ? 'fogo-badge' : ''}">${player.position}</span>` : '';
 
             item.innerHTML = `
                 <div class="available-player-info">
@@ -1442,6 +1442,17 @@ class UIController {
         // Reset form
         this.elements.pinDetailsForm.reset();
 
+        // Explicitly reset violation checkboxes (should NOT remember violations from previous pin)
+        const whistleViolationCheckbox = document.getElementById('pin-whistle-violation-checkbox');
+        const postWhistleViolationCheckbox = document.getElementById('pin-post-whistle-violation-checkbox');
+        whistleViolationCheckbox.checked = false;
+        postWhistleViolationCheckbox.checked = false;
+
+        // Ensure clamp winner section is always visible on open (default state)
+        const clampWinnerSection = document.getElementById('clamp-winner-section');
+        clampWinnerSection.style.display = 'block';
+        document.querySelector('input[name="clamp-winner"][value="teamA"]').setAttribute('required', '');
+
         // Set modal title and subtitle
         document.getElementById('pin-modal-title').textContent = `${currentGame.teamA} vs ${currentGame.teamB}`;
         document.getElementById('pin-modal-subtitle').textContent = 'Record face-off details';
@@ -1491,9 +1502,7 @@ class UIController {
         };
 
         // Handle violation checkboxes to show/hide clamp winner section
-        const whistleViolationCheckbox = document.getElementById('pin-whistle-violation-checkbox');
-        const postWhistleViolationCheckbox = document.getElementById('pin-post-whistle-violation-checkbox');
-        const clampWinnerSection = document.getElementById('clamp-winner-section');
+        // (Variables already defined above after form reset)
 
         // Whistle violation hides clamp (no faceoff occurred)
         whistleViolationCheckbox.onchange = () => {
@@ -2483,9 +2492,9 @@ class UIController {
         legendTeamALabel.textContent = `${teamAName} Win`;
         legendTeamBLabel.textContent = `${teamBName} Win`;
 
-        // Get team colors
-        const teamAColor = getTeamColor(teamAName);
-        const teamBColor = getTeamColor(teamBName);
+        // Get team colors (with conflict resolution)
+        const teamAColor = getTeamColor(teamAName, 'A', teamBName);
+        const teamBColor = getTeamColor(teamBName, 'B', teamAName);
 
         // Update marker colors
         legendTeamAMarker.style.backgroundColor = teamAColor;
@@ -2787,82 +2796,52 @@ class UIController {
 
         // Create a new window for printing
         const printWindow = window.open('', '_blank');
-        
-        // Get the current stats
-        const opponent = game.opponent || 'Unknown Opponent';
-        const date = game.date || '';
-        
-        // Calculate player statistics
-        const playerStats = [];
-        const roster = game.roster || [];
-        let totalWins = 0;
-        let totalLosses = 0;
-        
-        roster.forEach(playerId => {
-            const player = this.tracker.players.find(p => p.id === playerId);
-            if (player) {
-                const playerPins = game.pins.filter(pin => 
-                    pin.player1Id === playerId || pin.player2Id === playerId || pin.playerId === playerId
-                );
-                const wins = playerPins.filter(p => {
-                    const faceoffResult = p.faceoffResult || p.type || 'win';
-                    return faceoffResult === 'win';
-                }).length;
-                const losses = playerPins.filter(p => {
-                    const faceoffResult = p.faceoffResult || p.type || 'win';
-                    return faceoffResult === 'loss';
-                }).length;
-                const total = wins + losses;
-                const percentage = total > 0 ? Math.round((wins / total) * 100) : 0;
-                
-                playerStats.push({
-                    name: player.name,
-                    number: player.number,
-                    wins: wins,
-                    losses: losses,
-                    total: total,
-                    percentage: percentage
-                });
-                
-                totalWins += wins;
-                totalLosses += losses;
-            }
-        });
-        
-        // Sort by percentage (descending)
-        playerStats.sort((a, b) => b.percentage - a.percentage);
-        
-        const totalFaceOffs = totalWins + totalLosses;
-        const totalPercentage = totalFaceOffs > 0 ? Math.round((totalWins / totalFaceOffs) * 100) : 0;
-        
+
+        // Get game info
+        const teamA = game.teamA || 'Team A';
+        const teamB = game.teamB || 'Team B';
+        const date = game.date ? new Date(game.date).toLocaleDateString() : '';
+
         // Get the canvas as an image
         const canvas = this.elements.canvas;
         const imageData = canvas.toDataURL('image/png');
+
+        // Calculate player statistics using the same method as stats modal
+        const stats = this.calculatePlayerStats(game);
+
+        // Group players by team
+        const teamAStats = stats.filter(s => s.team === 'A');
+        const teamBStats = stats.filter(s => s.team === 'B');
+
+        // Build stats table rows
+        let statsTableRows = '';
+
+        // Render Team A
+        if (teamAStats.length > 0) {
+            teamAStats.forEach(playerStat => {
+                statsTableRows += this.renderPlayerRowForPrint(playerStat);
+            });
+            statsTableRows += this.renderTeamSubtotalForPrint(teamA, teamAStats);
+        }
+
+        // Render Team B
+        if (teamBStats.length > 0) {
+            teamBStats.forEach(playerStat => {
+                statsTableRows += this.renderPlayerRowForPrint(playerStat);
+            });
+            statsTableRows += this.renderTeamSubtotalForPrint(teamB, teamBStats);
+        }
         
-        // Build player stats table rows
-        const playerRows = playerStats.map(player => {
-            const displayName = player.number ? `#${player.number} ${player.name}` : player.name;
-            return `
-                <tr>
-                    <td>${displayName}</td>
-                    <td>${player.wins}</td>
-                    <td>${player.losses}</td>
-                    <td>${player.total}</td>
-                    <td><strong>${player.percentage}%</strong></td>
-                </tr>
-            `;
-        }).join('');
-        
-        // Build the print HTML
+        // Build the print HTML with two pages
         const printContent = `
             <!DOCTYPE html>
             <html>
             <head>
-                <title>Face-Off Report - ${opponent}</title>
+                <title>Face-Off Report - ${teamA} vs ${teamB}</title>
                 <style>
                     @page {
                         size: letter;
-                        margin: 0.15in;
+                        margin: 0.5in;
                     }
                     * {
                         box-sizing: border-box;
@@ -2870,179 +2849,160 @@ class UIController {
                     body {
                         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
                         margin: 0;
-                        padding: 2px;
+                        padding: 0;
                         color: #1e293b;
-                        font-size: 9px;
                     }
-                    .container {
-                        max-width: 100%;
-                        page-break-inside: avoid;
-                    }
-                    .header {
-                        text-align: center;
-                        margin-bottom: 8px;
-                    }
-                    .header h1 {
-                        margin: 0;
-                        font-size: 15px;
-                        color: #f97316;
-                        line-height: 1.2;
-                    }
-                    .header h2 {
-                        margin: 4px 0 2px 0;
-                        font-size: 12px;
-                        color: #334155;
-                        line-height: 1.2;
-                    }
-                    .header p {
-                        margin: 2px 0;
-                        color: #64748b;
-                        font-size: 8px;
-                        line-height: 1.1;
-                    }
-                    .content-layout {
-                        display: flex;
-                        flex-direction: column;
-                        gap: 8px;
-                        margin-top: 6px;
-                        page-break-inside: avoid;
-                    }
-                    .stats-section {
-                        margin-bottom: 10px;
-                        page-break-after: avoid;
-                    }
-                    .stats-table {
-                        width: auto;
-                        max-width: 500px;
-                        margin: 0 auto;
-                        border-collapse: collapse;
-                        font-size: 8px;
-                    }
-                    .field-section {
+
+                    /* Page 1: Field */
+                    .page-field {
+                        page-break-after: always;
                         display: flex;
                         flex-direction: column;
                         align-items: center;
-                        page-break-before: avoid;
-                        page-break-inside: avoid;
+                        min-height: 100vh;
+                    }
+
+                    /* Page 2: Stats */
+                    .page-stats {
+                        page-break-before: always;
+                        min-height: 100vh;
+                    }
+
+                    .header {
+                        text-align: center;
+                        margin-bottom: 20px;
+                    }
+                    .header h1 {
+                        margin: 0 0 10px 0;
+                        font-size: 24px;
+                        color: #f97316;
+                    }
+                    .header h2 {
+                        margin: 10px 0;
+                        font-size: 20px;
+                        color: #334155;
+                    }
+                    .header p {
+                        margin: 5px 0;
+                        color: #64748b;
+                        font-size: 14px;
+                    }
+
+                    /* Field Image */
+                    .field-container {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex: 1;
                     }
                     .field-image {
-                        width: 100%;
-                        max-width: 900px;
+                        max-width: 100%;
+                        max-height: 85vh;
+                        border: 2px solid #e2e8f0;
+                        border-radius: 8px;
                     }
-                    .field-image img {
+
+                    /* Stats Table */
+                    .stats-table {
                         width: 100%;
-                        height: auto;
-                        max-height: 800px;
-                        object-fit: contain;
-                        border: 1px solid #e2e8f0;
-                        border-radius: 3px;
+                        border-collapse: collapse;
+                        margin-top: 20px;
                     }
                     .stats-table th {
                         background: #f97316;
                         color: white;
-                        padding: 4px 8px;
+                        padding: 12px 8px;
                         text-align: left;
                         font-weight: 600;
                         border: 1px solid #ea580c;
-                        font-size: 8px;
-                        line-height: 1.2;
+                        font-size: 14px;
+                    }
+                    .stats-table th:nth-child(1) {
+                        width: 30%;
+                    }
+                    .stats-table th:nth-child(2) {
+                        width: 8%;
+                        text-align: center;
+                    }
+                    .stats-table th:nth-child(n+3) {
+                        text-align: center;
+                        width: 10.33%;
                     }
                     .stats-table td {
-                        padding: 3px 8px;
+                        padding: 8px;
                         border: 1px solid #e2e8f0;
-                        font-size: 8px;
-                        line-height: 1.2;
+                        font-size: 13px;
+                    }
+                    .stats-table td:nth-child(2) {
+                        text-align: center;
+                        color: #64748b;
+                    }
+                    .stats-table td:nth-child(n+3) {
+                        text-align: center;
                     }
                     .stats-table tr:nth-child(even) {
                         background: #f8fafc;
                     }
-                    .stats-table tfoot td {
-                        background: #f97316;
-                        color: white;
-                        font-weight: bold;
-                        border: 1px solid #ea580c;
-                        padding: 2px 4px;
+                    .stats-table tr.team-subtotal {
+                        background: #fed7aa !important;
+                        font-weight: 600;
+                        border-top: 2px solid #f97316;
+                        border-bottom: 2px solid #f97316;
                     }
+                    .stats-table tr.team-subtotal td:first-child {
+                        color: #f97316;
+                    }
+
                     @media print {
-                        html, body {
-                            width: 100%;
-                            height: 100%;
+                        .page-field {
+                            page-break-after: always;
                         }
-                        body {
-                            padding: 3px;
-                        }
-                        .container {
-                            page-break-inside: avoid;
-                        }
-                        .header {
-                            margin-bottom: 2px;
-                        }
-                        .content-layout {
-                            gap: 4px;
-                            page-break-inside: avoid;
-                        }
-                        .stats-section {
-                            margin-bottom: 2px;
-                            page-break-after: avoid;
-                        }
-                        .field-section {
-                            page-break-before: avoid;
-                        }
-                        .field-image {
-                            max-width: 850px;
-                        }
-                        .field-image img {
-                            max-height: 750px;
+                        .page-stats {
+                            page-break-before: always;
                         }
                     }
                 </style>
             </head>
             <body>
-                <div class="container">
+                <!-- Page 1: Field -->
+                <div class="page-field">
                     <div class="header">
                         <h1>Face-Off Tracker Report</h1>
-                        <p>Princeton Lacrosse</p>
-                        <h2>${opponent}</h2>
+                        <h2>${teamA} vs ${teamB}</h2>
                         <p>${date}</p>
                     </div>
-                    
-                    <div class="content-layout">
-                        <!-- Statistics Section (Top) -->
-                        <div class="stats-section">
-                            <table class="stats-table">
-                                <thead>
-                                    <tr>
-                                        <th>Player</th>
-                                        <th>Wins</th>
-                                        <th>Losses</th>
-                                        <th>Total</th>
-                                        <th>Win %</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    ${playerRows}
-                                </tbody>
-                                <tfoot>
-                                    <tr>
-                                        <td>TEAM TOTAL</td>
-                                        <td>${totalWins}</td>
-                                        <td>${totalLosses}</td>
-                                        <td>${totalFaceOffs}</td>
-                                        <td>${totalPercentage}%</td>
-                                    </tr>
-                                </tfoot>
-                            </table>
-                        </div>
-                        
-                        <!-- Field Image (Bottom) -->
-                        <div class="field-section">
-                            <div class="field-image">
-                                <img src="${imageData}" alt="Lacrosse Field Face-Off Map" />
-                            </div>
-                        </div>
+                    <div class="field-container">
+                        <img src="${imageData}" alt="Lacrosse Field Face-Off Map" class="field-image" />
                     </div>
                 </div>
-                
+
+                <!-- Page 2: Stats -->
+                <div class="page-stats">
+                    <div class="header">
+                        <h1>Player Statistics</h1>
+                        <h2>${teamA} vs ${teamB}</h2>
+                        <p>Total Face-Offs: ${game.pins ? game.pins.length : 0}</p>
+                    </div>
+                    <table class="stats-table">
+                        <thead>
+                            <tr>
+                                <th>Player</th>
+                                <th>#</th>
+                                <th>FO Wins</th>
+                                <th>FO Losses</th>
+                                <th>FO %</th>
+                                <th>Clamp Wins</th>
+                                <th>Clamp Losses</th>
+                                <th>Clamp %</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${statsTableRows}
+                        </tbody>
+                    </table>
+                </div>
+
                 <script>
                     window.onload = function() {
                         setTimeout(function() {
@@ -3053,9 +3013,55 @@ class UIController {
             </body>
             </html>
         `;
-        
+
         printWindow.document.write(printContent);
         printWindow.document.close();
+    }
+
+    renderPlayerRowForPrint(playerStat) {
+        const { player, foWins, foLosses, foPercentage, clampWins, clampLosses, clampPercentage } = playerStat;
+
+        return `
+            <tr>
+                <td>${player.name}</td>
+                <td>${player.number || '-'}</td>
+                <td>${foWins}</td>
+                <td>${foLosses}</td>
+                <td>${foPercentage}%</td>
+                <td>${clampWins}</td>
+                <td>${clampLosses}</td>
+                <td>${clampPercentage}%</td>
+            </tr>
+        `;
+    }
+
+    renderTeamSubtotalForPrint(teamName, teamStats) {
+        // Sum up team totals
+        const totals = teamStats.reduce((acc, stat) => {
+            acc.foWins += stat.foWins;
+            acc.foLosses += stat.foLosses;
+            acc.clampWins += stat.clampWins;
+            acc.clampLosses += stat.clampLosses;
+            return acc;
+        }, { foWins: 0, foLosses: 0, clampWins: 0, clampLosses: 0 });
+
+        const foTotal = totals.foWins + totals.foLosses;
+        const clampTotal = totals.clampWins + totals.clampLosses;
+        const foPercentage = foTotal > 0 ? ((totals.foWins / foTotal) * 100).toFixed(1) : '0.0';
+        const clampPercentage = clampTotal > 0 ? ((totals.clampWins / clampTotal) * 100).toFixed(1) : '0.0';
+
+        return `
+            <tr class="team-subtotal">
+                <td>${teamName} Total</td>
+                <td>-</td>
+                <td>${totals.foWins}</td>
+                <td>${totals.foLosses}</td>
+                <td>${foPercentage}%</td>
+                <td>${totals.clampWins}</td>
+                <td>${totals.clampLosses}</td>
+                <td>${clampPercentage}%</td>
+            </tr>
+        `;
     }
 }
 

@@ -179,9 +179,9 @@ body {
 .game-card {
     background: var(--bg-tertiary);
     border: 1px solid var(--border-color);
-    border-radius: 6px;
-    padding: 6px 8px;
-    margin-bottom: 4px;
+    border-radius: 4px;
+    padding: 4px 6px;
+    margin-bottom: 3px;
     cursor: pointer;
     transition: all 0.2s ease;
 }
@@ -202,57 +202,57 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: start;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
 }
 
 .game-card-title {
     font-weight: 600;
-    font-size: 0.875rem;
+    font-size: 0.8rem;
     color: var(--text-primary);
 }
 
 .game-card-date {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     color: var(--text-secondary);
-    margin-bottom: 4px;
+    margin-bottom: 2px;
 }
 
 .game-card-stats {
     display: flex;
-    gap: 8px;
-    font-size: 0.75rem;
+    gap: 6px;
+    font-size: 0.7rem;
 }
 
 .game-card-stat {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 3px;
 }
 
 .stat-badge {
-    padding: 2px 6px;
-    border-radius: 4px;
+    padding: 1px 4px;
+    border-radius: 3px;
     font-weight: 600;
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     background: rgba(37, 99, 235, 0.15);
     color: var(--primary-color);
 }
 
 /* ===== Folder Section ===== */
 .folder-section {
-    margin-bottom: 10px;
+    margin-bottom: 6px;
 }
 
 .folder-header {
     display: flex;
     align-items: center;
-    padding: 10px 12px;
+    padding: 5px 8px;
     background: var(--bg-tertiary);
     border: 1px solid var(--border-color);
-    border-radius: 8px;
+    border-radius: 4px;
     cursor: pointer;
     transition: all 0.2s ease;
-    gap: 8px;
+    gap: 6px;
 }
 
 .folder-header:hover {
@@ -267,11 +267,11 @@ body {
 }
 
 .folder-toggle {
-    font-size: 12px;
+    font-size: 10px;
     color: var(--text-secondary);
     transition: transform 0.2s;
     cursor: pointer;
-    padding: 4px;
+    padding: 2px;
 }
 
 .folder-section.collapsed .folder-toggle {
@@ -281,20 +281,20 @@ body {
 .folder-name {
     flex: 1;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 0.8rem;
 }
 
 .folder-actions {
     display: flex;
-    gap: 4px;
+    gap: 2px;
 }
 
 .folder-action-btn {
-    padding: 4px 8px;
+    padding: 2px 4px;
     background: transparent;
     border: none;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 12px;
     opacity: 0.6;
     transition: opacity 0.2s;
 }
@@ -304,9 +304,9 @@ body {
 }
 
 .folder-content {
-    margin-top: 6px;
-    margin-left: 16px;
-    padding-left: 8px;
+    margin-top: 3px;
+    margin-left: 12px;
+    padding-left: 6px;
     border-left: 2px solid var(--border-color);
     transition: all 0.3s ease;
 }
@@ -317,10 +317,10 @@ body {
 
 /* ===== Cumulative Game Badge ===== */
 .cumulative-badge {
-    font-size: 10px;
+    font-size: 0.6rem;
     color: var(--primary-color);
     font-weight: 600;
-    margin-left: 6px;
+    margin-left: 4px;
 }
 
 .cumulative-game {
