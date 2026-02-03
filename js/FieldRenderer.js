@@ -28,7 +28,7 @@ export default class FieldRenderer {
         this.yardsToPixels = (this.width - 20) / FIELD_WIDTH_YARDS; // Accounting for margins
     }
 
-    drawField() {
+    drawField(teamAName = null, teamAColor = null) {
         const ctx = this.ctx;
         const w = this.width;
         const h = this.height;
@@ -152,6 +152,38 @@ export default class FieldRenderer {
         ctx.lineTo(centerX + minusLen / 2, botCreaseY);
         ctx.stroke();
 
+        // --- Team direction indicator (Team A going up)
+        if (teamAName && teamAColor) {
+            // Position: near right sideline at midline
+            const indicatorX = w - borderW - pad - 40;
+            const indicatorY = midY + 50;
+
+            // Get first letter of team name
+            const teamLetter = teamAName.charAt(0).toUpperCase();
+
+            // Draw team letter
+            ctx.fillStyle = teamAColor;
+            ctx.font = 'bold 28px sans-serif';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText(teamLetter, indicatorX, indicatorY);
+
+            // Draw upward arrow below the letter
+            const arrowY = indicatorY + 25;
+            const arrowSize = 12;
+            ctx.fillStyle = teamAColor;
+            ctx.beginPath();
+            // Arrow pointing up
+            ctx.moveTo(indicatorX, arrowY - arrowSize); // Top point
+            ctx.lineTo(indicatorX - arrowSize / 2, arrowY); // Bottom left
+            ctx.lineTo(indicatorX + arrowSize / 2, arrowY); // Bottom right
+            ctx.closePath();
+            ctx.fill();
+
+            // Arrow shaft
+            ctx.fillRect(indicatorX - 3, arrowY, 6, arrowSize);
+        }
+
         ctx.restore();
       }
 
@@ -218,13 +250,13 @@ export default class FieldRenderer {
         }
     }
 
-    render(pins, showClampRings = true) {
-        this.drawField();
+    render(pins, showClampRings = true, teamAName = null, teamAColor = null) {
+        this.drawField(teamAName, teamAColor);
         this.drawPins(pins, showClampRings);
     }
 
     renderHeatmap(pins, teamAColor = '#10b981', teamBColor = '#ef4444', teamAName = 'Team A', teamBName = 'Team B') {
-        this.drawField();
+        this.drawField(teamAName, teamAColor);
 
         // Filter out whistle violation pins - they should not appear on the field/heat map
         // Post-whistle violations should still appear since faceoff occurred
@@ -237,7 +269,7 @@ export default class FieldRenderer {
         const h = this.height;
 
         // Create heat map grid
-        const gridSize = 30; // Size of each heat map cell
+        const gridSize = 15; // Size of each heat map cell (smaller = more detail)
         const cols = Math.ceil(w / gridSize);
         const rows = Math.ceil(h / gridSize);
         const teamAGrid = Array(rows).fill().map(() => Array(cols).fill(0));

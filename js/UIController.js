@@ -2663,7 +2663,8 @@ class UIController {
             const teamBName = game?.teamB || game?.opponent || 'Team B';
             this.fieldRenderer.renderHeatmap(renderPins, teamAColor, teamBColor, teamAName, teamBName);
         } else {
-            this.fieldRenderer.render(renderPins, this.showClampRings);
+            const teamAName = game?.teamA || 'Team A';
+            this.fieldRenderer.render(renderPins, this.showClampRings, teamAName, teamAColor);
         }
     }
 
@@ -2945,13 +2946,9 @@ class UIController {
                         background: #f8fafc;
                     }
                     .stats-table tr.team-subtotal {
-                        background: #fed7aa !important;
                         font-weight: 600;
-                        border-top: 2px solid #f97316;
-                        border-bottom: 2px solid #f97316;
-                    }
-                    .stats-table tr.team-subtotal td:first-child {
-                        color: #f97316;
+                        border-top: 2px solid #e2e8f0;
+                        border-bottom: 2px solid #e2e8f0;
                     }
 
                     @media print {
@@ -3050,9 +3047,14 @@ class UIController {
         const foPercentage = foTotal > 0 ? ((totals.foWins / foTotal) * 100).toFixed(1) : '0.0';
         const clampPercentage = clampTotal > 0 ? ((totals.clampWins / clampTotal) * 100).toFixed(1) : '0.0';
 
+        // Get team color
+        const teamColor = getTeamColor(teamName);
+        const bgColor = teamColor ? this.hexToRGBA(teamColor, 0.15) : '#fed7aa';
+        const textColor = teamColor || '#f97316';
+
         return `
-            <tr class="team-subtotal">
-                <td>${teamName} Total</td>
+            <tr class="team-subtotal" style="background-color: ${bgColor} !important;">
+                <td style="color: ${textColor};">${teamName} Total</td>
                 <td>-</td>
                 <td>${totals.foWins}</td>
                 <td>${totals.foLosses}</td>
