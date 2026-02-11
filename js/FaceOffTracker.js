@@ -669,7 +669,7 @@ export default class FaceOffTracker {
         return this.currentGameId ? this.games[this.currentGameId] : null;
     }
 
-    addPin(x, y, teamAPlayerId, teamBPlayerId, faceoffWinnerId, clampWinnerId, isWhistleViolation = false, isPostWhistleViolation = false) {
+    addPin(x, y, teamAPlayerId, teamBPlayerId, faceoffWinnerId, clampWinnerId, isWhistleViolation = false, isPostWhistleViolation = false, isConvertedLoss = false) {
         const game = this.getCurrentGame();
         if (game && !game.isCumulativeFolder) { // Prevent adding to cumulative folders
             const newPin = {
@@ -681,6 +681,7 @@ export default class FaceOffTracker {
                 clampWinnerId,      // Who won clamp (player ID) - null if whistle violation
                 isWhistleViolation, // Flag indicating whistle violation (no actual faceoff)
                 isPostWhistleViolation, // Flag indicating post-whistle violation (faceoff occurred)
+                isConvertedLoss,    // Flag indicating winner quickly turned ball over
                 timestamp: Date.now()
             };
             game.pins.push(newPin);

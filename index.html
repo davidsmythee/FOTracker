@@ -338,11 +338,18 @@
                 <div class="form-group form-group-compact">
                     <div class="checkbox-option checkbox-compact">
                         <input type="checkbox" id="pin-whistle-violation-checkbox">
-                        <label for="pin-whistle-violation-checkbox">Whistle Violation (no faceoff)</label>
+                        <label for="pin-whistle-violation-checkbox">Whistle Violation</label>
+                        <span class="info-icon" title="A violation that occurs before/on the whistle, meaning no faceoff took place. The pin is recorded but no clamp winner is tracked.">i</span>
                     </div>
                     <div class="checkbox-option checkbox-compact" style="margin-top: 4px;">
                         <input type="checkbox" id="pin-post-whistle-violation-checkbox">
                         <label for="pin-post-whistle-violation-checkbox">Post-Whistle Violation</label>
+                        <span class="info-icon" title="A violation that occurs after the whistle. The faceoff still took place, so both faceoff and clamp results are recorded.">i</span>
+                    </div>
+                    <div class="checkbox-option checkbox-compact" style="margin-top: 4px;">
+                        <input type="checkbox" id="pin-converted-loss-checkbox">
+                        <label for="pin-converted-loss-checkbox">Converted Loss</label>
+                        <span class="info-icon" title="The faceoff winner quickly turned the ball over after gaining possession. In the adjusted faceoff percentage stats, the winner loses a win and the loser gains a win.">i</span>
                     </div>
                 </div>
 

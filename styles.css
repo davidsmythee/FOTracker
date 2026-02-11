@@ -1276,6 +1276,65 @@ body {
     font-size: 0.75rem;
 }
 
+/* Info Icon Tooltip */
+.info-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 600;
+    cursor: help;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.info-icon:hover {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.info-icon:hover::after {
+    content: attr(title);
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 8px 10px;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4;
+    white-space: normal;
+    width: 220px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    pointer-events: none;
+}
+
+.info-icon:hover::before {
+    content: '';
+    position: absolute;
+    bottom: calc(100% + 2px);
+    left: 50%;
+    transform: translateX(-50%);
+    border: 6px solid transparent;
+    border-top-color: var(--border-color);
+    z-index: 101;
+    pointer-events: none;
+}
+
 /* Player Filter Styles */
 .player-filter-team {
     margin-top: 12px;
@@ -1909,17 +1968,17 @@ body {
 }
 
 .stats-table thead th:nth-child(1) {
-    width: 25%;
+    width: 20%;
 }
 
 .stats-table thead th:nth-child(2) {
-    width: 8%;
+    width: 6%;
     text-align: center;
 }
 
 .stats-table thead th:nth-child(n+3) {
     text-align: center;
-    width: 11%;
+    width: 9%;
 }
 
 .stats-table tbody tr {

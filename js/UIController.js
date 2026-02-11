@@ -821,6 +821,7 @@ class UIController {
                         <th>FO Wins</th>
                         <th>FO Losses</th>
                         <th>FO %</th>
+                        <th>Adj FO %</th>
                         <th>Clamp Wins</th>
                         <th>Clamp Losses</th>
                         <th>Clamp %</th>
@@ -871,7 +872,9 @@ class UIController {
                         foWins: 0,
                         foLosses: 0,
                         clampWins: 0,
-                        clampLosses: 0
+                        clampLosses: 0,
+                        convertedLosses: 0,
+                        convertedWins: 0
                     });
                 }
             });
@@ -901,6 +904,19 @@ class UIController {
                 }
             }
 
+            // Converted losses (winner quickly turned ball over)
+            if (pin.isConvertedLoss && winnerId) {
+                // Winner loses an adjusted win
+                if (playerStatsMap.has(winnerId)) {
+                    playerStatsMap.get(winnerId).convertedLosses++;
+                }
+                // Loser gains an adjusted win
+                const loserId = winnerId === teamAPlayerId ? teamBPlayerId : teamAPlayerId;
+                if (playerStatsMap.has(loserId)) {
+                    playerStatsMap.get(loserId).convertedWins++;
+                }
+            }
+
             // Clamp wins/losses (only if not a whistle violation)
             if (!pin.isWhistleViolation && clampWinnerId) {
                 if (clampWinnerId === teamAPlayerId) {
@@ -925,10 +941,12 @@ class UIController {
         const statsArray = Array.from(playerStatsMap.values()).map(stat => {
             const foTotal = stat.foWins + stat.foLosses;
             const clampTotal = stat.clampWins + stat.clampLosses;
+            const adjWins = stat.foWins - stat.convertedLosses + stat.convertedWins;
 
             return {
                 ...stat,
                 foPercentage: foTotal > 0 ? ((stat.foWins / foTotal) * 100).toFixed(1) : '0.0',
+                adjFoPercentage: foTotal > 0 ? ((adjWins / foTotal) * 100).toFixed(1) : '0.0',
                 clampPercentage: clampTotal > 0 ? ((stat.clampWins / clampTotal) * 100).toFixed(1) : '0.0'
             };
         });
@@ -943,7 +961,7 @@ class UIController {
     }
 
     renderPlayerRow(playerStat) {
-        const { player, foWins, foLosses, foPercentage, clampWins, clampLosses, clampPercentage } = playerStat;
+        const { player, foWins, foLosses, foPercentage, adjFoPercentage, clampWins, clampLosses, clampPercentage } = playerStat;
 
         return `
             <tr>
@@ -952,6 +970,7 @@ class UIController {
                 <td>${foWins}</td>
                 <td>${foLosses}</td>
                 <td>${foPercentage}%</td>
+                <td>${adjFoPercentage}%</td>
                 <td>${clampWins}</td>
                 <td>${clampLosses}</td>
                 <td>${clampPercentage}%</td>
@@ -966,12 +985,16 @@ class UIController {
             acc.foLosses += stat.foLosses;
             acc.clampWins += stat.clampWins;
             acc.clampLosses += stat.clampLosses;
+            acc.convertedLosses += stat.convertedLosses;
+            acc.convertedWins += stat.convertedWins;
             return acc;
-        }, { foWins: 0, foLosses: 0, clampWins: 0, clampLosses: 0 });
+        }, { foWins: 0, foLosses: 0, clampWins: 0, clampLosses: 0, convertedLosses: 0, convertedWins: 0 });
 
         const foTotal = totals.foWins + totals.foLosses;
         const clampTotal = totals.clampWins + totals.clampLosses;
         const foPercentage = foTotal > 0 ? ((totals.foWins / foTotal) * 100).toFixed(1) : '0.0';
+        const adjWins = totals.foWins - totals.convertedLosses + totals.convertedWins;
+        const adjFoPercentage = foTotal > 0 ? ((adjWins / foTotal) * 100).toFixed(1) : '0.0';
         const clampPercentage = clampTotal > 0 ? ((totals.clampWins / clampTotal) * 100).toFixed(1) : '0.0';
 
         // Get team color
@@ -985,6 +1008,7 @@ class UIController {
                 <td>${totals.foWins}</td>
                 <td>${totals.foLosses}</td>
                 <td>${foPercentage}%</td>
+                <td>${adjFoPercentage}%</td>
                 <td>${totals.clampWins}</td>
                 <td>${totals.clampLosses}</td>
                 <td>${clampPercentage}%</td>
@@ -1445,8 +1469,11 @@ class UIController {
         // Explicitly reset violation checkboxes (should NOT remember violations from previous pin)
         const whistleViolationCheckbox = document.getElementById('pin-whistle-violation-checkbox');
         const postWhistleViolationCheckbox = document.getElementById('pin-post-whistle-violation-checkbox');
+        const convertedLossCheckbox = document.getElementById('pin-converted-loss-checkbox');
         whistleViolationCheckbox.checked = false;
         postWhistleViolationCheckbox.checked = false;
+        convertedLossCheckbox.checked = false;
+        convertedLossCheckbox.disabled = false;
 
         // Ensure clamp winner section is always visible on open (default state)
         const clampWinnerSection = document.getElementById('clamp-winner-section');
@@ -1510,12 +1537,18 @@ class UIController {
                 // Uncheck post-whistle if whistle is checked (mutually exclusive)
                 postWhistleViolationCheckbox.checked = false;
 
+                // Disable converted loss (no faceoff = no converted loss possible)
+                convertedLossCheckbox.checked = false;
+                convertedLossCheckbox.disabled = true;
+
                 clampWinnerSection.style.display = 'none';
                 // Remove required attribute from clamp winner radios when hidden
                 document.querySelectorAll('input[name="clamp-winner"]').forEach(radio => {
                     radio.removeAttribute('required');
                 });
             } else {
+                convertedLossCheckbox.disabled = false;
+
                 clampWinnerSection.style.display = 'block';
                 // Re-add required attribute when visible
                 document.querySelector('input[name="clamp-winner"][value="teamA"]').setAttribute('required', '');
@@ -1637,11 +1670,13 @@ class UIController {
             return;
         }
 
-        // Check violation types
+        // Check violation types and converted loss
         const whistleViolationCheckbox = document.getElementById('pin-whistle-violation-checkbox');
         const postWhistleViolationCheckbox = document.getElementById('pin-post-whistle-violation-checkbox');
+        const convertedLossCheckbox = document.getElementById('pin-converted-loss-checkbox');
         const isWhistleViolation = whistleViolationCheckbox.checked;
         const isPostWhistleViolation = postWhistleViolationCheckbox.checked;
+        const isConvertedLoss = convertedLossCheckbox.checked;
 
         // Get winner selections
         const faceoffWinnerRadio = document.querySelector('input[name="faceoff-winner"]:checked');
@@ -1688,7 +1723,8 @@ class UIController {
             faceoffWinnerId,
             clampWinnerId,
             isWhistleViolation,
-            isPostWhistleViolation
+            isPostWhistleViolation,
+            isConvertedLoss
         );
 
         // Save the selected players for auto-fill next time
@@ -2989,6 +3025,7 @@ class UIController {
                                 <th>FO Wins</th>
                                 <th>FO Losses</th>
                                 <th>FO %</th>
+                                <th>Adj FO %</th>
                                 <th>Clamp Wins</th>
                                 <th>Clamp Losses</th>
                                 <th>Clamp %</th>
@@ -3016,7 +3053,7 @@ class UIController {
     }
 
     renderPlayerRowForPrint(playerStat) {
-        const { player, foWins, foLosses, foPercentage, clampWins, clampLosses, clampPercentage } = playerStat;
+        const { player, foWins, foLosses, foPercentage, adjFoPercentage, clampWins, clampLosses, clampPercentage } = playerStat;
 
         return `
             <tr>
@@ -3025,6 +3062,7 @@ class UIController {
                 <td>${foWins}</td>
                 <td>${foLosses}</td>
                 <td>${foPercentage}%</td>
+                <td>${adjFoPercentage}%</td>
                 <td>${clampWins}</td>
                 <td>${clampLosses}</td>
                 <td>${clampPercentage}%</td>
@@ -3039,12 +3077,16 @@ class UIController {
             acc.foLosses += stat.foLosses;
             acc.clampWins += stat.clampWins;
             acc.clampLosses += stat.clampLosses;
+            acc.convertedLosses += stat.convertedLosses;
+            acc.convertedWins += stat.convertedWins;
             return acc;
-        }, { foWins: 0, foLosses: 0, clampWins: 0, clampLosses: 0 });
+        }, { foWins: 0, foLosses: 0, clampWins: 0, clampLosses: 0, convertedLosses: 0, convertedWins: 0 });
 
         const foTotal = totals.foWins + totals.foLosses;
         const clampTotal = totals.clampWins + totals.clampLosses;
         const foPercentage = foTotal > 0 ? ((totals.foWins / foTotal) * 100).toFixed(1) : '0.0';
+        const adjWins = totals.foWins - totals.convertedLosses + totals.convertedWins;
+        const adjFoPercentage = foTotal > 0 ? ((adjWins / foTotal) * 100).toFixed(1) : '0.0';
         const clampPercentage = clampTotal > 0 ? ((totals.clampWins / clampTotal) * 100).toFixed(1) : '0.0';
 
         // Get team color
@@ -3059,6 +3101,7 @@ class UIController {
                 <td>${totals.foWins}</td>
                 <td>${totals.foLosses}</td>
                 <td>${foPercentage}%</td>
+                <td>${adjFoPercentage}%</td>
                 <td>${totals.clampWins}</td>
                 <td>${totals.clampLosses}</td>
                 <td>${clampPercentage}%</td>
