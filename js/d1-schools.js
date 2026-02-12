@@ -128,7 +128,7 @@ function colorSimilarity(color1, color2) {
 }
 
 // Check if two colors are too similar (threshold: 0.75 similarity)
-function areColorsSimilar(color1, color2) {
+export function areColorsSimilar(color1, color2) {
     const similarity = colorSimilarity(color1, color2);
     return similarity > 0.75; // Colors with >75% similarity are considered "too similar"
 }

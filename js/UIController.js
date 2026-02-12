@@ -1,7 +1,7 @@
 // ===== Import Dependencies =====
 import FaceOffTracker from './FaceOffTracker.js';
 import FieldRenderer from './FieldRenderer.js';
-import { searchSchools, getTeamColor } from './d1-schools.js';
+import { searchSchools, getTeamColor, d1LacrosseSchools, areColorsSimilar } from './d1-schools.js';
 import { getTeamColor as getTeamColorFromMap } from './TeamColors.js';
 
 // ===== UI Controller =====
@@ -2654,6 +2654,7 @@ class UIController {
         // Get team colors
         let teamAColor = '#10b981'; // Default green
         let teamBColor = '#ef4444'; // Default red
+        const FALLBACK_GRAY = '#808080';
 
         if (game) {
             if (game.teamA) {
@@ -2664,6 +2665,33 @@ class UIController {
             } else if (game.opponent) {
                 // Legacy format - use opponent name for team B color
                 teamBColor = getTeamColorFromMap(game.opponent);
+            }
+
+            // Resolve color conflicts when both teams have similar colors
+            if (areColorsSimilar(teamAColor, teamBColor)) {
+                // Try Team B's secondary color first
+                const teamBName = game.teamB || game.opponent;
+                const schoolB = teamBName ? d1LacrosseSchools.find(s =>
+                    s.name.toLowerCase() === teamBName.toLowerCase()
+                ) : null;
+                const secondaryB = schoolB?.secondaryColor;
+
+                if (secondaryB && !areColorsSimilar(secondaryB, teamAColor) && !areColorsSimilar(secondaryB, '#FFFFFF')) {
+                    teamBColor = secondaryB;
+                } else {
+                    // Try Team A's secondary color for Team A instead
+                    const schoolA = game.teamA ? d1LacrosseSchools.find(s =>
+                        s.name.toLowerCase() === game.teamA.toLowerCase()
+                    ) : null;
+                    const secondaryA = schoolA?.secondaryColor;
+
+                    if (secondaryA && !areColorsSimilar(secondaryA, teamBColor) && !areColorsSimilar(secondaryA, '#FFFFFF')) {
+                        teamAColor = secondaryA;
+                    } else {
+                        // Fall back to gray for Team B
+                        teamBColor = FALLBACK_GRAY;
+                    }
+                }
             }
         }
 
@@ -2945,14 +2973,15 @@ class UIController {
                         width: 100%;
                         border-collapse: collapse;
                         margin-top: 20px;
+                        border: 2px solid black;
                     }
                     .stats-table th {
-                        background: #f97316;
-                        color: white;
+                        background: #d3d3d3;
+                        color: black;
                         padding: 12px 8px;
                         text-align: left;
-                        font-weight: 600;
-                        border: 1px solid #ea580c;
+                        font-weight: 700;
+                        border: 1px solid black;
                         font-size: 14px;
                     }
                     .stats-table th:nth-child(1) {
@@ -2968,7 +2997,7 @@ class UIController {
                     }
                     .stats-table td {
                         padding: 8px;
-                        border: 1px solid #e2e8f0;
+                        border: 1px solid black;
                         font-size: 13px;
                     }
                     .stats-table td:nth-child(2) {
@@ -2983,8 +3012,8 @@ class UIController {
                     }
                     .stats-table tr.team-subtotal {
                         font-weight: 600;
-                        border-top: 2px solid #e2e8f0;
-                        border-bottom: 2px solid #e2e8f0;
+                        border-top: 2px solid black;
+                        border-bottom: 2px solid black;
                     }
 
                     @media print {
