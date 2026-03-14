@@ -1,0 +1,280 @@
+{
+  "team": "Southwestern University",
+  "scrapedAt": "2026-03-13T22:07:23.538800Z",
+  "playerCount": 39,
+  "players": [
+    {
+      "name": "Dyson Kwan",
+      "number": "0",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Josh Swandal",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Nolan Zaby",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Keaten Cox",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Trey Pena",
+      "number": "5",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Ferris Garcia",
+      "number": "6",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Jake Trailer",
+      "number": "7",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Cal Stewart",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Connor Taylor",
+      "number": "9",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Austin Egler",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Matthew Houtz",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Riston Niemeyer",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Corbin Comiskey",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Jackson Strauser",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Zach Faubion",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Chris Steffek",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Ben Garber",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Jackson  Maddox",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Diego Herrera",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Marshall Mohun",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Jeffrey  Jordan",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Campbell Duke",
+      "number": "24",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Abram Gareis",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Zach Hendreks",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Zach Tuley",
+      "number": "30",
+      "position": "Midfield/Attack",
+      "classYear": "Junior",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Gaetan Avicolli",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Zach Johnson",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Will Walsh",
+      "number": "35",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Brock Middleton",
+      "number": "38",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Christian de Groot",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Dante Avicolli",
+      "number": "44",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Henry Cool",
+      "number": "45",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Sam Stillwell",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Joey Primm",
+      "number": "49",
+      "position": "Defense/Midfield",
+      "classYear": "Senior",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Matthew Swandal",
+      "number": "55",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Matt Fair",
+      "number": "66",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Dylan Mackie",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Dylan Knighten",
+      "number": "88",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Southwestern University"
+    },
+    {
+      "name": "Drew Fehrenbacher",
+      "number": "99",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Southwestern University"
+    }
+  ]
+}

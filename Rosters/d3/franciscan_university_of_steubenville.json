@@ -1,0 +1,203 @@
+{
+  "team": "Franciscan University of Steubenville",
+  "scrapedAt": "2026-03-13T22:04:10.729105Z",
+  "playerCount": 28,
+  "players": [
+    {
+      "name": "James  Masso",
+      "number": "0",
+      "position": "Attack / MidfieldA/M",
+      "classYear": "Junior",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "Luke Reimer",
+      "number": "1",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "Joseph McCarron",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "Joseph James",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "Sean Hickson",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "Charles  Wilson",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "Pio Kirk",
+      "number": "7",
+      "position": "Attack / MidfieldA/M",
+      "classYear": "Freshman",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "John Kirk",
+      "number": "9",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "Thomas LeBlanc",
+      "number": "11",
+      "position": "Short StickSSDM",
+      "classYear": "Senior",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "Ayden Burke",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "Samuel Chipps",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "Will Barnes",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "Charles  Buckley",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "Michael Brox",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "Declan Uhlenkott",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "JT Sebestyen",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "Wyatt Balger",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "Dean  Patterson",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "Joe Delee",
+      "number": "28",
+      "position": "Attack / MidfieldA/M",
+      "classYear": "Freshman",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "Anthony Dow",
+      "number": "30",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "Luke Schauble",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "Joseph Plant",
+      "number": "32",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "Kolbe Owen",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "Ignacio Sayers",
+      "number": "35",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Freshman",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "Mattias Bunai",
+      "number": "40",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "Nolan Hosking",
+      "number": "58",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "Evan Long",
+      "number": "62",
+      "position": "Defense / MidfieldD/M",
+      "classYear": "Sophomore",
+      "team": "Franciscan University of Steubenville"
+    },
+    {
+      "name": "Eli Everts",
+      "number": "74",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Franciscan University of Steubenville"
+    }
+  ]
+}

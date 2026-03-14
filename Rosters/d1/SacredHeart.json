@@ -1,0 +1,392 @@
+{
+  "team": "Sacred Heart University",
+  "scrapedAt": "2026-01-28T20:57:15.509Z",
+  "playerCount": 55,
+  "players": [
+    {
+      "name": "Ryan Rooney",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Luke Catolico",
+      "number": "2",
+      "position": "SSDM",
+      "classYear": "",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "So.",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Tommy Bull",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "So.",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Graham Kelly",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Joel Palasz",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Jr.",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Ethan Hughes",
+      "number": "10",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Aiden Fletcher",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Joseph Palanchi",
+      "number": "12",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Mason Mac",
+      "number": "13",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Connor Garrison",
+      "number": "14",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Landen Sommers",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Tyler Shanahan",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "William Masterson",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Finn Hoey",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Matt Pepe",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Jack Balzi",
+      "number": "20",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Tim McLam",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Tucker Spencer",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Jake Carney",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "James Joel",
+      "number": "24",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Dom Basti",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Michael Moreschi",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Wiley Lent",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Koen Rose",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Mikey Gabriel",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Chris Inzirillo",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Christian Gilford",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Ethan Greenlee",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Cooper Abraham",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Brody  Reedy",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Garrett Mangels",
+      "number": "36",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Cole Lazzara",
+      "number": "38",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Ryan Dellinger",
+      "number": "39",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Stephen Rosano",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Hunter Kilpatrick",
+      "number": "43",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "James Moran",
+      "number": "44",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Michael Amoruso",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "John Murray",
+      "number": "46",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Hunter Molway",
+      "number": "47",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "William Swift",
+      "number": "49",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Steve Carre",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Rylan Padelford",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Ryan  Grove",
+      "number": "52",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Thomas  Ricciardi",
+      "number": "53",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Ethan Benardos",
+      "number": "55",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Cooper Brushwood",
+      "number": "56",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Nick Begina",
+      "number": "57",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Will Moulton",
+      "number": "60",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Max Manware",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Cooper Callahan",
+      "number": "81",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Tim Kiely",
+      "number": "88",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Sacred Heart University"
+    },
+    {
+      "name": "Jake Holmes",
+      "number": "99",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Sacred Heart University"
+    }
+  ]
+}

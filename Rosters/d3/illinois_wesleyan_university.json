@@ -1,0 +1,357 @@
+{
+  "team": "Illinois Wesleyan University",
+  "scrapedAt": "2026-03-13T22:04:54.864723Z",
+  "playerCount": 50,
+  "players": [
+    {
+      "name": "Max Strong",
+      "number": "1",
+      "position": "Defense/MidfieldD/MID",
+      "classYear": "Freshman",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Zach Roque",
+      "number": "2",
+      "position": "MidfieldF",
+      "classYear": "Freshman",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Michael Rocco",
+      "number": "3",
+      "position": "Face OffFO",
+      "classYear": "Senior",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Jack Vander Kooi",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "A.J. Ellis",
+      "number": "6",
+      "position": "Goalkeeper",
+      "classYear": "Sophomore",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Tyce Baldwin",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Brody Jones",
+      "number": "9",
+      "position": "AttackTT",
+      "classYear": "Freshman",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Jaymeson Zackery",
+      "number": "10",
+      "position": "Goalkeeper",
+      "classYear": "Sophomore",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Cole Kennedy",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Charlie Burghardt",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Noah Dretzka",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Jake Sline",
+      "number": "14",
+      "position": "Face OffFO",
+      "classYear": "Sophomore",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Gus Sawicki",
+      "number": "15",
+      "position": "AttackTT",
+      "classYear": "Freshman",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Landon Foster",
+      "number": "16",
+      "position": "MidfieldF",
+      "classYear": "Freshman",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Owen Miller",
+      "number": "17",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Kaden Gammelgaard",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Jake Kahoun",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "AJ Rodriguez",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Lucas Patterson",
+      "number": "21",
+      "position": "MidfieldF",
+      "classYear": "Freshman",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Jarett Brunson",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Reese Hack",
+      "number": "23",
+      "position": "Defense/MidfieldD/MID",
+      "classYear": "Junior",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Henry Cotter",
+      "number": "24",
+      "position": "Goalkeeper",
+      "classYear": "Freshman",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Evan Kuroski",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Joe Bercot",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Mitchell Breza",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Sam Scott",
+      "number": "29",
+      "position": "GoalkeeperG",
+      "classYear": "Senior",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Matt Arnold",
+      "number": "30",
+      "position": "Face OffFO",
+      "classYear": "Sophomore",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Wyatt Hart",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Nate Pound",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Ethan Cavanaugh",
+      "number": "33",
+      "position": "Long Stick Middle/DefenseLSM/D",
+      "classYear": "Sophomore",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Diego Bronson",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Nick Donohue",
+      "number": "35",
+      "position": "Defense/MidfieldD/MF",
+      "classYear": "Sophomore",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Nolan Staples-Roy",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Karsten Nordlie",
+      "number": "37",
+      "position": "Defense/MidfieldD/M",
+      "classYear": "Senior",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Cam Lockton",
+      "number": "38",
+      "position": "MidfieldF",
+      "classYear": "Freshman",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Ben Marban",
+      "number": "39",
+      "position": "Attack/MidfieldATT/MF",
+      "classYear": "Freshman",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Holden Webster",
+      "number": "40",
+      "position": "MidfieldF",
+      "classYear": "Freshman",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Jeremy Langosch",
+      "number": "41",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Andres Morales-Gomez",
+      "number": "42",
+      "position": "Defense/MidfieldD/M",
+      "classYear": "Senior",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Billy McHugh",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Hayes DeWitt",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Dylan Walker",
+      "number": "47",
+      "position": "Defense/MidfieldD/MF",
+      "classYear": "Sophomore",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Quinn Butler",
+      "number": "50",
+      "position": "Defense/MidfieldD/MF",
+      "classYear": "Sophomore",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Max Brandson",
+      "number": "51",
+      "position": "MidfieldF",
+      "classYear": "Freshman",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Jake Guerard",
+      "number": "52",
+      "position": "MifdieldMF",
+      "classYear": "Freshman",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Carlo Adams",
+      "number": "54",
+      "position": "Defense/MidfieldD/MF",
+      "classYear": "Sophomore",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Garrett Wills",
+      "number": "55",
+      "position": "Midfield/AttackMF/ATT",
+      "classYear": "Freshman",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Kade Miers",
+      "number": "59",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Timothy McHugh",
+      "number": "71",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Illinois Wesleyan University"
+    },
+    {
+      "name": "Rylee Blair",
+      "number": "81",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Illinois Wesleyan University"
+    }
+  ]
+}

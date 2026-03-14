@@ -1,0 +1,168 @@
+{
+  "team": "Fairleigh Dickinson University - College at Florham",
+  "scrapedAt": "2026-03-13T22:04:09.166981Z",
+  "playerCount": 23,
+  "players": [
+    {
+      "name": "Vito Trapani",
+      "number": "1",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Fairleigh Dickinson University - College at Florham"
+    },
+    {
+      "name": "Anthony DiGiacomo",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Fairleigh Dickinson University - College at Florham"
+    },
+    {
+      "name": "Christopher Scheublin",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Fairleigh Dickinson University - College at Florham"
+    },
+    {
+      "name": "Luke Dugan",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Fairleigh Dickinson University - College at Florham"
+    },
+    {
+      "name": "Chris Spinello",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Fairleigh Dickinson University - College at Florham"
+    },
+    {
+      "name": "Anthony Giardina",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Fairleigh Dickinson University - College at Florham"
+    },
+    {
+      "name": "Justin Perillo",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Fairleigh Dickinson University - College at Florham"
+    },
+    {
+      "name": "Alex Kuc",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Fairleigh Dickinson University - College at Florham"
+    },
+    {
+      "name": "AJ Kuc",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Fairleigh Dickinson University - College at Florham"
+    },
+    {
+      "name": "Tristan Newhouse",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Fairleigh Dickinson University - College at Florham"
+    },
+    {
+      "name": "Joseph Carbo",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Fairleigh Dickinson University - College at Florham"
+    },
+    {
+      "name": "Luke Hall",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Fairleigh Dickinson University - College at Florham"
+    },
+    {
+      "name": "James Conlon",
+      "number": "16",
+      "position": "D/LSMD/LSM",
+      "classYear": "Sophomore",
+      "team": "Fairleigh Dickinson University - College at Florham"
+    },
+    {
+      "name": "Trevor Reid",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Fairleigh Dickinson University - College at Florham"
+    },
+    {
+      "name": "Anthony Pieroni",
+      "number": "19",
+      "position": "GoaltenderG",
+      "classYear": "Sophomore",
+      "team": "Fairleigh Dickinson University - College at Florham"
+    },
+    {
+      "name": "Aiden Dubinski",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Fairleigh Dickinson University - College at Florham"
+    },
+    {
+      "name": "Damien Shevlin",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Fairleigh Dickinson University - College at Florham"
+    },
+    {
+      "name": "Donald Troyano",
+      "number": "28",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Fy.",
+      "team": "Fairleigh Dickinson University - College at Florham"
+    },
+    {
+      "name": "Patrick Kenny",
+      "number": "29",
+      "position": "MidfieldID",
+      "classYear": "Junior",
+      "team": "Fairleigh Dickinson University - College at Florham"
+    },
+    {
+      "name": "Tyler Collins",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Fairleigh Dickinson University - College at Florham"
+    },
+    {
+      "name": "Jake Lukko",
+      "number": "40",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Fy.",
+      "team": "Fairleigh Dickinson University - College at Florham"
+    },
+    {
+      "name": "Ben Weintraub",
+      "number": "44",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Fairleigh Dickinson University - College at Florham"
+    },
+    {
+      "name": "Steven Leuthner",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Fairleigh Dickinson University - College at Florham"
+    }
+  ]
+}

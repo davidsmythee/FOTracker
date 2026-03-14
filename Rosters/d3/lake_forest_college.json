@@ -1,0 +1,350 @@
+{
+  "team": "Lake Forest College",
+  "scrapedAt": "2026-03-13T22:05:20.094148Z",
+  "playerCount": 49,
+  "players": [
+    {
+      "name": "Mason DeMarco",
+      "number": "0",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "John Shannon",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Rowan Baringer",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Wesley Sailor",
+      "number": "3",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Brant Schuckman",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Ryan Keene",
+      "number": "5",
+      "position": "DM",
+      "classYear": "Junior",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Cory Cummins",
+      "number": "6",
+      "position": "A/M",
+      "classYear": "Sophomore",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Aidan Wigton",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Mateo Trimble",
+      "number": "8",
+      "position": "DM",
+      "classYear": "Sophomore",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Angelo Lewis",
+      "number": "9",
+      "position": "DM",
+      "classYear": "Sophomore",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Jack Keeling",
+      "number": "10",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Andrew Koch",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Jackson Derosia",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Joe Williams",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Gabe Boston",
+      "number": "14",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Jacob Smith",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Jacob Lipson",
+      "number": "16",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Brendan Herbert",
+      "number": "17",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "John O'Reilly",
+      "number": "18",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Aidan Lindsey",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Judson Norris",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Avary Whitehead",
+      "number": "21",
+      "position": "D/LSM",
+      "classYear": "Freshman",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Carson Pagel",
+      "number": "22",
+      "position": "A/M",
+      "classYear": "Junior",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Conor Cattabriga",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Jacob Avgoustakis",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Kyle Katzbek",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Evan Heitner",
+      "number": "26",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Lucas Scheps-Brown",
+      "number": "27",
+      "position": "DM",
+      "classYear": "Senior",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Wells Roney",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Roman Rossano",
+      "number": "29",
+      "position": "DM",
+      "classYear": "Freshman",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Robby Hendrix",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Milo Closson",
+      "number": "32",
+      "position": "A/M",
+      "classYear": "Freshman",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Rob Anderson",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Macklin Thomas",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Brady Tersolo",
+      "number": "35",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Tyler Dearmin",
+      "number": "36",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Alex Berrie",
+      "number": "37",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Keanen Dorr",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Henry Morgan",
+      "number": "44",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Owen O'Connor",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Evan Benos",
+      "number": "52",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Ryan Dousevicz",
+      "number": "55",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Billy Draper",
+      "number": "69",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Liam Smith",
+      "number": "70",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Liam Bradley",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "AJ Lenz",
+      "number": "80",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Damon Schuetz",
+      "number": "88",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Jack Fedde",
+      "number": "91",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Lake Forest College"
+    },
+    {
+      "name": "Griffin Niedzielski",
+      "number": "99",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Lake Forest College"
+    }
+  ]
+}

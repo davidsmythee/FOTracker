@@ -1,0 +1,336 @@
+{
+  "team": "United States Coast Guard Academy",
+  "scrapedAt": "2026-03-13T22:08:19.187637Z",
+  "playerCount": 47,
+  "players": [
+    {
+      "name": "Harrison Holland",
+      "number": "1",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Patrick Smith",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Bane Klinefelter",
+      "number": "3",
+      "position": "FOGO, MidfielderFOGO/M",
+      "classYear": "Junior",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Dustin Miller",
+      "number": "4",
+      "position": "GoalkeeperG",
+      "classYear": "Senior",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Noah Heller",
+      "number": "5",
+      "position": "AttackmanA",
+      "classYear": "Junior",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Tobias Perkins",
+      "number": "6",
+      "position": "AttackmanA",
+      "classYear": "Sophomore",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Ben Nocerito",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Abraham Al-Khalili",
+      "number": "8",
+      "position": "FOGOFOGO",
+      "classYear": "Junior",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Reggie Bartels",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Max Silver",
+      "number": "11",
+      "position": "AttackmanA",
+      "classYear": "Junior",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Ethan Cumming",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "James McManus",
+      "number": "13",
+      "position": "MidfieldID",
+      "classYear": "Freshman",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Mason Tucker",
+      "number": "14",
+      "position": "FOGOFOGO",
+      "classYear": "Junior",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Liam Miller",
+      "number": "15",
+      "position": "AttackmanATT",
+      "classYear": "Freshman",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Gavin Wienhold",
+      "number": "16",
+      "position": "AttackmanATT",
+      "classYear": "Freshman",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Eric Key",
+      "number": "17",
+      "position": "AttackmanA",
+      "classYear": "Junior",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Luke Lambert",
+      "number": "18",
+      "position": "SSDMSSDM",
+      "classYear": "Junior",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Brett Tobasky",
+      "number": "19",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Matthew Hagerty",
+      "number": "20",
+      "position": "MidfieldID",
+      "classYear": "Junior",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Ezekiel Christian",
+      "number": "21",
+      "position": "AttackmanA",
+      "classYear": "Sophomore",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Ryder Bonser",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Nolan Grizzle",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Smith Musselman",
+      "number": "24",
+      "position": "DefensemanD",
+      "classYear": "Junior",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Dustin Shattan",
+      "number": "25",
+      "position": "LSMLSM",
+      "classYear": "Sophomore",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Evan Granahan",
+      "number": "26",
+      "position": "DefensemanD",
+      "classYear": "Senior",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Jack Elgas",
+      "number": "27",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Samuel Fritz",
+      "number": "28",
+      "position": "LSMLSM",
+      "classYear": "Sophomore",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Owen Pray",
+      "number": "29",
+      "position": "DefensemanD",
+      "classYear": "Sophomore",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Elijah Hinson",
+      "number": "30",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Jake Chambers",
+      "number": "31",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Andrew McDowell",
+      "number": "32",
+      "position": "Goalkeeper",
+      "classYear": "Sophomore",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Frederick Wheaton",
+      "number": "33",
+      "position": "DefensemanD",
+      "classYear": "Senior",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Jamison Wildt",
+      "number": "34",
+      "position": "DefensemanD",
+      "classYear": "Junior",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Ryan Astle",
+      "number": "35",
+      "position": "Goalkeeper",
+      "classYear": "Freshman",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Aiden Kundel",
+      "number": "36",
+      "position": "FOGOFOGO",
+      "classYear": "Freshman",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Myles Brown",
+      "number": "38",
+      "position": "SSDMSSDM",
+      "classYear": "Freshman",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Van Buhrman",
+      "number": "39",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Tober Steelhammer",
+      "number": "40",
+      "position": "FOGOFOGO",
+      "classYear": "Freshman",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Matt Lombardi",
+      "number": "41",
+      "position": "DefensemanDEF",
+      "classYear": "Freshman",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Brayden Feeney",
+      "number": "42",
+      "position": "LSMLSM",
+      "classYear": "Sophomore",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Davis Lee",
+      "number": "43",
+      "position": "AttackmanA",
+      "classYear": "Junior",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Ben Lewis",
+      "number": "44",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Gregory Lempin",
+      "number": "45",
+      "position": "DefensemanD",
+      "classYear": "Sophomore",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Jacob Miller",
+      "number": "46",
+      "position": "DefensemanDEF",
+      "classYear": "Freshman",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Matthew Clarke",
+      "number": "48",
+      "position": "SSDMSSDM",
+      "classYear": "Junior",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Will Clarke",
+      "number": "49",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "United States Coast Guard Academy"
+    },
+    {
+      "name": "Charles Bednar",
+      "number": "50",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "United States Coast Guard Academy"
+    }
+  ]
+}

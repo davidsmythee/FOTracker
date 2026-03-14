@@ -1,0 +1,308 @@
+{
+  "team": "St. Bonaventure University",
+  "scrapedAt": "2026-01-28T20:59:53.202Z",
+  "playerCount": 43,
+  "players": [
+    {
+      "name": "Evan Gallo",
+      "number": "0",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Simon Kowal",
+      "number": "1",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Will Porfilio",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Onenioteko:wa Maracle",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Brady Dolan",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Jeremy Askin",
+      "number": "6",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Cristofero Cucciuffo",
+      "number": "7",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Blake Maracle",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Jake Argue",
+      "number": "9",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Cameron Viavada",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Miles Tropea",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Jake Engel",
+      "number": "12",
+      "position": "LSM",
+      "classYear": "",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Lad  Harper",
+      "number": "13",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Owen Spring",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Brett  Mersdorf",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Mark McMahon",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Patrick Carpenter",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Tom Fox",
+      "number": "18",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Rory O'Brien",
+      "number": "19",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Dylan Newell",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Jake Polizzi",
+      "number": "21",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Owen Tasse",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Nino Sindoni",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Justin McFaul Jr.",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Patrick  Shanahan",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Brandan Buncke",
+      "number": "28",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Jaxon Dillon",
+      "number": "29",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Chris Lawrence",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Robert Nagengast",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Aaron Eberhard",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Kenyon Whitney",
+      "number": "35",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Isaac Farmer",
+      "number": "37",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Colin Stevens",
+      "number": "40",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Alex Polisoto",
+      "number": "44",
+      "position": "LSM",
+      "classYear": "",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Giovanni Massaro",
+      "number": "45",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Jake Patrei",
+      "number": "48",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Carter Accursi",
+      "number": "49",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Kaeden Burger",
+      "number": "51",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "John  Boomer",
+      "number": "55",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Mason Cree",
+      "number": "66",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Aiden MacDonell",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Connor Ballou",
+      "number": "85",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "St. Bonaventure University"
+    },
+    {
+      "name": "Kenneth Porter",
+      "number": "88",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "St. Bonaventure University"
+    }
+  ]
+}

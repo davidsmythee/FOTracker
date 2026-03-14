@@ -1,0 +1,420 @@
+{
+  "team": "Franklin & Marshall College",
+  "scrapedAt": "2026-03-13T22:04:12.507049Z",
+  "playerCount": 59,
+  "players": [
+    {
+      "name": "Liam Timmins",
+      "number": "0",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Max Russell",
+      "number": "1",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Owen Krause",
+      "number": "2",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Carter Connors",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Ben Fenton",
+      "number": "4",
+      "position": "LSM",
+      "classYear": "Fy.",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Jackson Barnhill",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Connor Traynor",
+      "number": "6",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Preston Blue",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Hayden Roeder",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "John Bolognesi",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Gavin Pierson",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Jacob Szczepanski",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Colin Song",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Mason Hudson",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Alex Pilling",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Ben Dale",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Matt Marino",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Rocco Ippoldo",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Luke Topley",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Jason Wagner",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Jack Luviano",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Jack Cicchelli",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Ryan Connelly",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "William Shaw",
+      "number": "23",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Eli Crystal",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Dylan Reese",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Matthew Spagnoletti",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Beckett Burley",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Ryan Rubino",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Braden Shipp",
+      "number": "29",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Cole Keefer",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Dillon Mannix",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Henry Griffith",
+      "number": "32",
+      "position": "Goalie",
+      "classYear": "Fy.",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Oscar Leohnis",
+      "number": "33",
+      "position": "FOGO",
+      "classYear": "Fy.",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Daniel Perlman",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Will Caragol",
+      "number": "35",
+      "position": "LSM",
+      "classYear": "Fy.",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Declan Connaughton",
+      "number": "36",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Luca Hoffman",
+      "number": "38",
+      "position": "FOGO",
+      "classYear": "Fy.",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "PJ Hoag",
+      "number": "39",
+      "position": "LSM",
+      "classYear": "Fy.",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Teddy Scarborough",
+      "number": "40",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Chris Worton",
+      "number": "41",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Will Bowen",
+      "number": "42",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Alex Fraser",
+      "number": "43",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Cole Morris",
+      "number": "44",
+      "position": "LSM",
+      "classYear": "Fy.",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "George Hardy",
+      "number": "45",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Mason Montrella",
+      "number": "47",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Tyler Howe",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Davis Reilly",
+      "number": "49",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Matthew Giller",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Max Kukuy",
+      "number": "51",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Nate Yanick",
+      "number": "54",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Nick Dotro",
+      "number": "55",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Hayes Card",
+      "number": "61",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Owen Metz",
+      "number": "66",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Ryan Schappell",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Braeden Klausner",
+      "number": "88",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Jack Goodwin",
+      "number": "91",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Jack Kirchner",
+      "number": "98",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Franklin & Marshall College"
+    },
+    {
+      "name": "Owen Hire",
+      "number": "99",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Franklin & Marshall College"
+    }
+  ]
+}

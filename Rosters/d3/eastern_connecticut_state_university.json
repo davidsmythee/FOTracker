@@ -1,0 +1,322 @@
+{
+  "team": "Eastern Connecticut State University",
+  "scrapedAt": "2026-03-13T22:03:50.105471Z",
+  "playerCount": 45,
+  "players": [
+    {
+      "name": "Ronan Donnelly",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Ryder Casady",
+      "number": "2",
+      "position": "Goal",
+      "classYear": "Sophomore",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Jacob Corso",
+      "number": "3",
+      "position": "Defense/LSM",
+      "classYear": "Sophomore",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Luke Solari",
+      "number": "4",
+      "position": "Goal",
+      "classYear": "Sophomore",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Warren Channing",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Nathan Tranquilli",
+      "number": "6",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Matthew Fritzsche",
+      "number": "7",
+      "position": "Defense/LSM",
+      "classYear": "Fy.",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Landon Mabb",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Erik Suzio",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Jack DiStefano",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Jake Correia",
+      "number": "11",
+      "position": "FOGO",
+      "classYear": "Fy.",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Jacob Shook",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Josh Grossman",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Chris Ford",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Collin Falconer",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Devin Greene",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Alex Thiele",
+      "number": "17",
+      "position": "Defense/LSM",
+      "classYear": "Fy.",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Anthony Mazza",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Aidan DeJulius",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Zack Magarelli",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Andrew Schmidt",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Gavin DeLucia",
+      "number": "23",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Jack Kelly",
+      "number": "24",
+      "position": "Defense/LSM",
+      "classYear": "Fy.",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Kyle Bross",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Matthew Paolino",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Jalen Canales",
+      "number": "27",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "William McKenna",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Logan Pych",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Liam Shanley",
+      "number": "30",
+      "position": "Defense/LSM",
+      "classYear": "Senior",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Dominic Ricupero",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Gregory Hilinski",
+      "number": "33",
+      "position": "Goal",
+      "classYear": "Junior",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Tanner Drobish",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Cooper Piesco",
+      "number": "35",
+      "position": "Midifeld",
+      "classYear": "Sophomore",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Wyatt Woodcock",
+      "number": "36",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Nicholas Morrison",
+      "number": "37",
+      "position": "FOGO",
+      "classYear": "Fy.",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Tyler Green",
+      "number": "38",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Connor Chirico",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Fabio Tirado",
+      "number": "41",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Patrick Markowski",
+      "number": "42",
+      "position": "Goal",
+      "classYear": "Fy.",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Travis Willcox",
+      "number": "43",
+      "position": "Defense/LSM",
+      "classYear": "Fy.",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Seamus Donoghue",
+      "number": "44",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Brendan Russ",
+      "number": "47",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Kensley Laguerre",
+      "number": "48",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Nyzaiah Smith",
+      "number": "49",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Eastern Connecticut State University"
+    },
+    {
+      "name": "Cooper Bengtson",
+      "number": "50",
+      "position": "FOGO",
+      "classYear": "Fy.",
+      "team": "Eastern Connecticut State University"
+    }
+  ]
+}

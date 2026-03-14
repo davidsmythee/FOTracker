@@ -1,0 +1,329 @@
+{
+  "team": "University of Massachusetts – Amherst",
+  "scrapedAt": "2026-01-28T21:21:11.772Z",
+  "playerCount": 46,
+  "players": [
+    {
+      "name": "Nick Cunningham",
+      "number": "0",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Chase Cogley",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Jack Turowsky",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Gavin Begonia",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Blaise New",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Jimmy Waddell",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Michael Finnerty",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Jack Peters",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Charles Kurtz",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Joe Guerrette",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Max Crane",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Will Morse",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Ryland Roach",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Thomas Bagnall",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Aiden Drunsic",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Michael Calvo",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Jack Weiss",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Max Kotsilidis",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Cameron Chambers",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Rob Travers",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Ryan Mourad",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Matthew Cargiulo",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Zander Johnson",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Luca Duva",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Luca Cuozzo",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Tyler Clayton",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Dylan Johnson",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Brian Jackman",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Xander Johnson",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Cole Wittlinger",
+      "number": "30",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Ryan Mazzariello",
+      "number": "31",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Sr.",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Zach Auble",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Liam Maher",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Owen Salanger",
+      "number": "35",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Jack Whitham",
+      "number": "36",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Kyle Swanson",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Ryan Wieczorek",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Tyler Burton",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Colin Coyle",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Russ Hutchinson",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Zack Waxman",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Owen Heller",
+      "number": "54",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Matthew Byrne",
+      "number": "55",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Jimmy Elliott",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Massachusetts – Amherst"
+    },
+    {
+      "name": "Robbie Granara",
+      "number": "99",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Massachusetts – Amherst"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "team": "Wittenberg University",
+  "scrapedAt": "2026-03-14T00:50:42.090064Z",
+  "playerCount": 36,
+  "players": [
+    {
+      "name": "Mikey Clark",
+      "number": "0",
+      "position": "DM",
+      "classYear": "Sophomore",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Tyler Bast",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Gunnar Winburn",
+      "number": "2",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Tripp Salowich",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Charlie Boucuvalas",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Ty Harris",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Tommy Kipfer",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Hunter Loucks",
+      "number": "7",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Clay Habben",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Ethan Amidon",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Luke Stanfield",
+      "number": "10",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Ethan Pac",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Jackson Lane",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Brody Mallo",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Charlie Frederick",
+      "number": "14",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Alex Roe",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Henry Mehlberg",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Grahm Casey",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Devin Wallace",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Zach Gfell",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Travis Demsher",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Logan Kallenbach",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Dillon McKeigue",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Will Zavala",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Colten Simkins",
+      "number": "27",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Chase Singleton",
+      "number": "28",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Andrew Hibbitts",
+      "number": "29",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Zach Turney",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Jacob Turney",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Landon Blount",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Matthew Patterson",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Brayden Ballinger",
+      "number": "40",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Quentin Rudolph",
+      "number": "66",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Noah Baker",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Griffin Howell",
+      "number": "88",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Wittenberg University"
+    },
+    {
+      "name": "Andrew Owen",
+      "number": "99",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Wittenberg University"
+    }
+  ]
+}

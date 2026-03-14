@@ -1,0 +1,224 @@
+{
+  "team": "Lasell University",
+  "scrapedAt": "2026-03-14T00:58:25.481549Z",
+  "playerCount": 31,
+  "players": [
+    {
+      "name": "Dominick Ciarelli",
+      "number": "0",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Nick Magliozzi",
+      "number": "1",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Dom Dionisio",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Tyler Chiccino",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Lukah Ready",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Thomas Smedick",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Carson Tucker",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Blake Cavallon",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Connor Gibson",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Nick Halesworth",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Jack Condon",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Brady Swisher",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Cole Mackin",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Luke Mongillo",
+      "number": "14",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Liam O'Brien",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Matthew Carbone",
+      "number": "16",
+      "position": "FOGO",
+      "classYear": "Graduate",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Nicholas Kaufman",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Ryan Haden",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Jason Martin",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Nate Campbell",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Thomas Flynn",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Spencer Gebo",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Cameron Soave",
+      "number": "25",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Sam Guilmette",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Julian Vogel",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Colin LeBaron",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Peter Doorley",
+      "number": "36",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Evan Colton",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Ryan Smith",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Daniel Newhall",
+      "number": "42",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lasell University"
+    },
+    {
+      "name": "Thomas Fulton",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Lasell University"
+    }
+  ]
+}

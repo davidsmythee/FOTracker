@@ -1,0 +1,364 @@
+{
+  "team": "Providence College",
+  "scrapedAt": "2026-01-28T20:53:17.599Z",
+  "playerCount": 51,
+  "players": [
+    {
+      "name": "Stone Evans",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Providence College"
+    },
+    {
+      "name": "Cannon Ridinger",
+      "number": "2",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Providence College"
+    },
+    {
+      "name": "Matt Hayes",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Providence College"
+    },
+    {
+      "name": "Drew Clift",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Providence College"
+    },
+    {
+      "name": "Rhett Chambers",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Providence College"
+    },
+    {
+      "name": "Matt Lazzaro",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Providence College"
+    },
+    {
+      "name": "Luca Meola",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Providence College"
+    },
+    {
+      "name": "Ian Olenik",
+      "number": "8",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Providence College"
+    },
+    {
+      "name": "Richie Joseph",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Providence College"
+    },
+    {
+      "name": "Tyler Flynn",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Providence College"
+    },
+    {
+      "name": "Max Maurillo",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Providence College"
+    },
+    {
+      "name": "Chris Jaskiewicz",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Providence College"
+    },
+    {
+      "name": "Sam Brazell",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Providence College"
+    },
+    {
+      "name": "Dean Metzger",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Providence College"
+    },
+    {
+      "name": "Cooper Anderson",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Providence College"
+    },
+    {
+      "name": "Charlie Smith",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Providence College"
+    },
+    {
+      "name": "Jack Cooper",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Providence College"
+    },
+    {
+      "name": "Ned Marshall",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Providence College"
+    },
+    {
+      "name": "Chris Matia",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Providence College"
+    },
+    {
+      "name": "Jack Bonello",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Providence College"
+    },
+    {
+      "name": "Andy Scott",
+      "number": "21",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Providence College"
+    },
+    {
+      "name": "Brady Garcia",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Providence College"
+    },
+    {
+      "name": "Sam Clark",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Providence College"
+    },
+    {
+      "name": "Jay Wilkerson",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Providence College"
+    },
+    {
+      "name": "Spencer Liston",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Providence College"
+    },
+    {
+      "name": "Parker Kennedy",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Providence College"
+    },
+    {
+      "name": "Jackson Coutu",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Providence College"
+    },
+    {
+      "name": "Patrick Mullin",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Providence College"
+    },
+    {
+      "name": "Luke Jaeger",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Providence College"
+    },
+    {
+      "name": "Robby White",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Providence College"
+    },
+    {
+      "name": "Jack Nicolette",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Providence College"
+    },
+    {
+      "name": "Nate Smith",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Providence College"
+    },
+    {
+      "name": "Owen Finetto",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Providence College"
+    },
+    {
+      "name": "Luke Schmitt",
+      "number": "35",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Providence College"
+    },
+    {
+      "name": "Chris Esposito",
+      "number": "37",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Providence College"
+    },
+    {
+      "name": "Eric Webb",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Providence College"
+    },
+    {
+      "name": "Kevin Devine",
+      "number": "40",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Providence College"
+    },
+    {
+      "name": "Trent Yelton",
+      "number": "41",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Providence College"
+    },
+    {
+      "name": "Scott Westrick",
+      "number": "42",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Providence College"
+    },
+    {
+      "name": "Sean Walsh",
+      "number": "43",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Providence College"
+    },
+    {
+      "name": "Frankie Carroll",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Providence College"
+    },
+    {
+      "name": "Cam Sterritt",
+      "number": "45",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Providence College"
+    },
+    {
+      "name": "Michael Spaziano",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Providence College"
+    },
+    {
+      "name": "Cam Mesh",
+      "number": "48",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Providence College"
+    },
+    {
+      "name": "Colin Gols",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Providence College"
+    },
+    {
+      "name": "Hunter Bisbee",
+      "number": "51",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Providence College"
+    },
+    {
+      "name": "Cam Wheelans",
+      "number": "52",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Providence College"
+    },
+    {
+      "name": "Ben Stone",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Providence College"
+    },
+    {
+      "name": "Aiden Eriksen",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Providence College"
+    },
+    {
+      "name": "Jack Bourget",
+      "number": "77",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Providence College"
+    },
+    {
+      "name": "Eddie Perry",
+      "number": "88",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Providence College"
+    }
+  ]
+}

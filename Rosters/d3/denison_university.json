@@ -1,0 +1,371 @@
+{
+  "team": "Denison University",
+  "scrapedAt": "2026-03-13T22:03:40.291584Z",
+  "playerCount": 52,
+  "players": [
+    {
+      "name": "Jack Moellering",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Denison University"
+    },
+    {
+      "name": "Liam Gillard",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Denison University"
+    },
+    {
+      "name": "Christian Lee",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Denison University"
+    },
+    {
+      "name": "AJ Boxler",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Denison University"
+    },
+    {
+      "name": "Grant Larson",
+      "number": "5",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Denison University"
+    },
+    {
+      "name": "Augie Oberting",
+      "number": "6",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Denison University"
+    },
+    {
+      "name": "Graham Michener",
+      "number": "7",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Denison University"
+    },
+    {
+      "name": "Brant Satterly",
+      "number": "8",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Denison University"
+    },
+    {
+      "name": "Charlie Pellegrino",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Denison University"
+    },
+    {
+      "name": "Cian Nicholas",
+      "number": "10",
+      "position": "D/M",
+      "classYear": "Senior",
+      "team": "Denison University"
+    },
+    {
+      "name": "Andrew Albert",
+      "number": "11",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Denison University"
+    },
+    {
+      "name": "Augustus Swartwood",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Denison University"
+    },
+    {
+      "name": "Michael Cassidy",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Denison University"
+    },
+    {
+      "name": "Zach Warren",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Denison University"
+    },
+    {
+      "name": "Ty Minton",
+      "number": "15",
+      "position": "D/M",
+      "classYear": "Fy.",
+      "team": "Denison University"
+    },
+    {
+      "name": "Connor Clark",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Denison University"
+    },
+    {
+      "name": "Charlie Haight",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Denison University"
+    },
+    {
+      "name": "Anthony Savoy",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Denison University"
+    },
+    {
+      "name": "Owen  Holder",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Denison University"
+    },
+    {
+      "name": "Mason Ball",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Denison University"
+    },
+    {
+      "name": "Ellis Halpin",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Denison University"
+    },
+    {
+      "name": "Zou Ouattara",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Denison University"
+    },
+    {
+      "name": "Alex Gutierrez",
+      "number": "23",
+      "position": "GK",
+      "classYear": "Fy.",
+      "team": "Denison University"
+    },
+    {
+      "name": "Khari Freeman",
+      "number": "24",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Denison University"
+    },
+    {
+      "name": "Matthew Bonasera",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Denison University"
+    },
+    {
+      "name": "Colin Swanson",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Denison University"
+    },
+    {
+      "name": "Joseph Holtzer",
+      "number": "27",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Denison University"
+    },
+    {
+      "name": "Jonah Frank",
+      "number": "28",
+      "position": "A/M",
+      "classYear": "Fy.",
+      "team": "Denison University"
+    },
+    {
+      "name": "Graham Harris",
+      "number": "29",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Denison University"
+    },
+    {
+      "name": "Kevin Berutich",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Denison University"
+    },
+    {
+      "name": "Macky Peck",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Denison University"
+    },
+    {
+      "name": "Marty Junkins",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Denison University"
+    },
+    {
+      "name": "Teddy Hardy",
+      "number": "33",
+      "position": "A/M",
+      "classYear": "Fy.",
+      "team": "Denison University"
+    },
+    {
+      "name": "Jacob Campen",
+      "number": "36",
+      "position": "D/MD/M",
+      "classYear": "Sophomore",
+      "team": "Denison University"
+    },
+    {
+      "name": "Luca Avelino",
+      "number": "38",
+      "position": "LSM",
+      "classYear": "Fy.",
+      "team": "Denison University"
+    },
+    {
+      "name": "Brady Monturio",
+      "number": "39",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Denison University"
+    },
+    {
+      "name": "Gunnar Young",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Denison University"
+    },
+    {
+      "name": "Charlie Maloney",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Denison University"
+    },
+    {
+      "name": "Jack Erdmann",
+      "number": "42",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Denison University"
+    },
+    {
+      "name": "Jaden Goodsell",
+      "number": "43",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Denison University"
+    },
+    {
+      "name": "Drew Merschel",
+      "number": "44",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "Denison University"
+    },
+    {
+      "name": "Luca Sanders",
+      "number": "45",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Denison University"
+    },
+    {
+      "name": "Tucker Paxson",
+      "number": "46",
+      "position": "LSM",
+      "classYear": "Fy.",
+      "team": "Denison University"
+    },
+    {
+      "name": "Connor Lis",
+      "number": "47",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Denison University"
+    },
+    {
+      "name": "Declan Kelley",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Denison University"
+    },
+    {
+      "name": "Will Iacovelli",
+      "number": "49",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Denison University"
+    },
+    {
+      "name": "Beckley Waldrop",
+      "number": "50",
+      "position": "D/M",
+      "classYear": "Fy.",
+      "team": "Denison University"
+    },
+    {
+      "name": "Luke Marascio",
+      "number": "55",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Denison University"
+    },
+    {
+      "name": "Quinlan Toelke",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Denison University"
+    },
+    {
+      "name": "Mac Upton",
+      "number": "77",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Denison University"
+    },
+    {
+      "name": "Ryne Whitt",
+      "number": "88",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Denison University"
+    },
+    {
+      "name": "Thomas Hancock",
+      "number": "99",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "Denison University"
+    }
+  ]
+}

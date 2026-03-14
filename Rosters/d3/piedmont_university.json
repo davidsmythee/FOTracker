@@ -1,0 +1,266 @@
+{
+  "team": "Piedmont University",
+  "scrapedAt": "2026-03-13T22:06:42.120283Z",
+  "playerCount": 37,
+  "players": [
+    {
+      "name": "Trey Tuggle",
+      "number": "1",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Tate Claudio",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Trenton Steeves",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Max Peek",
+      "number": "4",
+      "position": "DefensemanD",
+      "classYear": "Sophomore",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Jack Eisele",
+      "number": "5",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Zach Avila",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Antony Cocca",
+      "number": "7",
+      "position": "DefensemanD",
+      "classYear": "Freshman",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Micah James",
+      "number": "8",
+      "position": "DefensemanD",
+      "classYear": "Freshman",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Austin Mecca",
+      "number": "9",
+      "position": "DefensemanD",
+      "classYear": "Junior",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Will Isley",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Ben Chambers",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Mike Eisele",
+      "number": "12",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Colin Hackshaw",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Ian Kuysten",
+      "number": "14",
+      "position": "DefensemanD",
+      "classYear": "Sophomore",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Brandon Casement",
+      "number": "15",
+      "position": "DefensemanD",
+      "classYear": "Senior",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Griffin Spencer",
+      "number": "16",
+      "position": "DefensemanD",
+      "classYear": "Freshman",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Cole Carson",
+      "number": "17",
+      "position": "AttackmanA",
+      "classYear": "Freshman",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Noah McGriff",
+      "number": "18",
+      "position": "AttackmanA",
+      "classYear": "Junior",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Eric McCuistion",
+      "number": "19",
+      "position": "DefensemanD",
+      "classYear": "Sophomore",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Nick Winter",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Josh Tamarkin",
+      "number": "21",
+      "position": "AttackmanA",
+      "classYear": "Junior",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "John Dieterly",
+      "number": "22",
+      "position": "FOGOFO",
+      "classYear": "Junior",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Evan Bingham",
+      "number": "24",
+      "position": "AttackmanA",
+      "classYear": "Freshman",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Daniel Thomas",
+      "number": "25",
+      "position": "AttackmanA",
+      "classYear": "Sophomore",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Caleb Lemons",
+      "number": "28",
+      "position": "DefensemanD",
+      "classYear": "Freshman",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Colin Huckabay",
+      "number": "30",
+      "position": "FOGOFO",
+      "classYear": "Sophomore",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Michael Fox",
+      "number": "31",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Rylan Walker",
+      "number": "32",
+      "position": "DefensemanD",
+      "classYear": "Sophomore",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Christopher  Roth Jr.",
+      "number": "33",
+      "position": "FOGOFO",
+      "classYear": "Freshman",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Austin Sprout",
+      "number": "35",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Andrew Coffee",
+      "number": "40",
+      "position": "DefensemanD",
+      "classYear": "Sophomore",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Jack Hicks",
+      "number": "41",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Logan Hoenig",
+      "number": "43",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Jake Bellem",
+      "number": "44",
+      "position": "DefensemanD",
+      "classYear": "Freshman",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Grady Eyler",
+      "number": "45",
+      "position": "AttackmanA",
+      "classYear": "Freshman",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Joseph Furtado",
+      "number": "48",
+      "position": "DefensemanD",
+      "classYear": "Sophomore",
+      "team": "Piedmont University"
+    },
+    {
+      "name": "Camden Pearson",
+      "number": "50",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Piedmont University"
+    }
+  ]
+}

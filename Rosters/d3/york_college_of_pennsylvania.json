@@ -1,0 +1,336 @@
+{
+  "team": "York College of Pennsylvania",
+  "scrapedAt": "2026-03-13T22:09:26.310710Z",
+  "playerCount": 47,
+  "players": [
+    {
+      "name": "Luke Popielaski",
+      "number": "0",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Brady Watts",
+      "number": "1",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Joey Yukenavitch",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Cory Bergmann",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Zane Korbey",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Robert Stailey",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Colby Berard",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Davis  Fisher",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Matthew Kronengold",
+      "number": "8",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Brennan Hornback",
+      "number": "9",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Trot Cush",
+      "number": "10",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Erik Pearl",
+      "number": "11",
+      "position": "SSDMSSDM",
+      "classYear": "Junior",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Asher Poppleton",
+      "number": "12",
+      "position": "Mid.M",
+      "classYear": "Junior",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Coleton Mahorney",
+      "number": "13",
+      "position": "Mid.M",
+      "classYear": "Senior",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Eric Kaplan",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Troy Callahan",
+      "number": "15",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Blake Morton",
+      "number": "16",
+      "position": "Mid.M",
+      "classYear": "Junior",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Nash Womack",
+      "number": "17",
+      "position": "GoalieGK",
+      "classYear": "Senior",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Jeff Mueller",
+      "number": "18",
+      "position": "Def.D",
+      "classYear": "Junior",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Nate Schilling",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "John Gorski",
+      "number": "20",
+      "position": "Def.D",
+      "classYear": "Sophomore",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Wyatt Stany",
+      "number": "21",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Luke Tortorici",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Nate Samson",
+      "number": "23",
+      "position": "LSMLSM",
+      "classYear": "Sophomore",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Jack Gulley",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Lucas Little",
+      "number": "25",
+      "position": "GKGK",
+      "classYear": "Sophomore",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Grant Miller",
+      "number": "26",
+      "position": "Mid.M",
+      "classYear": "Sophomore",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Corey Smith",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Conner Fructuoso",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Sawyer Simeone",
+      "number": "29",
+      "position": "LSMLSM",
+      "classYear": "Junior",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Ryan Hudson",
+      "number": "30",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Hank Mann",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Gavin Gismondi",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Graduate",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Liam Lord",
+      "number": "33",
+      "position": "GoalieGK",
+      "classYear": "Junior",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Owen Sperry",
+      "number": "34",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Bear Evans",
+      "number": "35",
+      "position": "Def.D",
+      "classYear": "Senior",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Brendan Donahue",
+      "number": "36",
+      "position": "Def.D",
+      "classYear": "Senior",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Aidan French",
+      "number": "37",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Aidan Porter",
+      "number": "38",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Ryan Lord",
+      "number": "40",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Sean O'Reilly",
+      "number": "42",
+      "position": "Mid.M",
+      "classYear": "Junior",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Dom DeRubbo",
+      "number": "44",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Colin Kane",
+      "number": "45",
+      "position": "Def.D",
+      "classYear": "Senior",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Peyton Ridgeway",
+      "number": "46",
+      "position": "Def.D",
+      "classYear": "Sophomore",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Jacob Mendez",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Luke Biello",
+      "number": "52",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "York College of Pennsylvania"
+    },
+    {
+      "name": "Antonio Santangelo",
+      "number": "88",
+      "position": "Attack/Mid.A/M",
+      "classYear": "Junior",
+      "team": "York College of Pennsylvania"
+    }
+  ]
+}

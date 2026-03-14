@@ -1,0 +1,287 @@
+{
+  "team": "Rivier University",
+  "scrapedAt": "2026-03-13T22:06:55.580642Z",
+  "playerCount": 40,
+  "players": [
+    {
+      "name": "Colin Foley",
+      "number": "0",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Andrew Nee",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Tyler Zehr",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Tanner Kundahl",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Cooper Goodman",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Charles Taylor V",
+      "number": "5",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Owen McDuffie",
+      "number": "6",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Mason Schultz",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Henri Brochu",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Zachary Gessner",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Conor Walsh",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Rivier University"
+    },
+    {
+      "name": "James DelPrete",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Lucas Doherty",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Derek Swerchesky",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Braydon Bourque",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Luke Armano",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Matt Lauren",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Jake Miller",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Patrick Furtado",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Scott Miller",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Mario Simeone",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Joshua Lamparelli",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Dylan Magazzu",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Jake Lydon",
+      "number": "25",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Drew Mosier",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Robert Heaton",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Brayden Monastero",
+      "number": "28",
+      "position": "D/LSM",
+      "classYear": "Sophomore",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Liam Conley",
+      "number": "29",
+      "position": "FO/M",
+      "classYear": "Sophomore",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Lucas Fitts",
+      "number": "31",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Sean Callinan",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Cole Ronalter",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Aiden Conley",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Will Corton",
+      "number": "35",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Payton Kender",
+      "number": "42",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Zach Lauren",
+      "number": "43",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Noah Zeman",
+      "number": "44",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Ray Lynch",
+      "number": "55",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Brady Willett",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Logan Layton",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Rivier University"
+    },
+    {
+      "name": "Brogan Arivella",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Rivier University"
+    }
+  ]
+}

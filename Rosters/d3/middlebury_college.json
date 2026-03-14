@@ -1,0 +1,350 @@
+{
+  "team": "Middlebury College",
+  "scrapedAt": "2026-03-13T22:05:53.086367Z",
+  "playerCount": 49,
+  "players": [
+    {
+      "name": "Bryan Henry",
+      "number": "0",
+      "position": "LSM/D",
+      "classYear": "Sophomore",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Drew Dummer",
+      "number": "1",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Turner Zapton",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Charlie O'Connor",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Aidan Dever",
+      "number": "4",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "J.D. Farkas",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Jackson Hanson",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Peyton Jordan",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Misha Trupo",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Nicky Cairo",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Brendan Hickey",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Nick Marvin",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Logan White",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Hayden Kern",
+      "number": "14",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Nate Holliday",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Ryan McGloin",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Will Leahy",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Angus Frew",
+      "number": "18",
+      "position": "FOGO",
+      "classYear": "Fy.",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "James Farinacci",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Brandon Chan",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Tyler Wishart",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "John McCarthy",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Hunter Earle",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Ged Gengras",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Noah Filippelli",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Justin DeLucia",
+      "number": "26",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Teddy Coyle",
+      "number": "28",
+      "position": "FOGO",
+      "classYear": "Fy.",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Bradford Tudor",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Will Ford",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Gavin Romweber",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Quinn Green",
+      "number": "33",
+      "position": "LSM/D",
+      "classYear": "Sophomore",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Fisher Winslow",
+      "number": "34",
+      "position": "Goalie",
+      "classYear": "Fy.",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Will Crispino",
+      "number": "35",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Zach Bernstein",
+      "number": "36",
+      "position": "LSM",
+      "classYear": "Fy.",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Rand Shepard",
+      "number": "37",
+      "position": "LSM/D",
+      "classYear": "Fy.",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Jack Burke",
+      "number": "38",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Tyler Pincelli",
+      "number": "39",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Brady Boudreau",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Tommy Schwartz",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Cooper DeMallie",
+      "number": "42",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Owen Halter",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Ryan Colella",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Landon Brownlee",
+      "number": "45",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Santino Gambardella",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Jay Falk",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Dixon Pollard",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Edson Nunez",
+      "number": "49",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Michael Muscarella",
+      "number": "50",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Middlebury College"
+    },
+    {
+      "name": "Jack Gunning",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Middlebury College"
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "team": "Goucher College",
+  "scrapedAt": "2026-03-14T00:50:40.528050Z",
+  "playerCount": 27,
+  "players": [
+    {
+      "name": "Jacob Morgan",
+      "number": "0",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Goucher College"
+    },
+    {
+      "name": "Milan Temple",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Graduate",
+      "team": "Goucher College"
+    },
+    {
+      "name": "Jack Schiavone",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Goucher College"
+    },
+    {
+      "name": "William Muncy",
+      "number": "5",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Goucher College"
+    },
+    {
+      "name": "Aaron Butera",
+      "number": "6",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Goucher College"
+    },
+    {
+      "name": "Jason Luk",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Goucher College"
+    },
+    {
+      "name": "Tallinn Loberg",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "FY.",
+      "team": "Goucher College"
+    },
+    {
+      "name": "Ginigeme Anyaoha",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Goucher College"
+    },
+    {
+      "name": "Eli Jean-Jacques",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Goucher College"
+    },
+    {
+      "name": "Kevin Gearhart",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Goucher College"
+    },
+    {
+      "name": "Mason Wolf",
+      "number": "12",
+      "position": "FOGO",
+      "classYear": "FY.",
+      "team": "Goucher College"
+    },
+    {
+      "name": "Gianni Karam",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Goucher College"
+    },
+    {
+      "name": "Josh Steinmiller",
+      "number": "14",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Goucher College"
+    },
+    {
+      "name": "Scott Tayman",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Goucher College"
+    },
+    {
+      "name": "Ruddy Sampson",
+      "number": "17",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Goucher College"
+    },
+    {
+      "name": "Chris Coleman",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "FY.",
+      "team": "Goucher College"
+    },
+    {
+      "name": "Jake Kerns",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "FY.",
+      "team": "Goucher College"
+    },
+    {
+      "name": "Jake Steinmiller",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "FY.",
+      "team": "Goucher College"
+    },
+    {
+      "name": "Jack Murdaugh",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Goucher College"
+    },
+    {
+      "name": "Tucker Dashiell",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Goucher College"
+    },
+    {
+      "name": "James Czarnaski",
+      "number": "30",
+      "position": "Goalie",
+      "classYear": "Graduate",
+      "team": "Goucher College"
+    },
+    {
+      "name": "Sean Phillips",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Goucher College"
+    },
+    {
+      "name": "Cole Smith",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Goucher College"
+    },
+    {
+      "name": "Nick Gambone",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Goucher College"
+    },
+    {
+      "name": "Mason Bowler",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Goucher College"
+    },
+    {
+      "name": "James Dean",
+      "number": "77",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Goucher College"
+    },
+    {
+      "name": "Nick Campagnari",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Goucher College"
+    }
+  ]
+}

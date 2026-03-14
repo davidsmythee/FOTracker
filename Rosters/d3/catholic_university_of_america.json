@@ -1,0 +1,406 @@
+{
+  "team": "Catholic University of America",
+  "scrapedAt": "2026-03-13T22:03:09.821208Z",
+  "playerCount": 57,
+  "players": [
+    {
+      "name": "Gianni Graziano",
+      "number": "0",
+      "position": "GKGK",
+      "classYear": "Junior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Charlie Scherer",
+      "number": "1",
+      "position": "DD",
+      "classYear": "Junior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Joe Devine",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Shawn Zebrowski",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Mack Manley",
+      "number": "5",
+      "position": "AA",
+      "classYear": "Freshman",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Jack Suchanek",
+      "number": "6",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Cullen Lotz",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Patrick McDonough",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Bjorn Olofson",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Erik Aulbach",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Brady McMahon",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Steven Dezelic",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Drew Bryner",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Luke McNabb",
+      "number": "15",
+      "position": "GK",
+      "classYear": "Junior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Ian McKinley",
+      "number": "16",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Patrick McKinley",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Will Gilfillan",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Alex Populoh",
+      "number": "19",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Jack Gibbs",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Alejandro Masferrer",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Danny Cappitelli",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Sam Pikul",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Ellis O'Brien",
+      "number": "25",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Sam Schadt",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Thomas Kohaut",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Patrick Geraghty",
+      "number": "28",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Parker Damon",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Logan Farrington",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Finn McGuire",
+      "number": "31",
+      "position": "GKGK",
+      "classYear": "Freshman",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "JoJo Pores",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Matt Shandley",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Finn Smith",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Dylan Cicero",
+      "number": "35",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Jake Hutchison",
+      "number": "36",
+      "position": "DD",
+      "classYear": "Freshman",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Max Cabanas",
+      "number": "37",
+      "position": "AA",
+      "classYear": "Freshman",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Burke Healy",
+      "number": "38",
+      "position": "AA",
+      "classYear": "Freshman",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Connor Baia",
+      "number": "40",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Ryan Carickhoff",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Zach Gibson",
+      "number": "42",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Andrew Walsh",
+      "number": "43",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Jake McGowan",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Lukas Villa",
+      "number": "45",
+      "position": "M/AM/A",
+      "classYear": "Freshman",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Jake McGough",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Will Arendt",
+      "number": "47",
+      "position": "DD",
+      "classYear": "Freshman",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Dillon Campbell",
+      "number": "48",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Chris McCabe",
+      "number": "49",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Jack Dwyer",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Kevin Woram",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Grant Lanham",
+      "number": "52",
+      "position": "AA",
+      "classYear": "Freshman",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Zac Robertson",
+      "number": "53",
+      "position": "LSMLSM",
+      "classYear": "Freshman",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Marcello Chadha",
+      "number": "54",
+      "position": "DD",
+      "classYear": "Freshman",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Bailey Wallace",
+      "number": "55",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Sean Salkeld",
+      "number": "56",
+      "position": "DD",
+      "classYear": "Sophomore",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Joseph Slingerland",
+      "number": "58",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Andres Lievano",
+      "number": "59",
+      "position": "DD",
+      "classYear": "Freshman",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Colton Manorek",
+      "number": "60",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "Catholic University of America"
+    },
+    {
+      "name": "Nicholas Mort",
+      "number": "61",
+      "position": "GK",
+      "classYear": "Senior",
+      "team": "Catholic University of America"
+    }
+  ]
+}

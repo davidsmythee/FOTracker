@@ -1,0 +1,238 @@
+{
+  "team": "Albion College",
+  "scrapedAt": "2026-03-13T22:02:18.261816Z",
+  "playerCount": 33,
+  "players": [
+    {
+      "name": "Connor Laidlaw",
+      "number": "2",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Albion College"
+    },
+    {
+      "name": "Caden Ferich",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Albion College"
+    },
+    {
+      "name": "Cal Stearns",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Albion College"
+    },
+    {
+      "name": "Jack Holway",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Albion College"
+    },
+    {
+      "name": "Quinn Armstrong",
+      "number": "7",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Albion College"
+    },
+    {
+      "name": "Herby Basil",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Albion College"
+    },
+    {
+      "name": "Carson Farkas",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Albion College"
+    },
+    {
+      "name": "Mathieu Champoux",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Albion College"
+    },
+    {
+      "name": "Caleb Howell",
+      "number": "12",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Albion College"
+    },
+    {
+      "name": "Ethan Barker",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Albion College"
+    },
+    {
+      "name": "Pat Dyer",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Albion College"
+    },
+    {
+      "name": "Carson Stavros",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Albion College"
+    },
+    {
+      "name": "Will Richardson",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Albion College"
+    },
+    {
+      "name": "Ben Schollett",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Albion College"
+    },
+    {
+      "name": "Ben Foster",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Albion College"
+    },
+    {
+      "name": "Logan Mozingo",
+      "number": "21",
+      "position": "A/M",
+      "classYear": "Sophomore",
+      "team": "Albion College"
+    },
+    {
+      "name": "Nathan Vanderbloomer",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Albion College"
+    },
+    {
+      "name": "Matthew Compton",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Albion College"
+    },
+    {
+      "name": "Will Monnig",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Albion College"
+    },
+    {
+      "name": "TJ Antonino",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Albion College"
+    },
+    {
+      "name": "Tanner Bailey",
+      "number": "27",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Albion College"
+    },
+    {
+      "name": "John Benkner",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Albion College"
+    },
+    {
+      "name": "Danny Moore",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Albion College"
+    },
+    {
+      "name": "Luke Szymanski",
+      "number": "37",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Albion College"
+    },
+    {
+      "name": "Luke Schuemann",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Albion College"
+    },
+    {
+      "name": "Alex Zanini",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Albion College"
+    },
+    {
+      "name": "Carter Kildea",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Albion College"
+    },
+    {
+      "name": "Carter Thoreson",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Albion College"
+    },
+    {
+      "name": "Logan Bride",
+      "number": "44",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Albion College"
+    },
+    {
+      "name": "Joey Pipesh",
+      "number": "45",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Albion College"
+    },
+    {
+      "name": "Ike Stufft",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Albion College"
+    },
+    {
+      "name": "Frank Minnick",
+      "number": "49",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Albion College"
+    },
+    {
+      "name": "Shawn DeLano",
+      "number": "50",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Albion College"
+    }
+  ]
+}

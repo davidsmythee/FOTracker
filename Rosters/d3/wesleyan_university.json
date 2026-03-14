@@ -1,0 +1,420 @@
+{
+  "team": "Wesleyan University",
+  "scrapedAt": "2026-03-13T22:09:06.051477Z",
+  "playerCount": 59,
+  "players": [
+    {
+      "name": "Jackson Tinari",
+      "number": "0",
+      "position": "FOGOFO",
+      "classYear": "Senior",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Will Miller",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Thomas Girimonti",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Matty Liu",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Nolan Samson",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Kyle Short",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Ryan Aabel",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Charlie Wilmot",
+      "number": "7",
+      "position": "Short-Stick Defensive MidfieldSSDM",
+      "classYear": "Senior",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Gavin Lechner",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Brian Reilly",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Charlie Vidal",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Finn Ahrens",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Drew Ambrose",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Hamilton Tevis",
+      "number": "13",
+      "position": "Long-Stick MidfielderLSM",
+      "classYear": "Junior",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Griffyn Flood",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Matt Morrow",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Scott Cunningham",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Peter Rossi",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Brendan McCaffrey",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Drew Zyskowski",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Lucas Rosato",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Alec Easterby",
+      "number": "21",
+      "position": "Long-Stick MidfielderLSM",
+      "classYear": "Sophomore",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "James Bailey",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Sam Wien",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Cooper Mendelsohn",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Charlie Knapp",
+      "number": "25",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Michael Garrity",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Palmer Zarzycki",
+      "number": "27",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Doug Rabin",
+      "number": "28",
+      "position": "Long-Stick MidfielderLSM",
+      "classYear": "Senior",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Owen Williamson",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Conor Selfridge",
+      "number": "30",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Ford Cash",
+      "number": "31",
+      "position": "Short-Stick Defensive MidfieldSSDM",
+      "classYear": "Freshman",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Justin Meyreles",
+      "number": "32",
+      "position": "Short-Stick Defensive MidfieldSSDM",
+      "classYear": "Junior",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Mason Solomon",
+      "number": "33",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Tyler Vitale",
+      "number": "34",
+      "position": "Short-Stick Defensive MidfieldSSDM",
+      "classYear": "Freshman",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Paul Boghosian",
+      "number": "35",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Ben Ehlers",
+      "number": "36",
+      "position": "Long-Stick MidfielderLSM",
+      "classYear": "Freshman",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Reis Conway",
+      "number": "37",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Brooks Danile",
+      "number": "38",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Devin Prettyman",
+      "number": "39",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Joe Hurton",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Lachlan Simmers",
+      "number": "41",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Lucca Casagrande",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Ben Burns",
+      "number": "43",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Silas Hamblett",
+      "number": "44",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Tommy Kilroy",
+      "number": "45",
+      "position": "Short-Stick Defensive MidfieldSSDM",
+      "classYear": "Freshman",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Nate Stickle",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Collin Gest",
+      "number": "47",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Liam McCarthy",
+      "number": "48",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Will Hansen",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Nico Ianuly",
+      "number": "51",
+      "position": "FOGOFO",
+      "classYear": "Sophomore",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Jack Doherty",
+      "number": "52",
+      "position": "FOGOFO",
+      "classYear": "Sophomore",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Charlie Hill",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Harry Larbalestier",
+      "number": "56",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Charlie Beasley",
+      "number": "66",
+      "position": "Goalkeeper",
+      "classYear": "Freshman",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Elliot Goldman",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Jackson Raymond",
+      "number": "88",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Jack Stanislaw",
+      "number": "91",
+      "position": "FOGOFO",
+      "classYear": "Junior",
+      "team": "Wesleyan University"
+    },
+    {
+      "name": "Waylon Page",
+      "number": "",
+      "position": "5'4\"110",
+      "classYear": "Sophomore",
+      "team": "Wesleyan University"
+    }
+  ]
+}

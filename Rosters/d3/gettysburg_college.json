@@ -1,0 +1,434 @@
+{
+  "team": "Gettysburg College",
+  "scrapedAt": "2026-03-13T22:04:14.222714Z",
+  "playerCount": 61,
+  "players": [
+    {
+      "name": "Wesley King",
+      "number": "0",
+      "position": "GoalieGK",
+      "classYear": "Senior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Luke Barbera",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "JP Meyo",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Ethan Berry",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Charlie Johnson",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Griffin Hough",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Brian Delduchetto",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Jacob Derwinski",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Nicholas Limberg",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Jackson Barroll",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Benny Kasoff",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Will Schwanke",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Patrick Maroney",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Jackson Bambrick",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Jackson Hearn",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Carson Myers",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Kyle Traynor",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Will Hedley",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Ryan Sims",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Will Cranston",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Casey Gattie",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Matt Maciolek",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Owen McAllister",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Vincent Ferrara",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "TR Branski",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Fionn Kinsella",
+      "number": "25",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Henry Grosso",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Tate Kuster",
+      "number": "27",
+      "position": "FOGO SpecialistFOS",
+      "classYear": "Junior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Colin Johnston",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Oliver Duryee",
+      "number": "29",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Jackson Alpaugh",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Declan Mack",
+      "number": "31",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Evan Kotkin",
+      "number": "32",
+      "position": "GoalieGK",
+      "classYear": "Freshman",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Jack Holbrough",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Miles Balachandran",
+      "number": "34",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Bobby Komins",
+      "number": "35",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Kyler Krewson",
+      "number": "36",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Gavin Banyas",
+      "number": "37",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Drew Laguerre",
+      "number": "38",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Bryce Reid",
+      "number": "39",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Ethan Kessler",
+      "number": "40",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Owen Carr",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Jack Magel",
+      "number": "42",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Raffael Katts",
+      "number": "43",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Henry Bennett",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Brady Schwenk",
+      "number": "45",
+      "position": "FOGO SpecialistFOS",
+      "classYear": "Freshman",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Boden Anderson",
+      "number": "46",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Landen Mathias",
+      "number": "47",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Carter Haney",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Jacob Goldstein",
+      "number": "49",
+      "position": "FOGO SpecialistFOS",
+      "classYear": "Junior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Jaxon Webster",
+      "number": "50",
+      "position": "FOGO SpecialistFOS",
+      "classYear": "Freshman",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Murphy Hoey",
+      "number": "51",
+      "position": "GoalieGK",
+      "classYear": "Junior",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Cooper Savoy",
+      "number": "52",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Sam Rainford",
+      "number": "53",
+      "position": "GoalieGK",
+      "classYear": "Sophomore",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Teddy Gramins",
+      "number": "54",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Carter Johnson",
+      "number": "55",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Jonah Boren",
+      "number": "56",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Jackson Chase",
+      "number": "57",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Owen Craney",
+      "number": "58",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Giaco Traggio",
+      "number": "59",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Gettysburg College"
+    },
+    {
+      "name": "Declan Machold",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Gettysburg College"
+    }
+  ]
+}

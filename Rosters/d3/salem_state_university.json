@@ -1,0 +1,210 @@
+{
+  "team": "Salem State University",
+  "scrapedAt": "2026-03-14T00:50:41.545947Z",
+  "playerCount": 29,
+  "players": [
+    {
+      "name": "Troy Cuddire",
+      "number": "0",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Ryan Cohen",
+      "number": "1",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Coleman Ballweg",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Jack Michaud",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Connor Vittands",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Jaxon Thomas",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Cameron Collins",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Andrew Lidano",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Juan Vidal",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Brendan McCarron",
+      "number": "9",
+      "position": "Long Stick Midfield",
+      "classYear": "Sophomore",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Brayden Hiltz",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Matthew Lindstrom",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Matthew Dowling",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Ryan Jones",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Ryan Rice",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Landon Rice",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Payton Cabral",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Sean McWhinnie",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Jayden Benson",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Brayden Duggento",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Jeremy Morris",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Joseph Turpin",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Gabriel Laprade",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Finbar Cannon",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Arthur Chiaradonna",
+      "number": "25",
+      "position": "Long Stick Midfield",
+      "classYear": "Sophomore",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Miguel Pontius",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Jimmy Trahan",
+      "number": "88",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Salem State University"
+    },
+    {
+      "name": "Grady Smith",
+      "number": "91",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Salem State University"
+    },
+    {
+      "name": "James Tatro",
+      "number": "99",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Salem State University"
+    }
+  ]
+}

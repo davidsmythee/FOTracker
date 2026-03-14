@@ -1,0 +1,315 @@
+{
+  "team": "Hood College",
+  "scrapedAt": "2026-03-13T22:04:44.880988Z",
+  "playerCount": 44,
+  "players": [
+    {
+      "name": "David Lubrano",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Hood College"
+    },
+    {
+      "name": "Brennan McKeown",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Hood College"
+    },
+    {
+      "name": "Alex Odenheimer",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Hood College"
+    },
+    {
+      "name": "Brandon Hare",
+      "number": "4",
+      "position": "Short Stick Defensive MidfieldSDM",
+      "classYear": "Sophomore",
+      "team": "Hood College"
+    },
+    {
+      "name": "Matthew Mitcheltree",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Hood College"
+    },
+    {
+      "name": "Jacob  Glass",
+      "number": "6",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Fy.",
+      "team": "Hood College"
+    },
+    {
+      "name": "Trent Leuba",
+      "number": "7",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Hood College"
+    },
+    {
+      "name": "Nino Rizzolino",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Hood College"
+    },
+    {
+      "name": "Jack Belcher",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Hood College"
+    },
+    {
+      "name": "Austin Palmer",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Hood College"
+    },
+    {
+      "name": "Hosanna Nkurunziza",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Hood College"
+    },
+    {
+      "name": "Dakotah Hawkins",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Hood College"
+    },
+    {
+      "name": "Deegan Workman",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Hood College"
+    },
+    {
+      "name": "Danny  McElroy",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Hood College"
+    },
+    {
+      "name": "Will Wales",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Hood College"
+    },
+    {
+      "name": "Regan Tesche",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Hood College"
+    },
+    {
+      "name": "Trent Stouffer",
+      "number": "19",
+      "position": "Short Stick Defensive MidfieldSDM",
+      "classYear": "Fy.",
+      "team": "Hood College"
+    },
+    {
+      "name": "Isaak  Enriquez",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Hood College"
+    },
+    {
+      "name": "Aidan Carroll",
+      "number": "21",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "Hood College"
+    },
+    {
+      "name": "Lucas Strand",
+      "number": "22",
+      "position": "FOGOF",
+      "classYear": "Sophomore",
+      "team": "Hood College"
+    },
+    {
+      "name": "Cole Hansen",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Hood College"
+    },
+    {
+      "name": "Eric Reese",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Hood College"
+    },
+    {
+      "name": "Anden Muhlbach",
+      "number": "25",
+      "position": "FOGOF",
+      "classYear": "Fy.",
+      "team": "Hood College"
+    },
+    {
+      "name": "Ty Lesnak",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Hood College"
+    },
+    {
+      "name": "Noah  Greco",
+      "number": "27",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Hood College"
+    },
+    {
+      "name": "Owen  McAdams",
+      "number": "29",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Hood College"
+    },
+    {
+      "name": "Gabe Calon-Munoz",
+      "number": "31",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Hood College"
+    },
+    {
+      "name": "Isiac Nafziger",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Hood College"
+    },
+    {
+      "name": "Joseph  Houck",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Hood College"
+    },
+    {
+      "name": "Nick Horton",
+      "number": "36",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Hood College"
+    },
+    {
+      "name": "Preston  Workman",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Hood College"
+    },
+    {
+      "name": "Devon Gough",
+      "number": "38",
+      "position": "GoalieG",
+      "classYear": "Fy.",
+      "team": "Hood College"
+    },
+    {
+      "name": "Owen  Pelaez",
+      "number": "39",
+      "position": "FOGO / Short Stick MidfieldF/SDM",
+      "classYear": "Fy.",
+      "team": "Hood College"
+    },
+    {
+      "name": "Jack Snodgrass",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Hood College"
+    },
+    {
+      "name": "JT Harich",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Hood College"
+    },
+    {
+      "name": "Kyle Hudson",
+      "number": "43",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Senior",
+      "team": "Hood College"
+    },
+    {
+      "name": "Calvin Morris",
+      "number": "45",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Hood College"
+    },
+    {
+      "name": "Jackson Quenzer",
+      "number": "46",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Hood College"
+    },
+    {
+      "name": "Ronnie Connelly",
+      "number": "47",
+      "position": "FOGO /Long Stick MidfieldF/LSM",
+      "classYear": "Fy.",
+      "team": "Hood College"
+    },
+    {
+      "name": "Will Talbott",
+      "number": "48",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Hood College"
+    },
+    {
+      "name": "Mason Turner",
+      "number": "49",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Hood College"
+    },
+    {
+      "name": "Enrique Mercado",
+      "number": "52",
+      "position": "Long Stick Midfield/DefenseLSM/D",
+      "classYear": "Fy.",
+      "team": "Hood College"
+    },
+    {
+      "name": "Charles Blake",
+      "number": "53",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Fy.",
+      "team": "Hood College"
+    },
+    {
+      "name": "William Baillieul",
+      "number": "55",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Hood College"
+    }
+  ]
+}

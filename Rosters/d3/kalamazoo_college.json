@@ -1,0 +1,259 @@
+{
+  "team": "Kalamazoo College",
+  "scrapedAt": "2026-03-13T22:05:05.906445Z",
+  "playerCount": 36,
+  "players": [
+    {
+      "name": "Max Plesscher",
+      "number": "0",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Tate Bless",
+      "number": "1",
+      "position": "A/M",
+      "classYear": "Sophomore",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Payton Nowak",
+      "number": "2",
+      "position": "A/M",
+      "classYear": "Freshman",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Eric Paternoster",
+      "number": "3",
+      "position": "GK",
+      "classYear": "Senior",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Brody Quinn",
+      "number": "4",
+      "position": "FO/M",
+      "classYear": "Sophomore",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Max Saxton",
+      "number": "5",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Ryan Everham",
+      "number": "6",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Dylan Adkins",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Ronin Honda",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Aravind Krishnan",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Jake Asnis",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Jackson Roudabush",
+      "number": "11",
+      "position": "A/M",
+      "classYear": "Freshman",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Larson Makie",
+      "number": "12",
+      "position": "GK",
+      "classYear": "Junior",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Phillip Pedicone",
+      "number": "13",
+      "position": "FO/M",
+      "classYear": "Sophomore",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Jack Bungart",
+      "number": "14",
+      "position": "D/LSM",
+      "classYear": "Senior",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Jack Nicolai",
+      "number": "15",
+      "position": "D/LSM",
+      "classYear": "Freshman",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Simon Wilcox",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Cole Russell",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Collin Russell",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Lance Little",
+      "number": "19",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Jimmy Faletti",
+      "number": "20",
+      "position": "D/LSM",
+      "classYear": "Freshman",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Tony Valade",
+      "number": "21",
+      "position": "GK",
+      "classYear": "Junior",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Doyle Harrison",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Oskar Sears",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Charles Graves",
+      "number": "25",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Emilio Schmidt",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Lukas Graff",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Martin Welles",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Carson Ihrke",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "James Dailey",
+      "number": "33",
+      "position": "D/LSM",
+      "classYear": "Senior",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Alex Rosenthall",
+      "number": "34",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Luke Burzynski",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Cale Cook",
+      "number": "44",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Ethan Huebsch",
+      "number": "48",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Preston Page",
+      "number": "91",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Kalamazoo College"
+    },
+    {
+      "name": "Teige Bredin",
+      "number": "99",
+      "position": "A/M",
+      "classYear": "Sophomore",
+      "team": "Kalamazoo College"
+    }
+  ]
+}

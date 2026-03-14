@@ -1,0 +1,91 @@
+{
+  "team": "Mount St. Joseph University",
+  "scrapedAt": "2026-03-13T22:06:10.750391Z",
+  "playerCount": 12,
+  "players": [
+    {
+      "name": "Michael Addai",
+      "number": "1",
+      "position": "A/M",
+      "classYear": "Graduate",
+      "team": "Mount St. Joseph University"
+    },
+    {
+      "name": "Jackson Pruitt",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Mount St. Joseph University"
+    },
+    {
+      "name": "Jackson Simon",
+      "number": "9",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Mount St. Joseph University"
+    },
+    {
+      "name": "Jacob Murray",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Mount St. Joseph University"
+    },
+    {
+      "name": "Antonino Gonzalez",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Mount St. Joseph University"
+    },
+    {
+      "name": "Chase Coppage",
+      "number": "15",
+      "position": "D/LSM",
+      "classYear": "Freshman",
+      "team": "Mount St. Joseph University"
+    },
+    {
+      "name": "Zane Tarr",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Mount St. Joseph University"
+    },
+    {
+      "name": "Nicholas  Jackson",
+      "number": "20",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Mount St. Joseph University"
+    },
+    {
+      "name": "Austin Combs",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Mount St. Joseph University"
+    },
+    {
+      "name": "Evan Deal",
+      "number": "28",
+      "position": "A/G",
+      "classYear": "Senior",
+      "team": "Mount St. Joseph University"
+    },
+    {
+      "name": "Chad McGinnis",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Mount St. Joseph University"
+    },
+    {
+      "name": "Dareon McGrone",
+      "number": "44",
+      "position": "Midfielder",
+      "classYear": "Graduate",
+      "team": "Mount St. Joseph University"
+    }
+  ]
+}

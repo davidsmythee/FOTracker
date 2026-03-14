@@ -1,0 +1,287 @@
+{
+  "team": "Grove City College",
+  "scrapedAt": "2026-03-13T22:04:21.254875Z",
+  "playerCount": 40,
+  "players": [
+    {
+      "name": "Sam Stevenson",
+      "number": "0",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Breck Peacock",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Boden Davidson",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Andrew Glasgow",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Tyler Gladstone",
+      "number": "4",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Caden Ryan",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Ian Martti",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Tyson Bui",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Logan Fox",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Gabriel Mayer",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Josh McDermott",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Zach Moravec",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Rigdon Greene",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Mac Faircloth",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Brock Collins",
+      "number": "14",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Freshman",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Owen Edkins",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Kyle Gill",
+      "number": "17",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Griffin Fox",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Brady Miller",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Jake Olson",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Jake Parker",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Colton Lehberg",
+      "number": "22",
+      "position": "FOGO/MidfielderFO/M",
+      "classYear": "Senior",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Tyler Blazek",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Stephen Fellowes",
+      "number": "24",
+      "position": "6'0\"185",
+      "classYear": "Freshman",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Davis Schneider",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Alex Gladstone",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Caiden Hawlk",
+      "number": "31",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Junior",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Aidan Nosal",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Evan Gill",
+      "number": "33",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Mason Gibson",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Evan Curry",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Dylan Crownover",
+      "number": "37",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Ethan Binns",
+      "number": "40",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Mason Lyons",
+      "number": "41",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Samuel Busby",
+      "number": "42",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Graduate",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Bryce Keiser",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Stewart McClain",
+      "number": "66",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Tucker Saums",
+      "number": "77",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Nate Clark",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Grove City College"
+    },
+    {
+      "name": "Sawyer Strong",
+      "number": "99",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Grove City College"
+    }
+  ]
+}

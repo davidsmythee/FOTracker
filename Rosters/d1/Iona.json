@@ -1,0 +1,350 @@
+{
+  "team": "Iona University",
+  "scrapedAt": "2026-01-28T20:33:25.356Z",
+  "playerCount": 49,
+  "players": [
+    {
+      "name": "Lleyton Hall",
+      "number": "0",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Iona University"
+    },
+    {
+      "name": "Justin  Bainbridge",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Iona University"
+    },
+    {
+      "name": "Beckett Foley",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Iona University"
+    },
+    {
+      "name": "Tochi Agwamba",
+      "number": "3",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Iona University"
+    },
+    {
+      "name": "Llogan Raynor",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Iona University"
+    },
+    {
+      "name": "Cayden Turner",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Iona University"
+    },
+    {
+      "name": "Bobby  Windesheim",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Iona University"
+    },
+    {
+      "name": "Richie Karstien",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Iona University"
+    },
+    {
+      "name": "Caden  Alexander",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Iona University"
+    },
+    {
+      "name": "Kyle Hardie",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Iona University"
+    },
+    {
+      "name": "Kaiden  Lewis",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Iona University"
+    },
+    {
+      "name": "Bryson Jezewski",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Iona University"
+    },
+    {
+      "name": "Vincent Pititto",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Iona University"
+    },
+    {
+      "name": "Alex  Colavecchio",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Iona University"
+    },
+    {
+      "name": "Gary Shivell",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Iona University"
+    },
+    {
+      "name": "Slade  Summers",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Iona University"
+    },
+    {
+      "name": "Francesco Raso",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Iona University"
+    },
+    {
+      "name": "Jake Riglietti",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Iona University"
+    },
+    {
+      "name": "Whyett Benn",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Iona University"
+    },
+    {
+      "name": "Kevin  Sheehy",
+      "number": "21",
+      "position": "LSM",
+      "classYear": "",
+      "team": "Iona University"
+    },
+    {
+      "name": "Jimmy  Kennedy",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Iona University"
+    },
+    {
+      "name": "Cale Stielau",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Iona University"
+    },
+    {
+      "name": "Deuce Duffield",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Iona University"
+    },
+    {
+      "name": "Luke Neary",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Iona University"
+    },
+    {
+      "name": "Jack Martinez",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Iona University"
+    },
+    {
+      "name": "Ethan Bitran",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Iona University"
+    },
+    {
+      "name": "James Greenhut",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Iona University"
+    },
+    {
+      "name": "Cullen Lawry",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Iona University"
+    },
+    {
+      "name": "Cullen Lynch",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Iona University"
+    },
+    {
+      "name": "Kolbe  Curtin",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Iona University"
+    },
+    {
+      "name": "Cole Gibstein",
+      "number": "33",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Iona University"
+    },
+    {
+      "name": "Luke Holmgren",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Iona University"
+    },
+    {
+      "name": "Franco Caputo",
+      "number": "36",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Iona University"
+    },
+    {
+      "name": "Charlie Quinn",
+      "number": "37",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Iona University"
+    },
+    {
+      "name": "Sal Caputo",
+      "number": "38",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Iona University"
+    },
+    {
+      "name": "Kris Fournier",
+      "number": "39",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Iona University"
+    },
+    {
+      "name": "Nate Towers",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Iona University"
+    },
+    {
+      "name": "David Caldwell II",
+      "number": "41",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Iona University"
+    },
+    {
+      "name": "Ruse Healy",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Iona University"
+    },
+    {
+      "name": "Reg Campbell",
+      "number": "43",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Iona University"
+    },
+    {
+      "name": "Denny Piekutowski",
+      "number": "44",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Iona University"
+    },
+    {
+      "name": "Noah  Perea",
+      "number": "45",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Iona University"
+    },
+    {
+      "name": "Ryan Lynch",
+      "number": "46",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Iona University"
+    },
+    {
+      "name": "Brady Myslinski",
+      "number": "48",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Iona University"
+    },
+    {
+      "name": "Marshall Stephenson",
+      "number": "49",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Iona University"
+    },
+    {
+      "name": "Carson Turissini",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Iona University"
+    },
+    {
+      "name": "Cooper Metz",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Iona University"
+    },
+    {
+      "name": "Matthew Dyszkiewicz",
+      "number": "91",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Iona University"
+    },
+    {
+      "name": "Owen Hickey",
+      "number": "99",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Iona University"
+    }
+  ]
+}

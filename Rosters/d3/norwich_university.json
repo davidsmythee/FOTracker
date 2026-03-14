@@ -1,0 +1,273 @@
+{
+  "team": "Norwich University",
+  "scrapedAt": "2026-03-13T22:06:27.000719Z",
+  "playerCount": 38,
+  "players": [
+    {
+      "name": "Robbie McAllister",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Mark Chu",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Norwich University"
+    },
+    {
+      "name": "AJ Moniz, V",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Drew Fleury",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Ryan McGorry",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Seamus Brown",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Xavier Ixtlahuac",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Ronan Scott",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Norwich University"
+    },
+    {
+      "name": "David Myers",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Liam O'Neill",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Norwich University"
+    },
+    {
+      "name": "David Gosselin",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Robert Carr",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Case MacDonald",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Noah St. Germaine",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Ryan Magararu",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Ronan Bartosevich",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Norwich University"
+    },
+    {
+      "name": "James Raymond",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Parker Fleury",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Nick Koutsoukounis",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Jack Ryan",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Jackson Forbes",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Nicholas Wolfgang",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Mason Dils",
+      "number": "25",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Carter Veronneau",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Jack Bailey",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Jameson Hart",
+      "number": "28",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Danny Quillin",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Ryder Spiers",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Wes Emerson",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Alex Johnston",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Nicholas Squatrito",
+      "number": "33",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Clark Goodman",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Jack Badams",
+      "number": "35",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Harrison Poquette",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Christian Rainis",
+      "number": "37",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Cavin MacDonald",
+      "number": "38",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Zachary Cooney",
+      "number": "39",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Norwich University"
+    },
+    {
+      "name": "Jake Marcotte",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Norwich University"
+    }
+  ]
+}

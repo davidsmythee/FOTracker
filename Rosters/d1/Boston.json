@@ -1,0 +1,308 @@
+{
+    "team": "Boston University",
+    "source": "view-source:https://goterriers.com/sports/mens-lacrosse/roster",
+    "scrapedAt": "2026-01-28T18:54:08.209Z",
+    "playerCount": 50,
+    "players": [
+      {
+        "name": "Kabran Clark",
+        "number": "0",
+        "position": "Midfielder",
+        "team": "Boston University"
+      },
+      {
+        "name": "Timothy Shannehan",
+        "number": "1",
+        "position": "Attack",
+        "team": "Boston University"
+      },
+      {
+        "name": "Simon Miklaszewski",
+        "number": "3",
+        "position": "Midfielder",
+        "team": "Boston University"
+      },
+      {
+        "name": "James Lapina",
+        "number": "4",
+        "position": "Midfielder",
+        "team": "Boston University"
+      },
+      {
+        "name": "Ben Morris",
+        "number": "5",
+        "position": "Attack",
+        "team": "Boston University"
+      },
+      {
+        "name": "Mike Rooney",
+        "number": "6",
+        "position": "Midfielder",
+        "team": "Boston University"
+      },
+      {
+        "name": "Ethan Hart",
+        "number": "7",
+        "position": "Midfielder",
+        "team": "Boston University"
+      },
+      {
+        "name": "Bryce Gunn",
+        "number": "8",
+        "position": "Midfielder",
+        "team": "Boston University"
+      },
+      {
+        "name": "Luke Davis",
+        "number": "9",
+        "position": "Midfielder",
+        "team": "Boston University"
+      },
+      {
+        "name": "Samuel Whitehurst",
+        "number": "10",
+        "position": "Midfielder",
+        "team": "Boston University"
+      },
+      {
+        "name": "Landon McKelvy",
+        "number": "11",
+        "position": "Defense",
+        "team": "Boston University"
+      },
+      {
+        "name": "Mikey Moynihan",
+        "number": "12",
+        "position": "Midfielder",
+        "team": "Boston University"
+      },
+      {
+        "name": "Tre Moore",
+        "number": "13",
+        "position": "Midfielder",
+        "team": "Boston University"
+      },
+      {
+        "name": "Jimmy Kohr",
+        "number": "14",
+        "position": "Attack",
+        "team": "Boston University"
+      },
+      {
+        "name": "Michael Kitevski",
+        "number": "15",
+        "position": "FOGO",
+        "team": "Boston University"
+      },
+      {
+        "name": "Donald Varnerin",
+        "number": "16",
+        "position": "LSM",
+        "team": "Boston University"
+      },
+      {
+        "name": "Sean Connolly",
+        "number": "17",
+        "position": "Midfielder",
+        "team": "Boston University"
+      },
+      {
+        "name": "Logan Styles",
+        "number": "18",
+        "position": "Defense",
+        "team": "Boston University"
+      },
+      {
+        "name": "Sam Burns",
+        "number": "19",
+        "position": "Midfielder",
+        "team": "Boston University"
+      },
+      {
+        "name": "Charlie Huntley",
+        "number": "21",
+        "position": "Midfielder",
+        "team": "Boston University"
+      },
+      {
+        "name": "Milton Academy",
+        "number": "22",
+        "position": "Defense",
+        "team": "Boston University"
+      },
+      {
+        "name": "Madden Murphy",
+        "number": "23",
+        "position": "FOGO",
+        "team": "Boston University"
+      },
+      {
+        "name": "Kenny Russo",
+        "number": "24",
+        "position": "Midfielder",
+        "team": "Boston University"
+      },
+      {
+        "name": "Gannon Kessler",
+        "number": "25",
+        "position": "Attack",
+        "team": "Boston University"
+      },
+      {
+        "name": "Matt Ferraro",
+        "number": "27",
+        "position": "Midfielder",
+        "team": "Boston University"
+      },
+      {
+        "name": "Kaden Freelove",
+        "number": "29",
+        "position": "Defense",
+        "team": "Boston University"
+      },
+      {
+        "name": "Lance Biagioli",
+        "number": "30",
+        "position": "LSM",
+        "team": "Boston University"
+      },
+      {
+        "name": "Joe DiMella",
+        "number": "31",
+        "position": "Attack",
+        "team": "Boston University"
+      },
+      {
+        "name": "Mike Ramirez",
+        "number": "32",
+        "position": "FOGO",
+        "team": "Boston University"
+      },
+      {
+        "name": "Matt Freeman",
+        "number": "33",
+        "position": "Defense",
+        "team": "Boston University"
+      },
+      {
+        "name": "Ryan Winters",
+        "number": "34",
+        "position": "Midfielder",
+        "team": "Boston University"
+      },
+      {
+        "name": "William Wright",
+        "number": "35",
+        "position": "LSM",
+        "team": "Boston University"
+      },
+      {
+        "name": "Caleb Smith",
+        "number": "36",
+        "position": "Defense",
+        "team": "Boston University"
+      },
+      {
+        "name": "Charlie Ball",
+        "number": "37",
+        "position": "Attack",
+        "team": "Boston University"
+      },
+      {
+        "name": "Zac Maggiacomo",
+        "number": "38",
+        "position": "Defense",
+        "team": "Boston University"
+      },
+      {
+        "name": "Tommy Garofalo",
+        "number": "40",
+        "position": "Attack",
+        "team": "Boston University"
+      },
+      {
+        "name": "Peyton Forte",
+        "number": "41",
+        "position": "Attack",
+        "team": "Boston University"
+      },
+      {
+        "name": "Daine Kostes",
+        "number": "43",
+        "position": "FOGO",
+        "team": "Boston University"
+      },
+      {
+        "name": "Connor Kehm",
+        "number": "44",
+        "position": "Defense",
+        "team": "Boston University"
+      },
+      {
+        "name": "Carter Hall",
+        "number": "47",
+        "position": "Defense",
+        "team": "Boston University"
+      },
+      {
+        "name": "Jackson Matthews",
+        "number": "48",
+        "position": "Midfielder",
+        "team": "Boston University"
+      },
+      {
+        "name": "Will Pesanelli",
+        "number": "51",
+        "position": "Midfielder",
+        "team": "Boston University"
+      },
+      {
+        "name": "Aden Johnson",
+        "number": "52",
+        "position": "Defense",
+        "team": "Boston University"
+      },
+      {
+        "name": "Mike Luce",
+        "number": "55",
+        "position": "Defense",
+        "team": "Boston University"
+      },
+      {
+        "name": "Brayden Robie",
+        "number": "66",
+        "position": "Defense",
+        "team": "Boston University"
+      },
+      {
+        "name": "Finn Lawrence",
+        "number": "77",
+        "position": "Attack",
+        "team": "Boston University"
+      },
+      {
+        "name": "Kaidan Suh",
+        "number": "88",
+        "position": "LSM",
+        "team": "Boston University"
+      },
+      {
+        "name": "Tyler Fox",
+        "number": "91",
+        "position": "Attack",
+        "team": "Boston University"
+      },
+      {
+        "name": "Charlie Howard",
+        "number": "92",
+        "position": "Attack",
+        "team": "Boston University"
+      },
+      {
+        "name": "Andrew Pape",
+        "number": "99",
+        "position": "Midfielder",
+        "team": "Boston University"
+      }
+    ]
+  }

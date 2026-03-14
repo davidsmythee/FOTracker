@@ -1,0 +1,406 @@
+{
+  "team": "St. Lawrence University",
+  "scrapedAt": "2026-03-13T22:07:30.234429Z",
+  "playerCount": 57,
+  "players": [
+    {
+      "name": "Reid Mather",
+      "number": "1",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Ethan Friedberg",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Sean Wiseman",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Ryan Powers",
+      "number": "4",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Charlie Higgins",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Owen Pence",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Dan Anderson",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "David Herlihy",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Brayden Haggerty",
+      "number": "9",
+      "position": "Long Stick Midfielder/DefenseLSM/D",
+      "classYear": "Junior",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Ted Wilson",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Henry Crean",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Jamie Rosenzweig",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Ben Anderson",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "FY",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Charlie Cunningham",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Nathan Coghlin",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Harry Polito",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Michael Miele",
+      "number": "17",
+      "position": "Defense/Long Stick MidfielderD/LSM",
+      "classYear": "Junior",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Will Gagnon",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Jensen Kohler",
+      "number": "19",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "FY",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Devon Higgins",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Heath Mann",
+      "number": "21",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Will Harris",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Cam Croasdaile",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Sam Wade",
+      "number": "24",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Senior",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Jack Schneider",
+      "number": "25",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Thomas Duane",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Drew Knight",
+      "number": "27",
+      "position": "Defense/Long Stick MidfielderD/LSM",
+      "classYear": "Sophomore",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Chad Bartlett",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "FY",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "George Persinger",
+      "number": "29",
+      "position": "GoalieG",
+      "classYear": "FY",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Rafferty Callahan",
+      "number": "30",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "William Villa",
+      "number": "31",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Silas Jackson",
+      "number": "32",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Kieran Heaney",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "FY",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Patrick Murray",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Charlie DeMore",
+      "number": "35",
+      "position": "Midfield",
+      "classYear": "FY",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "William Abplanalp",
+      "number": "36",
+      "position": "FOGO",
+      "classYear": "FY",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Rogan Cardinal",
+      "number": "37",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Junior",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Wyatt Ryckert",
+      "number": "38",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "JP Charpentier",
+      "number": "39",
+      "position": "Midfield",
+      "classYear": "FY",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Ceron White",
+      "number": "40",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Daniel Mahoney",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Quin Fedor",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Rhett Palmer",
+      "number": "43",
+      "position": "Long Stick Midfielder/DefenseLSM/D",
+      "classYear": "Junior",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Connor McMahon",
+      "number": "44",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Andrew Mannegia",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "FY",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Andrew Heneghan",
+      "number": "46",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "FY",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Liam Flaherty",
+      "number": "47",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Sophomore",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Kahentaienni Thompson",
+      "number": "48",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Chris Caiazzo",
+      "number": "49",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "FY",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Asa Beach",
+      "number": "50",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Latham Billingsley",
+      "number": "51",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Chauncey Payne",
+      "number": "52",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Mac Priesing",
+      "number": "53",
+      "position": "Attack",
+      "classYear": "FY",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Ray Hagios",
+      "number": "54",
+      "position": "Midfield/FOGOM/FO",
+      "classYear": "FY",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Miles Fritz",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "FY",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Judd Phillips",
+      "number": "56",
+      "position": "Midfield/AttackM/A",
+      "classYear": "FY",
+      "team": "St. Lawrence University"
+    },
+    {
+      "name": "Connor Powers",
+      "number": "",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "FY",
+      "team": "St. Lawrence University"
+    }
+  ]
+}

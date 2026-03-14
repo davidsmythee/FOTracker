@@ -1,0 +1,217 @@
+{
+  "team": "SUNY New Paltz",
+  "scrapedAt": "2026-03-13T22:07:55.776897Z",
+  "playerCount": 30,
+  "players": [
+    {
+      "name": "Christian O'Connor",
+      "number": "0",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Junior",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Blake Lyons",
+      "number": "1",
+      "position": "MidfieldF",
+      "classYear": "Sophomore",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Ayden Aulet",
+      "number": "2",
+      "position": "MidfieldF",
+      "classYear": "Freshman",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Gavin Vendy",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Eric  Waldron",
+      "number": "4",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Brandon Ortiz",
+      "number": "5",
+      "position": "MidfieldF",
+      "classYear": "Senior",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Michael Barbieri",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Sean  Cassidy",
+      "number": "8",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Senior",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Brendon Lloyd",
+      "number": "9",
+      "position": "Face OffFO",
+      "classYear": "Junior",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Sam Wilbert",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Killian  Yombor",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Blake Hayden",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Colin Cleary",
+      "number": "13",
+      "position": "MidfieldF",
+      "classYear": "Senior",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Jack McLaughlin",
+      "number": "14",
+      "position": "Attack/ MidfieldA/MF",
+      "classYear": "Sophomore",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Nick Darcangelo",
+      "number": "15",
+      "position": "MidfieldF",
+      "classYear": "Sophomore",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Nate Urban",
+      "number": "17",
+      "position": "MidfieldF",
+      "classYear": "Junior",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Aidan Harrington",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Gavin Conroy",
+      "number": "22",
+      "position": "MidfieldF",
+      "classYear": "Freshman",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Owen Craker",
+      "number": "23",
+      "position": "Defense/Long Stick MidfielderD/LSM",
+      "classYear": "Senior",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Drew Hulede",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Luke Walters",
+      "number": "26",
+      "position": "MidfieldF",
+      "classYear": "Junior",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Finn Smith",
+      "number": "29",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Riley  Nelson",
+      "number": "30",
+      "position": "MidfieldF",
+      "classYear": "Sophomore",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Sean Hoolan",
+      "number": "33",
+      "position": "Attack/ MidfieldA/MF",
+      "classYear": "Sophomore",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Ryan  O'Hara",
+      "number": "44",
+      "position": "Face OffFO",
+      "classYear": "Sophomore",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Zach  Novak",
+      "number": "66",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Ryan Hilbert",
+      "number": "77",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Yasin Tabatabaee",
+      "number": "81",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Michael  Plante",
+      "number": "88",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY New Paltz"
+    },
+    {
+      "name": "Jacob Kenny",
+      "number": "99",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "SUNY New Paltz"
+    }
+  ]
+}

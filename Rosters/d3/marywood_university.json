@@ -1,0 +1,210 @@
+{
+  "team": "Marywood University",
+  "scrapedAt": "2026-03-13T22:05:40.152388Z",
+  "playerCount": 29,
+  "players": [
+    {
+      "name": "Shaun Howey",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Owen Kelly",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Alexander Votra",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Luke Ament",
+      "number": "6",
+      "position": "FOGO/MidfieldFO/M",
+      "classYear": "Sophomore",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Ben Meighan",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Dalton Gerver",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Michael Caputo",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Osten Grigas",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Colin Trainor",
+      "number": "12",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Jared Wade",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Teighan MacDougall",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Nate Leverock",
+      "number": "15",
+      "position": "Defensive MidfieldDM",
+      "classYear": "Freshman",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Antonio Cortes",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Vincent Renna",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Mitchell Thompson",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Marywood University"
+    },
+    {
+      "name": "William Seidito",
+      "number": "19",
+      "position": "Long-Stick MidfieldLSM",
+      "classYear": "Freshman",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Jack Petry",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Wil Pieters",
+      "number": "21",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Ricky Strobel",
+      "number": "22",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Sophomore",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Aiden Schuler",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Ben Farrell",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Sheamus Scanlan",
+      "number": "27",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Brady Law",
+      "number": "32",
+      "position": "Defensive MidfieldDM",
+      "classYear": "Junior",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Noah Knapp",
+      "number": "33",
+      "position": "Defense/Long-Stick MidfieldD/LSM",
+      "classYear": "Freshman",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Gavin Ammlung",
+      "number": "40",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Joseph Keller",
+      "number": "44",
+      "position": "Defensive MidfieldDM",
+      "classYear": "Sophomore",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Rocco Stefalo",
+      "number": "45",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Dominic Cottone",
+      "number": "50",
+      "position": "Defensive MidfieldDM",
+      "classYear": "Junior",
+      "team": "Marywood University"
+    },
+    {
+      "name": "Sean Bonhag",
+      "number": "88",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Marywood University"
+    }
+  ]
+}

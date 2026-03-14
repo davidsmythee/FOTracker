@@ -1,0 +1,273 @@
+{
+  "team": "Lebanon Valley College",
+  "scrapedAt": "2026-03-13T22:05:26.021498Z",
+  "playerCount": 38,
+  "players": [
+    {
+      "name": "Montgomery Sensenig",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Jacob Olson",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Sheadan Makosy",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Connor Sample",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Trevor Moore",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Connor Rowe",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "FY",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Ben Wagner",
+      "number": "9",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Hayden Carling",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Owen Cummins",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Jacob LaRue",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Wyatt Shamer",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "FY",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Anthony Asfor",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Christian Valanzola",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Branden Manderbach",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Ryan Grace",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Jack Capone",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Branden Yost",
+      "number": "20",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Nick Gleason",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Grayson Carswell",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Liam Callahan",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "FY",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Jaden Pham",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Sean Poole",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Brayden Brown",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "FY",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Collin Regina",
+      "number": "27",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Ish Bolorin",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "FY",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Jayden Peck",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Ethan Keenan",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Rowan Myers",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Oscar Escobar",
+      "number": "35",
+      "position": "Goalie",
+      "classYear": "FY",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Kellen Markley",
+      "number": "36",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Dominic Varacallo",
+      "number": "37",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Collin Heavlow",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Connor Mulada",
+      "number": "42",
+      "position": "Midfielder",
+      "classYear": "FY",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Riley Walker",
+      "number": "44",
+      "position": "Attack",
+      "classYear": "FY",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Andrew Fraser",
+      "number": "46",
+      "position": "Goalie",
+      "classYear": "FY",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Jacob Mrose",
+      "number": "47",
+      "position": "Midfielder",
+      "classYear": "Graduate",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Dylan Rinyak",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Lebanon Valley College"
+    },
+    {
+      "name": "Sam Spagnuolo",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Lebanon Valley College"
+    }
+  ]
+}

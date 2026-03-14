@@ -1,0 +1,175 @@
+{
+  "team": "Alvernia University",
+  "scrapedAt": "2026-03-13T22:02:27.634924Z",
+  "playerCount": 24,
+  "players": [
+    {
+      "name": "Charles Oberman",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Alvernia University"
+    },
+    {
+      "name": "Jimmy Sparacio",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Alvernia University"
+    },
+    {
+      "name": "James Geritano",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Alvernia University"
+    },
+    {
+      "name": "Ethan McManus",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Alvernia University"
+    },
+    {
+      "name": "Jacob Yarnall",
+      "number": "7",
+      "position": "Defensive-Midfield",
+      "classYear": "Sophomore",
+      "team": "Alvernia University"
+    },
+    {
+      "name": "Joseph Mullen",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Alvernia University"
+    },
+    {
+      "name": "Keegan Driscoll",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Alvernia University"
+    },
+    {
+      "name": "Joseph Leininger",
+      "number": "10",
+      "position": "Defensive-Midfield",
+      "classYear": "Fy.",
+      "team": "Alvernia University"
+    },
+    {
+      "name": "Jack Kenney",
+      "number": "11",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Alvernia University"
+    },
+    {
+      "name": "Alex Johns",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Alvernia University"
+    },
+    {
+      "name": "Bryan Pilpel",
+      "number": "13",
+      "position": "Defensive-Midfield",
+      "classYear": "Junior",
+      "team": "Alvernia University"
+    },
+    {
+      "name": "Jack Mancha",
+      "number": "14",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Alvernia University"
+    },
+    {
+      "name": "Connor Stockton",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Alvernia University"
+    },
+    {
+      "name": "Jack Natyshak",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Alvernia University"
+    },
+    {
+      "name": "Alexander Piasecki",
+      "number": "21",
+      "position": "Long-Stick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "Alvernia University"
+    },
+    {
+      "name": "Tanner Caka",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Alvernia University"
+    },
+    {
+      "name": "Carson Coleman",
+      "number": "23",
+      "position": "Defensive-Midfield",
+      "classYear": "Sophomore",
+      "team": "Alvernia University"
+    },
+    {
+      "name": "Frank Usavage",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Alvernia University"
+    },
+    {
+      "name": "Christian  Wright",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Alvernia University"
+    },
+    {
+      "name": "Zackary Moats",
+      "number": "27",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Alvernia University"
+    },
+    {
+      "name": "Dominic Garcia",
+      "number": "29",
+      "position": "Defensive-Midfield",
+      "classYear": "Sophomore",
+      "team": "Alvernia University"
+    },
+    {
+      "name": "Jackson Schools",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Alvernia University"
+    },
+    {
+      "name": "Wesley Clemison",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Alvernia University"
+    },
+    {
+      "name": "Nathan Byrne",
+      "number": "35",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Alvernia University"
+    }
+  ]
+}

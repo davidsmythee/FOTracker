@@ -1,0 +1,140 @@
+{
+  "team": "Edgewood College",
+  "scrapedAt": "2026-03-13T22:03:53.172292Z",
+  "playerCount": 19,
+  "players": [
+    {
+      "name": "Zach Thomas",
+      "number": "0",
+      "position": "Attack",
+      "classYear": "Graduate",
+      "team": "Edgewood College"
+    },
+    {
+      "name": "Dominic Derocker",
+      "number": "1",
+      "position": "GoaltenderG",
+      "classYear": "Freshman",
+      "team": "Edgewood College"
+    },
+    {
+      "name": "Elias Taylor",
+      "number": "4",
+      "position": "Midfield/FOGOM/FO",
+      "classYear": "Freshman",
+      "team": "Edgewood College"
+    },
+    {
+      "name": "Gavin Williams",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Edgewood College"
+    },
+    {
+      "name": "Ryan Hanrahan",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Edgewood College"
+    },
+    {
+      "name": "Jackson Jerzak",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Edgewood College"
+    },
+    {
+      "name": "Bennett Closset",
+      "number": "10",
+      "position": "Defense/Long Stick MidfielderD/LSM",
+      "classYear": "Sophomore",
+      "team": "Edgewood College"
+    },
+    {
+      "name": "Maddux Ptasienski",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Edgewood College"
+    },
+    {
+      "name": "Zane Neville",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Edgewood College"
+    },
+    {
+      "name": "Trent Hogendorf",
+      "number": "14",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Sophomore",
+      "team": "Edgewood College"
+    },
+    {
+      "name": "Logan Searles",
+      "number": "15",
+      "position": "GoaltenderG",
+      "classYear": "Junior",
+      "team": "Edgewood College"
+    },
+    {
+      "name": "Wyatt Heabel",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Edgewood College"
+    },
+    {
+      "name": "Nick Krus",
+      "number": "20",
+      "position": "GoaltenderG",
+      "classYear": "Junior",
+      "team": "Edgewood College"
+    },
+    {
+      "name": "Cameron Hostetler",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Edgewood College"
+    },
+    {
+      "name": "Joseph Wojcik",
+      "number": "23",
+      "position": "Midfield/AttackM/A",
+      "classYear": "Graduate",
+      "team": "Edgewood College"
+    },
+    {
+      "name": "James Borgardt",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Edgewood College"
+    },
+    {
+      "name": "Demetri Singto",
+      "number": "25",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Edgewood College"
+    },
+    {
+      "name": "CJ Mandile",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Edgewood College"
+    },
+    {
+      "name": "Mike Madeja",
+      "number": "88",
+      "position": "GoaltenderG",
+      "classYear": "Junior",
+      "team": "Edgewood College"
+    }
+  ]
+}

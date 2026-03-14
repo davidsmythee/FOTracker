@@ -1,0 +1,140 @@
+{
+  "team": "Randolph College",
+  "scrapedAt": "2026-03-13T22:06:46.321513Z",
+  "playerCount": 19,
+  "players": [
+    {
+      "name": "Jawed Sherzad",
+      "number": "0",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Randolph College"
+    },
+    {
+      "name": "Parker Eastman",
+      "number": "1",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Randolph College"
+    },
+    {
+      "name": "Kalon Ross",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Randolph College"
+    },
+    {
+      "name": "Gavin Maple",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Randolph College"
+    },
+    {
+      "name": "Kareem Gordon",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Randolph College"
+    },
+    {
+      "name": "Cooper Callan",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Randolph College"
+    },
+    {
+      "name": "Nick Fulks",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Randolph College"
+    },
+    {
+      "name": "Chase Callan",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Randolph College"
+    },
+    {
+      "name": "Zak Gurban",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Randolph College"
+    },
+    {
+      "name": "Josh Parker",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Randolph College"
+    },
+    {
+      "name": "Jacob Bucceri",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "FY",
+      "team": "Randolph College"
+    },
+    {
+      "name": "Cole Robbins",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "FY",
+      "team": "Randolph College"
+    },
+    {
+      "name": "Jordan Nutter",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Randolph College"
+    },
+    {
+      "name": "Noah Callahan",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Randolph College"
+    },
+    {
+      "name": "Shane Smith",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Randolph College"
+    },
+    {
+      "name": "Ethan Condon",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Randolph College"
+    },
+    {
+      "name": "Keegan Slider",
+      "number": "30",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Randolph College"
+    },
+    {
+      "name": "Jayden Rosado",
+      "number": "33",
+      "position": "Goalie",
+      "classYear": "FY",
+      "team": "Randolph College"
+    },
+    {
+      "name": "Britton Malcolm",
+      "number": "74",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Randolph College"
+    }
+  ]
+}

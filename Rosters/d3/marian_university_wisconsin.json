@@ -1,0 +1,133 @@
+{
+  "team": "Marian University - Wisconsin",
+  "scrapedAt": "2026-03-13T22:05:33.489412Z",
+  "playerCount": 18,
+  "players": [
+    {
+      "name": "Jayden Gerhardt",
+      "number": "1",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Marian University - Wisconsin"
+    },
+    {
+      "name": "Ian McCarthy",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Marian University - Wisconsin"
+    },
+    {
+      "name": "Daxton Lang",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Marian University - Wisconsin"
+    },
+    {
+      "name": "Bailey White",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Marian University - Wisconsin"
+    },
+    {
+      "name": "Sean Patrick Juoni",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Marian University - Wisconsin"
+    },
+    {
+      "name": "Nasir Orosco",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Marian University - Wisconsin"
+    },
+    {
+      "name": "Franklin Lund",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Marian University - Wisconsin"
+    },
+    {
+      "name": "Justin Newlin",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Marian University - Wisconsin"
+    },
+    {
+      "name": "Andrew Nesbitt",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Marian University - Wisconsin"
+    },
+    {
+      "name": "Shay Nolen",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Marian University - Wisconsin"
+    },
+    {
+      "name": "Brandon Fain",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Marian University - Wisconsin"
+    },
+    {
+      "name": "Knute Loe",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Marian University - Wisconsin"
+    },
+    {
+      "name": "Noah Banes",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Marian University - Wisconsin"
+    },
+    {
+      "name": "Jackson Sweeney",
+      "number": "23",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Marian University - Wisconsin"
+    },
+    {
+      "name": "Alex Coscarart",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Marian University - Wisconsin"
+    },
+    {
+      "name": "Benett Luke",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Marian University - Wisconsin"
+    },
+    {
+      "name": "Jack Moody",
+      "number": "44",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Marian University - Wisconsin"
+    },
+    {
+      "name": "Devon Butler",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Marian University - Wisconsin"
+    }
+  ]
+}

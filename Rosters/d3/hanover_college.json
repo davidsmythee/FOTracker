@@ -1,0 +1,154 @@
+{
+  "team": "Hanover College",
+  "scrapedAt": "2026-03-13T22:04:32.128516Z",
+  "playerCount": 21,
+  "players": [
+    {
+      "name": "Mack Langridge",
+      "number": "0",
+      "position": "MidfieldF",
+      "classYear": "Freshman",
+      "team": "Hanover College"
+    },
+    {
+      "name": "Michael Lang",
+      "number": "1",
+      "position": "Goalkeeper",
+      "classYear": "Sophomore",
+      "team": "Hanover College"
+    },
+    {
+      "name": "Jack DeWeese",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Hanover College"
+    },
+    {
+      "name": "Carter Marcum",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Hanover College"
+    },
+    {
+      "name": "Kane Powell-Smith",
+      "number": "5",
+      "position": "MF",
+      "classYear": "Freshman",
+      "team": "Hanover College"
+    },
+    {
+      "name": "Carter Caron",
+      "number": "6",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "Hanover College"
+    },
+    {
+      "name": "Liam Fields",
+      "number": "7",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Hanover College"
+    },
+    {
+      "name": "Gabe Hetrick",
+      "number": "9",
+      "position": "MidfieldF",
+      "classYear": "Junior",
+      "team": "Hanover College"
+    },
+    {
+      "name": "Evan Neiswanger",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Hanover College"
+    },
+    {
+      "name": "Cole Skinner",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Hanover College"
+    },
+    {
+      "name": "Hayden Resner",
+      "number": "13",
+      "position": "MidfieldF",
+      "classYear": "Freshman",
+      "team": "Hanover College"
+    },
+    {
+      "name": "Chris Bishop",
+      "number": "15",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Hanover College"
+    },
+    {
+      "name": "Anthony Shepler",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Hanover College"
+    },
+    {
+      "name": "Dean Henderson",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Hanover College"
+    },
+    {
+      "name": "Josh Adams",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Hanover College"
+    },
+    {
+      "name": "Kasey Hospelhorn",
+      "number": "25",
+      "position": "MidfieldF",
+      "classYear": "Sophomore",
+      "team": "Hanover College"
+    },
+    {
+      "name": "Leonard Hughes",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Hanover College"
+    },
+    {
+      "name": "Colin O'Brien",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Hanover College"
+    },
+    {
+      "name": "Aidan Gonzalez",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Hanover College"
+    },
+    {
+      "name": "Ben Zimm",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Hanover College"
+    },
+    {
+      "name": "Matthew Hillard",
+      "number": "96",
+      "position": "Goalkeeper",
+      "classYear": "Senior",
+      "team": "Hanover College"
+    }
+  ]
+}

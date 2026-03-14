@@ -1,0 +1,336 @@
+{
+    "team": "Brown University",
+    "scrapedAt": "2026-01-28T19:07:27.687Z",
+    "playerCount": 47,
+    "players": [
+      {
+        "name": "Nicholas Snyder",
+        "number": "1",
+        "position": "Defense",
+        "classYear": "Freshman",
+        "team": "Brown University"
+      },
+      {
+        "name": "Sr.",
+        "number": "2",
+        "position": "Midfielder",
+        "classYear": "Senior",
+        "team": "Brown University"
+      },
+      {
+        "name": "The Haverford School",
+        "number": "3",
+        "position": "Attack",
+        "classYear": "Sophomore",
+        "team": "Brown University"
+      },
+      {
+        "name": "Jack Curran",
+        "number": "4",
+        "position": "LSM",
+        "classYear": "Freshman",
+        "team": "Brown University"
+      },
+      {
+        "name": "Anthony Koehler",
+        "number": "5",
+        "position": "Midfielder",
+        "classYear": "Junior",
+        "team": "Brown University"
+      },
+      {
+        "name": "Ennis Udo",
+        "number": "6",
+        "position": "Attack",
+        "classYear": "Sophomore",
+        "team": "Brown University"
+      },
+      {
+        "name": "Jackson Wolfram",
+        "number": "7",
+        "position": "Attack",
+        "classYear": "Junior",
+        "team": "Brown University"
+      },
+      {
+        "name": "Murphy Paul",
+        "number": "8",
+        "position": "Midfielder",
+        "classYear": "Junior",
+        "team": "Brown University"
+      },
+      {
+        "name": "Owen Richter",
+        "number": "9",
+        "position": "Defense",
+        "classYear": "Sophomore",
+        "team": "Brown University"
+      },
+      {
+        "name": "Michael Dowd",
+        "number": "10",
+        "position": "Defense",
+        "classYear": "Sophomore",
+        "team": "Brown University"
+      },
+      {
+        "name": "Cole Frood",
+        "number": "11",
+        "position": "Midfielder",
+        "classYear": "Sophomore",
+        "team": "Brown University"
+      },
+      {
+        "name": "Oliver Bligh",
+        "number": "12",
+        "position": "Midfielder",
+        "classYear": "Junior",
+        "team": "Brown University"
+      },
+      {
+        "name": "Marcus Wertheim",
+        "number": "13",
+        "position": "Midfielder",
+        "classYear": "Senior",
+        "team": "Brown University"
+      },
+      {
+        "name": "Drew Morris",
+        "number": "15",
+        "position": "Midfielder",
+        "classYear": "Senior",
+        "team": "Brown University"
+      },
+      {
+        "name": "George Wandoff",
+        "number": "16",
+        "position": "Defense",
+        "classYear": "Senior",
+        "team": "Brown University"
+      },
+      {
+        "name": "Matt Egan",
+        "number": "17",
+        "position": "Midfielder",
+        "classYear": "Freshman",
+        "team": "Brown University"
+      },
+      {
+        "name": "Kurt Dillmeier",
+        "number": "18",
+        "position": "LSM",
+        "classYear": "Sophomore",
+        "team": "Brown University"
+      },
+      {
+        "name": "Liam Appleton",
+        "number": "19",
+        "position": "Midfielder",
+        "classYear": "Freshman",
+        "team": "Brown University"
+      },
+      {
+        "name": "Luke Dellicicchi",
+        "number": "20",
+        "position": "Attack",
+        "classYear": "Senior",
+        "team": "Brown University"
+      },
+      {
+        "name": "Charlie Cave",
+        "number": "21",
+        "position": "Defense",
+        "classYear": "Senior",
+        "team": "Brown University"
+      },
+      {
+        "name": "Michael Moon",
+        "number": "22",
+        "position": "FOGO",
+        "classYear": "Sophomore",
+        "team": "Brown University"
+      },
+      {
+        "name": "Samari Staten",
+        "number": "23",
+        "position": "Midfielder",
+        "classYear": "Senior",
+        "team": "Brown University"
+      },
+      {
+        "name": "Angus Miller",
+        "number": "25",
+        "position": "Defense",
+        "classYear": "Freshman",
+        "team": "Brown University"
+      },
+      {
+        "name": "Felix Rockefeller",
+        "number": "28",
+        "position": "Midfielder",
+        "classYear": "Junior",
+        "team": "Brown University"
+      },
+      {
+        "name": "Ben Scandone",
+        "number": "29",
+        "position": "Midfielder",
+        "classYear": "Senior",
+        "team": "Brown University"
+      },
+      {
+        "name": "Harry Laferriere",
+        "number": "31",
+        "position": "Goalie",
+        "classYear": "Senior",
+        "team": "Brown University"
+      },
+      {
+        "name": "Kieran Anzelone",
+        "number": "33",
+        "position": "Midfielder",
+        "classYear": "Senior",
+        "team": "Brown University"
+      },
+      {
+        "name": "Brosnan Lopez",
+        "number": "34",
+        "position": "Goalie",
+        "classYear": "Senior",
+        "team": "Brown University"
+      },
+      {
+        "name": "Mason Kelly",
+        "number": "35",
+        "position": "Midfielder",
+        "classYear": "Freshman",
+        "team": "Brown University"
+      },
+      {
+        "name": "Xander Ring",
+        "number": "36",
+        "position": "Defense",
+        "classYear": "Freshman",
+        "team": "Brown University"
+      },
+      {
+        "name": "Connor Foley",
+        "number": "37",
+        "position": "Goalie",
+        "classYear": "Junior",
+        "team": "Brown University"
+      },
+      {
+        "name": "Ben Michels",
+        "number": "39",
+        "position": "Defense",
+        "classYear": "Freshman",
+        "team": "Brown University"
+      },
+      {
+        "name": "Phin Gibbs",
+        "number": "40",
+        "position": "Midfielder",
+        "classYear": "Freshman",
+        "team": "Brown University"
+      },
+      {
+        "name": "Preston Evans",
+        "number": "41",
+        "position": "Attack",
+        "classYear": "Freshman",
+        "team": "Brown University"
+      },
+      {
+        "name": "Matteo Rottura",
+        "number": "42",
+        "position": "Midfielder",
+        "classYear": "Sophomore",
+        "team": "Brown University"
+      },
+      {
+        "name": "Trey Taylor",
+        "number": "44",
+        "position": "Defense",
+        "classYear": "Senior",
+        "team": "Brown University"
+      },
+      {
+        "name": "Baden Brown",
+        "number": "45",
+        "position": "Attack",
+        "classYear": "Freshman",
+        "team": "Brown University"
+      },
+      {
+        "name": "Ryan Mauer",
+        "number": "46",
+        "position": "FOGO",
+        "classYear": "Freshman",
+        "team": "Brown University"
+      },
+      {
+        "name": "Ryan Pels",
+        "number": "49",
+        "position": "SSDM",
+        "classYear": "Sophomore",
+        "team": "Brown University"
+      },
+      {
+        "name": "Max Warden",
+        "number": "50",
+        "position": "Attack",
+        "classYear": "Sophomore",
+        "team": "Brown University"
+      },
+      {
+        "name": "Kyle Bilello",
+        "number": "51",
+        "position": "Midfielder",
+        "classYear": "Sophomore",
+        "team": "Brown University"
+      },
+      {
+        "name": "Sawyer English",
+        "number": "52",
+        "position": "Midfielder",
+        "classYear": "Freshman",
+        "team": "Brown University"
+      },
+      {
+        "name": "Jameson Steele",
+        "number": "53",
+        "position": "Attack",
+        "classYear": "Freshman",
+        "team": "Brown University"
+      },
+      {
+        "name": "Anthony Noto",
+        "number": "54",
+        "position": "SSDM",
+        "classYear": "Sophomore",
+        "team": "Brown University"
+      },
+      {
+        "name": "Brady O'Sullivan",
+        "number": "55",
+        "position": "Defense",
+        "classYear": "Junior",
+        "team": "Brown University"
+      },
+      {
+        "name": "Jeremy Hopsicker",
+        "number": "66",
+        "position": "Attack",
+        "classYear": "Senior",
+        "team": "Brown University"
+      },
+      {
+        "name": "Tucker Williams",
+        "number": "92",
+        "position": "Goalie",
+        "classYear": "Sophomore",
+        "team": "Brown University"
+      }
+    ]
+  }

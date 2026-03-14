@@ -1,0 +1,329 @@
+{
+  "team": "Nazareth University",
+  "scrapedAt": "2026-03-13T22:06:17.045881Z",
+  "playerCount": 46,
+  "players": [
+    {
+      "name": "Luke Bobby",
+      "number": "1",
+      "position": "Long-Stick MidfielderLSM",
+      "classYear": "Junior",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Alex Garrow",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Braden Gioseffi",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Andrew Adams",
+      "number": "4",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Charlie Locke",
+      "number": "5",
+      "position": "DefensemanD",
+      "classYear": "Junior",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Louis  Cogliandro",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Cole Slimak",
+      "number": "7",
+      "position": "DefensemanD",
+      "classYear": "Senior",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Sam Romanosky",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Jonathan Zylinsky",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Kyle  Rosenberger",
+      "number": "10",
+      "position": "AttackmanA",
+      "classYear": "Senior",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Zac Isaac",
+      "number": "11",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Noah Fargo",
+      "number": "12",
+      "position": "DefensemanD",
+      "classYear": "Freshman",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Andrew Mainville",
+      "number": "13",
+      "position": "FOF",
+      "classYear": "Freshman",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Anthony Menickelli",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Ryan Avery",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Ryan Pitirri",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Justin Skelly",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "George Monahan",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Carter Wegman",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Joey Hathorn",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Jimmy Donnelly",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "William Meagher",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "McLean Ralston",
+      "number": "23",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Nicholas Hinck",
+      "number": "24",
+      "position": "DefensemanD",
+      "classYear": "Sophomore",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Lucas Bertram",
+      "number": "25",
+      "position": "Long-Stick MidfielderLSM",
+      "classYear": "Sophomore",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Matthew Farrington",
+      "number": "26",
+      "position": "AttackmanA",
+      "classYear": "Senior",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "William Preheim",
+      "number": "27",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Hayden Lucas",
+      "number": "28",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Parker Wilcox",
+      "number": "29",
+      "position": "DefensemanD",
+      "classYear": "Sophomore",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Colin Hughes",
+      "number": "33",
+      "position": "FOGOFO",
+      "classYear": "Junior",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Ben Wilson",
+      "number": "34",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Connor Fundis",
+      "number": "35",
+      "position": "DefensemanD",
+      "classYear": "Graduate",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Jack Schimmel",
+      "number": "37",
+      "position": "DefensemanD",
+      "classYear": "Sophomore",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Cole Doldo",
+      "number": "39",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Owen Weterrings",
+      "number": "41",
+      "position": "Long-Stick MidfielderLSM",
+      "classYear": "Sophomore",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "William  O'Neill",
+      "number": "42",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Andrew Murphy",
+      "number": "44",
+      "position": "DefensemanD",
+      "classYear": "Sophomore",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Noah Olbrich",
+      "number": "45",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Gibson Spector",
+      "number": "47",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Ethan Copeland",
+      "number": "48",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Jack  O'Leary",
+      "number": "50",
+      "position": "DefensemanD",
+      "classYear": "Senior",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Sven Habitzreuther",
+      "number": "51",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Brennan Murray",
+      "number": "52",
+      "position": "DefensemanD",
+      "classYear": "Freshman",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Colin Shiel",
+      "number": "55",
+      "position": "DefensemanD",
+      "classYear": "Freshman",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Luke Suchyna",
+      "number": "88",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Nazareth University"
+    },
+    {
+      "name": "Matthew Morris",
+      "number": "99",
+      "position": "DefensemanD",
+      "classYear": "Freshman",
+      "team": "Nazareth University"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "team": "Centenary College of Louisiana",
+  "scrapedAt": "2026-03-14T00:58:24.768193Z",
+  "playerCount": 25,
+  "players": [
+    {
+      "name": "Landon Mosley",
+      "number": "0",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Centenary College of Louisiana"
+    },
+    {
+      "name": "Cooper Harris",
+      "number": "1",
+      "position": "MF",
+      "classYear": "Sophomore",
+      "team": "Centenary College of Louisiana"
+    },
+    {
+      "name": "Gavin Ferrington",
+      "number": "2",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Centenary College of Louisiana"
+    },
+    {
+      "name": "Kian Fox",
+      "number": "3",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Centenary College of Louisiana"
+    },
+    {
+      "name": "Dominic Ogier",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Centenary College of Louisiana"
+    },
+    {
+      "name": "Gamble Harvill",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Centenary College of Louisiana"
+    },
+    {
+      "name": "Xavier Nixon",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Centenary College of Louisiana"
+    },
+    {
+      "name": "Andrew Hayden",
+      "number": "7",
+      "position": "MF",
+      "classYear": "Freshman",
+      "team": "Centenary College of Louisiana"
+    },
+    {
+      "name": "Ethan Hewett",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Centenary College of Louisiana"
+    },
+    {
+      "name": "Sean Nadler",
+      "number": "11",
+      "position": "FO/MF",
+      "classYear": "Freshman",
+      "team": "Centenary College of Louisiana"
+    },
+    {
+      "name": "Noah Walsh",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Centenary College of Louisiana"
+    },
+    {
+      "name": "Griffin Holland",
+      "number": "13",
+      "position": "MF",
+      "classYear": "Freshman",
+      "team": "Centenary College of Louisiana"
+    },
+    {
+      "name": "Jake Huff",
+      "number": "14",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "Centenary College of Louisiana"
+    },
+    {
+      "name": "Carter Romero",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Centenary College of Louisiana"
+    },
+    {
+      "name": "Rhyan Perry",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Centenary College of Louisiana"
+    },
+    {
+      "name": "Aiden McQuat",
+      "number": "19",
+      "position": "O/MF",
+      "classYear": "Freshman",
+      "team": "Centenary College of Louisiana"
+    },
+    {
+      "name": "Nic Kesling",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Centenary College of Louisiana"
+    },
+    {
+      "name": "Grant McGuire",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Centenary College of Louisiana"
+    },
+    {
+      "name": "Travis Davis",
+      "number": "23",
+      "position": "MF",
+      "classYear": "Sophomore",
+      "team": "Centenary College of Louisiana"
+    },
+    {
+      "name": "Brian Wafer Jr.",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Centenary College of Louisiana"
+    },
+    {
+      "name": "Ethan Young",
+      "number": "28",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "Centenary College of Louisiana"
+    },
+    {
+      "name": "Zane Wyss",
+      "number": "30",
+      "position": "LSM/MF",
+      "classYear": "Freshman",
+      "team": "Centenary College of Louisiana"
+    },
+    {
+      "name": "Chris Masterson",
+      "number": "40",
+      "position": "MF",
+      "classYear": "Senior",
+      "team": "Centenary College of Louisiana"
+    },
+    {
+      "name": "Thomas Jordan",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Centenary College of Louisiana"
+    },
+    {
+      "name": "Gibson Harvill",
+      "number": "77",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Centenary College of Louisiana"
+    }
+  ]
+}

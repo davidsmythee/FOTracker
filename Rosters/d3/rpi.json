@@ -1,0 +1,350 @@
+{
+  "team": "RPI",
+  "scrapedAt": "2026-03-13T22:06:52.224541Z",
+  "playerCount": 49,
+  "players": [
+    {
+      "name": "Ian Weihe",
+      "number": "1",
+      "position": "DM/TM",
+      "classYear": "Sophomore",
+      "team": "RPI"
+    },
+    {
+      "name": "Nolan Lawler",
+      "number": "2",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Junior",
+      "team": "RPI"
+    },
+    {
+      "name": "Jack Morad",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "RPI"
+    },
+    {
+      "name": "Alex Mele",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "RPI"
+    },
+    {
+      "name": "Ozzie Rosenholm",
+      "number": "5",
+      "position": "FOGOFO",
+      "classYear": "Freshman",
+      "team": "RPI"
+    },
+    {
+      "name": "Thomas Nock",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "RPI"
+    },
+    {
+      "name": "Cooper Manzi",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "RPI"
+    },
+    {
+      "name": "Hayden Wedemeyer",
+      "number": "9",
+      "position": "DM/TM",
+      "classYear": "Sophomore",
+      "team": "RPI"
+    },
+    {
+      "name": "Sean Smith",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "RPI"
+    },
+    {
+      "name": "Gabriel Seldow",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "RPI"
+    },
+    {
+      "name": "Patrick Keegan",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "RPI"
+    },
+    {
+      "name": "Troy Schipf",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "RPI"
+    },
+    {
+      "name": "Michael Ponto",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "RPI"
+    },
+    {
+      "name": "TJ Wakely",
+      "number": "15",
+      "position": "Defense/Long Stick MidfielderD/LSM",
+      "classYear": "Sophomore",
+      "team": "RPI"
+    },
+    {
+      "name": "Tucker Malfa",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "RPI"
+    },
+    {
+      "name": "Mickey Sullivan",
+      "number": "17",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "RPI"
+    },
+    {
+      "name": "Michael Kline",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "RPI"
+    },
+    {
+      "name": "Aidan Wilmont",
+      "number": "20",
+      "position": "DefensemanD",
+      "classYear": "Sophomore",
+      "team": "RPI"
+    },
+    {
+      "name": "Bernie Townsend",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "RPI"
+    },
+    {
+      "name": "Bryce Allen",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "RPI"
+    },
+    {
+      "name": "Sam Tholl",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "RPI"
+    },
+    {
+      "name": "Will Murphy",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "RPI"
+    },
+    {
+      "name": "Dante Venuto",
+      "number": "25",
+      "position": "FOGOFO",
+      "classYear": "Freshman",
+      "team": "RPI"
+    },
+    {
+      "name": "Andrew Childs",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "RPI"
+    },
+    {
+      "name": "Brody Baker",
+      "number": "27",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "RPI"
+    },
+    {
+      "name": "Owen Stesney",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "RPI"
+    },
+    {
+      "name": "Carter Newman",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "RPI"
+    },
+    {
+      "name": "Tyler Ruffini",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "RPI"
+    },
+    {
+      "name": "Robby McDonald",
+      "number": "32",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Junior",
+      "team": "RPI"
+    },
+    {
+      "name": "Jake Lunati",
+      "number": "33",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "RPI"
+    },
+    {
+      "name": "Evan Andrews",
+      "number": "34",
+      "position": "GoaltenderG",
+      "classYear": "Freshman",
+      "team": "RPI"
+    },
+    {
+      "name": "Ata Twining",
+      "number": "36",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "RPI"
+    },
+    {
+      "name": "Teag Hilkewich",
+      "number": "38",
+      "position": "Midfield/AttackM/A",
+      "classYear": "Junior",
+      "team": "RPI"
+    },
+    {
+      "name": "Peter Kelly",
+      "number": "39",
+      "position": "FOGOFO",
+      "classYear": "Freshman",
+      "team": "RPI"
+    },
+    {
+      "name": "Joseph Impellizeri",
+      "number": "40",
+      "position": "DM/TM",
+      "classYear": "Junior",
+      "team": "RPI"
+    },
+    {
+      "name": "Ben Zigmund",
+      "number": "41",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Freshman",
+      "team": "RPI"
+    },
+    {
+      "name": "Will Roberson",
+      "number": "42",
+      "position": "Defense/LSM",
+      "classYear": "Sophomore",
+      "team": "RPI"
+    },
+    {
+      "name": "Dylan Slimak",
+      "number": "43",
+      "position": "Defense/LSM",
+      "classYear": "Sophomore",
+      "team": "RPI"
+    },
+    {
+      "name": "Brendan Hampton",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "RPI"
+    },
+    {
+      "name": "Jordan Vaillancourt",
+      "number": "45",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "RPI"
+    },
+    {
+      "name": "Scott Lowe",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "RPI"
+    },
+    {
+      "name": "Ben Shocket",
+      "number": "47",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "RPI"
+    },
+    {
+      "name": "Will Zakrzewski",
+      "number": "48",
+      "position": "Midfield/AttackM/A",
+      "classYear": "Freshman",
+      "team": "RPI"
+    },
+    {
+      "name": "Easton Morse",
+      "number": "49",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "RPI"
+    },
+    {
+      "name": "Ryan Sweet",
+      "number": "50",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "RPI"
+    },
+    {
+      "name": "Jackson Massaroni",
+      "number": "51",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "RPI"
+    },
+    {
+      "name": "Theo Mehlman",
+      "number": "52",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "RPI"
+    },
+    {
+      "name": "Sean McHugh",
+      "number": "54",
+      "position": "Defense",
+      "classYear": "Graduate",
+      "team": "RPI"
+    },
+    {
+      "name": "Hunter Sullivan",
+      "number": "55",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "RPI"
+    }
+  ]
+}

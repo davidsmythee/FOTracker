@@ -1,0 +1,266 @@
+{
+  "team": "Lawrence University",
+  "scrapedAt": "2026-03-13T22:05:24.326762Z",
+  "playerCount": 37,
+  "players": [
+    {
+      "name": "CJ Gilliam",
+      "number": "0",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Robbie Spielmann",
+      "number": "2",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Sophomore",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Eamon Tegenfeldt-Pfohman",
+      "number": "3",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Sophomore",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Gavin Reiter",
+      "number": "4",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Cody Brekke",
+      "number": "5",
+      "position": "FOGOFO",
+      "classYear": "Junior",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Cullen Osterman",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Devon Cooper",
+      "number": "7",
+      "position": "FOGOFO",
+      "classYear": "Sophomore",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Connor Badger",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Tyler Graham",
+      "number": "9",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Ben Blazevic-Seibert",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Jack Schwalbach",
+      "number": "11",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Fy.",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Zak Sokolowski",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Finn Anderson",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Henry Fischer",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Truett Jones",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Joe McCabe",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Sam  Williams",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Ryan Ostermann",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Nicholas Townsend",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Nate Booth",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Judah Goehring",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Carter Wahlroth",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Leif  Wyland",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Logan Marsh",
+      "number": "27",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Josh Danis",
+      "number": "28",
+      "position": "Long-Stick MidfielderLSM",
+      "classYear": "Sophomore",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Brody Herr",
+      "number": "29",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Owen Debbert",
+      "number": "30",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Taryn Callaway",
+      "number": "31",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Vernon Stevens",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Zachary Breaux",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Aron Rodriguez",
+      "number": "46",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Tyler Hoerz",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Cooper Wessel",
+      "number": "71",
+      "position": "Midfield/Long Stick Midfield/LSM",
+      "classYear": "Sophomore",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Henry Hayes",
+      "number": "77",
+      "position": "Midfield/Long Stick Midfield/LSM",
+      "classYear": "Junior",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Emmett Eischens",
+      "number": "88",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Jayden Robinson",
+      "number": "91",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Lawrence University"
+    },
+    {
+      "name": "Caleb Givler",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Lawrence University"
+    }
+  ]
+}

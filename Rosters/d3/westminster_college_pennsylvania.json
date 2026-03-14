@@ -1,0 +1,315 @@
+{
+  "team": "Westminster College - Pennsylvania",
+  "scrapedAt": "2026-03-13T22:09:11.998621Z",
+  "playerCount": 44,
+  "players": [
+    {
+      "name": "Charlie West",
+      "number": "0",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Jack Steimle",
+      "number": "1",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Nickolas Stump",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Jimmy Erfort",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Garrett Henning",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Will Albrecht",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Tyler Evangelista",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Teegan Louise",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Ethan Kurtz",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Isaiah Gutierrez",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Zach Meszaros",
+      "number": "13",
+      "position": "FOGO, defenseFO/D",
+      "classYear": "Senior",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Chris Kapolka",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Dallas  Myers",
+      "number": "17",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Grady Tierney",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Zack Reid",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Matt Peters",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Alec Dominick",
+      "number": "21",
+      "position": "Long-stick midfieldLSM",
+      "classYear": "Junior",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Colby Besch",
+      "number": "22",
+      "position": "Long-stick midfieldLSM",
+      "classYear": "Freshman",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Adam Teixera",
+      "number": "25",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Kyler Nigliazzo",
+      "number": "26",
+      "position": "Attack, midfieldA/M",
+      "classYear": "Senior",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Anthony Trella",
+      "number": "27",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Asher Silberling",
+      "number": "28",
+      "position": "Short-stick defensive midfieldSSDM",
+      "classYear": "Senior",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Tanner Crosby",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Brady  Skinner",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Jorden Tate",
+      "number": "33",
+      "position": "Goalkeeper",
+      "classYear": "Senior",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Brady Page",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Evan  Wujek",
+      "number": "35",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Cole Sobolewski",
+      "number": "38",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Tyler Walkiewicz",
+      "number": "39",
+      "position": "Attack, midfieldA/M",
+      "classYear": "Freshman",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "John Spinelli",
+      "number": "40",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Gianni DiSora",
+      "number": "41",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Paul  DiPasquale",
+      "number": "42",
+      "position": "Attack, midfieldA/M",
+      "classYear": "Sophomore",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Jake Spiritoso",
+      "number": "45",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Nathan  Check",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Aiden Renick",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Jeromie Murray",
+      "number": "52",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Shawn Wooles",
+      "number": "54",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Ian  McDwyer",
+      "number": "55",
+      "position": "Long-stick midfield, defenseLSM/D",
+      "classYear": "Sophomore",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Evan White",
+      "number": "70",
+      "position": "Goalkeeper",
+      "classYear": "Freshman",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Marshal Maguire",
+      "number": "77",
+      "position": "Attack, midfieldA/M",
+      "classYear": "Senior",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Jahiem Hawkins",
+      "number": "88",
+      "position": "Short-stick defensive midfieldSSDM",
+      "classYear": "Senior",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Braylon Juszak",
+      "number": "91",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Brendan Robinson",
+      "number": "97",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Westminster College - Pennsylvania"
+    },
+    {
+      "name": "Jack Poller",
+      "number": "99",
+      "position": "Long-stick midfieldLSM",
+      "classYear": "Sophomore",
+      "team": "Westminster College - Pennsylvania"
+    }
+  ]
+}

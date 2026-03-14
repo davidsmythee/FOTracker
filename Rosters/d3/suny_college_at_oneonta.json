@@ -1,0 +1,294 @@
+{
+  "team": "SUNY College at Oneonta",
+  "scrapedAt": "2026-03-13T22:07:41.880730Z",
+  "playerCount": 41,
+  "players": [
+    {
+      "name": "Brian Zecchini",
+      "number": "0",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Sean Grimes",
+      "number": "1",
+      "position": "FOGO SpecialistFOGO",
+      "classYear": "Sophomore",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "John Corvino",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Shakim Carr",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Nathan Nurse",
+      "number": "4",
+      "position": "FOGO SpecialistFOGO",
+      "classYear": "Junior",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Nick Martin",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Thomas Hnis",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Sergio Ilario",
+      "number": "7",
+      "position": "Defense/MidfieldD/M",
+      "classYear": "Senior",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Dylan Naggar",
+      "number": "8",
+      "position": "LSM/D",
+      "classYear": "Freshman",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Jamie O'Neil",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Hunter Busch",
+      "number": "10",
+      "position": "Defense/Long Stick MidfieldD/LSM",
+      "classYear": "Sophomore",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Ryan Lussier",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Finn Morris",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Aidan Boyle",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Cody Sharp",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Jackson Forsberg",
+      "number": "15",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Sophomore",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Riley Royals",
+      "number": "16",
+      "position": "",
+      "classYear": "Sophomore",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Logan Mariotti",
+      "number": "17",
+      "position": "Defense/Long Stick MidfieldD/LSM",
+      "classYear": "Sophomore",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Daniel Baranoski",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Tommy Hyland",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Aidan Brinn",
+      "number": "21",
+      "position": "Longstick MidfieldLSM",
+      "classYear": "Freshman",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Daniel Macchiarella",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Tyler Carroll",
+      "number": "23",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "David Trahan",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Will Fruscio",
+      "number": "25",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Jesse Royals",
+      "number": "26",
+      "position": "",
+      "classYear": "Sophomore",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Aidan Greene",
+      "number": "27",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Ben Thayer",
+      "number": "28",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Johnny Terrana",
+      "number": "29",
+      "position": "Defense/Long Stick MidfielderD/LSM",
+      "classYear": "Junior",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Gavin McGrath",
+      "number": "30",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Jaden Langhorn",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Jason Monopoli",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Ryan Collins",
+      "number": "35",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Matt Sellitto",
+      "number": "40",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Shane Mueller",
+      "number": "42",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Thomas Gallagher",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Mark Restivo",
+      "number": "55",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Ryan Babikian",
+      "number": "87",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Nick Armato",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Wyatt Martin",
+      "number": "91",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY College at Oneonta"
+    },
+    {
+      "name": "Trey Fee",
+      "number": "99",
+      "position": "DefensemanD",
+      "classYear": "Junior",
+      "team": "SUNY College at Oneonta"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "team": "Anna Maria College",
+  "scrapedAt": "2026-03-14T00:50:40.263002Z",
+  "playerCount": 20,
+  "players": [
+    {
+      "name": "Nico Vaccaro",
+      "number": "0",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Anna Maria College"
+    },
+    {
+      "name": "Aidan Maisen",
+      "number": "1",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Anna Maria College"
+    },
+    {
+      "name": "Talon Botelho",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Anna Maria College"
+    },
+    {
+      "name": "Cole Gringas",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Anna Maria College"
+    },
+    {
+      "name": "Logan Danaruma",
+      "number": "4",
+      "position": "M/F",
+      "classYear": "Sophomore",
+      "team": "Anna Maria College"
+    },
+    {
+      "name": "Matthew Brooker",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Anna Maria College"
+    },
+    {
+      "name": "Nash Sicari-Swinimer",
+      "number": "9",
+      "position": "M/F",
+      "classYear": "Freshman",
+      "team": "Anna Maria College"
+    },
+    {
+      "name": "Quinn Curren",
+      "number": "10",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Anna Maria College"
+    },
+    {
+      "name": "Jacob Martin",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Anna Maria College"
+    },
+    {
+      "name": "Kyle Pickering",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Anna Maria College"
+    },
+    {
+      "name": "Carter Hart",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Anna Maria College"
+    },
+    {
+      "name": "Nicholas Hussa",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Anna Maria College"
+    },
+    {
+      "name": "Eric Farrell",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Anna Maria College"
+    },
+    {
+      "name": "Brecken Veara",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Anna Maria College"
+    },
+    {
+      "name": "Nick Lopez",
+      "number": "27",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Anna Maria College"
+    },
+    {
+      "name": "Joseph Osborn",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Anna Maria College"
+    },
+    {
+      "name": "Stephen Katos",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Anna Maria College"
+    },
+    {
+      "name": "Miles Cormier",
+      "number": "38",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Anna Maria College"
+    },
+    {
+      "name": "Dmitry Nefedov",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Anna Maria College"
+    },
+    {
+      "name": "Tyler Davidson",
+      "number": "88",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Anna Maria College"
+    }
+  ]
+}

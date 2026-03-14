@@ -1,0 +1,252 @@
+{
+  "team": "Thomas College",
+  "scrapedAt": "2026-03-13T22:08:09.791932Z",
+  "playerCount": 35,
+  "players": [
+    {
+      "name": "Mike Picard",
+      "number": "00",
+      "position": "GoalieG",
+      "classYear": "FY",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Juan Otero",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "FY",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Hunter  Vail",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Toby Hopson",
+      "number": "3",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Connor Hamilton",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Gavin Start",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Tyler Lydon",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Ciaran Vizi",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Charlie Foster-Major",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Caleb Vose",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Jack Morrill",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Simon Lanigan",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "FY",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Dustyn Hinkley",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Jesse Sag",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "FY",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Owen Lyons",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Nicholas Pike",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Dexter Morin",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "FY",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Tyler Gay",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Hunter Simpson",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Caleb Pack",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Cooper Freeman",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "FY",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Dylan Preston",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "FY",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Nick Fischetto",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Tracen Wagner",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Layton Lyons",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "FY",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Nathan Myers",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Declan Brown",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "FY",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Zander Ysewyn",
+      "number": "27",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Sam Lockwood",
+      "number": "33",
+      "position": "GoalieG",
+      "classYear": "FY",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Jamie Fonseca",
+      "number": "34",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Patrick Babineau",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Kyle Siebert",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Vincent Pavonetti",
+      "number": "45",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Kyle Van Doren-Crooker",
+      "number": "77",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Thomas College"
+    },
+    {
+      "name": "Wyatt Lyons",
+      "number": "99",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Thomas College"
+    }
+  ]
+}

@@ -1,0 +1,420 @@
+{
+  "team": "Tufts University",
+  "scrapedAt": "2026-03-13T22:08:16.131910Z",
+  "playerCount": 59,
+  "players": [
+    {
+      "name": "Victor Salcedo",
+      "number": "0",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Nick George",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Jack Old",
+      "number": "2",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Ethan O'Neill",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Max Kukla",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Jackson Redd",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Will Anderson",
+      "number": "6",
+      "position": "GK",
+      "classYear": "Junior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Sean  Sheehan",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Brooks Hauser",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Ben Frisoli",
+      "number": "9",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Brayden Beyer",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Luke Theberge",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Mason Theis",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Tommy McCool",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Garrett Kelly",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Harrison Stockdale",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Ben Clarke",
+      "number": "16",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Walter Osowski",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Tufts University"
+    },
+    {
+      "name": "PJ Haskell",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Alex Dircks",
+      "number": "19",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Jack Regnery",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Carter Fears",
+      "number": "22",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Peter Kraemer",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Drew Bossi",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Elliot Rutherford",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Mack Leonhartt",
+      "number": "26",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Jack Donovan",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Chase Beyer",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Drew Haugen",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Tej Gadhavi",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Declan Murphy",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Chris Tsetsekos",
+      "number": "32",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Will Emsing",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Erik Helgeson",
+      "number": "35",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Brandon Rosenthal",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Cole Friedlander",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Sam Juhnke",
+      "number": "38",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Lucas De la Paz",
+      "number": "39",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Beau Ryan",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Henry Tweedy",
+      "number": "41",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Blake Washburn",
+      "number": "42",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Jules Capone",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Logan Lee",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Bryce Hall-Knight",
+      "number": "45",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Noah Minkwitz",
+      "number": "46",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Michael Kraemer",
+      "number": "47",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Brian Winters",
+      "number": "48",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "David Levine",
+      "number": "49",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Asher Lewis",
+      "number": "50",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Tufts University"
+    },
+    {
+      "name": "William Bonner",
+      "number": "51",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Dermot Tynan",
+      "number": "52",
+      "position": "Team ImpactTeam Impact",
+      "classYear": "Senior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Jordan Ito",
+      "number": "55",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Mason Moore",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Brooks Byrnes",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Bowman Rhinesmith",
+      "number": "87",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Beau Keough",
+      "number": "88",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Davis Owens",
+      "number": "91",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Sean Collins",
+      "number": "92",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Tufts University"
+    },
+    {
+      "name": "Josiah de Grasse",
+      "number": "",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Tufts University"
+    }
+  ]
+}

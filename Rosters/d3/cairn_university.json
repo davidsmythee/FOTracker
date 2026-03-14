@@ -1,0 +1,126 @@
+{
+  "team": "Cairn University",
+  "scrapedAt": "2026-03-13T22:03:01.258819Z",
+  "playerCount": 17,
+  "players": [
+    {
+      "name": "Colin Welsh",
+      "number": "0",
+      "position": "MM",
+      "classYear": "Junior",
+      "team": "Cairn University"
+    },
+    {
+      "name": "Daniel Lafferty",
+      "number": "1",
+      "position": "GKGK",
+      "classYear": "Senior",
+      "team": "Cairn University"
+    },
+    {
+      "name": "Brenden Adler",
+      "number": "3",
+      "position": "AA",
+      "classYear": "Freshman",
+      "team": "Cairn University"
+    },
+    {
+      "name": "Adain Holliday",
+      "number": "7",
+      "position": "FO/MFO/M",
+      "classYear": "Senior",
+      "team": "Cairn University"
+    },
+    {
+      "name": "Luke Ruiz",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Cairn University"
+    },
+    {
+      "name": "Samuel Orgelfinger",
+      "number": "11",
+      "position": "D/LSMD/LSM",
+      "classYear": "Freshman",
+      "team": "Cairn University"
+    },
+    {
+      "name": "Luke Fowler",
+      "number": "12",
+      "position": "M/AM/A",
+      "classYear": "Junior",
+      "team": "Cairn University"
+    },
+    {
+      "name": "Ethan Smelcer",
+      "number": "13",
+      "position": "AA",
+      "classYear": "Freshman",
+      "team": "Cairn University"
+    },
+    {
+      "name": "Michael Burnham",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Cairn University"
+    },
+    {
+      "name": "Noah Jones",
+      "number": "19",
+      "position": "MM",
+      "classYear": "Junior",
+      "team": "Cairn University"
+    },
+    {
+      "name": "Elijah Haney",
+      "number": "20",
+      "position": "DD",
+      "classYear": "Sophomore",
+      "team": "Cairn University"
+    },
+    {
+      "name": "Cole Heffler",
+      "number": "23",
+      "position": "AA",
+      "classYear": "Senior",
+      "team": "Cairn University"
+    },
+    {
+      "name": "Joshua Wong",
+      "number": "24",
+      "position": "MM",
+      "classYear": "Sophomore",
+      "team": "Cairn University"
+    },
+    {
+      "name": "Austin Bellace",
+      "number": "25",
+      "position": "SSDMSSDM",
+      "classYear": "Freshman",
+      "team": "Cairn University"
+    },
+    {
+      "name": "Deyshon Green",
+      "number": "34",
+      "position": "LSMLSM/D",
+      "classYear": "Senior",
+      "team": "Cairn University"
+    },
+    {
+      "name": "Brennen Beyer",
+      "number": "67",
+      "position": "SSDMSSDM",
+      "classYear": "Freshman",
+      "team": "Cairn University"
+    },
+    {
+      "name": "Timothy Palmer",
+      "number": "99",
+      "position": "DD",
+      "classYear": "Freshman",
+      "team": "Cairn University"
+    }
+  ]
+}

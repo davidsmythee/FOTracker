@@ -1,0 +1,357 @@
+{
+  "team": "University of Scranton",
+  "scrapedAt": "2026-03-13T22:08:41.809999Z",
+  "playerCount": 50,
+  "players": [
+    {
+      "name": "Jake D'Agata",
+      "number": "0",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Declan Allen",
+      "number": "1",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Cooper Roberts",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Chase Ritcey",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Kellen McInerney",
+      "number": "4",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Brendan  Donohue",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Patrick D'Amaro",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Eric Reisenwitz",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Kyle Holmes",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Jack O'Hora",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Jason Kozak",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Logan Gibbs",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Sean Monaghan",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Dean Hiltsley",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Chris Vanco",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Jude Sargent",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Shaun Walters",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Matthew Capra",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Christian DiGilio",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Nick Jankowski",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Logan Kelly",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Carsen Kirchner",
+      "number": "23",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "David Kelly",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Kevin Kukla",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Jackson Snyder",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Joe Lavery",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "David Dubas",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Brendan Bicking",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Eamonn Twomey",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Zachary Smullen",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Michael Clemente",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Quinn McGloin",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Thomas Whitaker",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "James Lavarra",
+      "number": "35",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Sean Kiernan",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Tommy Tremarco",
+      "number": "37",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Thomas  Popolizio",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Connor Cole",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Myles McCutcheon",
+      "number": "44",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Shawn Martin",
+      "number": "45",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Colin Giarrusso",
+      "number": "46",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Brian Kraemer",
+      "number": "48",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Evan DiGilio",
+      "number": "49",
+      "position": "D/LSM",
+      "classYear": "Sophomore",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Jack Crotty",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Quinn Carson",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "John Kearns",
+      "number": "52",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Jayden Truesdale",
+      "number": "53",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Connor Cuonzo",
+      "number": "55",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Luke Ehler",
+      "number": "77",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "University of Scranton"
+    },
+    {
+      "name": "Andrew Danowski",
+      "number": "99",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Scranton"
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "team": "Sewanee - The University of the South",
+  "scrapedAt": "2026-03-13T22:07:16.818965Z",
+  "playerCount": 48,
+  "players": [
+    {
+      "name": "Manoli Loupassi",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Hudson Gregory",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "JM DuPree",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Lane Healy",
+      "number": "4",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Sophomore",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Clay Upchurch",
+      "number": "5",
+      "position": "FOGO SpecialistFO",
+      "classYear": "Junior",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Hank Walsh",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Sage Cookerly",
+      "number": "7",
+      "position": "AttackA",
+      "classYear": "Senior",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Gus Albright",
+      "number": "8",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Junior",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Mac Elliott",
+      "number": "9",
+      "position": "Short-Stick Defensive MidfielderSSDM",
+      "classYear": "Senior",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Max Bensing",
+      "number": "10",
+      "position": "Face OffFO",
+      "classYear": "Sophomore",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "William Hooker",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Charlie Hanson",
+      "number": "12",
+      "position": "Defense / Long Stick MidfielderD/LSM",
+      "classYear": "Junior",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Harrison Fuller",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Colin Bennett",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Jake Greene",
+      "number": "15",
+      "position": "Attack / MidfieldA/M",
+      "classYear": "Junior",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Beau Burnette",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Luka Stojkovich",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Flynn Bowman",
+      "number": "18",
+      "position": "Goalkeeper",
+      "classYear": "Senior",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Will Mensh",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Walton Sullivan",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Asa Nischwitz",
+      "number": "22",
+      "position": "FOGO SpecialistFO",
+      "classYear": "Junior",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "John Openshaw",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Peter Gaudion",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Shay Dotterer",
+      "number": "25",
+      "position": "Short Stick Defensive MidfielderSSDM",
+      "classYear": "Junior",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Stutts Everette",
+      "number": "26",
+      "position": "GoalieGK",
+      "classYear": "Junior",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Robert Freeman",
+      "number": "27",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Jack Jarrell",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Chris Rothenberger",
+      "number": "29",
+      "position": "Long Stick Midfielder/DefenseLSM/D",
+      "classYear": "Freshman",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Sam Ramberg",
+      "number": "30",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "James Bogusky",
+      "number": "31",
+      "position": "Short Stick Defensive Midfielder / Long-Stick MidfielderSSDM/LSM",
+      "classYear": "Junior",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Tanner Furyk",
+      "number": "32",
+      "position": "Long-Stick MidfielderLSM",
+      "classYear": "Senior",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Hayden Regan",
+      "number": "33",
+      "position": "Goalkeeper",
+      "classYear": "Freshman",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Jaser Amer",
+      "number": "35",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Tyler Clary",
+      "number": "36",
+      "position": "Short Stick Defensive Midfielder/Long Stick MidfielderSSDM/LSM",
+      "classYear": "Freshman",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Benton Sullivan",
+      "number": "40",
+      "position": "FOGO SpecialistFO",
+      "classYear": "Freshman",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Cole Preschlack",
+      "number": "44",
+      "position": "GoalieGK",
+      "classYear": "Sophomore",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Will Kennedy",
+      "number": "46",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Charles Moran",
+      "number": "48",
+      "position": "AttackA",
+      "classYear": "Senior",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Henry Kirtley",
+      "number": "49",
+      "position": "Short Stick Defensive MidfielderSSDM",
+      "classYear": "Freshman",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Henry Westfall",
+      "number": "50",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Asher Bowman",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Blake  Powers",
+      "number": "52",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Aidan  Feltman",
+      "number": "55",
+      "position": "Attack/MidfielderA/M",
+      "classYear": "Freshman",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Hudson Jones",
+      "number": "57",
+      "position": "Short Stick Defensive MidfielderSSDM",
+      "classYear": "Sophomore",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Alex Washington",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Griffin Peterson",
+      "number": "77",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Corbet Darden",
+      "number": "88",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Sewanee - The University of the South"
+    },
+    {
+      "name": "Egan Funke",
+      "number": "93",
+      "position": "Long Stick Midfielder/DefenseLSM/D",
+      "classYear": "Sophomore",
+      "team": "Sewanee - The University of the South"
+    }
+  ]
+}

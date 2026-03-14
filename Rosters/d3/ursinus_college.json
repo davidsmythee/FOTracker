@@ -1,0 +1,329 @@
+{
+  "team": "Ursinus College",
+  "scrapedAt": "2026-03-13T22:08:45.334768Z",
+  "playerCount": 46,
+  "players": [
+    {
+      "name": "Colin Daroch",
+      "number": "0",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Aidan Kirk",
+      "number": "1",
+      "position": "A/M",
+      "classYear": "Senior",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Louis Kelly",
+      "number": "2",
+      "position": "M/D",
+      "classYear": "Fy.",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Nick Pomajevich",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Landon Rasmus",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Lars Homan",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Daniel Rice",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Keegan Borkowski",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Jared Laskin",
+      "number": "8",
+      "position": "A/M",
+      "classYear": "Junior",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Andrew Matulevicius",
+      "number": "9",
+      "position": "GK",
+      "classYear": "Fy.",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Reid Weisshaar",
+      "number": "10",
+      "position": "A/M",
+      "classYear": "Fy.",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Macky Bonner",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Nick Fareno",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Quentin Kuehn",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Chris Bryant",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Nate Groody",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Dean Davis",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Jake McMahon",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Nicholas Hengerer",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Will Hussa",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Neil Hutchinson",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Nils Updale",
+      "number": "21",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Barrett Denlinger",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Chris Forgie",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "William Grahame",
+      "number": "24",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Harry Sweitzer",
+      "number": "25",
+      "position": "A/M",
+      "classYear": "Senior",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Daniel Bachenski",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Daniel Kupiec",
+      "number": "27",
+      "position": "A/M",
+      "classYear": "Junior",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Greg Belville",
+      "number": "28",
+      "position": "SSDM/LSM",
+      "classYear": "Senior",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Peyton Bannak",
+      "number": "29",
+      "position": "FOGO",
+      "classYear": "Fy.",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Luke Christmas",
+      "number": "30",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Bryce Pistorio",
+      "number": "32",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Luke Nicolas",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Micah McAnaney",
+      "number": "36",
+      "position": "D/M",
+      "classYear": "Fy.",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Philip Goldfarb",
+      "number": "38",
+      "position": "GK",
+      "classYear": "Junior",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Jackson Wilkinson",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Nicholas Grahame",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Kieran Udovich",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Matt Hyder",
+      "number": "44",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Max Garcia",
+      "number": "50",
+      "position": "A/M",
+      "classYear": "Sophomore",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Matt Callahan",
+      "number": "55",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Derek Cooper",
+      "number": "77",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Evan Saunders",
+      "number": "88",
+      "position": "D/M",
+      "classYear": "Fy.",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Cole Mogensen",
+      "number": "91",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Zach Lewis",
+      "number": "92",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "Ursinus College"
+    },
+    {
+      "name": "Jeffrey Gerdes",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Ursinus College"
+    }
+  ]
+}

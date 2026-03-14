@@ -1,0 +1,392 @@
+{
+  "team": "University of Lynchburg",
+  "scrapedAt": "2026-03-13T22:08:25.808481Z",
+  "playerCount": 55,
+  "players": [
+    {
+      "name": "Parker Sealey",
+      "number": "0",
+      "position": "MidfieldSSDM",
+      "classYear": "Senior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Eric Allen",
+      "number": "1",
+      "position": "GoalkeeperG",
+      "classYear": "Junior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Liam Holman",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Luke Meadows",
+      "number": "3",
+      "position": "Longstick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Kylar Mahoney",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Will Hicks",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Luke Brookman",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Henry Fowler",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Thadeo Hyland",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Cole Oprandi",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Brodie Mason",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Cam Ash",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Jack Murdock",
+      "number": "12",
+      "position": "Longstick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Rocco Egan",
+      "number": "13",
+      "position": "FOGOFO",
+      "classYear": "Sophomore",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Ethan Carr",
+      "number": "14",
+      "position": "MidfieldSSDM",
+      "classYear": "Senior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Andrew Beal",
+      "number": "15",
+      "position": "MidfieldSSDM",
+      "classYear": "Senior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Ryan Hildebrand",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Luca Orelli",
+      "number": "17",
+      "position": "GoalkeeperG",
+      "classYear": "Sophomore",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Chris Burke",
+      "number": "18",
+      "position": "GoalkeeperG",
+      "classYear": "Freshman",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Riley Frankel",
+      "number": "19",
+      "position": "FOGOFO",
+      "classYear": "Senior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Josh Caramagno",
+      "number": "20",
+      "position": "FOGOFO",
+      "classYear": "Sophomore",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Tucker Olmert",
+      "number": "21",
+      "position": "MidfieldSSDM",
+      "classYear": "Junior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Gabe Menchaca",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Kolbe Haug",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Riley Hastings",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "James Bauer",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Jake Morales",
+      "number": "26",
+      "position": "Longstick MidfieldLSM",
+      "classYear": "Freshman",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Finn Schmidt",
+      "number": "27",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Brooks Griffith",
+      "number": "28",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Michael Hayes",
+      "number": "29",
+      "position": "MidfieldSSDM",
+      "classYear": "Senior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Baden Garwood",
+      "number": "30",
+      "position": "GoalkeeperG",
+      "classYear": "Freshman",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Mikey Richardson",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Kayden Hinchey",
+      "number": "32",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Brennan Olmert",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Mak Krohn",
+      "number": "34",
+      "position": "Longstick MidfieldLSM",
+      "classYear": "Junior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Adam Volm",
+      "number": "35",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Will Rubley",
+      "number": "37",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Spencer Vandenberg",
+      "number": "38",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Mark Rubley",
+      "number": "39",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Jackson Scaperotto",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Alex Morton",
+      "number": "41",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Liam Crawford",
+      "number": "42",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Liam Haley",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Quincy White",
+      "number": "44",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Matej Roth",
+      "number": "46",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Noah Burkhart",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Will Carrara",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Nathan Miller",
+      "number": "49",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Hudson Royer",
+      "number": "50",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Drew Schmidt",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Aidan Casey",
+      "number": "52",
+      "position": "MidfieldSSDM",
+      "classYear": "Sophomore",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Daniel Scaperotto",
+      "number": "53",
+      "position": "MidfieldSSDM",
+      "classYear": "Freshman",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Will Ely",
+      "number": "54",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Evan Yale",
+      "number": "55",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Lynchburg"
+    },
+    {
+      "name": "Van Tanguay",
+      "number": "56",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "University of Lynchburg"
+    }
+  ]
+}

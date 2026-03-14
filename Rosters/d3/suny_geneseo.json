@@ -1,0 +1,392 @@
+{
+  "team": "SUNY Geneseo",
+  "scrapedAt": "2026-03-13T22:07:50.413813Z",
+  "playerCount": 55,
+  "players": [
+    {
+      "name": "Cole Parker",
+      "number": "0",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Elijah Martin",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Ian Leahey",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Luca Schettino",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Sam Myung",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Owen Ellick",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Colin Cahill",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Ryan Trebing",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Stephen Mendolia",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Mack O'Brien",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Aidan Crane",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Josh Knapp",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Ian Delpha",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Jake Perinchief",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Aidan Corbalis",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Zach Fishman",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Jagger Altieri",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Mason Marinaro",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Maddox Gorney",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Christian Besaw",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Skyler Mitchell",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Jake Starkey",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Alex Johanson",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Aidan Ruhm",
+      "number": "23",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Alex Rheude",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Owen McCarthy",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Caleb Martin",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Aidan Stanton",
+      "number": "27",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Jack Helrigel",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Ethan Levy",
+      "number": "29",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Ronnie Trebing",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Logan Ciniglio",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Dom Nicholas",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Ben Bradshaw",
+      "number": "33",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Cal Oberst",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Max Esposito",
+      "number": "35",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "William Moore",
+      "number": "36",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Nick Stockwell",
+      "number": "37",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Asher Levine",
+      "number": "38",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Aksel Stanat",
+      "number": "39",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Brady Cavanaugh",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Jacob Pensabene",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Nick NiCastro",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Nick Turner",
+      "number": "43",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Ryan Fitzgerald",
+      "number": "44",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Owen Simons",
+      "number": "45",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Padric Browne",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Chad Smith",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Jacob Fifield",
+      "number": "48",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Jack Montagano",
+      "number": "49",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Jack Wenham",
+      "number": "50",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Cole Milani",
+      "number": "52",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Ryan Johnstone",
+      "number": "53",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Sam Slaninka",
+      "number": "54",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY Geneseo"
+    },
+    {
+      "name": "Beckham Clancy",
+      "number": "55",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "SUNY Geneseo"
+    }
+  ]
+}

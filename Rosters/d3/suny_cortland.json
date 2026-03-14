@@ -1,0 +1,497 @@
+{
+  "team": "SUNY Cortland",
+  "scrapedAt": "2026-03-13T22:07:44.926083Z",
+  "playerCount": 70,
+  "players": [
+    {
+      "name": "Sean Kavanagh",
+      "number": "0",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Finnegan Mitchell",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Mason Carroll",
+      "number": "2",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Sophomore",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Caden Morra",
+      "number": "3",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Junior",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "James Violi",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Conor Cosgrove",
+      "number": "5",
+      "position": "Defense/MidfieldD/M",
+      "classYear": "Sophomore",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Drew Williamee",
+      "number": "6",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Jack Lucidi",
+      "number": "7",
+      "position": "GoalkeeperG",
+      "classYear": "Sophomore",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Eli Volk",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Jack LaBarbera",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Nathan Nagengast",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Frank Neeson",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Landen Cumm",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Liam Rogers",
+      "number": "13",
+      "position": "Long-stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Gannon Houghton",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Steven Baranoski",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Brayden Black",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Michael Restino",
+      "number": "17",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Liam Burns",
+      "number": "18",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Junior",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Patrick O'Doherty",
+      "number": "19",
+      "position": "Defensive MidfieldDM",
+      "classYear": "Sophomore",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Colton Hornquist",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Tucker Macknik",
+      "number": "22",
+      "position": "Long-stick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Chad Bowen",
+      "number": "23",
+      "position": "FOGO SpecialistFO",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "James Sullivan",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Charlie Falowski",
+      "number": "25",
+      "position": "GoalkeeperG",
+      "classYear": "Junior",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Jacob Miller",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Oban Rader",
+      "number": "27",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Colin Doyle",
+      "number": "28",
+      "position": "Defensive MidfieldDM",
+      "classYear": "Senior",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Nate Marinaro",
+      "number": "29",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Bubba Baumeister",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Michael Rickard",
+      "number": "31",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Nick Stoecker",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Craig McEneany",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Nick D'Alleva",
+      "number": "35",
+      "position": "Defensive MidfieldDM",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Justin Lary",
+      "number": "36",
+      "position": "Long-stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Hudson DeLisle",
+      "number": "37",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Jimmy Addonizio",
+      "number": "39",
+      "position": "Defense/MidfieldD/M",
+      "classYear": "Senior",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Maxwell McEnerney",
+      "number": "40",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Ryan Gribbon",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Stefan Swedlund",
+      "number": "42",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Dino Bowen",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Harper Connally",
+      "number": "44",
+      "position": "FOGO SpecialistFO",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Andre McGraime",
+      "number": "45",
+      "position": "FOGO SpecialistFO",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Timmy Norum",
+      "number": "46",
+      "position": "Defensive MidfieldDM",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Shea Hegarty",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Carmen Orton",
+      "number": "48",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Max Moran",
+      "number": "49",
+      "position": "GoalkeeperG",
+      "classYear": "Sophomore",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "James Devine",
+      "number": "50",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Daniel Delaney",
+      "number": "51",
+      "position": "Defensive MidfieldDM",
+      "classYear": "Senior",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Patrick Hyland",
+      "number": "52",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Logan Stauber",
+      "number": "53",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Ethan Pope",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Paul Fitzgerald",
+      "number": "56",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Donovan Sinibaldi",
+      "number": "59",
+      "position": "Long-stick MidfieldLSM",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Matthew Siener",
+      "number": "60",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Jack Skarren",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "AJ Surian",
+      "number": "77",
+      "position": "Long-stick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Nicky Miltenberger",
+      "number": "88",
+      "position": "FOGO SpecialistFO",
+      "classYear": "Junior",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Sean Olvany",
+      "number": "99",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Michael Avgenikos",
+      "number": "",
+      "position": "FOGO SpecialistFO",
+      "classYear": "Senior",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Connor Bierfeldt",
+      "number": "",
+      "position": "Long-stick MidfieldLSM",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Liam R. Burns",
+      "number": "",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Jack Dickerson",
+      "number": "",
+      "position": "GoalkeeperG",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Will Drake",
+      "number": "",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Asher Harrison",
+      "number": "",
+      "position": "GoalkeeperG",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Ethan Petrus",
+      "number": "",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Jesse Seder",
+      "number": "",
+      "position": "Defensive MidfieldDM",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Jake Seefeldt",
+      "number": "",
+      "position": "GoalkeeperG",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Harper Shaw",
+      "number": "",
+      "position": "FOGO SpecialistFO",
+      "classYear": "Freshman",
+      "team": "SUNY Cortland"
+    },
+    {
+      "name": "Ray Torchia",
+      "number": "",
+      "position": "Defensive MidfieldDM",
+      "classYear": "Sophomore",
+      "team": "SUNY Cortland"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "team": "Muskingum University",
+  "scrapedAt": "2026-03-14T00:58:25.907244Z",
+  "playerCount": 36,
+  "players": [
+    {
+      "name": "Jakob Hartman",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Sam Bolen",
+      "number": "2",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Cooper Risinger",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Severino Smathers",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "William Swift",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Liam Manning",
+      "number": "8",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "James Krusinski",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Jaeden Klimkowski",
+      "number": "10",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Calvin Warner",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Adin Mondul",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Dillon Caudill",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Josh Lichter",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Ethan Kline",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Ethan Kmieske",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Evan Cosgrove",
+      "number": "17",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Tyler Workman",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Trace Clark",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Brayden Wolfe",
+      "number": "20",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Logan Truitt",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Chipper Iacobucci",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Nick Cannon",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Spencer Andrews",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Gabriel Sisk",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Owen Winkler",
+      "number": "26",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Trey Wisniewski",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Josh Johnson",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Luke Spreng",
+      "number": "30",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Dominic McJunkin",
+      "number": "31",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Gavin Campbell",
+      "number": "32",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Jacob McDermott",
+      "number": "36",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Justin White",
+      "number": "37",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Jackson Scheibach",
+      "number": "43",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Grant Smith",
+      "number": "56",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Tyler Heilbrunn",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Brady Patterson",
+      "number": "91",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Muskingum University"
+    },
+    {
+      "name": "Jeremy Hollow",
+      "number": "99",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Muskingum University"
+    }
+  ]
+}

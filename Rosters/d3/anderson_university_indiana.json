@@ -1,0 +1,329 @@
+{
+  "team": "Anderson University - Indiana",
+  "scrapedAt": "2026-03-13T22:02:32.860999Z",
+  "playerCount": 46,
+  "players": [
+    {
+      "name": "Chris Czulada",
+      "number": "0",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Tyler Hodowanec",
+      "number": "1",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Ryan Bitterman",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Garrett Krsul",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "R-So.",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Matthew Rodgers",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Grier Martin",
+      "number": "5",
+      "position": "D/LSM",
+      "classYear": "Junior",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Jacob Ward",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Brodie Deutsch",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "R-So.",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Cole Sparks",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Peyton Isola",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Radyn Badraun",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Aiden Dixon",
+      "number": "11",
+      "position": "M/FO",
+      "classYear": "Junior",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Nash Perry",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "AJ Rush",
+      "number": "13",
+      "position": "M/FO",
+      "classYear": "Junior",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "PJ Flynn",
+      "number": "14",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Sean Archibald",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Landon Foshee",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Luke Wheeler",
+      "number": "17",
+      "position": "A/M",
+      "classYear": "Freshman",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Jaden Riley",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Adin Laughlin",
+      "number": "20",
+      "position": "GK",
+      "classYear": "R-Jr.",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Jacob Kirchhofer",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Drew McCall",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Ryan Butch",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Diego Lopez",
+      "number": "24",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Ethan Owens",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Frankie Pagnotta",
+      "number": "26",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Riley Wright",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Will Hazelhurst",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Brayden Bushnoe",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Jacob Tieskoetter",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Charlie Turner",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Nikko Baskot",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Kai Wasielewski",
+      "number": "37",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "James Watson",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Kevin Connolly",
+      "number": "44",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Lukas Newman",
+      "number": "45",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Bobby Devenport IV",
+      "number": "46",
+      "position": "Goalie",
+      "classYear": "R-So.",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Sammy Lewis",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Chapel Young",
+      "number": "52",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Noah Steinbrecher",
+      "number": "55",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Cooper Laughlin",
+      "number": "61",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Ford Graham",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Eli Marshall",
+      "number": "88",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Connor Neal",
+      "number": "91",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Paul Merkel",
+      "number": "96",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Anderson University - Indiana"
+    },
+    {
+      "name": "Jacob Watt",
+      "number": "99",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Anderson University - Indiana"
+    }
+  ]
+}

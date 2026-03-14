@@ -1,0 +1,231 @@
+{
+  "team": "Misericordia University",
+  "scrapedAt": "2026-03-13T22:05:58.014130Z",
+  "playerCount": 32,
+  "players": [
+    {
+      "name": "Jason Giambrone",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Max Stadler",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Jake Louis",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Aiden D'Ambrosio",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Ty Murawski",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Lincoln Brayford",
+      "number": "8",
+      "position": "Defense/Long Stick MidfieldD/LSM",
+      "classYear": "Fy",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Seamus Bauer",
+      "number": "9",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Junior",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Jack Durphy",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Mark Kenny",
+      "number": "11",
+      "position": "Midfield/AttackM/A",
+      "classYear": "Sophomore",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Jack Simone",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Fy",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Dalton Barker",
+      "number": "14",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Junior",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Kyle Mandel",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Ryan Franchi",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "T.J. Donaghy",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Bryson Mackey",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Fy",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "CJ Contato",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "Fy",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Marcello DiPrinzio",
+      "number": "20",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Fy",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Patrick Dwyer",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Graduate",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "William Troiano",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Rusty Carr",
+      "number": "24",
+      "position": "FO/M",
+      "classYear": "Sophomore",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Austin Faller",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Fy",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "William Goff",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Fy",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Danny D'Amato",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Brandon O'Connor",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Dylan O'Connor",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Glenn Sadler",
+      "number": "36",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Jake Vislocky",
+      "number": "38",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Cooper  Luckenbaugh",
+      "number": "40",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Nathan Roscoe",
+      "number": "41",
+      "position": "GoalkeeperG",
+      "classYear": "Fy",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Kenneth Clore",
+      "number": "42",
+      "position": "GoalkeeperG",
+      "classYear": "Fy",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Leyton Sullivan",
+      "number": "44",
+      "position": "GoalkeeperG",
+      "classYear": "Sophomore",
+      "team": "Misericordia University"
+    },
+    {
+      "name": "Ian Young",
+      "number": "45",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Fy",
+      "team": "Misericordia University"
+    }
+  ]
+}

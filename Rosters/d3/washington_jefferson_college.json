@@ -1,0 +1,175 @@
+{
+  "team": "Washington & Jefferson College",
+  "scrapedAt": "2026-03-13T22:08:58.596345Z",
+  "playerCount": 24,
+  "players": [
+    {
+      "name": "Jaxon Specht",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Washington & Jefferson College"
+    },
+    {
+      "name": "Braden Petrarco",
+      "number": "2",
+      "position": "Midfield/Face OffM/FO",
+      "classYear": "Senior",
+      "team": "Washington & Jefferson College"
+    },
+    {
+      "name": "Colin Golebiewski",
+      "number": "3",
+      "position": "Midfield/Face OffM/FO",
+      "classYear": "Senior",
+      "team": "Washington & Jefferson College"
+    },
+    {
+      "name": "Olin Putz",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Washington & Jefferson College"
+    },
+    {
+      "name": "Thomas Stoves",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Washington & Jefferson College"
+    },
+    {
+      "name": "Logan Waychoff",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Washington & Jefferson College"
+    },
+    {
+      "name": "Stephen Moschetta",
+      "number": "8",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "Washington & Jefferson College"
+    },
+    {
+      "name": "Dylan Batche",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Washington & Jefferson College"
+    },
+    {
+      "name": "Aaron Alfer",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Washington & Jefferson College"
+    },
+    {
+      "name": "Aidric Provencher",
+      "number": "11",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "Washington & Jefferson College"
+    },
+    {
+      "name": "Josue Jimenez-Flores",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Washington & Jefferson College"
+    },
+    {
+      "name": "Brady Vaclavik",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Washington & Jefferson College"
+    },
+    {
+      "name": "Braydon Reighard",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Washington & Jefferson College"
+    },
+    {
+      "name": "Jack Dufalla",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Washington & Jefferson College"
+    },
+    {
+      "name": "John Novoselich",
+      "number": "20",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "Washington & Jefferson College"
+    },
+    {
+      "name": "AJ Cruz",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Washington & Jefferson College"
+    },
+    {
+      "name": "William Fenimore",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Washington & Jefferson College"
+    },
+    {
+      "name": "Caden Bazzoli",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Washington & Jefferson College"
+    },
+    {
+      "name": "Taylor Ramirez",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Washington & Jefferson College"
+    },
+    {
+      "name": "Ryan Mey",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Washington & Jefferson College"
+    },
+    {
+      "name": "Riley Bullock",
+      "number": "30",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Washington & Jefferson College"
+    },
+    {
+      "name": "Colton Powers",
+      "number": "33",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Washington & Jefferson College"
+    },
+    {
+      "name": "Gianni Moschetta",
+      "number": "38",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Washington & Jefferson College"
+    },
+    {
+      "name": "Noah Schratz",
+      "number": "39",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Washington & Jefferson College"
+    }
+  ]
+}

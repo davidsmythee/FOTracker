@@ -1,0 +1,133 @@
+{
+  "team": "Hilbert College",
+  "scrapedAt": "2026-03-13T22:04:40.235356Z",
+  "playerCount": 18,
+  "players": [
+    {
+      "name": "Shine Wunna",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Hilbert College"
+    },
+    {
+      "name": "Kevin Murawski",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Hilbert College"
+    },
+    {
+      "name": "Eric Capling",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Hilbert College"
+    },
+    {
+      "name": "Jonathan Roustum",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Hilbert College"
+    },
+    {
+      "name": "Alex Krytus",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Hilbert College"
+    },
+    {
+      "name": "Davon Dyson",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Hilbert College"
+    },
+    {
+      "name": "Leroy Daniels",
+      "number": "9",
+      "position": "GoalieGK",
+      "classYear": "Freshman",
+      "team": "Hilbert College"
+    },
+    {
+      "name": "David Bolin",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Hilbert College"
+    },
+    {
+      "name": "Nathaniel Dell",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Hilbert College"
+    },
+    {
+      "name": "Aidan Franko",
+      "number": "12",
+      "position": "Midfield | AttackM|A",
+      "classYear": "Senior",
+      "team": "Hilbert College"
+    },
+    {
+      "name": "Alex Arthur",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Hilbert College"
+    },
+    {
+      "name": "Jose Pizarro",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Hilbert College"
+    },
+    {
+      "name": "Hunter Cleary",
+      "number": "18",
+      "position": "GoalieGK",
+      "classYear": "Freshman",
+      "team": "Hilbert College"
+    },
+    {
+      "name": "Brendan Reilly",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Hilbert College"
+    },
+    {
+      "name": "Mike Hanlon",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Hilbert College"
+    },
+    {
+      "name": "Kristopher Newman",
+      "number": "23",
+      "position": "Midfield | AttackM | A",
+      "classYear": "Senior",
+      "team": "Hilbert College"
+    },
+    {
+      "name": "Ty Franko",
+      "number": "32",
+      "position": "Attack | MidfieldA | M",
+      "classYear": "Sophomore",
+      "team": "Hilbert College"
+    },
+    {
+      "name": "Kody Moore",
+      "number": "88",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Hilbert College"
+    }
+  ]
+}

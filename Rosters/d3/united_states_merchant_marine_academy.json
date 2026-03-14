@@ -1,0 +1,336 @@
+{
+  "team": "United States Merchant Marine Academy",
+  "scrapedAt": "2026-03-13T22:08:20.695147Z",
+  "playerCount": 47,
+  "players": [
+    {
+      "name": "Owen Behr",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Landon Locke",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Christian  Meyers",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Axel Flotten",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Tucker Swinerton",
+      "number": "5",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Julian Garcia",
+      "number": "6",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Burke Tribble",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "William Badeer",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Maxwell Perkins",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "William Schipfer",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Jack Stehlik",
+      "number": "11",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Michael Hofstetter",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Damien Martin",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Tucker Kuhn",
+      "number": "14",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Joseph Montazella",
+      "number": "15",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Ryan Sullivan",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Matthew Doran",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Owen Barcus",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Ryan Thorne",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Luke Holava",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Christopher Moore",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Thomas Dekanich",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Jimmy Rather",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Derek Lam",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Sal Castellano",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Nathan Sharp",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Julian Lopez",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Michael Valentine IV",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Dylan Sullivan",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Kenneth Harrison",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Lane Kolbe",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Jason  Rupli",
+      "number": "35",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Nathan Mangus",
+      "number": "36",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "John Bosanko",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Matthew Sletto",
+      "number": "38",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Jake Rossman",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Adam Johnson",
+      "number": "40",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Jack DeTommaso",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Kyle Hennelly",
+      "number": "42",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Ramsey Stark",
+      "number": "43",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Owen Markel",
+      "number": "44",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Caston Mestayer",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Brendan Ring",
+      "number": "46",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Connor Hoffman",
+      "number": "47",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Christopher Pezzuco",
+      "number": "48",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Thomas Carrigan",
+      "number": "49",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "United States Merchant Marine Academy"
+    },
+    {
+      "name": "Liam Pearsall",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "United States Merchant Marine Academy"
+    }
+  ]
+}

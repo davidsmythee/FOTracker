@@ -1,0 +1,329 @@
+{
+  "team": "Swarthmore College",
+  "scrapedAt": "2026-03-13T22:08:06.280332Z",
+  "playerCount": 46,
+  "players": [
+    {
+      "name": "Dylan Ah Now",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Jack McHenry",
+      "number": "2",
+      "position": "FOGOFO",
+      "classYear": "Junior",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Sam Palmer",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Max Garcia",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Ronan Butler",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Logan Chavez",
+      "number": "6",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Freshman",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Jacob Cohen",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "JJ Wright",
+      "number": "8",
+      "position": "GoalkeeperG",
+      "classYear": "Sophomore",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Kevin Covington",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Gabe Malcolm",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Nolan Ohrman",
+      "number": "11",
+      "position": "Midfield/AttackM/A",
+      "classYear": "Senior",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Clay Almgren",
+      "number": "12",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Senior",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Sawyer Paul",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Jamie Weyerhaeuser",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Julian Cassinelli",
+      "number": "15",
+      "position": "FOGOFO",
+      "classYear": "Sophomore",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Liam Duhame",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Luke Jenkins",
+      "number": "17",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Joshua Do",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Rex Mabbs",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Joseph Martucci",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Owen George",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Jack Liss",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Nate Campbell",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Nathan Hoffman",
+      "number": "24",
+      "position": "GoalkeeperG",
+      "classYear": "Sophomore",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Ryan Pretzer",
+      "number": "25",
+      "position": "GoalkeeperG",
+      "classYear": "Senior",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Alex Michels",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Colin Neary",
+      "number": "27",
+      "position": "Defense/Long Stick MidfielderD/LSM",
+      "classYear": "Freshman",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Emmett Harris",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Asa Ravenell",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Brett Maguire",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Drew Tyson",
+      "number": "31",
+      "position": "GoalkeeperG",
+      "classYear": "Senior",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Samuel Cristinzio",
+      "number": "32",
+      "position": "GoalkeeperG",
+      "classYear": "Junior",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Auden Seigel",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Jack Rice",
+      "number": "34",
+      "position": "Defense/Long Stick MidfielderD/LSM",
+      "classYear": "Sophomore",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Jack Nicholson",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Lucas Kearney",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Harlan Graber",
+      "number": "37",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Ryan Slomsky",
+      "number": "38",
+      "position": "Defense/Long Stick MidfielderD/LSM",
+      "classYear": "Freshman",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Ryan Kim",
+      "number": "39",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Owen  Hoffman",
+      "number": "40",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Kevin Sisk",
+      "number": "41",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Sophomore",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Griffy Whitman",
+      "number": "42",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Ben Zabierek",
+      "number": "43",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Aleco Buendia",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Andrew Stodden",
+      "number": "46",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Swarthmore College"
+    },
+    {
+      "name": "Ryder Maston",
+      "number": "52",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Swarthmore College"
+    }
+  ]
+}

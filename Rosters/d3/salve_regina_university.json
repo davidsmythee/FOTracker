@@ -1,0 +1,392 @@
+{
+  "team": "Salve Regina University",
+  "scrapedAt": "2026-03-13T22:07:15.268114Z",
+  "playerCount": 55,
+  "players": [
+    {
+      "name": "Nate Strassberger",
+      "number": "0",
+      "position": "FOGOF",
+      "classYear": "Sophomore",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Heath Sumwalt",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Casey Johnson",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Luke Castillo",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "William Savery",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Dixon Van Epps",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Daniel Naglieri",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Vincent DiRenno",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Jared Zevzavadjian",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Christian Killoran",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Christopher Bethoney",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "TJ Carlo",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Luke Dantona",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "William Frazier",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Carson Van Winkle",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Andrew Hazard",
+      "number": "16",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Luca Garritano",
+      "number": "17",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Michael Walsh",
+      "number": "18",
+      "position": "FOGOF",
+      "classYear": "Freshman",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Trevor McDermott",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Ryan Bothe",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Jack Schimoler",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Chris Koltzan",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Ryan Ciolfi",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Brody  Schaffer",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Cameron Smith",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Calvin Pendergast",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Luke Veltri",
+      "number": "28",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Sean Bell",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Colby Mikuszewski",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Ian Reardon",
+      "number": "32",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Mark van der Schoot",
+      "number": "33",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Luke Broderick",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Charlie Townsend",
+      "number": "35",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Jackson Noury",
+      "number": "36",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Robert Zdrojeski III",
+      "number": "38",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Connor Terrien",
+      "number": "39",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Ryan Tighe",
+      "number": "40",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Kyle Engen",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "William Kein",
+      "number": "42",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Luke Burns",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Jimmy O'Hara",
+      "number": "44",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Peyton Volz",
+      "number": "45",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Adam Laber",
+      "number": "46",
+      "position": "FOGOF",
+      "classYear": "Senior",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Alfred Miklos",
+      "number": "47",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Jake Horsman",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "John Cuddy",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "William DiGregorio",
+      "number": "51",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "David Villa",
+      "number": "52",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Max Julian",
+      "number": "53",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Adam Donovan",
+      "number": "54",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Sal Meli",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Aidan McIntyre",
+      "number": "77",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Griffin Caiozzo",
+      "number": "81",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Nicholas Bailey",
+      "number": "88",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Salve Regina University"
+    },
+    {
+      "name": "Dylan Tucker",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Salve Regina University"
+    }
+  ]
+}

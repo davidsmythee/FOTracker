@@ -1,0 +1,287 @@
+{
+  "team": "Elizabethtown College",
+  "scrapedAt": "2026-03-13T22:03:54.810087Z",
+  "playerCount": 40,
+  "players": [
+    {
+      "name": "Casey Lamey",
+      "number": "0",
+      "position": "Midfield/AttackM/A",
+      "classYear": "Junior",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Jay Rodriguez",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Nick Prokic",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Logan Rolles",
+      "number": "4",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Tristan Coleman",
+      "number": "5",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Junior",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Justin Pinciotti",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Evan Youndt",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Michael Goben",
+      "number": "8",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Drew Gaffney",
+      "number": "9",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Jonah Pertet",
+      "number": "10",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Chance Milhorn",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Alex Scholl",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Mitchell Kushner",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Peter Pitrelli",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Blake Gipko",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Graduate",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Jacob Mead",
+      "number": "16",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Max Marra",
+      "number": "17",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Christian Schrader",
+      "number": "19",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Cyrus Frid Denekos",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Steven Rice",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Graham Lindsay",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Ian Wilson",
+      "number": "23",
+      "position": "Short Stick Defensive MidfieldSSDM",
+      "classYear": "Sophomore",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Andrew Heyeh",
+      "number": "25",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Nate Sharpe",
+      "number": "26",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Caleb Moister",
+      "number": "27",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Brent Wehland",
+      "number": "28",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Dane Jespersen",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Ben Backenstose",
+      "number": "32",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Sophomore",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Ben Zaitz",
+      "number": "35",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Hunter Russell",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Collin McCormick",
+      "number": "45",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Scott Domboski",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Jack Gress",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Ethan Smith",
+      "number": "55",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Cole Lovell",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Tom Gress",
+      "number": "88",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Justin Fox",
+      "number": "91",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Reese Levinson",
+      "number": "96",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Finn Kristan",
+      "number": "97",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Elizabethtown College"
+    },
+    {
+      "name": "Max Coady",
+      "number": "99",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "Elizabethtown College"
+    }
+  ]
+}

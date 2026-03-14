@@ -257,7 +257,110 @@ body {
     color: var(--primary-color);
 }
 
-/* ===== Folder Section ===== */
+/* ===== Sidebar Breadcrumb Navigation ===== */
+#sidebar-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 12px;
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border-color);
+    min-width: 0;
+    flex-shrink: 0;
+}
+
+.btn-back {
+    background: none;
+    border: none;
+    padding: 2px 4px;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: color 0.15s;
+    flex-shrink: 0;
+}
+
+.btn-back:hover {
+    color: var(--text-primary);
+}
+
+.sidebar-folder-title {
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--text-primary);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* ===== Folder Row (new nav-style) ===== */
+.folder-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    margin-bottom: 4px;
+    cursor: pointer;
+    background: var(--bg-secondary);
+    transition: background 0.15s, border-color 0.15s;
+    user-select: none;
+}
+
+.folder-row:hover {
+    background: var(--bg-tertiary);
+    border-color: var(--primary-color);
+}
+
+.folder-row-icon {
+    font-size: 1rem;
+    flex-shrink: 0;
+}
+
+.folder-row-name {
+    flex: 1;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--text-primary);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.folder-row-count {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.folder-row-chevron {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    flex-shrink: 0;
+    line-height: 1;
+}
+
+/* ===== Unfiled separator ===== */
+.unfiled-separator {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-secondary);
+    padding: 10px 4px 4px;
+}
+
+/* ===== Folder Context Menu ===== */
+.folder-context-menu {
+    position: fixed;
+    z-index: 9999;
+    min-width: 140px;
+}
+
+/* ===== Folder Section (legacy - kept for any remaining references) ===== */
 .folder-section {
     margin-bottom: 6px;
 }
@@ -2067,6 +2170,72 @@ body {
 
 .no-stats-message .hint {
     font-size: 0.85rem;
+}
+
+/* ===== Division Filter ===== */
+.division-filter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.division-filter-label {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.division-filter-btns {
+    display: flex;
+    gap: 6px;
+}
+
+.division-btn {
+    padding: 4px 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.division-btn:hover {
+    background: var(--bg-secondary);
+    border-color: var(--primary-color);
+    color: var(--text-primary);
+}
+
+.division-btn.active {
+    background: var(--primary-color);
+    color: #fff;
+    border-color: var(--primary-color);
+}
+
+/* Division badges in autocomplete dropdown */
+.div-badge {
+    display: inline-block;
+    font-size: 0.65rem;
+    font-weight: 700;
+    padding: 1px 5px;
+    border-radius: 3px;
+    margin-left: 6px;
+    vertical-align: middle;
+    line-height: 1.4;
+}
+
+.div-badge-d1 {
+    background: #003087;
+    color: #fff;
+}
+
+.div-badge-d3 {
+    background: #2d6a4f;
+    color: #fff;
 }
 
 /* ===== Responsive adjustments for new elements ===== */

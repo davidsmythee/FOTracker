@@ -1,0 +1,154 @@
+{
+  "team": "Juniata College",
+  "scrapedAt": "2026-03-14T00:58:25.244308Z",
+  "playerCount": 21,
+  "players": [
+    {
+      "name": "Noah Harrison",
+      "number": "1",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Juniata College"
+    },
+    {
+      "name": "Zackary Waslosky",
+      "number": "3",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Juniata College"
+    },
+    {
+      "name": "Vann Rogers",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Juniata College"
+    },
+    {
+      "name": "Liam Walsh",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Juniata College"
+    },
+    {
+      "name": "Jahmir Barber",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Juniata College"
+    },
+    {
+      "name": "Jake Patchel",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Juniata College"
+    },
+    {
+      "name": "Sterling Bechler",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Juniata College"
+    },
+    {
+      "name": "Landon Heddens",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Juniata College"
+    },
+    {
+      "name": "Finn Anderson",
+      "number": "10",
+      "position": "FOGO",
+      "classYear": "Fy.",
+      "team": "Juniata College"
+    },
+    {
+      "name": "Jackson Eastep",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Juniata College"
+    },
+    {
+      "name": "Logan Douglas",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Juniata College"
+    },
+    {
+      "name": "Kristian Freeman",
+      "number": "18",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Juniata College"
+    },
+    {
+      "name": "Joshua Trovinger",
+      "number": "20",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Juniata College"
+    },
+    {
+      "name": "Griffin Umstead",
+      "number": "21",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Juniata College"
+    },
+    {
+      "name": "Zane Kromer",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Juniata College"
+    },
+    {
+      "name": "Max Young",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Juniata College"
+    },
+    {
+      "name": "Dontez Porter",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Juniata College"
+    },
+    {
+      "name": "Brayden Yeager",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Juniata College"
+    },
+    {
+      "name": "Nkosi Thom",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Juniata College"
+    },
+    {
+      "name": "Dan Patricco",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Juniata College"
+    },
+    {
+      "name": "Chris Queen",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Juniata College"
+    }
+  ]
+}

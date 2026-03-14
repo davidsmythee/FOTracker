@@ -1,0 +1,266 @@
+{
+  "team": "Saint Vincent College - Pennsylvania",
+  "scrapedAt": "2026-03-13T22:07:09.660855Z",
+  "playerCount": 37,
+  "players": [
+    {
+      "name": "Zander Vetter",
+      "number": "1",
+      "position": "Defenseefense",
+      "classYear": "Junior",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Reed Hunt",
+      "number": "2",
+      "position": "Midfieldidfield",
+      "classYear": "Sophomore",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Ryan Rutherford",
+      "number": "3",
+      "position": "Defenseefense",
+      "classYear": "Junior",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Connor Smith",
+      "number": "4",
+      "position": "Midfieldidfield",
+      "classYear": "Sophomore",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Owen Rogers",
+      "number": "5",
+      "position": "Midfieldidfield",
+      "classYear": "Junior",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Eddie Rodman",
+      "number": "6",
+      "position": "Midfieldidfield",
+      "classYear": "Freshman",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Tony Ferreira",
+      "number": "7",
+      "position": "Midfieldidfield",
+      "classYear": "Junior",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Neal Ritchie",
+      "number": "8",
+      "position": "Midfieldidfield",
+      "classYear": "Sophomore",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Luca Blevins",
+      "number": "9",
+      "position": "Attackttack",
+      "classYear": "Sophomore",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Ryan Rosenberger",
+      "number": "10",
+      "position": "Midfieldidfield",
+      "classYear": "Junior",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Jackson Blow",
+      "number": "11",
+      "position": "GoalieGoalie",
+      "classYear": "Sophomore",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Tyler Friend",
+      "number": "12",
+      "position": "GoalieGoalie",
+      "classYear": "Sophomore",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Cam Herring",
+      "number": "13",
+      "position": "Midfieldidfield",
+      "classYear": "Junior",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Tyron Rich",
+      "number": "14",
+      "position": "Defenseefense",
+      "classYear": "Junior",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Calvin Rose",
+      "number": "15",
+      "position": "Midfieldidfield",
+      "classYear": "Sophomore",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Landon Flock",
+      "number": "16",
+      "position": "LSMLSM",
+      "classYear": "Junior",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Athens Fischer",
+      "number": "17",
+      "position": "Defenseefense",
+      "classYear": "Freshman",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Patrick Murphy",
+      "number": "18",
+      "position": "Defenseefense",
+      "classYear": "Freshman",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Garrett Ritts",
+      "number": "22",
+      "position": "GoalieGoalie",
+      "classYear": "Senior",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Logan Hood",
+      "number": "23",
+      "position": "Defenseefense",
+      "classYear": "Senior",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Cole Vollero",
+      "number": "24",
+      "position": "Attack/MidfieldAttack/Midfield",
+      "classYear": "Sophomore",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Mason Krabbe",
+      "number": "26",
+      "position": "Midfieldidfield",
+      "classYear": "Sophomore",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Wade Buckner",
+      "number": "29",
+      "position": "Defenseefense",
+      "classYear": "Senior",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Bryan Millward",
+      "number": "30",
+      "position": "Midfieldidfield",
+      "classYear": "Junior",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Jonathan Nagy",
+      "number": "31",
+      "position": "Midfieldidfield",
+      "classYear": "Senior",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Logan Helman",
+      "number": "32",
+      "position": "Attack/MidfieldAttack/Midfield",
+      "classYear": "Sophomore",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Gavin Smallwood",
+      "number": "33",
+      "position": "Attack/MidfieldAttack/Midfield",
+      "classYear": "Freshman",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Max Radcliffe",
+      "number": "34",
+      "position": "Midfieldidfield",
+      "classYear": "Senior",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Jack Zayas",
+      "number": "35",
+      "position": "GoalieGoalie",
+      "classYear": "Senior",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Isaiah Francis",
+      "number": "36",
+      "position": "LSMLSM",
+      "classYear": "Sophomore",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Ethan Moyers",
+      "number": "37",
+      "position": "Defenseefense",
+      "classYear": "Senior",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "George Vuoso",
+      "number": "40",
+      "position": "Defenseefense",
+      "classYear": "Sophomore",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Brad Mockenhaupt",
+      "number": "42",
+      "position": "Midfieldidfield",
+      "classYear": "Sophomore",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Jared Gennuso",
+      "number": "43",
+      "position": "Midfieldidfield",
+      "classYear": "Junior",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Nick DiLuca",
+      "number": "45",
+      "position": "Defenseefense",
+      "classYear": "Freshman",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Tyler Harpst",
+      "number": "48",
+      "position": "Defenseefense",
+      "classYear": "Junior",
+      "team": "Saint Vincent College - Pennsylvania"
+    },
+    {
+      "name": "Liam McCall",
+      "number": "50",
+      "position": "Attackttack",
+      "classYear": "Senior",
+      "team": "Saint Vincent College - Pennsylvania"
+    }
+  ]
+}

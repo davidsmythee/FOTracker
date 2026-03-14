@@ -1,0 +1,119 @@
+{
+  "team": "Mitchell College",
+  "scrapedAt": "2026-03-14T00:50:41.057967Z",
+  "playerCount": 16,
+  "players": [
+    {
+      "name": "Greshaun Powell",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Mitchell College"
+    },
+    {
+      "name": "Gregory Powell",
+      "number": "3",
+      "position": "D/LSM",
+      "classYear": "Junior",
+      "team": "Mitchell College"
+    },
+    {
+      "name": "Killian Stvartak",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Mitchell College"
+    },
+    {
+      "name": "Eric Rousseau",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Mitchell College"
+    },
+    {
+      "name": "Paul Deon",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Mitchell College"
+    },
+    {
+      "name": "Nathan Mahoney",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Mitchell College"
+    },
+    {
+      "name": "Jonathan Hecker",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Mitchell College"
+    },
+    {
+      "name": "Evan Waite",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Mitchell College"
+    },
+    {
+      "name": "Justice Arroyo",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Mitchell College"
+    },
+    {
+      "name": "Connor Comeau",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Mitchell College"
+    },
+    {
+      "name": "Declan Shae",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Mitchell College"
+    },
+    {
+      "name": "Andrew Cote",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Mitchell College"
+    },
+    {
+      "name": "Jacob Johns",
+      "number": "20",
+      "position": "D/M",
+      "classYear": "Freshman",
+      "team": "Mitchell College"
+    },
+    {
+      "name": "Cameron Haefs",
+      "number": "23",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Mitchell College"
+    },
+    {
+      "name": "Graham Brown",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Mitchell College"
+    },
+    {
+      "name": "Dylan Johns",
+      "number": "25",
+      "position": "D/M",
+      "classYear": "Freshman",
+      "team": "Mitchell College"
+    }
+  ]
+}

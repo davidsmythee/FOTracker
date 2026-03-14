@@ -1,0 +1,98 @@
+{
+  "team": "La Roche University",
+  "scrapedAt": "2026-03-14T00:58:25.352490Z",
+  "playerCount": 13,
+  "players": [
+    {
+      "name": "Calvin Rowland",
+      "number": "1",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "La Roche University"
+    },
+    {
+      "name": "Logan McQueen",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "La Roche University"
+    },
+    {
+      "name": "Hunter Augustine",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "La Roche University"
+    },
+    {
+      "name": "Lebron James",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "La Roche University"
+    },
+    {
+      "name": "Andrew Booth",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "La Roche University"
+    },
+    {
+      "name": "Moses Andrawes",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "La Roche University"
+    },
+    {
+      "name": "Stephan Mescan",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "La Roche University"
+    },
+    {
+      "name": "Jeremiah Tate",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "La Roche University"
+    },
+    {
+      "name": "Carlos Juarbe",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "La Roche University"
+    },
+    {
+      "name": "Goran Miloradovic",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "La Roche University"
+    },
+    {
+      "name": "Deklyn Simms",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "La Roche University"
+    },
+    {
+      "name": "Yuri Nelson",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "La Roche University"
+    },
+    {
+      "name": "Jack Paclawski",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "La Roche University"
+    }
+  ]
+}

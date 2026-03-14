@@ -1,0 +1,329 @@
+{
+  "team": "Bridgewater College",
+  "scrapedAt": "2026-03-13T22:02:58.190461Z",
+  "playerCount": 46,
+  "players": [
+    {
+      "name": "Nico Marsicano",
+      "number": "1",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Aidan Anderson",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Oliver Nowell-Shortt",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Chris McBroom",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Jack Nugent",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "CJ  McKnight",
+      "number": "6",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Junior",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Gavin Brown",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Jacob Carpien",
+      "number": "8",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Jake Wagner",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Cooper  Hann",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Luke Wendler",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Ryan Linn",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Tyler Pinto",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Issac  Beals",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Justin Giffin",
+      "number": "15",
+      "position": "Short Stick Defensive MidfieldSSDM",
+      "classYear": "Sophomore",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Liam Santilli",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Ian Cook",
+      "number": "18",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Killian Krapfl",
+      "number": "19",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Tristan Lee",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Trent  Ripley",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Conner Jeffries",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Josh Crowther",
+      "number": "24",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Riley Stewart",
+      "number": "25",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Adam Biggs",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Zach Guthrie-Pimpinella",
+      "number": "27",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Hunter Gray",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Henry Wicker",
+      "number": "29",
+      "position": "Short Stick Defensive MidfieldSSDM",
+      "classYear": "Sophomore",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "JJ Thellman",
+      "number": "30",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Freshman",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Jaylin Bonds",
+      "number": "31",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Cole Plaster",
+      "number": "34",
+      "position": "Short Stick Defensive MidfieldSSDM",
+      "classYear": "Junior",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Blake Sherin",
+      "number": "36",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Jalen Green",
+      "number": "38",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Connor Warren",
+      "number": "41",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Evan Mader",
+      "number": "42",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Colin Chizmar",
+      "number": "43",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Senior",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "TJ Jankiewicz",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Colt Short",
+      "number": "45",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Ben Disbrow",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Larson Maki",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Andrew Orsi",
+      "number": "51",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Freshman",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Andy Lee",
+      "number": "53",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Alex  Garbarino",
+      "number": "54",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Nathan Groves",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Wyatt McNamara",
+      "number": "56",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Freshman",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Landon Blackshear",
+      "number": "57",
+      "position": "Short Stick Defensive MidfieldSSDM",
+      "classYear": "Senior",
+      "team": "Bridgewater College"
+    },
+    {
+      "name": "Danny Sentz",
+      "number": "58",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Bridgewater College"
+    }
+  ]
+}

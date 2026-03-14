@@ -1,0 +1,294 @@
+{
+  "team": "Saint Joseph's University",
+  "scrapedAt": "2026-01-28T20:57:56.315Z",
+  "playerCount": 41,
+  "players": [
+    {
+      "name": "Tyler Moore",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Zion Garcia",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Braedon Chayes",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Collin Campbell",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Drew Stocco",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Joey Papa",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Keaton Zavitz",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Dylan Lee",
+      "number": "11",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Elliot Morgan",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Thomas Petty",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Stevie Pileggi",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Matt Fritz",
+      "number": "17",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Fr.",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "James Zingo",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Ben Dutton",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Trae Ika",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Jackson Mitchell",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Carter Truesdell",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Jack Fiordalis",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Jesse Jason",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Max Candon",
+      "number": "29",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Will Taylor",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Griffin Mallory",
+      "number": "35",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Ryan Bradley",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Will Stagliano",
+      "number": "39",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Will Barber",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Michael Waite",
+      "number": "42",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Matthew Akers",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Danny Gaalaas",
+      "number": "46",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Evan McFadden",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Michael Michaelis",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Conor Trant",
+      "number": "49",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Stephen Pitts",
+      "number": "51",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Jared Karabinus",
+      "number": "52",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Pierce Hart",
+      "number": "54",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Liam Quinn",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Liam Oakes",
+      "number": "56",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Owen Staunton",
+      "number": "57",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Jack Olson",
+      "number": "62",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Johnny Kunz",
+      "number": "63",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Saint Joseph's University"
+    },
+    {
+      "name": "Brennan Catania",
+      "number": "65",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Saint Joseph's University"
+    }
+  ]
+}

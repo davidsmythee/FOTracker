@@ -1,0 +1,147 @@
+{
+  "team": "Gordon College",
+  "scrapedAt": "2026-03-13T22:04:15.846634Z",
+  "playerCount": 20,
+  "players": [
+    {
+      "name": "Aidan Walsh",
+      "number": "1",
+      "position": "FOGO SpecialistFO",
+      "classYear": "Senior",
+      "team": "Gordon College"
+    },
+    {
+      "name": "John  Mungai",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Gordon College"
+    },
+    {
+      "name": "Finn Smith",
+      "number": "6",
+      "position": "Long Stick Midfield/DefenseLSM/D",
+      "classYear": "Sophomore",
+      "team": "Gordon College"
+    },
+    {
+      "name": "Ryan Long",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Gordon College"
+    },
+    {
+      "name": "Soren Glaser",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Gordon College"
+    },
+    {
+      "name": "Owen Croak",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Gordon College"
+    },
+    {
+      "name": "Caleb Parambil",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Gordon College"
+    },
+    {
+      "name": "Thomas De haes",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Gordon College"
+    },
+    {
+      "name": "Jackson Wright",
+      "number": "17",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Gordon College"
+    },
+    {
+      "name": "Jacob Brown",
+      "number": "18",
+      "position": "Long Stick Midfield/DefenseLSM/D",
+      "classYear": "Senior",
+      "team": "Gordon College"
+    },
+    {
+      "name": "Michael Shaner",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Gordon College"
+    },
+    {
+      "name": "Thomas Waldron",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Gordon College"
+    },
+    {
+      "name": "Cullen Davey",
+      "number": "22",
+      "position": "Long Stick Midfield/DefenseLSM/D",
+      "classYear": "Junior",
+      "team": "Gordon College"
+    },
+    {
+      "name": "Rocco Kraunelis",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Gordon College"
+    },
+    {
+      "name": "Ryan Arthur",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Gordon College"
+    },
+    {
+      "name": "Caden Ellis",
+      "number": "28",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Gordon College"
+    },
+    {
+      "name": "Caden Lake",
+      "number": "32",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Gordon College"
+    },
+    {
+      "name": "CJ Veader",
+      "number": "33",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Gordon College"
+    },
+    {
+      "name": "Wyatt Lake",
+      "number": "36",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Gordon College"
+    },
+    {
+      "name": "Kennedy Opie",
+      "number": "44",
+      "position": "Midfield/AttackM/A",
+      "classYear": "Junior",
+      "team": "Gordon College"
+    }
+  ]
+}

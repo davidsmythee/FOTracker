@@ -1,0 +1,259 @@
+{
+  "team": "Capital University",
+  "scrapedAt": "2026-03-13T22:03:04.552813Z",
+  "playerCount": 36,
+  "players": [
+    {
+      "name": "Kaison Durham",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Capital University"
+    },
+    {
+      "name": "Jess Lipp",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Capital University"
+    },
+    {
+      "name": "Jackson  Hart",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Capital University"
+    },
+    {
+      "name": "Noah Musick",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Capital University"
+    },
+    {
+      "name": "Luke Turner",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Capital University"
+    },
+    {
+      "name": "Ian Zaletel",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Capital University"
+    },
+    {
+      "name": "Wes Millman",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Capital University"
+    },
+    {
+      "name": "Logan Byers",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Capital University"
+    },
+    {
+      "name": "Jackson Gantz",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Capital University"
+    },
+    {
+      "name": "Braylon Dawson",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Capital University"
+    },
+    {
+      "name": "Leelan Durham",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Capital University"
+    },
+    {
+      "name": "Braeden Flint",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Capital University"
+    },
+    {
+      "name": "Elliott Rhoton",
+      "number": "15",
+      "position": "A/M",
+      "classYear": "Sophomore",
+      "team": "Capital University"
+    },
+    {
+      "name": "Dylan Christopherson",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Capital University"
+    },
+    {
+      "name": "Jonathan Hart",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Capital University"
+    },
+    {
+      "name": "Freddy Noday",
+      "number": "18",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Capital University"
+    },
+    {
+      "name": "Mason Patrick",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Capital University"
+    },
+    {
+      "name": "Devin Flynn",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Capital University"
+    },
+    {
+      "name": "Wyatt Stemler",
+      "number": "23",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Capital University"
+    },
+    {
+      "name": "Tyler Lieu",
+      "number": "24",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Capital University"
+    },
+    {
+      "name": "Aiden  Evans",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Capital University"
+    },
+    {
+      "name": "Mason Ridgway",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Capital University"
+    },
+    {
+      "name": "Colton Woods",
+      "number": "28",
+      "position": "A/M",
+      "classYear": "Junior",
+      "team": "Capital University"
+    },
+    {
+      "name": "Christian Akins",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Capital University"
+    },
+    {
+      "name": "Mason Miller",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Capital University"
+    },
+    {
+      "name": "Luc Kadlic",
+      "number": "31",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Capital University"
+    },
+    {
+      "name": "Anthony  Carusone",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Capital University"
+    },
+    {
+      "name": "Parker Leitelt",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Capital University"
+    },
+    {
+      "name": "Gino  Nave",
+      "number": "35",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Capital University"
+    },
+    {
+      "name": "Eric Patterson",
+      "number": "39",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Capital University"
+    },
+    {
+      "name": "Anthony Ziliak",
+      "number": "40",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Capital University"
+    },
+    {
+      "name": "Preston Garibay",
+      "number": "44",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Capital University"
+    },
+    {
+      "name": "Aaron Waltman",
+      "number": "45",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Capital University"
+    },
+    {
+      "name": "Logan Ensign",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Capital University"
+    },
+    {
+      "name": "Charlie Howenstine",
+      "number": "55",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Capital University"
+    },
+    {
+      "name": "Evan Legner",
+      "number": "57",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Capital University"
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "team": "University of Saint Joseph",
+  "scrapedAt": "2026-03-14T00:50:41.777970Z",
+  "playerCount": 37,
+  "players": [
+    {
+      "name": "Sly Curto",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Adam Pelletier",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Caleb Greenberg",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Chris Clancy",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Benjamin Bausch",
+      "number": "5",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Nick Pestrichello",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Noah Isleib",
+      "number": "7",
+      "position": "GK",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Quinn Perkins",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Vinny Pusateri III",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Will Keegan",
+      "number": "10",
+      "position": "GK",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Landon Lapointe",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Adam Gauvin",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Ethan Menard",
+      "number": "13",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Henry Pennell",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "JD DeNicola-Rakvin",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Dylan Hood",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Brenden Tedeschi",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Alexander Milne",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Landin Boutot",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Nick Wesley",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Brycen Kennedy",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Aaron Goldstein",
+      "number": "23",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Freeman Johnson",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Anthony Bell",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Cam Decastro",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Brady Stevens",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Mike Barzee",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Ian Porter",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Michael Decker",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Logan Lovett",
+      "number": "35",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "AJ Valone",
+      "number": "36",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Mason Koloski",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Richie Murphy",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Jase Cronin",
+      "number": "44",
+      "position": "GK",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Kris Dube",
+      "number": "45",
+      "position": "GK",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Dominic Oakes",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    },
+    {
+      "name": "Brayden Starr",
+      "number": "",
+      "position": "Team IMPACT",
+      "classYear": "",
+      "team": "University of Saint Joseph"
+    }
+  ]
+}

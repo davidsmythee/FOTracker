@@ -1,0 +1,357 @@
+{
+  "team": "Plymouth State University",
+  "scrapedAt": "2026-03-13T22:06:44.642305Z",
+  "playerCount": 50,
+  "players": [
+    {
+      "name": "Gabriel Bonessi",
+      "number": "1",
+      "position": "DM",
+      "classYear": "Sophomore",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Landon Buzulchuck",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Connor Stoner",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Eli Gomes",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "James Celio",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Nate Curtin",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Hunter Richards",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Connor Loomis",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Brayden Christian",
+      "number": "9",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Dylan Repassy",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Aiden Renner",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Nic Lorizio",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Blake McPherson",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Brian Kessel",
+      "number": "14",
+      "position": "DM",
+      "classYear": "Freshman",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Cam Jenkins",
+      "number": "15",
+      "position": "DM",
+      "classYear": "Senior",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Nick Ravaris",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Jacob Costa",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Owen Tracey",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Shea Gonynor",
+      "number": "19",
+      "position": "DM",
+      "classYear": "Sophomore",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Jack Derasmo",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Ryan Lally",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Andrew Burnham",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Zach Marvel",
+      "number": "23",
+      "position": "DM",
+      "classYear": "Senior",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Kevin Cougler",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Brady Hunt",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Andrew Nolan",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Casey Gingras",
+      "number": "27",
+      "position": "DM",
+      "classYear": "Sophomore",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Ethan Schena",
+      "number": "28",
+      "position": "Goalie",
+      "classYear": "Graduate",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Ryan McInnis",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Brian Pluck",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Mason Kauffman",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Spencer Kennedy",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Colby Walden",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Nahuel Suarez",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Shea O'Brien",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Tyler Nally",
+      "number": "36",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Charlie Winship",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Andrew Byrne",
+      "number": "38",
+      "position": "DM",
+      "classYear": "Senior",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Colin Dillon",
+      "number": "39",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Cam Brosnihan",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Luke Auteri",
+      "number": "41",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Cameron Leeds",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Nate Cochran",
+      "number": "43",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Matt Montoya",
+      "number": "44",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Willy Doehla",
+      "number": "45",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Seamus Tattan",
+      "number": "46",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Connor Sweeney",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Sam Chapman",
+      "number": "48",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Luke Legacy",
+      "number": "49",
+      "position": "DM",
+      "classYear": "Freshman",
+      "team": "Plymouth State University"
+    },
+    {
+      "name": "Jack O'Brien",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Plymouth State University"
+    }
+  ]
+}

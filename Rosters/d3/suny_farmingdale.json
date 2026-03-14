@@ -1,0 +1,231 @@
+{
+  "team": "SUNY Farmingdale",
+  "scrapedAt": "2026-03-13T22:07:48.768978Z",
+  "playerCount": 32,
+  "players": [
+    {
+      "name": "Connor Dobson",
+      "number": "1",
+      "position": "GK",
+      "classYear": "Junior",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Richie Melisurgo",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Sean Lawson",
+      "number": "3",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Tommy Mai",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Adam Giovinco",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Joe Martin",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Fabrice Cormier",
+      "number": "9",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Tyler June",
+      "number": "10",
+      "position": "LSM/D",
+      "classYear": "Sophomore",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Sean Rowan",
+      "number": "11",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Anthony Parisi",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Matthew Taylor",
+      "number": "13",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Maximilian Thuro",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Matt Durnin",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "William Henry",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Liam McGroarty",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Nicholas Mistler",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Casey Fortunato",
+      "number": "23",
+      "position": "A/M",
+      "classYear": "Senior",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Joey Forchelli",
+      "number": "24",
+      "position": "A/M",
+      "classYear": "Junior",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Connor Murtha",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Bryce Morin",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Anthony Terrone",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Mark Reyes",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Logan Reese",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Ethan Vargas",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Nick Maddux",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Cole Longo",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "David Maldonado",
+      "number": "42",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Amir Slaughter",
+      "number": "55",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Thomas Bores",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Dylan Dwyer",
+      "number": "90",
+      "position": "FO/M",
+      "classYear": "Sophomore",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Daniel Ainbinder",
+      "number": "91",
+      "position": "FO/M",
+      "classYear": "Junior",
+      "team": "SUNY Farmingdale"
+    },
+    {
+      "name": "Ryan Schnepf",
+      "number": "99",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "SUNY Farmingdale"
+    }
+  ]
+}

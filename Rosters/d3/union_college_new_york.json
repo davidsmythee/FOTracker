@@ -1,0 +1,322 @@
+{
+  "team": "Union College - New York",
+  "scrapedAt": "2026-03-13T22:08:17.670086Z",
+  "playerCount": 45,
+  "players": [
+    {
+      "name": "Luke Tranter",
+      "number": "1",
+      "position": "FOGOFO",
+      "classYear": "Senior",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Jack Lucey",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Hayden Caulkins",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Josh Robertson",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Nick Lynch",
+      "number": "5",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Chris Weitzel",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Drew Laubenstein",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Conrad Langenhagen",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Emmett Lyne",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Garrett Salit",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Mekhi Taylor",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Joe Hennessey",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Alex Bang",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Bo Bensley",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Jack Duncan",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Luke Allen",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Mason Brozek",
+      "number": "17",
+      "position": "Long-Stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Owen Faldi",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Seamus O'Neill",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Charlie Kantaros",
+      "number": "21",
+      "position": "Long-Stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Mike Wall",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "John Sula",
+      "number": "23",
+      "position": "Long-Stick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Brendan Powers",
+      "number": "25",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Tyler Robbins",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Mac McGovern",
+      "number": "27",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Kyle Goodwin",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Matt McKenzie",
+      "number": "29",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Braswell Vachon",
+      "number": "31",
+      "position": "GoalieG",
+      "classYear": "Fy.",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "James Dougherty",
+      "number": "32",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Gavin Trahan",
+      "number": "33",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Luke Foster",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Evan Finkle",
+      "number": "36",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Zach Bottrill",
+      "number": "38",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Braden Leichliter",
+      "number": "39",
+      "position": "FOGOFO",
+      "classYear": "Fy.",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Ryan Roberts",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Christian Kelly",
+      "number": "41",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Jack Roycroft",
+      "number": "42",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Ian Evans",
+      "number": "43",
+      "position": "FOGOFO",
+      "classYear": "Junior",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Walker Popko",
+      "number": "44",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Wes Jones",
+      "number": "45",
+      "position": "FOGOFO",
+      "classYear": "Fy.",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "RJ Proulx",
+      "number": "46",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Brody Wolfe",
+      "number": "47",
+      "position": "FOGOFO",
+      "classYear": "Sophomore",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Drew McCarthy",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Finbar Holland",
+      "number": "49",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Union College - New York"
+    },
+    {
+      "name": "Max Fleisch",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Union College - New York"
+    }
+  ]
+}

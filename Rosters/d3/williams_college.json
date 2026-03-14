@@ -1,0 +1,294 @@
+{
+  "team": "Williams College",
+  "scrapedAt": "2026-03-13T22:09:19.702230Z",
+  "playerCount": 41,
+  "players": [
+    {
+      "name": "Garrett Ip",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "1st",
+      "team": "Williams College"
+    },
+    {
+      "name": "Jack Sartorius",
+      "number": "2",
+      "position": "M/A",
+      "classYear": "Sophomore",
+      "team": "Williams College"
+    },
+    {
+      "name": "Nate Felsenthal",
+      "number": "3",
+      "position": "M/A",
+      "classYear": "Sophomore",
+      "team": "Williams College"
+    },
+    {
+      "name": "Charlie Medd",
+      "number": "4",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Williams College"
+    },
+    {
+      "name": "Ryan Johnson",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Williams College"
+    },
+    {
+      "name": "Andrew Johnson",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "1st",
+      "team": "Williams College"
+    },
+    {
+      "name": "Joe Ladocsi",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "1st",
+      "team": "Williams College"
+    },
+    {
+      "name": "Cooper Tilden",
+      "number": "8",
+      "position": "M/FO",
+      "classYear": "Sophomore",
+      "team": "Williams College"
+    },
+    {
+      "name": "Ian Kim",
+      "number": "9",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Williams College"
+    },
+    {
+      "name": "Cade Schuckman",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Williams College"
+    },
+    {
+      "name": "Gavin Timoney",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Williams College"
+    },
+    {
+      "name": "Tucker Graham",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Williams College"
+    },
+    {
+      "name": "Brody Page",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Williams College"
+    },
+    {
+      "name": "Teddy Stonestreet",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "1st",
+      "team": "Williams College"
+    },
+    {
+      "name": "Davis Miller",
+      "number": "15",
+      "position": "M/A",
+      "classYear": "Sophomore",
+      "team": "Williams College"
+    },
+    {
+      "name": "Zach Falls",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Williams College"
+    },
+    {
+      "name": "Tyler Mook",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "1st",
+      "team": "Williams College"
+    },
+    {
+      "name": "Finn Leamy",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Williams College"
+    },
+    {
+      "name": "Ethan Filler",
+      "number": "20",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Williams College"
+    },
+    {
+      "name": "Nick Reich",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "1st",
+      "team": "Williams College"
+    },
+    {
+      "name": "Will Doran",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Williams College"
+    },
+    {
+      "name": "Lewis Schrock",
+      "number": "23",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Williams College"
+    },
+    {
+      "name": "Henry Faulkner",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "1st",
+      "team": "Williams College"
+    },
+    {
+      "name": "Matthew Hofmann",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "1st",
+      "team": "Williams College"
+    },
+    {
+      "name": "Wyatt Cotton",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Williams College"
+    },
+    {
+      "name": "Colin Decker",
+      "number": "27",
+      "position": "Goalie",
+      "classYear": "1st",
+      "team": "Williams College"
+    },
+    {
+      "name": "Matthew Dunn",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Williams College"
+    },
+    {
+      "name": "Seamus Regan",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Williams College"
+    },
+    {
+      "name": "Will Erickson",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Williams College"
+    },
+    {
+      "name": "Tommy Cottrell",
+      "number": "32",
+      "position": "M/A",
+      "classYear": "Sophomore",
+      "team": "Williams College"
+    },
+    {
+      "name": "Ryan Nagle",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Williams College"
+    },
+    {
+      "name": "Tony Provenza",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Williams College"
+    },
+    {
+      "name": "Jamie Mazzacco",
+      "number": "35",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Williams College"
+    },
+    {
+      "name": "Will DiMarco",
+      "number": "36",
+      "position": "Midfielder",
+      "classYear": "1st",
+      "team": "Williams College"
+    },
+    {
+      "name": "Ralph Vogel",
+      "number": "37",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Williams College"
+    },
+    {
+      "name": "Drew Nicholson",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Williams College"
+    },
+    {
+      "name": "Aidan Housenbold",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Williams College"
+    },
+    {
+      "name": "Brendan Cooleen",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Williams College"
+    },
+    {
+      "name": "Bobby McCarthy",
+      "number": "44",
+      "position": "FOGO",
+      "classYear": "1st",
+      "team": "Williams College"
+    },
+    {
+      "name": "Kai Switlick",
+      "number": "47",
+      "position": "Attack",
+      "classYear": "1st",
+      "team": "Williams College"
+    },
+    {
+      "name": "AJ Zuleta",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Williams College"
+    }
+  ]
+}

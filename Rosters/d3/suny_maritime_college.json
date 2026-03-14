@@ -1,0 +1,364 @@
+{
+  "team": "SUNY Maritime College",
+  "scrapedAt": "2026-03-13T22:07:52.293878Z",
+  "playerCount": 51,
+  "players": [
+    {
+      "name": "Ryan Giambone",
+      "number": "1",
+      "position": "MidfieldF",
+      "classYear": "Sophomore",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Collin Brush",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Kymani McDonald",
+      "number": "3",
+      "position": "MidfieldF",
+      "classYear": "Senior",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Ryan Hannaford",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "William Yi",
+      "number": "6",
+      "position": "MidfieldF",
+      "classYear": "Junior",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Jack Meyers",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Graduate",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Nick Uzakewicz",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Ryan Grider",
+      "number": "9",
+      "position": "MidfieldF",
+      "classYear": "Junior",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Jack Horodiski",
+      "number": "10",
+      "position": "MidfieldF",
+      "classYear": "Freshman",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Thomas McCarvil",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Thomas O'Brien",
+      "number": "12",
+      "position": "MidfieldF",
+      "classYear": "Freshman",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "James O'Malley",
+      "number": "13",
+      "position": "Goalkeeper",
+      "classYear": "Sophomore",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Tyler Mahood",
+      "number": "14",
+      "position": "MidfieldF",
+      "classYear": "Junior",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Thomas Kennedy",
+      "number": "15",
+      "position": "MidfieldF",
+      "classYear": "Senior",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Kenny Vatalaro",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Jack Surian",
+      "number": "17",
+      "position": "MidfieldF",
+      "classYear": "Freshman",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Cristian Scaffaro",
+      "number": "18",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Brian Hrybenko",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Joseph Fazio",
+      "number": "20",
+      "position": "MidfieldF",
+      "classYear": "Sophomore",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Thomas Pucciarelli",
+      "number": "21",
+      "position": "MidfieldF",
+      "classYear": "Sophomore",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Rex Lagademo",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Evan Dundon",
+      "number": "23",
+      "position": "MidfieldF",
+      "classYear": "Sophomore",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Jack Kane",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Teddy Dannhauser",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Joseph Finn",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "David Almeida",
+      "number": "27",
+      "position": "MidfieldF",
+      "classYear": "Freshman",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Nick LiPuma",
+      "number": "28",
+      "position": "MidfieldF",
+      "classYear": "Junior",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Graham Bardolf",
+      "number": "29",
+      "position": "MidfieldF",
+      "classYear": "Freshman",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Daniel Latimer",
+      "number": "30",
+      "position": "MidfieldF",
+      "classYear": "Junior",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Cole Schiefelbein",
+      "number": "31",
+      "position": "Goalkeeper",
+      "classYear": "Freshman",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Scott Troy",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Michael Ahlstedt",
+      "number": "34",
+      "position": "MidfieldF",
+      "classYear": "Freshman",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Christopher Laino",
+      "number": "35",
+      "position": "FOGOFO",
+      "classYear": "Junior",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Kenneth Murphy",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Michael Colaianni",
+      "number": "39",
+      "position": "MidfieldF",
+      "classYear": "Freshman",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Declan Cameron",
+      "number": "40",
+      "position": "MidfieldF",
+      "classYear": "Freshman",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Riley Ackerman",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Nicholas Spada",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Joseph Saraceni",
+      "number": "44",
+      "position": "MidfieldF",
+      "classYear": "Freshman",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Peter Horstmann",
+      "number": "45",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Brendan Kavanagh",
+      "number": "46",
+      "position": "Goalkeeper",
+      "classYear": "Freshman",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Eamonn Ford",
+      "number": "47",
+      "position": "MidfieldF",
+      "classYear": "Freshman",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "James Millen",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Nathan Burris",
+      "number": "49",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Brody Smith",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Eddie Mahood",
+      "number": "51",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "James Gioia",
+      "number": "55",
+      "position": "FOGOFO",
+      "classYear": "Freshman",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "James Miele",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Michael Weigand",
+      "number": "88",
+      "position": "MidfieldF",
+      "classYear": "Sophomore",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Scott Bowen",
+      "number": "95",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "SUNY Maritime College"
+    },
+    {
+      "name": "Nick Spista",
+      "number": "99",
+      "position": "MidfieldF",
+      "classYear": "Senior",
+      "team": "SUNY Maritime College"
+    }
+  ]
+}

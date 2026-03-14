@@ -1,0 +1,238 @@
+{
+  "team": "University of Mount Saint Vincent",
+  "scrapedAt": "2026-03-13T22:08:30.627276Z",
+  "playerCount": 33,
+  "players": [
+    {
+      "name": "Chai Dunlap",
+      "number": "0",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Jackson Taylor",
+      "number": "1",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Donte Thornhill",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Ethan Fajardo",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Graduate",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Sam Hall",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Nathanial Simpson",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Treyvone Jones",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Marquis Gardner",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Max Mills",
+      "number": "8",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Logan Charboneau",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Jason Cardona",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Mattias Remes",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Cal Denier",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Nigel Walker",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Jakob Mahon",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Alfred Lamptey",
+      "number": "15",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Thaddeus Harris",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Frantz Pascal",
+      "number": "18",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Antonio Torres",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Miguel Cordero",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Steven Gomez",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Jaylin Johnson",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Josiah Johnson-Charles",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Mark Lulgjuraj",
+      "number": "25",
+      "position": "GK",
+      "classYear": "Senior",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Henry Carpenter",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Harrison Chapman",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Brandon Mestres",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Isaac Parsons",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Gavin Bacchio",
+      "number": "44",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Sergio Romero",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Thomas Vallely",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Walker Moore",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Mount Saint Vincent"
+    },
+    {
+      "name": "Gerald Haak",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Mount Saint Vincent"
+    }
+  ]
+}

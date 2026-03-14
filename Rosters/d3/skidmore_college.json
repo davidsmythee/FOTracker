@@ -1,0 +1,322 @@
+{
+  "team": "Skidmore College",
+  "scrapedAt": "2026-03-13T22:07:20.263086Z",
+  "playerCount": 45,
+  "players": [
+    {
+      "name": "Ryan Kelly",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Joe Schwartz",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Jake Furtado",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Shaun Costello",
+      "number": "4",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Trevor Stumpff",
+      "number": "5",
+      "position": "Long Stick Midfield/DefenseLSM/D",
+      "classYear": "Freshman",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Leo Passalaqua",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Miles Kim",
+      "number": "7",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Sophomore",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Jack Sconziano",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Remy Poisson",
+      "number": "9",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Junior",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Cooper Haas",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Bryce Terry",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Caleb Lawson",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "JT Murphy",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Joseph Killcommons",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Theo Angelopoulos",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Will Fekete",
+      "number": "16",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Senior",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Charlie Schutta",
+      "number": "17",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Michael Aiello",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Luke Handy",
+      "number": "19",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Sophomore",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Marc Gadbois",
+      "number": "20",
+      "position": "GoalieGK",
+      "classYear": "Sophomore",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "David Koffler",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Lukas Wammer",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Brendan Staunton",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Conor Geier",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Ollie Rice",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Ben Lusby",
+      "number": "26",
+      "position": "Long Stick Midfield/DefenseLSM/D",
+      "classYear": "Freshman",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Andrew Meindl",
+      "number": "27",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Jake Weiner",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "William Swezey",
+      "number": "29",
+      "position": "Long Stick Midfield/DefenseLSM/D",
+      "classYear": "Freshman",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Alex McWilliams",
+      "number": "30",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Jack Holmes",
+      "number": "31",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Michael Dearborn",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Mo Krubally",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Jason Fastiggi",
+      "number": "34",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Ander Berman",
+      "number": "35",
+      "position": "FOGOF",
+      "classYear": "Freshman",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Wilder Finkel",
+      "number": "36",
+      "position": "FOGO/MidfielderF/M",
+      "classYear": "Freshman",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Henry Salyer",
+      "number": "37",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Ethan Pham",
+      "number": "38",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Jude Avelino Jr.",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Jonathan Byrne",
+      "number": "40",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Ethan Dicturel",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Marty McFadden",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Tomi Anderson",
+      "number": "43",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Olivier Yuk",
+      "number": "44",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "Skidmore College"
+    },
+    {
+      "name": "Ty Samson",
+      "number": "45",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Sophomore",
+      "team": "Skidmore College"
+    }
+  ]
+}

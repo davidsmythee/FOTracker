@@ -1,0 +1,105 @@
+{
+  "team": "Centenary University - New Jersey",
+  "scrapedAt": "2026-03-13T22:03:13.684839Z",
+  "playerCount": 14,
+  "players": [
+    {
+      "name": "Bohdan Olefirenko",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Centenary University - New Jersey"
+    },
+    {
+      "name": "Christian Cheney",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Centenary University - New Jersey"
+    },
+    {
+      "name": "Lucas Bova",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Centenary University - New Jersey"
+    },
+    {
+      "name": "Hasad Golden",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Centenary University - New Jersey"
+    },
+    {
+      "name": "Elliot Tillinghast",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Centenary University - New Jersey"
+    },
+    {
+      "name": "Marty Zoet",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Centenary University - New Jersey"
+    },
+    {
+      "name": "Xavier Cruz",
+      "number": "15",
+      "position": "",
+      "classYear": "Freshman",
+      "team": "Centenary University - New Jersey"
+    },
+    {
+      "name": "Joseph Scozzafava",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Centenary University - New Jersey"
+    },
+    {
+      "name": "Sean Quinones",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Centenary University - New Jersey"
+    },
+    {
+      "name": "Thomas Drea",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Centenary University - New Jersey"
+    },
+    {
+      "name": "Erick Veras",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Centenary University - New Jersey"
+    },
+    {
+      "name": "Alex Mercado",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Centenary University - New Jersey"
+    },
+    {
+      "name": "John Polukort",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Centenary University - New Jersey"
+    },
+    {
+      "name": "Jonathan Martinez",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Centenary University - New Jersey"
+    }
+  ]
+}

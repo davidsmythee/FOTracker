@@ -1,0 +1,280 @@
+{
+  "team": "Wabash College",
+  "scrapedAt": "2026-03-13T22:08:55.226230Z",
+  "playerCount": 39,
+  "players": [
+    {
+      "name": "Kade Hand",
+      "number": "0",
+      "position": "GoalkeeperG",
+      "classYear": "Freshman",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Quinn Shefferly",
+      "number": "1",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Evan Bair",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Wabash College"
+    },
+    {
+      "name": "John Sweeney",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Luca Flaim",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Wade Wisler",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Wabash College"
+    },
+    {
+      "name": "JR Finnegan",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Will Kerker",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Hank Henry",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Austin Clark",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Asher Bolen",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Logan White",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Christian Dybedock",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Sam Santiago",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Aidan Muncy",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Gavin Fry",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Will Sorg",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Zach McMichael",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Jake Pippen",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Colby Lindeman",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Eddy Willis",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Monty Atkins",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Jack Bohrer",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Liam Foley",
+      "number": "30",
+      "position": "Midfield / FOGOM / FO",
+      "classYear": "Sophomore",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Brady Sweeney",
+      "number": "31",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Adrian Licea",
+      "number": "32",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Bryce Poling",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Wabash College"
+    },
+    {
+      "name": "David Finnestad",
+      "number": "42",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Colin Krekeler",
+      "number": "43",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Cooper Navarro",
+      "number": "44",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Harrison Quayle",
+      "number": "46",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Grayson McCallum",
+      "number": "50",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Logan Miltner",
+      "number": "51",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Keegan Hatchell",
+      "number": "52",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Ethan Veigel",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Lucas Cunningham",
+      "number": "68",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Eli Backus",
+      "number": "81",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "Wabash College"
+    },
+    {
+      "name": "Cam Fecht",
+      "number": "88",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Wabash College"
+    },
+    {
+      "name": "John Jarosz",
+      "number": "91",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Wabash College"
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "team": "Susquehanna University",
+  "scrapedAt": "2026-03-13T22:08:04.781572Z",
+  "playerCount": 45,
+  "players": [
+    {
+      "name": "Matt Chubenko",
+      "number": "2",
+      "position": "AttackmanA",
+      "classYear": "Fy.",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Owen Embley",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Tyler Young",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Landon Lane",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Reese Ackerman",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Will Harcourt",
+      "number": "8",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Drew Filipovits",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Gabe Broome",
+      "number": "10",
+      "position": "Short Stick Defensive MidfielderSSDM",
+      "classYear": "Sophomore",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Brendan Allen",
+      "number": "11",
+      "position": "AttackmanA",
+      "classYear": "Fy.",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Christian Fokas",
+      "number": "12",
+      "position": "AttackmanA",
+      "classYear": "Fy.",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Pat  McDermott",
+      "number": "13",
+      "position": "AttackmanA",
+      "classYear": "Junior",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Garrett Howell",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Jack White",
+      "number": "15",
+      "position": "Short Stick Defensive MidfielderSSDM",
+      "classYear": "Junior",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Chase Thomas",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Colin Bostrom",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Ridge Gerken",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Matt Connor",
+      "number": "20",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Owen Teaney",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Jared Meck",
+      "number": "22",
+      "position": "DefensemanD",
+      "classYear": "Fy.",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Charlie  Haines",
+      "number": "23",
+      "position": "AttackmanA",
+      "classYear": "Junior",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Quin Michaels",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Arthur Finney",
+      "number": "25",
+      "position": "AttackmanA",
+      "classYear": "Sophomore",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Brendan Gleason",
+      "number": "26",
+      "position": "Short Stick Defensive MidfielderSSDM",
+      "classYear": "Sophomore",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Marc Manfredonia",
+      "number": "27",
+      "position": "DefensemanD",
+      "classYear": "Senior",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Ty Meck",
+      "number": "28",
+      "position": "Long-Stick MidfielderLSM",
+      "classYear": "Junior",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Kieran Koenke",
+      "number": "29",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Jack Storipan",
+      "number": "30",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Nate  Traver",
+      "number": "31",
+      "position": "DefensemanD",
+      "classYear": "Junior",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Jimmy Maro",
+      "number": "32",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Ian Mangini",
+      "number": "33",
+      "position": "DefensemanD",
+      "classYear": "Fy.",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Greyson Stewart",
+      "number": "34",
+      "position": "GoalieG",
+      "classYear": "Fy.",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Mikey Rowinski",
+      "number": "35",
+      "position": "DefensemanD",
+      "classYear": "Junior",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Connor Groben",
+      "number": "36",
+      "position": "DefensemanD",
+      "classYear": "Fy.",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Frank Fiannaca",
+      "number": "37",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Sophomore",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Nick Remund",
+      "number": "38",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Mason Miller",
+      "number": "39",
+      "position": "Long Stick Mid-FielderLSM",
+      "classYear": "Sophomore",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Dylan Ciborski",
+      "number": "40",
+      "position": "DefensemanD",
+      "classYear": "Junior",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Brandon Cash",
+      "number": "41",
+      "position": "FOGO SpecialistF/O",
+      "classYear": "Sophomore",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Liam Finegan",
+      "number": "42",
+      "position": "DefensemanD",
+      "classYear": "Sophomore",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Matt Shragher",
+      "number": "43",
+      "position": "Long-Stick MidfielderLSM",
+      "classYear": "Junior",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Ian Murphy",
+      "number": "44",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Nick Kennedy",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Wallace Pickard IV",
+      "number": "46",
+      "position": "Short Stick Defensive MidfielderSSDM",
+      "classYear": "Senior",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Gavin Pilson",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Susquehanna University"
+    },
+    {
+      "name": "Ryan Mosier",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Susquehanna University"
+    }
+  ]
+}

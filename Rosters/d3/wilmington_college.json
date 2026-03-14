@@ -1,0 +1,154 @@
+{
+  "team": "Wilmington College",
+  "scrapedAt": "2026-03-13T22:09:21.296209Z",
+  "playerCount": 21,
+  "players": [
+    {
+      "name": "KJ Davis",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Wilmington College"
+    },
+    {
+      "name": "Tyler Spotts",
+      "number": "2",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Wilmington College"
+    },
+    {
+      "name": "Zach Swearingen",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Wilmington College"
+    },
+    {
+      "name": "Nick Roca",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Wilmington College"
+    },
+    {
+      "name": "Bryson Mcclanahan",
+      "number": "5",
+      "position": "DM",
+      "classYear": "Freshman",
+      "team": "Wilmington College"
+    },
+    {
+      "name": "Sam Snyder",
+      "number": "7",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Wilmington College"
+    },
+    {
+      "name": "Garrett Reigelsperger",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Wilmington College"
+    },
+    {
+      "name": "Brody Parsley",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Wilmington College"
+    },
+    {
+      "name": "Ben Parke",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Wilmington College"
+    },
+    {
+      "name": "Brandon Osborne",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Wilmington College"
+    },
+    {
+      "name": "Danny Fitzpatrick",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Wilmington College"
+    },
+    {
+      "name": "Tyler Cunningham",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Wilmington College"
+    },
+    {
+      "name": "Cash Zickefoose",
+      "number": "17",
+      "position": "DM",
+      "classYear": "Freshman",
+      "team": "Wilmington College"
+    },
+    {
+      "name": "Damian Dean",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Wilmington College"
+    },
+    {
+      "name": "Manny Castillo",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Wilmington College"
+    },
+    {
+      "name": "Dawson Fitzpatrick",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Wilmington College"
+    },
+    {
+      "name": "Sincere Gleaton",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Wilmington College"
+    },
+    {
+      "name": "Dmitri Rose",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Wilmington College"
+    },
+    {
+      "name": "Skoebie Atkinson",
+      "number": "31",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Wilmington College"
+    },
+    {
+      "name": "Peyton Thompson",
+      "number": "32",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Wilmington College"
+    },
+    {
+      "name": "Elijah Loux",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Wilmington College"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "team": "Bryn Athyn College",
+  "scrapedAt": "2026-03-13T22:02:59.738694Z",
+  "playerCount": 15,
+  "players": [
+    {
+      "name": "Ethan Galvan",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Bryn Athyn College"
+    },
+    {
+      "name": "Liam  Burns",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Bryn Athyn College"
+    },
+    {
+      "name": "Sean Ford",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Bryn Athyn College"
+    },
+    {
+      "name": "Troy Billingslea",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Bryn Athyn College"
+    },
+    {
+      "name": "Shane Avelar",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Bryn Athyn College"
+    },
+    {
+      "name": "Jayden McGonagle",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Bryn Athyn College"
+    },
+    {
+      "name": "Nicholas Wittmer",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Bryn Athyn College"
+    },
+    {
+      "name": "Jacob Wranovsky",
+      "number": "12",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "Bryn Athyn College"
+    },
+    {
+      "name": "Nate Squares",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Bryn Athyn College"
+    },
+    {
+      "name": "Dylan Fesmire",
+      "number": "15",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Bryn Athyn College"
+    },
+    {
+      "name": "Christian Kalb",
+      "number": "16",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Bryn Athyn College"
+    },
+    {
+      "name": "Aidan Esack",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Bryn Athyn College"
+    },
+    {
+      "name": "James Teszner",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Bryn Athyn College"
+    },
+    {
+      "name": "Connor Walmsley",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Bryn Athyn College"
+    },
+    {
+      "name": "Peter DelRossi",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Bryn Athyn College"
+    }
+  ]
+}

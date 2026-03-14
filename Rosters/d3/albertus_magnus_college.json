@@ -1,0 +1,133 @@
+{
+  "team": "Albertus Magnus College",
+  "scrapedAt": "2026-03-14T00:58:24.632535Z",
+  "playerCount": 18,
+  "players": [
+    {
+      "name": "Cooper Strecker",
+      "number": "0",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Albertus Magnus College"
+    },
+    {
+      "name": "Robert Delbuono",
+      "number": "1",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Albertus Magnus College"
+    },
+    {
+      "name": "Derrick Mejia",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Albertus Magnus College"
+    },
+    {
+      "name": "Sean Keenan",
+      "number": "3",
+      "position": "M/A",
+      "classYear": "Senior",
+      "team": "Albertus Magnus College"
+    },
+    {
+      "name": "Ornel Michel",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Albertus Magnus College"
+    },
+    {
+      "name": "Cody Wills",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Albertus Magnus College"
+    },
+    {
+      "name": "Daniel Gomez",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Albertus Magnus College"
+    },
+    {
+      "name": "Isiah Salley",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Albertus Magnus College"
+    },
+    {
+      "name": "Justin Jubert",
+      "number": "9",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Albertus Magnus College"
+    },
+    {
+      "name": "DaKari Coleman",
+      "number": "10",
+      "position": "A/M",
+      "classYear": "Senior",
+      "team": "Albertus Magnus College"
+    },
+    {
+      "name": "Alexis Gonzalez",
+      "number": "11",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Albertus Magnus College"
+    },
+    {
+      "name": "Thomas Fraser",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Albertus Magnus College"
+    },
+    {
+      "name": "Hayden Grigas",
+      "number": "13",
+      "position": "M/D",
+      "classYear": "Junior",
+      "team": "Albertus Magnus College"
+    },
+    {
+      "name": "Alex Morales",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Albertus Magnus College"
+    },
+    {
+      "name": "Alec Kovalsky",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Albertus Magnus College"
+    },
+    {
+      "name": "Nicholas Longo",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Albertus Magnus College"
+    },
+    {
+      "name": "Marcus Burrows",
+      "number": "55",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Albertus Magnus College"
+    },
+    {
+      "name": "Jahsai Martin-Fish",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Albertus Magnus College"
+    }
+  ]
+}

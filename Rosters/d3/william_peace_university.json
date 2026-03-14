@@ -1,0 +1,203 @@
+{
+  "team": "William Peace University",
+  "scrapedAt": "2026-03-13T22:09:18.121050Z",
+  "playerCount": 28,
+  "players": [
+    {
+      "name": "Carson McGee",
+      "number": "0",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "William Peace University"
+    },
+    {
+      "name": "Tom Newhall",
+      "number": "1",
+      "position": "Defense/M",
+      "classYear": "Senior",
+      "team": "William Peace University"
+    },
+    {
+      "name": "Tyveon Brock",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "William Peace University"
+    },
+    {
+      "name": "Jay Sherman",
+      "number": "4",
+      "position": "D/LSM",
+      "classYear": "Junior",
+      "team": "William Peace University"
+    },
+    {
+      "name": "Caleb Garey",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "William Peace University"
+    },
+    {
+      "name": "William English",
+      "number": "6",
+      "position": "M/A",
+      "classYear": "Senior",
+      "team": "William Peace University"
+    },
+    {
+      "name": "Derrick Buchanan",
+      "number": "8",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "William Peace University"
+    },
+    {
+      "name": "Dylan Sullivan",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "William Peace University"
+    },
+    {
+      "name": "Logan Willis",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "William Peace University"
+    },
+    {
+      "name": "Isaac Pike",
+      "number": "13",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "William Peace University"
+    },
+    {
+      "name": "Brandon Goad",
+      "number": "14",
+      "position": "DefenseA",
+      "classYear": "Junior",
+      "team": "William Peace University"
+    },
+    {
+      "name": "Grayson Pope",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "William Peace University"
+    },
+    {
+      "name": "LJ Scott",
+      "number": "16",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "William Peace University"
+    },
+    {
+      "name": "Aidan McNeely",
+      "number": "17",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "William Peace University"
+    },
+    {
+      "name": "Jack Rodeck",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "William Peace University"
+    },
+    {
+      "name": "Tyler Rutherford",
+      "number": "19",
+      "position": "FO/A",
+      "classYear": "Freshman",
+      "team": "William Peace University"
+    },
+    {
+      "name": "Brady Dole",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "William Peace University"
+    },
+    {
+      "name": "Anthony Barkman",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "William Peace University"
+    },
+    {
+      "name": "Kyle Yarter",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "William Peace University"
+    },
+    {
+      "name": "Brody Hampton",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "William Peace University"
+    },
+    {
+      "name": "Jacob Jackson",
+      "number": "27",
+      "position": "A/M",
+      "classYear": "Freshman",
+      "team": "William Peace University"
+    },
+    {
+      "name": "Zeb Davis",
+      "number": "28",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "William Peace University"
+    },
+    {
+      "name": "Zachary Turner",
+      "number": "29",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "William Peace University"
+    },
+    {
+      "name": "Derek Lagos",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "William Peace University"
+    },
+    {
+      "name": "Ryan Lockwood",
+      "number": "33",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "William Peace University"
+    },
+    {
+      "name": "Christian Dewain Cosme Rivera",
+      "number": "37",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "William Peace University"
+    },
+    {
+      "name": "Caden Tuthill",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "William Peace University"
+    },
+    {
+      "name": "Connor Barnes",
+      "number": "99",
+      "position": "G/A",
+      "classYear": "Freshman",
+      "team": "William Peace University"
+    }
+  ]
+}

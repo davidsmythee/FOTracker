@@ -1,0 +1,378 @@
+{
+  "team": "Ohio Wesleyan University",
+  "scrapedAt": "2026-03-13T22:06:35.606141Z",
+  "playerCount": 53,
+  "players": [
+    {
+      "name": "Wes Starr",
+      "number": "1",
+      "position": "AttackA",
+      "classYear": "Freshman",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Max Kemp",
+      "number": "2",
+      "position": "Attack / MidfielderA / M",
+      "classYear": "Freshman",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Cole Tulgestke",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Nick Sauline",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Will Siegenthaler",
+      "number": "5",
+      "position": "AttackA",
+      "classYear": "Senior",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Riley Platter",
+      "number": "6",
+      "position": "Attack / MidfielderA / M",
+      "classYear": "Sophomore",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Noah Citek",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Simon Stoller",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Ryan Zabatta",
+      "number": "9",
+      "position": "Attack / MidfielderA / M",
+      "classYear": "Freshman",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Luke Miller",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Colin Counahan",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Connor Lasch",
+      "number": "12",
+      "position": "AttackA",
+      "classYear": "Junior",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Michael Maffucci",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Jason Mosher",
+      "number": "14",
+      "position": "GoalkeeperG",
+      "classYear": "Junior",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Chris Restaino",
+      "number": "15",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Cooper Heald",
+      "number": "16",
+      "position": "AttackA",
+      "classYear": "Junior",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Garrett Smith",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Tanner Hower",
+      "number": "18",
+      "position": "Long-Stick MidfielderLSM",
+      "classYear": "Freshman",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Aidan Flowers",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Colton Garner",
+      "number": "20",
+      "position": "Attack / MidfielderA / M",
+      "classYear": "Freshman",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Davis Brewster",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Luke Georgelakos",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Henry Ross",
+      "number": "23",
+      "position": "AttackA",
+      "classYear": "Junior",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Will White",
+      "number": "24",
+      "position": "GoalkeeperG",
+      "classYear": "Senior",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Carson Fialho",
+      "number": "25",
+      "position": "AttackA",
+      "classYear": "Junior",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Dean Shacklett",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Xander Craven",
+      "number": "27",
+      "position": "AttackA",
+      "classYear": "Senior",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Peter Sarnowski",
+      "number": "28",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Henry Pinamonti",
+      "number": "29",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Jack Hartman",
+      "number": "30",
+      "position": "GoalkeeperG",
+      "classYear": "Freshman",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Kal Lonergan",
+      "number": "31",
+      "position": "GoalkeeperG",
+      "classYear": "Sophomore",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Brock Rose",
+      "number": "32",
+      "position": "Attack / MidfielderA / M",
+      "classYear": "Freshman",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Trey Weber",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Zach Dilauro",
+      "number": "35",
+      "position": "Long-Stick MidfielderLSM",
+      "classYear": "Freshman",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Wade Beckstrom",
+      "number": "36",
+      "position": "AttackA",
+      "classYear": "Junior",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Aidan Bates",
+      "number": "37",
+      "position": "Attack / MidfielderA / M",
+      "classYear": "Junior",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "John Allen",
+      "number": "38",
+      "position": "GoalkeeperG",
+      "classYear": "Sophomore",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Graham Stadtler",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Sam Lockwood",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Blake Altman",
+      "number": "42",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Christian Caballero",
+      "number": "43",
+      "position": "Midfielder / FOGOM / FO",
+      "classYear": "Freshman",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Jed Tometsko",
+      "number": "44",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Matt Keeler",
+      "number": "45",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Aidan Gennaro",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Henry Zuccardy",
+      "number": "47",
+      "position": "Long-Stick Midfielder / DefenseLSM / D",
+      "classYear": "Freshman",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Cam Friedman",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Connor Morley",
+      "number": "49",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Simon Hall",
+      "number": "50",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "T.J. Goberville",
+      "number": "51",
+      "position": "Long-Stick Midfielder / DefenseLSM / D",
+      "classYear": "Freshman",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Oram Wood",
+      "number": "52",
+      "position": "Long-Stick Midfielder / DefenseLSM / D",
+      "classYear": "Freshman",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Aiden Gryzlo",
+      "number": "53",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Jayden Franzen",
+      "number": "54",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Ohio Wesleyan University"
+    },
+    {
+      "name": "Luca DiCarlo",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Ohio Wesleyan University"
+    }
+  ]
+}

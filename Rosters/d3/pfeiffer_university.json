@@ -1,0 +1,378 @@
+{
+  "team": "Pfeiffer University",
+  "scrapedAt": "2026-03-13T22:06:40.409087Z",
+  "playerCount": 53,
+  "players": [
+    {
+      "name": "Tellis Benjamin",
+      "number": "0",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Ezequel Ceant",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Collin Finley",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Dylan Sullivan",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Bashwyn Fitch",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Kaleb Simpson",
+      "number": "5",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Jacob Harrison",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Caden Holland",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Jackson Reese",
+      "number": "8",
+      "position": "Goalkeeper",
+      "classYear": "Senior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Sawyer Moretz",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Hayden Polokowski",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Brandon Luft",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Eli Easley",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Vincent Apriligano",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Ethan Gallagher",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Matthew Argent",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Austyn Rierson",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Dawson Petzel",
+      "number": "21",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Davis Palombo",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Tiger Hopkins",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Luke Foxwell",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Owen Fletcher",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Yarom Nataren",
+      "number": "26",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "David Foxwell",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Tyler Cameron",
+      "number": "28",
+      "position": "LSMD",
+      "classYear": "Junior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Alec Paraiso",
+      "number": "29",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Brenn Prado",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Christian Daniels",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Andrew Brown",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Kerosi Omundi",
+      "number": "33",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Korbin Hamilton",
+      "number": "34",
+      "position": "Goalkeeper",
+      "classYear": "Senior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Jackson Johnson",
+      "number": "40",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Jack Mapstone",
+      "number": "42",
+      "position": "Long-Stick MidfieldLSM",
+      "classYear": "Junior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Logan Smith",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Trent Orr",
+      "number": "47",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Andrew Inch",
+      "number": "50",
+      "position": "Goalkeeper",
+      "classYear": "Freshman",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Jon Barnes",
+      "number": "51",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Luc Danis",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Caleb Kemer",
+      "number": "57/54",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Lee Caldwell",
+      "number": "64",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Layne Clark",
+      "number": "66",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Robert Hanlon",
+      "number": "69",
+      "position": "Goalkeeper",
+      "classYear": "Senior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Dylan Bratt",
+      "number": "71",
+      "position": "Defense/Long-Stick MidD/LSM",
+      "classYear": "Freshman",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Jeremiah Fletcher",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Brandon Theiss",
+      "number": "81",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Ethan Miles",
+      "number": "87",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Gabriel Barker",
+      "number": "88",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Jozies Garcia",
+      "number": "90",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Jacob Henkel",
+      "number": "91",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Michael Keane",
+      "number": "94",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Brady McCormack",
+      "number": "97",
+      "position": "Goalkeeper",
+      "classYear": "Freshman",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Arthur Pinheiro",
+      "number": "98",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Pfeiffer University"
+    },
+    {
+      "name": "Will Rivera",
+      "number": "99",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Pfeiffer University"
+    }
+  ]
+}

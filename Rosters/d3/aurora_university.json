@@ -1,0 +1,322 @@
+{
+  "team": "Aurora University",
+  "scrapedAt": "2026-03-13T22:02:40.093446Z",
+  "playerCount": 45,
+  "players": [
+    {
+      "name": "Charlie Kirkland",
+      "number": "2",
+      "position": "Midfieldid",
+      "classYear": "Junior",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Hunter Walz",
+      "number": "3",
+      "position": "Defenseef",
+      "classYear": "Senior",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Tyler Foerstel",
+      "number": "4",
+      "position": "Attacktt",
+      "classYear": "Senior",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Travis Weischadle",
+      "number": "5",
+      "position": "Midfieldid.",
+      "classYear": "Sophomore",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Chris Bucci",
+      "number": "6",
+      "position": "Midfieldid",
+      "classYear": "Senior",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Scotty Weiss",
+      "number": "7",
+      "position": "Long-Stick MidLSM",
+      "classYear": "Junior",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Caden Bunes",
+      "number": "8",
+      "position": "Attacktt.",
+      "classYear": "Junior",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Luke Smith",
+      "number": "9",
+      "position": "Midfieldind.",
+      "classYear": "Sophomore",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Vincent Kahle",
+      "number": "10",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Carter Wasson",
+      "number": "12",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Jackson Loehring",
+      "number": "13",
+      "position": "Defenseef",
+      "classYear": "Freshman",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Dean Romaker",
+      "number": "14",
+      "position": "Midfieldid",
+      "classYear": "Senior",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Asher Deputy",
+      "number": "15",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Ian Funk",
+      "number": "16",
+      "position": "MifieldMid",
+      "classYear": "Senior",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Eli Saindon",
+      "number": "18",
+      "position": "ong Stick MidfielderLSM",
+      "classYear": "Freshman",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Zach Klug",
+      "number": "19",
+      "position": "DefeneDef",
+      "classYear": "Senior",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Austin Spoklie",
+      "number": "20",
+      "position": "ong Stick MidfielderLSM",
+      "classYear": "Senior",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Tommy Rust",
+      "number": "21",
+      "position": "Midfieldid",
+      "classYear": "Freshman",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Liam Pfieffer",
+      "number": "22",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Dylan Kranzush",
+      "number": "23",
+      "position": "Midfieldid",
+      "classYear": "Senior",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Grant Rice",
+      "number": "24",
+      "position": "Defenseef",
+      "classYear": "Freshman",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Owen Spencer",
+      "number": "25",
+      "position": "Midfieldid",
+      "classYear": "Senior",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Owen Smith",
+      "number": "26",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Sophomore",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Henry Leff",
+      "number": "27",
+      "position": "Midfieldid",
+      "classYear": "Junior",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Eli Etzler",
+      "number": "28",
+      "position": "Midfieldid.",
+      "classYear": "Senior",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Brennan Jarrell",
+      "number": "30",
+      "position": "Midfieldid",
+      "classYear": "Freshman",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Noah Kosmicki",
+      "number": "32",
+      "position": "Defenseef",
+      "classYear": "Junior",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Bryant Bergman",
+      "number": "33",
+      "position": "Defenseef",
+      "classYear": "Freshman",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Christian Sabounjian",
+      "number": "34",
+      "position": "Midfieldid",
+      "classYear": "Freshman",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Thomas Super",
+      "number": "35",
+      "position": "Midfieldid",
+      "classYear": "Freshman",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Tanner Spoklie",
+      "number": "36",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Easton Larson",
+      "number": "37",
+      "position": "Defenseef.",
+      "classYear": "Sophomore",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Gabe Zapf",
+      "number": "38",
+      "position": "Midfieldid",
+      "classYear": "Junior",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Zach Fuzy",
+      "number": "40",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Stanley Webert",
+      "number": "41",
+      "position": "Midfieldid",
+      "classYear": "Junior",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Will Turner",
+      "number": "42",
+      "position": "Defenseef",
+      "classYear": "Freshman",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Nolan Faulhaber",
+      "number": "43",
+      "position": "Defenseef",
+      "classYear": "Freshman",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Aidan Stapels",
+      "number": "45",
+      "position": "Attacktt",
+      "classYear": "Freshman",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Killian Smith",
+      "number": "50",
+      "position": "Midfieldid.",
+      "classYear": "Sophomore",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Griffin Joas",
+      "number": "51",
+      "position": "Attacktt.",
+      "classYear": "Sophomore",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Nolan Hartman",
+      "number": "52",
+      "position": "Attacktt",
+      "classYear": "Freshman",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Owen Meyer",
+      "number": "55",
+      "position": "Attacktt.",
+      "classYear": "Sophomore",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Luke DuPont",
+      "number": "56",
+      "position": "Attacktt",
+      "classYear": "Junior",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Derek Brier",
+      "number": "57",
+      "position": "Midfieldid",
+      "classYear": "Junior",
+      "team": "Aurora University"
+    },
+    {
+      "name": "Carson Beach",
+      "number": "58",
+      "position": "Defenseef.",
+      "classYear": "Sophomore",
+      "team": "Aurora University"
+    }
+  ]
+}

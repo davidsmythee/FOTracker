@@ -1,0 +1,161 @@
+{
+  "team": "University of Detroit Mercy",
+  "scrapedAt": "2026-01-28T19:29:36.010Z",
+  "playerCount": 22,
+  "players": [
+    {
+      "name": "Kyle Grant",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Zane Hitch",
+      "number": "5",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Cooper St. Clair",
+      "number": "6",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Tristen Davis",
+      "number": "7",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Luke Grasso",
+      "number": "12",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Jacob Czarnota",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Matt Firth",
+      "number": "15",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Sam Rochowiak",
+      "number": "16",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Christian Tucker",
+      "number": "17",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Canton Lanham",
+      "number": "18",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Brett Goldstein",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Zach Snider",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Jack Reed",
+      "number": "27",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Ian Greenwell",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Riley Bissett",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Conner Kunce",
+      "number": "40",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Tyler Francis-Renner",
+      "number": "42",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Sean Henige",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Malakhi Berry",
+      "number": "49",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Dylan Belliveau",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Fr.",
+      "number": "77",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Giovanni Delissio",
+      "number": "81",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "University of Detroit Mercy"
+    }
+  ]
+}

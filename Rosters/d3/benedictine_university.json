@@ -1,0 +1,294 @@
+{
+  "team": "Benedictine University",
+  "scrapedAt": "2026-03-13T22:02:50.327748Z",
+  "playerCount": 41,
+  "players": [
+    {
+      "name": "Max Thomason",
+      "number": "1",
+      "position": "M/FO",
+      "classYear": "Senior",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Jacob Meyer",
+      "number": "2",
+      "position": "A/M",
+      "classYear": "Junior",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Dom Irving",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Malcolm Castronova",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Reed Martin",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Aiden Abalos",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Peter Maranian",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Luke Reger",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Gus Irving",
+      "number": "9",
+      "position": "LSM/D",
+      "classYear": "Junior",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Jonah Salem",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Charlie Schwartz",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "James Kinney",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "John Paul Torgersen",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Charley McGlinn",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Mateo Herbertz",
+      "number": "15",
+      "position": "A/M",
+      "classYear": "Junior",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Aidan Nicholson",
+      "number": "16",
+      "position": "D/LSM",
+      "classYear": "Junior",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Donovan Keeling",
+      "number": "17",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Keegan Lindsay",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Brayden Hope",
+      "number": "19",
+      "position": "A/M",
+      "classYear": "Junior",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Jack Northrup",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Bryce Klayman",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Deke Sanders",
+      "number": "22",
+      "position": "LSM/D",
+      "classYear": "Junior",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Jac Couri",
+      "number": "23",
+      "position": "M/FO",
+      "classYear": "Senior",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Lloyd Warren",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Luke Rheinheimer",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Luke Kovalcin",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Mason Eberle",
+      "number": "27",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Joey Calabria",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Trent Harder",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Will Eilermann",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Liam Halisky",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Harry Milligan",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "John Paul Evans",
+      "number": "33",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "CJ Besuzzi",
+      "number": "34",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Hudson Herriman",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Luke Klopp",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Jacob Schlick",
+      "number": "38",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Vincent Sayani",
+      "number": "39",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Camden Chambers",
+      "number": "40",
+      "position": "M/FO",
+      "classYear": "Freshman",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Ian Madden",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Benedictine University"
+    },
+    {
+      "name": "Victor Granchelli",
+      "number": "42",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Benedictine University"
+    }
+  ]
+}

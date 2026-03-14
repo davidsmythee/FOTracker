@@ -1,0 +1,224 @@
+{
+  "team": "Hartwick College",
+  "scrapedAt": "2026-03-13T22:04:33.719562Z",
+  "playerCount": 31,
+  "players": [
+    {
+      "name": "Kaiden  Johnson",
+      "number": "1",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Ryan Wiley",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Daniel Trouesdale",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Steve  Grossman",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Henry Tobin",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Eddie Shinn",
+      "number": "6",
+      "position": "DefensemanD",
+      "classYear": "Sophomore",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Spencer Hogaboom",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "RJ Siewiec",
+      "number": "8",
+      "position": "Goalkeeper",
+      "classYear": "Freshman",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Mason Taylor",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Ethan  Reando",
+      "number": "10",
+      "position": "DefensemanD",
+      "classYear": "Sophomore",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Mason Adams",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Joey Price",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Dave Phillips",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Ryan Nevins",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Troy Madden",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Christian  Tetreault",
+      "number": "17",
+      "position": "DefensemanD",
+      "classYear": "Sophomore",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Ty Crowley",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Matt Lallos",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Cael Lawson",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Owen Ryan",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Declan Baker",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Harry  Rubin",
+      "number": "25",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Jacob Joly",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Colby Simonetti",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Colin August",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Liam McManus",
+      "number": "33",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Christian Szokoli",
+      "number": "34",
+      "position": "DefensemanD",
+      "classYear": "Senior",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Matthew Paquette",
+      "number": "35",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Jacob Claus",
+      "number": "39",
+      "position": "DefensemanD",
+      "classYear": "Senior",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "Eddie Hughes",
+      "number": "43",
+      "position": "DefensemanD",
+      "classYear": "Sophomore",
+      "team": "Hartwick College"
+    },
+    {
+      "name": "AJ Saragossi",
+      "number": "44",
+      "position": "Goalkeeper",
+      "classYear": "Freshman",
+      "team": "Hartwick College"
+    }
+  ]
+}

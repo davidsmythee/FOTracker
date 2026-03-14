@@ -2,6 +2,7 @@
 import FaceOffTracker from './FaceOffTracker.js';
 import FieldRenderer from './FieldRenderer.js';
 import { searchSchools, getTeamColor, d1LacrosseSchools, areColorsSimilar } from './d1-schools.js';
+import { searchD3Schools, getD3FileForTeam, getD3SchoolData } from './d3-schools.js';
 import { getTeamColor as getTeamColorFromMap } from './TeamColors.js';
 
 // ===== UI Controller =====
@@ -19,6 +20,7 @@ class UIController {
         this.lastTeamAPlayer = null; // Last selected Team A player ID
         this.lastTeamBPlayer = null; // Last selected Team B player ID
         this.selectedFolderId = null; // Currently selected folder for auto-filing new games
+        this.currentFolderView = null; // Folder currently being viewed in sidebar (null = root)
         this.initializeElements();
         this.attachEventListeners();
         this.updateUI();
@@ -48,7 +50,6 @@ class UIController {
             toggleSidebar: document.getElementById('toggle-sidebar'),
             gamesList: document.getElementById('games-list'),
             newGameBtn: document.getElementById('new-game-btn'),
-            managePlayersBtn: document.getElementById('manage-players-btn'),
             deleteGameBtn: document.getElementById('delete-game-btn'),
             printFieldBtn: document.getElementById('print-field-btn'),
             currentOpponent: document.getElementById('current-opponent'),
@@ -81,8 +82,6 @@ class UIController {
             playerModal: document.getElementById('add-player-modal'),
             addPlayerForm: document.getElementById('add-player-form'),
             cancelPlayerModal: document.getElementById('cancel-player-modal'),
-            managePlayersModal: document.getElementById('manage-players-modal'),
-            closeManagePlayers: document.getElementById('close-manage-players'),
             playersList: document.getElementById('players-list'),
             pinDetailsModal: document.getElementById('pin-details-modal'),
             pinDetailsForm: document.getElementById('pin-details-form'),
@@ -101,6 +100,10 @@ class UIController {
             newFolderModal: document.getElementById('new-folder-modal'),
             newFolderForm: document.getElementById('new-folder-form'),
             cancelFolderModal: document.getElementById('cancel-folder-modal'),
+            sidebarBackBtn: document.getElementById('sidebar-back-btn'),
+            sidebarBreadcrumb: document.getElementById('sidebar-breadcrumb'),
+            sidebarRootHeader: document.getElementById('sidebar-root-header'),
+            sidebarFolderTitle: document.getElementById('sidebar-folder-title'),
             viewStatsBtn: document.getElementById('view-stats-btn'),
             statsModal: document.getElementById('stats-modal'),
             closeStatsModal: document.getElementById('close-stats-modal'),
@@ -119,13 +122,14 @@ class UIController {
             this.showNewGameModal();
         });
 
-        this.elements.managePlayersBtn.addEventListener('click', () => {
-            this.showManagePlayersModal();
-        });
-
         // New folder button
         this.elements.newFolderBtn.addEventListener('click', () => {
             this.showNewFolderModal();
+        });
+
+        // Back button in sidebar breadcrumb
+        this.elements.sidebarBackBtn.addEventListener('click', () => {
+            this.navigateBack();
         });
 
         // Cancel folder modal
@@ -329,16 +333,6 @@ class UIController {
         });
 
         // Manage players modal
-        this.elements.closeManagePlayers.addEventListener('click', () => {
-            this.hideManagePlayersModal();
-        });
-
-        this.elements.managePlayersModal.addEventListener('click', (e) => {
-            if (e.target === this.elements.managePlayersModal) {
-                this.hideManagePlayersModal();
-            }
-        });
-
         // Pin details modal
         this.elements.cancelPinDetails.addEventListener('click', () => {
             this.hidePinDetailsModal();
@@ -602,6 +596,25 @@ class UIController {
         // Set default date to today
         document.getElementById('game-date').valueAsDate = new Date();
 
+        // Initialize division filter buttons (persisted in localStorage)
+        const savedDiv = localStorage.getItem('divisionFilter') || 'D1';
+        this.divisionFilter = savedDiv;
+        document.querySelectorAll('.division-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.div === savedDiv);
+            btn.onclick = () => {
+                this.divisionFilter = btn.dataset.div;
+                localStorage.setItem('divisionFilter', btn.dataset.div);
+                document.querySelectorAll('.division-btn').forEach(b =>
+                    b.classList.toggle('active', b.dataset.div === btn.dataset.div)
+                );
+                // Re-trigger search on both inputs to refresh dropdowns
+                ['team-a-name', 'team-b-name'].forEach(id => {
+                    const input = document.getElementById(id);
+                    if (input && input.value.trim()) input.dispatchEvent(new Event('input'));
+                });
+            };
+        });
+
         // Setup autocomplete for team inputs
         this.setupTeamAutocomplete('team-a-name');
         this.setupTeamAutocomplete('team-b-name');
@@ -613,12 +626,6 @@ class UIController {
         const input = document.getElementById(inputId);
         if (!input) return;
 
-        // Check if already initialized
-        if (input.dataset.autocompleteInitialized === 'true') {
-            return;
-        }
-        input.dataset.autocompleteInitialized = 'true';
-
         // Create autocomplete container if it doesn't exist
         let autocompleteContainer = document.getElementById(`${inputId}-autocomplete`);
         if (!autocompleteContainer) {
@@ -629,7 +636,7 @@ class UIController {
             input.parentNode.appendChild(autocompleteContainer);
         }
 
-        // Handle input changes
+        // Remove old handler and replace (so division filter changes take effect)
         const handleInput = () => {
             const query = input.value.trim();
 
@@ -639,7 +646,20 @@ class UIController {
                 return;
             }
 
-            const results = searchSchools(query);
+            // Search based on current division filter
+            const div = this.divisionFilter || localStorage.getItem('divisionFilter') || 'D1';
+            let results = [];
+
+            if (div === 'D1') {
+                results = searchSchools(query).map(s => ({ name: s.name, detail: `${s.city} • ${s.conference}`, div: 'D1' }));
+            } else if (div === 'D3') {
+                results = searchD3Schools(query).map(s => ({ name: s.name, detail: 'Division III', div: 'D3' }));
+            } else {
+                // All: combine both, D1 first
+                const d1 = searchSchools(query).map(s => ({ name: s.name, detail: `${s.city} • ${s.conference}`, div: 'D1' }));
+                const d3 = searchD3Schools(query).map(s => ({ name: s.name, detail: 'Division III', div: 'D3' }));
+                results = [...d1, ...d3];
+            }
 
             if (results.length === 0) {
                 autocompleteContainer.innerHTML = '<div class="autocomplete-item no-results">No matches found</div>';
@@ -647,19 +667,18 @@ class UIController {
                 return;
             }
 
-            // Limit to top 8 results
-            const limitedResults = results.slice(0, 8);
+            // Limit to top 10 results
+            const limitedResults = results.slice(0, 10);
 
             autocompleteContainer.innerHTML = limitedResults.map(school => `
                 <div class="autocomplete-item" data-school-name="${school.name}">
                     <div class="autocomplete-school-name">${school.name}</div>
-                    <div class="autocomplete-school-details">${school.city} • ${school.conference}</div>
+                    <div class="autocomplete-school-details">${school.detail} <span class="div-badge div-badge-${school.div.toLowerCase()}">${school.div}</span></div>
                 </div>
             `).join('');
 
             autocompleteContainer.style.display = 'block';
 
-            // Add click handlers for each item
             autocompleteContainer.querySelectorAll('.autocomplete-item').forEach(item => {
                 item.addEventListener('click', () => {
                     const schoolName = item.dataset.schoolName;
@@ -672,17 +691,21 @@ class UIController {
             });
         };
 
+        // Replace handler each time modal opens
+        input.removeEventListener('input', input._autocompleteHandler);
+        input._autocompleteHandler = handleInput;
         input.addEventListener('input', handleInput);
 
         // Close dropdown when clicking outside
-        const closeDropdown = (e) => {
-            if (!input.contains(e.target) && !autocompleteContainer.contains(e.target)) {
-                autocompleteContainer.innerHTML = '';
-                autocompleteContainer.style.display = 'none';
-            }
-        };
-
-        document.addEventListener('click', closeDropdown);
+        if (!input._autocompleteCloseHandler) {
+            input._autocompleteCloseHandler = (e) => {
+                if (!input.contains(e.target) && !autocompleteContainer.contains(e.target)) {
+                    autocompleteContainer.innerHTML = '';
+                    autocompleteContainer.style.display = 'none';
+                }
+            };
+            document.addEventListener('click', input._autocompleteCloseHandler);
+        }
     }
 
     hideNewGameModal() {
@@ -746,7 +769,7 @@ class UIController {
         }
 
         try {
-            await this.tracker.createFolder(name, hasCumulativeTracker);
+            await this.tracker.createFolder(name, hasCumulativeTracker, this.currentFolderView);
             this.hideNewFolderModal();
             this.updateUI();
 
@@ -1225,28 +1248,37 @@ class UIController {
     async loadTeamRoster(teamName) {
         if (!teamName) return [];
 
-        // Convert team name to filename format (e.g., "Princeton University" -> "Princeton.json")
-        const fileName = this.teamNameToFileName(teamName);
-        const rosterPath = `Rosters/${fileName}`;
+        const parseRoster = (rosterData) => (rosterData.players || []).map(p => ({
+            ...p,
+            id: p.id || `${teamName}-${p.number}-${p.name.replace(/\s+/g, '-')}`
+        }));
 
+        // Try D1 path first
+        const d1FileName = this.teamNameToFileName(teamName);
+        const d1Path = `Rosters/d1/${d1FileName}`;
         try {
-            const response = await fetch(rosterPath);
-            if (!response.ok) {
-                console.warn(`Roster file not found: ${rosterPath}`);
-                return [];
+            const response = await fetch(d1Path);
+            if (response.ok) {
+                const rosterData = await response.json();
+                return parseRoster(rosterData);
             }
+        } catch (e) { /* fall through */ }
 
-            const rosterData = await response.json();
-
-            // Ensure each player has an ID (use name+number as unique ID if not present)
-            return (rosterData.players || []).map(p => ({
-                ...p,
-                id: p.id || `${teamName}-${p.number}-${p.name.replace(/\s+/g, '-')}`
-            }));
-        } catch (error) {
-            console.error(`Error loading roster for ${teamName}:`, error);
-            return [];
+        // Try D3 path
+        const d3File = getD3FileForTeam(teamName);
+        if (d3File) {
+            const d3Path = `Rosters/d3/${d3File}`;
+            try {
+                const response = await fetch(d3Path);
+                if (response.ok) {
+                    const rosterData = await response.json();
+                    return parseRoster(rosterData);
+                }
+            } catch (e) { /* fall through */ }
         }
+
+        console.warn(`Roster not found for: ${teamName}`);
+        return [];
     }
 
     teamNameToFileName(teamName) {
@@ -2007,225 +2039,206 @@ class UIController {
         const gamesList = this.elements.gamesList;
         gamesList.innerHTML = '';
 
-        // Get all regular games (not cumulative folders)
+        if (this.currentFolderView) {
+            this._renderFolderContents(gamesList, this.currentFolderView);
+        } else {
+            this._renderRootView(gamesList);
+        }
+    }
+
+    _renderRootView(gamesList) {
         const allGameIds = Object.keys(this.tracker.games).filter(id =>
             !this.tracker.games[id].isCumulativeFolder
         );
 
-        // REMOVED: Season Total rendering (cumulative tracking now only via folders)
+        // Root-level folders (no parent)
+        const rootFolderIds = Object.keys(this.tracker.folders)
+            .filter(id => !this.tracker.folders[id].parentFolderId)
+            .sort((a, b) => new Date(this.tracker.folders[a].createdAt) - new Date(this.tracker.folders[b].createdAt));
 
-        // Get all folders sorted by creation date
-        const folderIds = Object.keys(this.tracker.folders).sort((a, b) => {
-            return new Date(this.tracker.folders[a].createdAt) -
-                   new Date(this.tracker.folders[b].createdAt);
+        rootFolderIds.forEach(folderId => {
+            gamesList.appendChild(this.createFolderRow(this.tracker.folders[folderId]));
         });
 
-        // Render each folder
-        folderIds.forEach(folderId => {
-            const folder = this.tracker.folders[folderId];
-            const folderSection = this.createFolderSection(folder);
-            gamesList.appendChild(folderSection);
-        });
+        // Unfiled games
+        const unfiledGames = allGameIds
+            .filter(id => !this.tracker.games[id].folderId)
+            .sort((a, b) => new Date(this.tracker.games[b].date) - new Date(this.tracker.games[a].date));
 
-        // Render unfiled games section
-        const unfiledGames = allGameIds.filter(id => !this.tracker.games[id].folderId);
         if (unfiledGames.length > 0) {
-            const unfiledSection = this.createUnfiledGamesSection(unfiledGames);
-            gamesList.appendChild(unfiledSection);
+            if (rootFolderIds.length > 0) {
+                const sep = document.createElement('div');
+                sep.className = 'unfiled-separator';
+                sep.textContent = 'Unfiled';
+                gamesList.appendChild(sep);
+            }
+            unfiledGames.forEach(id => {
+                const game = this.tracker.games[id];
+                const card = this.createGameCard(game, id === this.tracker.currentGameId);
+                card.addEventListener('contextmenu', e => { e.preventDefault(); this.showGameContextMenu(e, id); });
+                gamesList.appendChild(card);
+            });
         }
 
-        // Show "no games" message if no games exist
-        if (allGameIds.length === 0) {
-            const noGamesMsg = document.createElement('div');
-            noGamesMsg.className = 'no-games-message';
-            noGamesMsg.style.marginTop = '20px';
-            noGamesMsg.innerHTML = `
-                <p>No games yet</p>
-                <p class="hint">Create your first game to get started!</p>
-            `;
-            gamesList.appendChild(noGamesMsg);
+        if (allGameIds.length === 0 && rootFolderIds.length === 0) {
+            const msg = document.createElement('div');
+            msg.className = 'no-games-message';
+            msg.style.marginTop = '20px';
+            msg.innerHTML = '<p>No games yet</p><p class="hint">Create your first game to get started!</p>';
+            gamesList.appendChild(msg);
         }
     }
 
-    createFolderSection(folder) {
-        const section = document.createElement('div');
-        section.className = 'folder-section';
-        section.dataset.folderId = folder.id;
-
-        // Folder header (collapsible)
-        const header = document.createElement('div');
-        header.className = 'folder-header';
-
-        const toggle = document.createElement('span');
-        toggle.className = 'folder-toggle';
-        toggle.textContent = '▼'; // Expanded by default
-
-        // Toggle arrow handles collapse/expand
-        toggle.addEventListener('click', (e) => {
-            e.stopPropagation();
-            section.classList.toggle('collapsed');
-            toggle.textContent = section.classList.contains('collapsed') ? '▶' : '▼';
-        });
-
-        const nameSpan = document.createElement('span');
-        nameSpan.className = 'folder-name';
-        nameSpan.textContent = `📁 ${folder.name}`;
-
-        const actionsDiv = document.createElement('div');
-        actionsDiv.className = 'folder-actions';
-
-        // Rename folder button
-        const renameBtn = document.createElement('button');
-        renameBtn.className = 'folder-action-btn';
-        renameBtn.innerHTML = '✏️';
-        renameBtn.title = 'Rename Folder';
-        renameBtn.addEventListener('click', (e) => {
-            e.stopPropagation();
-            this.renameFolder(folder.id);
-        });
-
-        // Delete folder button
-        const deleteBtn = document.createElement('button');
-        deleteBtn.className = 'folder-action-btn';
-        deleteBtn.innerHTML = '🗑️';
-        deleteBtn.title = 'Delete Folder';
-        deleteBtn.addEventListener('click', (e) => {
-            e.stopPropagation();
-            this.confirmDeleteFolder(folder.id);
-        });
-
-        actionsDiv.appendChild(renameBtn);
-        actionsDiv.appendChild(deleteBtn);
-        header.appendChild(toggle);
-        header.appendChild(nameSpan);
-        header.appendChild(actionsDiv);
-
-        // Mark as selected if this is the selected folder
-        if (this.selectedFolderId === folder.id) {
-            header.classList.add('folder-selected');
+    _renderFolderContents(gamesList, folderId) {
+        const folder = this.tracker.folders[folderId];
+        if (!folder) {
+            this.currentFolderView = null;
+            this.selectedFolderId = null;
+            this._updateSidebarHeader();
+            this._renderRootView(gamesList);
+            return;
         }
 
-        // Folder content (games)
-        const content = document.createElement('div');
-        content.className = 'folder-content';
+        // Subfolders
+        const subfolderIds = Object.keys(this.tracker.folders)
+            .filter(id => this.tracker.folders[id].parentFolderId === folderId)
+            .sort((a, b) => new Date(this.tracker.folders[a].createdAt) - new Date(this.tracker.folders[b].createdAt));
 
-        // Add cumulative game if folder has it
+        subfolderIds.forEach(subId => {
+            gamesList.appendChild(this.createFolderRow(this.tracker.folders[subId]));
+        });
+
+        // Cumulative game (if enabled)
         if (folder.hasCumulativeTracker) {
-            const cumulativeId = `${this.tracker.CUMULATIVE_ID_PREFIX}${folder.id}`;
+            const cumulativeId = `${this.tracker.CUMULATIVE_ID_PREFIX}${folderId}`;
             const cumulativeGame = this.tracker.games[cumulativeId];
             if (cumulativeGame) {
-                const cumulativeCard = this.createGameCard(
-                    cumulativeGame,
-                    this.tracker.currentGameId === cumulativeId,
-                    true  // isCumulative flag
-                );
-                content.appendChild(cumulativeCard);
+                gamesList.appendChild(this.createGameCard(cumulativeGame, this.tracker.currentGameId === cumulativeId, true));
             }
         }
 
-        // Get games in this folder
+        // Games in this folder
         const folderGames = Object.values(this.tracker.games)
-            .filter(g => g.folderId === folder.id && !g.isCumulativeFolder)
+            .filter(g => g.folderId === folderId && !g.isCumulativeFolder)
             .sort((a, b) => new Date(b.date) - new Date(a.date));
 
-        // Render games
         folderGames.forEach(game => {
-            const gameCard = this.createGameCard(
-                game,
-                game.id === this.tracker.currentGameId
-            );
-
-            // Add move to folder option on right-click
-            gameCard.addEventListener('contextmenu', (e) => {
-                e.preventDefault();
-                this.showGameContextMenu(e, game.id);
-            });
-
-            content.appendChild(gameCard);
+            const card = this.createGameCard(game, game.id === this.tracker.currentGameId);
+            card.addEventListener('contextmenu', e => { e.preventDefault(); this.showGameContextMenu(e, game.id); });
+            gamesList.appendChild(card);
         });
 
-        // Clicking the header (but not toggle or actions) selects the folder
-        header.addEventListener('click', (e) => {
-            // Don't select if clicking actions
-            if (e.target.closest('.folder-actions') || e.target.closest('.folder-toggle')) {
-                return;
-            }
-            this.selectFolder(folder.id);
-        });
-
-        section.appendChild(header);
-        section.appendChild(content);
-
-        return section;
+        if (subfolderIds.length === 0 && folderGames.length === 0 && !folder.hasCumulativeTracker) {
+            const msg = document.createElement('div');
+            msg.className = 'no-games-message';
+            msg.style.marginTop = '10px';
+            msg.innerHTML = '<p>Folder is empty</p><p class="hint">Create a new game to add it here</p>';
+            gamesList.appendChild(msg);
+        }
     }
 
-    createUnfiledGamesSection(gameIds) {
-        const section = document.createElement('div');
-        section.className = 'folder-section';
+    createFolderRow(folder) {
+        const row = document.createElement('div');
+        row.className = 'folder-row';
+        row.dataset.folderId = folder.id;
 
-        const header = document.createElement('div');
-        header.className = 'folder-header';
+        const gameCount = Object.values(this.tracker.games)
+            .filter(g => g.folderId === folder.id && !g.isCumulativeFolder).length;
+        const subCount = Object.values(this.tracker.folders)
+            .filter(f => f.parentFolderId === folder.id).length;
 
-        const toggle = document.createElement('span');
-        toggle.className = 'folder-toggle';
-        toggle.textContent = '▼';
+        const parts = [];
+        if (subCount > 0) parts.push(`${subCount} folder${subCount !== 1 ? 's' : ''}`);
+        if (gameCount > 0) parts.push(`${gameCount} game${gameCount !== 1 ? 's' : ''}`);
+        const countText = parts.length > 0 ? parts.join(', ') : 'empty';
 
-        // Toggle arrow handles collapse/expand
-        toggle.addEventListener('click', (e) => {
-            e.stopPropagation();
-            section.classList.toggle('collapsed');
-            toggle.textContent = section.classList.contains('collapsed') ? '▶' : '▼';
+        row.innerHTML = `
+            <span class="folder-row-icon">📁</span>
+            <span class="folder-row-name">${folder.name}</span>
+            <span class="folder-row-count">${countText}</span>
+            <span class="folder-row-chevron">›</span>
+        `;
+
+        row.addEventListener('click', () => this.enterFolder(folder.id));
+
+        // Right-click context menu
+        row.addEventListener('contextmenu', e => {
+            e.preventDefault();
+            this.showFolderContextMenu(e, folder.id);
         });
 
-        const nameSpan = document.createElement('span');
-        nameSpan.className = 'folder-name';
-        nameSpan.textContent = '📂 Unfiled Games';
+        // Long-press for mobile
+        let longPressTimer;
+        row.addEventListener('touchstart', e => {
+            longPressTimer = setTimeout(() => {
+                this.showFolderContextMenu(e.touches[0], folder.id);
+            }, 600);
+        }, { passive: true });
+        row.addEventListener('touchend', () => clearTimeout(longPressTimer));
+        row.addEventListener('touchmove', () => clearTimeout(longPressTimer));
 
-        header.appendChild(toggle);
-        header.appendChild(nameSpan);
+        return row;
+    }
 
-        // Mark as selected if no folder is selected (unfiled)
-        if (this.selectedFolderId === null) {
-            header.classList.add('folder-selected');
+    enterFolder(folderId) {
+        this.currentFolderView = folderId;
+        this.selectedFolderId = folderId;
+        this._updateSidebarHeader();
+        this.updateGamesList();
+    }
+
+    navigateBack() {
+        if (!this.currentFolderView) return;
+        const folder = this.tracker.folders[this.currentFolderView];
+        const parentId = folder?.parentFolderId || null;
+        this.currentFolderView = parentId;
+        this.selectedFolderId = parentId;
+        this._updateSidebarHeader();
+        this.updateGamesList();
+    }
+
+    _updateSidebarHeader() {
+        const breadcrumb = this.elements.sidebarBreadcrumb;
+        const rootHeader = this.elements.sidebarRootHeader;
+        const folderTitle = this.elements.sidebarFolderTitle;
+
+        if (this.currentFolderView) {
+            const folder = this.tracker.folders[this.currentFolderView];
+            breadcrumb.style.display = 'flex';
+            rootHeader.style.display = 'none';
+            folderTitle.textContent = folder?.name || '';
+        } else {
+            breadcrumb.style.display = 'none';
+            rootHeader.style.display = 'block';
         }
+    }
 
-        const content = document.createElement('div');
-        content.className = 'folder-content';
+    showFolderContextMenu(event, folderId) {
+        const existing = document.querySelector('.folder-context-menu');
+        if (existing) existing.remove();
 
-        // Sort by date
-        gameIds.sort((a, b) => {
-            return new Date(this.tracker.games[b].date) -
-                   new Date(this.tracker.games[a].date);
-        });
+        const menu = document.createElement('div');
+        menu.className = 'folder-context-menu game-context-menu';
+        menu.style.left = `${event.clientX}px`;
+        menu.style.top = `${event.clientY}px`;
 
-        gameIds.forEach(id => {
-            const game = this.tracker.games[id];
-            const gameCard = this.createGameCard(
-                game,
-                id === this.tracker.currentGameId
-            );
+        const renameItem = document.createElement('div');
+        renameItem.className = 'context-menu-item';
+        renameItem.textContent = '✏️ Rename';
+        renameItem.addEventListener('click', () => { this.renameFolder(folderId); menu.remove(); });
 
-            gameCard.addEventListener('contextmenu', (e) => {
-                e.preventDefault();
-                this.showGameContextMenu(e, game.id);
-            });
+        const deleteItem = document.createElement('div');
+        deleteItem.className = 'context-menu-item context-menu-item-danger';
+        deleteItem.textContent = '🗑️ Delete';
+        deleteItem.addEventListener('click', () => { this.confirmDeleteFolder(folderId); menu.remove(); });
 
-            content.appendChild(gameCard);
-        });
+        menu.appendChild(renameItem);
+        menu.appendChild(deleteItem);
+        document.body.appendChild(menu);
 
-        // Clicking the header (but not toggle) clears folder selection
-        header.addEventListener('click', (e) => {
-            // Don't select if clicking toggle
-            if (e.target.closest('.folder-toggle')) {
-                return;
-            }
-            this.selectFolder(null); // Clear selection (unfiled)
-        });
-
-        section.appendChild(header);
-        section.appendChild(content);
-
-        return section;
+        setTimeout(() => {
+            document.addEventListener('click', () => menu.remove(), { once: true });
+        }, 10);
     }
 
     createGameCard(game, isActive, isCumulative = false) {
@@ -2244,7 +2257,13 @@ class UIController {
             year: 'numeric'
         });
 
-        const gameTitle = game.opponent || `${game.teamA} vs ${game.teamB}`;
+        let gameTitle;
+        if (isCumulative || game.isCumulativeFolder) {
+            const folder = game.folderId ? this.tracker.folders[game.folderId] : null;
+            gameTitle = folder ? `${folder.name} Total Tracker` : 'Total Tracker';
+        } else {
+            gameTitle = game.opponent || `${game.teamA} vs ${game.teamB}`;
+        }
         const cumulativeBadge = (isCumulative || game.isCumulativeFolder) ? '<div class="cumulative-badge">📊 Cumulative</div>' : '';
 
         card.innerHTML = `
@@ -2393,6 +2412,7 @@ class UIController {
         if (result.isConfirmed && result.value) {
             const newName = result.value.trim();
             await this.tracker.renameFolder(folderId, newName);
+            this._updateSidebarHeader();
             this.updateUI();
 
             Swal.fire({
@@ -2424,7 +2444,14 @@ class UIController {
         });
 
         if (result.isConfirmed) {
+            // If we're currently inside the deleted folder, navigate back first
+            if (this.currentFolderView === folderId) {
+                const deletedFolder = this.tracker.folders[folderId];
+                this.currentFolderView = deletedFolder?.parentFolderId || null;
+                this.selectedFolderId = this.currentFolderView;
+            }
             await this.tracker.deleteFolder(folderId);
+            this._updateSidebarHeader();
             this.updateUI();
 
             Swal.fire({
@@ -2437,8 +2464,14 @@ class UIController {
     }
 
     selectFolder(folderId) {
-        this.selectedFolderId = folderId;
-        this.updateGamesList(); // Refresh to show selection
+        if (folderId) {
+            this.enterFolder(folderId);
+        } else {
+            this.currentFolderView = null;
+            this.selectedFolderId = null;
+            this._updateSidebarHeader();
+            this.updateGamesList();
+        }
     }
 
     async confirmDeleteGame(gameId) {
@@ -2528,13 +2561,53 @@ class UIController {
         legendTeamALabel.textContent = `${teamAName} Win`;
         legendTeamBLabel.textContent = `${teamBName} Win`;
 
-        // Get team colors (with conflict resolution)
-        const teamAColor = getTeamColor(teamAName, 'A', teamBName);
-        const teamBColor = getTeamColor(teamBName, 'B', teamAName);
+        // Resolve colors (D1 → D3 → TeamColors map), then conflict-resolve
+        const { teamAColor, teamBColor } = this._resolveTeamColors(teamAName, teamBName);
 
         // Update marker colors
         legendTeamAMarker.style.backgroundColor = teamAColor;
         legendTeamBMarker.style.backgroundColor = teamBColor;
+    }
+
+    // Shared color resolver used by updateLegend() and render()
+    _resolveTeamColors(teamAName, teamBName) {
+        const FALLBACK_GRAY = '#808080';
+
+        const resolveColor = (name) => {
+            if (!name) return null;
+            const d1 = d1LacrosseSchools.find(s => s.name.toLowerCase() === name.toLowerCase());
+            if (d1) return d1.color;
+            const d3 = getD3SchoolData(name);
+            if (d3) return d3.color;
+            return getTeamColorFromMap(name);
+        };
+
+        let teamAColor = resolveColor(teamAName) || '#10b981';
+        let teamBColor = resolveColor(teamBName) || '#ef4444';
+
+        // Conflict resolution when colors are too similar
+        if (areColorsSimilar(teamAColor, teamBColor)) {
+            const findSchool = (name) => name
+                ? (d1LacrosseSchools.find(s => s.name.toLowerCase() === name.toLowerCase()) ||
+                   getD3SchoolData(name))
+                : null;
+
+            const schoolB = findSchool(teamBName);
+            const secondaryB = schoolB?.secondaryColor;
+            if (secondaryB && !areColorsSimilar(secondaryB, teamAColor) && !areColorsSimilar(secondaryB, '#FFFFFF')) {
+                teamBColor = secondaryB;
+            } else {
+                const schoolA = findSchool(teamAName);
+                const secondaryA = schoolA?.secondaryColor;
+                if (secondaryA && !areColorsSimilar(secondaryA, teamBColor) && !areColorsSimilar(secondaryA, '#FFFFFF')) {
+                    teamAColor = secondaryA;
+                } else {
+                    teamBColor = FALLBACK_GRAY;
+                }
+            }
+        }
+
+        return { teamAColor, teamBColor };
     }
 
     updateStats() {
@@ -2651,49 +2724,10 @@ class UIController {
             return teamAMatch && teamBMatch;
         });
 
-        // Get team colors
-        let teamAColor = '#10b981'; // Default green
-        let teamBColor = '#ef4444'; // Default red
-        const FALLBACK_GRAY = '#808080';
-
-        if (game) {
-            if (game.teamA) {
-                teamAColor = getTeamColorFromMap(game.teamA);
-            }
-            if (game.teamB) {
-                teamBColor = getTeamColorFromMap(game.teamB);
-            } else if (game.opponent) {
-                // Legacy format - use opponent name for team B color
-                teamBColor = getTeamColorFromMap(game.opponent);
-            }
-
-            // Resolve color conflicts when both teams have similar colors
-            if (areColorsSimilar(teamAColor, teamBColor)) {
-                // Try Team B's secondary color first
-                const teamBName = game.teamB || game.opponent;
-                const schoolB = teamBName ? d1LacrosseSchools.find(s =>
-                    s.name.toLowerCase() === teamBName.toLowerCase()
-                ) : null;
-                const secondaryB = schoolB?.secondaryColor;
-
-                if (secondaryB && !areColorsSimilar(secondaryB, teamAColor) && !areColorsSimilar(secondaryB, '#FFFFFF')) {
-                    teamBColor = secondaryB;
-                } else {
-                    // Try Team A's secondary color for Team A instead
-                    const schoolA = game.teamA ? d1LacrosseSchools.find(s =>
-                        s.name.toLowerCase() === game.teamA.toLowerCase()
-                    ) : null;
-                    const secondaryA = schoolA?.secondaryColor;
-
-                    if (secondaryA && !areColorsSimilar(secondaryA, teamBColor) && !areColorsSimilar(secondaryA, '#FFFFFF')) {
-                        teamAColor = secondaryA;
-                    } else {
-                        // Fall back to gray for Team B
-                        teamBColor = FALLBACK_GRAY;
-                    }
-                }
-            }
-        }
+        // Get team colors via shared resolver (D1 → D3 → TeamColors + conflict resolution)
+        const teamAName = game ? game.teamA : null;
+        const teamBName = game ? (game.teamB || game.opponent) : null;
+        const { teamAColor, teamBColor } = this._resolveTeamColors(teamAName, teamBName);
 
         // Convert new pin format with team colors for FieldRenderer
         const renderPins = pins.map(pin => {

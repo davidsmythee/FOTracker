@@ -1,0 +1,301 @@
+{
+  "team": "Hope College",
+  "scrapedAt": "2026-03-13T22:04:46.570282Z",
+  "playerCount": 42,
+  "players": [
+    {
+      "name": "Weston Godbold",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Hope College"
+    },
+    {
+      "name": "Liam Belote",
+      "number": "2",
+      "position": "Long-Stick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "Hope College"
+    },
+    {
+      "name": "Jackson Vasquez",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Hope College"
+    },
+    {
+      "name": "Andon Rieger",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Hope College"
+    },
+    {
+      "name": "Jack McNamara",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Hope College"
+    },
+    {
+      "name": "Ryan Gillen",
+      "number": "6",
+      "position": "Attack/MidfieldA",
+      "classYear": "Sophomore",
+      "team": "Hope College"
+    },
+    {
+      "name": "Logan Voss",
+      "number": "7",
+      "position": "Attack/MidfieldA",
+      "classYear": "Freshman",
+      "team": "Hope College"
+    },
+    {
+      "name": "Elliott Heethuis",
+      "number": "8",
+      "position": "Attack/MidfieldA",
+      "classYear": "Freshman",
+      "team": "Hope College"
+    },
+    {
+      "name": "Brooks Clark",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Hope College"
+    },
+    {
+      "name": "Luke O'Connell",
+      "number": "10",
+      "position": "Attack/MidfieldA",
+      "classYear": "Sophomore",
+      "team": "Hope College"
+    },
+    {
+      "name": "PJ Wozniak",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Hope College"
+    },
+    {
+      "name": "Gibson Heethuis",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Hope College"
+    },
+    {
+      "name": "Tyler Berens",
+      "number": "13",
+      "position": "Long-Stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "Hope College"
+    },
+    {
+      "name": "Will Jewell",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Hope College"
+    },
+    {
+      "name": "Jack Zuiderveen",
+      "number": "15",
+      "position": "Attack/MidfieldA",
+      "classYear": "Sophomore",
+      "team": "Hope College"
+    },
+    {
+      "name": "Luke Darnell",
+      "number": "17",
+      "position": "Attack/MidfieldA",
+      "classYear": "Freshman",
+      "team": "Hope College"
+    },
+    {
+      "name": "Beckett Monday",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Hope College"
+    },
+    {
+      "name": "Ezra Carefelle",
+      "number": "19",
+      "position": "Attack/MidfieldA",
+      "classYear": "Freshman",
+      "team": "Hope College"
+    },
+    {
+      "name": "Jackson Arnold",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Hope College"
+    },
+    {
+      "name": "Micah Carefelle",
+      "number": "21",
+      "position": "FOGOM",
+      "classYear": "Freshman",
+      "team": "Hope College"
+    },
+    {
+      "name": "John Foster",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Hope College"
+    },
+    {
+      "name": "Tanner Schuette",
+      "number": "23",
+      "position": "Attack/MidfieldA",
+      "classYear": "Freshman",
+      "team": "Hope College"
+    },
+    {
+      "name": "Kyle Spondike",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Hope College"
+    },
+    {
+      "name": "Will Tobias",
+      "number": "25",
+      "position": "Attack/MidfieldA",
+      "classYear": "Senior",
+      "team": "Hope College"
+    },
+    {
+      "name": "Preston Hoexum",
+      "number": "26",
+      "position": "Attack/MidfieldA",
+      "classYear": "Sophomore",
+      "team": "Hope College"
+    },
+    {
+      "name": "Cash Ten Have",
+      "number": "27",
+      "position": "Attack/MidfieldA",
+      "classYear": "Freshman",
+      "team": "Hope College"
+    },
+    {
+      "name": "Carl Bailey",
+      "number": "28",
+      "position": "Attack/MidfieldA",
+      "classYear": "Senior",
+      "team": "Hope College"
+    },
+    {
+      "name": "Jack Balmforth",
+      "number": "29",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Hope College"
+    },
+    {
+      "name": "Brendan O'Donnell",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Hope College"
+    },
+    {
+      "name": "Jackson Early",
+      "number": "31",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Hope College"
+    },
+    {
+      "name": "Logan Eaton",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Hope College"
+    },
+    {
+      "name": "Kyler Ayers",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Hope College"
+    },
+    {
+      "name": "Kyle McVittie",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Hope College"
+    },
+    {
+      "name": "David Miedema",
+      "number": "36",
+      "position": "GoalkeeperG",
+      "classYear": "Sophomore",
+      "team": "Hope College"
+    },
+    {
+      "name": "Jake Eaton",
+      "number": "37",
+      "position": "Attack/MidfieldA",
+      "classYear": "Junior",
+      "team": "Hope College"
+    },
+    {
+      "name": "Owen Mueller",
+      "number": "38",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Hope College"
+    },
+    {
+      "name": "Brecken Overweg",
+      "number": "39",
+      "position": "Midfield/Face Off Get OffM",
+      "classYear": "Sophomore",
+      "team": "Hope College"
+    },
+    {
+      "name": "Lance Hart",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Hope College"
+    },
+    {
+      "name": "Ben Torrence",
+      "number": "42",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Hope College"
+    },
+    {
+      "name": "Ridge Boehmer",
+      "number": "43",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Hope College"
+    },
+    {
+      "name": "Billy Hughes",
+      "number": "44",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Hope College"
+    },
+    {
+      "name": "Dom Vezeau",
+      "number": "45",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "Hope College"
+    }
+  ]
+}

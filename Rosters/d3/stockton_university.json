@@ -1,0 +1,322 @@
+{
+  "team": "Stockton University",
+  "scrapedAt": "2026-03-13T22:07:37.102490Z",
+  "playerCount": 45,
+  "players": [
+    {
+      "name": "Ben Blum",
+      "number": "0",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Tommy Vandegrift",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Shane Kulhay",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Ty Christianson",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Dan Hyland",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Michael Hoey",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Mike Friel",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Liam Humphrey",
+      "number": "7",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Junior",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Nate Sears",
+      "number": "8",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Senior",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Jack Vandegrift",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Tyler Sininsky",
+      "number": "10",
+      "position": "Goalkeeper",
+      "classYear": "Senior",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Ryan Weber",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Colin Arcari",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Cole Blum",
+      "number": "13",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Logan Potts",
+      "number": "15",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Colin Wagner",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Noah Russ",
+      "number": "17",
+      "position": "FOGO/MidfieldFO/M",
+      "classYear": "Sophomore",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Anthony Cuccio",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Trevor Klapmuts",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Tommy Pedicone",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Camillo Marusco",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Connor Jablonski",
+      "number": "24",
+      "position": "Long-Stick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Ty Thermann",
+      "number": "27",
+      "position": "FOGOFO",
+      "classYear": "Sophomore",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Hunter VanZant",
+      "number": "28",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Stockton University"
+    },
+    {
+      "name": "John Saloom",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Jimmy Wasko",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Justin Besz",
+      "number": "33",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Ben Malicki",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Jamison Reid",
+      "number": "35",
+      "position": "Goalkeeper",
+      "classYear": "Freshman",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Michael D'Amico",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Noah Williams",
+      "number": "37",
+      "position": "MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Quinn Menet",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Brody Nussman",
+      "number": "42",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Declan Kiely",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Gage Parker",
+      "number": "45",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Will Kasica",
+      "number": "46",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Braydn Strzelecki",
+      "number": "47",
+      "position": "FOGOFO",
+      "classYear": "Sophomore",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Lucas Aaron",
+      "number": "48",
+      "position": "FOGOFO",
+      "classYear": "Sophomore",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Josh Graham",
+      "number": "50",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Calen Reid",
+      "number": "55",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Freshman",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Chris Funston",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Alex DeLierre",
+      "number": "77",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Chase Yesavage",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Bryce Ruwet",
+      "number": "91",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Stockton University"
+    },
+    {
+      "name": "Shane Phillips",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Stockton University"
+    }
+  ]
+}

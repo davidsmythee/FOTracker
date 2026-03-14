@@ -1,0 +1,154 @@
+{
+  "team": "Vermont State University - Castleton",
+  "scrapedAt": "2026-03-13T22:08:50.137811Z",
+  "playerCount": 21,
+  "players": [
+    {
+      "name": "Preston Kozlowski",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Vermont State University - Castleton"
+    },
+    {
+      "name": "Colin Connolly",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Vermont State University - Castleton"
+    },
+    {
+      "name": "Mateo Dolzadelli",
+      "number": "5",
+      "position": "DM",
+      "classYear": "Fy.",
+      "team": "Vermont State University - Castleton"
+    },
+    {
+      "name": "Taysean Metz",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Vermont State University - Castleton"
+    },
+    {
+      "name": "Carter Frankenhoff",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Vermont State University - Castleton"
+    },
+    {
+      "name": "Mitch Chaves",
+      "number": "8",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Vermont State University - Castleton"
+    },
+    {
+      "name": "Finn Maniaci",
+      "number": "9",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Vermont State University - Castleton"
+    },
+    {
+      "name": "Willem Aiston",
+      "number": "10",
+      "position": "FO/DM",
+      "classYear": "Sophomore",
+      "team": "Vermont State University - Castleton"
+    },
+    {
+      "name": "Liam Evarts",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Vermont State University - Castleton"
+    },
+    {
+      "name": "Cole Ashelin",
+      "number": "13",
+      "position": "DM",
+      "classYear": "Sophomore",
+      "team": "Vermont State University - Castleton"
+    },
+    {
+      "name": "Shawn Bishop",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Vermont State University - Castleton"
+    },
+    {
+      "name": "Cole Bowditch",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Vermont State University - Castleton"
+    },
+    {
+      "name": "Asa Forbes",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Vermont State University - Castleton"
+    },
+    {
+      "name": "Jordan Damske",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Vermont State University - Castleton"
+    },
+    {
+      "name": "Gabe Rubio",
+      "number": "23",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Vermont State University - Castleton"
+    },
+    {
+      "name": "Jamison Couture",
+      "number": "26",
+      "position": "FO/DM",
+      "classYear": "Sophomore",
+      "team": "Vermont State University - Castleton"
+    },
+    {
+      "name": "Imani Mbayu",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Vermont State University - Castleton"
+    },
+    {
+      "name": "Owen Bombardier",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Vermont State University - Castleton"
+    },
+    {
+      "name": "Matt Gregoire",
+      "number": "35",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Vermont State University - Castleton"
+    },
+    {
+      "name": "Wes Anair",
+      "number": "36",
+      "position": "Goalie",
+      "classYear": "Fy.",
+      "team": "Vermont State University - Castleton"
+    },
+    {
+      "name": "Jason Samek",
+      "number": "37",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Vermont State University - Castleton"
+    }
+  ]
+}

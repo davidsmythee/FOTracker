@@ -1,0 +1,378 @@
+{
+  "team": "DeSales University",
+  "scrapedAt": "2026-03-13T22:03:43.526670Z",
+  "playerCount": 53,
+  "players": [
+    {
+      "name": "Matt Costigan",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Jake Hurd",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Andrew Piccola",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "DeSales University"
+    },
+    {
+      "name": "DJ Verkade",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Jason Reilly",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Connor Bourdon",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Peter Villare",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Mark Winkler Jr.",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Marco De Bernardo",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Seth Young",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Carter Mason",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Ryan Cook",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Jake Hasson",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Joe Cieleski",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Liam Doyle",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Marco DiPalma",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Blake Finnegan",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Luke Hufford",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "DeSales University"
+    },
+    {
+      "name": "AJ Ardizone",
+      "number": "19",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Ryan Herman",
+      "number": "20",
+      "position": "FOGOFO",
+      "classYear": "Fy.",
+      "team": "DeSales University"
+    },
+    {
+      "name": "TJ Kearns",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Andrew Krieg",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Peyton Fox",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Tyler DeNaples",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Taylor Wikert",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Paul Fell",
+      "number": "27",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Connor Johnson",
+      "number": "28",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "DeSales University"
+    },
+    {
+      "name": "DJ Souza",
+      "number": "29",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Ryan Pellegrino",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Christopher Andersen",
+      "number": "31",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Nolan Chiulli",
+      "number": "32",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Joseph Conte",
+      "number": "33",
+      "position": "Long Stick MiddieLSM",
+      "classYear": "Junior",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Patrick McGeough",
+      "number": "34",
+      "position": "Goalkeeper",
+      "classYear": "Fy.",
+      "team": "DeSales University"
+    },
+    {
+      "name": "JD Russo",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Alec MacDonald",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Reid Saraniero",
+      "number": "37",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Luke Fezenko",
+      "number": "39",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Andrew Vogel",
+      "number": "40",
+      "position": "Long Stick MiddieLSM",
+      "classYear": "Sophomore",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Ryder Gehris",
+      "number": "41",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Joey Kessler",
+      "number": "42",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Colin Spring",
+      "number": "43",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Patch Day",
+      "number": "44",
+      "position": "FOGO SpecialistFO",
+      "classYear": "Sophomore",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Andrew Blackwell",
+      "number": "46",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Jacob Gorospe-Burke",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Vincent Tallman",
+      "number": "48",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Brian Sampson",
+      "number": "49",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Braydon Maruo-Hanamoto",
+      "number": "50",
+      "position": "FOGOFO",
+      "classYear": "Fy.",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Matt Baselice",
+      "number": "55",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Colin Getz",
+      "number": "56",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Xander Borowski",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Griffin Adams",
+      "number": "77",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Matteo Gervasoni",
+      "number": "87",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "DeSales University"
+    },
+    {
+      "name": "Chase Austin",
+      "number": "88",
+      "position": "Long Stick MiddieLSM",
+      "classYear": "Fy.",
+      "team": "DeSales University"
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "team": "Immaculata University",
+  "scrapedAt": "2026-03-13T22:04:56.687966Z",
+  "playerCount": 38,
+  "players": [
+    {
+      "name": "Jason Smaron",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Matt Steele",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Aaron Headley",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Liam Frazier",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Jacob Powell",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Bill Hill",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "John Stelacio",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Evan Petrecz",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Bradley Mead",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Ryan Gorman",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Colton Rhoades",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Brian Fuchs",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Gael Avalos",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Seth Panowitz",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Aden Riley",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Brody Moore",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Matthew Frame",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Tim Ekelund",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Buzz McGuire",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Danny Brady",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Nick Senatore",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Sean Rubin",
+      "number": "26",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Kurken Arpajian",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Gannon Mulloy",
+      "number": "28",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Zach Johnson",
+      "number": "29",
+      "position": "Long-Stick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Will Galvin",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Ryan King",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Jude Azzarano",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Carnell Lofton Jr.",
+      "number": "33",
+      "position": "FOGO, Get-OffFOGO",
+      "classYear": "Graduate",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Thomas Laurenzano",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Logan Pacheco",
+      "number": "35",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Ryan Convery",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Matthew Ludlow",
+      "number": "42",
+      "position": "GoalkeeperG",
+      "classYear": "Senior",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Colin Wolk",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Luke Kondovski",
+      "number": "44",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Brady Lynch",
+      "number": "45",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Freshman",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Daniel Alvarez",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Immaculata University"
+    },
+    {
+      "name": "Joe DiLauro",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Immaculata University"
+    }
+  ]
+}

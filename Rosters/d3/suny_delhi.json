@@ -1,0 +1,259 @@
+{
+  "team": "SUNY Delhi",
+  "scrapedAt": "2026-03-14T00:50:41.431180Z",
+  "playerCount": 36,
+  "players": [
+    {
+      "name": "Nick Allen",
+      "number": "0",
+      "position": "D/LSM",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Anthony Lotito",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Kyle Moore",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Colton Feinberg",
+      "number": "4",
+      "position": "A/M",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Chris Lazazzaro",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Trevor Zupetz",
+      "number": "6",
+      "position": "SSDM",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Jayden Messina",
+      "number": "7",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Anthony McLaughlin",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Brent Decoeur",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Christopher DiBiccari",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Thomas Gandley",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Austin Randolph",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Nate Doyle",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Liam Ryan",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Brenden Wallace",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Aiden Nye",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Cooper Bach",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Shane VonKampen",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Jake Anglim",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Jesse Hagen",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Mason Leerkes",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Jagger Beachak",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Dylan Csanko",
+      "number": "29",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Kashieve Francis",
+      "number": "30",
+      "position": "A/M",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Benjamin Zeh",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Desmond Regan",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Liam Johnson",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Stephen Lischinsky",
+      "number": "35",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Luke Tripp",
+      "number": "41",
+      "position": "D/LSM",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Kenneth Allen",
+      "number": "43",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "John Batelic",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Anthony Ferrato",
+      "number": "55",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Christian Seebach",
+      "number": "66",
+      "position": "Attack",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Michael Fontanella",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Tyler Ferguson",
+      "number": "81",
+      "position": "Defense",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    },
+    {
+      "name": "Allison Woodward",
+      "number": "NA",
+      "position": "Student Manager",
+      "classYear": "",
+      "team": "SUNY Delhi"
+    }
+  ]
+}

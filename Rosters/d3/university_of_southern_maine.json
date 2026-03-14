@@ -1,0 +1,245 @@
+{
+  "team": "University of Southern Maine",
+  "scrapedAt": "2026-03-13T22:08:43.650528Z",
+  "playerCount": 34,
+  "players": [
+    {
+      "name": "Lucas Rego",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Rodrigo Rego-Araujo",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Owen Gaulrapp",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Alden Densmore",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Jack Hardiman",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Tim Caouette",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Adam Coley",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Noah Johnson",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Pat O'Driscoll",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Jake Spalinger",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Charles Kennedy",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Zach Smith",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Owen Grant",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Ethan Tibbetts",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Dax Morin",
+      "number": "15",
+      "position": "Goalkeeper",
+      "classYear": "Freshman",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Herb Bryant",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Nick Shevchenko",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Max Ergas",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Brycen Wolfahrt",
+      "number": "19",
+      "position": "GoalkeeperG",
+      "classYear": "Junior",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Ryan Cummings",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Kai Zimerle",
+      "number": "21",
+      "position": "Goalkeeper",
+      "classYear": "Freshman",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Jacob Sharp",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Brody Ernst",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Kaden Manning",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Danny Caputo",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Nolan Brennan",
+      "number": "27",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Rhys Bridges",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Addison Dietz",
+      "number": "29",
+      "position": "Goalkeeper",
+      "classYear": "Senior",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Nick Pastusak",
+      "number": "31",
+      "position": "GoalkeeperG",
+      "classYear": "Sophomore",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Finn McCarthy",
+      "number": "32",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Nathan Dillman",
+      "number": "33",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Cameron Hawks",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "James Kastrinakis",
+      "number": "35",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of Southern Maine"
+    },
+    {
+      "name": "Colby Chavarie",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Southern Maine"
+    }
+  ]
+}

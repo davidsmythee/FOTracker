@@ -1,0 +1,126 @@
+{
+  "team": "Thiel College",
+  "scrapedAt": "2026-03-13T22:08:07.939111Z",
+  "playerCount": 17,
+  "players": [
+    {
+      "name": "Dom Baker",
+      "number": "1",
+      "position": "DD",
+      "classYear": "Freshman",
+      "team": "Thiel College"
+    },
+    {
+      "name": "Bereket Debebe",
+      "number": "2",
+      "position": "DD",
+      "classYear": "Sophomore",
+      "team": "Thiel College"
+    },
+    {
+      "name": "Drevon Newton",
+      "number": "4",
+      "position": "A/MA/M",
+      "classYear": "Sophomore",
+      "team": "Thiel College"
+    },
+    {
+      "name": "James Kliner",
+      "number": "6",
+      "position": "DD",
+      "classYear": "Junior",
+      "team": "Thiel College"
+    },
+    {
+      "name": "Joshua Larabee",
+      "number": "7",
+      "position": "SSDMSSDM",
+      "classYear": "Freshman",
+      "team": "Thiel College"
+    },
+    {
+      "name": "Hunter Crouse",
+      "number": "8",
+      "position": "MM",
+      "classYear": "Senior",
+      "team": "Thiel College"
+    },
+    {
+      "name": "Mason Simmons",
+      "number": "9",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "Thiel College"
+    },
+    {
+      "name": "Logan Millie",
+      "number": "11",
+      "position": "A/MA/M",
+      "classYear": "Junior",
+      "team": "Thiel College"
+    },
+    {
+      "name": "Kasey Estep",
+      "number": "13",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "Thiel College"
+    },
+    {
+      "name": "Austin Parker",
+      "number": "15",
+      "position": "M/FOGO/FO",
+      "classYear": "Senior",
+      "team": "Thiel College"
+    },
+    {
+      "name": "Chase Kyler",
+      "number": "16",
+      "position": "SSDM/MSSDM/M",
+      "classYear": "Sophomore",
+      "team": "Thiel College"
+    },
+    {
+      "name": "Benjamin Paserk",
+      "number": "17",
+      "position": "SSDM/MSSDM/M",
+      "classYear": "Senior",
+      "team": "Thiel College"
+    },
+    {
+      "name": "Ethan Narby",
+      "number": "21",
+      "position": "GKGK",
+      "classYear": "Junior",
+      "team": "Thiel College"
+    },
+    {
+      "name": "Joey King",
+      "number": "23",
+      "position": "MM",
+      "classYear": "Junior",
+      "team": "Thiel College"
+    },
+    {
+      "name": "Brenden McCready",
+      "number": "26",
+      "position": "MM",
+      "classYear": "Sophomore",
+      "team": "Thiel College"
+    },
+    {
+      "name": "Quentin Cato",
+      "number": "32",
+      "position": "AA",
+      "classYear": "Sophomore",
+      "team": "Thiel College"
+    },
+    {
+      "name": "Joey Peterson",
+      "number": "33",
+      "position": "GK/DGK/D",
+      "classYear": "Sophomore",
+      "team": "Thiel College"
+    }
+  ]
+}

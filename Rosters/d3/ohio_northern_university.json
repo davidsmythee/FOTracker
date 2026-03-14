@@ -1,0 +1,364 @@
+{
+  "team": "Ohio Northern University",
+  "scrapedAt": "2026-03-14T00:58:26.071299Z",
+  "playerCount": 51,
+  "players": [
+    {
+      "name": "Rudy DeFilippis",
+      "number": "1",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Cooper Mulligan",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Ridge Trimble",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Brady Vette",
+      "number": "4",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Carter Colfack",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Devin Halliday",
+      "number": "6",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Noah Chomout",
+      "number": "7",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Davis Rice",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Aidan Sexton",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Brydan Pitman",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Landon Laney",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Ruben Iakiri",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Jacob Verbanic",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Luke Williams",
+      "number": "14",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Ryan Baum",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Chris Ballentine",
+      "number": "16",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Bodie Tshudy",
+      "number": "17",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Griffin Bartos",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Owen Ranly",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Justin Sonny",
+      "number": "20",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Jack Switter",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Carson Yackey",
+      "number": "22",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Peyton Lich",
+      "number": "23",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Ben Gridley",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Keaton Davis",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Max Warnecke",
+      "number": "27",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Connor Thomas",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Jack Chaney",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Lucas Winkelman",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Ryan Frech",
+      "number": "31",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "J.D. Hale",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Mark Mintzlaff",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Zachary Kremser",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Oliver Matney",
+      "number": "35",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Nathan Flynn",
+      "number": "36",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Ben Misa",
+      "number": "37",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Dylan Freyer",
+      "number": "38",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Saxon Dobos",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Connor Donohue",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Zack Smith",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Eli Ferguson",
+      "number": "44",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Alex Watson",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Marty Watson",
+      "number": "46",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Lance Stevenson",
+      "number": "47",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Hudson Welsh",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Ian Phillips",
+      "number": "51",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Gabriel McNamee",
+      "number": "52",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Xavier Jankord",
+      "number": "53",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Luke Ferro",
+      "number": "55",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Colin Willits",
+      "number": "57",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Ohio Northern University"
+    },
+    {
+      "name": "Alex Bergeron",
+      "number": "60",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Ohio Northern University"
+    }
+  ]
+}

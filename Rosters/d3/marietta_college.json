@@ -1,0 +1,210 @@
+{
+  "team": "Marietta College",
+  "scrapedAt": "2026-03-13T22:05:34.927267Z",
+  "playerCount": 29,
+  "players": [
+    {
+      "name": "Caden Alkire",
+      "number": "1",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Junior",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Nathan Disori",
+      "number": "2",
+      "position": "FOGO/MidfieldFO/M",
+      "classYear": "Freshman",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Bryce Lotspeich",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Jeff McKnight",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Nick Renda",
+      "number": "5",
+      "position": "FOGO/MidfieldFO/M",
+      "classYear": "Freshman",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Hutch Melind",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Nathan Hamilton",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Tommy Imhof",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Alec Anderson",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Cal Henthorne",
+      "number": "11",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Bret Dickerson",
+      "number": "12",
+      "position": "FOGO/MidfieldFO/M",
+      "classYear": "Senior",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Jacob Grube",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Ryan Kenney",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Sam Leininger",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Dominic Cimarolli",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Jack Kelly",
+      "number": "17",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Will Fuesting",
+      "number": "18",
+      "position": "Defensive MidfieldDM",
+      "classYear": "Freshman",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Conner Alsing",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Donovan Masters",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Thomas Zerman",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Aidan Lundgren",
+      "number": "26",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Cannon Fox",
+      "number": "27",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Josh Zeyn",
+      "number": "31",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Freshman",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Caleb Moore",
+      "number": "33",
+      "position": "Defensive MidfieldDM",
+      "classYear": "Freshman",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Xzandre Flohr",
+      "number": "36",
+      "position": "Defensive MidfieldDM",
+      "classYear": "Freshman",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Barrett Lindell",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Alan Schwab",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Garrett Schweiner",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Marietta College"
+    },
+    {
+      "name": "Danner Dorothy",
+      "number": "45",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Marietta College"
+    }
+  ]
+}

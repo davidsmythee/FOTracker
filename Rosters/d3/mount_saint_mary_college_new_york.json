@@ -1,0 +1,336 @@
+{
+  "team": "Mount Saint Mary College - New York",
+  "scrapedAt": "2026-03-13T22:06:08.656706Z",
+  "playerCount": 47,
+  "players": [
+    {
+      "name": "Teagan Fingar",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Collin Thomson",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Aidan Kilduff",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Owen Rupp",
+      "number": "5",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Nicolas Belmonte",
+      "number": "6",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Xandr Godzilevsky",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Gavin Schaffer",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Harrison Wolpoe",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Cole Angeline",
+      "number": "10",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Kyle Gould",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Chris Grimaldi",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Marcelo Carreiro",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Brody Atkinson",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Carter Quested",
+      "number": "15",
+      "position": "A/M",
+      "classYear": "Sophomore",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Will Simmons",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Trevor Sutton",
+      "number": "17",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Matt Hanley",
+      "number": "18",
+      "position": "DM",
+      "classYear": "Sophomore",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Brendan Wright",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Ansen Park",
+      "number": "20",
+      "position": "DM",
+      "classYear": "Sophomore",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Jameson Carl",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Sean Center-Wilhelm",
+      "number": "22",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Jack Slater",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Jaden Saysanam",
+      "number": "24",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Alex Guy",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Sean Connelly",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Dorain Connolley",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Nico Chirieleison",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Jack Durham",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Conner Aquino",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Darryl Kuriger",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Dylan Sander",
+      "number": "33",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Noah Fox",
+      "number": "34",
+      "position": "DM",
+      "classYear": "Junior",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Ryan Reynolds",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Cole Quenzer",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Josh Marson",
+      "number": "37",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Nicholas Kern",
+      "number": "39",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Kevin Whitty",
+      "number": "40",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Kevin Kane",
+      "number": "41",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Nate Committee",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Bennett Wright",
+      "number": "44",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Isaac Prantera",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Brady Rauner",
+      "number": "47",
+      "position": "Midfielder",
+      "classYear": "Graduate",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Owen Fasulka",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Sam Azbill",
+      "number": "51",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Brayden Ragland",
+      "number": "52",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Kenny McGoldrick",
+      "number": "54",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Mount Saint Mary College - New York"
+    },
+    {
+      "name": "Tucker Claxton",
+      "number": "55",
+      "position": "DM",
+      "classYear": "Sophomore",
+      "team": "Mount Saint Mary College - New York"
+    }
+  ]
+}

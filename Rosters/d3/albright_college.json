@@ -1,0 +1,140 @@
+{
+  "team": "Albright College",
+  "scrapedAt": "2026-03-13T22:02:19.673589Z",
+  "playerCount": 19,
+  "players": [
+    {
+      "name": "Aidan Graczyk",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Albright College"
+    },
+    {
+      "name": "RJ Ellerbee",
+      "number": "2",
+      "position": "MidfieldF",
+      "classYear": "FY",
+      "team": "Albright College"
+    },
+    {
+      "name": "Nate  Howe",
+      "number": "3",
+      "position": "Midfield/DefenseMF/D",
+      "classYear": "Junior",
+      "team": "Albright College"
+    },
+    {
+      "name": "Gabe Reavis",
+      "number": "4",
+      "position": "",
+      "classYear": "FY",
+      "team": "Albright College"
+    },
+    {
+      "name": "Semaj  Moyd",
+      "number": "5",
+      "position": "MidfieldF",
+      "classYear": "FY",
+      "team": "Albright College"
+    },
+    {
+      "name": "Brandon  Jones",
+      "number": "6",
+      "position": "Midfield/DefenseMF/D",
+      "classYear": "Sophomore",
+      "team": "Albright College"
+    },
+    {
+      "name": "Joaquin  Johnson",
+      "number": "7",
+      "position": "MidfieldF",
+      "classYear": "Junior",
+      "team": "Albright College"
+    },
+    {
+      "name": "Justin  Moroney",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Albright College"
+    },
+    {
+      "name": "Kraig  Sullivan",
+      "number": "10",
+      "position": "MidfieldF",
+      "classYear": "Junior",
+      "team": "Albright College"
+    },
+    {
+      "name": "Nick  Genovesi",
+      "number": "11",
+      "position": "Goalkeeper",
+      "classYear": "Sophomore",
+      "team": "Albright College"
+    },
+    {
+      "name": "Ryan Conover",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Albright College"
+    },
+    {
+      "name": "Derek Hanson",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "FY",
+      "team": "Albright College"
+    },
+    {
+      "name": "Elijah Bowles",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "FY",
+      "team": "Albright College"
+    },
+    {
+      "name": "Nick Antonio",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Albright College"
+    },
+    {
+      "name": "Malachi Moyd",
+      "number": "21",
+      "position": "FOGO/AttackFO/A",
+      "classYear": "Sophomore",
+      "team": "Albright College"
+    },
+    {
+      "name": "Kamar Daniels",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "FY",
+      "team": "Albright College"
+    },
+    {
+      "name": "Brady Etzkorn",
+      "number": "33",
+      "position": "Goalkeeper",
+      "classYear": "FY",
+      "team": "Albright College"
+    },
+    {
+      "name": "Garrett Valentine",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "FY",
+      "team": "Albright College"
+    },
+    {
+      "name": "Easton Sherwood",
+      "number": "99",
+      "position": "Goalkeeper",
+      "classYear": "Sophomore",
+      "team": "Albright College"
+    }
+  ]
+}

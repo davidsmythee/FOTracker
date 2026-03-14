@@ -1,0 +1,308 @@
+{
+  "team": "University of Maryland – Baltimore County",
+  "scrapedAt": "2026-01-28T21:23:04.469Z",
+  "playerCount": 43,
+  "players": [
+    {
+      "name": "Noah Hall",
+      "number": "0",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Corey Myers",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Zack Johnson",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Mike Dunleavy",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Grant Mauldin",
+      "number": "4",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Justin Webber",
+      "number": "5",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Ryan  Demato",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Cam Dick",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Braden Smith",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Nick  Gutierrez",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Conner Layden",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Casey Pung",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Connor Chick",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Gavin Batelka",
+      "number": "14",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Keegan Ryan",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Thomas Keating",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Alec Howard",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Logan Earl",
+      "number": "18",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Todd Freeman",
+      "number": "19",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Dante Marinello",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Connor McMahon",
+      "number": "21",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Kevin Bredeck",
+      "number": "22",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Dylan Sharpe",
+      "number": "23",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Zach  Coyle",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Paulo Vazquez",
+      "number": "25",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Elliott McClendon",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Caiden Merritt",
+      "number": "27",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Ayden Davis",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Shane DuBois",
+      "number": "29",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Billy  Stephens",
+      "number": "30",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Griffen McNeir",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Dylan Hendrix",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Drew Lapointe",
+      "number": "34",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Josh Schrader",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Landon Greenberg",
+      "number": "38",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Alex Steers",
+      "number": "39",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Nathan Ward",
+      "number": "40",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Xander Maxwell",
+      "number": "43",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Logan Duffy",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Jack Fish",
+      "number": "45",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Than Souza",
+      "number": "49",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Jake Kucinski",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Maryland – Baltimore County"
+    },
+    {
+      "name": "Jameson Coffman",
+      "number": "55",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "University of Maryland – Baltimore County"
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "team": "Drew University",
+  "scrapedAt": "2026-03-13T22:03:46.484680Z",
+  "playerCount": 35,
+  "players": [
+    {
+      "name": "Kullen Mcdermott",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Drew University"
+    },
+    {
+      "name": "Conor Kagel",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Drew University"
+    },
+    {
+      "name": "Bryan Cohen",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Drew University"
+    },
+    {
+      "name": "Yaneik Gallego",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Drew University"
+    },
+    {
+      "name": "Van Krause",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Drew University"
+    },
+    {
+      "name": "Josh Burke",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Drew University"
+    },
+    {
+      "name": "Nick Carabetta",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Drew University"
+    },
+    {
+      "name": "Kody Lubischer",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Drew University"
+    },
+    {
+      "name": "Joseph Carabetta",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Drew University"
+    },
+    {
+      "name": "Josef Zengerle",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Drew University"
+    },
+    {
+      "name": "Joe Mastrogiovanni",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Drew University"
+    },
+    {
+      "name": "Salvatore Desiderio",
+      "number": "13",
+      "position": "Long-Stick MidfielderLSM",
+      "classYear": "Senior",
+      "team": "Drew University"
+    },
+    {
+      "name": "Jake Cornelius",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Drew University"
+    },
+    {
+      "name": "Theo Krueger",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Drew University"
+    },
+    {
+      "name": "Vincent Rubio",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Drew University"
+    },
+    {
+      "name": "Gabriel Ferrari",
+      "number": "18",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Drew University"
+    },
+    {
+      "name": "Cole Kirker",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Drew University"
+    },
+    {
+      "name": "Joost van der Horst",
+      "number": "22",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Graduate",
+      "team": "Drew University"
+    },
+    {
+      "name": "Louis Tiboldo",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Drew University"
+    },
+    {
+      "name": "Gabriel Gutierrez",
+      "number": "25",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Drew University"
+    },
+    {
+      "name": "Aiden Kelly",
+      "number": "26",
+      "position": "GoalieGK",
+      "classYear": "Sophomore",
+      "team": "Drew University"
+    },
+    {
+      "name": "Miles Faustin",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Drew University"
+    },
+    {
+      "name": "Luca LeClaire",
+      "number": "29",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "Drew University"
+    },
+    {
+      "name": "John Patles",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Drew University"
+    },
+    {
+      "name": "Colin Diodato",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Drew University"
+    },
+    {
+      "name": "Sawyer Kennedy",
+      "number": "38",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Drew University"
+    },
+    {
+      "name": "Eli Sanford",
+      "number": "42",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Drew University"
+    },
+    {
+      "name": "Dalton Gogola",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Drew University"
+    },
+    {
+      "name": "Logan Mancini",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Drew University"
+    },
+    {
+      "name": "Gabriel Hernandez",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Drew University"
+    },
+    {
+      "name": "Joey Larmore",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Drew University"
+    },
+    {
+      "name": "John Clinton",
+      "number": "53",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Drew University"
+    },
+    {
+      "name": "Finn Krause",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Drew University"
+    },
+    {
+      "name": "Joe Barnish",
+      "number": "67",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Drew University"
+    },
+    {
+      "name": "Riley Zeer",
+      "number": "78",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Drew University"
+    }
+  ]
+}

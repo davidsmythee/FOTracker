@@ -1,0 +1,448 @@
+{
+  "team": "Trinity College - Connecticut",
+  "scrapedAt": "2026-03-13T22:08:14.655285Z",
+  "playerCount": 63,
+  "players": [
+    {
+      "name": "Dawson Brown",
+      "number": "0",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Austin Kitces",
+      "number": "00",
+      "position": "GK",
+      "classYear": "Fy.",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Miles Harvey",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Bo Page",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Kieran Shin",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Jay Ottomanelli",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Colin Sullivan",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Cam Elenteny",
+      "number": "6",
+      "position": "M/A",
+      "classYear": "Junior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Ryan Challice",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Diego Gomez",
+      "number": "8",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Peter Hopkins",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Fitz Frechette",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Ethan Opdenaker",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Bear Soper",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Andrew Finn",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Ben Wong",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Ollie Lamadieu",
+      "number": "16",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Collin McCarthy",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Matt Shepard",
+      "number": "18",
+      "position": "GK",
+      "classYear": "Fy.",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Finn O'Callaghan",
+      "number": "19",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Gavin Korpi",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Carter Barford",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Edward Schreiber",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "William Lavallee",
+      "number": "23",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Davis Ike",
+      "number": "24",
+      "position": "GK",
+      "classYear": "Senior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Julian Singh",
+      "number": "25",
+      "position": "LSM/D",
+      "classYear": "Fy.",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Henry Hladick",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Ethan Cobb",
+      "number": "27",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Jake Connors",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Elliot Detjens",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Conley Bohan",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Will Tryder",
+      "number": "31",
+      "position": "A/M",
+      "classYear": "Junior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Reed Campbell",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Theodore Sachs",
+      "number": "33",
+      "position": "LSM/D",
+      "classYear": "Sophomore",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Nicholas Emsing",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "J.D. Landstrom",
+      "number": "35",
+      "position": "D/LSM",
+      "classYear": "Junior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Logan Mueller",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Jeb Slimbaugh",
+      "number": "37",
+      "position": "GK",
+      "classYear": "Senior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Anthony Miceli",
+      "number": "39",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Nicholas Sofer",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Dylan Feeks",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Rhys Amorosino",
+      "number": "42",
+      "position": "FO/M",
+      "classYear": "Fy.",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Owen Kiernan",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Makin Blalock",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "John Nagle III",
+      "number": "45",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Benjamin Horowitz",
+      "number": "46",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Alex Kim",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Jack Mundy",
+      "number": "48",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Owen Johnston",
+      "number": "49",
+      "position": "D/M",
+      "classYear": "Junior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Duncan Rider",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Billy Gerne",
+      "number": "51",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Anderson Chang",
+      "number": "52",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "William Chiasson",
+      "number": "54",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Josh Gibbs",
+      "number": "55",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Ethan Lung",
+      "number": "66",
+      "position": "D/LSM",
+      "classYear": "Senior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Henry Schoettle",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Taylor Cotton",
+      "number": "87",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "James Jacob",
+      "number": "88",
+      "position": "A/M",
+      "classYear": "Senior",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Lane Critchell",
+      "number": "91",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Nico Bilbao",
+      "number": "92",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Eammon Donovan",
+      "number": "93",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "James Falk",
+      "number": "98",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Trinity College - Connecticut"
+    },
+    {
+      "name": "Rory McAloon",
+      "number": "99",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Trinity College - Connecticut"
+    }
+  ]
+}

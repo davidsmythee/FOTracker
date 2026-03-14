@@ -1,0 +1,252 @@
+{
+  "team": "Maine Maritime Academy",
+  "scrapedAt": "2026-03-13T22:05:30.385789Z",
+  "playerCount": 35,
+  "players": [
+    {
+      "name": "Andrew Noyes",
+      "number": "0",
+      "position": "GK",
+      "classYear": "Junior",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Finn O'Donnell",
+      "number": "1",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Ryan Dunstan",
+      "number": "2",
+      "position": "MF",
+      "classYear": "Sophomore",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "John Martin",
+      "number": "3",
+      "position": "MF",
+      "classYear": "Junior",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Ryan Parent",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Dustin Burton",
+      "number": "7",
+      "position": "MF",
+      "classYear": "Senior",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Bryce Crowell",
+      "number": "8",
+      "position": "MF",
+      "classYear": "Junior",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Calvin Johnson",
+      "number": "9",
+      "position": "MF",
+      "classYear": "Freshman",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Tristan Reinhold",
+      "number": "10",
+      "position": "MF",
+      "classYear": "Sophomore",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Matthew Villeneuve",
+      "number": "11",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Connor Harvey",
+      "number": "12",
+      "position": "MF",
+      "classYear": "Freshman",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Trey Marcil",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Ryker Spear",
+      "number": "14",
+      "position": "MF",
+      "classYear": "Junior",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Will Kelley",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Kalani Mari",
+      "number": "16",
+      "position": "MF",
+      "classYear": "Freshman",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Cole Michaud",
+      "number": "17",
+      "position": "MF",
+      "classYear": "Senior",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Will Farrell",
+      "number": "18",
+      "position": "GK",
+      "classYear": "Senior",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Davison Naylor",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Jaden Knight",
+      "number": "20",
+      "position": "MF",
+      "classYear": "Junior",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Elijah Brito",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Johannes Zachhuber",
+      "number": "22",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Tobey Lappin",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Hunter Arno",
+      "number": "25",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Seamus Dineen",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Connor Murphy",
+      "number": "29",
+      "position": "GK",
+      "classYear": "Junior",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Sean Allen",
+      "number": "32",
+      "position": "MF",
+      "classYear": "Freshman",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Randall Walker",
+      "number": "33",
+      "position": "MF",
+      "classYear": "Freshman",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Joey Somma",
+      "number": "34",
+      "position": "MF",
+      "classYear": "Sophomore",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Mitch May",
+      "number": "40",
+      "position": "MF",
+      "classYear": "Freshman",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Ben Kieu",
+      "number": "42",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Atticus Blue",
+      "number": "44",
+      "position": "MF",
+      "classYear": "Freshman",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Edward Yock",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Cy Lynam",
+      "number": "66",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Oliver Thawley",
+      "number": "88",
+      "position": "MF",
+      "classYear": "Freshman",
+      "team": "Maine Maritime Academy"
+    },
+    {
+      "name": "Addison Thawley",
+      "number": "99",
+      "position": "MF",
+      "classYear": "Junior",
+      "team": "Maine Maritime Academy"
+    }
+  ]
+}

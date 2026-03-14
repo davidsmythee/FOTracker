@@ -1,0 +1,350 @@
+{
+  "team": "Oberlin College",
+  "scrapedAt": "2026-03-13T22:06:28.721963Z",
+  "playerCount": 49,
+  "players": [
+    {
+      "name": "Devon Debes",
+      "number": "1",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Joe Chai",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Solomon Brennan",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Sam DeGrappo",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Jacob Starcke",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Jack Duffy",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Jordan Fishback",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Jackson Lu",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Will Kohl",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "David Belisle",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Jackson Davies",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Cooper Zancosky",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Nicholas Cuda",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Sam Duffy",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Levi Shoemaker",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Colin Taylor",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Bobby Brock",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Asher Friedman",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "David Rodriguez",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Thinley Edwards",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Walker Johnson",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Quaadir Durden",
+      "number": "22",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Ryan Loughlin",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Jake Pillsbury",
+      "number": "24",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Dylan Hendrick",
+      "number": "25",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Cole Barnett",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Peyton Lee",
+      "number": "29",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Nolan Grieshaber",
+      "number": "30",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Noah Moylan",
+      "number": "31",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Michael Dinkel",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Ryan Murphy",
+      "number": "33",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Seamus  Story",
+      "number": "34",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Hwaejin Chung",
+      "number": "35",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Jake Fields",
+      "number": "36",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Ben Geist",
+      "number": "37",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Edward Totry",
+      "number": "41",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Max Johnson",
+      "number": "43",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Andrew  Rosa",
+      "number": "44",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Max Revis",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Ryan Barrett",
+      "number": "46",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Charles Raymond",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Alexander L'Hommedieu",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Cooper Rand",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Chris  Totonis",
+      "number": "55",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Evan Sardina",
+      "number": "66",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Manolis Paragioudakis",
+      "number": "74",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Anders Burrows",
+      "number": "77",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Evan Bekos",
+      "number": "88",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "Oberlin College"
+    },
+    {
+      "name": "Luke Gerne",
+      "number": "91",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Oberlin College"
+    }
+  ]
+}

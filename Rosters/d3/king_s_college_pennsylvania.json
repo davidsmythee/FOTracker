@@ -1,0 +1,189 @@
+{
+  "team": "King's College - Pennsylvania",
+  "scrapedAt": "2026-03-13T22:05:15.419415Z",
+  "playerCount": 26,
+  "players": [
+    {
+      "name": "EJ Schreiner",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Graduate",
+      "team": "King's College - Pennsylvania"
+    },
+    {
+      "name": "Connor Walsh",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "King's College - Pennsylvania"
+    },
+    {
+      "name": "Caleb  Metcalf",
+      "number": "3",
+      "position": "Defense / LSMD/LSM",
+      "classYear": "Senior",
+      "team": "King's College - Pennsylvania"
+    },
+    {
+      "name": "Caleb Sopkie",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "King's College - Pennsylvania"
+    },
+    {
+      "name": "Jack Barnett",
+      "number": "6",
+      "position": "Defense / LSMD/LSM",
+      "classYear": "Sophomore",
+      "team": "King's College - Pennsylvania"
+    },
+    {
+      "name": "Arjun Williams",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "King's College - Pennsylvania"
+    },
+    {
+      "name": "Chris O'Mara",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "King's College - Pennsylvania"
+    },
+    {
+      "name": "Ryan Beltrame",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "King's College - Pennsylvania"
+    },
+    {
+      "name": "Josh Hilpp",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "King's College - Pennsylvania"
+    },
+    {
+      "name": "Billy Beggs",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "King's College - Pennsylvania"
+    },
+    {
+      "name": "Andy Strohl",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "King's College - Pennsylvania"
+    },
+    {
+      "name": "Dom Antonelli",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "King's College - Pennsylvania"
+    },
+    {
+      "name": "Ryan Lynch",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "King's College - Pennsylvania"
+    },
+    {
+      "name": "Braydon Buckingham",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "King's College - Pennsylvania"
+    },
+    {
+      "name": "Miles Wilson",
+      "number": "22",
+      "position": "GoalkeeperA",
+      "classYear": "Junior",
+      "team": "King's College - Pennsylvania"
+    },
+    {
+      "name": "Erik  Matulevicius",
+      "number": "23",
+      "position": "Defense / LSMD/LSM",
+      "classYear": "Sophomore",
+      "team": "King's College - Pennsylvania"
+    },
+    {
+      "name": "Ayden Reh",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "King's College - Pennsylvania"
+    },
+    {
+      "name": "Brenden Lynch",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "King's College - Pennsylvania"
+    },
+    {
+      "name": "Grant Parshall",
+      "number": "27",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "King's College - Pennsylvania"
+    },
+    {
+      "name": "Massimo Spezzia",
+      "number": "28",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "King's College - Pennsylvania"
+    },
+    {
+      "name": "Padraic Banfield",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "King's College - Pennsylvania"
+    },
+    {
+      "name": "Logan Gallagher",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "King's College - Pennsylvania"
+    },
+    {
+      "name": "DeShaun Knox",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "King's College - Pennsylvania"
+    },
+    {
+      "name": "Kurt Wieboldt",
+      "number": "44",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "King's College - Pennsylvania"
+    },
+    {
+      "name": "Owen Rosenburg",
+      "number": "45",
+      "position": "GoalieGK",
+      "classYear": "Fy.",
+      "team": "King's College - Pennsylvania"
+    },
+    {
+      "name": "Ryan Rickards",
+      "number": "46",
+      "position": "Goalkeeper",
+      "classYear": "Senior",
+      "team": "King's College - Pennsylvania"
+    }
+  ]
+}

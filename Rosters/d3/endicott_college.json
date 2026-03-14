@@ -1,0 +1,364 @@
+{
+  "team": "Endicott College",
+  "scrapedAt": "2026-03-14T00:58:25.099754Z",
+  "playerCount": 51,
+  "players": [
+    {
+      "name": "Mikey Coletti",
+      "number": "1",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Gio Panicola",
+      "number": "2",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Kyle Ando",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Ian Leonard",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Donovan Devellis",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Endicott College"
+    },
+    {
+      "name": "James Ellis",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Brody MacDonald",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Brendan Batchen",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Adam Priest",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Ben Merena",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Owen Meczkowski",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Michael Winn",
+      "number": "12",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Ryan Rooney",
+      "number": "13",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Shane Dean",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Nic Cupples",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Henry Trimpi",
+      "number": "16",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Wyatt Iantosca",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Bennett Bartlett",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Jesse Woodill",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Manny Marshall",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Tyler Williams",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Chris Hughes",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Tommy Tyksinski",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Liam Podmore",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Derek Thompson",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Andrew Schlipf",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Jack Luttmer",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Jack Filipski",
+      "number": "29",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Joey Bonanno",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Matt Wright",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Jack Peterson",
+      "number": "33",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Jack Wajda",
+      "number": "34",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Will Carey",
+      "number": "37",
+      "position": "FO/M",
+      "classYear": "Freshman",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Gavin O'Donoghue",
+      "number": "38",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Cayden Infantino",
+      "number": "40",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Dylan Larabee",
+      "number": "41",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Zachary Licavoli",
+      "number": "42",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Brady Stone",
+      "number": "44",
+      "position": "D/M",
+      "classYear": "Junior",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Aidan Kellachan",
+      "number": "47",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Andrew Aylwin",
+      "number": "48",
+      "position": "D/M",
+      "classYear": "Senior",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Jeffrey Gomes",
+      "number": "49",
+      "position": "FO/M",
+      "classYear": "Sophomore",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Colin McManus",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Joseph Tumolo",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Campbell Allardi",
+      "number": "52",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Daniel DeBetta",
+      "number": "54",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Dom Maldari",
+      "number": "55",
+      "position": "D/M",
+      "classYear": "Senior",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Kelan Cardinal",
+      "number": "66",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Jack Ballinger",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Nate Parreira",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Travis Foster",
+      "number": "91",
+      "position": "FO/M",
+      "classYear": "Senior",
+      "team": "Endicott College"
+    },
+    {
+      "name": "Nick Graap",
+      "number": "96",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Endicott College"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "team": "Hendrix College",
+  "scrapedAt": "2026-03-13T22:04:38.566877Z",
+  "playerCount": 20,
+  "players": [
+    {
+      "name": "Cooper Littleton",
+      "number": "0",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "Hendrix College"
+    },
+    {
+      "name": "Nick Pesce",
+      "number": "1",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Hendrix College"
+    },
+    {
+      "name": "Ethan Miller",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Hendrix College"
+    },
+    {
+      "name": "Christopher Whitman",
+      "number": "3",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Hendrix College"
+    },
+    {
+      "name": "Bennett Davidson",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Hendrix College"
+    },
+    {
+      "name": "Harrison Briggs",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Hendrix College"
+    },
+    {
+      "name": "Nicholas Smith",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Hendrix College"
+    },
+    {
+      "name": "Austin Williams",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Hendrix College"
+    },
+    {
+      "name": "Gabriel Baker",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Hendrix College"
+    },
+    {
+      "name": "Kellan Harger",
+      "number": "10",
+      "position": "GK",
+      "classYear": "Junior",
+      "team": "Hendrix College"
+    },
+    {
+      "name": "Zachary Cox",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Hendrix College"
+    },
+    {
+      "name": "Matthew Parsons",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Hendrix College"
+    },
+    {
+      "name": "William Schewee",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Hendrix College"
+    },
+    {
+      "name": "Christopher Bourque",
+      "number": "16",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "Hendrix College"
+    },
+    {
+      "name": "Dominic Vinnola",
+      "number": "19",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Hendrix College"
+    },
+    {
+      "name": "Joshua Cantu",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Hendrix College"
+    },
+    {
+      "name": "Jacob Antoon",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Hendrix College"
+    },
+    {
+      "name": "Tyler Golden",
+      "number": "35",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Hendrix College"
+    },
+    {
+      "name": "Joseph Davis",
+      "number": "76",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Hendrix College"
+    },
+    {
+      "name": "Lucius Crystal",
+      "number": "88",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Hendrix College"
+    }
+  ]
+}

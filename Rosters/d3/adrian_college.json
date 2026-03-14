@@ -1,0 +1,238 @@
+{
+  "team": "Adrian College",
+  "scrapedAt": "2026-03-13T22:02:14.965537Z",
+  "playerCount": 33,
+  "players": [
+    {
+      "name": "Aidan Strader",
+      "number": "0",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Trace Tidswell",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Sam Burke",
+      "number": "2",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Sean Kasprzyk",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Josiah Karnehm",
+      "number": "4",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Mark Veldhof",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Austin Selvage",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Sam Van Eekeren",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Alec Winegar",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Bradyn Parrott",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Cam Gillis",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Gavin Scally",
+      "number": "12",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Braeden McNamara",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Austin Kersey",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Owen Smith",
+      "number": "15",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Jack Thornton",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Alex Stoey",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Tyler Ristau",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Adrian College"
+    },
+    {
+      "name": "David Harrison",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Owen Barber",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Nico Palazzolo",
+      "number": "26",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Owen Stuckey",
+      "number": "27",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Andrew Buss",
+      "number": "28",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Owen Plum",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Conor Przybylo",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Josh Dues",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Mason Winegar",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Mark Picano",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Jacob Small",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Owen Crawn",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Noah Carithers",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Porter Willsey",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Adrian College"
+    },
+    {
+      "name": "Alex Scarborough",
+      "number": "99",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Adrian College"
+    }
+  ]
+}

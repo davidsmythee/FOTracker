@@ -1,0 +1,322 @@
+{
+  "team": "Drexel University",
+  "scrapedAt": "2026-01-28T19:30:39.570Z",
+  "playerCount": 45,
+  "players": [
+    {
+      "name": "Connor McVicker",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Jack Nolan",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Luke Mingioni",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Peter Bard",
+      "number": "6",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Alec Tulio",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Jack Wallace",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Conor Hooley",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Caden Zadell",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Kevin O'Brien",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Jack Joyner",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Kai Todd",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Teddy Luthy",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Nat Menbere",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Finn Halladay",
+      "number": "17",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Andy Pozo",
+      "number": "18",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Smithtown East",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Ty Gougler",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Jack Porter",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Sam Tomak",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Riley Alexander",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Corby Tecu",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Ryan Baik",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Liam Kammar",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Pat Lyman",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Brendan Donnelly",
+      "number": "30",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Brady Potyrala",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Brendan Carroll",
+      "number": "32",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Jack Hampton",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Nate Bradley",
+      "number": "35",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Alex Chambers",
+      "number": "36",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Trent Layton",
+      "number": "38",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Owen Knight",
+      "number": "39",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Flynn Hogan",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Cam Esposito",
+      "number": "41",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Sam Di Trolio",
+      "number": "44",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Jack Berg",
+      "number": "45",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Max Tomak",
+      "number": "48",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Witt Crawford",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Luke Carden",
+      "number": "51",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Patrick Quinn",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Ryan Lowe",
+      "number": "71",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Jake Gularson",
+      "number": "72",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Lincoln Wall",
+      "number": "77",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Cooper Berkoff",
+      "number": "88",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Drexel University"
+    },
+    {
+      "name": "Jack Tayloe",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Drexel University"
+    }
+  ]
+}

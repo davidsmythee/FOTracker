@@ -1,0 +1,231 @@
+{
+  "team": "Emerson College",
+  "scrapedAt": "2026-03-13T22:04:01.587914Z",
+  "playerCount": 32,
+  "players": [
+    {
+      "name": "Liam Donaldson",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Aedan Kiniry",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Zack Jewel",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Brady Fish",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Charlie van Beuren",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Emerson College"
+    },
+    {
+      "name": "John Marcone",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Enzo Choi",
+      "number": "7",
+      "position": "Midfield/Face Off SpecialistM/FO",
+      "classYear": "Fy.",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Zachary Stern-Hayes",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Owen Rosen",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Quinn Gardiner",
+      "number": "10",
+      "position": "Midfield/FOGO SpecialistM/FO",
+      "classYear": "Junior",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Owen Lotti",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Harrison Munsch",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Jett McCullogh",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Andrew McKenzie",
+      "number": "14",
+      "position": "GoalieG",
+      "classYear": "Fy.",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Gabe Taylor",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Owen Snook",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Dylan Wong",
+      "number": "17",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Nathan Stanczak",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Jacob Stearns",
+      "number": "19",
+      "position": "Midfield/Face Off SpecialistM/FO",
+      "classYear": "Sophomore",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Aidan Delaney",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Toby Cunningham",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Ben Redlener",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Louis Zhao",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Landon Segal",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Ethan Munsch",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Ethan Corby",
+      "number": "26",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Henry Bradley",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Emerson College"
+    },
+    {
+      "name": "JD Frey",
+      "number": "31",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Jacob Goldberg",
+      "number": "32",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Tristan Wachtel",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Mick Lohr",
+      "number": "35",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Emerson College"
+    },
+    {
+      "name": "Thomas Pozo",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Emerson College"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "team": "Wilkes University",
+  "scrapedAt": "2026-03-13T22:09:16.576886Z",
+  "playerCount": 28,
+  "players": [
+    {
+      "name": "Trevon Bess",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "FY",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Anthony DiFrancesco",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "FY",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Blaine Snyder",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Bradley Smith",
+      "number": "5",
+      "position": "Midfield/FOGO/Short Stick Midfield/FO/SSM",
+      "classYear": "Junior",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Oscar Cline",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Freddy Hipple",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "FY",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Brett Mooney",
+      "number": "9",
+      "position": "Goalkeeper",
+      "classYear": "Sophomore",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Colin Webb",
+      "number": "10",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "FY",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Lucas Ortenberg",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "FY",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Austin Sosnovik",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Stone Sosnovik",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Ben Byers",
+      "number": "14",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Sophomore",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Matthew Mosey",
+      "number": "15",
+      "position": "Midfield/FOGOM/FO",
+      "classYear": "Sophomore",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Michael Rauch",
+      "number": "16",
+      "position": "Defense/Long Stick MidfieldD/LSM",
+      "classYear": "Senior",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Drue McLean",
+      "number": "17",
+      "position": "Defense/Long Stick MidfieldD/LSM",
+      "classYear": "Sophomore",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Matthew Rotolo",
+      "number": "18",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Sophomore",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Kyle Jurkuta",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Jason Hennessey",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "FY",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Caleb Miller",
+      "number": "22",
+      "position": "Goalkeeper",
+      "classYear": "Senior",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Mac Jackson",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Nicholas McManus",
+      "number": "24",
+      "position": "Defense/Long Stick MidfieldD/LSM",
+      "classYear": "Junior",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Vinny Santoro",
+      "number": "25",
+      "position": "Midfield/FOGO/Long Stick Midfield/FO/LSM",
+      "classYear": "Junior",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Owen Peters",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Christian Jordan",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "FY",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Logan Ryan",
+      "number": "31",
+      "position": "Goalkeeper",
+      "classYear": "FY",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Mason Varni",
+      "number": "55",
+      "position": "FOGOFO",
+      "classYear": "FY",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Brandon Cooke",
+      "number": "64",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Wilkes University"
+    },
+    {
+      "name": "Tim Hartka",
+      "number": "99",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Wilkes University"
+    }
+  ]
+}

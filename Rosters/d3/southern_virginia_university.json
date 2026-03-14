@@ -1,0 +1,245 @@
+{
+  "team": "Southern Virginia University",
+  "scrapedAt": "2026-03-13T22:07:21.841916Z",
+  "playerCount": 34,
+  "players": [
+    {
+      "name": "Jace Lightfoot",
+      "number": "1",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Gannon Liles",
+      "number": "2",
+      "position": "Def. Midfield",
+      "classYear": "Junior",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Clay Haacke",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Ben Sluga",
+      "number": "4",
+      "position": "Def. Midfield",
+      "classYear": "Junior",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Bennett Story",
+      "number": "5",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Colin Overman",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Scott DuPaix",
+      "number": "7",
+      "position": "Def. Midfield",
+      "classYear": "Junior",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Freeman Miyasaki",
+      "number": "8",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Bosten Schilleman",
+      "number": "9",
+      "position": "FOGO",
+      "classYear": "R-Jr.",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Alfredo Hurtado",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Kanyun  Avner",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "River Jackson",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Kirtis Drennen",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Lincoln Timothy",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Britton Tidwell",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Myles Nielson",
+      "number": "17",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Jackson Haley",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Caden Bloxham",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Taven Olsten",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Isaac Finley",
+      "number": "22",
+      "position": "Long Stick Midfield",
+      "classYear": "Senior",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Jared Keel",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Porter Alleman",
+      "number": "24",
+      "position": "Def. Midfield",
+      "classYear": "Sophomore",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Ryan Pritchett",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Stetson Hogge",
+      "number": "27",
+      "position": "Attack",
+      "classYear": "R-Fr.",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Davis Grant",
+      "number": "29",
+      "position": "Def. Midfield",
+      "classYear": "Senior",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Samuel Terreros",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Max Taylor",
+      "number": "35",
+      "position": "Long Stick Midfield",
+      "classYear": "Freshman",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Preston Billings",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Garrett  Zollinger",
+      "number": "39",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Fierce Miller",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Kyle Boden",
+      "number": "42",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "JC Winterton",
+      "number": "44",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Tanner  Evans",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Southern Virginia University"
+    },
+    {
+      "name": "Daniel Goold",
+      "number": "47",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Southern Virginia University"
+    }
+  ]
+}

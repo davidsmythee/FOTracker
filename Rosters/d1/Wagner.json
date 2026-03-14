@@ -1,0 +1,308 @@
+{
+  "team": "Wagner College",
+  "scrapedAt": "2026-01-28T21:28:50.503Z",
+  "playerCount": 43,
+  "players": [
+    {
+      "name": "Sam Beamer",
+      "number": "1",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Dylan Popehn",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Noah Cardoza",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Shane  Esposito",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Jake Mitchell",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Cole Yoshioka",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Nico Kross",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Oliver Leedale-Brown",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Diesel Schraufnagel",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Niko Millhouse",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Theo Kostakos",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Danny McMahon",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Kyler Cole",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Jacob Bass",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Ryan  Kumer",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Jacob Wood",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Tristan McMahon",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Hudson Horiuchi",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Angus Snow",
+      "number": "23",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Justin Corson",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Drew Pemrick",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Dylan Dwyer",
+      "number": "26",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Travis  Schoolcraft",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Malik Mustafa",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Colin Chapman",
+      "number": "29",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Carter Smith",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Ryan Cunningham",
+      "number": "31",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Chase Caulder",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Declan  Gillen",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Max Frissora",
+      "number": "37",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Joshua Longwell",
+      "number": "40",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Smith Callaghan",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Ian Muchineuta",
+      "number": "42",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Cole Bonanno",
+      "number": "44",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Luke Bonanno",
+      "number": "45",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Vincent Santelia",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Logan Hyde",
+      "number": "47",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Zack Paterno",
+      "number": "48",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Terry Farrell",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Brendan Rosato",
+      "number": "51",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Colin Sabia",
+      "number": "52",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Damon Clark",
+      "number": "54",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Wagner College"
+    },
+    {
+      "name": "Trenton Rock",
+      "number": "55",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Wagner College"
+    }
+  ]
+}

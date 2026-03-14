@@ -1,0 +1,252 @@
+{
+  "team": "Clark University",
+  "scrapedAt": "2026-03-13T22:03:20.636187Z",
+  "playerCount": 35,
+  "players": [
+    {
+      "name": "Spencer Arzanipour",
+      "number": "1",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Clark University"
+    },
+    {
+      "name": "Kyle Palmieri",
+      "number": "2",
+      "position": "DM",
+      "classYear": "Senior",
+      "team": "Clark University"
+    },
+    {
+      "name": "Patrick O'Rourke",
+      "number": "3",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Clark University"
+    },
+    {
+      "name": "Michael Berman Annunziata",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Clark University"
+    },
+    {
+      "name": "John Nolan",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Clark University"
+    },
+    {
+      "name": "Thomas Sheehan",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Clark University"
+    },
+    {
+      "name": "Joseph Zelaya-Fiallos",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Clark University"
+    },
+    {
+      "name": "Zach Sinclair",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Clark University"
+    },
+    {
+      "name": "Brett Newman",
+      "number": "10",
+      "position": "DM",
+      "classYear": "Senior",
+      "team": "Clark University"
+    },
+    {
+      "name": "Brayden Grainger",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Clark University"
+    },
+    {
+      "name": "Lucas Wojnas",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Clark University"
+    },
+    {
+      "name": "Declan Ginty",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Clark University"
+    },
+    {
+      "name": "John Golioto",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Clark University"
+    },
+    {
+      "name": "Eric Aswad",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Clark University"
+    },
+    {
+      "name": "Maxwell Biondi",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Clark University"
+    },
+    {
+      "name": "Jacob Kaufman",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Clark University"
+    },
+    {
+      "name": "Tate Gorman",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Clark University"
+    },
+    {
+      "name": "Brendan Walter",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Clark University"
+    },
+    {
+      "name": "Luca Palleschi",
+      "number": "21",
+      "position": "Gk",
+      "classYear": "Freshman",
+      "team": "Clark University"
+    },
+    {
+      "name": "Jordin Pepin",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Clark University"
+    },
+    {
+      "name": "Ryan Wallace",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Clark University"
+    },
+    {
+      "name": "Luke Nufer",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Clark University"
+    },
+    {
+      "name": "Lucas Cuda",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Clark University"
+    },
+    {
+      "name": "John Delaney",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Clark University"
+    },
+    {
+      "name": "Riley Joyce",
+      "number": "29",
+      "position": "DM",
+      "classYear": "Sophomore",
+      "team": "Clark University"
+    },
+    {
+      "name": "Jack Insalaco",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Clark University"
+    },
+    {
+      "name": "Ethan Swift",
+      "number": "32",
+      "position": "Gk",
+      "classYear": "Freshman",
+      "team": "Clark University"
+    },
+    {
+      "name": "Owen McNally",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Clark University"
+    },
+    {
+      "name": "Nicholas Gutierrez",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Clark University"
+    },
+    {
+      "name": "Thomas Michaud",
+      "number": "37",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Clark University"
+    },
+    {
+      "name": "Terrence Flewelling-Allen",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Clark University"
+    },
+    {
+      "name": "Josh Reno",
+      "number": "42",
+      "position": "GK",
+      "classYear": "Junior",
+      "team": "Clark University"
+    },
+    {
+      "name": "Brett Lusby",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Clark University"
+    },
+    {
+      "name": "Jason Shackley",
+      "number": "50",
+      "position": "DM",
+      "classYear": "Junior",
+      "team": "Clark University"
+    },
+    {
+      "name": "Paul Sund",
+      "number": "99",
+      "position": "",
+      "classYear": "Freshman",
+      "team": "Clark University"
+    }
+  ]
+}

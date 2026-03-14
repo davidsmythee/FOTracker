@@ -1,0 +1,287 @@
+{
+  "team": "Utica University",
+  "scrapedAt": "2026-03-13T22:08:46.989777Z",
+  "playerCount": 40,
+  "players": [
+    {
+      "name": "Michael Reid",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Utica University"
+    },
+    {
+      "name": "Michael Mecca",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Utica University"
+    },
+    {
+      "name": "Nathan Reid",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Utica University"
+    },
+    {
+      "name": "Jake Bowen",
+      "number": "4",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Utica University"
+    },
+    {
+      "name": "Quinn Orsini",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Utica University"
+    },
+    {
+      "name": "Vincent Bernardo",
+      "number": "7",
+      "position": "DefensemanD",
+      "classYear": "Senior",
+      "team": "Utica University"
+    },
+    {
+      "name": "Connor Gorton",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Utica University"
+    },
+    {
+      "name": "Landen Frey",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Utica University"
+    },
+    {
+      "name": "Cade Bourcy",
+      "number": "11",
+      "position": "Face Off SpecialistFO",
+      "classYear": "Junior",
+      "team": "Utica University"
+    },
+    {
+      "name": "Logan Waterman",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Utica University"
+    },
+    {
+      "name": "Jason Torres",
+      "number": "13",
+      "position": "Face Off SpecialistFO",
+      "classYear": "Freshman",
+      "team": "Utica University"
+    },
+    {
+      "name": "Wyatt Werth",
+      "number": "14",
+      "position": "AttackmanA",
+      "classYear": "Sophomore",
+      "team": "Utica University"
+    },
+    {
+      "name": "John Sheridan",
+      "number": "16",
+      "position": "DefensemanD",
+      "classYear": "Senior",
+      "team": "Utica University"
+    },
+    {
+      "name": "Mason Little",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Utica University"
+    },
+    {
+      "name": "Ethan Ayotte",
+      "number": "18",
+      "position": "DefensemanD",
+      "classYear": "Freshman",
+      "team": "Utica University"
+    },
+    {
+      "name": "Nolan Shea",
+      "number": "19",
+      "position": "AttackmanA",
+      "classYear": "Senior",
+      "team": "Utica University"
+    },
+    {
+      "name": "Ethan Hunt",
+      "number": "20",
+      "position": "AttackmanA",
+      "classYear": "Junior",
+      "team": "Utica University"
+    },
+    {
+      "name": "Gabe Syrotynski",
+      "number": "21",
+      "position": "DefensemanD",
+      "classYear": "Junior",
+      "team": "Utica University"
+    },
+    {
+      "name": "James McDonald",
+      "number": "22",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Freshman",
+      "team": "Utica University"
+    },
+    {
+      "name": "Danny Dunn",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Utica University"
+    },
+    {
+      "name": "Michael Milankovic",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Utica University"
+    },
+    {
+      "name": "Jonah Ruthig",
+      "number": "25",
+      "position": "DefensemanD",
+      "classYear": "Junior",
+      "team": "Utica University"
+    },
+    {
+      "name": "Chase Nappi",
+      "number": "26",
+      "position": "Face Off SpecialistFO",
+      "classYear": "Sophomore",
+      "team": "Utica University"
+    },
+    {
+      "name": "Gianpaul Cooper",
+      "number": "27",
+      "position": "DefensemanD",
+      "classYear": "Senior",
+      "team": "Utica University"
+    },
+    {
+      "name": "Jarrett Sherman",
+      "number": "28",
+      "position": "AttackmanA",
+      "classYear": "Junior",
+      "team": "Utica University"
+    },
+    {
+      "name": "Elijah Lowder",
+      "number": "29",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Utica University"
+    },
+    {
+      "name": "Shamus Edlund",
+      "number": "30",
+      "position": "DefensemanD",
+      "classYear": "Sophomore",
+      "team": "Utica University"
+    },
+    {
+      "name": "Aaron Bergquist",
+      "number": "31",
+      "position": "DefensemanD",
+      "classYear": "Junior",
+      "team": "Utica University"
+    },
+    {
+      "name": "Jack Rawleigh",
+      "number": "32",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "Utica University"
+    },
+    {
+      "name": "Jake Loughlin",
+      "number": "33",
+      "position": "DefensemanD",
+      "classYear": "Sophomore",
+      "team": "Utica University"
+    },
+    {
+      "name": "Brendan Griffey",
+      "number": "35",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "Utica University"
+    },
+    {
+      "name": "Trent Herlehy",
+      "number": "37",
+      "position": "Face Off SpecialistFO",
+      "classYear": "Junior",
+      "team": "Utica University"
+    },
+    {
+      "name": "Ryan Hollenbeck",
+      "number": "39",
+      "position": "AttackmanA",
+      "classYear": "Senior",
+      "team": "Utica University"
+    },
+    {
+      "name": "Colin Coleman",
+      "number": "40",
+      "position": "DefensemanD",
+      "classYear": "Freshman",
+      "team": "Utica University"
+    },
+    {
+      "name": "Lucas Donahue",
+      "number": "41",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Utica University"
+    },
+    {
+      "name": "Noah Erickson",
+      "number": "44",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Utica University"
+    },
+    {
+      "name": "Ryan Considine",
+      "number": "45",
+      "position": "AttackmanA",
+      "classYear": "Junior",
+      "team": "Utica University"
+    },
+    {
+      "name": "James Morris",
+      "number": "46",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Utica University"
+    },
+    {
+      "name": "Jack Caruso",
+      "number": "47",
+      "position": "Face Off SpecialistFO",
+      "classYear": "Senior",
+      "team": "Utica University"
+    },
+    {
+      "name": "Colin Musso",
+      "number": "48",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Junior",
+      "team": "Utica University"
+    }
+  ]
+}

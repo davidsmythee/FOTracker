@@ -1,0 +1,287 @@
+{
+  "team": "Syracuse University",
+  "scrapedAt": "2026-01-28T21:01:50.883Z",
+  "playerCount": 40,
+  "players": [
+    {
+      "name": "Jake Spallina",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Vincent Bolognino",
+      "number": "2",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Cam Ryan",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Jayden Kittelberger",
+      "number": "5",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Braydon Pike",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Michael Leo",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Luke Rhoa",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Matt McIntee",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Riley Figueiras",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Harry Behan",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Tyler McCarthy",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Drew Angelo",
+      "number": "14",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Ted Rawson",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Bogue Hahn",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Donny Scott",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Wyatt Hottle",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "John Olenik",
+      "number": "21",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Joey Spallina",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Finn Thomson",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Dante Bowen",
+      "number": "24",
+      "position": "SSDM",
+      "classYear": "",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Dillon Stephens",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Chuck Kuczynski",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "John Mullen",
+      "number": "27",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Lucas Bartlow",
+      "number": "29",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Louis D'Agostino",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Liam Banks",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Billy Dwan III",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Jack Schell",
+      "number": "36",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Jimmy McCool",
+      "number": "39",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Tucker Kellogg",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Jordan Beck",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Dylan Sageder",
+      "number": "42",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Brett Spallina",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Greg Elijah-Brown",
+      "number": "46",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Joe Filardi",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Ryder Ochoa",
+      "number": "50",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Jake Meyer",
+      "number": "77",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Brett Bucktooth Jr.",
+      "number": "83",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Trey Deere",
+      "number": "91",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Syracuse University"
+    },
+    {
+      "name": "Michael Ippoliti",
+      "number": "92",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Syracuse University"
+    }
+  ]
+}

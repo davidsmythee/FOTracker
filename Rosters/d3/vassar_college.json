@@ -1,0 +1,371 @@
+{
+  "team": "Vassar College",
+  "scrapedAt": "2026-03-13T22:08:48.484991Z",
+  "playerCount": 52,
+  "players": [
+    {
+      "name": "John  Malone",
+      "number": "0",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Kai  Cohagan",
+      "number": "1",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Anderson Eads",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Vassar College"
+    },
+    {
+      "name": "TJ  Carl",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Nate Johnson",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Jordan Roesch",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Liam McGuire",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Gavin  Arcuri",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Nate Kratovil",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Thomas  Smith",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Noah  Harcek",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Hayden  Stoltzfoos",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Aiden Santoro",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Jess Geoghagan",
+      "number": "13",
+      "position": "GoalieG",
+      "classYear": "Fy.",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Patrick  Egg",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Henry Shell",
+      "number": "15",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Beckett  Wolf",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Will Martins",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Drew  Mazzocco",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Benjamin Thompson",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Kody  Parente",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Andrew  Timson",
+      "number": "23",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Conor  Campion",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Dan Bader",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Lou  Chicatelli",
+      "number": "26",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Travis  Heller",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Hayden  Sofield",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Baker Morton",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Alex  Greenspan",
+      "number": "33",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Danny  Holt",
+      "number": "34",
+      "position": "FOGO",
+      "classYear": "Fy.",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Cam  Reisz",
+      "number": "35",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Bennett  Atkins",
+      "number": "36",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Liam  Gaugler",
+      "number": "37",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Win Metcalf",
+      "number": "38",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Sawyer  Tarr",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Matteo  Conway",
+      "number": "40",
+      "position": "GoalieG",
+      "classYear": "Fy.",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Caleb  Clamser",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Gunnar  Olsen",
+      "number": "44",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Jack  Schoenherr",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Ari  Krane",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Tim  Morin",
+      "number": "48",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Fy.",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Kyriakos  Ciccone",
+      "number": "49",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Eli Sherman",
+      "number": "50",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Cade  Chezum",
+      "number": "55",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Quinn  Heinly",
+      "number": "66",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Jackson  Falcone",
+      "number": "77",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Atticus  Krauss",
+      "number": "81",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Fy.",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Trevor  Serve",
+      "number": "87",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Tate  Tinker",
+      "number": "88",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Michael  Carroll",
+      "number": "90",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Ian  Coulter",
+      "number": "91",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Vassar College"
+    },
+    {
+      "name": "Landon  Silverstein",
+      "number": "97",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Vassar College"
+    }
+  ]
+}

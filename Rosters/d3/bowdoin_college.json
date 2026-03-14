@@ -1,0 +1,336 @@
+{
+  "team": "Bowdoin College",
+  "scrapedAt": "2026-03-13T22:02:55.115285Z",
+  "playerCount": 47,
+  "players": [
+    {
+      "name": "Chris Berry",
+      "number": "0",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Owen Majit",
+      "number": "1",
+      "position": "A/M",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Alex Byrne",
+      "number": "2",
+      "position": "LSM",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Rezin Wiegmann",
+      "number": "3",
+      "position": "SSDM",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Graeme Teal",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Peter Flannery",
+      "number": "5",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Troy Ulisney",
+      "number": "6",
+      "position": "A/M",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Michael Norton",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Sam Raye-Steiner",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Will Lesko",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Kevin Sandor",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Jack Pyne",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Alex Choi",
+      "number": "12",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Cormac Walsh",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Phoenix Kelly-Zuckerman",
+      "number": "14",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Noah Jones",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Cam Wietfeldt",
+      "number": "16",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Eddie McElroy",
+      "number": "17",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "AJ McBorrough",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Ryan Landa",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Hayes McCarron",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Bez Mendelsohn",
+      "number": "21",
+      "position": "SSDM",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Colin Campbell",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Luke  Harrington",
+      "number": "23",
+      "position": "LSM/D",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Nico Schermer",
+      "number": "24",
+      "position": "LSM",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Brooks Kitchel",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Luke Bernasek",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Jack Frischmann",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Cooper Stauffer",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Jameson Lang",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Will  Childs",
+      "number": "31",
+      "position": "SSDM",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Grayson Moniz",
+      "number": "32",
+      "position": "SSDM",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Ryan Winters",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Seb Gonzalez",
+      "number": "34",
+      "position": "D/SSDM",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Alec Davis",
+      "number": "35",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Hudson Greene",
+      "number": "37",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Nico Conway",
+      "number": "38",
+      "position": "LSM",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Gus Simanson",
+      "number": "40",
+      "position": "SSDM",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Alec Delgado",
+      "number": "41",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Matthew Fierro",
+      "number": "42",
+      "position": "LSM",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Casey Ryan",
+      "number": "43",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Joe Berrien",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Lucas Abrams",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Alex Kenerson",
+      "number": "47",
+      "position": "LSM",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Patrick Albers",
+      "number": "51",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Isaac Abbott",
+      "number": "54",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Bowdoin College"
+    },
+    {
+      "name": "Huck Trafton",
+      "number": "55",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bowdoin College"
+    }
+  ]
+}

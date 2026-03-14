@@ -1,0 +1,203 @@
+{
+  "team": "SUNY Polytechnic Institute",
+  "scrapedAt": "2026-03-13T22:08:00.347714Z",
+  "playerCount": 28,
+  "players": [
+    {
+      "name": "Kai Hew",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Luke Taylor",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Graduate",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Mitchell Taylor",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Joshua  Miller",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Tanner Defren",
+      "number": "6",
+      "position": "A/M",
+      "classYear": "Freshman",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Graham Genevick",
+      "number": "7",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Ian Short",
+      "number": "8",
+      "position": "A/M",
+      "classYear": "Junior",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Cooper  Fitzgerald",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Mason McCall",
+      "number": "10",
+      "position": "M/D",
+      "classYear": "Sophomore",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Mac Fitzgerald",
+      "number": "11",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Ryan Carroll",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Zanith  Longfellow",
+      "number": "13",
+      "position": "A/M",
+      "classYear": "Freshman",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Ethan  Cole",
+      "number": "14",
+      "position": "D/LSM",
+      "classYear": "Freshman",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Aiden Caron",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Drew  Rudd",
+      "number": "18",
+      "position": "A/M",
+      "classYear": "Freshman",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Cooper  Young",
+      "number": "19",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Dane Campbell",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Kaiden Aton",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Casey Ryan",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Zachary Christian",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Graduate",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Aiden Smith",
+      "number": "24",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Riley Cooper",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Hayden Schuler",
+      "number": "28",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Ajay Johnson",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Tyler  Baisley",
+      "number": "30",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Aeron Kliphon",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Jeremy Catajan",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Polytechnic Institute"
+    },
+    {
+      "name": "Liam Podszebka",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY Polytechnic Institute"
+    }
+  ]
+}

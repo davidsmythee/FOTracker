@@ -1,0 +1,399 @@
+{
+  "team": "University of Michigan",
+  "scrapedAt": "2026-01-28T20:44:18.392Z",
+  "playerCount": 56,
+  "players": [
+    {
+      "name": "Eliot Dubick",
+      "number": "0",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Alex Lobel",
+      "number": "00",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Matt Han",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Bo Lockwood",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Rowan Clay",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Jake Waldman",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Doster Crowell",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Tommy Renner",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Will O'Connor",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Jack Marlow",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Jack Jenkins",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Jack Long",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Mason Whitney",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Ryan Kehoe",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Crandall Quinn",
+      "number": "13",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Joseph Budington",
+      "number": "14",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Nick Roode",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Nicholas Voultos",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Tay Rodriguez",
+      "number": "17",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Carson Billig",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Alex Bauer",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Tieson Cooper",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Ryan Lyngklip",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Jr.",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Jimmy Pisani",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Jackie Weller",
+      "number": "24",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Alex Gatto",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Jack Rideout",
+      "number": "26",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Thomas Augustine",
+      "number": "27",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Jack Elliott",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Luke Shannehan",
+      "number": "29",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Jackson Tolmach",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Adam Udell",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "John Morgan",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Will Tominovich",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Alex Ruddy",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Chris Gaine",
+      "number": "35",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "James Joyce",
+      "number": "36",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Atticus Oliven",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Lucas Laforge",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Kevin Kearns",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Kaden Parsons",
+      "number": "44",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Bryce Lyden",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Josh Ford",
+      "number": "47",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Michael Kelly",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Patrick Kelley",
+      "number": "51",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Hunter Taylor",
+      "number": "52",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Dillon Bucchere",
+      "number": "55",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Jack Donovan",
+      "number": "66",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Kade Goldberg",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "McKnight Pederson",
+      "number": "78",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Luke Kelly",
+      "number": "88",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Mason Vance",
+      "number": "89",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Max Bonner",
+      "number": "90",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Henry Weller",
+      "number": "91",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Michigan"
+    },
+    {
+      "name": "Jack Welcsh",
+      "number": "99",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Michigan"
+    }
+  ]
+}

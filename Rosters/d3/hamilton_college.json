@@ -1,0 +1,322 @@
+{
+  "team": "Hamilton College",
+  "scrapedAt": "2026-03-13T22:04:26.463461Z",
+  "playerCount": 45,
+  "players": [
+    {
+      "name": "Lukas Takvor",
+      "number": "0",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Jack Williams",
+      "number": "1",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Finn Vaccaro",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Dylan Smith",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "David Russell",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Ben Keppler",
+      "number": "5",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Evan deBerjeois",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Maddux Little",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Jack Pineau",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Charlie Boon",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Ryan Olivo",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Jesse Delinsky",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Charlie Rooney",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Jack Calichman",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "John McKinnon",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Wyatt Estepp",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Collen Luzar",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "PJ Flood",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Bryce Babich",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Ford Collins",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Carson Kraus",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "David Petz",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Riley Chai-Onn",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Ty Green",
+      "number": "24",
+      "position": "LSM",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Troy Fredrickson",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Ben Ryan",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Wylie Ocken",
+      "number": "27",
+      "position": "LSM",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Kip Rand",
+      "number": "28",
+      "position": "LSM",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Ben Greco",
+      "number": "30",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Griffen Bell",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Reece Hickey",
+      "number": "32",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Jake Goldstein",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Jackson Raleigh",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Grayson Sisley",
+      "number": "35",
+      "position": "LSM",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Andrew Higgins",
+      "number": "41",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Joey Hetz",
+      "number": "42",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Peter Canterino",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Dominic Mauretti",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Jake Hornick",
+      "number": "49",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Doug Cohen",
+      "number": "50",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Kieran Hughes",
+      "number": "55",
+      "position": "LSM",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Lance Dominick",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Frank Coyle",
+      "number": "77",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Thomas Healy",
+      "number": "88",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Hamilton College"
+    },
+    {
+      "name": "Matteo Pavan",
+      "number": "98",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Hamilton College"
+    }
+  ]
+}

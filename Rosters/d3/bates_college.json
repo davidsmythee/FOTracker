@@ -1,0 +1,371 @@
+{
+  "team": "Bates College",
+  "scrapedAt": "2026-03-13T22:02:46.486760Z",
+  "playerCount": 52,
+  "players": [
+    {
+      "name": "Andrew Toland",
+      "number": "1",
+      "position": "GK",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "TJ  Underhill",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Connor Hartman",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Owen Iles",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Dane Jones",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Johnny Nunez",
+      "number": "7",
+      "position": "LSM/D",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Cooper Ray",
+      "number": "8",
+      "position": "LSM",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Sam Scola",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Finn Gibbons",
+      "number": "10",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Rye Kushner",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Benjamin Kondner",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Riley McClure",
+      "number": "13",
+      "position": "A/M",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Morgan Ruppenstein",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Alex Irisari",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Jake  Anastas",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Wes Elkind",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Liam Rule",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Drew McClutchy",
+      "number": "19",
+      "position": "LSM",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Jack Markert",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Graham Ray",
+      "number": "21",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Aidan Cunningham",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Jack  Morrison",
+      "number": "23",
+      "position": "DM",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Teddy Rosen",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Kevin  Burke",
+      "number": "25",
+      "position": "DM",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Colin Eaton",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Jameson Eigel",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Mason Proutt",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Ryan Chung",
+      "number": "29",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Charlie  Hepp",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Connor Lee",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Chris Capone",
+      "number": "32",
+      "position": "DM",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Gray Doyle",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Charles Lowe",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Nolan Deehan",
+      "number": "35",
+      "position": "GK",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Jacob Kodjababian",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Brian Hart",
+      "number": "37",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Drew Nyhus",
+      "number": "38",
+      "position": "GK",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Roan Hopkins",
+      "number": "39",
+      "position": "DM",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Max Kosicki",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Jack  Wright",
+      "number": "41",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Andrew Sullivan",
+      "number": "42",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Luke  Taylor",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Henry McCann",
+      "number": "44",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Eddie Lin",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Noah Wood",
+      "number": "46",
+      "position": "GK",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Ben Marvin",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Miles Schmidt",
+      "number": "48",
+      "position": "FO/M",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "George Angelopoulos",
+      "number": "49",
+      "position": "DM",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Jack Goldbach",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Xander Frey",
+      "number": "51",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Lucas Braun",
+      "number": "52",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Bates College"
+    },
+    {
+      "name": "Max Galvin",
+      "number": "55",
+      "position": "D/LSM",
+      "classYear": "",
+      "team": "Bates College"
+    }
+  ]
+}

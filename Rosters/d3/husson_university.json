@@ -1,0 +1,210 @@
+{
+  "team": "Husson University",
+  "scrapedAt": "2026-03-13T22:04:51.275970Z",
+  "playerCount": 29,
+  "players": [
+    {
+      "name": "Brad Stolt",
+      "number": "0",
+      "position": "FO/MF",
+      "classYear": "Junior",
+      "team": "Husson University"
+    },
+    {
+      "name": "Drew Clinch",
+      "number": "1",
+      "position": "MF",
+      "classYear": "Junior",
+      "team": "Husson University"
+    },
+    {
+      "name": "Jacob  Sargent",
+      "number": "2",
+      "position": "MF",
+      "classYear": "Junior",
+      "team": "Husson University"
+    },
+    {
+      "name": "Dean Sinkler",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Graduate",
+      "team": "Husson University"
+    },
+    {
+      "name": "Brian Peabody",
+      "number": "4",
+      "position": "FO/MF",
+      "classYear": "Sophomore",
+      "team": "Husson University"
+    },
+    {
+      "name": "Owen Giorgio",
+      "number": "5",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Husson University"
+    },
+    {
+      "name": "Caleb Kirchner",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Husson University"
+    },
+    {
+      "name": "Evan Carmody",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Husson University"
+    },
+    {
+      "name": "Matt Richardson",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Husson University"
+    },
+    {
+      "name": "Connor Chase",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Husson University"
+    },
+    {
+      "name": "Jack Kaszubinski",
+      "number": "10",
+      "position": "MF",
+      "classYear": "Graduate",
+      "team": "Husson University"
+    },
+    {
+      "name": "Odin Burk",
+      "number": "11",
+      "position": "GK",
+      "classYear": "Senior",
+      "team": "Husson University"
+    },
+    {
+      "name": "Gabe Robinson",
+      "number": "12",
+      "position": "MF",
+      "classYear": "Freshman",
+      "team": "Husson University"
+    },
+    {
+      "name": "Jackson Purdy",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Husson University"
+    },
+    {
+      "name": "Taylor Schwalje",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Husson University"
+    },
+    {
+      "name": "Josh Hawkins",
+      "number": "15",
+      "position": "MF",
+      "classYear": "Sophomore",
+      "team": "Husson University"
+    },
+    {
+      "name": "Aidan Byers",
+      "number": "17",
+      "position": "MF",
+      "classYear": "Senior",
+      "team": "Husson University"
+    },
+    {
+      "name": "Jeremy Rousseau",
+      "number": "18",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "Husson University"
+    },
+    {
+      "name": "Drew Held",
+      "number": "19",
+      "position": "MF",
+      "classYear": "Sophomore",
+      "team": "Husson University"
+    },
+    {
+      "name": "Dominic Hollenkamp",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Husson University"
+    },
+    {
+      "name": "Cohen Trnka",
+      "number": "22",
+      "position": "GK",
+      "classYear": "Senior",
+      "team": "Husson University"
+    },
+    {
+      "name": "Bode Markham",
+      "number": "25",
+      "position": "FO/MF",
+      "classYear": "Freshman",
+      "team": "Husson University"
+    },
+    {
+      "name": "Charlie Scobie",
+      "number": "27",
+      "position": "MF",
+      "classYear": "Freshman",
+      "team": "Husson University"
+    },
+    {
+      "name": "Cody Dingwell",
+      "number": "28",
+      "position": "MF",
+      "classYear": "Sophomore",
+      "team": "Husson University"
+    },
+    {
+      "name": "Camren Dufour",
+      "number": "29",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Husson University"
+    },
+    {
+      "name": "Alek Duprey",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Husson University"
+    },
+    {
+      "name": "Kiernan Field",
+      "number": "34",
+      "position": "MF",
+      "classYear": "Senior",
+      "team": "Husson University"
+    },
+    {
+      "name": "Eric Cunha",
+      "number": "35",
+      "position": "FO/MF",
+      "classYear": "Freshman",
+      "team": "Husson University"
+    },
+    {
+      "name": "Kyle Plummer",
+      "number": "37",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "Husson University"
+    }
+  ]
+}

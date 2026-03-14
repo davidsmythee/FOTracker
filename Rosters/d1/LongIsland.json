@@ -1,0 +1,406 @@
+{
+  "team": "Long Island University",
+  "scrapedAt": "2026-01-28T20:37:20.367Z",
+  "playerCount": 57,
+  "players": [
+    {
+      "name": "John Viggiani",
+      "number": "0",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Jasper Simon",
+      "number": "1",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Matthew Sardo",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Cameron Connolly",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Shaun Hill",
+      "number": "4",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Austin McMahon",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Kyle Scandale",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Khairi Sears",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Tyler Davide",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Aidan Zuhoski",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Matthew Gilbert",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Ryan Baudo",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Ian Holmes",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Long Island University"
+    },
+    {
+      "name": "William Berhalter",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Cole Greenfield",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Nick Senecal",
+      "number": "15",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Charlie Hunnewell",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Trey Verderamo",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Soren Ebbesen",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Joseph Filocamo",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Tyler Gresh",
+      "number": "21",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Antony Tsakos",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Brayden Wilcken",
+      "number": "23",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Eric Kowalski",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Vincent Scheivert",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Shane Marconti",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Aidan Kelly",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Clif Hawkins",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Stephen Kiernan",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Jimmy Cox",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Antonio Ciolfi",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Kyle Cochran",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Kale Lampman",
+      "number": "35",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Morgan Mcentee",
+      "number": "36",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Sebastian Nault",
+      "number": "37",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Luke Harris",
+      "number": "39",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Josh  Ricci",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Grant Garrison",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Ryan Fountain",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Matt Ippoliti",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Dan Cosentino",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Lucas Billing",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Drew Togno",
+      "number": "46",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Ben McIsaac",
+      "number": "47",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Joseph Doyle",
+      "number": "48",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Matthew McDermott",
+      "number": "49",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Lukas Dopfer",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Blake Mason",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Graeme Olsen",
+      "number": "52",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Michael Gilbert",
+      "number": "64",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Jack Whitehouse",
+      "number": "66",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Ben Schuster",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Parker Peters",
+      "number": "80",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Ryan Button",
+      "number": "88",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Ryan Lapierre",
+      "number": "90",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Justin Silon",
+      "number": "91",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Long Island University"
+    },
+    {
+      "name": "Koen Block",
+      "number": "99",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Long Island University"
+    }
+  ]
+}

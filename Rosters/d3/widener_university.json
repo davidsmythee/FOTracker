@@ -1,0 +1,245 @@
+{
+  "team": "Widener University",
+  "scrapedAt": "2026-03-13T22:09:15.115937Z",
+  "playerCount": 34,
+  "players": [
+    {
+      "name": "Matthew Marino",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Widener University"
+    },
+    {
+      "name": "Jack Augustine",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Widener University"
+    },
+    {
+      "name": "Jake Shannon",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Widener University"
+    },
+    {
+      "name": "Ashton Amend",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Widener University"
+    },
+    {
+      "name": "Samuel Haverstrom",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Widener University"
+    },
+    {
+      "name": "Aiden Jackson",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Widener University"
+    },
+    {
+      "name": "Cole Helmer",
+      "number": "9",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Graduate",
+      "team": "Widener University"
+    },
+    {
+      "name": "Drew Spahr",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Widener University"
+    },
+    {
+      "name": "Nolan Schemmer",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Widener University"
+    },
+    {
+      "name": "Rowen Coverdale",
+      "number": "12",
+      "position": "Face Off SpecialistFO",
+      "classYear": "Fy.",
+      "team": "Widener University"
+    },
+    {
+      "name": "Matt Horgan",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Widener University"
+    },
+    {
+      "name": "Aidan McDonnell",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Widener University"
+    },
+    {
+      "name": "Logan Cuonzo",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Widener University"
+    },
+    {
+      "name": "Nicholas  Knepp",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Widener University"
+    },
+    {
+      "name": "Eli Warfel",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Widener University"
+    },
+    {
+      "name": "Finn Blanton",
+      "number": "20",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Fy.",
+      "team": "Widener University"
+    },
+    {
+      "name": "Drew Ferguson",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Widener University"
+    },
+    {
+      "name": "Matt Mantz",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Widener University"
+    },
+    {
+      "name": "Miles Brant",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Widener University"
+    },
+    {
+      "name": "Matthew Shingle",
+      "number": "25",
+      "position": "Face Off SpecialistFO",
+      "classYear": "Senior",
+      "team": "Widener University"
+    },
+    {
+      "name": "Liam Drake",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Widener University"
+    },
+    {
+      "name": "Adan Garraffa",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Widener University"
+    },
+    {
+      "name": "Colyn Schmitz",
+      "number": "28",
+      "position": "Goalkeeper",
+      "classYear": "Senior",
+      "team": "Widener University"
+    },
+    {
+      "name": "Nicholas Aristone",
+      "number": "29",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "Widener University"
+    },
+    {
+      "name": "Sean Alminde",
+      "number": "31",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Widener University"
+    },
+    {
+      "name": "Khary Brown",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Widener University"
+    },
+    {
+      "name": "Evan Townsend",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Widener University"
+    },
+    {
+      "name": "Liam Reilly",
+      "number": "39",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Widener University"
+    },
+    {
+      "name": "JD Gippe",
+      "number": "41",
+      "position": "GoalieG",
+      "classYear": "Fy.",
+      "team": "Widener University"
+    },
+    {
+      "name": "Luke Shimko",
+      "number": "44",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Widener University"
+    },
+    {
+      "name": "Damien Bird",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Widener University"
+    },
+    {
+      "name": "Luke Cichetti",
+      "number": "46",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Widener University"
+    },
+    {
+      "name": "Tyler Eahart",
+      "number": "53",
+      "position": "DefendD",
+      "classYear": "Senior",
+      "team": "Widener University"
+    },
+    {
+      "name": "Logan Mast",
+      "number": "71",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Widener University"
+    }
+  ]
+}

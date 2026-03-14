@@ -1,0 +1,308 @@
+{
+  "team": "SUNY Morrisville",
+  "scrapedAt": "2026-03-13T22:07:53.926985Z",
+  "playerCount": 43,
+  "players": [
+    {
+      "name": "Nicholas DeNicola",
+      "number": "0",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Jason Finn",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Christian Seabrook",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "John Carter",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Griffin English",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Chris Stancarone",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Dominic Thorson",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Mason  Robenski",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Kyan Dohn",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Mitchell  Shurtleff",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "John Izzo",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Aidan  Tornabene",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Owen Smith",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Blake Dunton",
+      "number": "15",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Ben Cooter",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Giovanni Otero",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Brian Kelly",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Daniel Squires",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Landon  Coyle",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "John  Blair",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Ethan Henry",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Jonathan  Zazzaro",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Christopher Eddy",
+      "number": "28",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Nathan Weise",
+      "number": "30",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Jacob Rackett",
+      "number": "31",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Connor Ashforth",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Aidan Drum",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Angelo Albanese",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Nate Turcotte",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Landon Wakefield",
+      "number": "38",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "David Hahn",
+      "number": "39",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Jack Mays",
+      "number": "40",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Dean Mohammed",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Jason Tedeschi",
+      "number": "42",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Chris  Slade",
+      "number": "43",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Alexander Galka",
+      "number": "44",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Connor  Adams",
+      "number": "45",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Jack  Pendergrass",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Christopher Bagley",
+      "number": "66",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Damien Warrior",
+      "number": "77",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Shilo Pierce",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Jordan Cooke Jr.",
+      "number": "91",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Morrisville"
+    },
+    {
+      "name": "Noah  Taylor",
+      "number": "96",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Morrisville"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "team": "Brevard College",
+  "scrapedAt": "2026-03-13T22:02:56.537809Z",
+  "playerCount": 14,
+  "players": [
+    {
+      "name": "Roderick Frazier Jr.",
+      "number": "0",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Brevard College"
+    },
+    {
+      "name": "Gage Khayat",
+      "number": "1",
+      "position": "M/A",
+      "classYear": "Senior",
+      "team": "Brevard College"
+    },
+    {
+      "name": "Caleb Melton",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Brevard College"
+    },
+    {
+      "name": "Devon Domes",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Brevard College"
+    },
+    {
+      "name": "Colin Eifler",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Brevard College"
+    },
+    {
+      "name": "Joseph Piazza",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Brevard College"
+    },
+    {
+      "name": "Amir Campbell",
+      "number": "12",
+      "position": "M/D",
+      "classYear": "Freshman",
+      "team": "Brevard College"
+    },
+    {
+      "name": "Devian Anderson",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Brevard College"
+    },
+    {
+      "name": "Tre’Von Harrington-Headen",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Brevard College"
+    },
+    {
+      "name": "Jameson Murray",
+      "number": "16",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Brevard College"
+    },
+    {
+      "name": "Calvin Rivers",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Brevard College"
+    },
+    {
+      "name": "Braedyn Perez",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Brevard College"
+    },
+    {
+      "name": "Max Dorman",
+      "number": "24",
+      "position": "M/D",
+      "classYear": "Senior",
+      "team": "Brevard College"
+    },
+    {
+      "name": "Logan Southern",
+      "number": "39",
+      "position": "D/FO",
+      "classYear": "Senior",
+      "team": "Brevard College"
+    }
+  ]
+}

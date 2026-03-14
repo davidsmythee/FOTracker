@@ -1,0 +1,364 @@
+{
+  "team": "Trine University",
+  "scrapedAt": "2026-03-13T22:08:12.985688Z",
+  "playerCount": 51,
+  "players": [
+    {
+      "name": "Zade Gawrys",
+      "number": "0",
+      "position": "GK",
+      "classYear": "Senior",
+      "team": "Trine University"
+    },
+    {
+      "name": "Cole Kirian",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Trine University"
+    },
+    {
+      "name": "Nathan Gibbs",
+      "number": "2",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Trine University"
+    },
+    {
+      "name": "Conor Luipold",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Trine University"
+    },
+    {
+      "name": "Rocco Curatola",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Trine University"
+    },
+    {
+      "name": "Vin Pantano",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Trine University"
+    },
+    {
+      "name": "Justin Johnson",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Trine University"
+    },
+    {
+      "name": "Chris Molnar",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Trine University"
+    },
+    {
+      "name": "Caleb Edwards",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Trine University"
+    },
+    {
+      "name": "Peter Osborne",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Trine University"
+    },
+    {
+      "name": "Kramer Zastrow",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Trine University"
+    },
+    {
+      "name": "Riley Fischer",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Trine University"
+    },
+    {
+      "name": "Nick Fariello",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Trine University"
+    },
+    {
+      "name": "Will Gonia",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Trine University"
+    },
+    {
+      "name": "Xavier Huber",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Trine University"
+    },
+    {
+      "name": "Quinn Rainey",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Trine University"
+    },
+    {
+      "name": "Owen Shelden",
+      "number": "19",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "Trine University"
+    },
+    {
+      "name": "Mason Kaufman",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Trine University"
+    },
+    {
+      "name": "Juan Carlos Marquez",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Trine University"
+    },
+    {
+      "name": "Colby Springer",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Trine University"
+    },
+    {
+      "name": "Nathan Marchal",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Trine University"
+    },
+    {
+      "name": "Aidan Kubiak",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Trine University"
+    },
+    {
+      "name": "Brayden Wilson",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Trine University"
+    },
+    {
+      "name": "Alec Jankowski",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Trine University"
+    },
+    {
+      "name": "JJ Boos",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Trine University"
+    },
+    {
+      "name": "Evan Dobyns",
+      "number": "29",
+      "position": "GK",
+      "classYear": "Junior",
+      "team": "Trine University"
+    },
+    {
+      "name": "Michael Scott",
+      "number": "30",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Trine University"
+    },
+    {
+      "name": "Mitchell Voglewede",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Trine University"
+    },
+    {
+      "name": "Noah Ericson",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Trine University"
+    },
+    {
+      "name": "Luke Arnold",
+      "number": "33",
+      "position": "GK",
+      "classYear": "Junior",
+      "team": "Trine University"
+    },
+    {
+      "name": "Ethan Eller",
+      "number": "34",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "Trine University"
+    },
+    {
+      "name": "Kolin Harmon",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Trine University"
+    },
+    {
+      "name": "Landen Kruse",
+      "number": "38",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Trine University"
+    },
+    {
+      "name": "Josh Hartman",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Trine University"
+    },
+    {
+      "name": "Cam Modreski",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Trine University"
+    },
+    {
+      "name": "Zander Carson",
+      "number": "42",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Trine University"
+    },
+    {
+      "name": "Connor Ballantyne",
+      "number": "45",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Trine University"
+    },
+    {
+      "name": "Eiji Minobe",
+      "number": "46",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Trine University"
+    },
+    {
+      "name": "Mason Levin",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Trine University"
+    },
+    {
+      "name": "Caleb Hamm",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Trine University"
+    },
+    {
+      "name": "Jackson Bell",
+      "number": "52",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Trine University"
+    },
+    {
+      "name": "Danny Kelly",
+      "number": "56",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Trine University"
+    },
+    {
+      "name": "Alexander Maas",
+      "number": "66",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "Trine University"
+    },
+    {
+      "name": "Matt Skornick",
+      "number": "71",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Trine University"
+    },
+    {
+      "name": "Justin Scheberle",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Trine University"
+    },
+    {
+      "name": "Mason Slazyk",
+      "number": "81",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Trine University"
+    },
+    {
+      "name": "Michael Alaniz",
+      "number": "87",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Trine University"
+    },
+    {
+      "name": "Kyle Nordstrom",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Trine University"
+    },
+    {
+      "name": "Luke Perrotta",
+      "number": "89",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Trine University"
+    },
+    {
+      "name": "J'Oshua Shaw",
+      "number": "91",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Trine University"
+    },
+    {
+      "name": "Aiden Miller",
+      "number": "97",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Trine University"
+    }
+  ]
+}

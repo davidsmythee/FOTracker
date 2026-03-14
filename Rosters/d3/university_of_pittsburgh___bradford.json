@@ -1,0 +1,210 @@
+{
+  "team": "University of Pittsburgh - Bradford",
+  "scrapedAt": "2026-03-14T00:50:41.652944Z",
+  "playerCount": 29,
+  "players": [
+    {
+      "name": "Logan Giles",
+      "number": "2",
+      "position": "Long Stick Midfield",
+      "classYear": "Junior",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "David De La Teja",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "Evan Hawley",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "Reid Kristufek",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "Joshua Held",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "Christian Wilkening",
+      "number": "8",
+      "position": "Long Stick Midfield",
+      "classYear": "Sophomore",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "Austyn Stack",
+      "number": "9",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "Kaua Dos Santos Da Silva",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "Leo Sowinski",
+      "number": "11",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "Hunter Shank",
+      "number": "13",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "Christian Beasley",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "Rocco Fera",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "Jaden Freeland",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "Ethan Hahn",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "Alex Arno",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "Logan Fitzgerald",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "Nolan Walsh",
+      "number": "24",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "Colin Shank",
+      "number": "25",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "Sam Kemp",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "Luke Amberman",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "Connor Sciortino",
+      "number": "31",
+      "position": "Long Stick Midfield",
+      "classYear": "Freshman",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "Joe Lefurge",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "Tristan Kessler",
+      "number": "33",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "AJ Nardi",
+      "number": "34",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "Mikey Blake",
+      "number": "37",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "Nick Hause",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "Evan Pesheck",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "Logan Watts",
+      "number": "55",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Pittsburgh - Bradford"
+    },
+    {
+      "name": "Evan Stack",
+      "number": "99",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "University of Pittsburgh - Bradford"
+    }
+  ]
+}

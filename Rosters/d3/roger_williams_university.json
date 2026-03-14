@@ -1,0 +1,308 @@
+{
+  "team": "Roger Williams University",
+  "scrapedAt": "2026-03-13T22:07:00.318437Z",
+  "playerCount": 43,
+  "players": [
+    {
+      "name": "Kyle Zirn",
+      "number": "1",
+      "position": "Defense / Long-Stick MidfieldD / LSM",
+      "classYear": "Senior",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Harrison Steffens",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Matt Craig",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Caleb McKeown",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Jacob Parenteau",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Zac Boguszewski",
+      "number": "8",
+      "position": "FOGOFOGO",
+      "classYear": "Senior",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Carter Frank",
+      "number": "9",
+      "position": "Goalkeeper",
+      "classYear": "Sophomore",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Matthew Araneo",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Brady Lee",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Alex Daigneault",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Matt Whitaker",
+      "number": "15",
+      "position": "Long-Stick Midfield/DefenseLSM",
+      "classYear": "Sophomore",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Matt Kennedy",
+      "number": "17",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Nick Cotting",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Alex Burrill",
+      "number": "19",
+      "position": "Long-Stick Midfield/DefenseLSM",
+      "classYear": "Sophomore",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Carter Shelton",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Logan Dudley",
+      "number": "21",
+      "position": "Goalkeeper",
+      "classYear": "Sophomore",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Reece Moore",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Tommy Iasello",
+      "number": "24",
+      "position": "FOGOFOGO",
+      "classYear": "Freshman",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "David Rizzo",
+      "number": "25",
+      "position": "FOGOFOGO",
+      "classYear": "Senior",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Joe Castelli",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Caden Mitchell",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Tyler Narracci",
+      "number": "28",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Eric Izzo",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Mike Moschitto",
+      "number": "30",
+      "position": "Goalkeeper",
+      "classYear": "Freshman",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Trey Carbone",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Matt Cain",
+      "number": "32",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Drew LaChapelle",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Ben Andersen",
+      "number": "34",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Aaron D'Aversa",
+      "number": "35",
+      "position": "Goalkeeper",
+      "classYear": "Senior",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Leo Anthony",
+      "number": "36",
+      "position": "FOGOFOGO",
+      "classYear": "Freshman",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Aidan Koster",
+      "number": "37",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Brendan Donohue",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Wilson Bullard",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Thomas Kennedy",
+      "number": "41",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Matt Powers",
+      "number": "42",
+      "position": "Goalkeeper",
+      "classYear": "Freshman",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "TJ Sullivan",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Michael Salvati",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Matt Ruck",
+      "number": "45",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Liam Flynn",
+      "number": "50",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Johnny Giertl",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Nick Katsaros",
+      "number": "77",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Ethan Mahoney",
+      "number": "88",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Roger Williams University"
+    },
+    {
+      "name": "Connor Russell",
+      "number": "91",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Roger Williams University"
+    }
+  ]
+}

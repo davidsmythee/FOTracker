@@ -1,0 +1,357 @@
+{
+  "team": "Arcadia University",
+  "scrapedAt": "2026-03-13T22:02:36.829529Z",
+  "playerCount": 50,
+  "players": [
+    {
+      "name": "Alex Greenberg",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Kyle  Schiller",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Gavin  Lenart",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Alden Cathey",
+      "number": "4",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Connor Macklin",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Sean Perkinson",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Reilly Robichaud",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Dylan Garber",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Dillon Beermann",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "TJ Shillingford",
+      "number": "11",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Junior",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Jack Keenan",
+      "number": "12",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Luc Roulier",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Marco Brid",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Andrew Peeke",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Darian Good",
+      "number": "16",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Tom Cardi",
+      "number": "17",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Sophomore",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Aidan Higgins",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Adrien Widdows",
+      "number": "19",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Junior",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "John Mooney",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Luka Binsol",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Joey Ewald",
+      "number": "22",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Junior",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Anthony Mangini",
+      "number": "23",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Junior",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Liam Flynn",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Mason Barndt",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "William Burke",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Nate Hudgins",
+      "number": "27",
+      "position": "Goalkeeper",
+      "classYear": "Senior",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Colin Brockman",
+      "number": "28",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "AJ Laibach",
+      "number": "29",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Marco D'Alicandro",
+      "number": "30",
+      "position": "GoalieG",
+      "classYear": "Fy.",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Landen Cantwell",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Quinn Finnegan",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Noah Garcia",
+      "number": "34",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Ethan Conrad",
+      "number": "35",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Fy.",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Jacob Mann",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Joey Connolly",
+      "number": "37",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Michael Hemming",
+      "number": "38",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Danny Brighter",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Will Kazmierski",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Ryan Clark",
+      "number": "42",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Peyton  Williams",
+      "number": "43",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Carter Mostecki",
+      "number": "44",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Joseph Tesler",
+      "number": "45",
+      "position": "Goalkeeper",
+      "classYear": "Senior",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Brendan  Geraghty",
+      "number": "48",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Ethan  Bennett",
+      "number": "50",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Sophomore",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Ryan Gannon",
+      "number": "51",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Nick Sgarra",
+      "number": "52",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Layne Williams",
+      "number": "53",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Tristan Johnson",
+      "number": "55",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Kyle Laub",
+      "number": "57",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Arcadia University"
+    },
+    {
+      "name": "Joe Rawlins",
+      "number": "60",
+      "position": "Face OffFOGO",
+      "classYear": "Fy.",
+      "team": "Arcadia University"
+    }
+  ]
+}

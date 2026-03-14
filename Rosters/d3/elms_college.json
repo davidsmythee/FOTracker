@@ -1,0 +1,77 @@
+{
+  "team": "Elms College",
+  "scrapedAt": "2026-03-14T00:50:40.385582Z",
+  "playerCount": 10,
+  "players": [
+    {
+      "name": "Connor Tobin",
+      "number": "0",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Elms College"
+    },
+    {
+      "name": "Devano Clarke",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Graduate Student",
+      "team": "Elms College"
+    },
+    {
+      "name": "Guadalupe Torres",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Elms College"
+    },
+    {
+      "name": "Taahir Busaidy",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Graduate Student",
+      "team": "Elms College"
+    },
+    {
+      "name": "Jacob Cancel",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Elms College"
+    },
+    {
+      "name": "Jeremy Mutsago",
+      "number": "17",
+      "position": "Defense/Midfield",
+      "classYear": "Sophomore",
+      "team": "Elms College"
+    },
+    {
+      "name": "Colter McComas",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Elms College"
+    },
+    {
+      "name": "Elijah Dailey",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Elms College"
+    },
+    {
+      "name": "Hayden Zapata",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Elms College"
+    },
+    {
+      "name": "Caleb Smith",
+      "number": "91",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Elms College"
+    }
+  ]
+}

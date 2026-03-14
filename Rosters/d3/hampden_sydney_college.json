@@ -1,0 +1,469 @@
+{
+  "team": "Hampden-Sydney College",
+  "scrapedAt": "2026-03-13T22:04:28.942663Z",
+  "playerCount": 66,
+  "players": [
+    {
+      "name": "Patrick Hanes",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Brown Parker",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Alex Wagner",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Nathan Chay",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Cameron Van Lunen",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Kavin Wood",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Jack Duffy",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Landon Honig",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Jackson Cooling",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Davis Mack",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Nick Esposito",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Tre Carter",
+      "number": "12",
+      "position": "M/A",
+      "classYear": "Freshman",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Sam Messinger",
+      "number": "13",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Kevin Myers",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Max Schneider",
+      "number": "15",
+      "position": "M/A",
+      "classYear": "Freshman",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Kaidan Garst",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Paul Isenberg",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Will Palmer",
+      "number": "17",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Henry Messinger",
+      "number": "18",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "McGuire Boyd",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Brenden Kittner",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Lee Acra",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Connor Erlenbach",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Ben Erwin",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Will Thompson",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Cole Palmer",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Evan Yntema",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Brendan Li",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Michael Green",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Cooper Goss",
+      "number": "29",
+      "position": "M/A",
+      "classYear": "Sophomore",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Tyler Steele",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Harry Deller",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "5th",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Nick Winchell",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Will Foley",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "John Foley",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Alex DeBender",
+      "number": "35",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Broder Conley",
+      "number": "36",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Quinn Seif",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Jonas Vinson",
+      "number": "38",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Jacob Messinger",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Jack Chesson",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Nick D'Alessandro",
+      "number": "42",
+      "position": "A/M",
+      "classYear": "Sophomore",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Joe Carbone",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Will Robinson",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Trey Black",
+      "number": "45",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Bryce Harnsberger",
+      "number": "46",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Riley Mullins",
+      "number": "47",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Barron Dobson",
+      "number": "48",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Charlie Olivier",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Cameron Young",
+      "number": "51",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Tristan Smith",
+      "number": "52",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Nick Wilkins",
+      "number": "53",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Hastings Fava",
+      "number": "55",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Trevor Maham",
+      "number": "56",
+      "position": "LSM/M",
+      "classYear": "Freshman",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Henry Mann",
+      "number": "57",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Mason Harry",
+      "number": "58",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Nic Capelli",
+      "number": "61",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Aiden Vasquez",
+      "number": "62",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Jake Ryan",
+      "number": "63",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Matthew Dryer",
+      "number": "65",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Jack Dooley",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Stanton Cutter",
+      "number": "67",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Weston Totty",
+      "number": "68",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Scott Thompson",
+      "number": "69",
+      "position": "A/M",
+      "classYear": "Freshman",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Ryan Doherty",
+      "number": "70",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Hampden-Sydney College"
+    },
+    {
+      "name": "Jack D'Agostin",
+      "number": "73",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Hampden-Sydney College"
+    }
+  ]
+}

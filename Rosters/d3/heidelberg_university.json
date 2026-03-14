@@ -1,0 +1,182 @@
+{
+  "team": "Heidelberg University",
+  "scrapedAt": "2026-03-13T22:04:36.977860Z",
+  "playerCount": 25,
+  "players": [
+    {
+      "name": "Sonny Varrati",
+      "number": "0",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Heidelberg University"
+    },
+    {
+      "name": "Kaivin Jones",
+      "number": "2",
+      "position": "A/M",
+      "classYear": "Freshman",
+      "team": "Heidelberg University"
+    },
+    {
+      "name": "Malachai Davis",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Heidelberg University"
+    },
+    {
+      "name": "Aiden Carpenter",
+      "number": "7",
+      "position": "D/M",
+      "classYear": "Junior",
+      "team": "Heidelberg University"
+    },
+    {
+      "name": "Jonathan Marty",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Heidelberg University"
+    },
+    {
+      "name": "Matt Robeson",
+      "number": "9",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Heidelberg University"
+    },
+    {
+      "name": "Lucas Sanders",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Heidelberg University"
+    },
+    {
+      "name": "Elijah Pagan",
+      "number": "13",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Heidelberg University"
+    },
+    {
+      "name": "Dusty Bernard",
+      "number": "15",
+      "position": "A/M",
+      "classYear": "Freshman",
+      "team": "Heidelberg University"
+    },
+    {
+      "name": "Colin Parker",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Heidelberg University"
+    },
+    {
+      "name": "Ty Sadowy",
+      "number": "17",
+      "position": "D/LSM",
+      "classYear": "Sophomore",
+      "team": "Heidelberg University"
+    },
+    {
+      "name": "MJ Yarosh",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Heidelberg University"
+    },
+    {
+      "name": "Rayce Septer",
+      "number": "20",
+      "position": "M/FO",
+      "classYear": "Senior",
+      "team": "Heidelberg University"
+    },
+    {
+      "name": "Mark Scherger",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Heidelberg University"
+    },
+    {
+      "name": "Mario Manzardo",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Heidelberg University"
+    },
+    {
+      "name": "Jayden Slaughter",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Heidelberg University"
+    },
+    {
+      "name": "Brandon Musa",
+      "number": "24",
+      "position": "FO/M",
+      "classYear": "Freshman",
+      "team": "Heidelberg University"
+    },
+    {
+      "name": "Jordan Brooke",
+      "number": "25",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Heidelberg University"
+    },
+    {
+      "name": "Nick Ciccone",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Heidelberg University"
+    },
+    {
+      "name": "Wilson Runnette",
+      "number": "30",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Heidelberg University"
+    },
+    {
+      "name": "Dante Coffman",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Heidelberg University"
+    },
+    {
+      "name": "Wyatt Lauvray",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Heidelberg University"
+    },
+    {
+      "name": "Jordan May",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Heidelberg University"
+    },
+    {
+      "name": "Sean McGee",
+      "number": "98",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Heidelberg University"
+    },
+    {
+      "name": "Nate Love",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Heidelberg University"
+    }
+  ]
+}

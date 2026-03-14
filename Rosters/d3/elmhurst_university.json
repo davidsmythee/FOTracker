@@ -1,0 +1,301 @@
+{
+  "team": "Elmhurst University",
+  "scrapedAt": "2026-03-13T22:03:56.495818Z",
+  "playerCount": 42,
+  "players": [
+    {
+      "name": "Donavan Meeters",
+      "number": "0",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Aiden Gawel",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Eli Spence",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Sam Hoff",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Joe Latorre",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Zain Crumedy",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Harry Moriarty",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Mitch Westfahl",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Jack Byard",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Luke Lampkin",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Graduate",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Tony Vazquez",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Max Ridenour",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Andrew Lacksonen",
+      "number": "12",
+      "position": "Goalkeeper",
+      "classYear": "Senior",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Charlie Ferree",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Aidan LaGuardia",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Cullen McManaman",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Bryce Horner",
+      "number": "17",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Owen Eckes",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Josh Brandt",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Max Moloznik",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Brent Diehl",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Kyle Taylor",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Alex Bentley",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Gabe Henry",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Alec Castillo",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Markell Bivens",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Oscar  Clark",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Landon Davis",
+      "number": "28",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Fischer Son",
+      "number": "29",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Jack Vasterling",
+      "number": "30",
+      "position": "Goalkeeper",
+      "classYear": "Freshman",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Harry Hummel",
+      "number": "31",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Tendo Thom-Goulding",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Will Conley",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Ricardo Tinoco",
+      "number": "40",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Matt Koshiol",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Brandon Pfaff",
+      "number": "42",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Hunter Hernandez",
+      "number": "43",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "DJ Mullenhoff",
+      "number": "44",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Gus Mossman",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Kaden Ames",
+      "number": "77",
+      "position": "Attack / MidfieldA/M",
+      "classYear": "Senior",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Sean Cherry",
+      "number": "88",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Elmhurst University"
+    },
+    {
+      "name": "Ryan Gatto",
+      "number": "99",
+      "position": "Goalkeeper",
+      "classYear": "Sophomore",
+      "team": "Elmhurst University"
+    }
+  ]
+}

@@ -31,13 +31,18 @@
         <!-- Sidebar -->
         <aside class="sidebar" id="sidebar">
             <div class="sidebar-header">
-                <h2>📋 Games & Folders</h2>
+                <div id="sidebar-root-header">
+                    <h2>Games &amp; Folders</h2>
+                </div>
                 <button id="new-folder-btn" class="btn btn-secondary btn-block">+ New Folder</button>
                 <button id="new-game-btn" class="btn btn-primary btn-block" style="margin-top: 4px;">+ New Game</button>
-                <button id="manage-players-btn" class="btn btn-secondary btn-block" style="margin-top: 8px;">Manage Players</button>
             </div>
-            
-            
+
+            <div id="sidebar-breadcrumb" style="display:none;">
+                <button id="sidebar-back-btn" class="btn-back">&#8592; Back</button>
+                <span id="sidebar-folder-title" class="sidebar-folder-title"></span>
+            </div>
+
             <div class="games-list" id="games-list">
                 <div class="no-games-message">
                     <p>No games yet</p>
@@ -203,12 +208,22 @@
             <h2>Create New Game</h2>
             <form id="new-game-form">
                 <div class="form-group">
+                    <div class="division-filter">
+                        <span class="division-filter-label">Division:</span>
+                        <div class="division-filter-btns">
+                            <button type="button" class="division-btn" data-div="D1">D1</button>
+                            <button type="button" class="division-btn" data-div="D3">D3</button>
+                            <button type="button" class="division-btn" data-div="All">All</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
                     <label for="team-a-name">Team 1 (Home Team):</label>
-                    <input type="text" id="team-a-name" required placeholder="e.g., Princeton">
+                    <input type="text" id="team-a-name" required placeholder="Search teams...">
                 </div>
                 <div class="form-group">
                     <label for="team-b-name">Team 2 (Opponent):</label>
-                    <input type="text" id="team-b-name" required placeholder="e.g., Cornell">
+                    <input type="text" id="team-b-name" required placeholder="Search teams...">
                 </div>
                 <div class="form-group">
                     <label for="game-date">Game Date:</label>

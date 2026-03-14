@@ -1,0 +1,399 @@
+{
+  "team": "Randolph-Macon College",
+  "scrapedAt": "2026-03-13T22:06:48.046547Z",
+  "playerCount": 56,
+  "players": [
+    {
+      "name": "Chap Hale",
+      "number": "0",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Jackson Grant",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Peyton Rodriguez",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "JT Harvey",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Owen King",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Peyton Lloyd",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Jacob MacMillan",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Fitz Stanley",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Charlie Violette",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Walker Wilkinson",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Matt Carter",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Cooper Harding",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Charlie Hilgartner",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "George Bratton",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Ian Swartzendruber",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Tyler Dyson",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "JJ Phillips",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Brodie Kent",
+      "number": "17",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Andrew Bergesen",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Logan Sinsebox",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Grant Sobel",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Jackson Hedrick",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Kirby Andrews",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Mike Allen",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Parker Lawler",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Grant Johns",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Jake Dudley",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Beaux Wojciechowski",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Hunter Drake",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Matthew Sutty",
+      "number": "29",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Will Robertson",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Nick Harrington",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Jack Wendorf",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Logan Dax",
+      "number": "33",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Nick Kline",
+      "number": "34",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Ethan McCrea",
+      "number": "35",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Sam Jackson",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Thomas Greer",
+      "number": "37",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Oliver Mudd",
+      "number": "38",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Luke Seaman",
+      "number": "39",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Andrew Ross",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Davis Kimminau",
+      "number": "41",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Graeme Stephenson",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Liam Whittle",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Carson Mingo",
+      "number": "44",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Quinn Jenkins",
+      "number": "45",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Roman Seaman",
+      "number": "46",
+      "position": "DM",
+      "classYear": "Freshman",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Jackson Ross",
+      "number": "47",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Joey Zinzi",
+      "number": "48",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Nathan Sutty",
+      "number": "49",
+      "position": "AA",
+      "classYear": "Freshman",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Jack Isaacs",
+      "number": "50",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Jack Kilbourne",
+      "number": "51",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Merric Warren",
+      "number": "52",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Teddy Evans",
+      "number": "54",
+      "position": "DD",
+      "classYear": "Freshman",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Rock Schraa",
+      "number": "55",
+      "position": "MM",
+      "classYear": "Junior",
+      "team": "Randolph-Macon College"
+    },
+    {
+      "name": "Luke Colwell",
+      "number": "56",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "Randolph-Macon College"
+    }
+  ]
+}

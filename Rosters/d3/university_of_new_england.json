@@ -1,0 +1,287 @@
+{
+  "team": "University of New England",
+  "scrapedAt": "2026-03-13T22:08:35.862421Z",
+  "playerCount": 40,
+  "players": [
+    {
+      "name": "Christian Berluti",
+      "number": "1",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "University of New England"
+    },
+    {
+      "name": "Declan Mulkerin",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "University of New England"
+    },
+    {
+      "name": "Kyle Dunn",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of New England"
+    },
+    {
+      "name": "Jack Fearney",
+      "number": "4",
+      "position": "Short-Stick Defensive MidfieldSSDM",
+      "classYear": "Sophomore",
+      "team": "University of New England"
+    },
+    {
+      "name": "Connor Gaughan",
+      "number": "5",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "University of New England"
+    },
+    {
+      "name": "Brady Angell",
+      "number": "6",
+      "position": "Long-Stick MidfieldLSM",
+      "classYear": "Junior",
+      "team": "University of New England"
+    },
+    {
+      "name": "Eben Fagonde",
+      "number": "7",
+      "position": "Short-Stick Defensive MidfieldSSDM",
+      "classYear": "Senior",
+      "team": "University of New England"
+    },
+    {
+      "name": "Shea Fogarty",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "University of New England"
+    },
+    {
+      "name": "Owen Matatall",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "University of New England"
+    },
+    {
+      "name": "Sean Moore",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of New England"
+    },
+    {
+      "name": "Erwin Sanchez",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "University of New England"
+    },
+    {
+      "name": "Noah Whipple",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "University of New England"
+    },
+    {
+      "name": "Hogan Corona",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of New England"
+    },
+    {
+      "name": "Dominic Matteodo",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "University of New England"
+    },
+    {
+      "name": "August Hand",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of New England"
+    },
+    {
+      "name": "Grant Isdale",
+      "number": "20",
+      "position": "Goalkeeper",
+      "classYear": "Sophomore",
+      "team": "University of New England"
+    },
+    {
+      "name": "Colin Moore",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "University of New England"
+    },
+    {
+      "name": "Stephen Fogarty",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of New England"
+    },
+    {
+      "name": "Sam LaCreta",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "University of New England"
+    },
+    {
+      "name": "Quin Gleason",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "University of New England"
+    },
+    {
+      "name": "Nate Howe",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of New England"
+    },
+    {
+      "name": "Lawson Dunn",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of New England"
+    },
+    {
+      "name": "Bobby Hamwey",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "University of New England"
+    },
+    {
+      "name": "Nate Hunt",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of New England"
+    },
+    {
+      "name": "Ean LaRochelle",
+      "number": "33",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of New England"
+    },
+    {
+      "name": "Nathan Iliffe",
+      "number": "34",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "University of New England"
+    },
+    {
+      "name": "Trot Smith",
+      "number": "35",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of New England"
+    },
+    {
+      "name": "Patrick Stevens",
+      "number": "36",
+      "position": "Long-Stick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "University of New England"
+    },
+    {
+      "name": "Brennan Chane",
+      "number": "37",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of New England"
+    },
+    {
+      "name": "Tristan Moe",
+      "number": "38",
+      "position": "Long-Stick MidfieldLSM",
+      "classYear": "Fy.",
+      "team": "University of New England"
+    },
+    {
+      "name": "Preston Briggs",
+      "number": "39",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of New England"
+    },
+    {
+      "name": "Chris Gottlieb",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of New England"
+    },
+    {
+      "name": "Joe O'Keefe",
+      "number": "41",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "University of New England"
+    },
+    {
+      "name": "Max Barrett",
+      "number": "42",
+      "position": "Long-Stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "University of New England"
+    },
+    {
+      "name": "Finn McCoy",
+      "number": "43",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of New England"
+    },
+    {
+      "name": "Joe Ribeck",
+      "number": "44",
+      "position": "Midfield (FOGO)M (FO)",
+      "classYear": "Junior",
+      "team": "University of New England"
+    },
+    {
+      "name": "Cam Whitlock",
+      "number": "45",
+      "position": "Midfield (FOGO)M (FO)",
+      "classYear": "Fy.",
+      "team": "University of New England"
+    },
+    {
+      "name": "Eli Allaire",
+      "number": "46",
+      "position": "Goalkeeper",
+      "classYear": "Fy.",
+      "team": "University of New England"
+    },
+    {
+      "name": "Braeden Veno",
+      "number": "48",
+      "position": "Midfield (FOGO)M (FO)",
+      "classYear": "Senior",
+      "team": "University of New England"
+    },
+    {
+      "name": "David Wilcox",
+      "number": "50",
+      "position": "Long-Stick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "University of New England"
+    }
+  ]
+}

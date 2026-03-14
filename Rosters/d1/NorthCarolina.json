@@ -1,0 +1,385 @@
+{
+  "team": "University of North Carolina at Chapel Hill",
+  "scrapedAt": "2026-01-28T20:47:47.700Z",
+  "playerCount": 54,
+  "players": [
+    {
+      "name": "Jermaine Anderson",
+      "number": "0",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Mason Szewczyk",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Kent Goode",
+      "number": "2",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Brevin Wilson",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Parker Hoffman",
+      "number": "4",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Peter Thomann",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Luke Bair",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "James Matan",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Owen Duffy",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Anthony Raio",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Caden Harshbarger",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Alec Levy",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Parker McDonald",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Gary Merrill",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Teddy Gabrielian",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Andrew Preis",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Dean Scalamandre",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Owen Dixon",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Harrison Schline",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Brady Wambach",
+      "number": "22",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Ty English",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Jack Barton",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Tayden Bultman",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Cole Aasheim",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Caden Whaling",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Henry Casani",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Leif Hagerup",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Caswell Friedman",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Luke Macaluso",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Kai Prohaszka",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Brett Koopman",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Kelan Moore",
+      "number": "35",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Niko Karetsos",
+      "number": "36",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Matt Wrede",
+      "number": "37",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Brooks Rodger",
+      "number": "39",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Ben Fox",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Josh Marcus",
+      "number": "43",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Luke Arrighi",
+      "number": "44",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Brayson Wilson",
+      "number": "45",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Graham Riddle",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Alec Riddle",
+      "number": "49",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Brock Geraci",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Nate Sage",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Luke Macejka",
+      "number": "54",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Grant Pierce",
+      "number": "55",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Nick Pietramala",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "John Moore",
+      "number": "70",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Dominic Pietramala",
+      "number": "77",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Charlie Pope",
+      "number": "87",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Chase Cellucci",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Trevor Havill",
+      "number": "90",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Ryan Hornyak",
+      "number": "95",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Hayden Downs",
+      "number": "98",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "name": "Colin Hannigan",
+      "number": "99",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "University of North Carolina at Chapel Hill"
+    }
+  ]
+}

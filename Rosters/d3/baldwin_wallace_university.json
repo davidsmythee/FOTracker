@@ -1,0 +1,336 @@
+{
+  "team": "Baldwin Wallace University",
+  "scrapedAt": "2026-03-13T22:02:44.908414Z",
+  "playerCount": 47,
+  "players": [
+    {
+      "name": "Logan Corley",
+      "number": "1",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Carson Grizovic",
+      "number": "2",
+      "position": "Attack/Midfield",
+      "classYear": "Junior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Dillon Dlugosielski",
+      "number": "3",
+      "position": "Attack/Midfield",
+      "classYear": "Senior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Owen Makar",
+      "number": "4",
+      "position": "Attack/Midfield",
+      "classYear": "Sophomore",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Noah Dodgion",
+      "number": "5",
+      "position": "Attack/Midfield",
+      "classYear": "Junior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Keyan Moser",
+      "number": "6",
+      "position": "Attack/Midfield",
+      "classYear": "Senior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Bennet Trout",
+      "number": "7",
+      "position": "Attack/Midfield",
+      "classYear": "Senior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Justin Diniz",
+      "number": "8",
+      "position": "Attack/Midfield",
+      "classYear": "Sophomore",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Carter Oschman",
+      "number": "9",
+      "position": "Attack/Midfield",
+      "classYear": "Sophomore",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Gavin Flak",
+      "number": "10",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Will Brennan",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Nate Hoover",
+      "number": "12",
+      "position": "Attack/Midfield",
+      "classYear": "Senior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Tommy Orsini",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Micah Moser",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Edyn Haueter",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Mitchell Gregory",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Ryan Frankovic",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Logan Lafler",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Elden Korber",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Louden Peters",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Paxton Allison",
+      "number": "21",
+      "position": "Attack/Midfield",
+      "classYear": "Junior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Jackson Viverito",
+      "number": "22",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Carson Henning",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Benjamin Glover",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Ian Shealy",
+      "number": "25",
+      "position": "Attack/Midfield",
+      "classYear": "Senior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Ethan Hingson",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Gavin Pate",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Nathan Prosowski",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Eli Armstrong",
+      "number": "29",
+      "position": "Attack/Midfield",
+      "classYear": "Sophomore",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Evan Vetter",
+      "number": "30",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Eli Block",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Sean Brennan",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Jake Koonmen",
+      "number": "33",
+      "position": "Attack/Midfield",
+      "classYear": "Senior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "AJ Schultz",
+      "number": "34",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Aidan Malone",
+      "number": "36",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Griffin Riley",
+      "number": "37",
+      "position": "Attack/Midfield",
+      "classYear": "Freshman",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Mitchell Burgan",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Luke Matelski",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Devon Ambrus",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Tremel Dunkin II",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Ben Matesic",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Parker Edell",
+      "number": "48",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Reichen Geiselhart",
+      "number": "50",
+      "position": "Attack/Midfield",
+      "classYear": "Senior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Caleb Fox",
+      "number": "55",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Ryan Holcomb",
+      "number": "77",
+      "position": "Attack/Midfield",
+      "classYear": "Junior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Paul Lopez",
+      "number": "88",
+      "position": "Attack/Midfield",
+      "classYear": "Junior",
+      "team": "Baldwin Wallace University"
+    },
+    {
+      "name": "Liam Liskey",
+      "number": "99",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Baldwin Wallace University"
+    }
+  ]
+}

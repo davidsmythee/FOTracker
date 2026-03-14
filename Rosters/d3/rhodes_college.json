@@ -1,0 +1,280 @@
+{
+  "team": "Rhodes College",
+  "scrapedAt": "2026-03-13T22:06:53.822553Z",
+  "playerCount": 39,
+  "players": [
+    {
+      "name": "Griffin Galloway",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Gavin Nagle",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Colin  Finnigan",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Ford Stratton",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Rhys McCarthy",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Nate Johnston",
+      "number": "6",
+      "position": "GoalieGK",
+      "classYear": "Freshman",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Andrew Murphy",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Charlie Carmouche",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Will Ford",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Dash Seiffer",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "John Woolman",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Garrett Mayer",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Jackson Fagan",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Nicholas Wheeldon",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Jack  Donahue",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Burke Wade",
+      "number": "18",
+      "position": "FOGO SpecialistFO",
+      "classYear": "Sophomore",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Giovanni  Brosco",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Logan Leleszi",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Reid Tenzer",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Braeden Bartlett",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Evan Schmitt",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Blake  Jeska",
+      "number": "25",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Aidan Malnati",
+      "number": "26",
+      "position": "Long Stick MiddieLSM",
+      "classYear": "Sophomore",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Mason Cloyd",
+      "number": "27",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Nathan Sadd",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "John Mori",
+      "number": "29",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Alex Trenchard",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Tripp Christman",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Jason  Rubinstein",
+      "number": "35",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Wyatt Bounds",
+      "number": "38",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Lucas Pagliarulo",
+      "number": "41",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Lathan Levy",
+      "number": "42",
+      "position": "FOGO SpecialistFO",
+      "classYear": "Freshman",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Ihsan Omer",
+      "number": "44",
+      "position": "FOGO SpecialistFO",
+      "classYear": "Sophomore",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Jim Davis",
+      "number": "48",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Cohan Simmons",
+      "number": "49",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Nate Simon",
+      "number": "55",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Charlie  Clune",
+      "number": "77",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Emmet Connolly",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Rhodes College"
+    },
+    {
+      "name": "Charlie Haginicols",
+      "number": "",
+      "position": "Student Manager",
+      "classYear": "Junior",
+      "team": "Rhodes College"
+    }
+  ]
+}

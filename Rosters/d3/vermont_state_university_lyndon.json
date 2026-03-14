@@ -1,0 +1,63 @@
+{
+  "team": "Vermont State University - Lyndon",
+  "scrapedAt": "2026-03-13T22:08:52.117984Z",
+  "playerCount": 8,
+  "players": [
+    {
+      "name": "Aiden Trapani",
+      "number": "1/5",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Vermont State University - Lyndon"
+    },
+    {
+      "name": "Elias Libby",
+      "number": "4",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "Vermont State University - Lyndon"
+    },
+    {
+      "name": "Wes Cloutier",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Vermont State University - Lyndon"
+    },
+    {
+      "name": "Matthew  McGeehan",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Vermont State University - Lyndon"
+    },
+    {
+      "name": "Abraham Olsen",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Vermont State University - Lyndon"
+    },
+    {
+      "name": "Robert  McDonald",
+      "number": "24",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Vermont State University - Lyndon"
+    },
+    {
+      "name": "Jack Cushman",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Vermont State University - Lyndon"
+    },
+    {
+      "name": "Gilbert Flores",
+      "number": "36",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Vermont State University - Lyndon"
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "team": "University of Dubuque",
+  "scrapedAt": "2026-03-13T22:08:22.326293Z",
+  "playerCount": 35,
+  "players": [
+    {
+      "name": "Ethan Branscom",
+      "number": "0",
+      "position": "Goalkeeper",
+      "classYear": "Freshman",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Andrew Beaudoin",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Nolan Dimitri",
+      "number": "2",
+      "position": "Midfieldid",
+      "classYear": "Junior",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Joe Cressy",
+      "number": "3",
+      "position": "Midfieldid",
+      "classYear": "Senior",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Beckett Mull",
+      "number": "5",
+      "position": "DefensemanDef",
+      "classYear": "Freshman",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Carter Nelson",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Peter Schiess",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "5th",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Isaac Margala",
+      "number": "8",
+      "position": "Midfieldid",
+      "classYear": "Sophomore",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Tait Peters",
+      "number": "11",
+      "position": "Midfieldid",
+      "classYear": "Freshman",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Cooper Powers",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Tommy Shelby",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "6th",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Tyler Johnson",
+      "number": "14",
+      "position": "Midfieldid",
+      "classYear": "Senior",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Cambell Smith",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "John Davis",
+      "number": "16",
+      "position": "Midfieldid",
+      "classYear": "Junior",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Nate Richardson",
+      "number": "17",
+      "position": "Midfieldid",
+      "classYear": "Sophomore",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "James Troche",
+      "number": "19",
+      "position": "Goalkeeper",
+      "classYear": "Freshman",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "John Lewis",
+      "number": "20",
+      "position": "FOGOFO",
+      "classYear": "Senior",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Connor Lindauer",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Chris Wilson",
+      "number": "22",
+      "position": "Midfieldid",
+      "classYear": "Junior",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Ethan Smith",
+      "number": "23",
+      "position": "DefensemanDef",
+      "classYear": "Junior",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Myles Davidson",
+      "number": "24",
+      "position": "DefensemanDef",
+      "classYear": "Freshman",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Matthew Wright",
+      "number": "25",
+      "position": "DefensemanDef",
+      "classYear": "Sophomore",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Owen Lang",
+      "number": "26",
+      "position": "FOGOFO",
+      "classYear": "Freshman",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Sebastian Lopez-Morales",
+      "number": "28",
+      "position": "Midfieldid",
+      "classYear": "Sophomore",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Eric Brostek",
+      "number": "29",
+      "position": "Midfieldid",
+      "classYear": "Junior",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Carson Bellin",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Gavin Flattery",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Nathan Harris",
+      "number": "35",
+      "position": "DefensemanDef",
+      "classYear": "Freshman",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Andrew Robinson",
+      "number": "36",
+      "position": "FOGOFO",
+      "classYear": "Senior",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Logan Ehle",
+      "number": "42",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Sophomore",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Nolan Nagy",
+      "number": "44",
+      "position": "Goalkeeper",
+      "classYear": "Senior",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Cade Havens",
+      "number": "47",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Freshman",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Andrew Frantom",
+      "number": "57",
+      "position": "Defense",
+      "classYear": "Graduate",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Chris Phillippe",
+      "number": "88",
+      "position": "DefensemanDef",
+      "classYear": "Senior",
+      "team": "University of Dubuque"
+    },
+    {
+      "name": "Tiernan Reed",
+      "number": "99",
+      "position": "Midfieldid",
+      "classYear": "Sophomore",
+      "team": "University of Dubuque"
+    }
+  ]
+}

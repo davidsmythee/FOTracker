@@ -1,0 +1,287 @@
+{
+  "team": "Berry College",
+  "scrapedAt": "2026-03-13T22:02:51.787096Z",
+  "playerCount": 40,
+  "players": [
+    {
+      "name": "Tad Zappa",
+      "number": "0",
+      "position": "A/M",
+      "classYear": "Senior",
+      "team": "Berry College"
+    },
+    {
+      "name": "Caleb Johnston",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Berry College"
+    },
+    {
+      "name": "Evan Cuffe",
+      "number": "2",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Berry College"
+    },
+    {
+      "name": "Tyler Gabrielse",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Berry College"
+    },
+    {
+      "name": "Mitch  Badciong",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Berry College"
+    },
+    {
+      "name": "Derek Black",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Berry College"
+    },
+    {
+      "name": "Corey Blount",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Berry College"
+    },
+    {
+      "name": "Sean Johnson",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Berry College"
+    },
+    {
+      "name": "Nick Scalero",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Berry College"
+    },
+    {
+      "name": "William Lee",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Berry College"
+    },
+    {
+      "name": "Caleb Brown",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Berry College"
+    },
+    {
+      "name": "Christian Vought",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Berry College"
+    },
+    {
+      "name": "Michael Beirne",
+      "number": "12",
+      "position": "A/M",
+      "classYear": "Senior",
+      "team": "Berry College"
+    },
+    {
+      "name": "Finn McClendon",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Berry College"
+    },
+    {
+      "name": "Jacob Briggs",
+      "number": "15",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Berry College"
+    },
+    {
+      "name": "Collin Dean",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Berry College"
+    },
+    {
+      "name": "Davis  Witherspoon",
+      "number": "18",
+      "position": "A/M",
+      "classYear": "Freshman",
+      "team": "Berry College"
+    },
+    {
+      "name": "Mason McLarty",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Berry College"
+    },
+    {
+      "name": "Wesley Wilbur",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Berry College"
+    },
+    {
+      "name": "Carson Wilbur",
+      "number": "21",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Berry College"
+    },
+    {
+      "name": "Owen Morini",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Berry College"
+    },
+    {
+      "name": "Boston Juliao",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Berry College"
+    },
+    {
+      "name": "Blake Noah",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Berry College"
+    },
+    {
+      "name": "Clayton Karol",
+      "number": "25",
+      "position": "D/LSM",
+      "classYear": "Freshman",
+      "team": "Berry College"
+    },
+    {
+      "name": "Jackson Mackie",
+      "number": "26",
+      "position": "A/M",
+      "classYear": "Junior",
+      "team": "Berry College"
+    },
+    {
+      "name": "Mikey Statham",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Berry College"
+    },
+    {
+      "name": "Clement  Smith",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Berry College"
+    },
+    {
+      "name": "Finn Crowley",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Berry College"
+    },
+    {
+      "name": "Thomas  Burgee",
+      "number": "30",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Berry College"
+    },
+    {
+      "name": "Quinton  O'Connor",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Berry College"
+    },
+    {
+      "name": "Griffin Smiles",
+      "number": "32",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Berry College"
+    },
+    {
+      "name": "Joey Shinkel",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Berry College"
+    },
+    {
+      "name": "Josip Brosovich",
+      "number": "35",
+      "position": "LSM/D",
+      "classYear": "Sophomore",
+      "team": "Berry College"
+    },
+    {
+      "name": "Andrew Ingram",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Berry College"
+    },
+    {
+      "name": "Christian Casanova",
+      "number": "41",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Berry College"
+    },
+    {
+      "name": "Peter Balthazor",
+      "number": "42",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Berry College"
+    },
+    {
+      "name": "Andrew Duffy",
+      "number": "44",
+      "position": "A/M",
+      "classYear": "Senior",
+      "team": "Berry College"
+    },
+    {
+      "name": "Tate Mack",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Berry College"
+    },
+    {
+      "name": "Sawyer Hattersley",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Berry College"
+    },
+    {
+      "name": "Frederick Giovanelli",
+      "number": "50",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Berry College"
+    }
+  ]
+}

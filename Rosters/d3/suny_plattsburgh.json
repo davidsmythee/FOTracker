@@ -1,0 +1,308 @@
+{
+  "team": "SUNY Plattsburgh",
+  "scrapedAt": "2026-03-13T22:07:58.803548Z",
+  "playerCount": 43,
+  "players": [
+    {
+      "name": "Owen O'Hara",
+      "number": "1",
+      "position": "FOGOFO",
+      "classYear": "Sophomore",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Kevin Murray",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Jamie Gipe",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "James Henningsen",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Connor Vanella",
+      "number": "5",
+      "position": "Long-stick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Dylan Zambito",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Fynn Whitlock",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Justin Ortiz",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Nick Arcuri",
+      "number": "9",
+      "position": "FOGOFO",
+      "classYear": "Fy.",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Timmy Wood",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Lucas Longhitano",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Peter Urso",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Cole Orehosky",
+      "number": "14",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Matthew Swift",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Connor Wiggins",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Steven Fenner",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Noah Hilleboe",
+      "number": "20",
+      "position": "Long-stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Jack Joyce",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Brayden Shattuck",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Matt Nystrom",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Cameron Zalinger",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Myles Marinello",
+      "number": "25",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Nathaniel Freelove",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Logan Drake",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Jack Mulcahy",
+      "number": "28",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Jake Gipe",
+      "number": "29",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Matt White",
+      "number": "30",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Jake Madalone",
+      "number": "31",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Joe Barcher",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Danny Quinn",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Tatum Cipp",
+      "number": "35",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Aiden Deegan",
+      "number": "37",
+      "position": "FOGO SpecialistFO",
+      "classYear": "Sophomore",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Lucas Drake",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Dylan Ruland",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Gavin McQueeney",
+      "number": "44",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Ryan Fahy",
+      "number": "46",
+      "position": "Long-stick MidfieldLSM",
+      "classYear": "Junior",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "David Backus III",
+      "number": "47",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Jacob Solimine",
+      "number": "48",
+      "position": "Long-stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Ethan Francey",
+      "number": "49",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "George Rhatigan",
+      "number": "50",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Keith Keiser",
+      "number": "52",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Tim Keenan",
+      "number": "53",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Plattsburgh"
+    },
+    {
+      "name": "Gavin Argyros",
+      "number": "54",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "SUNY Plattsburgh"
+    }
+  ]
+}

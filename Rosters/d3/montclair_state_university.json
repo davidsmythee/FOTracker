@@ -1,0 +1,231 @@
+{
+  "team": "Montclair State University",
+  "scrapedAt": "2026-03-13T22:06:03.292394Z",
+  "playerCount": 32,
+  "players": [
+    {
+      "name": "Brian Kelly",
+      "number": "1",
+      "position": "AttackTT",
+      "classYear": "Junior",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Jonathan Slusser",
+      "number": "2",
+      "position": "MidfieldID",
+      "classYear": "Senior",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Jacob Holicki",
+      "number": "3",
+      "position": "Face OffFO",
+      "classYear": "Freshman",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Henry  Nordstrom",
+      "number": "4",
+      "position": "MidfieldID",
+      "classYear": "Junior",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Joe McGovern",
+      "number": "5",
+      "position": "DefenseEF",
+      "classYear": "Junior",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Sean Stephenson",
+      "number": "6",
+      "position": "Defense/Long Stick MidfieldD/LSM",
+      "classYear": "Junior",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Ryan Kenney",
+      "number": "7",
+      "position": "DefenseEF",
+      "classYear": "Senior",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Michael  Bonner",
+      "number": "8",
+      "position": "AttackTT",
+      "classYear": "Sophomore",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Torrian Ellis",
+      "number": "10",
+      "position": "MidfieldID",
+      "classYear": "Freshman",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Sean Ford",
+      "number": "12",
+      "position": "AttackTT",
+      "classYear": "Junior",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Aidan  Duffy",
+      "number": "13",
+      "position": "MidfieldID",
+      "classYear": "Junior",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Jackson Simons",
+      "number": "15",
+      "position": "MidfieldID",
+      "classYear": "Senior",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Logan  Lamarca",
+      "number": "16",
+      "position": "DefenseEF",
+      "classYear": "Senior",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Nicholi Halse",
+      "number": "17",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Carter Finnen",
+      "number": "19",
+      "position": "MidfieldID",
+      "classYear": "Graduate",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Jack Hickam",
+      "number": "20",
+      "position": "MidfieldID",
+      "classYear": "Senior",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Corrado Ditoro",
+      "number": "21",
+      "position": "DefensmanDEF",
+      "classYear": "Sophomore",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Jack Norberto",
+      "number": "22",
+      "position": "MidfieldID",
+      "classYear": "5th",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Patrick Bourke",
+      "number": "24",
+      "position": "DefenseEF",
+      "classYear": "Senior",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Ryan Vierbuchen",
+      "number": "28",
+      "position": "AttackTT",
+      "classYear": "Senior",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "CJ  Fortunes",
+      "number": "29",
+      "position": "DEFDEF",
+      "classYear": "Sophomore",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Kai Donahue",
+      "number": "30",
+      "position": "MidfieldID",
+      "classYear": "Freshman",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Max Morosoff",
+      "number": "31",
+      "position": "AttackTT",
+      "classYear": "Senior",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Terry Terzakis",
+      "number": "33",
+      "position": "Long-Stick MidfielderLSM",
+      "classYear": "Senior",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Joey Marturano",
+      "number": "35",
+      "position": "MidfieldID",
+      "classYear": "Junior",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Ketchell Terzakis",
+      "number": "39",
+      "position": "AttackTT",
+      "classYear": "Sophomore",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Ryan Brown",
+      "number": "40",
+      "position": "AttackTT",
+      "classYear": "Senior",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Ryan Harper",
+      "number": "44",
+      "position": "DefenseEF",
+      "classYear": "Senior",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Brenden Bourke",
+      "number": "46",
+      "position": "Long-Stick MidfielderLSM",
+      "classYear": "Freshman",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Adri Koliqi",
+      "number": "47",
+      "position": "MidfieldID",
+      "classYear": "Junior",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Corbin Quintero",
+      "number": "50",
+      "position": "DefenseEF",
+      "classYear": "Senior",
+      "team": "Montclair State University"
+    },
+    {
+      "name": "Noah Karaban",
+      "number": "51",
+      "position": "Goalkeeper",
+      "classYear": "Sophomore",
+      "team": "Montclair State University"
+    }
+  ]
+}

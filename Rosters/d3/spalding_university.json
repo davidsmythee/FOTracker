@@ -1,0 +1,168 @@
+{
+  "team": "Spalding University",
+  "scrapedAt": "2026-03-13T22:07:25.420188Z",
+  "playerCount": 23,
+  "players": [
+    {
+      "name": "John Kelly",
+      "number": "1",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Spalding University"
+    },
+    {
+      "name": "Jontae Johnson",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Spalding University"
+    },
+    {
+      "name": "Jaylin Summers",
+      "number": "3",
+      "position": "Defense/Long-Stick Midfielder",
+      "classYear": "Freshman",
+      "team": "Spalding University"
+    },
+    {
+      "name": "Leroy McIver",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Spalding University"
+    },
+    {
+      "name": "Xzayvyon Isom",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Spalding University"
+    },
+    {
+      "name": "Jordan Garcia",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Spalding University"
+    },
+    {
+      "name": "Eythan Raso",
+      "number": "9",
+      "position": "Long-Stick Midfielder/Defense",
+      "classYear": "Freshman",
+      "team": "Spalding University"
+    },
+    {
+      "name": "Parker Moore",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Spalding University"
+    },
+    {
+      "name": "Balin Luebbert",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Spalding University"
+    },
+    {
+      "name": "Giovanni Distasio",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Spalding University"
+    },
+    {
+      "name": "Cian Cribbs",
+      "number": "13",
+      "position": "Long-Stick Midfielder/Short-Stick Defensive Midfielder",
+      "classYear": "Sophomore",
+      "team": "Spalding University"
+    },
+    {
+      "name": "Patrick Clancy",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Spalding University"
+    },
+    {
+      "name": "Daniel  Curran",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Spalding University"
+    },
+    {
+      "name": "Erick Jenkins",
+      "number": "16",
+      "position": "Short-Stick Defensive Midfielder",
+      "classYear": "Senior",
+      "team": "Spalding University"
+    },
+    {
+      "name": "Andrew Moe",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Spalding University"
+    },
+    {
+      "name": "Carter Harris",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Spalding University"
+    },
+    {
+      "name": "Eli Teater",
+      "number": "21",
+      "position": "Face Off/Midfield",
+      "classYear": "Graduate",
+      "team": "Spalding University"
+    },
+    {
+      "name": "Hank Ohlen",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Spalding University"
+    },
+    {
+      "name": "Nicolas Guzman",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Spalding University"
+    },
+    {
+      "name": "Cooper Robinson",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Spalding University"
+    },
+    {
+      "name": "Jake Meyers",
+      "number": "26",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Spalding University"
+    },
+    {
+      "name": "Jamel Segar",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Spalding University"
+    },
+    {
+      "name": "Jonathan Magana",
+      "number": "31",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Spalding University"
+    }
+  ]
+}

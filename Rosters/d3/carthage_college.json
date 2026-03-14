@@ -1,0 +1,245 @@
+{
+  "team": "Carthage College",
+  "scrapedAt": "2026-03-13T22:03:08.139125Z",
+  "playerCount": 34,
+  "players": [
+    {
+      "name": "Jake Westland",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Collin McClure",
+      "number": "2",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Sophomore",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Keyan Schugel",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Kyle Cissne",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Briton Stanton",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Lukas Bakke",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Ben Thomas",
+      "number": "8",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Junior",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Brandon Sawicki",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Luca Rotola",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Andy Slattery",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Carthage College"
+    },
+    {
+      "name": "John Bogdala",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Kyle Carollo",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Landon Bakke",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Jack Meyer",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Marshall Johnson",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Ethan Cotterman",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Michael Harding",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Aiden Wiese",
+      "number": "23",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Freshman",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Rye Taylor",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Jake Williamson",
+      "number": "25",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Carthage College"
+    },
+    {
+      "name": "George Mobraaten",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Nolan Avenson",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Alex Hernandez",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Henry Arnold",
+      "number": "30",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Alex Moore",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Josh Flores",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Logan Thompson",
+      "number": "33",
+      "position": "Short Stick MidfieldSSM",
+      "classYear": "Sophomore",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Rocco Paddack",
+      "number": "34",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Robert Teele",
+      "number": "37",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Angelo Cullen",
+      "number": "40",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Sophomore",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Connor Kiergaard",
+      "number": "43",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Alex Bailey",
+      "number": "44",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Andrew Piazza",
+      "number": "45",
+      "position": "Short Stick MidfieldSSM",
+      "classYear": "Freshman",
+      "team": "Carthage College"
+    },
+    {
+      "name": "Luke Bloomer",
+      "number": "50",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Carthage College"
+    }
+  ]
+}

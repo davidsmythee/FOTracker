@@ -1,0 +1,336 @@
+{
+  "team": "Moravian University",
+  "scrapedAt": "2026-03-14T00:58:25.768937Z",
+  "playerCount": 47,
+  "players": [
+    {
+      "name": "Nick Coffaro",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Adam Twist",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Finn McGovern",
+      "number": "3",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "Moravian University"
+    },
+    {
+      "name": "RJ Toogood",
+      "number": "4",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Jay Ashforth",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Liam Kelly",
+      "number": "6",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Andrew Nappi",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Ryan Kokoszka",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Brandon Petticord",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Robert Celona",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Peter Zaninelli",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Brady Quinn",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Dylan DeNaples",
+      "number": "13",
+      "position": "LSM/D",
+      "classYear": "Sophomore",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Bradley Carotenudo",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Dominic Houck",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Vincent Devito",
+      "number": "17",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Tucker Ellis",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Tyler Bowden",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Nate Bergeron",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Owen Deady",
+      "number": "21",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Andrew Cassese",
+      "number": "22",
+      "position": "LSM/D",
+      "classYear": "Junior",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Jack Minetti",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Hunter Klapmuts",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Justin Hachmann",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Carter Grant",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Kyle Gann",
+      "number": "27",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Tyler Coban",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Oscar Woodgate",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Regis Farren",
+      "number": "30",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Jake Bicking",
+      "number": "31",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Nick Ahlers",
+      "number": "32",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Christian Hantson",
+      "number": "33",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Nick Mancini",
+      "number": "34",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Peter Miragliotta",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Nick Crames",
+      "number": "36",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Anthony Coiro",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Rory Jenkins",
+      "number": "38",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Aiden LaCorte",
+      "number": "39",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Mike Willis",
+      "number": "40",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "Moravian University"
+    },
+    {
+      "name": "James Panico",
+      "number": "41",
+      "position": "LSM/D",
+      "classYear": "Senior",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Connor Yeandle",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Sean McMahon",
+      "number": "44",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Luke Bartnett",
+      "number": "46",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Jace Schmalz",
+      "number": "47",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Chris Piluso",
+      "number": "48",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Mike Sickler",
+      "number": "49",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Moravian University"
+    },
+    {
+      "name": "Nick Bassolino",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Moravian University"
+    }
+  ]
+}

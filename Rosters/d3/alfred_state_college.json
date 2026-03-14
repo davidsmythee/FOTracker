@@ -1,0 +1,210 @@
+{
+  "team": "Alfred State College",
+  "scrapedAt": "2026-03-13T22:02:21.181883Z",
+  "playerCount": 29,
+  "players": [
+    {
+      "name": "Payton Bliss",
+      "number": "0",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Ryan Batson",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Griffin Doan",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Joseph Tiberio",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Matthew Bridges",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Ryan Snyder",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Cameron Chase",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Richard Andres",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Logan McGuire",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Josh Gates",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Matt Martin",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Mike Coburn",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Ryan Vacanti",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Sidney Webster",
+      "number": "15",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Regan Clancy",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Matthew Burris",
+      "number": "17",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Joseph Pritchard",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Wyatt Saleman",
+      "number": "20",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Cian Barry",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Brady Nugent",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Shawn Cook Jr.",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Josh Ganschow",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Mike Wojcik",
+      "number": "27",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Brendon O'Donnell",
+      "number": "29",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Colin Dunn",
+      "number": "30",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Anthony Kuc",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Elijah Jackson",
+      "number": "77",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Landon Davis",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Alfred State College"
+    },
+    {
+      "name": "Luca Campanelli",
+      "number": "99",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Alfred State College"
+    }
+  ]
+}

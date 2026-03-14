@@ -1,0 +1,301 @@
+{
+  "team": "Springfield College",
+  "scrapedAt": "2026-03-13T22:07:27.162801Z",
+  "playerCount": 42,
+  "players": [
+    {
+      "name": "Trevor Stringer",
+      "number": "2",
+      "position": "M/DM",
+      "classYear": "Junior",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Bryan Stensrud",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Ben Rosenberg",
+      "number": "4",
+      "position": "D/LSM",
+      "classYear": "Sophomore",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Rory Scanlon",
+      "number": "5",
+      "position": "M/A",
+      "classYear": "Junior",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Logan Ruby",
+      "number": "6",
+      "position": "D/LSM",
+      "classYear": "Fy.",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Dylan  Brown",
+      "number": "7",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Jonathan Guida",
+      "number": "8",
+      "position": "SSDM/LSM",
+      "classYear": "Senior",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Luke Taylor",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Reece Whitney",
+      "number": "10",
+      "position": "D/LSM",
+      "classYear": "Senior",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Chuck Weitzel",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Graduate",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Brady Soldo",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Conor  Connally",
+      "number": "13",
+      "position": "DM",
+      "classYear": "Junior",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Ian Cote",
+      "number": "14",
+      "position": "GK",
+      "classYear": "Senior",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Dominic Pellegrino",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Vincent Cappelli",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Will Anderson",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Patrick McGowan",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Matt Webb",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Hunter Fodera",
+      "number": "20",
+      "position": "GK",
+      "classYear": "Fy.",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Dominic Savastano",
+      "number": "21",
+      "position": "FO/M",
+      "classYear": "Sophomore",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Michael Kuziak",
+      "number": "22",
+      "position": "M/A",
+      "classYear": "Junior",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Angus  Oliveira",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Tate Anderson",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Willard Kull",
+      "number": "26",
+      "position": "FO/M",
+      "classYear": "Fy.",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Joseph Sabella",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Carter Shaw",
+      "number": "28",
+      "position": "A/M",
+      "classYear": "Fy.",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Jake Degnan",
+      "number": "29",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Joseph Grenier",
+      "number": "30",
+      "position": "GK",
+      "classYear": "Fy.",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Nick Savastano",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Cole Rinn",
+      "number": "32",
+      "position": "LSM/D",
+      "classYear": "Fy.",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Zachary Rabin",
+      "number": "33",
+      "position": "D/LSM",
+      "classYear": "Junior",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Gabe Carrero",
+      "number": "35",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Owen Dawson",
+      "number": "36",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Jake Staples",
+      "number": "37",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Jack  Shay",
+      "number": "40",
+      "position": "M/A",
+      "classYear": "Sophomore",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Charlie Vath",
+      "number": "41",
+      "position": "M/A",
+      "classYear": "Sophomore",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Ryan Berkel",
+      "number": "42",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Sal  Posillico",
+      "number": "43",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Chase Docker",
+      "number": "44",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Jacob Porkka",
+      "number": "47",
+      "position": "D/LSM",
+      "classYear": "Fy.",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Timmy Sheehan",
+      "number": "49",
+      "position": "GK",
+      "classYear": "Fy.",
+      "team": "Springfield College"
+    },
+    {
+      "name": "Anders Norman",
+      "number": "50",
+      "position": "DM",
+      "classYear": "Senior",
+      "team": "Springfield College"
+    }
+  ]
+}

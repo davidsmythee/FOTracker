@@ -1,0 +1,301 @@
+{
+  "team": "SUNY Oswego",
+  "scrapedAt": "2026-03-13T22:07:57.315896Z",
+  "playerCount": 42,
+  "players": [
+    {
+      "name": "Pat McManus",
+      "number": "0",
+      "position": "Goal KeeperG",
+      "classYear": "Freshman",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Anthony Albino",
+      "number": "1",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Jack Lamon",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Trey Jones",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Logan Ward",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Tanner Long",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Ethan  McConnell",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Garrett Elston",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Emmet Starowicz",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Logan Postel",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Ryan Rogers",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Aidan Musso",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Nick Spinner",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Matt Rudolph",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Logan Linn",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Keagan  Stevens",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Colton Maher",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Cam Stojkovski",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Liam McAlary",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Austin Sroda",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Max Weeks",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Hayden Coney",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Griffin Mahoney",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Tyler Novak",
+      "number": "26",
+      "position": "GoaltenderG",
+      "classYear": "Senior",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Alec Lobdell",
+      "number": "27",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Ben Perrotta",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Austin Grant",
+      "number": "29",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Freshman",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Connor Roskot",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Cam  Shear",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Seamus Hand",
+      "number": "33",
+      "position": "GoaltenderG",
+      "classYear": "Senior",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Anthony  Polito",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Joey Zarcone",
+      "number": "35",
+      "position": "Defense/Long Stick MidfieldD/LSM",
+      "classYear": "Freshman",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Sheamus Devine",
+      "number": "36",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Kyler Butcher",
+      "number": "37",
+      "position": "Face OffFO",
+      "classYear": "Sophomore",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Gavin Angelo",
+      "number": "38",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Alex Klecha",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Gage Hohle",
+      "number": "40",
+      "position": "Face OffFO",
+      "classYear": "Freshman",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Cam Holdsworth",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Ryan Behringer",
+      "number": "42",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Doryn Leclair",
+      "number": "44",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Sam Coleman",
+      "number": "45",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Oswego"
+    },
+    {
+      "name": "Ryan Crowley",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Oswego"
+    }
+  ]
+}

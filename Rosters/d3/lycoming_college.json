@@ -1,0 +1,154 @@
+{
+  "team": "Lycoming College",
+  "scrapedAt": "2026-03-13T22:05:27.751577Z",
+  "playerCount": 21,
+  "players": [
+    {
+      "name": "Connor Thompson",
+      "number": "0",
+      "position": "Midfielder",
+      "classYear": "FY",
+      "team": "Lycoming College"
+    },
+    {
+      "name": "James Hall-Melnychuck",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lycoming College"
+    },
+    {
+      "name": "Jake Lanning",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Lycoming College"
+    },
+    {
+      "name": "Brogan Wooley",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Lycoming College"
+    },
+    {
+      "name": "Braden Hill",
+      "number": "4",
+      "position": "LSM/D",
+      "classYear": "Sophomore",
+      "team": "Lycoming College"
+    },
+    {
+      "name": "Ryan MacElhinney",
+      "number": "5",
+      "position": "A/M",
+      "classYear": "FY",
+      "team": "Lycoming College"
+    },
+    {
+      "name": "Samuel Barry",
+      "number": "7",
+      "position": "A/M",
+      "classYear": "FY",
+      "team": "Lycoming College"
+    },
+    {
+      "name": "Dillan Mesidor",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lycoming College"
+    },
+    {
+      "name": "Nasir Vilus",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lycoming College"
+    },
+    {
+      "name": "Gavin Bicher",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "FY",
+      "team": "Lycoming College"
+    },
+    {
+      "name": "Kyle Kunes",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "FY",
+      "team": "Lycoming College"
+    },
+    {
+      "name": "Logan Hummer",
+      "number": "12",
+      "position": "Goalie",
+      "classYear": "FY",
+      "team": "Lycoming College"
+    },
+    {
+      "name": "Evan Donnelly",
+      "number": "13",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Lycoming College"
+    },
+    {
+      "name": "Alex Jones",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "FY",
+      "team": "Lycoming College"
+    },
+    {
+      "name": "Samuel Hall",
+      "number": "18",
+      "position": "A/M",
+      "classYear": "FY",
+      "team": "Lycoming College"
+    },
+    {
+      "name": "Jack Mulholland",
+      "number": "23",
+      "position": "LSM/D",
+      "classYear": "FY",
+      "team": "Lycoming College"
+    },
+    {
+      "name": "Hunter Skornick",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "FY",
+      "team": "Lycoming College"
+    },
+    {
+      "name": "Garis Tocco",
+      "number": "34",
+      "position": "A/M",
+      "classYear": "FY",
+      "team": "Lycoming College"
+    },
+    {
+      "name": "Luis Servin",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Lycoming College"
+    },
+    {
+      "name": "Cole Slezak",
+      "number": "91",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Lycoming College"
+    },
+    {
+      "name": "Cesar Carmona-Felipe",
+      "number": "99",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lycoming College"
+    }
+  ]
+}

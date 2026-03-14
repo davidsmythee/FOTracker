@@ -1,0 +1,308 @@
+{
+  "team": "Colby College",
+  "scrapedAt": "2026-03-13T22:03:23.764575Z",
+  "playerCount": 43,
+  "players": [
+    {
+      "name": "Will Heisler",
+      "number": "1",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Colby College"
+    },
+    {
+      "name": "Emmet Meagher",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Colby College"
+    },
+    {
+      "name": "Cormac Wright",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Colby College"
+    },
+    {
+      "name": "Will Bainbridge",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Colby College"
+    },
+    {
+      "name": "Blake Riley",
+      "number": "7",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Colby College"
+    },
+    {
+      "name": "Blake Ingold",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Colby College"
+    },
+    {
+      "name": "Jacob Thibodeau",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Colby College"
+    },
+    {
+      "name": "Joey Hagerty",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Colby College"
+    },
+    {
+      "name": "Gavin Rothenberg",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Colby College"
+    },
+    {
+      "name": "Tristan Bassett",
+      "number": "12",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Colby College"
+    },
+    {
+      "name": "Ethan Taerstein",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Colby College"
+    },
+    {
+      "name": "James Counselman",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Colby College"
+    },
+    {
+      "name": "Daniel O'Connor",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Colby College"
+    },
+    {
+      "name": "Luke Lombardo",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Colby College"
+    },
+    {
+      "name": "Kyle Skop",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Colby College"
+    },
+    {
+      "name": "Eli Chilicki",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Colby College"
+    },
+    {
+      "name": "Graham Wiggenhauser",
+      "number": "20",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Colby College"
+    },
+    {
+      "name": "Easton Bello",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Colby College"
+    },
+    {
+      "name": "Matias Williams",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Colby College"
+    },
+    {
+      "name": "Chase Coleman",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Colby College"
+    },
+    {
+      "name": "Matthew Trimmer",
+      "number": "24",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Colby College"
+    },
+    {
+      "name": "Marek Elia",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Colby College"
+    },
+    {
+      "name": "Quinton Delorey",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Colby College"
+    },
+    {
+      "name": "Sean McGrath",
+      "number": "28",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "Colby College"
+    },
+    {
+      "name": "Drew Gannon",
+      "number": "29",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Colby College"
+    },
+    {
+      "name": "Trevor Payne",
+      "number": "30",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "Colby College"
+    },
+    {
+      "name": "Oliver Aaron",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Colby College"
+    },
+    {
+      "name": "Anthony Long",
+      "number": "33",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "Colby College"
+    },
+    {
+      "name": "Nick Sokolosky",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Colby College"
+    },
+    {
+      "name": "Preston Maze",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Colby College"
+    },
+    {
+      "name": "Macon Burgess",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Colby College"
+    },
+    {
+      "name": "Thacher McCoy",
+      "number": "37",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Colby College"
+    },
+    {
+      "name": "Nick Hoy",
+      "number": "38",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Colby College"
+    },
+    {
+      "name": "Matthew George",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Colby College"
+    },
+    {
+      "name": "Max Proia",
+      "number": "41",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Colby College"
+    },
+    {
+      "name": "Will Steele",
+      "number": "42",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Colby College"
+    },
+    {
+      "name": "Rusty Chandler",
+      "number": "44",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Colby College"
+    },
+    {
+      "name": "Zachary Parks",
+      "number": "49",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Colby College"
+    },
+    {
+      "name": "Matt Murer",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Colby College"
+    },
+    {
+      "name": "Brian Bowler",
+      "number": "53",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Colby College"
+    },
+    {
+      "name": "JT O'Neil",
+      "number": "77",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Colby College"
+    },
+    {
+      "name": "Tyler Katt",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Colby College"
+    },
+    {
+      "name": "Carson Ahola",
+      "number": "91",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Colby College"
+    }
+  ]
+}

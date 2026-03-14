@@ -1,0 +1,175 @@
+{
+  "team": "SUNY Canton",
+  "scrapedAt": "2026-03-13T22:07:38.645518Z",
+  "playerCount": 24,
+  "players": [
+    {
+      "name": "Eystn Wylie",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Canton"
+    },
+    {
+      "name": "Jack Salton",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Canton"
+    },
+    {
+      "name": "Cade Fregoe",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Canton"
+    },
+    {
+      "name": "Dylan Munk",
+      "number": "9",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "SUNY Canton"
+    },
+    {
+      "name": "Michael Ventiquattro",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Canton"
+    },
+    {
+      "name": "Tyler Scott",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY Canton"
+    },
+    {
+      "name": "Jonney Mclear",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Canton"
+    },
+    {
+      "name": "Keegan Delormier",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY Canton"
+    },
+    {
+      "name": "Gavin Goettel",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Canton"
+    },
+    {
+      "name": "Clayton Benedict",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Canton"
+    },
+    {
+      "name": "Ben Wiley",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Canton"
+    },
+    {
+      "name": "Eli Bullock",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Canton"
+    },
+    {
+      "name": "Tracker Sands",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Canton"
+    },
+    {
+      "name": "Nathan Taylor",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Canton"
+    },
+    {
+      "name": "Charles Grandaw",
+      "number": "27",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Canton"
+    },
+    {
+      "name": "Parker Hunt",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Canton"
+    },
+    {
+      "name": "Brady Frost",
+      "number": "29",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Canton"
+    },
+    {
+      "name": "Lliam Hourihan",
+      "number": "30",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Canton"
+    },
+    {
+      "name": "Hayden Todd",
+      "number": "34",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "SUNY Canton"
+    },
+    {
+      "name": "Michael Newcomb",
+      "number": "35",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "SUNY Canton"
+    },
+    {
+      "name": "Ray Lopez Jr.",
+      "number": "36",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Canton"
+    },
+    {
+      "name": "Liam Waite",
+      "number": "37",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Canton"
+    },
+    {
+      "name": "Holden Hewlett",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY Canton"
+    },
+    {
+      "name": "Garritt Palmer",
+      "number": "41",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "SUNY Canton"
+    }
+  ]
+}

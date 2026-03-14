@@ -1,0 +1,266 @@
+{
+  "team": "Chatham University",
+  "scrapedAt": "2026-03-13T22:03:17.083771Z",
+  "playerCount": 37,
+  "players": [
+    {
+      "name": "James Cipollone",
+      "number": "1",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Dante Raffaele",
+      "number": "2",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Brady Rigdon",
+      "number": "3",
+      "position": "A/M",
+      "classYear": "Junior",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Luke Morrow",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Jacob Lubawy",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Broden Zumbano",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Erik Sahlgren",
+      "number": "7",
+      "position": "A / M",
+      "classYear": "Graduate",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Michael Flynn",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Bryce Kerrigan",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Jack Neal",
+      "number": "10",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Devin Traister",
+      "number": "11",
+      "position": "M / FO",
+      "classYear": "Junior",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Adam Rinker",
+      "number": "12",
+      "position": "A/M",
+      "classYear": "Sophomore",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Steven Clinkscales",
+      "number": "14",
+      "position": "A / M",
+      "classYear": "Freshman",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Mario Pusateri",
+      "number": "15",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Colby Wagner",
+      "number": "16",
+      "position": "A/M",
+      "classYear": "Sophomore",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Thomas Whitaker",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Cody Rosati",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Ethan Joshi",
+      "number": "20",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Cody Randal",
+      "number": "21",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Will Brockett",
+      "number": "22",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Matthew Ostapenko",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Mason Davis",
+      "number": "25",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Sebastian Davis",
+      "number": "26",
+      "position": "D / LSM",
+      "classYear": "Freshman",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Jesse Corser-James",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Riddick Flynn",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Anthony Grebiner",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Jackson Adkins",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Graduate",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Clark Cummings",
+      "number": "42",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Tyler Laughlin",
+      "number": "51",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Luke Iovino",
+      "number": "55",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Sean Creeden",
+      "number": "62",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Owen Millar",
+      "number": "66",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Cole Dermitt",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Timothy Mackay",
+      "number": "88",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Chatham University"
+    },
+    {
+      "name": "J.R. DuBose",
+      "number": "91",
+      "position": "A/M",
+      "classYear": "Sophomore",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Gavin Loshnowsky",
+      "number": "98",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Chatham University"
+    },
+    {
+      "name": "Bennett Bradsher",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Chatham University"
+    }
+  ]
+}

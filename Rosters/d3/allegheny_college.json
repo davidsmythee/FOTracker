@@ -1,0 +1,154 @@
+{
+  "team": "Allegheny College",
+  "scrapedAt": "2026-03-13T22:02:24.187945Z",
+  "playerCount": 21,
+  "players": [
+    {
+      "name": "Liam Kruck",
+      "number": "1",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Allegheny College"
+    },
+    {
+      "name": "Mikko Horsley",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Allegheny College"
+    },
+    {
+      "name": "JaMier Hopkins",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Allegheny College"
+    },
+    {
+      "name": "Jack Pearl",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Allegheny College"
+    },
+    {
+      "name": "Nathan Wheeler",
+      "number": "6",
+      "position": "Attack / MidfieldA / M",
+      "classYear": "Freshman",
+      "team": "Allegheny College"
+    },
+    {
+      "name": "Chris Williams",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Allegheny College"
+    },
+    {
+      "name": "Jack Brandstatter",
+      "number": "8",
+      "position": "Long-Stick MidfieldLSM",
+      "classYear": "Junior",
+      "team": "Allegheny College"
+    },
+    {
+      "name": "JP Rakis",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Allegheny College"
+    },
+    {
+      "name": "Christian Habusta",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Allegheny College"
+    },
+    {
+      "name": "Tomi Horsley",
+      "number": "12",
+      "position": "Attack / MidfieldA / M",
+      "classYear": "Sophomore",
+      "team": "Allegheny College"
+    },
+    {
+      "name": "Jason Eason",
+      "number": "15",
+      "position": "Long-Stick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "Allegheny College"
+    },
+    {
+      "name": "Gabe Shoemaker",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Allegheny College"
+    },
+    {
+      "name": "Brandon Crawford",
+      "number": "18",
+      "position": "Long-Stick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "Allegheny College"
+    },
+    {
+      "name": "Joe Arnt",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Allegheny College"
+    },
+    {
+      "name": "Griffin Cates",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Allegheny College"
+    },
+    {
+      "name": "Andrei Conwell",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Allegheny College"
+    },
+    {
+      "name": "Ethan Kosco",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Allegheny College"
+    },
+    {
+      "name": "Isaac Michalek",
+      "number": "36",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Allegheny College"
+    },
+    {
+      "name": "Garin Stearns",
+      "number": "37",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Allegheny College"
+    },
+    {
+      "name": "Jared Swisher",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Allegheny College"
+    },
+    {
+      "name": "Austin Aspenwall",
+      "number": "72",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "Allegheny College"
+    }
+  ]
+}

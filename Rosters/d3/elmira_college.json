@@ -1,0 +1,189 @@
+{
+  "team": "Elmira College",
+  "scrapedAt": "2026-03-13T22:03:57.975915Z",
+  "playerCount": 26,
+  "players": [
+    {
+      "name": "Jack Samek",
+      "number": "0",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "",
+      "team": "Elmira College"
+    },
+    {
+      "name": "Zaire Green",
+      "number": "2",
+      "position": "Midfield/DefenseM/D",
+      "classYear": "",
+      "team": "Elmira College"
+    },
+    {
+      "name": "Tyler Germer",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "Elmira College"
+    },
+    {
+      "name": "Lucas Cottrell",
+      "number": "5",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "",
+      "team": "Elmira College"
+    },
+    {
+      "name": "Spencer Barrow",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Elmira College"
+    },
+    {
+      "name": "Arjun Parambath",
+      "number": "7",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "",
+      "team": "Elmira College"
+    },
+    {
+      "name": "Isaac Craft",
+      "number": "8",
+      "position": "GoalieG",
+      "classYear": "",
+      "team": "Elmira College"
+    },
+    {
+      "name": "Nick Sorge",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Elmira College"
+    },
+    {
+      "name": "Brody Finnegan",
+      "number": "12",
+      "position": "'29",
+      "classYear": "",
+      "team": "Elmira College"
+    },
+    {
+      "name": "Corbin Melie",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Elmira College"
+    },
+    {
+      "name": "Troy Cammer",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "Elmira College"
+    },
+    {
+      "name": "Luke Jata",
+      "number": "16",
+      "position": "Midfield/DefenseM/D",
+      "classYear": "",
+      "team": "Elmira College"
+    },
+    {
+      "name": "David Lee",
+      "number": "17",
+      "position": "Short-Stick/Defensive MidfieldSS/DM",
+      "classYear": "",
+      "team": "Elmira College"
+    },
+    {
+      "name": "Bryce Greenier",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Elmira College"
+    },
+    {
+      "name": "Eric Bertelsen",
+      "number": "19",
+      "position": "'28",
+      "classYear": "",
+      "team": "Elmira College"
+    },
+    {
+      "name": "Carter Jock",
+      "number": "20",
+      "position": "'26",
+      "classYear": "",
+      "team": "Elmira College"
+    },
+    {
+      "name": "Olivier Rusch",
+      "number": "21",
+      "position": "'26",
+      "classYear": "",
+      "team": "Elmira College"
+    },
+    {
+      "name": "Robert Shabouk",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Elmira College"
+    },
+    {
+      "name": "Brody Haynes",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "Elmira College"
+    },
+    {
+      "name": "Caden Sims",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Elmira College"
+    },
+    {
+      "name": "Caleb Tuttle",
+      "number": "27",
+      "position": "Long Pole DefensemanD-Pole",
+      "classYear": "",
+      "team": "Elmira College"
+    },
+    {
+      "name": "Owen Halloran",
+      "number": "30",
+      "position": "'28",
+      "classYear": "",
+      "team": "Elmira College"
+    },
+    {
+      "name": "John McLachlan",
+      "number": "31",
+      "position": "'29",
+      "classYear": "",
+      "team": "Elmira College"
+    },
+    {
+      "name": "Austin Jerzak",
+      "number": "44",
+      "position": "'29",
+      "classYear": "",
+      "team": "Elmira College"
+    },
+    {
+      "name": "Liam Spurlock",
+      "number": "45",
+      "position": "GoalieG",
+      "classYear": "",
+      "team": "Elmira College"
+    },
+    {
+      "name": "Makai Tarjamo",
+      "number": "87",
+      "position": "Midifeld/FOGO SpecialistM/FOGO",
+      "classYear": "",
+      "team": "Elmira College"
+    }
+  ]
+}

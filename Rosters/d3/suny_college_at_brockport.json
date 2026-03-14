@@ -1,0 +1,385 @@
+{
+  "team": "SUNY College at Brockport",
+  "scrapedAt": "2026-03-13T22:07:40.173246Z",
+  "playerCount": 54,
+  "players": [
+    {
+      "name": "Luke L'Amoreaux",
+      "number": "0",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Matthew Cook",
+      "number": "1",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Nicolas Ange",
+      "number": "2",
+      "position": "Midfield/FOGOM/FO",
+      "classYear": "Sophomore",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Jared Kulik",
+      "number": "3",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "AJ Thomas",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Miguel Estrada",
+      "number": "5",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Nicholas Bisesi",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Marc Zappulla",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Michael Dowden",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Hunter Riehlman",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Reagan Alexander",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Austin Thornhill",
+      "number": "12",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Pierson Jacobs",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Jared Hazen",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Jaxon Willis",
+      "number": "15",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Brady Donaghy",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Vinnie Fanale",
+      "number": "17",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Brenden McClay",
+      "number": "18",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Dante Pezzimente",
+      "number": "19",
+      "position": "Midfield/AttackM/A",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Rorick Perry",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Luke Choffin",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Gavin Wellington",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Tyler Pastore",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Jerry Jackson",
+      "number": "25",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Daniel Wright",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Luke Hopkins",
+      "number": "27",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Spencer Baugh",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Colden Ives",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Gavin Lawyer",
+      "number": "30",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Vincent Savastano",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Mason Michel",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Vincent Kankolenski",
+      "number": "33",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Jack Kelley",
+      "number": "34",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Xavier Bauer",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Daniel Stiles",
+      "number": "36",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Ryder Bonn",
+      "number": "37",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Kaleb Sweeney",
+      "number": "38",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Joe Ciurcina",
+      "number": "40",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Jamie DaSilva",
+      "number": "41",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Ryan Torrelli",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Kelvin Jonathan",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Gordon Fagan",
+      "number": "44",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Caden Maggs",
+      "number": "45",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Cody Whittaker",
+      "number": "46",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Thomas O'Sullivan",
+      "number": "47",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "John Yanch",
+      "number": "48",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Kiernan Regan",
+      "number": "49",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Anthony Angley",
+      "number": "50",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Peter McGowan",
+      "number": "51",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Sophomore",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Aidan Phillips",
+      "number": "52",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Brad Len",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Riley Alexander",
+      "number": "66",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Patrick Donahoe",
+      "number": "77",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY College at Brockport"
+    },
+    {
+      "name": "Max Mickley",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY College at Brockport"
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "team": "Wheaton College - Massachusetts",
+  "scrapedAt": "2026-03-13T22:09:13.470856Z",
+  "playerCount": 38,
+  "players": [
+    {
+      "name": "Trey Gagne",
+      "number": "1",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Liam Stewart",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Chris Bodnaruk",
+      "number": "3",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Jack McDonald",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Griffin Krupp",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Ronan Connors",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Will Durkee",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Evan Borchert",
+      "number": "11",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Jack Walter",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Evan Paturzo",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Zac DiLauri",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Max Castro",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Jamie  Kline",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Theo Stamatel",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Henry Stamatel",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "John Schulz",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Jack Marro",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Miles Gada",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Michael  Ellis",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Haden Pelletier",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Karter Noyes",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Lucas Mehlhorn",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Colin Willoe",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Seamus Maurizi",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Emerson Bernardi",
+      "number": "32",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Lagan  Salathe",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Emmett Edwards",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Silas Vega",
+      "number": "35",
+      "position": "Goalie",
+      "classYear": "Fy.",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Zach Brown",
+      "number": "36",
+      "position": "Goalie",
+      "classYear": "Fy.",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Jack Nozzolillo",
+      "number": "37",
+      "position": "FOGO",
+      "classYear": "Fy.",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Torin Levy",
+      "number": "38",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Zach Wyborney",
+      "number": "39",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Charlie Goodrich",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Ryan Snodgrass",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Declan Cavanaugh",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Wilson Dowridge",
+      "number": "44",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Cole Wilson",
+      "number": "46",
+      "position": "Goalie",
+      "classYear": "Fy.",
+      "team": "Wheaton College - Massachusetts"
+    },
+    {
+      "name": "Connor Davine",
+      "number": "51",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Wheaton College - Massachusetts"
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "team": "United States Military Academy",
+  "scrapedAt": "2026-01-28T19:25:13.858Z",
+  "playerCount": 53,
+  "players": [
+    {
+      "name": "Aiden Bross",
+      "number": "0",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Sean Byrne",
+      "number": "1",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Drew Miller",
+      "number": "2",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Daniel Odell",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Evan Plunkett",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Ben Calabrese",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Tyler Clark",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Grant Masterson",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Isaiah Rose",
+      "number": "8",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Alex Krusko",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Gus Bell",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Hill Plunkett",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Aiden Weisenborn",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Alex Petrignani",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Avi Mehl",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Connor Guibord",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Patrick Ferguson",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Caleb Caldwell",
+      "number": "17",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Robert Simone",
+      "number": "18",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Gavin Cooper",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Ronan Loughman",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Tommy Stines",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Evan Richardson",
+      "number": "23",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Cal Lambert",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Patrick Murphy",
+      "number": "25",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Adam Sulanke",
+      "number": "26",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Tyler Price",
+      "number": "27",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Thor Swanson",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Tade Wynn",
+      "number": "29",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Tyler Mathews",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Mike Harney",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "John Prior",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Anthony Lattero",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Brayden Fountain",
+      "number": "35",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Gabriel Epstein",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Austin Cunningham",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Connor Hofbauer",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Gunnar Fellows",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Jack Manero",
+      "number": "42",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Jack Cappadona",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Geospatial Information Science",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Kellye Riordan",
+      "number": "49",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Mack Carter",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Ethan Dalland",
+      "number": "52",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Jack McInelly",
+      "number": "53",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Jake Martini",
+      "number": "55",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Keegan Nyman",
+      "number": "66",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Sam Ralston",
+      "number": "79",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Gavin Gall",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Jimmy Manley",
+      "number": "90",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Luke Stratton",
+      "number": "91",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "Keagan Treacy",
+      "number": "98",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "United States Military Academy"
+    },
+    {
+      "name": "John Sullivan",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "United States Military Academy"
+    }
+  ]
+}

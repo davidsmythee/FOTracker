@@ -1,0 +1,308 @@
+{
+  "team": "Western New England University",
+  "scrapedAt": "2026-03-13T22:09:09.527706Z",
+  "playerCount": 43,
+  "players": [
+    {
+      "name": "Matthew Davis",
+      "number": "1",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Cameron Penti",
+      "number": "2",
+      "position": "M/FO",
+      "classYear": "Freshman",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Max Rudgers",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Max Schwartz",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Logan Proctor",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Jamison Murphy",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Kevin Morina",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Jack Suomala",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Andrew Nolan",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Nathan Leone",
+      "number": "11",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Rafe Grant",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Anthony Gesino",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Cooper McConaghy",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Thomas Labbe",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Western New England University"
+    },
+    {
+      "name": "David Noel",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Logan Jenkins",
+      "number": "17",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Jeffrey Wojtowicz",
+      "number": "19",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Josh Gagnon",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Alexander Rice",
+      "number": "21",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Connor Cusolito",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Austin Blumenstock",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Bryce Busa",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Chris Catuosco",
+      "number": "25",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Dylan Nardone",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Carter Gilgen",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Chase Beyus",
+      "number": "28",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Connor Balletto",
+      "number": "29",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Connor Mahan",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Chance Starrett",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Declan Connally",
+      "number": "35",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Cooper Dimmick",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Owen Griggs",
+      "number": "37",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Jacob Roy",
+      "number": "40",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Max Raeke",
+      "number": "41",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Marcus Ciarcia",
+      "number": "42",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Kai McDonald",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Jack Gara",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Connor Callahan",
+      "number": "46",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Levi Kelly-Smith",
+      "number": "47",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Western New England University"
+    },
+    {
+      "name": "TJ Dalicandro",
+      "number": "49",
+      "position": "Defense",
+      "classYear": "Graduate",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Devin Richard",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Richard Fedele",
+      "number": "54",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "Western New England University"
+    },
+    {
+      "name": "Christopher Crozier",
+      "number": "55",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Western New England University"
+    }
+  ]
+}

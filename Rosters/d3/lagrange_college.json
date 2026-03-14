@@ -1,0 +1,126 @@
+{
+  "team": "LaGrange College",
+  "scrapedAt": "2026-03-13T22:05:18.598359Z",
+  "playerCount": 17,
+  "players": [
+    {
+      "name": "Zak Kirkman",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "LaGrange College"
+    },
+    {
+      "name": "Alex Mann",
+      "number": "4",
+      "position": "Goalkeeper",
+      "classYear": "Freshman",
+      "team": "LaGrange College"
+    },
+    {
+      "name": "Lawrence Johnson-Chambers",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "LaGrange College"
+    },
+    {
+      "name": "Jeremiah White",
+      "number": "7/7",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "LaGrange College"
+    },
+    {
+      "name": "Nicholas  Murciano",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "LaGrange College"
+    },
+    {
+      "name": "Seth Rome",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "LaGrange College"
+    },
+    {
+      "name": "Caden Glover",
+      "number": "11",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Junior",
+      "team": "LaGrange College"
+    },
+    {
+      "name": "Tyler Abrams",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "LaGrange College"
+    },
+    {
+      "name": "Candler Woods",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "LaGrange College"
+    },
+    {
+      "name": "Hammond Folsom",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "LaGrange College"
+    },
+    {
+      "name": "Jackson Ball",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "LaGrange College"
+    },
+    {
+      "name": "Arhat Dhabe",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "LaGrange College"
+    },
+    {
+      "name": "Aiden Psalmonds",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "LaGrange College"
+    },
+    {
+      "name": "Ethan Brim",
+      "number": "23",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Freshman",
+      "team": "LaGrange College"
+    },
+    {
+      "name": "Adam Jones",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "LaGrange College"
+    },
+    {
+      "name": "Palmer Walker",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "LaGrange College"
+    },
+    {
+      "name": "Deon King Jr.",
+      "number": "38",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "LaGrange College"
+    }
+  ]
+}

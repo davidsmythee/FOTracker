@@ -1,0 +1,189 @@
+{
+  "team": "Hiram College",
+  "scrapedAt": "2026-03-13T22:04:41.896394Z",
+  "playerCount": 26,
+  "players": [
+    {
+      "name": "Ryan Johnston",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Hiram College"
+    },
+    {
+      "name": "Michael Miles",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Hiram College"
+    },
+    {
+      "name": "Keith Smilowitz",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Hiram College"
+    },
+    {
+      "name": "Jacob Wilder",
+      "number": "5",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "Hiram College"
+    },
+    {
+      "name": "Aidan  Griffin",
+      "number": "6",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Hiram College"
+    },
+    {
+      "name": "Kellen Wetz",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Hiram College"
+    },
+    {
+      "name": "Will Minggia",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Hiram College"
+    },
+    {
+      "name": "Jack Cook",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Hiram College"
+    },
+    {
+      "name": "Romero Carter",
+      "number": "10",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "Hiram College"
+    },
+    {
+      "name": "Connor Randell",
+      "number": "11",
+      "position": "A/M",
+      "classYear": "Freshman",
+      "team": "Hiram College"
+    },
+    {
+      "name": "Remi  DeSmith",
+      "number": "12",
+      "position": "M/FO",
+      "classYear": "Freshman",
+      "team": "Hiram College"
+    },
+    {
+      "name": "Joey Cox",
+      "number": "13",
+      "position": "SSDM/G",
+      "classYear": "Sophomore",
+      "team": "Hiram College"
+    },
+    {
+      "name": "Brant Skipper",
+      "number": "14",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Hiram College"
+    },
+    {
+      "name": "Issac Ray",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Hiram College"
+    },
+    {
+      "name": "Nathan Lavigne",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Hiram College"
+    },
+    {
+      "name": "Gabe Weiford",
+      "number": "17",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Hiram College"
+    },
+    {
+      "name": "Tyler Wolke",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Hiram College"
+    },
+    {
+      "name": "Jack Sullivan",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Hiram College"
+    },
+    {
+      "name": "Nathan Conway",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Hiram College"
+    },
+    {
+      "name": "Gray Perry",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Hiram College"
+    },
+    {
+      "name": "Gino Haynes",
+      "number": "23",
+      "position": "M/FO",
+      "classYear": "Freshman",
+      "team": "Hiram College"
+    },
+    {
+      "name": "Micky Morgan",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Hiram College"
+    },
+    {
+      "name": "Neil Pretorius",
+      "number": "26",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "Hiram College"
+    },
+    {
+      "name": "Sam  West",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Hiram College"
+    },
+    {
+      "name": "Owen  Check",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Hiram College"
+    },
+    {
+      "name": "Ethan Bitong",
+      "number": "32",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Hiram College"
+    }
+  ]
+}

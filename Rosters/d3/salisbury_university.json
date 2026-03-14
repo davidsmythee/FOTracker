@@ -1,0 +1,427 @@
+{
+  "team": "Salisbury University",
+  "scrapedAt": "2026-03-13T22:07:13.539207Z",
+  "playerCount": 60,
+  "players": [
+    {
+      "name": "Riley Strub",
+      "number": "0",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Connor Herraiz",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Chris Wong",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Graduate",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Matt Sentowski",
+      "number": "3",
+      "position": "GK",
+      "classYear": "Junior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Nick Donofrio",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Joey Halloran",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Jeremiah Stafford",
+      "number": "6",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Tristan Plotts",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Graduate",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Joe Buxbaum",
+      "number": "8",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Brady  Mancha",
+      "number": "9",
+      "position": "DM",
+      "classYear": "Senior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Michael Leahy",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Jacob  Michalski",
+      "number": "11",
+      "position": "DM",
+      "classYear": "Junior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Trent Lucovich",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Benjamin Adams",
+      "number": "13",
+      "position": "DM",
+      "classYear": "Freshman",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Connor Fritz",
+      "number": "14",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Alex Swartz",
+      "number": "15",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Jimmy Son",
+      "number": "16",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Jack Beaulieu",
+      "number": "17",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "William Maag",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Matt Buonocore",
+      "number": "19",
+      "position": "DM",
+      "classYear": "Junior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Aidan Swartz",
+      "number": "20",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Nolan Wilde",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Ryan Della",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Brayden Velasquez",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Kicky  Crowell",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Rory Callahan",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Reece Smith",
+      "number": "27",
+      "position": "DM",
+      "classYear": "Freshman",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Robby Donnelly",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Andrew Roe",
+      "number": "29",
+      "position": "DM",
+      "classYear": "Junior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Aedan Gilbert",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Benjamin McDonnell",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Owen Karantonis",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Myles Jarmon",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Evan Huffman",
+      "number": "35",
+      "position": "DM",
+      "classYear": "Senior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Charles Fritchman",
+      "number": "36",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Ryan Moore",
+      "number": "38",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Jack Wallace",
+      "number": "39",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Jake Baumoel",
+      "number": "40",
+      "position": "DM",
+      "classYear": "Sophomore",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Collin Fohner",
+      "number": "41",
+      "position": "GK",
+      "classYear": "Senior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Jameson McAndrews",
+      "number": "42",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Kyen Argentinis",
+      "number": "43",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Cooper Keesee",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Blake  Malamphy",
+      "number": "45",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Leland Robinson",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Stephen Stagg",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Brayden Schmidt",
+      "number": "48",
+      "position": "DM",
+      "classYear": "Freshman",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Ryan Lazzara",
+      "number": "49",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Bryce Stevenson",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Timmy Sullivan",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Mason Klessinger",
+      "number": "52",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Ryan Keating",
+      "number": "53",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Talan Livingston",
+      "number": "54",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Luke Hicks",
+      "number": "55",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Brendan Leonard",
+      "number": "56",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Bret Bergey",
+      "number": "66",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Campbell Elwell",
+      "number": "72",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Kellen Smaw",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Max Monzo",
+      "number": "81",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Preston Huffman",
+      "number": "88",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Salisbury University"
+    },
+    {
+      "name": "Michael DeSano",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Salisbury University"
+    }
+  ]
+}

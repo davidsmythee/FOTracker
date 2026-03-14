@@ -1,0 +1,343 @@
+{
+  "team": "Muhlenberg College",
+  "scrapedAt": "2026-03-13T22:06:12.221157Z",
+  "playerCount": 48,
+  "players": [
+    {
+      "name": "Ben Snyder",
+      "number": "0",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Luke Tabasso",
+      "number": "1",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Ben Cohen",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Daniel Friedel",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Justin Wyle",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Jace Riley Day",
+      "number": "5",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Ryan Schmitz",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "James Jenet",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Parker Kusko",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Charlie Lowery",
+      "number": "9",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Flynn Decker",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Matt Kriney",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Chase Kusko",
+      "number": "12",
+      "position": "A/M",
+      "classYear": "Junior",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Liam Ledwith",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Luc Belvill",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Thomas Olifiers",
+      "number": "15",
+      "position": "DM",
+      "classYear": "Senior",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Seth Low",
+      "number": "16",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Jack Paris",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Patrick Staker",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "William Provda",
+      "number": "19",
+      "position": "DM",
+      "classYear": "Freshman",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Trey Marcinko",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Luke West",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Michael Drago",
+      "number": "22",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Zachary Hernandez",
+      "number": "25",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Peter Boyd",
+      "number": "26",
+      "position": "DM",
+      "classYear": "Junior",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Aidan Fairweather",
+      "number": "27",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Luca Pallagrosi",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Jacob Apat",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Jack Bill",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Brendan Boyd",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Thomas Yick",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Drew Pravlik",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Ryan Neal",
+      "number": "35",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Ben Bridegum",
+      "number": "36",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Owen Kissinger",
+      "number": "38",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Jakob Kirz",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Paul Salerno",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Connor Sutton",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Lorenzo Recine",
+      "number": "42",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Patrick Crawley",
+      "number": "44",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Seth Frankford",
+      "number": "45",
+      "position": "DM",
+      "classYear": "Freshman",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Charlie Falk",
+      "number": "47",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Spencer Cymbler",
+      "number": "55",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Mark Ruggiero",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Luca Korte",
+      "number": "81",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Michael Chimics",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Brendan Lang",
+      "number": "91",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Muhlenberg College"
+    },
+    {
+      "name": "Liam McMunn",
+      "number": "96",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Muhlenberg College"
+    }
+  ]
+}

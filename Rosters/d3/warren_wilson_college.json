@@ -1,0 +1,119 @@
+{
+  "team": "Warren Wilson College",
+  "scrapedAt": "2026-03-13T22:08:57.008131Z",
+  "playerCount": 16,
+  "players": [
+    {
+      "name": "Connor Hefner",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Warren Wilson College"
+    },
+    {
+      "name": "Ethan Damm",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "R-So.",
+      "team": "Warren Wilson College"
+    },
+    {
+      "name": "Tashaun Simpson",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Warren Wilson College"
+    },
+    {
+      "name": "Jae Heath",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Warren Wilson College"
+    },
+    {
+      "name": "Ethan Royster",
+      "number": "7",
+      "position": "Midfield / FOGOM",
+      "classYear": "Freshman",
+      "team": "Warren Wilson College"
+    },
+    {
+      "name": "Evan Aronson",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Warren Wilson College"
+    },
+    {
+      "name": "Marquis Prater",
+      "number": "9",
+      "position": "Attack / GKA",
+      "classYear": "Freshman",
+      "team": "Warren Wilson College"
+    },
+    {
+      "name": "Asheton Glass",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Warren Wilson College"
+    },
+    {
+      "name": "RJ Daly",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Warren Wilson College"
+    },
+    {
+      "name": "Tatum Morris",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Warren Wilson College"
+    },
+    {
+      "name": "Anthony Varela",
+      "number": "14",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "Warren Wilson College"
+    },
+    {
+      "name": "Luis Damian",
+      "number": "15",
+      "position": "Midfield / FOGOM",
+      "classYear": "Freshman",
+      "team": "Warren Wilson College"
+    },
+    {
+      "name": "Jayshawn Bruce",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Warren Wilson College"
+    },
+    {
+      "name": "Nolan Lynch",
+      "number": "25",
+      "position": "D / SSDMD",
+      "classYear": "Junior",
+      "team": "Warren Wilson College"
+    },
+    {
+      "name": "Tuggy Ruiz-Gantes",
+      "number": "42",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Warren Wilson College"
+    },
+    {
+      "name": "Jade Edwards",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Warren Wilson College"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "team": "Greensboro College",
+  "scrapedAt": "2026-03-13T22:04:19.744011Z",
+  "playerCount": 26,
+  "players": [
+    {
+      "name": "Guy Galardi III",
+      "number": "0",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Greensboro College"
+    },
+    {
+      "name": "Will Pailthorpe",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Greensboro College"
+    },
+    {
+      "name": "Chas  Gilroy",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Greensboro College"
+    },
+    {
+      "name": "Quinton Solomon",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Greensboro College"
+    },
+    {
+      "name": "Alex  Mattoon",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Greensboro College"
+    },
+    {
+      "name": "DiMaggio Wilson",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Greensboro College"
+    },
+    {
+      "name": "John Banser",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Greensboro College"
+    },
+    {
+      "name": "Colin Byrne",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Greensboro College"
+    },
+    {
+      "name": "Daniel Stanley",
+      "number": "8",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Greensboro College"
+    },
+    {
+      "name": "Hondo Garcia",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Greensboro College"
+    },
+    {
+      "name": "Cedrick Crenshaw Jr",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Greensboro College"
+    },
+    {
+      "name": "Brendan Ray",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Greensboro College"
+    },
+    {
+      "name": "Alex Speckin",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Greensboro College"
+    },
+    {
+      "name": "Collin Henry",
+      "number": "15",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Greensboro College"
+    },
+    {
+      "name": "Christopher Zeiher",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Greensboro College"
+    },
+    {
+      "name": "Braeden Mitchell",
+      "number": "17",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Greensboro College"
+    },
+    {
+      "name": "Kyle Sandle",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Greensboro College"
+    },
+    {
+      "name": "Wilfred Lucero-Parada",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Greensboro College"
+    },
+    {
+      "name": "Riley\t Taff",
+      "number": "22",
+      "position": "Long Stick Midfield",
+      "classYear": "Junior",
+      "team": "Greensboro College"
+    },
+    {
+      "name": "Hayden Hansen",
+      "number": "23",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Greensboro College"
+    },
+    {
+      "name": "Nick Scott",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Greensboro College"
+    },
+    {
+      "name": "Jack Steele",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Greensboro College"
+    },
+    {
+      "name": "Jon Schwartzel",
+      "number": "27",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Greensboro College"
+    },
+    {
+      "name": "Nathan Foncilus",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Greensboro College"
+    },
+    {
+      "name": "Seth Woods",
+      "number": "42",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Greensboro College"
+    },
+    {
+      "name": "Justin Barry",
+      "number": "99",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Greensboro College"
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "team": "Shenandoah University",
+  "scrapedAt": "2026-03-13T22:07:18.765563Z",
+  "playerCount": 41,
+  "players": [
+    {
+      "name": "Bruce Nyandemo",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Dylan Foughty",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Clark Harrity",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Jack Dwyer",
+      "number": "6",
+      "position": "Goalkeeper",
+      "classYear": "Senior",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Kennedy Duda",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Liam Johnston",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Brody McClure",
+      "number": "9",
+      "position": "Face OffFO",
+      "classYear": "Sophomore",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Parker Brown",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Xavier Parker",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Liam Arnsmeyer",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Sam Poster",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "D.J. Lee",
+      "number": "15",
+      "position": "Short Stick Defensive MidfieldSSDM",
+      "classYear": "Fy.",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Ryan Eager",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Lucas Brooks",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Hunter Snow",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Bryan Berryhill",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Jacob Monaghan",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Cody Griffis",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Ryan Feldman",
+      "number": "23",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Ryan Ho",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Jake Green",
+      "number": "25",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Luke Petrie",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Dominic Smith",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Koen Rivenburg",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Wyatt Gessner",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Zack Dobson",
+      "number": "30",
+      "position": "Defense/Long-Stick MidfielderD/LSM",
+      "classYear": "Senior",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Kevin Sullivan",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Braxton Snead",
+      "number": "32",
+      "position": "Midfield/FOGOM/FO",
+      "classYear": "Junior",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Daniel Tofig",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Rylan Volpe",
+      "number": "34",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Connor Schumacher",
+      "number": "35",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Jordan Rogers",
+      "number": "36",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Junior",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Hudson Phillips",
+      "number": "37",
+      "position": "Midfield/DefenseM/D",
+      "classYear": "Junior",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Christian Snellings",
+      "number": "38",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Sean Catalano",
+      "number": "39",
+      "position": "Goalkeeper",
+      "classYear": "Fy.",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Manny Lucas",
+      "number": "40",
+      "position": "Defense/MidfieldD/M",
+      "classYear": "Junior",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Caleb Brown",
+      "number": "41",
+      "position": "Face OffFO",
+      "classYear": "Fy.",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Noah Nolt",
+      "number": "42",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Noah Diamond",
+      "number": "43",
+      "position": "FOGO/MidfieldFO/M",
+      "classYear": "Sophomore",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Jake Ziervogel",
+      "number": "44",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Fy.",
+      "team": "Shenandoah University"
+    },
+    {
+      "name": "Noah Zeranski",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Shenandoah University"
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "team": "Mercer University",
+  "scrapedAt": "2026-01-28T20:41:01.284Z",
+  "playerCount": 43,
+  "players": [
+    {
+      "name": "Dillon Bush",
+      "number": "0",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Nolan Filley",
+      "number": "1",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Ganon Cope",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Dylan McKelvy",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Ben Jose",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Luke Fox",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Kaja Brown",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Jack Callaghan",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Thomas Venzie",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Matthew Burnside",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Grafton Ely",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Jack Sullivan",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Jonathon Benerofe",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Tommy Bartenhagen",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Eddie Webb",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Dylan Brozena",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Christopher Cappelmann",
+      "number": "18",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Tyler Gilbert",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Davis Peek",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Mercer University"
+    },
+    {
+      "name": "James Davidson",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Kyle Pierce",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Michael Frederick",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Brady Corkill",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Trey Stinson",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Callahan Casey",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Chance Haynie",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Nick Church",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Luke Mauser",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Mercer University"
+    },
+    {
+      "name": "North Paulding",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Michael Corkill",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Sean McGahren",
+      "number": "36",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Will Zylstra",
+      "number": "38",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Connor Corkill",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Laird Nugent",
+      "number": "41",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Ben Linder",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Judson Means",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Greyson Brockman",
+      "number": "45",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Greg Canning",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Bennett Junod",
+      "number": "55",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Andrew Goodman",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Graham Hartman",
+      "number": "80",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Quinn Kelley",
+      "number": "91",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Mercer University"
+    },
+    {
+      "name": "Max Sovie",
+      "number": "99",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Mercer University"
+    }
+  ]
+}

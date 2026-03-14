@@ -1,0 +1,133 @@
+{
+  "team": "Augustana College - Illinois",
+  "scrapedAt": "2026-03-13T22:02:38.408171Z",
+  "playerCount": 18,
+  "players": [
+    {
+      "name": "Jack Duffy",
+      "number": "0",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Augustana College - Illinois"
+    },
+    {
+      "name": "Tommy Wimmers",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Augustana College - Illinois"
+    },
+    {
+      "name": "Caiden McCann",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Augustana College - Illinois"
+    },
+    {
+      "name": "Santino Enea",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Augustana College - Illinois"
+    },
+    {
+      "name": "Eddie Resendez",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Augustana College - Illinois"
+    },
+    {
+      "name": "Franco Cuevas",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Augustana College - Illinois"
+    },
+    {
+      "name": "Jamar Taylor",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Augustana College - Illinois"
+    },
+    {
+      "name": "Jack Sergeant",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Augustana College - Illinois"
+    },
+    {
+      "name": "Sam Chapman-Rienstra",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Augustana College - Illinois"
+    },
+    {
+      "name": "Kevin Spinler",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Augustana College - Illinois"
+    },
+    {
+      "name": "Hunter Doppke",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Augustana College - Illinois"
+    },
+    {
+      "name": "Nik Schaafsma",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Augustana College - Illinois"
+    },
+    {
+      "name": "Connor Schlachter",
+      "number": "27",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Augustana College - Illinois"
+    },
+    {
+      "name": "Jacob King",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Augustana College - Illinois"
+    },
+    {
+      "name": "Jake Rymarcsuk",
+      "number": "40",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "Augustana College - Illinois"
+    },
+    {
+      "name": "Devis Sanxhaku",
+      "number": "44",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Augustana College - Illinois"
+    },
+    {
+      "name": "Keegan Weir",
+      "number": "55",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "Augustana College - Illinois"
+    },
+    {
+      "name": "Hagan Quigley",
+      "number": "59",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "Augustana College - Illinois"
+    }
+  ]
+}

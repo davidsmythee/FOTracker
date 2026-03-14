@@ -1,0 +1,154 @@
+{
+  "team": "Cornell College",
+  "scrapedAt": "2026-03-13T22:03:32.153418Z",
+  "playerCount": 21,
+  "players": [
+    {
+      "name": "Caden Lynch",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Cornell College"
+    },
+    {
+      "name": "Brandon Evilsizer",
+      "number": "2",
+      "position": "FO/M",
+      "classYear": "Sophomore",
+      "team": "Cornell College"
+    },
+    {
+      "name": "Xavier Higgins",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Cornell College"
+    },
+    {
+      "name": "Ben Schwartz",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Cornell College"
+    },
+    {
+      "name": "Kaden Weaver",
+      "number": "6",
+      "position": "M/A",
+      "classYear": "Sophomore",
+      "team": "Cornell College"
+    },
+    {
+      "name": "Tyler Foster",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Cornell College"
+    },
+    {
+      "name": "Alexander Dukatz",
+      "number": "9",
+      "position": "A/M",
+      "classYear": "Freshman",
+      "team": "Cornell College"
+    },
+    {
+      "name": "Eoghan Adams",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Cornell College"
+    },
+    {
+      "name": "Ace Rivera",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Cornell College"
+    },
+    {
+      "name": "Brandon Warnke",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Cornell College"
+    },
+    {
+      "name": "Ryan Weyhaupt",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Cornell College"
+    },
+    {
+      "name": "Ryan Ransom",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Cornell College"
+    },
+    {
+      "name": "Charley Kobets",
+      "number": "17",
+      "position": "M/A",
+      "classYear": "Junior",
+      "team": "Cornell College"
+    },
+    {
+      "name": "Harry Butterfield",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Cornell College"
+    },
+    {
+      "name": "Thomas Cobar",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Cornell College"
+    },
+    {
+      "name": "Kayden Kuan",
+      "number": "24",
+      "position": "FO/M",
+      "classYear": "Sophomore",
+      "team": "Cornell College"
+    },
+    {
+      "name": "Ben Wojewski",
+      "number": "25",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Cornell College"
+    },
+    {
+      "name": "Soren Williams",
+      "number": "26",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Cornell College"
+    },
+    {
+      "name": "Bryce Cothern",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Cornell College"
+    },
+    {
+      "name": "Nathan Diveley",
+      "number": "34",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Cornell College"
+    },
+    {
+      "name": "Elias Notsch",
+      "number": "35",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Cornell College"
+    }
+  ]
+}

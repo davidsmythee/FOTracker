@@ -1,0 +1,392 @@
+{
+  "team": "St. John Fisher College",
+  "scrapedAt": "2026-03-13T22:07:28.755357Z",
+  "playerCount": 55,
+  "players": [
+    {
+      "name": "Ian McIntyre",
+      "number": "1",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Jake Vernieri",
+      "number": "2",
+      "position": "D/LSMD/LSM",
+      "classYear": "Freshman",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Carter Van Holland",
+      "number": "3",
+      "position": "AA",
+      "classYear": "Junior",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Drew Turk",
+      "number": "4",
+      "position": "DD",
+      "classYear": "Freshman",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Nick Hauman",
+      "number": "5",
+      "position": "MM",
+      "classYear": "Senior",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Sean Donaldson",
+      "number": "6",
+      "position": "MM",
+      "classYear": "Junior",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Max Heieck",
+      "number": "7",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Bryce Riffel",
+      "number": "8",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Jackson Frame",
+      "number": "9",
+      "position": "GG",
+      "classYear": "Freshman",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Lane Edinger",
+      "number": "10",
+      "position": "MM",
+      "classYear": "Senior",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Dylan Oakes",
+      "number": "11",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "John Korczukowski",
+      "number": "12",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Tyson DeLisio",
+      "number": "13",
+      "position": "AA",
+      "classYear": "Sophomore",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Tyler Manning",
+      "number": "14",
+      "position": "GG",
+      "classYear": "Senior",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Logan Welch",
+      "number": "15",
+      "position": "AA",
+      "classYear": "Sophomore",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Robbie Salit",
+      "number": "16",
+      "position": "MM",
+      "classYear": "Junior",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Colin Reinhart",
+      "number": "17",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Braden Seymour",
+      "number": "18",
+      "position": "MM",
+      "classYear": "Sophomore",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Toby Leys",
+      "number": "19",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Hayden Lauer",
+      "number": "20",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Alex Sherman",
+      "number": "21",
+      "position": "DD",
+      "classYear": "Freshman",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Matt Slowinski",
+      "number": "22",
+      "position": "MM",
+      "classYear": "Senior",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Riley Callahan",
+      "number": "23",
+      "position": "DD",
+      "classYear": "Junior",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Sean Baird",
+      "number": "24",
+      "position": "DD",
+      "classYear": "Sophomore",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Eric Stoesser",
+      "number": "25",
+      "position": "DD",
+      "classYear": "Senior",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Brett Seaman",
+      "number": "26",
+      "position": "MM",
+      "classYear": "Senior",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Torin Whitten",
+      "number": "27",
+      "position": "D/LSMD/LSM",
+      "classYear": "Freshman",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Darren Vogt",
+      "number": "28",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Jonah Vormwald",
+      "number": "29",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Owen Kross",
+      "number": "30",
+      "position": "D/LSMD/LSM",
+      "classYear": "Sophomore",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Justin Tundo",
+      "number": "31",
+      "position": "D/LSMD/LSM",
+      "classYear": "Junior",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Graham Kesselring",
+      "number": "32",
+      "position": "AA",
+      "classYear": "Sophomore",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Collin McLaughlin",
+      "number": "33",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Henry Werzinger",
+      "number": "34",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Max Teel",
+      "number": "35",
+      "position": "AA",
+      "classYear": "Freshman",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Connor Gray",
+      "number": "36",
+      "position": "DD",
+      "classYear": "Freshman",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Robert Protz",
+      "number": "37",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Mason Gridley",
+      "number": "38",
+      "position": "DMDM",
+      "classYear": "Sophomore",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Scott Bovard",
+      "number": "40",
+      "position": "AA",
+      "classYear": "Junior",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Vincent Scibello",
+      "number": "41",
+      "position": "AA",
+      "classYear": "Junior",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Terrence Cleary",
+      "number": "42",
+      "position": "DMDM",
+      "classYear": "Senior",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Wyatt Spratt",
+      "number": "43",
+      "position": "DD",
+      "classYear": "Freshman",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Garrin Dougherty",
+      "number": "44",
+      "position": "D/LSMD/LSM",
+      "classYear": "Sophomore",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Garrett Sutton",
+      "number": "45",
+      "position": "AA",
+      "classYear": "Junior",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Kyle McQuade",
+      "number": "46",
+      "position": "MM",
+      "classYear": "Junior",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Sam Hambsch",
+      "number": "47",
+      "position": "DMDM",
+      "classYear": "Sophomore",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Kieran Phillips",
+      "number": "48",
+      "position": "GG",
+      "classYear": "Sophomore",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Adam Vernon",
+      "number": "49",
+      "position": "AA",
+      "classYear": "Sophomore",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Luke James",
+      "number": "50",
+      "position": "AA",
+      "classYear": "Sophomore",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Grady Swidersky",
+      "number": "51",
+      "position": "AA",
+      "classYear": "Freshman",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Ethan Hodge",
+      "number": "53",
+      "position": "D/LSMD/LSM",
+      "classYear": "Junior",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Nick Marsala",
+      "number": "54",
+      "position": "D/LSMD/LSM",
+      "classYear": "Junior",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Nick Augeri",
+      "number": "55",
+      "position": "DD",
+      "classYear": "Senior",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Trevor Valenti",
+      "number": "57",
+      "position": "DD",
+      "classYear": "Sophomore",
+      "team": "St. John Fisher College"
+    },
+    {
+      "name": "Reece Millison",
+      "number": "58",
+      "position": "MM",
+      "classYear": "Sophomore",
+      "team": "St. John Fisher College"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "team": "Messiah University",
+  "scrapedAt": "2026-03-13T22:05:49.964260Z",
+  "playerCount": 36,
+  "players": [
+    {
+      "name": "Brad Brown",
+      "number": "0",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Owen Hammel",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Caleb McHugh",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Jesse Lynch",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Dustin Penchansky",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Chris Esslinger",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Rowan Foster",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Max April",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Ben Shaw",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Trey Bui",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Bobby Berg",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Brady Courville",
+      "number": "14",
+      "position": "Face OffFO",
+      "classYear": "Junior",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Seth Gibson",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Josh Standford",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Walker Penchansky",
+      "number": "18",
+      "position": "Defense/Long-Stick MidfielderD/LSM",
+      "classYear": "Senior",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Adam Collison",
+      "number": "20",
+      "position": "Defense/ Long-Stick MidfielderD/LSM",
+      "classYear": "Sophomore",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Quentin Davis",
+      "number": "21",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Junior",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Ben Antel",
+      "number": "22",
+      "position": "Face OffFO",
+      "classYear": "Senior",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Leland Burrows",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Liam Johns",
+      "number": "26",
+      "position": "Midfield/AttackM/A",
+      "classYear": "Junior",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Grant Peffall",
+      "number": "27",
+      "position": "Long-Stick MidfielderLSM",
+      "classYear": "Junior",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Michael Cook",
+      "number": "28",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Junior",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Quinn Foster",
+      "number": "29",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Freshman",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Slater Smith",
+      "number": "31",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Adam Nielsen",
+      "number": "33",
+      "position": "Long-Stick MidfielderLSM",
+      "classYear": "Freshman",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Brayden Quinn",
+      "number": "34",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Jake Klingler",
+      "number": "35",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Tim Gunning",
+      "number": "36",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Carter Jaehn",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Micah Cotton",
+      "number": "40",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Jourdain Algarin",
+      "number": "41",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Tyler Krcma",
+      "number": "43",
+      "position": "Long-Stick MidfielderLSM",
+      "classYear": "Sophomore",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Ryan Kane",
+      "number": "44",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Brayden Kuhar",
+      "number": "45",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Freshman",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Noah Rabolli",
+      "number": "50",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Freshman",
+      "team": "Messiah University"
+    },
+    {
+      "name": "Zach Sebra",
+      "number": "99",
+      "position": "Face OffFO",
+      "classYear": "Freshman",
+      "team": "Messiah University"
+    }
+  ]
+}

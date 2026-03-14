@@ -1,0 +1,315 @@
+{
+  "team": "University of Vermont",
+  "scrapedAt": "2026-01-28T21:25:12.395Z",
+  "playerCount": 44,
+  "players": [
+    {
+      "name": "Colin Anderson",
+      "number": "0",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Cullen Decker",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Staples High School",
+      "number": "4",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Pat Coughlin",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Holderness School",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Sean  Grevelding",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Ethan  Pearson",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Charlie  Carroll",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Ryan Daly",
+      "number": "12",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Bracebridge Muskoka Lakes Secondary School",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Jake Dandrea",
+      "number": "14",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Summit High School",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Aneel  Ward",
+      "number": "16",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Dean Driscoll",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Max Frattaroli",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Jackson Read",
+      "number": "20",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Sean Stevens",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Luke Reiter",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Tristan Whitaker",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Charles  Cochran",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Eddie Schwasnick",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Tatum Lewis",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Zakkary  Chesteen",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Connor Huguenard",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Chase Gozdeck",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Hudson Lewis",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Max Goldstein",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Carson Eggebraten",
+      "number": "35",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Charlie  Crowley",
+      "number": "36",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Colin Bullock",
+      "number": "39",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Finley Hayes",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Ben  Duffy",
+      "number": "41",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Brendan  Beatty",
+      "number": "42",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Milo Penniston",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Erik Gressett",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Kiernan Florio",
+      "number": "47",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "John  Thomas",
+      "number": "50",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Zack  Toll",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Sam Bowen",
+      "number": "55",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Jack Combs",
+      "number": "66",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Mason Bardwell",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Wilson Sneath",
+      "number": "87",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Ryker Demarest",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Vermont"
+    },
+    {
+      "name": "Nathan  Palumbo",
+      "number": "89",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Vermont"
+    }
+  ]
+}

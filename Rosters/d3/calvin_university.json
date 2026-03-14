@@ -1,0 +1,301 @@
+{
+  "team": "Calvin University",
+  "scrapedAt": "2026-03-13T22:03:02.883080Z",
+  "playerCount": 42,
+  "players": [
+    {
+      "name": "Colin TeBrake",
+      "number": "0",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Brighton Kojetin",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Sam Poupard",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Calvin University"
+    },
+    {
+      "name": "David Blackmon",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Evan Wasielewski",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Calvin University"
+    },
+    {
+      "name": "JD Bacon",
+      "number": "5",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Sophomore",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Caleb Postema",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Eli Boelens",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Nate Hanson",
+      "number": "9",
+      "position": "M/FO",
+      "classYear": "Senior",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Garrett Kresge",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Drew Garrison",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Braylon Moore",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Joe  Alluri",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Calvin University"
+    },
+    {
+      "name": "David Frisbie",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Ben Dilly",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Anson Gorski",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Jackson Engbers",
+      "number": "17",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Noah Macdonald",
+      "number": "19",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Sophomore",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Bly Johnson",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Hudson Thiemann",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Jack Bermel",
+      "number": "23",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Braden Carpenter",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Garrett Ruehle",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Duncan Billings",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Jordan Warners",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Alex Dahlk",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Alex Chiodi",
+      "number": "30",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Soren Thiemann",
+      "number": "31",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Sawyer Richards",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Johnny Blackmon",
+      "number": "33",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Calvin University"
+    },
+    {
+      "name": "BJ Apol",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Thomas McAvoy",
+      "number": "35",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Teagan Borysiak",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Teddy Hollebeek",
+      "number": "37",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Titus Holleman",
+      "number": "38",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Riley Desarbo",
+      "number": "39",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Aaron Bolt",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Josh Sutton",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Miles O'Bryan",
+      "number": "43",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Josh Segura",
+      "number": "44",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Sophomore",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Thomas  Kurtz",
+      "number": "45",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Calvin University"
+    },
+    {
+      "name": "Aidan Delcalzo",
+      "number": "49",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Calvin University"
+    }
+  ]
+}

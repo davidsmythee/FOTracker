@@ -1,0 +1,322 @@
+{
+  "team": "Yale University",
+  "scrapedAt": "2026-01-28T21:29:31.723Z",
+  "playerCount": 45,
+  "players": [
+    {
+      "name": "Dylan  Blekicki",
+      "number": "43",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Yale University"
+    },
+    {
+      "name": "David  Anderson",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Yale University"
+    },
+    {
+      "name": "Anthony Annunziata",
+      "number": "19",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Yale University"
+    },
+    {
+      "name": "Nicolas Boudreau",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Yale University"
+    },
+    {
+      "name": "Hunter Bowen",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Yale University"
+    },
+    {
+      "name": "Roman Buono",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Yale University"
+    },
+    {
+      "name": "Cole Cashion",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Yale University"
+    },
+    {
+      "name": "Gaetano Cicotello",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Yale University"
+    },
+    {
+      "name": "Brody Coleman",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Yale University"
+    },
+    {
+      "name": "Hugh Conrad",
+      "number": "38",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Yale University"
+    },
+    {
+      "name": "Quinn Crotty",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Yale University"
+    },
+    {
+      "name": "Ben Cuomo",
+      "number": "13",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "Yale University"
+    },
+    {
+      "name": "Luke DeAngelis",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Yale University"
+    },
+    {
+      "name": "Braydon Ellis",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Yale University"
+    },
+    {
+      "name": "Kyler Francis",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Yale University"
+    },
+    {
+      "name": "Ben Friedman",
+      "number": "41",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Yale University"
+    },
+    {
+      "name": "Connor Gately",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Yale University"
+    },
+    {
+      "name": "Tristan  Ghosh",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Yale University"
+    },
+    {
+      "name": "Sean Grogan",
+      "number": "45",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Yale University"
+    },
+    {
+      "name": "Matt Harding",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Yale University"
+    },
+    {
+      "name": "Lincoln Herring",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Yale University"
+    },
+    {
+      "name": "Henry Hughes",
+      "number": "52",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Yale University"
+    },
+    {
+      "name": "Cole Jackson",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Yale University"
+    },
+    {
+      "name": "Wade Jahnke",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Yale University"
+    },
+    {
+      "name": "Francis Keneally",
+      "number": "4",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Yale University"
+    },
+    {
+      "name": "Flynn Leonard",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Yale University"
+    },
+    {
+      "name": "Dallas Mattheu",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Yale University"
+    },
+    {
+      "name": "Luke Michalik",
+      "number": "5",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Yale University"
+    },
+    {
+      "name": "Konrad Miklaszewski",
+      "number": "34",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Yale University"
+    },
+    {
+      "name": "Peter Moynihan",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Yale University"
+    },
+    {
+      "name": "Oliver Nappi",
+      "number": "44",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Yale University"
+    },
+    {
+      "name": "George Northup",
+      "number": "7",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Yale University"
+    },
+    {
+      "name": "Aidan Olazabal",
+      "number": "28",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Yale University"
+    },
+    {
+      "name": "Luke Pascal",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Yale University"
+    },
+    {
+      "name": "Patrick Pisano",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Yale University"
+    },
+    {
+      "name": "Eric Platten",
+      "number": "49",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Yale University"
+    },
+    {
+      "name": "Sam Riecken",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Yale University"
+    },
+    {
+      "name": "Chase Rogers",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Yale University"
+    },
+    {
+      "name": "William Sheehan",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Yale University"
+    },
+    {
+      "name": "Matthew Surin",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Yale University"
+    },
+    {
+      "name": "Greysen Thompson",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Yale University"
+    },
+    {
+      "name": "Danny Van Camp",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Yale University"
+    },
+    {
+      "name": "Nick Wehmeyer",
+      "number": "1",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Yale University"
+    },
+    {
+      "name": "Colin Zeller",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Yale University"
+    },
+    {
+      "name": "Asher Ziv",
+      "number": "51",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Yale University"
+    }
+  ]
+}

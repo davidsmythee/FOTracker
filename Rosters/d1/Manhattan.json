@@ -1,0 +1,294 @@
+{
+  "team": "Manhattan College",
+  "scrapedAt": "2026-01-28T20:38:58.837Z",
+  "playerCount": 41,
+  "players": [
+    {
+      "name": "Matthew Bove",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Sean Shelko",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Connor White",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Casey Klossner",
+      "number": "5",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Aidan McCabe",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Ryan Beller",
+      "number": "8",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Timothy Monzon",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Alex Bales",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Nick DiEsso",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Bryce Morris",
+      "number": "12",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Brady Kezelman",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Aden Andersen",
+      "number": "14",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Patrick  Otts",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Chris Obertis",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Austin Marchesi",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Jack Cianciolo",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Dylan Knapp",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Michael Medici",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Matthew Pantorno",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Andrew Giandonato",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Gavin Wolf",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Thomas White",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Jack  Miller",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Darian Johnstone",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Sean Pellegrino",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Nick Klimatas",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Matthew Cleary",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Ethan Barlag",
+      "number": "30",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Tyler Mosca",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Jack Glencross",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Finian Tran",
+      "number": "33",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Liam Peabody",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Beau Fairbanks",
+      "number": "36",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Sean Mannion",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Adam Angel",
+      "number": "42",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Thomas Shoniker",
+      "number": "43",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Finn Drake",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Connor Engel",
+      "number": "55",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Nick Henry",
+      "number": "66",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Eli Ray",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Manhattan College"
+    },
+    {
+      "name": "Aiden Kane",
+      "number": "91",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Manhattan College"
+    }
+  ]
+}

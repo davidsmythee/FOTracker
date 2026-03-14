@@ -1,0 +1,147 @@
+{
+  "team": "Oglethorpe University",
+  "scrapedAt": "2026-03-13T22:06:30.207030Z",
+  "playerCount": 20,
+  "players": [
+    {
+      "name": "Daniel Carpenter",
+      "number": "2",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Oglethorpe University"
+    },
+    {
+      "name": "TJ Lewis",
+      "number": "3",
+      "position": "Mid/Attack",
+      "classYear": "Freshman",
+      "team": "Oglethorpe University"
+    },
+    {
+      "name": "Matthew Wilson",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Oglethorpe University"
+    },
+    {
+      "name": "Gannon Johnson",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Oglethorpe University"
+    },
+    {
+      "name": "Noah Stroud",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Oglethorpe University"
+    },
+    {
+      "name": "Jax Cuni",
+      "number": "11",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Oglethorpe University"
+    },
+    {
+      "name": "Henry Adams",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Oglethorpe University"
+    },
+    {
+      "name": "Peyton Knowles",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Oglethorpe University"
+    },
+    {
+      "name": "Alexander Martelo Reyes",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Oglethorpe University"
+    },
+    {
+      "name": "Gabe Hunter",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Oglethorpe University"
+    },
+    {
+      "name": "Aniedo Udoh",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Oglethorpe University"
+    },
+    {
+      "name": "Parker Song",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Oglethorpe University"
+    },
+    {
+      "name": "Liam Miller",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Oglethorpe University"
+    },
+    {
+      "name": "Alejandro Solis Hernandez",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Oglethorpe University"
+    },
+    {
+      "name": "Wyatt Desaussure",
+      "number": "27",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "Oglethorpe University"
+    },
+    {
+      "name": "Chase DeRuiter",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Oglethorpe University"
+    },
+    {
+      "name": "Charles Caskey",
+      "number": "29",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Oglethorpe University"
+    },
+    {
+      "name": "Jerald Spoto",
+      "number": "31",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Oglethorpe University"
+    },
+    {
+      "name": "Ian Wood",
+      "number": "33",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "Oglethorpe University"
+    },
+    {
+      "name": "Logan Stafford",
+      "number": "43",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Oglethorpe University"
+    }
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "team": "Robert Morris University",
+  "scrapedAt": "2026-01-28T20:55:55.971Z",
+  "playerCount": 47,
+  "players": [
+    {
+      "name": "Gavin Pedone",
+      "number": "0",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Alex  Kuri",
+      "number": "1",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Mac Link",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Charlie Marsh",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Brodin  Dodge",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Dylan  Anderson",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Ethan Hecht",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Dylan Wragg",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Zach Tucker",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Brady Erdos",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Casey Sodolski",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Evan  DiBlasi",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Dylan  Garcia",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Ryan Stiefel",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Connor  Henry",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Ronin  London",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Ben Eck",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Nate Fechter",
+      "number": "19",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Tommy Mullikin",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Aidan Greco",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Graeme MacLennan",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Rowan Hynes",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Tommy Gallagher",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Owen Tapper",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Nolan Barker",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Calum Brennan",
+      "number": "27",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Luke  O’Donoghue",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Tommy  Rush",
+      "number": "29",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Luke Prezioso",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Brady Carver",
+      "number": "31",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Kyle McMillan",
+      "number": "32",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Elijah Edwards",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Brad  Hill",
+      "number": "34",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Callum Witter",
+      "number": "35",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Gregory Thomas",
+      "number": "36",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Colin Davis",
+      "number": "37",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Sam Colón",
+      "number": "38",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Chris  Monckton",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Joel McCormick",
+      "number": "41",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Koerner  Marechek",
+      "number": "42",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Nathan Ruff",
+      "number": "45",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Tommy  Linehan",
+      "number": "47",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Liam Blakely",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Cristian Davis",
+      "number": "49",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Luis Gonzalez",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Ty  Wilson",
+      "number": "51",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Robert Morris University"
+    },
+    {
+      "name": "Matt King",
+      "number": "52",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Robert Morris University"
+    }
+  ]
+}

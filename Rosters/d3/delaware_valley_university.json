@@ -1,0 +1,154 @@
+{
+  "team": "Delaware Valley University",
+  "scrapedAt": "2026-03-13T22:03:38.682614Z",
+  "playerCount": 21,
+  "players": [
+    {
+      "name": "James Cadott",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Delaware Valley University"
+    },
+    {
+      "name": "Luca Aliano",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Delaware Valley University"
+    },
+    {
+      "name": "Peter DelRossi",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Delaware Valley University"
+    },
+    {
+      "name": "Craig Heyward III",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Delaware Valley University"
+    },
+    {
+      "name": "Jake Devereaux",
+      "number": "11",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "Delaware Valley University"
+    },
+    {
+      "name": "Dalton Richter",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Delaware Valley University"
+    },
+    {
+      "name": "Dan Conroy",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Delaware Valley University"
+    },
+    {
+      "name": "Carlos Panchana",
+      "number": "17",
+      "position": "DEF/MID",
+      "classYear": "Freshman",
+      "team": "Delaware Valley University"
+    },
+    {
+      "name": "Carter Buccello",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Delaware Valley University"
+    },
+    {
+      "name": "Rylan LeVan",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Delaware Valley University"
+    },
+    {
+      "name": "Daniel Hickling",
+      "number": "20",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "Delaware Valley University"
+    },
+    {
+      "name": "Max Campbell",
+      "number": "21",
+      "position": "DEF/MID",
+      "classYear": "Freshman",
+      "team": "Delaware Valley University"
+    },
+    {
+      "name": "Kieran Schneider",
+      "number": "22",
+      "position": "ATK",
+      "classYear": "Senior",
+      "team": "Delaware Valley University"
+    },
+    {
+      "name": "Ashton Benkwitt",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Delaware Valley University"
+    },
+    {
+      "name": "Ryan Shelton",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Delaware Valley University"
+    },
+    {
+      "name": "Sasha Didden",
+      "number": "25",
+      "position": "DEF/MID",
+      "classYear": "Junior",
+      "team": "Delaware Valley University"
+    },
+    {
+      "name": "Juan Zurita",
+      "number": "32",
+      "position": "GK",
+      "classYear": "Senior",
+      "team": "Delaware Valley University"
+    },
+    {
+      "name": "Danil Didden",
+      "number": "42",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "Delaware Valley University"
+    },
+    {
+      "name": "Ryan Rothenberger",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Delaware Valley University"
+    },
+    {
+      "name": "Luke Witko",
+      "number": "99",
+      "position": "ATK",
+      "classYear": "Sophomore",
+      "team": "Delaware Valley University"
+    },
+    {
+      "name": "Graham Kennedy",
+      "number": "INJ",
+      "position": "ATK",
+      "classYear": "Freshman",
+      "team": "Delaware Valley University"
+    }
+  ]
+}

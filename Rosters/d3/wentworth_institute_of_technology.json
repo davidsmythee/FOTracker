@@ -1,0 +1,350 @@
+{
+  "team": "Wentworth Institute of Technology",
+  "scrapedAt": "2026-03-14T00:50:41.947415Z",
+  "playerCount": 49,
+  "players": [
+    {
+      "name": "Jake Caraluzzi",
+      "number": "0",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Richard Roy",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Bryce Kubas",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Gabe Cobham",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Colin Ocampo",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Dylan Sullivan",
+      "number": "5",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Jack Gentile",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Brendan Kroll",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Sal Panetta",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Sebastian Brown",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Aiden Leduc",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Carter Jozokos",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Alex Bedoni",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Kyle Leger",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Riley Abbott",
+      "number": "15",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Trout Marnell",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Jonah Austin",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Benjamin Tower",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Tony Corrado",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Elton Dutil",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Liam Martin",
+      "number": "21",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Gavin Lawrence",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Boden Landers",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Bode Brenek",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Henry Milnes",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Keegan Buffa",
+      "number": "26",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Camden Streifel",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Colin Blackburn",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Adam Clough",
+      "number": "29",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Matthew Russo",
+      "number": "30",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Anthony Ballestrini",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Cruz Sandquist",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Tyler Longo",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Kaj Yagoda",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Beau Lamontagne",
+      "number": "35",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Charlie Rose",
+      "number": "37",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Jack Chudzinski",
+      "number": "38",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Owen Birch",
+      "number": "39",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Trevor Guilmette",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Jaiden Solitro",
+      "number": "42",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Samuel Silva",
+      "number": "44",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Scott Rich",
+      "number": "45",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "A.J. Smith",
+      "number": "50",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Aiden Scully",
+      "number": "52",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Jason Ocampo",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Hugh Trexler",
+      "number": "62",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Chuck Urda",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Alex Wignall",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Wentworth Institute of Technology"
+    },
+    {
+      "name": "Dante Strong",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Wentworth Institute of Technology"
+    }
+  ]
+}

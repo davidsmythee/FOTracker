@@ -1,0 +1,217 @@
+{
+  "team": "Alma College",
+  "scrapedAt": "2026-03-13T22:02:25.841518Z",
+  "playerCount": 30,
+  "players": [
+    {
+      "name": "Gaven Atkins",
+      "number": "0",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Alma College"
+    },
+    {
+      "name": "Ayden Hibdon",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Alma College"
+    },
+    {
+      "name": "Elias Rakoczy",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Alma College"
+    },
+    {
+      "name": "Connor Pearson",
+      "number": "3",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Alma College"
+    },
+    {
+      "name": "Lucas Storm",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Alma College"
+    },
+    {
+      "name": "Connor Cracium",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Alma College"
+    },
+    {
+      "name": "Charles Dusenberry",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Alma College"
+    },
+    {
+      "name": "Aiden Davis",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Alma College"
+    },
+    {
+      "name": "Brady Searer",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Alma College"
+    },
+    {
+      "name": "Cuyler Fielhauer",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Alma College"
+    },
+    {
+      "name": "Brenner Quick",
+      "number": "10",
+      "position": "Midfield/Defense",
+      "classYear": "Junior",
+      "team": "Alma College"
+    },
+    {
+      "name": "Patrick Hodges",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Alma College"
+    },
+    {
+      "name": "Brady Krause",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Alma College"
+    },
+    {
+      "name": "Blake Swiger",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Alma College"
+    },
+    {
+      "name": "Aidan Shapiro",
+      "number": "15",
+      "position": "LSM/Defense",
+      "classYear": "Junior",
+      "team": "Alma College"
+    },
+    {
+      "name": "Nolan O'Dea",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Alma College"
+    },
+    {
+      "name": "Curtis Pleiness",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Alma College"
+    },
+    {
+      "name": "Brayden VanderKamp",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Alma College"
+    },
+    {
+      "name": "Christopher Rodgers",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Alma College"
+    },
+    {
+      "name": "Jacob Kluk",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Alma College"
+    },
+    {
+      "name": "Cameron Kohl",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Alma College"
+    },
+    {
+      "name": "Caleb Morgan",
+      "number": "26",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Alma College"
+    },
+    {
+      "name": "Jackson Pollard",
+      "number": "27",
+      "position": "LSM/Midfield",
+      "classYear": "Junior",
+      "team": "Alma College"
+    },
+    {
+      "name": "Preston Stelljes",
+      "number": "31",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Alma College"
+    },
+    {
+      "name": "Sam Broadwell",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Alma College"
+    },
+    {
+      "name": "David Meyer",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Alma College"
+    },
+    {
+      "name": "Maddox Mozal",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Alma College"
+    },
+    {
+      "name": "Micah Young",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Alma College"
+    },
+    {
+      "name": "Jake Nyman",
+      "number": "43",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Alma College"
+    },
+    {
+      "name": "Cameron O'Bryan",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Alma College"
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "team": "Washington College",
+  "scrapedAt": "2026-03-13T22:09:01.894684Z",
+  "playerCount": 53,
+  "players": [
+    {
+      "name": "Holden Smith",
+      "number": "1",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Washington College"
+    },
+    {
+      "name": "Connor Updegraff",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Washington College"
+    },
+    {
+      "name": "Nate Winters",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Washington College"
+    },
+    {
+      "name": "Braeden Kasemeyer",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Washington College"
+    },
+    {
+      "name": "Nicky Bond",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Washington College"
+    },
+    {
+      "name": "Patrick Rodgers",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Washington College"
+    },
+    {
+      "name": "Cam Carrigan",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Washington College"
+    },
+    {
+      "name": "Brian Blanche",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Washington College"
+    },
+    {
+      "name": "Carson Crawford",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Washington College"
+    },
+    {
+      "name": "Tuck LeVanis",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Washington College"
+    },
+    {
+      "name": "Jack Dupuis",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Washington College"
+    },
+    {
+      "name": "Reeve Hargrave",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Washington College"
+    },
+    {
+      "name": "Colin Scattergood",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Washington College"
+    },
+    {
+      "name": "Kyle Ratta",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Washington College"
+    },
+    {
+      "name": "Gabe Hill",
+      "number": "15",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Washington College"
+    },
+    {
+      "name": "Tommy Winslow",
+      "number": "16",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Washington College"
+    },
+    {
+      "name": "Aiden Ventura",
+      "number": "17",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Washington College"
+    },
+    {
+      "name": "Luca Signorello",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Washington College"
+    },
+    {
+      "name": "Paxson Warnock",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Washington College"
+    },
+    {
+      "name": "Ronan Miller",
+      "number": "20",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Washington College"
+    },
+    {
+      "name": "Jake Arcudi",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Washington College"
+    },
+    {
+      "name": "Jake Laubach",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Washington College"
+    },
+    {
+      "name": "Ben Hazlehurst",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Washington College"
+    },
+    {
+      "name": "Gabe DellaPenna",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Washington College"
+    },
+    {
+      "name": "Drew McCormick",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Washington College"
+    },
+    {
+      "name": "Jack Fried",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Washington College"
+    },
+    {
+      "name": "Billy Schindler",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Washington College"
+    },
+    {
+      "name": "Keegan Dunn",
+      "number": "29",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Washington College"
+    },
+    {
+      "name": "Talan Behler",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Washington College"
+    },
+    {
+      "name": "Landon Craley",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Washington College"
+    },
+    {
+      "name": "Max McKenna",
+      "number": "32",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Washington College"
+    },
+    {
+      "name": "Colin Gray",
+      "number": "33",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Washington College"
+    },
+    {
+      "name": "Cole Wallner",
+      "number": "34",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Washington College"
+    },
+    {
+      "name": "Chase Corley",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Washington College"
+    },
+    {
+      "name": "Tanner Lyon",
+      "number": "36",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Washington College"
+    },
+    {
+      "name": "Keean McGrath",
+      "number": "37",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Washington College"
+    },
+    {
+      "name": "Owen Boone",
+      "number": "38",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Washington College"
+    },
+    {
+      "name": "Jake Bryson",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Washington College"
+    },
+    {
+      "name": "Luke Fiorillo",
+      "number": "40",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Washington College"
+    },
+    {
+      "name": "Franklin Smithmyer",
+      "number": "41",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Washington College"
+    },
+    {
+      "name": "Wade Bielinski",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Washington College"
+    },
+    {
+      "name": "Cole Dettinger",
+      "number": "43",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Washington College"
+    },
+    {
+      "name": "Peyton Elder",
+      "number": "44",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Washington College"
+    },
+    {
+      "name": "Chris Capozzoli",
+      "number": "45",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Washington College"
+    },
+    {
+      "name": "Charlie Boucher",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Washington College"
+    },
+    {
+      "name": "Grayson Maggi",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Washington College"
+    },
+    {
+      "name": "Hunter Silvaggio",
+      "number": "48",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Washington College"
+    },
+    {
+      "name": "Skeet Hine",
+      "number": "52",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Washington College"
+    },
+    {
+      "name": "Alex Szell",
+      "number": "54",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Washington College"
+    },
+    {
+      "name": "Connor Philistine",
+      "number": "55",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Washington College"
+    },
+    {
+      "name": "Peyton Gestole",
+      "number": "57",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Washington College"
+    },
+    {
+      "name": "Zack Dixon",
+      "number": "59",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Washington College"
+    },
+    {
+      "name": "Bryson Brown",
+      "number": "60",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Washington College"
+    }
+  ]
+}

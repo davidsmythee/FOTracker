@@ -1,0 +1,301 @@
+{
+  "team": "Alfred University",
+  "scrapedAt": "2026-03-13T22:02:22.679120Z",
+  "playerCount": 42,
+  "players": [
+    {
+      "name": "Colin Kinsley",
+      "number": "1",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "FY",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Marcus Darminio",
+      "number": "2",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Senior",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Sam Crosby",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Jase Smith",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "FY",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Mason Dressler",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "FY",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Brady McGowan",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Brendan O'Bryan",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Michael Gruin",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Jack  Brady",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "FY",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Liam McCabe",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Tariq Joseph Jr",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Brendan Riley",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Zach Beckman",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "FY",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Cole Loewke",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Keagan Hoesterey",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Nick Volpe",
+      "number": "18",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Senior",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Max Sigmund",
+      "number": "19",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Jacob Michaels",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Josh Funk",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Nicholas Kramer",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Tyler Muskopf",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Savino Bax",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Nick Capece",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Jacob  Smith",
+      "number": "27",
+      "position": "FOGOFO",
+      "classYear": "FY",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Andrew Hardy",
+      "number": "28",
+      "position": "Long-Stick Midfield/DefenseLSM/D",
+      "classYear": "Sophomore",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Alex Petrangelo",
+      "number": "29",
+      "position": "GoalileG",
+      "classYear": "FY",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Ethan Karches",
+      "number": "30",
+      "position": "Long-Stick MidfieldLSM",
+      "classYear": "Junior",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Charles Mulcahy",
+      "number": "31",
+      "position": "Defense/Long-Stick MidfieldD/LSM",
+      "classYear": "Junior",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Kyle Wright",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Rhett Krieger",
+      "number": "34",
+      "position": "FOGOFO",
+      "classYear": "Sophomore",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Jayden McGhee",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Zack McNally",
+      "number": "36",
+      "position": "Long-Stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Sam Herle",
+      "number": "37",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Collin Wilcox",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "FY",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Hunter Cupp",
+      "number": "41",
+      "position": "FOGOFO",
+      "classYear": "Senior",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Stephan Meier",
+      "number": "42",
+      "position": "Long-Stick MidfieldLSM",
+      "classYear": "FY",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Ben Cunningham",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Ian Crowell",
+      "number": "45",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Ian Marsh",
+      "number": "46",
+      "position": "Long-Stick MidfieldLSM",
+      "classYear": "Junior",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Christian Moon",
+      "number": "48",
+      "position": "Midfield",
+      "classYear": "Graduate",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Drew Smith",
+      "number": "49",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Alfred University"
+    },
+    {
+      "name": "Joshua Almendarez-Yanez",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "FY",
+      "team": "Alfred University"
+    }
+  ]
+}

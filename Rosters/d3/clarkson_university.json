@@ -1,0 +1,329 @@
+{
+  "team": "Clarkson University",
+  "scrapedAt": "2026-03-13T22:03:22.314971Z",
+  "playerCount": 46,
+  "players": [
+    {
+      "name": "Wyatt Berkman",
+      "number": "0",
+      "position": "",
+      "classYear": "Rf.",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Zach Tiffany",
+      "number": "1",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Jack Burns",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Alex Alfieri",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Graduate",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Mario Streiff",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Chris Kozloski",
+      "number": "6",
+      "position": "Goalkeeper",
+      "classYear": "Sophomore",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Ethan Hemingway",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Ethan Hopkins",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Ian Erskine",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Donnie Duffus",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Charlie Preheim",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Tristen Dillon",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Kyle Gallagher",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Ryan Baccaro",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Jack Garvey",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "William Goyette",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Blake Preston",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Ian Mack",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Parker Leary",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "James O'Rourke",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "James Auszura",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Derek Torres",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Connor Holly",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Graduate",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Dylan Coan",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Jack Stanney",
+      "number": "27",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Joe Gravante",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "CJ Krug",
+      "number": "29",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Gabe Vassallo",
+      "number": "30",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Kevin Fusci",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Andrew Pokorski",
+      "number": "32",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Robert Fox",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "JP Trojan",
+      "number": "34",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Jake Bennett",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Rarihwenote Maracle",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Dylan Robinson",
+      "number": "38",
+      "position": "Goalkeeper",
+      "classYear": "Freshman",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Joe Porto",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Tucker Ives",
+      "number": "40",
+      "position": "Goalkeeper",
+      "classYear": "Freshman",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Steve Getsie",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Jack Borges",
+      "number": "42",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Kage Loftus",
+      "number": "43",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Griffin Emerson",
+      "number": "44",
+      "position": "Goalkeeper",
+      "classYear": "Senior",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Sam Wesson",
+      "number": "45",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Jamie Rhoades",
+      "number": "46",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Peter Siracuse",
+      "number": "47",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Henry Bergeron",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Clarkson University"
+    },
+    {
+      "name": "Ben Keens",
+      "number": "49",
+      "position": "Goalkeeper",
+      "classYear": "Sophomore",
+      "team": "Clarkson University"
+    }
+  ]
+}

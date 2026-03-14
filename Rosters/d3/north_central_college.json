@@ -1,0 +1,252 @@
+{
+  "team": "North Central College",
+  "scrapedAt": "2026-03-13T22:06:24.011504Z",
+  "playerCount": 35,
+  "players": [
+    {
+      "name": "Owen Wrench",
+      "number": "0",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "North Central College"
+    },
+    {
+      "name": "Jake Scumaci",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "North Central College"
+    },
+    {
+      "name": "Jason  Smith",
+      "number": "2",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Senior",
+      "team": "North Central College"
+    },
+    {
+      "name": "Dylan Ferreiro",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "North Central College"
+    },
+    {
+      "name": "Gavin Braley",
+      "number": "4",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "North Central College"
+    },
+    {
+      "name": "Ben Kane",
+      "number": "5",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Sophomore",
+      "team": "North Central College"
+    },
+    {
+      "name": "Max Minami",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "North Central College"
+    },
+    {
+      "name": "Beck Hagen",
+      "number": "8",
+      "position": "Goalkeeper",
+      "classYear": "Sophomore",
+      "team": "North Central College"
+    },
+    {
+      "name": "Will Sanchez",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "North Central College"
+    },
+    {
+      "name": "Zachary Coursel",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "North Central College"
+    },
+    {
+      "name": "Wyatt Hunt",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "North Central College"
+    },
+    {
+      "name": "Jonas Gotter",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "North Central College"
+    },
+    {
+      "name": "Chase Odom",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "North Central College"
+    },
+    {
+      "name": "Alex Porter",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "North Central College"
+    },
+    {
+      "name": "Ben Kerkow",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "North Central College"
+    },
+    {
+      "name": "Alex Anderson",
+      "number": "19",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "North Central College"
+    },
+    {
+      "name": "Owen Fitzgerald",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "North Central College"
+    },
+    {
+      "name": "Gavin McBeth",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "North Central College"
+    },
+    {
+      "name": "Beckett Krause",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "North Central College"
+    },
+    {
+      "name": "Will Handberg",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "North Central College"
+    },
+    {
+      "name": "Matthew Cranston",
+      "number": "24",
+      "position": "Goalkeeper",
+      "classYear": "Freshman",
+      "team": "North Central College"
+    },
+    {
+      "name": "Devon Manjarrez",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "North Central College"
+    },
+    {
+      "name": "Dylan Schroeder",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "North Central College"
+    },
+    {
+      "name": "Ty Nagy",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "Graduate",
+      "team": "North Central College"
+    },
+    {
+      "name": "Wyatt Bush",
+      "number": "29",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "North Central College"
+    },
+    {
+      "name": "Chris Veal",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "North Central College"
+    },
+    {
+      "name": "Jack Blaylock",
+      "number": "33",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "North Central College"
+    },
+    {
+      "name": "Gary Roulo",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "North Central College"
+    },
+    {
+      "name": "Charles Eidson",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "North Central College"
+    },
+    {
+      "name": "Jackson Johnson",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "North Central College"
+    },
+    {
+      "name": "Dominic Rohrer",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "North Central College"
+    },
+    {
+      "name": "Colton Porter",
+      "number": "45",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "North Central College"
+    },
+    {
+      "name": "Seth Rosen",
+      "number": "55",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "North Central College"
+    },
+    {
+      "name": "Quintin Witt",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "North Central College"
+    },
+    {
+      "name": "Charlie Aguirre",
+      "number": "99",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "North Central College"
+    }
+  ]
+}

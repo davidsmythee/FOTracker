@@ -1,0 +1,399 @@
+{
+  "team": "Pennsylvania College of Technology",
+  "scrapedAt": "2026-03-13T22:06:38.941527Z",
+  "playerCount": 56,
+  "players": [
+    {
+      "name": "Ian Edinger",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Ryan Twist",
+      "number": "2",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Elliot Dotson",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Kyle Kievit",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Levi Borkowski",
+      "number": "5",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Harrison Schlachta",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Marcello Santora",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Tyler Diffenderfer",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Gregory Valentino",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Billy Trimbur",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "AJ Dotson",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Jake Small",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Roman DeCenzo",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Daniel Kalizak",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Tate Renaud",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Fisher Makuch",
+      "number": "16",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Colten Hajicek",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Luigi Cardone",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Austin Callahan",
+      "number": "19",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Ian Stambaugh",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Brody Borkowski",
+      "number": "21",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Jesse Weick",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Collin DePace",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Owen Kupsey",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Jake Monsell",
+      "number": "25",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Nick McGowan",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Jake Smith",
+      "number": "27",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Freshman",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Tyler Hannan",
+      "number": "28",
+      "position": "DefenseM",
+      "classYear": "Sophomore",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Ethan Boyer",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Charlie Monsell",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Leighton Acevedo",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Cody Jefferson",
+      "number": "32",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Connor Stank",
+      "number": "33",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Will Ehret",
+      "number": "34",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Gavin Selchert",
+      "number": "35",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Emmett Kepniss",
+      "number": "36",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Dillon DiBattista",
+      "number": "37",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Chase Kaplan",
+      "number": "38",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Eli Drivas",
+      "number": "40",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Freshman",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Aidan McFalls",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Antonio Santora",
+      "number": "42",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Pat Maychak",
+      "number": "43",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Freshman",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Dylan Keene",
+      "number": "44",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Frank Lynch",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Isaiah Sensenig",
+      "number": "47",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Dylan Corros",
+      "number": "48",
+      "position": "GoalieGK",
+      "classYear": "Freshman",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "John Dolezal",
+      "number": "50",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Ben Malarkey",
+      "number": "51",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Alex Hammond",
+      "number": "52",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Braden Holland",
+      "number": "53",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Ryder Palubinski",
+      "number": "54",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Andrew Tavarez",
+      "number": "55",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Matthew Capoferri",
+      "number": "66",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Quinn Smith",
+      "number": "77",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Connor Gentile",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Pennsylvania College of Technology"
+    },
+    {
+      "name": "Graham Rex",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Pennsylvania College of Technology"
+    }
+  ]
+}

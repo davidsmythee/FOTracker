@@ -1,0 +1,224 @@
+{
+  "team": "Johnson & Wales University - Providence",
+  "scrapedAt": "2026-03-13T22:05:01.534601Z",
+  "playerCount": 31,
+  "players": [
+    {
+      "name": "Jacob Tresser",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Nick Duplessis",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Owen Wade",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Nate Cowell",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Quinn McDonald",
+      "number": "5",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Eddie Stradowski",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Bryce Hoag",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Jack Davis",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Khalil Stewart",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Tyler Herman",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Trevor Reid",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Jacob Graham",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Kilian Keane",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Matthew Bancroft",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Tom Packer",
+      "number": "16",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Greyson Doyle",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Jake Inzirillo",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Dalton Brown",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Brayden Miller",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Rocco Carino",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Thomas Haggerty",
+      "number": "23",
+      "position": "FO/M",
+      "classYear": "Senior",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Mason Riggio",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Jason Porazinski",
+      "number": "26",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Trevor Hopkins",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Jack Donnelly",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Tommy Scully",
+      "number": "29",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Ethan Moshier",
+      "number": "32",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Cameron Courchesne",
+      "number": "34",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Owen Venne",
+      "number": "35",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Alex Spada",
+      "number": "37",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Johnson & Wales University - Providence"
+    },
+    {
+      "name": "Chase Dimeco",
+      "number": "40",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Johnson & Wales University - Providence"
+    }
+  ]
+}

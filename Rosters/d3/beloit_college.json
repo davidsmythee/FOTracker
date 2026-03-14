@@ -1,0 +1,175 @@
+{
+  "team": "Beloit College",
+  "scrapedAt": "2026-03-13T22:02:48.160806Z",
+  "playerCount": 24,
+  "players": [
+    {
+      "name": "Robert Luzzi",
+      "number": "4",
+      "position": "MidfieldID",
+      "classYear": "Freshman",
+      "team": "Beloit College"
+    },
+    {
+      "name": "Mac Reed",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Beloit College"
+    },
+    {
+      "name": "Brayden Carter",
+      "number": "6",
+      "position": "DefenseEF",
+      "classYear": "Freshman",
+      "team": "Beloit College"
+    },
+    {
+      "name": "Christian Moore",
+      "number": "7",
+      "position": "GoalieGK",
+      "classYear": "Junior",
+      "team": "Beloit College"
+    },
+    {
+      "name": "Cristian  Lewis",
+      "number": "8",
+      "position": "FOGO/MidfieldFO/MID",
+      "classYear": "Freshman",
+      "team": "Beloit College"
+    },
+    {
+      "name": "Keegan Heikila",
+      "number": "9",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "Beloit College"
+    },
+    {
+      "name": "Isaac Guttormson",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Beloit College"
+    },
+    {
+      "name": "George Haigley",
+      "number": "11",
+      "position": "Midfield/AttackMID/ATT",
+      "classYear": "Junior",
+      "team": "Beloit College"
+    },
+    {
+      "name": "Ryder Story",
+      "number": "13",
+      "position": "AttackTT",
+      "classYear": "Junior",
+      "team": "Beloit College"
+    },
+    {
+      "name": "Dominic Landucci",
+      "number": "14",
+      "position": "Long Stick Midfield/MidfieldLSM/MID",
+      "classYear": "Freshman",
+      "team": "Beloit College"
+    },
+    {
+      "name": "Samuel Slabaugh",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Beloit College"
+    },
+    {
+      "name": "Jeffrey Battle",
+      "number": "16",
+      "position": "MidfieldID",
+      "classYear": "Senior",
+      "team": "Beloit College"
+    },
+    {
+      "name": "Phoenix Yun",
+      "number": "17",
+      "position": "DefenseEF",
+      "classYear": "Freshman",
+      "team": "Beloit College"
+    },
+    {
+      "name": "Parker Davis",
+      "number": "19",
+      "position": "DefenseEF",
+      "classYear": "Sophomore",
+      "team": "Beloit College"
+    },
+    {
+      "name": "Alexander Klemp",
+      "number": "20",
+      "position": "MidfieldID",
+      "classYear": "Senior",
+      "team": "Beloit College"
+    },
+    {
+      "name": "Liam Walker",
+      "number": "21",
+      "position": "AttackTT",
+      "classYear": "Senior",
+      "team": "Beloit College"
+    },
+    {
+      "name": "Samuel Van Der Kolk",
+      "number": "22",
+      "position": "Midfield/FOGOMID/FO",
+      "classYear": "Senior",
+      "team": "Beloit College"
+    },
+    {
+      "name": "Gregory Abshire",
+      "number": "23",
+      "position": "DefenseEF",
+      "classYear": "Freshman",
+      "team": "Beloit College"
+    },
+    {
+      "name": "Rilan Larmore",
+      "number": "25",
+      "position": "AttackTT",
+      "classYear": "Sophomore",
+      "team": "Beloit College"
+    },
+    {
+      "name": "Ethan Scutchfield",
+      "number": "27",
+      "position": "MidfieldID",
+      "classYear": "Senior",
+      "team": "Beloit College"
+    },
+    {
+      "name": "Cole Conway",
+      "number": "28",
+      "position": "MidfieldID",
+      "classYear": "Senior",
+      "team": "Beloit College"
+    },
+    {
+      "name": "John Imbriale",
+      "number": "30",
+      "position": "MidfieldID",
+      "classYear": "Sophomore",
+      "team": "Beloit College"
+    },
+    {
+      "name": "Mateo Passalino",
+      "number": "35",
+      "position": "GoalieGK",
+      "classYear": "Freshman",
+      "team": "Beloit College"
+    },
+    {
+      "name": "Sky Solig",
+      "number": "37",
+      "position": "MidfieldID",
+      "classYear": "Junior",
+      "team": "Beloit College"
+    }
+  ]
+}

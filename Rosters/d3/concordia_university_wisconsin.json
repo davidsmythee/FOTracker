@@ -1,0 +1,280 @@
+{
+  "team": "Concordia University Wisconsin",
+  "scrapedAt": "2026-03-13T22:03:28.589616Z",
+  "playerCount": 39,
+  "players": [
+    {
+      "name": "Frank Trewyn",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Brayden Wilson",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Bode Rachey",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Tyler Husby",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Bryce Petersen",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Jack Bradley",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Ryan Svehla",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Vinny Ciocci",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Jackson Knutson",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Brody Nowotarski",
+      "number": "10",
+      "position": "M/D",
+      "classYear": "Freshman",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Will Downs",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Bryce Marval",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Zeki Wacker",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Griffin Simons",
+      "number": "16",
+      "position": "M/A",
+      "classYear": "Sophomore",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Gaje Germundson",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Kamil Dirilten",
+      "number": "19",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Dylan Pancyrz",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Ben Birch",
+      "number": "23",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "AJ Becker",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Blane Vrana",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Connor Quill",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Preston Meier",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Will Webber",
+      "number": "29",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Oliver Roa",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Parker Lewis",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Nolan O'Malley",
+      "number": "33",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Connor Jackson",
+      "number": "34",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Kaleb Weikel",
+      "number": "35",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Jaxon Niemeyer",
+      "number": "36",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Grant Snider",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Sean McMullen",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Eric Plasencia",
+      "number": "42",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Brennen Loftus",
+      "number": "43",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Marko Adamovic",
+      "number": "45",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Nathan Beyer",
+      "number": "46",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Luke Swazey",
+      "number": "48",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "JT Teske",
+      "number": "49",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Nathan Watt",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Concordia University Wisconsin"
+    },
+    {
+      "name": "Ryan Maly",
+      "number": "51",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Concordia University Wisconsin"
+    }
+  ]
+}

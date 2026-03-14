@@ -1,0 +1,371 @@
+{
+  "team": "Centre College",
+  "scrapedAt": "2026-03-13T22:03:15.606045Z",
+  "playerCount": 52,
+  "players": [
+    {
+      "name": "Charles Thomas",
+      "number": "1",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Freshman",
+      "team": "Centre College"
+    },
+    {
+      "name": "Miller Mouser",
+      "number": "2",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Freshman",
+      "team": "Centre College"
+    },
+    {
+      "name": "Graysen Jolly",
+      "number": "3",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Junior",
+      "team": "Centre College"
+    },
+    {
+      "name": "Graham Driscoll",
+      "number": "4",
+      "position": "Goal KeeperGK",
+      "classYear": "Junior",
+      "team": "Centre College"
+    },
+    {
+      "name": "Hayden Burns",
+      "number": "5",
+      "position": "Goal KeeperGK",
+      "classYear": "Senior",
+      "team": "Centre College"
+    },
+    {
+      "name": "Conner Maggard",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Centre College"
+    },
+    {
+      "name": "Jack Cunningham",
+      "number": "7",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Senior",
+      "team": "Centre College"
+    },
+    {
+      "name": "Gunnar Dykes",
+      "number": "8",
+      "position": "Long-Stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "Centre College"
+    },
+    {
+      "name": "Thomas Tyack",
+      "number": "9",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Freshman",
+      "team": "Centre College"
+    },
+    {
+      "name": "Ryan Black",
+      "number": "10",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Senior",
+      "team": "Centre College"
+    },
+    {
+      "name": "Grayson Shumate",
+      "number": "11",
+      "position": "FOGO/MidfieldFO/M",
+      "classYear": "Junior",
+      "team": "Centre College"
+    },
+    {
+      "name": "Jamie Irvine",
+      "number": "12",
+      "position": "FOGO/MidfieldFO/M",
+      "classYear": "Freshman",
+      "team": "Centre College"
+    },
+    {
+      "name": "Nolan Kelly",
+      "number": "13",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Sophomore",
+      "team": "Centre College"
+    },
+    {
+      "name": "Aiden Turnage",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Centre College"
+    },
+    {
+      "name": "Nick Witcher",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Centre College"
+    },
+    {
+      "name": "Ryan Hall",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Centre College"
+    },
+    {
+      "name": "Patrick Tatro",
+      "number": "17",
+      "position": "Defense/Long-Stick MidfieldD/LSM",
+      "classYear": "Junior",
+      "team": "Centre College"
+    },
+    {
+      "name": "Luke Price",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Centre College"
+    },
+    {
+      "name": "Nico Valentino",
+      "number": "19",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Sophomore",
+      "team": "Centre College"
+    },
+    {
+      "name": "Mac Shafer",
+      "number": "20",
+      "position": "Defense/Long-Stick MidfieldD/LSM",
+      "classYear": "Senior",
+      "team": "Centre College"
+    },
+    {
+      "name": "Caden Canzano",
+      "number": "21",
+      "position": "FOGO/MidfieldFO/M",
+      "classYear": "Senior",
+      "team": "Centre College"
+    },
+    {
+      "name": "Bryant Brown",
+      "number": "22",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Senior",
+      "team": "Centre College"
+    },
+    {
+      "name": "David Durham",
+      "number": "23",
+      "position": "Defense/Long-Stick MidfieldD/LSM",
+      "classYear": "Sophomore",
+      "team": "Centre College"
+    },
+    {
+      "name": "Ben Hubbs",
+      "number": "24",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Senior",
+      "team": "Centre College"
+    },
+    {
+      "name": "Andrew Dittmore",
+      "number": "25",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Junior",
+      "team": "Centre College"
+    },
+    {
+      "name": "Henry Cato",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Centre College"
+    },
+    {
+      "name": "Samuel Berry",
+      "number": "27",
+      "position": "FOGO/MidfieldFO/M",
+      "classYear": "Sophomore",
+      "team": "Centre College"
+    },
+    {
+      "name": "Luca Bowling",
+      "number": "28",
+      "position": "FOGO/MidfieldFO/M",
+      "classYear": "Sophomore",
+      "team": "Centre College"
+    },
+    {
+      "name": "Holden Techet",
+      "number": "29",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Centre College"
+    },
+    {
+      "name": "Joey Roberts",
+      "number": "30",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Centre College"
+    },
+    {
+      "name": "Sims Anderson",
+      "number": "31",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Freshman",
+      "team": "Centre College"
+    },
+    {
+      "name": "Walker  Forrester",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Centre College"
+    },
+    {
+      "name": "Miguel Sayers",
+      "number": "33",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Centre College"
+    },
+    {
+      "name": "Jesse Garcia",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Centre College"
+    },
+    {
+      "name": "Ethan  Wills",
+      "number": "35",
+      "position": "Defense/Long-Stick MidfieldD/LSM",
+      "classYear": "Junior",
+      "team": "Centre College"
+    },
+    {
+      "name": "Kian Robbins",
+      "number": "36",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Freshman",
+      "team": "Centre College"
+    },
+    {
+      "name": "Henry Bonds",
+      "number": "37",
+      "position": "Defense/Long-Stick MidfieldD/LSM",
+      "classYear": "Junior",
+      "team": "Centre College"
+    },
+    {
+      "name": "Travis  Maufer",
+      "number": "38",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Junior",
+      "team": "Centre College"
+    },
+    {
+      "name": "Aaron Price",
+      "number": "39",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Centre College"
+    },
+    {
+      "name": "Kyle Granquist",
+      "number": "40",
+      "position": "Goal KeeperGK",
+      "classYear": "Senior",
+      "team": "Centre College"
+    },
+    {
+      "name": "Nick Kellogg",
+      "number": "41",
+      "position": "Utility DefenseUD",
+      "classYear": "Senior",
+      "team": "Centre College"
+    },
+    {
+      "name": "Graham Hodge",
+      "number": "42",
+      "position": "Defense/Long-Stick MidfieldD/LSM",
+      "classYear": "Freshman",
+      "team": "Centre College"
+    },
+    {
+      "name": "Max Moldenhauer",
+      "number": "43",
+      "position": "Utility DefenseUD",
+      "classYear": "Senior",
+      "team": "Centre College"
+    },
+    {
+      "name": "Charlie Cloe",
+      "number": "44",
+      "position": "Goal KeeperGK",
+      "classYear": "Freshman",
+      "team": "Centre College"
+    },
+    {
+      "name": "Liam Farley",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Centre College"
+    },
+    {
+      "name": "Devin Melton",
+      "number": "49",
+      "position": "Goal KeeperGK",
+      "classYear": "Sophomore",
+      "team": "Centre College"
+    },
+    {
+      "name": "Owen Techet",
+      "number": "50",
+      "position": "Defense/Long-Stick MidfieldD/LSM",
+      "classYear": "Junior",
+      "team": "Centre College"
+    },
+    {
+      "name": "Andrew Duckwall",
+      "number": "51",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Centre College"
+    },
+    {
+      "name": "Cooper Acuff",
+      "number": "52",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Centre College"
+    },
+    {
+      "name": "Eli Carberry",
+      "number": "54",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Centre College"
+    },
+    {
+      "name": "Jack Forrester",
+      "number": "55",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Centre College"
+    },
+    {
+      "name": "Evan  Mason",
+      "number": "",
+      "position": "",
+      "classYear": "Junior",
+      "team": "Centre College"
+    }
+  ]
+}

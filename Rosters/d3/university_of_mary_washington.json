@@ -1,0 +1,385 @@
+{
+  "team": "University of Mary Washington",
+  "scrapedAt": "2026-03-13T22:08:27.303565Z",
+  "playerCount": 54,
+  "players": [
+    {
+      "name": "C.J. Cohen",
+      "number": "1",
+      "position": "GoalieGK",
+      "classYear": "Junior",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Christian Fleming",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Matt Serafin",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Jay Hooker",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Aidan Roerick",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Logan Klinger",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Noah Frost",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "James Milligan",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Dylan Borges",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Jameson Doll",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Brian Sullivan",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Tanner Boone",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Tucker Bradley",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Ryan D'Angelo",
+      "number": "14",
+      "position": "GoalieGK",
+      "classYear": "Senior",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Dylan Galler",
+      "number": "15",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Matt DiGiacomo",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Cole Stein",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Jackson Rhodes",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Jacob Fowler",
+      "number": "19",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Keller Dillman",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Jackson Wininger",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Carter Lynch",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Warrick Simm",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Joe Novak",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Connor Paradis",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Brady Leischner",
+      "number": "26",
+      "position": "Long Stick MiddieLSM",
+      "classYear": "Junior",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Jackson Holt",
+      "number": "27",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Dave Votapek",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Greysen Reylek",
+      "number": "29",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Quinn Weaver",
+      "number": "30",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Antonio Zeno",
+      "number": "31",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Cameron Exley",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Teddy Jefferson",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Dylan  Bellinger",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Nick Elentrio Jr.",
+      "number": "35",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Connor Power",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Parker Hicks",
+      "number": "37",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Vince Reaver",
+      "number": "38",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Luke Jette",
+      "number": "39",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "J.D. Nett",
+      "number": "41",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Dylan Frost",
+      "number": "42",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Kyle Marshall",
+      "number": "43",
+      "position": "Defensive MidfielderDM",
+      "classYear": "Sophomore",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Matt Silva",
+      "number": "44",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Ben Iannantuono",
+      "number": "45",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "William  Hannah",
+      "number": "50",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Philip Krauser",
+      "number": "51",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Reece Stone",
+      "number": "55",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Brodie Green",
+      "number": "56",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "A.J. Lembo",
+      "number": "57",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Connor Kraemer",
+      "number": "66",
+      "position": "GoalieGK",
+      "classYear": "Freshman",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Hayden Irvin",
+      "number": "77",
+      "position": "Long Stick MiddieLSM",
+      "classYear": "Freshman",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Spencer Becker",
+      "number": "81",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Lucas Owens",
+      "number": "88",
+      "position": "Long Stick MiddieLSM",
+      "classYear": "Freshman",
+      "team": "University of Mary Washington"
+    },
+    {
+      "name": "Rex Colliver",
+      "number": "91",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Mary Washington"
+    }
+  ]
+}

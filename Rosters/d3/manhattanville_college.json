@@ -1,0 +1,238 @@
+{
+  "team": "Manhattanville College",
+  "scrapedAt": "2026-03-13T22:05:31.935883Z",
+  "playerCount": 33,
+  "players": [
+    {
+      "name": "Anthony Cozza",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Frank Tallerico",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Drew Palladino",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Graduate",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Tim  Beahm",
+      "number": "4",
+      "position": "Long Stick MiddleLSM",
+      "classYear": "Junior",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Chris Marinaccio",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Nick Corace",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Tyler  Berch",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Ian Denzer",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Francisco Rosas",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Ryan Newman",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Joe Ulzheimer",
+      "number": "11",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Adam Baker",
+      "number": "12",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Chris Guazzo",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Michael Karabinchak",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Chris Gragnano",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Graduate",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Mike  Mooney",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Stephen Peragallo",
+      "number": "17",
+      "position": "Attack",
+      "classYear": "Graduate",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Dylan  Foley",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Nick Ricci",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Jake Strobel",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Cristopher Discua-Funez",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Raymond Miranda",
+      "number": "24",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Shea Madden",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Niko Klopp",
+      "number": "28",
+      "position": "FOGOFOGO",
+      "classYear": "Senior",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Chris Mercado",
+      "number": "31",
+      "position": "FOGO/MidfieldFO/M",
+      "classYear": "Freshman",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Abdoulaye Kone",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Alan Zaritskiy",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Dominic Russello",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Elijah Bell",
+      "number": "40",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Dennis  Thomas",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Freddie Steenson",
+      "number": "42",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Leo Salkinder",
+      "number": "45",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Manhattanville College"
+    },
+    {
+      "name": "Jack Roberts",
+      "number": "",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Manhattanville College"
+    }
+  ]
+}

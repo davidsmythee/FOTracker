@@ -1,0 +1,294 @@
+{
+  "team": "Keene State College",
+  "scrapedAt": "2026-03-13T22:05:08.888570Z",
+  "playerCount": 41,
+  "players": [
+    {
+      "name": "Ty Cougler",
+      "number": "0",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Jack Ansart",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Parker Wallace",
+      "number": "2",
+      "position": "MidfieldF",
+      "classYear": "Sophomore",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Henry Frechette",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Owen Keeley",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Dylan Seymour",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Jason Levy",
+      "number": "6",
+      "position": "MidfieldF",
+      "classYear": "Senior",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Jaheim Lancaster",
+      "number": "7",
+      "position": "MidfieldF",
+      "classYear": "Senior",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Cameron Smith",
+      "number": "8",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Adam Scala",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Nicholas Hadley",
+      "number": "10",
+      "position": "Long-Stick MidfielderLSM",
+      "classYear": "Junior",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Chris Adriaansen",
+      "number": "11",
+      "position": "MidfieldF",
+      "classYear": "Junior",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Braydan Dwyer",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Jake Dubiel",
+      "number": "13",
+      "position": "MidfieldF",
+      "classYear": "Junior",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Ben Tukey",
+      "number": "14",
+      "position": "MidfieldF",
+      "classYear": "5th",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Sebastian Foresi",
+      "number": "15",
+      "position": "MidfieldF",
+      "classYear": "Senior",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Brady LeVasseur",
+      "number": "16",
+      "position": "MidfieldF",
+      "classYear": "Junior",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Sam Giuliotti",
+      "number": "17",
+      "position": "Goalkeeper",
+      "classYear": "Senior",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Luke Festa",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Cole Ricardi",
+      "number": "19",
+      "position": "MidfieldF",
+      "classYear": "Senior",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Austin Fitts",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Dylan Fadale",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Sean Bosworth",
+      "number": "22",
+      "position": "MidfieldF",
+      "classYear": "Junior",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Tim Souza",
+      "number": "23",
+      "position": "MidfieldF",
+      "classYear": "Senior",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Bobby DeFeo",
+      "number": "24",
+      "position": "MidfieldF",
+      "classYear": "Junior",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Jake Antuna",
+      "number": "25",
+      "position": "MidfieldF",
+      "classYear": "Freshman",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Nicholas McNulty",
+      "number": "26",
+      "position": "MidfieldF",
+      "classYear": "Junior",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Braden Hurley",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Kyle O'Connor",
+      "number": "30",
+      "position": "MidfieldF",
+      "classYear": "Freshman",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Matt Pacheco",
+      "number": "32",
+      "position": "Goalkeeper",
+      "classYear": "Sophomore",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Ryan Valentine",
+      "number": "33",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Trevor Jollin",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Jackson Palmieri",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Ethan Palma",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Aidan Donohue",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Jack Ricci",
+      "number": "45",
+      "position": "MidfieldF",
+      "classYear": "Junior",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Jared Martin",
+      "number": "46",
+      "position": "MidfieldF",
+      "classYear": "Sophomore",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Jackson Chase",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Andrew Wiegand",
+      "number": "51",
+      "position": "Goalkeeper",
+      "classYear": "Senior",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Liam Connerty",
+      "number": "55",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Keene State College"
+    },
+    {
+      "name": "Caleb White",
+      "number": "99",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Keene State College"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "team": "Gwynedd Mercy University",
+  "scrapedAt": "2026-03-13T22:04:24.866907Z",
+  "playerCount": 32,
+  "players": [
+    {
+      "name": "Edson Robles",
+      "number": "1",
+      "position": "FOGOFOGO",
+      "classYear": "Sophomore",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Nick Citrigno",
+      "number": "2",
+      "position": "Attack/MidfieldAttack/Midfield",
+      "classYear": "Senior",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Gunnar Seaman",
+      "number": "3",
+      "position": "Attackttack",
+      "classYear": "Senior",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Oliver Bolin",
+      "number": "4",
+      "position": "Short Stick Defensive MidfieldShort Stick Defensive Midfield",
+      "classYear": "Freshman",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Jack Cowan",
+      "number": "5",
+      "position": "Midfieldidfield",
+      "classYear": "Freshman",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Colin Vannais",
+      "number": "8",
+      "position": "Midfieldidfield",
+      "classYear": "Sophomore",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Brady Pettit",
+      "number": "9",
+      "position": "Midfieldidfield",
+      "classYear": "Freshman",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Jeremiah Destin",
+      "number": "10",
+      "position": "Attackttack",
+      "classYear": "Junior",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Joe Oriold",
+      "number": "11",
+      "position": "Defenseefense",
+      "classYear": "Junior",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Vincent Tullio",
+      "number": "12",
+      "position": "Short Stick Defensive MidfieldShort Stick Defensive Midfield",
+      "classYear": "Freshman",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Colton Munyan",
+      "number": "14",
+      "position": "Long Stick MidfieldLong Stick Midfield",
+      "classYear": "Freshman",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Dylan Reinford",
+      "number": "15",
+      "position": "Short Stick Defensive MidfieldShort Stick Midfield",
+      "classYear": "Junior",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Caleb Gaines",
+      "number": "16",
+      "position": "Defenseefense",
+      "classYear": "Freshman",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Darren Rodzwic",
+      "number": "17",
+      "position": "Midfieldidfield",
+      "classYear": "Freshman",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Chris Quiles",
+      "number": "18",
+      "position": "Attackttack",
+      "classYear": "Sophomore",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Anthony Bracy",
+      "number": "19",
+      "position": "Attackttack",
+      "classYear": "Freshman",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Jake Tedeschi",
+      "number": "20",
+      "position": "FOGOFOGO",
+      "classYear": "Senior",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Jimmy Teszner",
+      "number": "22",
+      "position": "Midfieldidfield",
+      "classYear": "Sophomore",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Dylan Gazda",
+      "number": "23",
+      "position": "Defenseefense",
+      "classYear": "Senior",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Jayden Molina",
+      "number": "24",
+      "position": "Attack/MidfieldAttack/Midfield",
+      "classYear": "Freshman",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Cooper Lachowicz",
+      "number": "25",
+      "position": "Midfieldidfield",
+      "classYear": "Freshman",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Bryce Gaffney",
+      "number": "26",
+      "position": "Long Stick MidfieldLong Stick Midfield",
+      "classYear": "Junior",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Evan Martini",
+      "number": "28",
+      "position": "Midfieldidfield",
+      "classYear": "Freshman",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "David Crespo",
+      "number": "32",
+      "position": "Attackttack",
+      "classYear": "Sophomore",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Josh Devine",
+      "number": "35",
+      "position": "Attackttack",
+      "classYear": "Senior",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Liam Burns",
+      "number": "44",
+      "position": "Defenseefense",
+      "classYear": "Sophomore",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Joe Reese",
+      "number": "51",
+      "position": "Midfieldidfield",
+      "classYear": "Freshman",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Alexander Guardino",
+      "number": "55",
+      "position": "GoalkeeperGoalkeeper",
+      "classYear": "Sophomore",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Ethan Galvan",
+      "number": "56",
+      "position": "Attack/MidfieldAttack/Midfield",
+      "classYear": "Sophomore",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Zac Womer",
+      "number": "77",
+      "position": "Short Stick Defensive MidfieldShort Stick Defensive Midfield",
+      "classYear": "Senior",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Landen Ciran",
+      "number": "88",
+      "position": "Midfieldidfield",
+      "classYear": "Sophomore",
+      "team": "Gwynedd Mercy University"
+    },
+    {
+      "name": "Brian Hackert",
+      "number": "90",
+      "position": "Long Stick Midfield/DefenseLong Stick Midfield/Defense",
+      "classYear": "Freshman",
+      "team": "Gwynedd Mercy University"
+    }
+  ]
+}

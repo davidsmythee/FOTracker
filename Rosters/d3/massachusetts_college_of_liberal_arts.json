@@ -1,0 +1,126 @@
+{
+  "team": "Massachusetts College of Liberal Arts",
+  "scrapedAt": "2026-03-14T00:58:25.620442Z",
+  "playerCount": 17,
+  "players": [
+    {
+      "name": "Ryan Gaynor",
+      "number": "1",
+      "position": "Defenseman / Longstickman",
+      "classYear": "Junior",
+      "team": "Massachusetts College of Liberal Arts"
+    },
+    {
+      "name": "Neal Brierley",
+      "number": "2",
+      "position": "Midfielder / Attack",
+      "classYear": "Junior",
+      "team": "Massachusetts College of Liberal Arts"
+    },
+    {
+      "name": "Carson Lewis",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Massachusetts College of Liberal Arts"
+    },
+    {
+      "name": "Josh Hemstock",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Massachusetts College of Liberal Arts"
+    },
+    {
+      "name": "Chase Kranz",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Massachusetts College of Liberal Arts"
+    },
+    {
+      "name": "Raul Soto",
+      "number": "9",
+      "position": "Defenseman",
+      "classYear": "Freshman",
+      "team": "Massachusetts College of Liberal Arts"
+    },
+    {
+      "name": "Cameron LaFerriere",
+      "number": "10",
+      "position": "Defenseman / Midfielder",
+      "classYear": "Sophomore",
+      "team": "Massachusetts College of Liberal Arts"
+    },
+    {
+      "name": "Keegan Covello",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Massachusetts College of Liberal Arts"
+    },
+    {
+      "name": "Peter Holbrook",
+      "number": "15",
+      "position": "Defenseman",
+      "classYear": "Junior",
+      "team": "Massachusetts College of Liberal Arts"
+    },
+    {
+      "name": "Quentan Polkowski",
+      "number": "16",
+      "position": "Goal Keeper",
+      "classYear": "Sophomore",
+      "team": "Massachusetts College of Liberal Arts"
+    },
+    {
+      "name": "Logan Leja",
+      "number": "18",
+      "position": "Defenseman",
+      "classYear": "Senior",
+      "team": "Massachusetts College of Liberal Arts"
+    },
+    {
+      "name": "Anthony Andolina",
+      "number": "20",
+      "position": "Attack / Midfielder",
+      "classYear": "Senior",
+      "team": "Massachusetts College of Liberal Arts"
+    },
+    {
+      "name": "Ty Roadcap",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Massachusetts College of Liberal Arts"
+    },
+    {
+      "name": "James Julian",
+      "number": "22",
+      "position": "Defenseman",
+      "classYear": "Senior",
+      "team": "Massachusetts College of Liberal Arts"
+    },
+    {
+      "name": "Ashton Morris",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Massachusetts College of Liberal Arts"
+    },
+    {
+      "name": "Franklin Bosques",
+      "number": "29",
+      "position": "Long Stickman",
+      "classYear": "Sophomore",
+      "team": "Massachusetts College of Liberal Arts"
+    },
+    {
+      "name": "Mark Mageles",
+      "number": "30",
+      "position": "Defenseman",
+      "classYear": "Sophomore",
+      "team": "Massachusetts College of Liberal Arts"
+    }
+  ]
+}

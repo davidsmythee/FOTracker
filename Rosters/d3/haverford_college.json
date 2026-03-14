@@ -1,0 +1,322 @@
+{
+  "team": "Haverford College",
+  "scrapedAt": "2026-03-13T22:04:35.177240Z",
+  "playerCount": 45,
+  "players": [
+    {
+      "name": "Adam Benoit",
+      "number": "1",
+      "position": "SSDM",
+      "classYear": "Fy.",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Kieran Mayes",
+      "number": "2",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Nick Snyder",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Mac Grubb",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Ethan Waugh",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Philip Passalaqua",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Thomas Giannotti",
+      "number": "7",
+      "position": "Goalie",
+      "classYear": "Fy.",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Gavin Kim",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Caden Matulonis",
+      "number": "9",
+      "position": "SSDM",
+      "classYear": "Fy.",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Ben Kim",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Braeden Hulett",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Ronan West",
+      "number": "12",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Reeve Johnson",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Antonin Hoppmann-Salario",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Max Esteban",
+      "number": "15",
+      "position": "FOGO",
+      "classYear": "Fy.",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Peter Del Col",
+      "number": "16",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Harrison Simms",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Chris O'Connor",
+      "number": "18",
+      "position": "FOGO",
+      "classYear": "Fy.",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Charlie Vaccaro",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Arjun Rath",
+      "number": "20",
+      "position": "Goalie",
+      "classYear": "Fy.",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Turner Elliott",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Reid Tietjen",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Will Weinstein",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Sean DiLallo",
+      "number": "24",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Connor Burgess",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Ben Goldberg",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Lucas Mandel",
+      "number": "27",
+      "position": "LSM",
+      "classYear": "Fy.",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Quinn Smith",
+      "number": "28",
+      "position": "SSDM",
+      "classYear": "Fy.",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Hank Ferguson",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Haverford College"
+    },
+    {
+      "name": "JT Anderson",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Joey Busch",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Seamus McNally",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Mac Broaddus",
+      "number": "33",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Roan Spencer",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Phinn Kelly-Zuckerman",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Alexander Wysk",
+      "number": "36",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Ollie Abar",
+      "number": "38",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Wyatt Silverman",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Colin Hulett",
+      "number": "44",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Jacob Anderson",
+      "number": "45",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Hunter Rexford",
+      "number": "49",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Kolin Brandeis",
+      "number": "50",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Asher Rice",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Nils Bergstrom",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Haverford College"
+    },
+    {
+      "name": "Blake Donnellan",
+      "number": "91",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Haverford College"
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "team": "DePauw University",
+  "scrapedAt": "2026-03-13T22:03:41.938196Z",
+  "playerCount": 38,
+  "players": [
+    {
+      "name": "Hudson Murray",
+      "number": "0",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Evan Cleveland",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Nolan Childs",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Gavin Berry",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Jack Neff",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Carter Cassidy",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Will Glimco",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Tyler Nass",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Jack Blum",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Anton Berg",
+      "number": "10",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Ben Lupfer",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Alex Sharma",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Paul Shuff",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Brody Carlson",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Trevor Martay",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Carter Blum",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Quin O'Malley",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Max Vanderwiel",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Tyler Kenyon",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Jack Brand",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Jake Heaton",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Cooper Kinney",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Oscar Kokke",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Peter Skardon",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Joseph Jones",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "DePauw University"
+    },
+    {
+      "name": "JP Berdichevsky",
+      "number": "26",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Aaron Zimmet",
+      "number": "27",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Kaleb Harris",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "DePauw University"
+    },
+    {
+      "name": "George Wehbe",
+      "number": "29",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Emmett Abar",
+      "number": "30",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Julian Mulholland",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Noah Sulpizio",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Kam Shiver",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Anthony Reinhardt",
+      "number": "35",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Luka Ratarac",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Russ Nelson",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Jailen Magai",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "DePauw University"
+    },
+    {
+      "name": "Elijah O'Neal",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "DePauw University"
+    }
+  ]
+}

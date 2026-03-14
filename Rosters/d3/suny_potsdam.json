@@ -1,0 +1,245 @@
+{
+  "team": "SUNY Potsdam",
+  "scrapedAt": "2026-03-13T22:08:01.814672Z",
+  "playerCount": 34,
+  "players": [
+    {
+      "name": "Saka Thompson",
+      "number": "1",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Preston Daniels",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Josh Ayrassian",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Braden Fahey",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Roman Valenti",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Drew Costello",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Nick Long",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Merrick Frary",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Ryan Wassmer",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Tommy Storrin",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Jack McCandless",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Mason Frary",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Jakob Lynch",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Morgan Fox",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Grayson Jackson",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Andrew Gubbins",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Tye Doxtater",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Crayton Cree",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Braydon Goddard",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Billy Kozloski",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Tyler Gould",
+      "number": "25",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Alex Farben-Griggs",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Grant Dicob",
+      "number": "29",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Lucas  Preston",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Jordy Mitchell",
+      "number": "31",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Tim Brooder",
+      "number": "32",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Thomas Long",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Ben Clarkson",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Erik Wisnoski",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Damyn LeClair",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Skylar Running Rabbit",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Ronin Oakes",
+      "number": "43",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Brock Chasey",
+      "number": "44",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Potsdam"
+    },
+    {
+      "name": "Rowisonkies Barnes",
+      "number": "45",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "SUNY Potsdam"
+    }
+  ]
+}

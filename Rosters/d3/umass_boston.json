@@ -1,0 +1,287 @@
+{
+  "team": "UMass Boston",
+  "scrapedAt": "2026-03-13T22:08:28.999857Z",
+  "playerCount": 40,
+  "players": [
+    {
+      "name": "Jack Baker",
+      "number": "0",
+      "position": "FOGOFO",
+      "classYear": "Sophomore",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Matt Laverty",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Dominic Chalifour",
+      "number": "4",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Liam Johnson",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Patrick Dwinnells",
+      "number": "7",
+      "position": "Midfield/ AttackM/A",
+      "classYear": "Junior",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "James Boldy",
+      "number": "8",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Reilly Collins",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Oliver Bateman",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Ryan Steckman-Buck",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Carson Meczywor",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Jamie Lin",
+      "number": "13",
+      "position": "Long Stick Midfield/ DefenseLSM/D",
+      "classYear": "Senior",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Max White",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Jackson King",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Brayden MacLean",
+      "number": "17",
+      "position": "Attack/ MidfieldA/M",
+      "classYear": "Senior",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Tyler Hilgert",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Holden Kuzniar",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Graham Hickey",
+      "number": "21",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Sophomore",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Matt Hutchings",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Cole Allan",
+      "number": "23",
+      "position": "Attack/ MidfieldA/M",
+      "classYear": "Sophomore",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Matt Corvi",
+      "number": "24",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Hank Alessandro",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Charlie Bunger",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "David Oman",
+      "number": "27",
+      "position": "Midfield",
+      "classYear": "Graduate",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Joesph McCullough",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Jack Schartner",
+      "number": "29",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "John King",
+      "number": "30",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Sawyer Leonard",
+      "number": "32",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Jack Difalco-Wheeler",
+      "number": "33",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Hunter Grafton",
+      "number": "34",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Drew Largen",
+      "number": "37",
+      "position": "FOGOFO",
+      "classYear": "Sophomore",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Ryan Bournique",
+      "number": "38",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Tadas Baltaduonis",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Matthew Konareski",
+      "number": "41",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Dale Wills",
+      "number": "42",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Keegan Palmer",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Graduate",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Nolen Beauregard",
+      "number": "55",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Thomas DeMaio",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Lincoln Shinn",
+      "number": "67",
+      "position": "Long-stick MidfieldLSM",
+      "classYear": "Freshman",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Jonathan Halpin",
+      "number": "68",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "UMass Boston"
+    },
+    {
+      "name": "Jaden Cronin",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "UMass Boston"
+    }
+  ]
+}

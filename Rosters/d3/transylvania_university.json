@@ -1,0 +1,252 @@
+{
+  "team": "Transylvania University",
+  "scrapedAt": "2026-03-13T22:08:11.431113Z",
+  "playerCount": 35,
+  "players": [
+    {
+      "name": "Aven Blair",
+      "number": "0",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Nick DeGrandi",
+      "number": "1",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Andrew Mazy",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Samuel Archer",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Huck Campbell",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Alex Vennari",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Sam Neff",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Mason Davis",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Grayson Pham",
+      "number": "9",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Andrew Welch",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Braden Antle",
+      "number": "11",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "David Niblett",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Briggs Beck",
+      "number": "13",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Noah Siler",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Charlie Horner",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Patrick Slagle",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Luke Larish",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Nick Kane",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Jack McKiernan",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "RJ Young",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Gavin Nail",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Tommy Scales",
+      "number": "23",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Josh Harney",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Ben Gaccino",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Zack Carrico",
+      "number": "30",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Will Bird",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Benjamin Farley",
+      "number": "35",
+      "position": "GK",
+      "classYear": "Junior",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Dom Tsourkas",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Jack Miller",
+      "number": "45",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Garrett Field",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Maverick Shultz",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Jaxon Eldridge",
+      "number": "52",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Ethan Kroll",
+      "number": "53",
+      "position": "GK",
+      "classYear": "Senior",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Camble Rosenbaum",
+      "number": "55",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Transylvania University"
+    },
+    {
+      "name": "Caleb Kern",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Transylvania University"
+    }
+  ]
+}

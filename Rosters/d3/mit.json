@@ -1,0 +1,266 @@
+{
+  "team": "MIT",
+  "scrapedAt": "2026-03-13T22:05:44.161372Z",
+  "playerCount": 37,
+  "players": [
+    {
+      "name": "Miles Mann",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "MIT"
+    },
+    {
+      "name": "Clark Burleson",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "MIT"
+    },
+    {
+      "name": "Thomas Ludecke",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "MIT"
+    },
+    {
+      "name": "Oscar Lindenthal",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "MIT"
+    },
+    {
+      "name": "Theo Perkins",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "MIT"
+    },
+    {
+      "name": "Christian Biggins",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "MIT"
+    },
+    {
+      "name": "Zach Bleil",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "MIT"
+    },
+    {
+      "name": "Bobby Jones",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "MIT"
+    },
+    {
+      "name": "Hayden Calabretta",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "MIT"
+    },
+    {
+      "name": "Ashton Axe",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "MIT"
+    },
+    {
+      "name": "Will Doster",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "MIT"
+    },
+    {
+      "name": "Denley Kofoed",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "MIT"
+    },
+    {
+      "name": "Tim Haarmann",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "MIT"
+    },
+    {
+      "name": "Michael Blount",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "MIT"
+    },
+    {
+      "name": "Carter Magnano",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "MIT"
+    },
+    {
+      "name": "Liam McCummings",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "MIT"
+    },
+    {
+      "name": "Collin Lung",
+      "number": "18",
+      "position": "GK",
+      "classYear": "Senior",
+      "team": "MIT"
+    },
+    {
+      "name": "Riley Pierce",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "MIT"
+    },
+    {
+      "name": "Isaiah Nathaniel",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "MIT"
+    },
+    {
+      "name": "Garrett Campagna",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "MIT"
+    },
+    {
+      "name": "Dominic Zuniga",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "MIT"
+    },
+    {
+      "name": "CJ Sanchez",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "MIT"
+    },
+    {
+      "name": "Liam Gibbons",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "MIT"
+    },
+    {
+      "name": "Alexander Shen",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "MIT"
+    },
+    {
+      "name": "Hudson Hilal",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "MIT"
+    },
+    {
+      "name": "Daniel Jones",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "MIT"
+    },
+    {
+      "name": "Caiden Lung",
+      "number": "28",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "MIT"
+    },
+    {
+      "name": "James Lukish",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "MIT"
+    },
+    {
+      "name": "AJ Sachwitz",
+      "number": "30",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "MIT"
+    },
+    {
+      "name": "Kaden Fenno",
+      "number": "31",
+      "position": "FOGO",
+      "classYear": "Fy.",
+      "team": "MIT"
+    },
+    {
+      "name": "Mikey Mondiello",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "MIT"
+    },
+    {
+      "name": "Stone Smith",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "MIT"
+    },
+    {
+      "name": "James Byrd",
+      "number": "34",
+      "position": "GK",
+      "classYear": "Fy.",
+      "team": "MIT"
+    },
+    {
+      "name": "River Doyle",
+      "number": "35",
+      "position": "GK",
+      "classYear": "Fy.",
+      "team": "MIT"
+    },
+    {
+      "name": "Daniel Patterson",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "MIT"
+    },
+    {
+      "name": "Mason Prettyman",
+      "number": "44",
+      "position": "FOGO",
+      "classYear": "Fy.",
+      "team": "MIT"
+    },
+    {
+      "name": "Bryce Metalios",
+      "number": "45",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "MIT"
+    }
+  ]
+}

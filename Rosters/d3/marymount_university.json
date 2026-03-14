@@ -1,0 +1,245 @@
+{
+  "team": "Marymount University",
+  "scrapedAt": "2026-03-13T22:05:37.959934Z",
+  "playerCount": 34,
+  "players": [
+    {
+      "name": "Santino Rossitto",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Chris Lasky",
+      "number": "2",
+      "position": "LSM",
+      "classYear": "Fy.",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Matthew Mulkins",
+      "number": "3",
+      "position": "D/DM",
+      "classYear": "Sophomore",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Spencer Carfang",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Marymount University"
+    },
+    {
+      "name": "James Doss",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Austin Bergey",
+      "number": "6",
+      "position": "A/M",
+      "classYear": "Junior",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Kanye Otto",
+      "number": "7",
+      "position": "D/LSM",
+      "classYear": "Sophomore",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Parker King",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Marymount University"
+    },
+    {
+      "name": "William Cate",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Connor Howard",
+      "number": "10",
+      "position": "GK",
+      "classYear": "Fy.",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Barohn Dockendorf",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Daniel Bishop",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Michael Thamasett",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Marymount University"
+    },
+    {
+      "name": "James Conte",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Daniel Brown",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Josue Bonilla-Gomez",
+      "number": "17",
+      "position": "M/FO",
+      "classYear": "Sophomore",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Ian Fructuoso",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Winston Horshaw II",
+      "number": "19",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Robert Filippone",
+      "number": "20",
+      "position": "GK",
+      "classYear": "Fy.",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Braden Miller",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Ben Cooper",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Matthew Kurczeski",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Brady Fitzgerald",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Wyatt Labonte",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Steven Noh",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Isaac Armlin",
+      "number": "28",
+      "position": "D/LSM",
+      "classYear": "Sophomore",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Kylel Robinson",
+      "number": "29",
+      "position": "6'0\"",
+      "classYear": "Fy.",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Jacob Brooks",
+      "number": "30",
+      "position": "GK",
+      "classYear": "Senior",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Alexander Amoresano",
+      "number": "42",
+      "position": "LSM",
+      "classYear": "Fy.",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Eric Musgrave",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Marymount University"
+    },
+    {
+      "name": "James Elko",
+      "number": "51",
+      "position": "5'8\"",
+      "classYear": "Graduate",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Carson Mackay",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Drew Bedard",
+      "number": "77",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Marymount University"
+    },
+    {
+      "name": "Jack Gillespie",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Marymount University"
+    }
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "team": "Western Connecticut State University",
+  "scrapedAt": "2026-03-13T22:09:07.770362Z",
+  "playerCount": 47,
+  "players": [
+    {
+      "name": "James Krieg",
+      "number": "0",
+      "position": "DDefense",
+      "classYear": "Junior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Joseph D'Orazio",
+      "number": "1",
+      "position": "MMidfield",
+      "classYear": "Freshman",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Brady Mann",
+      "number": "2",
+      "position": "AAttack",
+      "classYear": "Freshman",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Tristan McMahon",
+      "number": "3",
+      "position": "MMidfield",
+      "classYear": "Senior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Max Shapiro",
+      "number": "5",
+      "position": "MMidfield",
+      "classYear": "Senior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Evan Salen",
+      "number": "6",
+      "position": "AAttack",
+      "classYear": "Junior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Gary Fleischer",
+      "number": "7",
+      "position": "MMidfield",
+      "classYear": "Freshman",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Cody Suhr",
+      "number": "8",
+      "position": "AAttack",
+      "classYear": "Junior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Elan Keys",
+      "number": "9",
+      "position": "MMidfield",
+      "classYear": "Freshman",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Owen Stark",
+      "number": "11",
+      "position": "MMidfield",
+      "classYear": "Senior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Sawyer DeSeve",
+      "number": "12",
+      "position": "MMidfield",
+      "classYear": "Freshman",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Nicholas Duryea",
+      "number": "13",
+      "position": "GKGoalkeeper",
+      "classYear": "Junior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Zack Foro",
+      "number": "14",
+      "position": "DDefense",
+      "classYear": "Junior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Dante  Debueriis",
+      "number": "15",
+      "position": "DDefense",
+      "classYear": "Freshman",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Andrew Aronow",
+      "number": "16",
+      "position": "MMidfield",
+      "classYear": "Junior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "James Kosty",
+      "number": "17",
+      "position": "MMidfield",
+      "classYear": "Senior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Tom McCullagh",
+      "number": "18",
+      "position": "MMidfield",
+      "classYear": "Freshman",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Jake Kelly",
+      "number": "20",
+      "position": "GKGoalkeeper",
+      "classYear": "Sophomore",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Gabriel Gravino",
+      "number": "21",
+      "position": "MMidfield",
+      "classYear": "Junior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Andrew Reinhardt",
+      "number": "22",
+      "position": "AAttack",
+      "classYear": "Freshman",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Michael Zapatka",
+      "number": "23",
+      "position": "AAttack",
+      "classYear": "Graduate",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Will Purrman",
+      "number": "24",
+      "position": "DDefense",
+      "classYear": "Freshman",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Sam Rosa",
+      "number": "25",
+      "position": "MMidfield",
+      "classYear": "Junior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Rowan Gada",
+      "number": "27",
+      "position": "MMidfield",
+      "classYear": "Freshman",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Dimitri Noulas",
+      "number": "28",
+      "position": "DDefense",
+      "classYear": "Senior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Thomas Keegan",
+      "number": "30",
+      "position": "AAttack",
+      "classYear": "Freshman",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Kyle Cinotti",
+      "number": "34",
+      "position": "MMidfield",
+      "classYear": "Senior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Anthony Raccomandato",
+      "number": "35",
+      "position": "GK/DGoalkeeper/Defense",
+      "classYear": "Junior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Brady Francis",
+      "number": "36",
+      "position": "MMidfield",
+      "classYear": "Senior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Jason Ardizone",
+      "number": "37",
+      "position": "MMidfield",
+      "classYear": "Freshman",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Tyler Moeller",
+      "number": "38",
+      "position": "DDefense",
+      "classYear": "Senior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Louis Katz",
+      "number": "39",
+      "position": "GKGoalkeeper",
+      "classYear": "Freshman",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Michael Mrzyglod",
+      "number": "41",
+      "position": "AAttack",
+      "classYear": "Junior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Drew  Coady",
+      "number": "42",
+      "position": "MMidfield",
+      "classYear": "Freshman",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Quentin Connolly",
+      "number": "43",
+      "position": "MMidfield",
+      "classYear": "Junior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Jayden  Alfano",
+      "number": "44",
+      "position": "DDefense",
+      "classYear": "Junior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Chase Canfora",
+      "number": "48",
+      "position": "MMidfield",
+      "classYear": "Freshman",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Lawson Leibrock",
+      "number": "50",
+      "position": "A/MAttack/Midfield",
+      "classYear": "Freshman",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Luca Ubaldi",
+      "number": "55",
+      "position": "DDefense",
+      "classYear": "Senior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Charlie Guidera",
+      "number": "66",
+      "position": "LSM/DLong-Stick Midfielder/Defense",
+      "classYear": "Senior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "James Gitzinger",
+      "number": "77",
+      "position": "DDefense",
+      "classYear": "Senior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Alex Burbank",
+      "number": "90",
+      "position": "AAttack",
+      "classYear": "Sophomore",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Nicholas  Saragossi",
+      "number": "94",
+      "position": "AAttack",
+      "classYear": "Junior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Blake Hendricks",
+      "number": "96",
+      "position": "LSMLong-Stick Midfielder",
+      "classYear": "Senior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Jaden  Jones",
+      "number": "97",
+      "position": "MMidfield",
+      "classYear": "Junior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Justin Shapiro",
+      "number": "98",
+      "position": "M/DMidfield/Defense",
+      "classYear": "Junior",
+      "team": "Western Connecticut State University"
+    },
+    {
+      "name": "Tyler Varrichio",
+      "number": "99",
+      "position": "LSMLong-Stick Midfielder",
+      "classYear": "Freshman",
+      "team": "Western Connecticut State University"
+    }
+  ]
+}

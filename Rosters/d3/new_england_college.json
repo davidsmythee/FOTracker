@@ -1,0 +1,147 @@
+{
+  "team": "New England College",
+  "scrapedAt": "2026-03-13T22:06:20.549556Z",
+  "playerCount": 20,
+  "players": [
+    {
+      "name": "Matt O'Rourke",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "New England College"
+    },
+    {
+      "name": "Brody McGonigle",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "New England College"
+    },
+    {
+      "name": "Nick McCarthy",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "New England College"
+    },
+    {
+      "name": "Nate  Finn",
+      "number": "6",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "New England College"
+    },
+    {
+      "name": "Tony Leary",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "New England College"
+    },
+    {
+      "name": "Owen Taylor",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "New England College"
+    },
+    {
+      "name": "Shane Helman",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "New England College"
+    },
+    {
+      "name": "Duncan Fleming",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "New England College"
+    },
+    {
+      "name": "Nathan Hawkins",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "New England College"
+    },
+    {
+      "name": "John Lindborg",
+      "number": "12",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Senior",
+      "team": "New England College"
+    },
+    {
+      "name": "Ethan LaHaye",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "New England College"
+    },
+    {
+      "name": "Andrew Pepka",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "New England College"
+    },
+    {
+      "name": "Sean Deignan",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "New England College"
+    },
+    {
+      "name": "Elliot Belliveau",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "New England College"
+    },
+    {
+      "name": "Matt Pero",
+      "number": "25",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "New England College"
+    },
+    {
+      "name": "Jakub Rusina",
+      "number": "41",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "New England College"
+    },
+    {
+      "name": "Hunter Knice",
+      "number": "44",
+      "position": "Long-Stick Midfielder/DefenseLSM/D",
+      "classYear": "Freshman",
+      "team": "New England College"
+    },
+    {
+      "name": "Nickolas Bergman",
+      "number": "45",
+      "position": "Long-Stick Midfielder/DefenseLSM/D",
+      "classYear": "Sophomore",
+      "team": "New England College"
+    },
+    {
+      "name": "Evan  Zonderman",
+      "number": "91",
+      "position": "FOGO Specialist/MidfieldFO/M",
+      "classYear": "Graduate",
+      "team": "New England College"
+    },
+    {
+      "name": "Ryan Sweeney",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "New England College"
+    }
+  ]
+}

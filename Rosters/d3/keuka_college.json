@@ -1,0 +1,168 @@
+{
+  "team": "Keuka College",
+  "scrapedAt": "2026-03-13T22:05:12.472716Z",
+  "playerCount": 23,
+  "players": [
+    {
+      "name": "Toby Tummino",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Keuka College"
+    },
+    {
+      "name": "Adrian Houck",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "FY",
+      "team": "Keuka College"
+    },
+    {
+      "name": "George Durkin",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Keuka College"
+    },
+    {
+      "name": "Owen Sullivan",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Keuka College"
+    },
+    {
+      "name": "Lorenzo Rand",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "FY",
+      "team": "Keuka College"
+    },
+    {
+      "name": "Aiden Nice",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Keuka College"
+    },
+    {
+      "name": "Bless Isaac",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Keuka College"
+    },
+    {
+      "name": "Roman Hoyser",
+      "number": "11",
+      "position": "dD",
+      "classYear": "FY",
+      "team": "Keuka College"
+    },
+    {
+      "name": "Mason Buckley",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Keuka College"
+    },
+    {
+      "name": "Nate Bonaparte",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "FY",
+      "team": "Keuka College"
+    },
+    {
+      "name": "Cole Davis",
+      "number": "14",
+      "position": "FOGO SpecialistFO",
+      "classYear": "Sophomore",
+      "team": "Keuka College"
+    },
+    {
+      "name": "Alexander Gitsis",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Keuka College"
+    },
+    {
+      "name": "Dominick Panko",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Keuka College"
+    },
+    {
+      "name": "Nikolas Gitsis",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Keuka College"
+    },
+    {
+      "name": "Cam Hovater",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Graduate",
+      "team": "Keuka College"
+    },
+    {
+      "name": "Harrison Root",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Keuka College"
+    },
+    {
+      "name": "Austin Holsclaw",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Keuka College"
+    },
+    {
+      "name": "Nick Knoth",
+      "number": "24",
+      "position": "FOGO SpecialistFO",
+      "classYear": "Sophomore",
+      "team": "Keuka College"
+    },
+    {
+      "name": "Zeke Weimer",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Keuka College"
+    },
+    {
+      "name": "Jaxson Tucker",
+      "number": "31",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Keuka College"
+    },
+    {
+      "name": "Jayden Greco",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Keuka College"
+    },
+    {
+      "name": "Joshua L'Huillier",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Keuka College"
+    },
+    {
+      "name": "Tre Lloyd",
+      "number": "46",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Keuka College"
+    }
+  ]
+}

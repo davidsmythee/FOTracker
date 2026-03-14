@@ -1,0 +1,315 @@
+{
+  "team": "John Carroll University",
+  "scrapedAt": "2026-03-13T22:04:59.694920Z",
+  "playerCount": 44,
+  "players": [
+    {
+      "name": "Josh  Wade",
+      "number": "0",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Brandon Trottier",
+      "number": "4",
+      "position": "Midfield / AttackM/A",
+      "classYear": "Fy.",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Michael Godleski",
+      "number": "5",
+      "position": "Long Stick MidfieldD/LSM",
+      "classYear": "Fy.",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Jared Connell",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Josh Lombardo",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Brody Forrest",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Charlie Williams",
+      "number": "10",
+      "position": "Defensive MidfieldDM",
+      "classYear": "Fy.",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Jason Xiao",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Gabe Oliver",
+      "number": "12",
+      "position": "FOGOsFO",
+      "classYear": "Fy.",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Brody Biggs",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Richard Moran",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Noah Osmanski",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Larry Voss",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Carmine Periandri",
+      "number": "18",
+      "position": "FOGOsFO",
+      "classYear": "Sophomore",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Nicholas Yemma",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Billy Paladino",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Emmet Griffin",
+      "number": "21",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Seamus Nicholson",
+      "number": "22",
+      "position": "Attack / MidfieldA/M",
+      "classYear": "Junior",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Braden Zarek",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Isaac Jacobs",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Harrison Williams",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Alexander Shaffer",
+      "number": "27",
+      "position": "Defensive MidfieldD/M",
+      "classYear": "Senior",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Quinn Wiklendt",
+      "number": "28",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Patrick Frazier",
+      "number": "29",
+      "position": "Long Stick MidfieldD/LSM",
+      "classYear": "Fy.",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Mark Logan",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Brennan Frazier",
+      "number": "33",
+      "position": "Defensive MidfieldDM",
+      "classYear": "Fy.",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Kiernan Lembke",
+      "number": "34",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Devin Holder",
+      "number": "36",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Casey LaForce",
+      "number": "37",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Tyler Pirain",
+      "number": "40",
+      "position": "Long Stick MidfieldLSM/D",
+      "classYear": "Fy.",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Cameron Miller",
+      "number": "41",
+      "position": "Midfield / AttackM/A",
+      "classYear": "Fy.",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Camden Uchic",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Michael Barton",
+      "number": "44",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Nicholas Gonzalez",
+      "number": "45",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "William Dunn",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Rylan Sorge",
+      "number": "54",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Jimmy Xiao",
+      "number": "55",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Sean Hogan",
+      "number": "66",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Ivan  Roeder",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Sean Keane",
+      "number": "88",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Nate Klan",
+      "number": "93",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Tucker Jobe",
+      "number": "96",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Nicolas Alvarez",
+      "number": "97",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "John Carroll University"
+    },
+    {
+      "name": "Jack Mueller",
+      "number": "",
+      "position": "Long Stick MidfieldD/LSM",
+      "classYear": "Fy.",
+      "team": "John Carroll University"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "team": "SUNY Purchase College",
+  "scrapedAt": "2026-03-13T22:08:03.268157Z",
+  "playerCount": 21,
+  "players": [
+    {
+      "name": "TJ Pasqualini",
+      "number": "1",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "SUNY Purchase College"
+    },
+    {
+      "name": "Kevon Joseph",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "SUNY Purchase College"
+    },
+    {
+      "name": "Ryan Haberski",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Purchase College"
+    },
+    {
+      "name": "Will D'Ambrosia",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "SUNY Purchase College"
+    },
+    {
+      "name": "Zach Scott",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY Purchase College"
+    },
+    {
+      "name": "Brendon Truex",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY Purchase College"
+    },
+    {
+      "name": "Soleil Gaines",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "SUNY Purchase College"
+    },
+    {
+      "name": "Aiden Thomas",
+      "number": "9",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "SUNY Purchase College"
+    },
+    {
+      "name": "Musa Zaidi",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "SUNY Purchase College"
+    },
+    {
+      "name": "Hayden Fernandez",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Purchase College"
+    },
+    {
+      "name": "Brodie Beach",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "SUNY Purchase College"
+    },
+    {
+      "name": "Liam Pheffer",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Purchase College"
+    },
+    {
+      "name": "Tony Cruz",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "SUNY Purchase College"
+    },
+    {
+      "name": "Davindra  Deonarain",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Purchase College"
+    },
+    {
+      "name": "Sam Erlich",
+      "number": "26",
+      "position": "GK",
+      "classYear": "Junior",
+      "team": "SUNY Purchase College"
+    },
+    {
+      "name": "Chandler Redwood",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "SUNY Purchase College"
+    },
+    {
+      "name": "Jack Lyons",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Purchase College"
+    },
+    {
+      "name": "Jordan Thompson",
+      "number": "33",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "SUNY Purchase College"
+    },
+    {
+      "name": "Vincent Fuentes",
+      "number": "34",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "SUNY Purchase College"
+    },
+    {
+      "name": "Cameron Savoca",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Purchase College"
+    },
+    {
+      "name": "Jacob Cabral",
+      "number": "99",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "SUNY Purchase College"
+    }
+  ]
+}

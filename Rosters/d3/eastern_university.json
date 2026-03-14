@@ -1,0 +1,315 @@
+{
+  "team": "Eastern University",
+  "scrapedAt": "2026-03-13T22:03:51.556943Z",
+  "playerCount": 44,
+  "players": [
+    {
+      "name": "Bobby Soper",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Jason Wallace",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Andrew Horensky",
+      "number": "3",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "FY.",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Gavin Stark",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Joshua Jordan",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Frankie Fanelli",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Jaden Knize",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Levi Souder",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "FY.",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Sean Dendall",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Brendan Kirn",
+      "number": "12",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Charlie Harrison",
+      "number": "14",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Brett Williamson",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Aidan Headley",
+      "number": "17",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Jackson Foley",
+      "number": "18",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Junior",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Zach Puckett",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Reed Pearson",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Nicholas Howes",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Jack Bradley",
+      "number": "25",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Sam Chester",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Billy Bair",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Dennis Norwood",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Brennan Kaut",
+      "number": "29",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Dominic Marangoni",
+      "number": "31",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Eastern University"
+    },
+    {
+      "name": "John Tinney",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "FY.",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Brett Gougler",
+      "number": "34",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Aidan Hill",
+      "number": "35",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "FY.",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Benjamin Souder",
+      "number": "36",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Thatcher Swatchick",
+      "number": "38",
+      "position": "Goalkeeper",
+      "classYear": "FY.",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Andrew Collins",
+      "number": "39",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Tj Bodamer",
+      "number": "40",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Caden Vickers",
+      "number": "41",
+      "position": "Midfield",
+      "classYear": "FY.",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Duncan Starmer",
+      "number": "42",
+      "position": "Midfield",
+      "classYear": "FY.",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Cody Larsen",
+      "number": "44",
+      "position": "Goalkeeper",
+      "classYear": "FY.",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Jack Wohlford",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "FY.",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Nate Delorme",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Noah Booth",
+      "number": "49",
+      "position": "Attack",
+      "classYear": "FY.",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Maxwell Forrey",
+      "number": "50",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Gavin Corwell",
+      "number": "51",
+      "position": "Defense",
+      "classYear": "FY.",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Joey Kopaczewski",
+      "number": "52",
+      "position": "Defense",
+      "classYear": "FY.",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Nicholas Ciampaglio",
+      "number": "53",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Sean McNamara",
+      "number": "54",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Connor Bartow",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "FY.",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Garrison Euler",
+      "number": "INJ",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Eastern University"
+    },
+    {
+      "name": "Ryan Williamson",
+      "number": "INJ",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Eastern University"
+    }
+  ]
+}

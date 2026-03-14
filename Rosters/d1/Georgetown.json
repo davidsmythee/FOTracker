@@ -1,0 +1,336 @@
+{
+  "team": "Georgetown University",
+  "scrapedAt": "2026-01-28T19:32:47.861Z",
+  "playerCount": 47,
+  "players": [
+    {
+      "name": "Anderson Moore",
+      "number": "0",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "George Acton",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Jack Schubert",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Max Allen",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Jake Bickel",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Natty Mason",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Aidan Carrello",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Ross Prince",
+      "number": "9",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Ben Wood",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Rory Connor",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Liam Connor",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Larry Horning",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Ben  Firlie",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Jojo Dean",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Owen Horning",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Ty Banks",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "James Carretta",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Jack Ransom",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Johnny Price",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Jack Leland",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Patrick Crogan",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Hayden Cody",
+      "number": "25",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Charlie Hoffman",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Evan MacFarland",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Pax Marshall",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Will Coale",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Luke Schlank",
+      "number": "31",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Joe Cesare",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Wilson Van Buren",
+      "number": "33",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Ty Ramachandran",
+      "number": "35",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Alexander Sotirhos",
+      "number": "36",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Charlie McGurrin",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Chase Picard",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Henry Caponiti",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Matt Rienzo",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Robert Plath",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Matt Johnson",
+      "number": "44",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Jordan Wray",
+      "number": "45",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Joe Vranizan",
+      "number": "46",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Ryan DeLucia",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Chase Stensby",
+      "number": "48",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Kevin Miller",
+      "number": "49",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Steven Schummer Jr.",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Shuey Kelly",
+      "number": "55",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "James Carroll",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Jack Lorenz",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Georgetown University"
+    },
+    {
+      "name": "Lucas Dudemaine",
+      "number": "88",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Georgetown University"
+    }
+  ]
+}

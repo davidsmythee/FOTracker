@@ -1,0 +1,266 @@
+{
+  "team": "Nichols College",
+  "scrapedAt": "2026-03-13T22:06:22.205080Z",
+  "playerCount": 37,
+  "players": [
+    {
+      "name": "Tyler Olivo",
+      "number": "0",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Carter Renaud",
+      "number": "1",
+      "position": "GoalkeeperG",
+      "classYear": "Senior",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Bryce Soboleski",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Cam Ayotte",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Mason Little",
+      "number": "4",
+      "position": "Long Stick Midfielder/DefenseLSM/D",
+      "classYear": "Sophomore",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Brendan Roach",
+      "number": "5",
+      "position": "Short Stick Defensive MidfieldSSDM",
+      "classYear": "Sophomore",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Max Leavitt",
+      "number": "6",
+      "position": "Short Stick Defensive MidfieldSSDM",
+      "classYear": "Freshman",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Jonah Libby",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Evan Anderson",
+      "number": "9",
+      "position": "Short Stick Defensive MidfieldSSDM",
+      "classYear": "Junior",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Thomas Arthur",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Joey LaChance",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Nichols College"
+    },
+    {
+      "name": "John Caserta",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Riley Jorgensen",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Travis Arnold",
+      "number": "15",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Cole Goudreau",
+      "number": "16",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Freshman",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Tyler Barents",
+      "number": "17",
+      "position": "Short Stick Defensive MidfieldSSDM",
+      "classYear": "Senior",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Nathan Conroy",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Shea Ullo",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Jared Van Cor",
+      "number": "20",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Ethan Todd",
+      "number": "21",
+      "position": "Defense/Long Stick MidfieldD/LSM",
+      "classYear": "Graduate",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Shea Buckley",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Spencer Sherman",
+      "number": "24",
+      "position": "GoalkeeperG",
+      "classYear": "Junior",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Keegan Rose",
+      "number": "26",
+      "position": "Short Stick MidfieldSSDM",
+      "classYear": "Sophomore",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Fionn O'Rahilly",
+      "number": "27",
+      "position": "Defense/Long Stick MidfieldD/LSM",
+      "classYear": "Senior",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Jack Campbell",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Kane Williams",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Jackson Hernandez",
+      "number": "36",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Juan Morales",
+      "number": "37",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Heath Gamarel",
+      "number": "38",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Jameson Pirro",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Garrett Chamberlin",
+      "number": "51",
+      "position": "Defense/Long Stick MidfieldD/LSM",
+      "classYear": "Freshman",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Josh Davis",
+      "number": "53",
+      "position": "Short Stick Defensive MidfieldSSDM",
+      "classYear": "Sophomore",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Keaghan Gassler",
+      "number": "55",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Freshman",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Conor Doherty",
+      "number": "66",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Colin Bunkley",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Riley Dionne",
+      "number": "88",
+      "position": "Short Stick Defensive MidfieldSSDM",
+      "classYear": "Junior",
+      "team": "Nichols College"
+    },
+    {
+      "name": "Andrew Whitman",
+      "number": "99",
+      "position": "GoalkeeperG",
+      "classYear": "Sophomore",
+      "team": "Nichols College"
+    }
+  ]
+}

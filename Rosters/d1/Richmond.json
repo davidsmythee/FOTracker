@@ -1,0 +1,343 @@
+{
+  "team": "University of Richmond",
+  "scrapedAt": "2026-01-28T20:55:16.157Z",
+  "playerCount": 48,
+  "players": [
+    {
+      "name": "Mark Botek",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Evan Leonardo",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Brody Murphy",
+      "number": "4",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Tabor Academy",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Hunter Smith",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Joe Sheridan",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Charlie Packard",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Cole Hayden",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Gavin Creo",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Daniel Picart",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Chris Mazzaferri",
+      "number": "12",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Tanner Huber",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Harrison Voelzke",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Kaleb Griffith",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Jack Ricciardi",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Vincent Gaylord",
+      "number": "17",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Aidan Wooley",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Jack Pilling",
+      "number": "19",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Connor Kelly",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Diego Garza",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Leo Caine",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Thatcher Killian",
+      "number": "23",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Sam Wilmot",
+      "number": "24",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Matt Jacobsen",
+      "number": "25",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Ryan Thompson",
+      "number": "26",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Lucas Littlejohn",
+      "number": "27",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Drew Tenzer",
+      "number": "28",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Sean Siegel",
+      "number": "29",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "John Fisher",
+      "number": "30",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Connor Knight",
+      "number": "31",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Carson Quinn",
+      "number": "32",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Porter Barnett",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "La Salle Academy",
+      "number": "34",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Gus Abrecht",
+      "number": "35",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "George Insley",
+      "number": "36",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Ben Porter",
+      "number": "40",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "William Schneider",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "James Pagano",
+      "number": "42",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Lucas Slate",
+      "number": "43",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Jackson Strickland",
+      "number": "44",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Gray Tamasco",
+      "number": "47",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Michael Farrell",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Jacob Fusco",
+      "number": "49",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Tabor Academy",
+      "number": "55",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Nate Murphy",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Luke Spitzer",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Brayden Penafeather-Stevenson",
+      "number": "91",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "University of Richmond"
+    },
+    {
+      "name": "Jack Dougherty",
+      "number": "97",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Richmond"
+    }
+  ]
+}

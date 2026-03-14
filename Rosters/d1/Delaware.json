@@ -1,0 +1,392 @@
+{
+  "team": "University of Delaware",
+  "scrapedAt": "2026-01-28T19:27:54.243Z",
+  "playerCount": 55,
+  "players": [
+    {
+      "name": "John McCurry",
+      "number": "0",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Bennett Parmer",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Hank D'Ambrogi",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Bryson Kolinsky",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Cory Capri",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Jack Kolbe",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Scott Conte",
+      "number": "6",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Rowan Marsell",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Attack",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Matt Triolo",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Owen Black",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Ethan Krauss",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Finn Morgan",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Brendan Powers",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Luke Galgano",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Colton Silverstein",
+      "number": "15",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Patrick Gillin",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Matt Montgomery",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Drew Duncan",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Eli Pounds",
+      "number": "19",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Jason Kolar",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Justin Sanelli",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Riley Lugar",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Ryder Buell",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Riar Schell",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Nathan Furgeson",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Aiden Bodonyi",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Sean Eells",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Owen McGee",
+      "number": "29",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Aidan Koff",
+      "number": "30",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Nick Cowen",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Tyler Owings",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Michael Dickinson-Tooman",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Matthew Warburton",
+      "number": "34",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Ryder Villani",
+      "number": "35",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Maverick Smith",
+      "number": "36",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Matt Joerres",
+      "number": "37",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Eli Rippey",
+      "number": "39",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Louie Atkinson",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Brady Wesloski",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Keegan Lathrop",
+      "number": "42",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Wells Bergstrom",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Lange Gaspar",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Liam Powell",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Jake Wolf",
+      "number": "46",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Casey Felter",
+      "number": "48",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Franky Fix",
+      "number": "49",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Ben Maynor",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Troon Houlton",
+      "number": "51",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Aidan Himes",
+      "number": "52",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Greyson Dunn",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Duncan Barnes",
+      "number": "66",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Michael Straub",
+      "number": "77",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Finn Rodgers",
+      "number": "81",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Delaware"
+    },
+    {
+      "name": "Nolan Bolger",
+      "number": "88",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "University of Delaware"
+    }
+  ]
+}

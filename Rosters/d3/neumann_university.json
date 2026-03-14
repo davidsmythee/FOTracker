@@ -1,0 +1,175 @@
+{
+  "team": "Neumann University",
+  "scrapedAt": "2026-03-13T22:06:18.692151Z",
+  "playerCount": 24,
+  "players": [
+    {
+      "name": "Nate McLaughlin",
+      "number": "0",
+      "position": "FOGOFO",
+      "classYear": "Junior",
+      "team": "Neumann University"
+    },
+    {
+      "name": "Owen Avelar",
+      "number": "2",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Neumann University"
+    },
+    {
+      "name": "Luke Sykes",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Neumann University"
+    },
+    {
+      "name": "Nolan Huntley",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Neumann University"
+    },
+    {
+      "name": "Matt Morris",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Neumann University"
+    },
+    {
+      "name": "Luc Wade",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Neumann University"
+    },
+    {
+      "name": "Darius Thompson",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Neumann University"
+    },
+    {
+      "name": "Kyle Havrilla",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Neumann University"
+    },
+    {
+      "name": "Kaden Adams",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Neumann University"
+    },
+    {
+      "name": "Danny Mercado-McLean",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Neumann University"
+    },
+    {
+      "name": "Alex Couture",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Neumann University"
+    },
+    {
+      "name": "Nathan Kohajda",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Neumann University"
+    },
+    {
+      "name": "Tommy Bryson, Jr.",
+      "number": "18",
+      "position": "GoalieG",
+      "classYear": "Fy.",
+      "team": "Neumann University"
+    },
+    {
+      "name": "Connor Hurley",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Neumann University"
+    },
+    {
+      "name": "Gardea Woodson",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Neumann University"
+    },
+    {
+      "name": "Sean Kelly",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Neumann University"
+    },
+    {
+      "name": "Mike Lago",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Neumann University"
+    },
+    {
+      "name": "Nathan Raynor",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Neumann University"
+    },
+    {
+      "name": "Bryan Avanzato",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Neumann University"
+    },
+    {
+      "name": "Cooper Waltz",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Neumann University"
+    },
+    {
+      "name": "Cooper Dee",
+      "number": "91",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Neumann University"
+    },
+    {
+      "name": "Cory Hemberger",
+      "number": "96",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Neumann University"
+    },
+    {
+      "name": "Sean Harrington",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Neumann University"
+    },
+    {
+      "name": "Jason Fuquay",
+      "number": "",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Neumann University"
+    }
+  ]
+}

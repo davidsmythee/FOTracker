@@ -1,0 +1,357 @@
+{
+  "team": "Ithaca College",
+  "scrapedAt": "2026-03-13T22:04:58.228878Z",
+  "playerCount": 50,
+  "players": [
+    {
+      "name": "Brendan Coyle",
+      "number": "1",
+      "position": "Goalkeeper",
+      "classYear": "Sophomore",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Jameson Wong",
+      "number": "2",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Lucas Proctor",
+      "number": "3",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Junior",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Connor Malone",
+      "number": "4",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "First Year",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Will Kleine",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Brendan Occhino",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Ethan Bland",
+      "number": "7",
+      "position": "Defense/Long Stick MidfieldD/LSM",
+      "classYear": "Junior",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Corey White",
+      "number": "8",
+      "position": "Midfield/FOGOM/FO",
+      "classYear": "Junior",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Ethan Flanagan",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Kaarthik Kommineni",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Harrison Spangler",
+      "number": "11",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Jace Dockx",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Tommy Allocco",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "First Year",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Finn Adams",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "First Year",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Jack Giannuzzi",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Andrew Benjamin",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Jack Chaney",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Tim Rogers",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Harry O'Neil",
+      "number": "19",
+      "position": "Defense/Long Stick MidfieldD/LSM",
+      "classYear": "First Year",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Joey Smith",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "First Year",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "William McNamara",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Justin Polhemus",
+      "number": "22",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Junior",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Liam Alberti",
+      "number": "23",
+      "position": "Midfield/FOGOM/FO",
+      "classYear": "Sophomore",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Danny  Loss",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Jake Chester",
+      "number": "25",
+      "position": "Midfield",
+      "classYear": "First Year",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Trevor Knopp",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Cullen Adams",
+      "number": "27",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Ryan Connolly",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "First Year",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Tommy Skramstad",
+      "number": "29",
+      "position": "Goalkeeper",
+      "classYear": "First Year",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Ethan Berger",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Andrew Minard",
+      "number": "31",
+      "position": "Goalkeeper",
+      "classYear": "Senior",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Aidan Connolly",
+      "number": "32",
+      "position": "Midfield",
+      "classYear": "First Year",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Owen Zipfel",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Brenden Kanya",
+      "number": "34",
+      "position": "Defense/MidfieldD/M",
+      "classYear": "Sophomore",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Max Warn",
+      "number": "35",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Drew Warren",
+      "number": "36",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Greg Szyluk",
+      "number": "37",
+      "position": "Midfield/Long Stick Midfield/LSM",
+      "classYear": "Senior",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Emmett Lisai",
+      "number": "38",
+      "position": "Midfield",
+      "classYear": "First Year",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Tobey Niland",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "First Year",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Ethan Adrid",
+      "number": "40",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Sam Baker",
+      "number": "41",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Jared Borkan",
+      "number": "42",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Senior",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Chris Closuit",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Grant Mathieson",
+      "number": "44",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Gavin Kenna",
+      "number": "45",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Nathan Sabol",
+      "number": "46",
+      "position": "Midfield",
+      "classYear": "First Year",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Ben Parylak",
+      "number": "47",
+      "position": "Midfield",
+      "classYear": "First Year",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Carson Spallone",
+      "number": "48",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Jack Murphy",
+      "number": "49",
+      "position": "Midfield",
+      "classYear": "First Year",
+      "team": "Ithaca College"
+    },
+    {
+      "name": "Mikey Monopoli",
+      "number": "50",
+      "position": "Long Stick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "Ithaca College"
+    }
+  ]
+}

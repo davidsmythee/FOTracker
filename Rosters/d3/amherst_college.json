@@ -1,0 +1,308 @@
+{
+  "team": "Amherst College",
+  "scrapedAt": "2026-03-13T22:02:29.147186Z",
+  "playerCount": 43,
+  "players": [
+    {
+      "name": "Spencer Will",
+      "number": "1",
+      "position": "GK",
+      "classYear": "Senior",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Max Youssefnia",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Noah Chappell",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Bob Gross",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Mike Hanlon",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Brendan Reilly",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Joshua Scott",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Brayden Stroh",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Oscar Smink",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Shafeek Halabi",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Nico Berger",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Andrew Hahm",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Max Lowe",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Oliver Pritchard",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Devon Christian",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Brooks Catlin",
+      "number": "18",
+      "position": "GK",
+      "classYear": "Senior",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Carter Cave",
+      "number": "19",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Gus Singh",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Luciano Chadha",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Matthew Sheinberg",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Alex Vlacich",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Nate Cootauco",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Ethan Tanner",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Ayden Santi-Tillotson",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Willie Doyle",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Sam Schafer",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Dylan Kelleher",
+      "number": "30",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Peter Mok",
+      "number": "31",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Sam Sneider",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Ben Wick",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Tim Souza",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Jack Neiger",
+      "number": "35",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Bennett Chow",
+      "number": "38",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Michael Li",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Patrick Arnold",
+      "number": "40",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Jack Morrison",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Thompson Lau",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Patrick Leder",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Ben Steingass",
+      "number": "45",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Dutch Lohnes",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Peter Koren",
+      "number": "48",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Sam Gerber",
+      "number": "49",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Amherst College"
+    },
+    {
+      "name": "Braden Poon",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Amherst College"
+    }
+  ]
+}

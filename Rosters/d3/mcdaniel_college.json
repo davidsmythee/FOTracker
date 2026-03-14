@@ -1,0 +1,322 @@
+{
+  "team": "McDaniel College",
+  "scrapedAt": "2026-03-13T22:05:48.353310Z",
+  "playerCount": 45,
+  "players": [
+    {
+      "name": "Ryan Wheeler",
+      "number": "0",
+      "position": "FOGO",
+      "classYear": "Fy.",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Seth Hurt",
+      "number": "1",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Brandon Mejia",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Ryan Smith",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Cash Stanton",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Aaron Ewing",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Dean Donnellan",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Carter Youtz",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Andrew Kavanagh",
+      "number": "8",
+      "position": "Short Stick Defensive MidfielderSSDM",
+      "classYear": "Sophomore",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Reagan Wilson",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Charlie Mudd",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Andrew Deviney",
+      "number": "11",
+      "position": "Longstick MidfieldLSM",
+      "classYear": "Senior",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Clancy Brosius",
+      "number": "12",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Sophomore",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Aidan Skelly",
+      "number": "13",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Junior",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Cutter Stanton",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Adam Dengler",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Dylan Adams",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Adam Barkdoll",
+      "number": "18",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Senior",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Will Beacham",
+      "number": "19",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Senior",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Nate Yelle",
+      "number": "20",
+      "position": "Short-Stick Defensive MidfieldSSDM",
+      "classYear": "Senior",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Leo Hale",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "PJ Serra",
+      "number": "22",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Sophomore",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Brian Baker",
+      "number": "23",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Fy.",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Julian Williams",
+      "number": "25",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Sophomore",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Mason Collins",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Graduate",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Ben Lisi",
+      "number": "27",
+      "position": "Short Stick Defensive MidfielderSSDM",
+      "classYear": "Sophomore",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Joey Nicholson",
+      "number": "28",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Shane  Whalen",
+      "number": "29",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Zach Olvey",
+      "number": "30",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Aidan Stevenson",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Connor Penderghest",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Evan Kiracofe",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Matt Wallman",
+      "number": "37",
+      "position": "Defensive MidfieldDM",
+      "classYear": "Fy.",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Colin  Fox",
+      "number": "40",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Blake Smith",
+      "number": "42",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Fy.",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Angelo Schuler",
+      "number": "43",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Fy.",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Jack Sabo",
+      "number": "44",
+      "position": "Longstick Midfield/DefenseLSM/D",
+      "classYear": "Senior",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Ethan Wise",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Trent Hillis",
+      "number": "48",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Alex Salerni",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Will Swiatek",
+      "number": "55",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Mike Biront",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Finn Forcucci",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Collin Nadolny",
+      "number": "93",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "McDaniel College"
+    },
+    {
+      "name": "Gabe Wallman",
+      "number": "99",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "McDaniel College"
+    }
+  ]
+}

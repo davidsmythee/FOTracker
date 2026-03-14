@@ -1,0 +1,357 @@
+{
+  "team": "Virginia Wesleyan University",
+  "scrapedAt": "2026-03-13T22:08:53.617418Z",
+  "playerCount": 50,
+  "players": [
+    {
+      "name": "Adeoluwa Adeyemo",
+      "number": "0",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Wyatt Hocke",
+      "number": "1",
+      "position": "LSM",
+      "classYear": "FY",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Keagan Hall",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "FY",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Ethan Smith",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "James Coffin",
+      "number": "4",
+      "position": "M/LSM",
+      "classYear": "FY",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Thomas Lewis IV",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Logan Czerwinski",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "FY",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Christian Akerboom",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Jeremiah Madriaga",
+      "number": "8",
+      "position": "FOGOFO",
+      "classYear": "Senior",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Wyatt Skinner",
+      "number": "9",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Leif Simons",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Noah McCarty",
+      "number": "11",
+      "position": "LSM",
+      "classYear": "FY",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Ryan Mathers",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "FY",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Anthony Blackburn",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "FY",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Blake Howell",
+      "number": "14",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Taylor Cox",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Ben Andrews",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Nolan Golaboski",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "FY",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Riley Dack",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "FY",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Tyler Drane",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "FY",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Carlton Benton Jr.",
+      "number": "20",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Senior",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Patrick Goodman",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "FY",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Johnny Hollinshead",
+      "number": "22",
+      "position": "A/M",
+      "classYear": "FY",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Jack Taylor",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Thomas Skelly",
+      "number": "24",
+      "position": "Goalie",
+      "classYear": "FY",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Jack Meehan",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Daniel Dewing",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Dominque Alexander",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Zach Seward",
+      "number": "29",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Maddox Coelho",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "George Taylor",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "FY",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Cooper Seidner",
+      "number": "32",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Matthew Harris",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "FY",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Dalton Mise",
+      "number": "36",
+      "position": "Midfielder",
+      "classYear": "FY",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Ben Henderson",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Alex Eisenhart",
+      "number": "39",
+      "position": "Midfielder",
+      "classYear": "FY",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Liam Murphy",
+      "number": "40",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Zachary Dupill",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "FY",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Aiden Freeland",
+      "number": "42",
+      "position": "GoalieGK",
+      "classYear": "Senior",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Miles Fuehler",
+      "number": "43",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Alec Gordon",
+      "number": "44",
+      "position": "GoalieGK",
+      "classYear": "Senior",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Tyler Vandarwarka",
+      "number": "47",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Caston Christman",
+      "number": "50",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Roman Foster",
+      "number": "51",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Aidyn Shatarsky",
+      "number": "55",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Max Davis",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Cole Spencer",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Graduate",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Braden Lanier",
+      "number": "81",
+      "position": "Midfielder",
+      "classYear": "FY",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Adi Patel",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Virginia Wesleyan University"
+    },
+    {
+      "name": "Reef Krug",
+      "number": "99",
+      "position": "Midfielder",
+      "classYear": "FY",
+      "team": "Virginia Wesleyan University"
+    }
+  ]
+}

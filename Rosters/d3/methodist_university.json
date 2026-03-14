@@ -1,0 +1,315 @@
+{
+  "team": "Methodist University",
+  "scrapedAt": "2026-03-13T22:05:51.594571Z",
+  "playerCount": 44,
+  "players": [
+    {
+      "name": "Jacob Burnette",
+      "number": "1",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Senior",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Thomas Oakes",
+      "number": "2",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Freshman",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Christian Thompson",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Daniel Wright",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Graham Clausen",
+      "number": "5",
+      "position": "FOGO/MidfieldFO/M",
+      "classYear": "Junior",
+      "team": "Methodist University"
+    },
+    {
+      "name": "CJ Leonard",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Christian Brown",
+      "number": "7",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Nick Spinola",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Garrison Fletcher",
+      "number": "9",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Freshman",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Nick Garza",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Sam Newton",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Methodist University"
+    },
+    {
+      "name": "LJ Oby",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Cayden Glatfelter",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Nick Ratnesar",
+      "number": "15",
+      "position": "FOGO/MidfieldFO/M",
+      "classYear": "Freshman",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Michael Tucker",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Josh Crabtree",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Marcus Myers",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Blake Tucker",
+      "number": "19",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Josiah Tisdale",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Methodist University"
+    },
+    {
+      "name": "J.R. Newman",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Brett Redmond",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Cole Rigsbee",
+      "number": "24",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Raymie Caiola",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Guillermo Quesada",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Brody Murchison",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Logan Florio",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Methodist University"
+    },
+    {
+      "name": "DJ Mills",
+      "number": "29",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Freshman",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Latrell Brown",
+      "number": "30",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Logan Garrett",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Mason Cary",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Ryan Daly",
+      "number": "33",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Noah Hewett",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Skyler Swanson",
+      "number": "37",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Jay Legg",
+      "number": "40",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Ethan Jahr",
+      "number": "42",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Methodist University"
+    },
+    {
+      "name": "RJ Breeden",
+      "number": "44",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Patrick Noone",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Tyree Cummings",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Owen Andrews",
+      "number": "77",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Jay Moore",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Christopher Nolder",
+      "number": "99",
+      "position": "FOGO/MidfieldFO/M",
+      "classYear": "Sophomore",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Julian Vicente Ballard",
+      "number": "",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Ryan Rosinski",
+      "number": "",
+      "position": "Team Impact",
+      "classYear": "Freshman",
+      "team": "Methodist University"
+    },
+    {
+      "name": "Trent Tedder",
+      "number": "",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Methodist University"
+    }
+  ]
+}

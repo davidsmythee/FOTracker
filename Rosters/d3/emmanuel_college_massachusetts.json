@@ -1,0 +1,224 @@
+{
+  "team": "Emmanuel College - Massachusetts",
+  "scrapedAt": "2026-03-13T22:04:03.832688Z",
+  "playerCount": 31,
+  "players": [
+    {
+      "name": "Ian Silva",
+      "number": "1",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Jake Lynn",
+      "number": "2",
+      "position": "Goalie",
+      "classYear": "Fy.",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "David Popp",
+      "number": "3",
+      "position": "A/M",
+      "classYear": "Sophomore",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Troy Ford",
+      "number": "4",
+      "position": "A/M",
+      "classYear": "Sophomore",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Ethan Madura",
+      "number": "5",
+      "position": "A/M",
+      "classYear": "Senior",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Ty Carroll",
+      "number": "6",
+      "position": "A/M",
+      "classYear": "Senior",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Brandon Shuman",
+      "number": "7",
+      "position": "A/M",
+      "classYear": "Junior",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Christian Hanoian",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Andrew Convery",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Kyle Schmitz",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Nikko Kelly",
+      "number": "11",
+      "position": "A/M",
+      "classYear": "Junior",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Jack Holmes",
+      "number": "12",
+      "position": "A/M",
+      "classYear": "Junior",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Broc Pelchat",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Dylan Wise",
+      "number": "14",
+      "position": "A/M",
+      "classYear": "Sophomore",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Samuel Yan",
+      "number": "16",
+      "position": "A/M",
+      "classYear": "Senior",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Kellen Connor",
+      "number": "17",
+      "position": "A/M",
+      "classYear": "Fy.",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Myles Mitnick",
+      "number": "18",
+      "position": "A/M",
+      "classYear": "Sophomore",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Cole Cloney",
+      "number": "19",
+      "position": "A/M",
+      "classYear": "Senior",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Gavin Hunt",
+      "number": "20",
+      "position": "A/M",
+      "classYear": "Sophomore",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Austin Overmeyer",
+      "number": "21",
+      "position": "A/M",
+      "classYear": "Fy.",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Cooper Mehlhorn",
+      "number": "22",
+      "position": "A/M",
+      "classYear": "Junior",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Deigo Jimenez",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Nick Napolitano",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Nick Oakley",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Billy Doherty",
+      "number": "27",
+      "position": "A/M",
+      "classYear": "Fy.",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Colby Enos",
+      "number": "28",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Jake Reeves",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Christopher Hamblett",
+      "number": "33",
+      "position": "A/M",
+      "classYear": "Senior",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Chase Greenlaw",
+      "number": "37",
+      "position": "A/M",
+      "classYear": "Senior",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Anthony Sarro",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Emmanuel College - Massachusetts"
+    },
+    {
+      "name": "Reece Curran",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Emmanuel College - Massachusetts"
+    }
+  ]
+}

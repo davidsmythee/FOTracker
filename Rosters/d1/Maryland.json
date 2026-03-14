@@ -1,0 +1,329 @@
+{
+  "team": "University of Maryland",
+  "scrapedAt": "2026-01-28T20:42:05.645Z",
+  "playerCount": 46,
+  "players": [
+    {
+      "name": "Eric Spanos",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Aidan  Aitken",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Marco  Signorello",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "James Gardiner",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Thomas Gravino",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Eric  Kolar",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Johnny Gardiner",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Braden Erksa",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Trey Brown",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Finn Hauhuth",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Zach Whittier",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Chris  Alexis",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Mitchell Lloyd",
+      "number": "15",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Patrick Flaherty",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Riley Reese",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Spencer Ford",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Brian Ruppel",
+      "number": "19",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Oli Skeean",
+      "number": "20",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "John Draley",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Sean Creter",
+      "number": "23",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "John Offutt",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Sr.",
+      "number": "26",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Will  Schaller",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Jonah Carrier",
+      "number": "28",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Tyler Coryea",
+      "number": "29",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Danny  Schaeffer",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Trace Davidson",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Eli Schaller",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Leo  Johnson",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Brody Reese",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Aiden Seibel",
+      "number": "35",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Michael  Alexander",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Luke Griffin",
+      "number": "38",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Peter Laake",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Henry Dodge",
+      "number": "40",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Kyle Eggebraten",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Carson Whittier",
+      "number": "42",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Trey Fleece",
+      "number": "43",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Elijah Stobaugh",
+      "number": "44",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Chris Lyons",
+      "number": "45",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Trevor Owens",
+      "number": "52",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "George Stamos",
+      "number": "54",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Matt  Higgins",
+      "number": "55",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Sisto Averno",
+      "number": "57",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Luca Ward",
+      "number": "77",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Maryland"
+    },
+    {
+      "name": "Hamish McPherson",
+      "number": "88",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Maryland"
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "team": "Dean College",
+  "scrapedAt": "2026-03-13T22:03:37.179950Z",
+  "playerCount": 35,
+  "players": [
+    {
+      "name": "Collin Murphy",
+      "number": "0",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Dean College"
+    },
+    {
+      "name": "AJ Woodward",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Dean College"
+    },
+    {
+      "name": "Aidan Merhi",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Dean College"
+    },
+    {
+      "name": "Zachary Iamarone",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Dean College"
+    },
+    {
+      "name": "Christian Whittle",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Dean College"
+    },
+    {
+      "name": "Jimmy Erickson",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Dean College"
+    },
+    {
+      "name": "Kevin Gardner",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Dean College"
+    },
+    {
+      "name": "Gavin McCarthy",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Dean College"
+    },
+    {
+      "name": "Joseph Marra",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Dean College"
+    },
+    {
+      "name": "Connor McCarthy",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Dean College"
+    },
+    {
+      "name": "Cameron Cummings",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Dean College"
+    },
+    {
+      "name": "Kyle Pianka",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Dean College"
+    },
+    {
+      "name": "Josh Hackett",
+      "number": "12",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Dean College"
+    },
+    {
+      "name": "Ronan Cafferty",
+      "number": "13",
+      "position": "LSM",
+      "classYear": "Fy.",
+      "team": "Dean College"
+    },
+    {
+      "name": "Christian Taipe",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Dean College"
+    },
+    {
+      "name": "Nick Fernandez",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Dean College"
+    },
+    {
+      "name": "Colin Brady",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Dean College"
+    },
+    {
+      "name": "Chase Stuart",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Dean College"
+    },
+    {
+      "name": "Nathan Hartshorn",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Dean College"
+    },
+    {
+      "name": "Kyle Kaelin",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Dean College"
+    },
+    {
+      "name": "Manny Alvarez-Segee",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Dean College"
+    },
+    {
+      "name": "David MacNeil",
+      "number": "23",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "Dean College"
+    },
+    {
+      "name": "Tommy Field",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Dean College"
+    },
+    {
+      "name": "Marc Sauchuk",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Dean College"
+    },
+    {
+      "name": "Chozen Bell",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Dean College"
+    },
+    {
+      "name": "Shawn Beebe",
+      "number": "27",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Dean College"
+    },
+    {
+      "name": "Aaron McDonald",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Dean College"
+    },
+    {
+      "name": "Zach Weigold",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Dean College"
+    },
+    {
+      "name": "Howard Argo",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Dean College"
+    },
+    {
+      "name": "Cody Silva",
+      "number": "31",
+      "position": "LSM",
+      "classYear": "Fy.",
+      "team": "Dean College"
+    },
+    {
+      "name": "Jameson Dubois",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Dean College"
+    },
+    {
+      "name": "Elijah Beland",
+      "number": "33",
+      "position": "GK",
+      "classYear": "Junior",
+      "team": "Dean College"
+    },
+    {
+      "name": "Tyler Sulkala",
+      "number": "34",
+      "position": "GK",
+      "classYear": "Fy.",
+      "team": "Dean College"
+    },
+    {
+      "name": "Aidan Gallant",
+      "number": "36",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Dean College"
+    },
+    {
+      "name": "Colby Mahoney",
+      "number": "37",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Dean College"
+    }
+  ]
+}

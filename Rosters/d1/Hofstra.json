@@ -1,0 +1,343 @@
+{
+  "team": "Hofstra University",
+  "scrapedAt": "2026-01-28T20:32:36.722Z",
+  "playerCount": 48,
+  "players": [
+    {
+      "name": "Trey Parkes",
+      "number": "0",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Tyler Sebastian",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "John Hicks",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "George Gilbert",
+      "number": "3",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Aaron Siebold",
+      "number": "4",
+      "position": "LSM",
+      "classYear": "",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Jack Blais",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Southern Regional",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Owen Bosak",
+      "number": "7",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Shea Kennedy",
+      "number": "8",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Michael Lazaridis",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Daniel Dorszewski",
+      "number": "11",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Keoni Johnson",
+      "number": "12",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Roan Killian",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Topher Accetta",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Cayden Hollar",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Anthony Laber",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Henry Troy",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Keegan Ahern",
+      "number": "20",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Will Militello",
+      "number": "21",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Anthony Rinaldi",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Owen Laatsch",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Noah Burdick",
+      "number": "24",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Trevor Natalie",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Erik Young",
+      "number": "28",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Braydon Barnard",
+      "number": "29",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Robert Herrington",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Will Delaney",
+      "number": "31",
+      "position": "LSM",
+      "classYear": "",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Nico Ghicas",
+      "number": "32",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Cole Myers",
+      "number": "33",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Nick Sims",
+      "number": "34",
+      "position": "LSM",
+      "classYear": "",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Cold Spring Harbor",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Sam Charboneau",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Grant Wille",
+      "number": "37",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Holden Hayes",
+      "number": "38",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Colin Roark",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Brophy College Preparatory",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Anthony Mollica",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Blake Cooling",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Kaden Major",
+      "number": "44",
+      "position": "SSDM",
+      "classYear": "",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Matt Vilas",
+      "number": "45",
+      "position": "SSDM",
+      "classYear": "",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Crew Van Pelt",
+      "number": "46",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Jack Sakowski",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Nick Dalton",
+      "number": "51",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Brody Dail",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Austin Clarke",
+      "number": "77",
+      "position": "LSM",
+      "classYear": "",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Cole Langevin",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Drew Bogardus",
+      "number": "91",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Hofstra University"
+    },
+    {
+      "name": "Jon Singer",
+      "number": "99",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "Hofstra University"
+    }
+  ]
+}

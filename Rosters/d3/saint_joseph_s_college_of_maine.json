@@ -1,0 +1,266 @@
+{
+  "team": "Saint Joseph's College of Maine",
+  "scrapedAt": "2026-03-13T22:07:08.032360Z",
+  "playerCount": 37,
+  "players": [
+    {
+      "name": "Nicolas Michaud",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Michael Sydlowski",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Gavin Ferretti",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Nathan Nelson",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Maxwell Plunske",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Jason Dernier",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Noah Schaeffer",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Jack Leach",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Kevin Wood",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Wyatt Knutson",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Orion Kadar",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Caleb Reardon",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Chase Ranger",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Donovan Governanti",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Finley Ward",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Alec Henry",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Jake Dernier",
+      "number": "20",
+      "position": "GoalieG",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Reed Wescott",
+      "number": "21",
+      "position": "GoalieG",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Brandon Cavicchi",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Sean Cushing",
+      "number": "24",
+      "position": "GoalieG",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "David Cook",
+      "number": "25",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Tony Samiotes",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Aaron Mansfield",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Jacob Magri",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Aidan Byrne",
+      "number": "29",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Joseph Kiedaisch",
+      "number": "31",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Caden Ouellette",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Jon Elliott",
+      "number": "37",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Colin Oliphant",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Max Pulman",
+      "number": "40",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Andre Pelletier",
+      "number": "41",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Angel Orellana",
+      "number": "42",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Zander Kirk",
+      "number": "44",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Jase Mansi",
+      "number": "45",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Ethan Ramsey",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Cody Southwick",
+      "number": "50",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    },
+    {
+      "name": "Kyle Bowlan",
+      "number": "51",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "Saint Joseph's College of Maine"
+    }
+  ]
+}

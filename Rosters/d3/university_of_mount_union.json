@@ -1,0 +1,343 @@
+{
+  "team": "University of Mount Union",
+  "scrapedAt": "2026-03-13T22:08:34.263935Z",
+  "playerCount": 48,
+  "players": [
+    {
+      "name": "Aiden Mays",
+      "number": "1",
+      "position": "A/M",
+      "classYear": "Junior",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Gary Possler",
+      "number": "2",
+      "position": "D/M",
+      "classYear": "Freshman",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Noah Grigson",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Brendon Kovinchick",
+      "number": "4",
+      "position": "LSM/D",
+      "classYear": "Senior",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Spencer Logsdon",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Josh Pasco",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Jake Wooldridge",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "AJ Vasilko",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Talon Osmun",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Braydon Tichy",
+      "number": "10",
+      "position": "D/M",
+      "classYear": "Sophomore",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Mason Discenza",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Nico Macrides",
+      "number": "12",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Aiden Gamble",
+      "number": "13",
+      "position": "D/LSM",
+      "classYear": "Freshman",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Nate Novak",
+      "number": "15",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Henry Schenk",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Braylon Li",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Layne Armstorng",
+      "number": "18",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Aiden Kraus",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Dylan Lulow",
+      "number": "20",
+      "position": "A/M",
+      "classYear": "Sophomore",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Alec Feigel",
+      "number": "21",
+      "position": "A/M",
+      "classYear": "Junior",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Vinny Marszalek",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Todd Siford",
+      "number": "23",
+      "position": "A/M",
+      "classYear": "Junior",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Ethan Klan",
+      "number": "24",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Brayden  Mitchell",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Ryan Cramer",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Evan Bulvin",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Nikolai Lopatka",
+      "number": "28",
+      "position": "FO/M",
+      "classYear": "Sophomore",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Conlan Nagle",
+      "number": "29",
+      "position": "D/M",
+      "classYear": "Freshman",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Evan Rex",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Dylan Rondeau",
+      "number": "31",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Connor Kostrzewa",
+      "number": "32",
+      "position": "D/LSM",
+      "classYear": "Freshman",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Liam Shields",
+      "number": "33",
+      "position": "D/M",
+      "classYear": "Junior",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Sean Hanson",
+      "number": "34",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Hunter Morris",
+      "number": "35",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Riley Douglas",
+      "number": "36",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Nicholas Howrylak",
+      "number": "37",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Shane Rowe",
+      "number": "38",
+      "position": "D/M",
+      "classYear": "Freshman",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Noah Dean",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Henry Bogash",
+      "number": "42",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Clay Hanna",
+      "number": "43",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Makhi Farrier",
+      "number": "44",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "AJ Green",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Jack Miller",
+      "number": "50",
+      "position": "D/M",
+      "classYear": "Junior",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Case Cnossen",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Sly Sundown",
+      "number": "66",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "William Entner",
+      "number": "77",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Gavin Loughrie",
+      "number": "88",
+      "position": "D/M",
+      "classYear": "Sophomore",
+      "team": "University of Mount Union"
+    },
+    {
+      "name": "Elden Ground",
+      "number": "99",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Mount Union"
+    }
+  ]
+}

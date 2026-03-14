@@ -1,0 +1,133 @@
+{
+  "team": "SUNY Cobleskill",
+  "scrapedAt": "2026-03-13T22:07:43.399562Z",
+  "playerCount": 18,
+  "players": [
+    {
+      "name": "Rob Staubitz",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "SUNY Cobleskill"
+    },
+    {
+      "name": "Dylan Linehan",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "SUNY Cobleskill"
+    },
+    {
+      "name": "Deyquan Crawford",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "SUNY Cobleskill"
+    },
+    {
+      "name": "Chris Sgueglia",
+      "number": "5",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "SUNY Cobleskill"
+    },
+    {
+      "name": "Jorryn  Falkowski",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "SUNY Cobleskill"
+    },
+    {
+      "name": "Noah Palange",
+      "number": "7",
+      "position": "A/M",
+      "classYear": "",
+      "team": "SUNY Cobleskill"
+    },
+    {
+      "name": "Jace Miranda",
+      "number": "8",
+      "position": "A/M",
+      "classYear": "",
+      "team": "SUNY Cobleskill"
+    },
+    {
+      "name": "Owen Martin",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "SUNY Cobleskill"
+    },
+    {
+      "name": "Maddox McCarty",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "",
+      "team": "SUNY Cobleskill"
+    },
+    {
+      "name": "Iain  Patterson",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "",
+      "team": "SUNY Cobleskill"
+    },
+    {
+      "name": "Kieran Panzella",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "",
+      "team": "SUNY Cobleskill"
+    },
+    {
+      "name": "Andres Hernandez",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "SUNY Cobleskill"
+    },
+    {
+      "name": "Jordan Barrett",
+      "number": "17",
+      "position": "A/M",
+      "classYear": "",
+      "team": "SUNY Cobleskill"
+    },
+    {
+      "name": "James Meier",
+      "number": "19",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "SUNY Cobleskill"
+    },
+    {
+      "name": "Nolan Chamberlain",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "SUNY Cobleskill"
+    },
+    {
+      "name": "William Wagner",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "",
+      "team": "SUNY Cobleskill"
+    },
+    {
+      "name": "Alex Baker",
+      "number": "23",
+      "position": "A/M",
+      "classYear": "",
+      "team": "SUNY Cobleskill"
+    },
+    {
+      "name": "Chase Clark",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "SUNY Cobleskill"
+    }
+  ]
+}

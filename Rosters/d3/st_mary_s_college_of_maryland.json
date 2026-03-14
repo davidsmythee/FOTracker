@@ -1,0 +1,322 @@
+{
+  "team": "St. Mary's College of Maryland",
+  "scrapedAt": "2026-03-13T22:07:31.910272Z",
+  "playerCount": 45,
+  "players": [
+    {
+      "name": "Ty Spencer",
+      "number": "0",
+      "position": "GoalieG",
+      "classYear": "Sophomore",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Jake Polucha",
+      "number": "1",
+      "position": "DefensemanD",
+      "classYear": "Sophomore",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Adrian Garcia",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Jaydin Acevedo",
+      "number": "4",
+      "position": "Defensive MidfielderDM",
+      "classYear": "R-Sr.",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Declan Horton",
+      "number": "6",
+      "position": "Attackman/MidfielderA/M",
+      "classYear": "Junior",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Mike Williams",
+      "number": "7",
+      "position": "DefensemanD",
+      "classYear": "Junior",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Luke Maciarello",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Nick Machiran",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Braeden Colegrove",
+      "number": "11",
+      "position": "Attackman/MidfielderA/M",
+      "classYear": "Junior",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Carson Giannelli",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Joshua Martel",
+      "number": "15",
+      "position": "AttackmanA",
+      "classYear": "Senior",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Gavin Phipps",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Cooper Dunwoody",
+      "number": "17",
+      "position": "DefensemanD",
+      "classYear": "Senior",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Adam Martin",
+      "number": "18",
+      "position": "DefensemanD",
+      "classYear": "Senior",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Dominic  Carusone",
+      "number": "19",
+      "position": "DM",
+      "classYear": "Freshman",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Matteo Ciccarello",
+      "number": "20",
+      "position": "FOGOF/O",
+      "classYear": "Senior",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Jackson Pailthorp",
+      "number": "21",
+      "position": "DefensemanD",
+      "classYear": "Junior",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Gavin McKay",
+      "number": "22",
+      "position": "Attackman/MidfielderA/M",
+      "classYear": "Junior",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Jack Reiter",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "JB Lewandowski",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Alden  Neville",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "RJ Cusson",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Liam McNulty",
+      "number": "27",
+      "position": "AttackmanA",
+      "classYear": "Senior",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Bret Hussey",
+      "number": "29",
+      "position": "DefensemanD",
+      "classYear": "Junior",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Drew Sullivan",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Mike Machiran",
+      "number": "32",
+      "position": "AttackmanA",
+      "classYear": "Sophomore",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Conner Campbell",
+      "number": "33",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Cole Kleger",
+      "number": "36",
+      "position": "DefensemanD",
+      "classYear": "Sophomore",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Sam Duch",
+      "number": "38",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Noah Yoder",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Garrett Brodfuehrer",
+      "number": "41",
+      "position": "Defensive MidfielderDM",
+      "classYear": "Senior",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Carter Baynes",
+      "number": "42",
+      "position": "Long-Stick MidfielderLSM",
+      "classYear": "Sophomore",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Jack Wojciechowski",
+      "number": "43",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Santino Battista",
+      "number": "44",
+      "position": "DefensemanD",
+      "classYear": "Junior",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Brady Manankil",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Joe Szymanski",
+      "number": "55",
+      "position": "DefensemanD",
+      "classYear": "Senior",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Will Hock",
+      "number": "56",
+      "position": "Defensive MidfielderDM",
+      "classYear": "Junior",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Ryan Roth",
+      "number": "66",
+      "position": "AttackmanA",
+      "classYear": "Senior",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Jaxson Zapoli",
+      "number": "73",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Matthew Martel",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Quinn McLaughlin",
+      "number": "80",
+      "position": "AttackmanA",
+      "classYear": "Junior",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Charlie Reid",
+      "number": "81",
+      "position": "AttackmanA",
+      "classYear": "Sophomore",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Duncan Boudreau",
+      "number": "91",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Vito Martinelli",
+      "number": "96",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "St. Mary's College of Maryland"
+    },
+    {
+      "name": "Owen Wynot",
+      "number": "99",
+      "position": "AttackmanA",
+      "classYear": "Sophomore",
+      "team": "St. Mary's College of Maryland"
+    }
+  ]
+}

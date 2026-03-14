@@ -1,0 +1,371 @@
+{
+  "team": "Monmouth University",
+  "scrapedAt": "2026-01-28T20:45:12.656Z",
+  "playerCount": 52,
+  "players": [
+    {
+      "name": "Caden Kesselring",
+      "number": "0",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Matt Porazzo",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Matt Dollive",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Hayden Chester",
+      "number": "3",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Ethan  Fisher",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Landon Parker",
+      "number": "5",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Ryan O’Rourke",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Miles Fang",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Cole Dawkins",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Nick Teets",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Brendan Dundas",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Matt Schneider",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Fletcher Sullivan",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Riley Chester",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Carter Malone",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Mark Henry",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Ryan Wallace",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Gavin Seaman",
+      "number": "18",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "So.",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Bradley Wyckoff",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Miles Edmiston",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Brady Brown",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Connor Gorman",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Dominick Giglio",
+      "number": "25",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Brandon Rispoli",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Aidan Rupp",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Sean Massett",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Fr.",
+      "number": "29",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Brayden Lasensky",
+      "number": "31",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Will  Hohn Jr.",
+      "number": "32",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Cole Kruger Pitcher",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Penn State",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Conor Duncan",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "William Madden",
+      "number": "39",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Ryan Rampey",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Ben L'Hommedieu",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "James Csorba",
+      "number": "42",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Ty Caffarelli",
+      "number": "44",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Jack O'Neill",
+      "number": "45",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Will Bohne",
+      "number": "46",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Jr.",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Luke Logan",
+      "number": "48",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Kade Hoogstraten",
+      "number": "49",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Geordy Reider",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Tommy Manley",
+      "number": "51",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Ian Macrae",
+      "number": "55",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Sean Donegan",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Bobby Keane",
+      "number": "70",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Dougie Kolb",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Lincoln Oles",
+      "number": "80",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Torin Harmon",
+      "number": "88",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Monmouth University"
+    },
+    {
+      "name": "Kevin Ring",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Monmouth University"
+    }
+  ]
+}

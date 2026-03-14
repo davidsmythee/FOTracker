@@ -1,0 +1,371 @@
+{
+  "team": "Colorado College",
+  "scrapedAt": "2026-03-13T22:03:27.119566Z",
+  "playerCount": 52,
+  "players": [
+    {
+      "name": "Max Vota",
+      "number": "0",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Nick Bell",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Nick Johnson",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Logan Chapman",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Harrison Yu",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Wyatt Furda",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Cade Oxley",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Quinn Gordon",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Seth Oxley",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Will Canavan",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Elliot Muska",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Jimmy  Van Metre",
+      "number": "13",
+      "position": "Goalkeeper",
+      "classYear": "R-Jr.",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Grayson Bromfield",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Lucas Obringer",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Charlie Maier",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Roman  Tacelli",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Trevor Mackles",
+      "number": "18",
+      "position": "FOGO SpecialistFOS",
+      "classYear": "Senior",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Matt Hudson",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Charlie Faldi",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Michael  Ruffennach",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Quinn White",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Amos Hexamer",
+      "number": "27",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Jackson Lesher",
+      "number": "28",
+      "position": "Goalkeeper",
+      "classYear": "Sophomore",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Jake Moshang",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Grayson Goldin",
+      "number": "32",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Gus Townley",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Henry Lord",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Luke Smith",
+      "number": "35",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Gavin Pope",
+      "number": "36",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Trevor Flynn",
+      "number": "37",
+      "position": "FOGO SpecialistFOS",
+      "classYear": "Junior",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Bryce Ferguson",
+      "number": "38",
+      "position": "FOGO SpecialistFOS",
+      "classYear": "Freshman",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Griffin Cusack",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Austin Yu",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Robert Spence",
+      "number": "42",
+      "position": "Goalkeeper",
+      "classYear": "Senior",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Trent Delventhal",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Liam Goodwin",
+      "number": "44",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Tim Browne",
+      "number": "45",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Hayden Walmsley",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Henry Magher",
+      "number": "47",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Sam Rich",
+      "number": "48",
+      "position": "Goalkeeper",
+      "classYear": "Freshman",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Matthew Collina",
+      "number": "49",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Brooks Power",
+      "number": "50",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Charlie Madden",
+      "number": "51",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Emmett Heissan",
+      "number": "52",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Oskar Armour",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Henri Downer",
+      "number": "56",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Matthew Bailey",
+      "number": "71",
+      "position": "FOGO SpecialistFOS",
+      "classYear": "Sophomore",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Aidan  Niklaus",
+      "number": "76",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Jake Andreski",
+      "number": "77",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Jake Panzer",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Quinn Kelly",
+      "number": "91",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "Colorado College"
+    },
+    {
+      "name": "Will Honey",
+      "number": "99",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Colorado College"
+    }
+  ]
+}

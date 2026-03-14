@@ -1,0 +1,343 @@
+{
+  "team": "Ohio State University",
+  "scrapedAt": "2026-01-28T20:49:21.467Z",
+  "playerCount": 48,
+  "players": [
+    {
+      "name": "Jewel Walker",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Garrett Haas",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Jack Bichelmeyer",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Jake Cohen",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Alex Marinier",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Khalif Hocker",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Brad Sharp",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Fin Watson",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Jackson Birtwistle",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Logan Soelberg",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Sean Magtoto",
+      "number": "11",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Joe Matan",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Angelo Lamatrice",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Dylan Furshman",
+      "number": "14",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Tommy Janowicz",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Dominic Shaw",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Jack Oldman",
+      "number": "17",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Caleb Fyock",
+      "number": "18",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Jackson Walsh",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Jonny Cool",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Jake Struck",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Liam White",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Owen Magee",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Colin Puckett",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Caden Minniti",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Kevin Magee",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Alex Dixon",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Christian Hogan",
+      "number": "29",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Jack Lehman",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Russell Melendez",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Ryder Hanin",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Michael Tan",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Blake Eiland",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Kellen Curby",
+      "number": "35",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Brady Sestili",
+      "number": "36",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Matt Mayfield",
+      "number": "37",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Caden Smith",
+      "number": "38",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Taji Flynn",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Jack Allen",
+      "number": "40",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Kyle Foster",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Cullen Brown",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Dillon Magee",
+      "number": "43",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Bobby Van Buren",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "High Point",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Jack Deliberti",
+      "number": "46",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Griffin Liedel",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Winter Rivera",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Ohio State University"
+    },
+    {
+      "name": "Owen Lee",
+      "number": "51",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Ohio State University"
+    }
+  ]
+}

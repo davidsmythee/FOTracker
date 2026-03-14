@@ -1,0 +1,301 @@
+{
+  "team": "College of Wooster",
+  "scrapedAt": "2026-03-13T22:03:25.450627Z",
+  "playerCount": 42,
+  "players": [
+    {
+      "name": "Ian Marsland",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Austin Jourde",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Tim Higgin",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "CJ Collins",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Harry Brinkman",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Dylan Geary",
+      "number": "6",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Mo Bajinka",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Owen Bosland",
+      "number": "8",
+      "position": "FO/M",
+      "classYear": "Senior",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Mac Dwyer",
+      "number": "9",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Bennett Viverito",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Patrick Kane",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Sam Green",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Jack Nolan",
+      "number": "13",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Jack Holub",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Will Crane",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Alec Siegel",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Brady Wallen",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Grady Harban",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Baird Hruska",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Oscar Gerlach",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Domenic Cuda",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Charlie Zabatta",
+      "number": "23",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Samuel Briggs",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Rowan Piani",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Evan Laudenslager",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Case Lowery",
+      "number": "28",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Tobi Aina",
+      "number": "32",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "John Lloyd",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Jesse Fisher",
+      "number": "38",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "John Allen Ginder",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Cooper Nichols",
+      "number": "42",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Luke Budd",
+      "number": "43",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Braden Popper",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Harry Sorger",
+      "number": "45",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Théo Weidinger",
+      "number": "47",
+      "position": "GK",
+      "classYear": "Senior",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Luke Peter",
+      "number": "48",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Matthew Shlofrock",
+      "number": "50/36",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Matt Carroll",
+      "number": "55",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Lane Kellogg",
+      "number": "66",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Owen Thompson",
+      "number": "77",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Max Phillips",
+      "number": "88",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "College of Wooster"
+    },
+    {
+      "name": "Sutton Ursillo",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "College of Wooster"
+    }
+  ]
+}

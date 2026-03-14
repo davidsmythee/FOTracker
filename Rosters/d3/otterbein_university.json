@@ -1,0 +1,273 @@
+{
+  "team": "Otterbein University",
+  "scrapedAt": "2026-03-13T22:06:37.399238Z",
+  "playerCount": 38,
+  "players": [
+    {
+      "name": "Aidan Pirker",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Marcus Wright",
+      "number": "2",
+      "position": "Midfieldidfield",
+      "classYear": "Senior",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Sam Becker",
+      "number": "3",
+      "position": "Midfieldidfield",
+      "classYear": "Senior",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Zach Mulligan",
+      "number": "4",
+      "position": "Midfieldidfield",
+      "classYear": "Senior",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Max Luther",
+      "number": "6",
+      "position": "Attackttack",
+      "classYear": "Sophomore",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Nick King",
+      "number": "7",
+      "position": "Attack/Midfield",
+      "classYear": "Freshman",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Isaiah Smith",
+      "number": "8",
+      "position": "Defenseefense",
+      "classYear": "Junior",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Noah Sutton",
+      "number": "9",
+      "position": "Attackttack",
+      "classYear": "Sophomore",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Evan Crowe",
+      "number": "10",
+      "position": "Midfieldidfield",
+      "classYear": "Sophomore",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Zach Merrill",
+      "number": "11",
+      "position": "Attackttack",
+      "classYear": "Junior",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "AJ Wiseman",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Matthew Reader",
+      "number": "13",
+      "position": "Midfieldidfield",
+      "classYear": "Junior",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Andrew Lewis",
+      "number": "14",
+      "position": "Midfieldidfield",
+      "classYear": "Junior",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Noah West",
+      "number": "15",
+      "position": "Midfieldidfield",
+      "classYear": "Sophomore",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Cole Swallows",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Will Hoschak",
+      "number": "17",
+      "position": "GoalieGoalie",
+      "classYear": "Sophomore",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Kaiden Haag",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Isaac Wilhoit",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Teagen Davis",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Gabe Thayer",
+      "number": "22",
+      "position": "Midfieldidfield",
+      "classYear": "Sophomore",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "EJ Buggs",
+      "number": "23",
+      "position": "Defenseefense",
+      "classYear": "Sophomore",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Mitchell Kleman",
+      "number": "25",
+      "position": "Defenseefense",
+      "classYear": "Junior",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Alex Gould",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Shane Kleman",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Aiden Kight",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Max Esque",
+      "number": "31",
+      "position": "Defenseefense",
+      "classYear": "Junior",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Nick Miller",
+      "number": "32",
+      "position": "Defenseefense",
+      "classYear": "Junior",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Nate Hemeryck",
+      "number": "33",
+      "position": "Defenseefense",
+      "classYear": "Sophomore",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Louis Griese",
+      "number": "37",
+      "position": "Defenseefense",
+      "classYear": "Sophomore",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Matthew Steinmetz",
+      "number": "39",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Jacob Snyder",
+      "number": "40",
+      "position": "Midfieldidfield",
+      "classYear": "Senior",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Zach Courie",
+      "number": "42",
+      "position": "GoalieGoalie",
+      "classYear": "Junior",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Theron Cable",
+      "number": "43",
+      "position": "Defenseefense",
+      "classYear": "Senior",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Tyler Pruden",
+      "number": "44",
+      "position": "Midfieldidfield",
+      "classYear": "Sophomore",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Preston Worth",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Jack Kennedy",
+      "number": "50",
+      "position": "Attackttack",
+      "classYear": "Sophomore",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Jack Regruth",
+      "number": "51",
+      "position": "Attackttack",
+      "classYear": "Junior",
+      "team": "Otterbein University"
+    },
+    {
+      "name": "Wyatt Clemons",
+      "number": "",
+      "position": "Student Manager",
+      "classYear": "Freshman",
+      "team": "Otterbein University"
+    }
+  ]
+}

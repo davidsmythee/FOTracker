@@ -1,0 +1,371 @@
+{
+    "team": "Princeton University",
+    "scrapedAt": "2026-01-28T20:52:41.551Z",
+    "playerCount": 52,
+    "players": [
+      {
+        "name": "Colin Burns",
+        "number": "0",
+        "position": "Attack",
+        "classYear": "Junior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Mark Marino",
+        "number": "1",
+        "position": "Midfielder",
+        "classYear": "Junior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Nate Kabiri",
+        "number": "2",
+        "position": "Attack",
+        "classYear": "Junior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Cody Lam",
+        "number": "3",
+        "position": "Attack",
+        "classYear": "Sophomore",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Jackson Green",
+        "number": "4",
+        "position": "SSDM",
+        "classYear": "Junior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Ian Mize",
+        "number": "5",
+        "position": "Midfielder",
+        "classYear": "Senior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Brody Upton",
+        "number": "6",
+        "position": "Midfielder",
+        "classYear": "Junior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Zach Friedman",
+        "number": "7",
+        "position": "Defense",
+        "classYear": "Senior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Parker Reynolds",
+        "number": "8",
+        "position": "Midfielder",
+        "classYear": "Freshman",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Jacob Todd",
+        "number": "9",
+        "position": "Attack",
+        "classYear": "Junior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Chad Palumbo",
+        "number": "10",
+        "position": "Attack",
+        "classYear": "Senior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Peter Buonanno",
+        "number": "12",
+        "position": "Attack",
+        "classYear": "Sophomore",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Nick Crowley",
+        "number": "13",
+        "position": "LSM",
+        "classYear": "Senior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Owen Fischer",
+        "number": "14",
+        "position": "SSDM",
+        "classYear": "Junior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Hunter Spiess",
+        "number": "15",
+        "position": "Defense",
+        "classYear": "Junior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Jamison Moore",
+        "number": "16",
+        "position": "Midfielder",
+        "classYear": "Senior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Finn Fox",
+        "number": "17",
+        "position": "Defense",
+        "classYear": "Sophomore",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Evan Calkins",
+        "number": "18",
+        "position": "Midfielder",
+        "classYear": "Freshman",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Tucker Wade",
+        "number": "19",
+        "position": "Midfielder",
+        "classYear": "Junior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Quinn Krammer",
+        "number": "20",
+        "position": "Midfielder",
+        "classYear": "Senior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Carson Krammer",
+        "number": "21",
+        "position": "Midfielder",
+        "classYear": "Junior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Isaac Cruz",
+        "number": "22",
+        "position": "Midfielder",
+        "classYear": "Sophomore",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Colin Vickrey",
+        "number": "23",
+        "position": "Goalie",
+        "classYear": "Junior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Carter Johnson",
+        "number": "24",
+        "position": "Goalie",
+        "classYear": "Sophomore",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Caden Southworth",
+        "number": "25",
+        "position": "Midfielder",
+        "classYear": "Freshman",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Ryan Croddick",
+        "number": "26",
+        "position": "Goalie",
+        "classYear": "Senior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Will Fuller",
+        "number": "27",
+        "position": "Attack",
+        "classYear": "Freshman",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Jack Stahl",
+        "number": "28",
+        "position": "Defense",
+        "classYear": "Junior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Connor Crosby",
+        "number": "29",
+        "position": "Midfielder",
+        "classYear": "Sophomore",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Caden Frank",
+        "number": "31",
+        "position": "Defense",
+        "classYear": "Freshman",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Andrew McMeekin",
+        "number": "32",
+        "position": "FOGO",
+        "classYear": "Senior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Porter Malkiel",
+        "number": "33",
+        "position": "Attack",
+        "classYear": "Sophomore",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Matthew Kephart",
+        "number": "34",
+        "position": "Defense",
+        "classYear": "Sophomore",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Jake Vana",
+        "number": "36",
+        "position": "Midfielder",
+        "classYear": "Sophomore",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Tucker Spiess",
+        "number": "40",
+        "position": "Defense",
+        "classYear": "Freshman",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Beau Hokanson",
+        "number": "41",
+        "position": "Midfielder",
+        "classYear": "Sophomore",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Thatcher Bernstein",
+        "number": "43",
+        "position": "Attack",
+        "classYear": "Freshman",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Kevin Morrow",
+        "number": "44",
+        "position": "Defense",
+        "classYear": "Sophomore",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Cooper Revis",
+        "number": "45",
+        "position": "FOGO",
+        "classYear": "Freshman",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Wilder Burgin",
+        "number": "46",
+        "position": "SSDM",
+        "classYear": "Junior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Jim Williams",
+        "number": "47",
+        "position": "FOGO",
+        "classYear": "Senior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "John Dunphey",
+        "number": "48",
+        "position": "Midfielder",
+        "classYear": "Senior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Tyler Harris",
+        "number": "49",
+        "position": "SSDM",
+        "classYear": "Junior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Tyler McDermott",
+        "number": "50",
+        "position": "Midfielder",
+        "classYear": "Freshman",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Matt Giannetti",
+        "number": "51",
+        "position": "Defense",
+        "classYear": "Freshman",
+        "team": "Princeton University"
+      },
+      {
+        "name": "David Smythe",
+        "number": "52",
+        "position": "Midfielder",
+        "classYear": "Senior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Gus von Metzsch",
+        "number": "53",
+        "position": "Goalie",
+        "classYear": "Freshman",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Jackson Kane",
+        "number": "55",
+        "position": "Attack",
+        "classYear": "Senior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Cooper Mueller",
+        "number": "66",
+        "position": "SSDM",
+        "classYear": "Junior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Aidan McDonald",
+        "number": "77",
+        "position": "Attack",
+        "classYear": "Sophomore",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Cooper Kistler",
+        "number": "88",
+        "position": "Defense",
+        "classYear": "Senior",
+        "team": "Princeton University"
+      },
+      {
+        "name": "Russ Fitzgerald",
+        "number": "99",
+        "position": "FOGO",
+        "classYear": "Freshman",
+        "team": "Princeton University"
+      }
+    ]
+  }

@@ -1,0 +1,126 @@
+{
+  "team": "Earlham College",
+  "scrapedAt": "2026-03-13T22:03:48.238987Z",
+  "playerCount": 17,
+  "players": [
+    {
+      "name": "Khalime Truell",
+      "number": "0",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Earlham College"
+    },
+    {
+      "name": "Giovanni Randazzo",
+      "number": "2",
+      "position": "Mid.",
+      "classYear": "Sophomore",
+      "team": "Earlham College"
+    },
+    {
+      "name": "Izreal Santisteban",
+      "number": "3",
+      "position": "Mid.",
+      "classYear": "Sophomore",
+      "team": "Earlham College"
+    },
+    {
+      "name": "Ryan Polack",
+      "number": "4",
+      "position": "Mid.",
+      "classYear": "Senior",
+      "team": "Earlham College"
+    },
+    {
+      "name": "Cape McAlhaney",
+      "number": "8",
+      "position": "Mid.",
+      "classYear": "Sophomore",
+      "team": "Earlham College"
+    },
+    {
+      "name": "Quin McLeod",
+      "number": "9",
+      "position": "Mid.",
+      "classYear": "Freshman",
+      "team": "Earlham College"
+    },
+    {
+      "name": "Don Papa Fall",
+      "number": "12",
+      "position": "Mid.",
+      "classYear": "Sophomore",
+      "team": "Earlham College"
+    },
+    {
+      "name": "Robbie Gift",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Earlham College"
+    },
+    {
+      "name": "Saxon Coleman",
+      "number": "16",
+      "position": "F.O.",
+      "classYear": "Freshman",
+      "team": "Earlham College"
+    },
+    {
+      "name": "Ryan Dolafi",
+      "number": "18",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "Earlham College"
+    },
+    {
+      "name": "Ethan Upton",
+      "number": "22",
+      "position": "Def.",
+      "classYear": "Senior",
+      "team": "Earlham College"
+    },
+    {
+      "name": "MacIntyre Lennon",
+      "number": "23",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "Earlham College"
+    },
+    {
+      "name": "Brady Shaw",
+      "number": "25",
+      "position": "F.O.",
+      "classYear": "Senior",
+      "team": "Earlham College"
+    },
+    {
+      "name": "Ivan Pineda",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Earlham College"
+    },
+    {
+      "name": "Liam McGlynn",
+      "number": "77",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Earlham College"
+    },
+    {
+      "name": "Elijah Adamson",
+      "number": "88",
+      "position": "Def.",
+      "classYear": "Senior",
+      "team": "Earlham College"
+    },
+    {
+      "name": "Thoms Toussaint",
+      "number": "99",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "Earlham College"
+    }
+  ]
+}

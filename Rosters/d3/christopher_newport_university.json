@@ -1,0 +1,427 @@
+{
+  "team": "Christopher Newport University",
+  "scrapedAt": "2026-03-13T22:03:18.778718Z",
+  "playerCount": 60,
+  "players": [
+    {
+      "name": "Mason Bellinger",
+      "number": "1",
+      "position": "GK",
+      "classYear": "Senior",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Kevin Miller",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Jayden Hardnett",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Bennett Spruell",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Randolph Campbell",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Gabe Montognese",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Fred Fulkerson",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Jackson Shaw",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Brett Kelley",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Daniel Siaton",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Brady Mitchell",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Joey Fantinato",
+      "number": "12",
+      "position": "A/M",
+      "classYear": "Sophomore",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Garrett Bralley",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "John Santoro",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Graduate",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Ryan Traynor",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Ryan Almassian",
+      "number": "16",
+      "position": "D/LSM",
+      "classYear": "Senior",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Blaise Coley",
+      "number": "17",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Jack Martinez",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Chris Lewis",
+      "number": "19",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Jackson Platner",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "AJ Rosacker",
+      "number": "21",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Jamie Smith",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Danny Kaplan",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Patrick Dunn",
+      "number": "24",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Ethan Slusher",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Rory Keverline",
+      "number": "27",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Jude MacLean",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Garrett Talkington",
+      "number": "29",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Keegan Smith",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Caden Cunningham",
+      "number": "31",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Blake Levicki",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Connor Bade",
+      "number": "33",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Aidan Tuzik",
+      "number": "34",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Zach Ward",
+      "number": "35",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Jack Thompson",
+      "number": "36",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Mark Cook",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Connor Pinto",
+      "number": "38",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Grant Giunchi",
+      "number": "40",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Cooper Lindsay",
+      "number": "41",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Matt McCabe",
+      "number": "42",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Chaz Dechene",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Tyler Yang",
+      "number": "44",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Colin DeGrassi",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Graduate",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Henry Maiden",
+      "number": "46",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Ryan Miller",
+      "number": "47",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Kyle Pinto",
+      "number": "48",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Jack Herron",
+      "number": "49",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Will Cramp",
+      "number": "50",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Luke Solomon",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Josh Pope",
+      "number": "52",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "James Earls",
+      "number": "53",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Conner Derogatis",
+      "number": "54",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Jed Pellicano",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Armer Harrison",
+      "number": "56",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Declan McCulloch",
+      "number": "57",
+      "position": "GK",
+      "classYear": "Junior",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Jack Wheatley",
+      "number": "58",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Karson Seth",
+      "number": "59",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Brendan Medearis",
+      "number": "60",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Levi Wentz",
+      "number": "61",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Christopher Newport University"
+    },
+    {
+      "name": "Mark Davison",
+      "number": "62",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Christopher Newport University"
+    }
+  ]
+}

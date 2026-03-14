@@ -1,0 +1,413 @@
+{
+  "team": "Stevenson University",
+  "scrapedAt": "2026-03-13T22:07:35.468941Z",
+  "playerCount": 58,
+  "players": [
+    {
+      "name": "Tyler Merchant",
+      "number": "0/42",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Hunter Bryant",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Carter Grear",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Connor Dunay",
+      "number": "3",
+      "position": "FOGOFO",
+      "classYear": "Junior",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Nik Leahan",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "John Martin Vince",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Seth Grossman",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Jon Brennan",
+      "number": "7",
+      "position": "Defense/Long Stick MidD/LSM",
+      "classYear": "Sophomore",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Camden Deming",
+      "number": "8",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Sophomore",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Justin Bordner",
+      "number": "9",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Brennan McKneely",
+      "number": "10",
+      "position": "Defense/MidfieldD/M",
+      "classYear": "Senior",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Darrell Curtis",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Ayden Fadrowski",
+      "number": "12",
+      "position": "Defense/Long Stick MidD/LSM",
+      "classYear": "Junior",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Alexander Wilson",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Owen Johnson",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Trevor King",
+      "number": "16",
+      "position": "Defense/Long Stick MidD/LSM",
+      "classYear": "Sophomore",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Kieran Banks",
+      "number": "17",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Colton Loughin",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Hayden Domers",
+      "number": "19",
+      "position": "Defense/MidfieldD/M",
+      "classYear": "Freshman",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Ethan Washington",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Peyton LaRocco",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Camden Miller",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Zachary Cotton",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Gavin Gossen",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Ryan Tessler",
+      "number": "26",
+      "position": "Defense/Long Stick MidD/LSM",
+      "classYear": "Freshman",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Jesse Resnick",
+      "number": "27",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Senior",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Max Racich",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Giovanni Daddario",
+      "number": "30",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Piercen Haehnel",
+      "number": "31",
+      "position": "Long Stick MidLSM",
+      "classYear": "Freshman",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Cadigan Kimball",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Mason Blacktopp",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Owen McDevitt",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Wyatt Fortune",
+      "number": "35",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Dominic Jennings",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Landon Chaney",
+      "number": "37",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Blake Austin",
+      "number": "38",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Steven Evans",
+      "number": "40",
+      "position": "Defense/Long Stick MidD/LSM",
+      "classYear": "Sophomore",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Kaden Snead",
+      "number": "41",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "James Gorman",
+      "number": "42",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Garrett Brenkart",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Cameron Rice",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Reilly Pablo",
+      "number": "45",
+      "position": "Long Stick MidLSM",
+      "classYear": "Sophomore",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Jackson Harris",
+      "number": "46",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Nicholas Ungerland",
+      "number": "47",
+      "position": "GoaliesG",
+      "classYear": "Freshman",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Tyler Rardin",
+      "number": "48",
+      "position": "Attack/Midfield/FOGOA/M/FO",
+      "classYear": "Freshman",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Ali Hashm",
+      "number": "49",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Anthony Abromaitis",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Darien Green",
+      "number": "51",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Dominic Eckels",
+      "number": "52",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Kariq Waters",
+      "number": "57",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "AJ Cather",
+      "number": "62",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Gary Bavetta",
+      "number": "63",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "David Brown",
+      "number": "64",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Mike Carter, Jr.",
+      "number": "65",
+      "position": "Long Stick MidLSM",
+      "classYear": "Junior",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Thomas Tyler",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Max Islas",
+      "number": "77",
+      "position": "FOGOFO",
+      "classYear": "Senior",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Kaleb Russell",
+      "number": "88",
+      "position": "Attack/MidfieldA/M",
+      "classYear": "Senior",
+      "team": "Stevenson University"
+    },
+    {
+      "name": "Trent Mettler",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Stevenson University"
+    }
+  ]
+}

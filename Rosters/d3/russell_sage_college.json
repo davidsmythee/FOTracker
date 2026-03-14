@@ -1,0 +1,133 @@
+{
+  "team": "Russell Sage College",
+  "scrapedAt": "2026-03-14T00:50:41.309999Z",
+  "playerCount": 18,
+  "players": [
+    {
+      "name": "Gamo Koulibaly",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Russell Sage College"
+    },
+    {
+      "name": "Brady Dubay",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Russell Sage College"
+    },
+    {
+      "name": "Garrison Decker",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Russell Sage College"
+    },
+    {
+      "name": "Andrew Cevallos",
+      "number": "5",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Russell Sage College"
+    },
+    {
+      "name": "Ashton Bombard",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Russell Sage College"
+    },
+    {
+      "name": "Aaron Alvarez",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Russell Sage College"
+    },
+    {
+      "name": "Dylan Baisley",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Russell Sage College"
+    },
+    {
+      "name": "Carson Pesce",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Russell Sage College"
+    },
+    {
+      "name": "Mason Marckres",
+      "number": "21",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Russell Sage College"
+    },
+    {
+      "name": "Ryan Blake",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Graduate",
+      "team": "Russell Sage College"
+    },
+    {
+      "name": "Drake Krajewski",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Russell Sage College"
+    },
+    {
+      "name": "Andrew Collora",
+      "number": "30",
+      "position": "G/M",
+      "classYear": "Senior",
+      "team": "Russell Sage College"
+    },
+    {
+      "name": "Mame Diba",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Russell Sage College"
+    },
+    {
+      "name": "Ricardo James",
+      "number": "42",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Russell Sage College"
+    },
+    {
+      "name": "Doan Sangare",
+      "number": "44",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Russell Sage College"
+    },
+    {
+      "name": "Andrew Meyer",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Russell Sage College"
+    },
+    {
+      "name": "Matthew DeSocio",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Russell Sage College"
+    },
+    {
+      "name": "Jordon Hankel",
+      "number": "99",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Russell Sage College"
+    }
+  ]
+}

@@ -1,0 +1,462 @@
+{
+  "team": "Stevens Institute of Technology",
+  "scrapedAt": "2026-03-13T22:07:33.414374Z",
+  "playerCount": 65,
+  "players": [
+    {
+      "name": "Chris Ciccarello",
+      "number": "0",
+      "position": "Midfield",
+      "classYear": "Graduate",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Hudson Rocheville",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Blake Creamer",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Graduate",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "William Fritsche",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Samuel Bruno",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Charlie Robbins",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Bastian Chorazykiewicz",
+      "number": "7",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Matthew Pergola",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Tynan Murray",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Jack Tenaglia",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Jackson Penn",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Will Labartino",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Graduate",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Connor Moore",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "John Flynn",
+      "number": "14",
+      "position": "LSMLSM",
+      "classYear": "Sophomore",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Jackson Zarinko",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Kevin Burns",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Griffin Zimmerli",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Dane Lewis",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Michael Jannotte",
+      "number": "19",
+      "position": "GoalieGK",
+      "classYear": "Fy.",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Will Giarrusso",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Matthew Bologna",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Graduate",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Connor Criniti",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Luke Field",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Gavin Zeldin",
+      "number": "24",
+      "position": "GoalieGK",
+      "classYear": "Sophomore",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Kurt Schillinger",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Luigi Pantano",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Adam DeCristofaro",
+      "number": "28",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "J.T. Villella",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Preston Duffy",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Sean Carravone",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Brendan Ward",
+      "number": "33",
+      "position": "DefenseM",
+      "classYear": "Sophomore",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Noah Spencer",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Liam Blondin",
+      "number": "35",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Danny Winkler",
+      "number": "36",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "William Krieg",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Luke Shaffer",
+      "number": "38",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Ryan Jack",
+      "number": "39",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Simon Hanford",
+      "number": "40",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Matthew Kirschner",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Mason Kelly",
+      "number": "42",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Mac Waynick",
+      "number": "43",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Lucas Long",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Tyler Holland",
+      "number": "45",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "James Carey IV",
+      "number": "47",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Evan McHugh",
+      "number": "48",
+      "position": "GoalieGK",
+      "classYear": "Fy.",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Dustin Arsich",
+      "number": "49",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Daniel Garvey",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Joe Leone",
+      "number": "51",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Jackson Blanks",
+      "number": "52",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Joe Vignali",
+      "number": "53",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Luke Cifuentes",
+      "number": "54",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Dylan Marzec",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Spencer Lee",
+      "number": "56",
+      "position": "GoalieGK",
+      "classYear": "Sophomore",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "John Caldiero",
+      "number": "58",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Connor Sanford",
+      "number": "60",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Aidan Peterson",
+      "number": "62",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Tyler Johnson",
+      "number": "63",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Andrew Becton",
+      "number": "64",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Quinn O’Neill",
+      "number": "66",
+      "position": "Midfield",
+      "classYear": "Fy.",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Aidan Nelson",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Logan Farney",
+      "number": "78",
+      "position": "LSMLSM",
+      "classYear": "Sophomore",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Kevin Duffy",
+      "number": "88",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "James Amorosi",
+      "number": "90",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Miles du Bois",
+      "number": "91",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Stevens Institute of Technology"
+    },
+    {
+      "name": "Luke Lesizza",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Stevens Institute of Technology"
+    }
+  ]
+}

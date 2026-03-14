@@ -1,0 +1,406 @@
+{
+  "team": "Dickinson College",
+  "scrapedAt": "2026-03-13T22:03:45.039839Z",
+  "playerCount": 57,
+  "players": [
+    {
+      "name": "Ramsey Huggins",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Parker Polgar",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Ryan Backus",
+      "number": "3",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Landen Hyatt",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Taner Marusa",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Mac Childs",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Jake Olin",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Evan Giachinta",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Jamie Book",
+      "number": "11",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "James Bruno",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Brendan Kempske",
+      "number": "14",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Cullen Mulhern",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Will Single",
+      "number": "16",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Campbell Reid",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "R-So.",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Christian Swope",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Rocco Bognet",
+      "number": "19",
+      "position": "GK",
+      "classYear": "Junior",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Walker Fiore",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Sam Bunten",
+      "number": "21",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Luke Whalen",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Chase Squires",
+      "number": "23",
+      "position": "FOGO",
+      "classYear": "Fy.",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Drew Stark",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Preston Boyd",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Charlie Holmes",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Tommy Baldini",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Ethan Ferrant",
+      "number": "29",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Charlie Corwin",
+      "number": "30",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Henry Fernandez",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Jack Deady",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Ben Monroe",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Ethan Ackerman",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Joey Wood",
+      "number": "35",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Jack Trovato",
+      "number": "36",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "AJ Parrella",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Eyasu Kelly",
+      "number": "38",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Sean Kenny",
+      "number": "39",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Jake Hilgartner",
+      "number": "40",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Charlie Cunningham",
+      "number": "41",
+      "position": "LSM",
+      "classYear": "Fy.",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Jack Knesich",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Jack Cratty",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Charlie Baughan",
+      "number": "44",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Jack Schmelzer",
+      "number": "45",
+      "position": "GK",
+      "classYear": "Fy.",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Owen Binder",
+      "number": "46",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Quinn Donovan",
+      "number": "47",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Reid Bulger",
+      "number": "48",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Will McDonald",
+      "number": "49",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Ryan Banaciski",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Luke Devlin",
+      "number": "51",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Andrew Atkins",
+      "number": "52",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Quinn McHenry-Assaf",
+      "number": "53",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Will Hoff",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Dylan Lefton",
+      "number": "56",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Josef Zyngier",
+      "number": "57",
+      "position": "GK",
+      "classYear": "Sophomore",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "PJ Ruggiero",
+      "number": "59",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Caleb Oliver",
+      "number": "66",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Hayden Warren",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Jack Broderick",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Dickinson College"
+    },
+    {
+      "name": "Domani White",
+      "number": "91",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Dickinson College"
+    }
+  ]
+}

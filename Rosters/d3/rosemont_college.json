@@ -1,0 +1,133 @@
+{
+  "team": "Rosemont College",
+  "scrapedAt": "2026-03-13T22:07:04.132820Z",
+  "playerCount": 18,
+  "players": [
+    {
+      "name": "Nathan Edwards",
+      "number": "1",
+      "position": "6'5\"",
+      "classYear": "Senior",
+      "team": "Rosemont College"
+    },
+    {
+      "name": "Nathan Howe",
+      "number": "3",
+      "position": "5'11\"",
+      "classYear": "Sophomore",
+      "team": "Rosemont College"
+    },
+    {
+      "name": "Jason Bonilla",
+      "number": "4",
+      "position": "5'9\"",
+      "classYear": "Junior",
+      "team": "Rosemont College"
+    },
+    {
+      "name": "J. Patrick O'Donnell Jr.",
+      "number": "6",
+      "position": "6'0\"",
+      "classYear": "Senior",
+      "team": "Rosemont College"
+    },
+    {
+      "name": "Duncan Smith",
+      "number": "7",
+      "position": "5'10\"",
+      "classYear": "Junior",
+      "team": "Rosemont College"
+    },
+    {
+      "name": "Frank Usavage",
+      "number": "8",
+      "position": "6'2\"",
+      "classYear": "Sophomore",
+      "team": "Rosemont College"
+    },
+    {
+      "name": "Kody Lubischer",
+      "number": "9",
+      "position": "5'9\"",
+      "classYear": "Sophomore",
+      "team": "Rosemont College"
+    },
+    {
+      "name": "Ralph Jeudy",
+      "number": "10",
+      "position": "6'2\"",
+      "classYear": "Junior",
+      "team": "Rosemont College"
+    },
+    {
+      "name": "Bai Saine",
+      "number": "12",
+      "position": "6'5\"",
+      "classYear": "Sophomore",
+      "team": "Rosemont College"
+    },
+    {
+      "name": "Jayden Hogg",
+      "number": "13",
+      "position": "5'9\"",
+      "classYear": "Senior",
+      "team": "Rosemont College"
+    },
+    {
+      "name": "James Czarnaski",
+      "number": "15",
+      "position": "5'10\"",
+      "classYear": "Senior",
+      "team": "Rosemont College"
+    },
+    {
+      "name": "Jared Sullivan",
+      "number": "20",
+      "position": "6'6\"",
+      "classYear": "Senior",
+      "team": "Rosemont College"
+    },
+    {
+      "name": "Brandon Barreiro",
+      "number": "21",
+      "position": "6'0\"",
+      "classYear": "Sophomore",
+      "team": "Rosemont College"
+    },
+    {
+      "name": "Navarro Blakes",
+      "number": "22",
+      "position": "5'11\"",
+      "classYear": "Senior",
+      "team": "Rosemont College"
+    },
+    {
+      "name": "Michael Dukes",
+      "number": "23",
+      "position": "6'0\"",
+      "classYear": "Freshman",
+      "team": "Rosemont College"
+    },
+    {
+      "name": "Greg Wever",
+      "number": "26",
+      "position": "5'11\"",
+      "classYear": "Senior",
+      "team": "Rosemont College"
+    },
+    {
+      "name": "Andrew \"Juice\" Menold",
+      "number": "28",
+      "position": "5'8\"",
+      "classYear": "Junior",
+      "team": "Rosemont College"
+    },
+    {
+      "name": "Brandon Moore",
+      "number": "29",
+      "position": "6'6\"",
+      "classYear": "Senior",
+      "team": "Rosemont College"
+    }
+  ]
+}

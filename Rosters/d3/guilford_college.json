@@ -1,0 +1,126 @@
+{
+  "team": "Guilford College",
+  "scrapedAt": "2026-03-13T22:04:23.270074Z",
+  "playerCount": 17,
+  "players": [
+    {
+      "name": "Will Parham",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Guilford College"
+    },
+    {
+      "name": "Brendon Bradford",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Guilford College"
+    },
+    {
+      "name": "Taiwo Jones",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Guilford College"
+    },
+    {
+      "name": "Kale Cushing",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Guilford College"
+    },
+    {
+      "name": "Christian Jackson",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Guilford College"
+    },
+    {
+      "name": "Jason Campbell",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Guilford College"
+    },
+    {
+      "name": "Nick Iannone",
+      "number": "9",
+      "position": "FOGO SpecialistFOS",
+      "classYear": "Senior",
+      "team": "Guilford College"
+    },
+    {
+      "name": "Camo Campbell",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Guilford College"
+    },
+    {
+      "name": "Dom Bialer",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Guilford College"
+    },
+    {
+      "name": "Hudson Bosland",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Guilford College"
+    },
+    {
+      "name": "Tyler Gordon",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Guilford College"
+    },
+    {
+      "name": "Kenneth Crowley",
+      "number": "15",
+      "position": "Attack/MidfielderA/M",
+      "classYear": "Junior",
+      "team": "Guilford College"
+    },
+    {
+      "name": "Adrian Moorman",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Guilford College"
+    },
+    {
+      "name": "Antonio Puopolo",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Guilford College"
+    },
+    {
+      "name": "Joshua Garrido",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Guilford College"
+    },
+    {
+      "name": "Darius Safavi-Abbassi",
+      "number": "32",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "Guilford College"
+    },
+    {
+      "name": "Lucas Satterwhite",
+      "number": "43",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "Guilford College"
+    }
+  ]
+}

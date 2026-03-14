@@ -1,0 +1,329 @@
+{
+  "team": "Kenyon College",
+  "scrapedAt": "2026-03-13T22:05:10.584586Z",
+  "playerCount": 46,
+  "players": [
+    {
+      "name": "Mike D’Eletto",
+      "number": "1",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Owen Breen",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Lucas Flynn",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Gavin Gumucio",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Jac Dimaculangan",
+      "number": "5",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Grayson Goodman",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Charlie Spottiswoode",
+      "number": "7",
+      "position": "D/LSM",
+      "classYear": "Sophomore",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Cole Abel",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Miles Malawer",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Ben Devitis",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Tanner Lewis",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Jack Michaels",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Charlie  Ackermann",
+      "number": "13",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Alex Haag",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Mike Kapral",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Henry Wooster",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Jack Levitt",
+      "number": "17",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Kevin McCarthy",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Will  Dunhill",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Vincent  Trueworthy",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "David Chintala",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Davis Minzler",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Luke Riney",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Will Jordan",
+      "number": "25",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Harrison Curtiss",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Gavin Collins",
+      "number": "27",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Charlie  Dailey",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Kieran Hoffman",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Roger Muckenfuss",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Henry  Murchinson",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Antonio Miguens",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Charlie Fields",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Finley Radding",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Adam Hall",
+      "number": "35",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Jack  Berman",
+      "number": "37",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Nathan Johnston",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Scott Speaker",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Henry Powell",
+      "number": "41",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Harry Clark",
+      "number": "42",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Jackson  Ezgar",
+      "number": "43",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Michael Matlow",
+      "number": "44",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Colin Williams",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Jakob Andreassen",
+      "number": "47",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Will Setteducate",
+      "number": "50",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Jack  Laganza",
+      "number": "51",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Kenyon College"
+    },
+    {
+      "name": "Henry Moderelli",
+      "number": "53",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Kenyon College"
+    }
+  ]
+}

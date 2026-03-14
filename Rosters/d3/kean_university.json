@@ -1,0 +1,273 @@
+{
+  "team": "Kean University",
+  "scrapedAt": "2026-03-13T22:05:07.367847Z",
+  "playerCount": 38,
+  "players": [
+    {
+      "name": "Christian Updale",
+      "number": "00",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Kean University"
+    },
+    {
+      "name": "Tommy Egan",
+      "number": "1",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Kean University"
+    },
+    {
+      "name": "Brandon Stuart",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Kean University"
+    },
+    {
+      "name": "Dylan Johnson",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Kean University"
+    },
+    {
+      "name": "Ricky Iapoce",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Kean University"
+    },
+    {
+      "name": "Luca Vizzini",
+      "number": "6",
+      "position": "GK",
+      "classYear": "Freshman",
+      "team": "Kean University"
+    },
+    {
+      "name": "Pasquale Capozzoli",
+      "number": "7",
+      "position": "GK",
+      "classYear": "Senior",
+      "team": "Kean University"
+    },
+    {
+      "name": "Tyler Holste",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Kean University"
+    },
+    {
+      "name": "Dennis Serra",
+      "number": "9",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Kean University"
+    },
+    {
+      "name": "TJ Mills",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Kean University"
+    },
+    {
+      "name": "Drew Tucker",
+      "number": "11",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Kean University"
+    },
+    {
+      "name": "Jackson Wastell",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Kean University"
+    },
+    {
+      "name": "Alex Stanuikynas",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Kean University"
+    },
+    {
+      "name": "Evan Wilkins",
+      "number": "14",
+      "position": "DM",
+      "classYear": "Sophomore",
+      "team": "Kean University"
+    },
+    {
+      "name": "Billy Marks",
+      "number": "15",
+      "position": "DM",
+      "classYear": "Junior",
+      "team": "Kean University"
+    },
+    {
+      "name": "Jesse Bentrewicz",
+      "number": "16",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Kean University"
+    },
+    {
+      "name": "Anthony Sorrentino",
+      "number": "17",
+      "position": "DM",
+      "classYear": "Senior",
+      "team": "Kean University"
+    },
+    {
+      "name": "Mitch Dakin",
+      "number": "18",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Kean University"
+    },
+    {
+      "name": "Jonathan Ruff",
+      "number": "19",
+      "position": "DM",
+      "classYear": "Junior",
+      "team": "Kean University"
+    },
+    {
+      "name": "Ian Menzel",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Kean University"
+    },
+    {
+      "name": "Aarin Arbore",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Kean University"
+    },
+    {
+      "name": "Colin Devine",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Kean University"
+    },
+    {
+      "name": "Miguel Lontok",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Kean University"
+    },
+    {
+      "name": "John Westbrook",
+      "number": "24",
+      "position": "GK",
+      "classYear": "Junior",
+      "team": "Kean University"
+    },
+    {
+      "name": "Tyler Jarvis",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Kean University"
+    },
+    {
+      "name": "Jacob Dvoor",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Kean University"
+    },
+    {
+      "name": "Luke Myre",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Kean University"
+    },
+    {
+      "name": "Tyler Scott",
+      "number": "28",
+      "position": "DM",
+      "classYear": "Senior",
+      "team": "Kean University"
+    },
+    {
+      "name": "Kurtis Cina",
+      "number": "29",
+      "position": "DM",
+      "classYear": "Junior",
+      "team": "Kean University"
+    },
+    {
+      "name": "Nick Paterno",
+      "number": "30",
+      "position": "GK",
+      "classYear": "Senior",
+      "team": "Kean University"
+    },
+    {
+      "name": "Gregory Reilly",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Kean University"
+    },
+    {
+      "name": "Jake Gruzas",
+      "number": "32",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Kean University"
+    },
+    {
+      "name": "John McCabe",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Kean University"
+    },
+    {
+      "name": "Wilfredo Crispin",
+      "number": "40",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Kean University"
+    },
+    {
+      "name": "Jake Cirminiello",
+      "number": "43",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Kean University"
+    },
+    {
+      "name": "Jack Turner",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Kean University"
+    },
+    {
+      "name": "Oliver Lugo",
+      "number": "77",
+      "position": "Midfielder",
+      "classYear": "5th",
+      "team": "Kean University"
+    },
+    {
+      "name": "Aaron Boccio",
+      "number": "99",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Kean University"
+    }
+  ]
+}

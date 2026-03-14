@@ -1,0 +1,413 @@
+{
+  "team": "Babson College",
+  "scrapedAt": "2026-03-13T22:02:43.293472Z",
+  "playerCount": 58,
+  "players": [
+    {
+      "name": "Andrew Almquist",
+      "number": "1",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Babson College"
+    },
+    {
+      "name": "Nick Marsh",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Babson College"
+    },
+    {
+      "name": "Luke D'Orsi",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Grayson Ambrosh",
+      "number": "4",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Babson College"
+    },
+    {
+      "name": "Tyee Ambrosh",
+      "number": "5",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Reid Vandenberg",
+      "number": "6",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "Babson College"
+    },
+    {
+      "name": "Chase Wightman",
+      "number": "7",
+      "position": "A/M",
+      "classYear": "Sophomore",
+      "team": "Babson College"
+    },
+    {
+      "name": "Jack Feeks",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Babson College"
+    },
+    {
+      "name": "David Santa Maria",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Babson College"
+    },
+    {
+      "name": "Jake Murray",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Babson College"
+    },
+    {
+      "name": "Joey Allen",
+      "number": "11",
+      "position": "A/M",
+      "classYear": "Graduate",
+      "team": "Babson College"
+    },
+    {
+      "name": "Chase Wise",
+      "number": "12",
+      "position": "M/SSDM",
+      "classYear": "Freshman",
+      "team": "Babson College"
+    },
+    {
+      "name": "Mark Brown",
+      "number": "13",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Babson College"
+    },
+    {
+      "name": "Alex Schobel",
+      "number": "14",
+      "position": "M/SSDM",
+      "classYear": "Freshman",
+      "team": "Babson College"
+    },
+    {
+      "name": "Andrew  Berardi",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Cash McCoy",
+      "number": "16",
+      "position": "A/M",
+      "classYear": "Freshman",
+      "team": "Babson College"
+    },
+    {
+      "name": "Jackson Simon",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Hong (Tre) Ahn",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Tommy French",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Josh Queen",
+      "number": "20",
+      "position": "M/SSDM",
+      "classYear": "Freshman",
+      "team": "Babson College"
+    },
+    {
+      "name": "Beck  Trafton",
+      "number": "21",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Babson College"
+    },
+    {
+      "name": "Christian Peterman",
+      "number": "22",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Babson College"
+    },
+    {
+      "name": "Theo Breton",
+      "number": "23",
+      "position": "M/SSDM",
+      "classYear": "Junior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Daivyon Williams",
+      "number": "24",
+      "position": "M/SSDM",
+      "classYear": "Freshman",
+      "team": "Babson College"
+    },
+    {
+      "name": "Drew Scott",
+      "number": "25",
+      "position": "A/M",
+      "classYear": "Senior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Sam Sisk",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Jake Caldwell",
+      "number": "27",
+      "position": "M/SSDM",
+      "classYear": "Sophomore",
+      "team": "Babson College"
+    },
+    {
+      "name": "Jesse Buchanan",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Babson College"
+    },
+    {
+      "name": "Anthony Stillwell",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Connor Marciano",
+      "number": "30",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "Babson College"
+    },
+    {
+      "name": "Camden Matthews",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Samir McElroy",
+      "number": "32",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Henry Rome",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Babson College"
+    },
+    {
+      "name": "Seamus Rooney",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Aidan Adams",
+      "number": "35",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Babson College"
+    },
+    {
+      "name": "Bruno  Batty",
+      "number": "36",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Ryan Gaudion",
+      "number": "37",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Babson College"
+    },
+    {
+      "name": "Cooper Chapman",
+      "number": "38",
+      "position": "A/M",
+      "classYear": "Junior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Rowan Mondello",
+      "number": "39",
+      "position": "M/SSDM",
+      "classYear": "Junior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Mason Dorr",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Graduate",
+      "team": "Babson College"
+    },
+    {
+      "name": "Carter DeWitt",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Babson College"
+    },
+    {
+      "name": "Will Reading",
+      "number": "42",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Jay Ellison",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Babson College"
+    },
+    {
+      "name": "Chris Trebing",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Sam Erjavac",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Ryan Barsi",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Babson College"
+    },
+    {
+      "name": "Kole Roberto",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Babson College"
+    },
+    {
+      "name": "Ellis McDonald",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Patrick McAleavey",
+      "number": "50",
+      "position": "A/M",
+      "classYear": "Graduate",
+      "team": "Babson College"
+    },
+    {
+      "name": "Ryan St. Onge",
+      "number": "52",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Arthur Peters",
+      "number": "53",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Luke Wang",
+      "number": "54",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Terry Li",
+      "number": "55",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Braden Reilly",
+      "number": "56",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Ethan Swenson",
+      "number": "57",
+      "position": "M/SSDM",
+      "classYear": "Junior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Hugh Curran",
+      "number": "60",
+      "position": "Defense",
+      "classYear": "Graduate",
+      "team": "Babson College"
+    },
+    {
+      "name": "Bennett Smith",
+      "number": "79",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Babson College"
+    },
+    {
+      "name": "Beau Burns",
+      "number": "88",
+      "position": "FOGO",
+      "classYear": "Graduate",
+      "team": "Babson College"
+    }
+  ]
+}

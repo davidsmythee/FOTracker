@@ -514,12 +514,13 @@ export default class FaceOffTracker {
         }
     }
 
-    async createFolder(name, hasCumulativeTracker = false) {
+    async createFolder(name, hasCumulativeTracker = false, parentFolderId = null) {
         const id = `${this.FOLDER_ID_PREFIX}${Date.now()}`;
         this.folders[id] = {
             id,
             name,
             hasCumulativeTracker,
+            parentFolderId: parentFolderId || null,
             createdAt: new Date().toISOString(),
             updatedAt: new Date().toISOString(),
             isFolder: true

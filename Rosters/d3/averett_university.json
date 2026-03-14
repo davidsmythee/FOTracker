@@ -1,0 +1,196 @@
+{
+  "team": "Averett University",
+  "scrapedAt": "2026-03-13T22:02:41.807421Z",
+  "playerCount": 27,
+  "players": [
+    {
+      "name": "Cameron Shadduck",
+      "number": "0",
+      "position": "Midfield/FOGOM/FO",
+      "classYear": "Junior",
+      "team": "Averett University"
+    },
+    {
+      "name": "Zachary Hulbert",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Averett University"
+    },
+    {
+      "name": "Zac Coleman",
+      "number": "3",
+      "position": "Midfield/FOGOM/FO",
+      "classYear": "Junior",
+      "team": "Averett University"
+    },
+    {
+      "name": "Giovanni D'Amico",
+      "number": "4",
+      "position": "Defense/Longstick MidfieldD/LSM",
+      "classYear": "Junior",
+      "team": "Averett University"
+    },
+    {
+      "name": "Deven Perry",
+      "number": "5",
+      "position": "Longstick Midfield/DefenseLSM/D",
+      "classYear": "Sophomore",
+      "team": "Averett University"
+    },
+    {
+      "name": "Jared Carollo-Miller",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Averett University"
+    },
+    {
+      "name": "Jacob Barry",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Averett University"
+    },
+    {
+      "name": "Brayden Smokovitz",
+      "number": "8",
+      "position": "Longstick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "Averett University"
+    },
+    {
+      "name": "Matthew Clark",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Averett University"
+    },
+    {
+      "name": "Emmett Wood",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Averett University"
+    },
+    {
+      "name": "Connor Boyd",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Averett University"
+    },
+    {
+      "name": "Caleb Offner",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Averett University"
+    },
+    {
+      "name": "Luis Martinez",
+      "number": "14",
+      "position": "Longstick Midfield/DefenseLSM/D",
+      "classYear": "Senior",
+      "team": "Averett University"
+    },
+    {
+      "name": "Casey Peterson",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Averett University"
+    },
+    {
+      "name": "Gavin Dean",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Averett University"
+    },
+    {
+      "name": "Angel Pascual Roman",
+      "number": "20",
+      "position": "Defense/Longstick MidfieldD/LSM",
+      "classYear": "Senior",
+      "team": "Averett University"
+    },
+    {
+      "name": "Tyler Habick",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Averett University"
+    },
+    {
+      "name": "Gabe Gallegos",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Averett University"
+    },
+    {
+      "name": "Johnny Johnson",
+      "number": "32",
+      "position": "Goalkeeper",
+      "classYear": "Freshman",
+      "team": "Averett University"
+    },
+    {
+      "name": "Erick Quintanilla",
+      "number": "34",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Averett University"
+    },
+    {
+      "name": "Tristan Gallovich",
+      "number": "35",
+      "position": "Goalkeeper",
+      "classYear": "Junior",
+      "team": "Averett University"
+    },
+    {
+      "name": "Robbie Isenhour",
+      "number": "36",
+      "position": "Goalkeeper",
+      "classYear": "Sophomore",
+      "team": "Averett University"
+    },
+    {
+      "name": "Cory Habick",
+      "number": "55",
+      "position": "Longstick MidfieldLSM",
+      "classYear": "Sophomore",
+      "team": "Averett University"
+    },
+    {
+      "name": "Joel Mendoza",
+      "number": "66",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Averett University"
+    },
+    {
+      "name": "Tyler Greene",
+      "number": "77",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Averett University"
+    },
+    {
+      "name": "Harrison Bartle",
+      "number": "88",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Averett University"
+    },
+    {
+      "name": "Aaron Braid",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Averett University"
+    }
+  ]
+}

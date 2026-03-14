@@ -1,0 +1,308 @@
+{
+  "team": "St. John's University",
+  "scrapedAt": "2026-01-28T21:01:13.077Z",
+  "playerCount": 43,
+  "players": [
+    {
+      "name": "Tanner Williams",
+      "number": "0",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Owen Donnellan",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Luke Forde",
+      "number": "2",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Sean Ralph",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Jack  Delli-Pizzi",
+      "number": "4",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Tommy  Wilk",
+      "number": "5",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Sean Forde",
+      "number": "6",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Caleb Yeung",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Reid Metler",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Clyde Bresnahan",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Hayden Whitney",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Nick Diadema",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Collin Williamson",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Ryan Dodge",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Brendan Marino",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Gary Correa",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Carson Boyle",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Robbie  Smith",
+      "number": "25",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Sean Carlo",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Matt Roughgarden",
+      "number": "30",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Michael Kloepfer",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Jack Cooper",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Declan Mitchell",
+      "number": "33",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Arek Cellura",
+      "number": "36",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Kian McCoy",
+      "number": "37",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Joey Rice",
+      "number": "38",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Jack Crosby",
+      "number": "39",
+      "position": "LSM",
+      "classYear": "",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Carson Forney",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Cameron Foley",
+      "number": "41",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Colin Langton",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Justin Bonacci",
+      "number": "44",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Richie  Dechiaro",
+      "number": "45",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Brendan Owens",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Michael Kelton",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Thomas Cieleski",
+      "number": "50",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Ryan Barker",
+      "number": "51",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Kyle Newbrough",
+      "number": "53",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Aiden Clinkscales",
+      "number": "55",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Kyan East",
+      "number": "77",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Tanner Parlette",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Jake Lewis",
+      "number": "91",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Cooper Brannon",
+      "number": "92",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "St. John's University"
+    },
+    {
+      "name": "Jack Kalinowski",
+      "number": "99",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "St. John's University"
+    }
+  ]
+}

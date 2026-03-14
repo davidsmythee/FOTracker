@@ -1,0 +1,322 @@
+{
+  "team": "Lafayette College",
+  "scrapedAt": "2026-01-28T20:35:44.545Z",
+  "playerCount": 45,
+  "players": [
+    {
+      "name": "Andrew Matarese",
+      "number": "0",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Nick Muller",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Jack Irish",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Clifford Chapman",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Cooper Pasko",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Zach Zukowsky",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Jack Massotto",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Lukas DiGiovanni",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Patrick Kenah",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "George Urich",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Billy Irish",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Nicholas  Blalock",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Joseph Duggan",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Eric Ward",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Ryan Farley",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Luka Vecchione",
+      "number": "18",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Patrick Blum",
+      "number": "19",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Aidan Best",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Charlie Merrick",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Cael DiSora",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Charlie Foley",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "So.",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Max Herbison",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Drew Pfeifer",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Aidan Kopen",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Sean Diczok",
+      "number": "28",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Noah Hezel",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Joe Doherty",
+      "number": "30",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Matt Morelli",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Mason Hill",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Brendan Poirier",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Joshua Heaney",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Finley Morin",
+      "number": "35",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "John  Finkeldie",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Nick Faccone",
+      "number": "37",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Patrick Roelke",
+      "number": "38",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Jared Baudin",
+      "number": "45",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Lucas Kroner",
+      "number": "46",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Gavin Ananian",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Clayton Baddley",
+      "number": "50",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Hunter Lubiniecki",
+      "number": "51",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Brendan Burke",
+      "number": "54",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Erik Volfson",
+      "number": "55",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Jett Klassen",
+      "number": "77",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Lafayette College"
+    },
+    {
+      "name": "Christian Tapia",
+      "number": "88",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Lafayette College"
+    }
+  ]
+}

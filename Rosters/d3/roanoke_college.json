@@ -1,0 +1,336 @@
+{
+  "team": "Roanoke College",
+  "scrapedAt": "2026-03-13T22:06:57.207370Z",
+  "playerCount": 47,
+  "players": [
+    {
+      "name": "Alex Feuer",
+      "number": "1",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Tyler Schmelzer",
+      "number": "2",
+      "position": "Attackttack",
+      "classYear": "Sophomore",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Dell Vidunas",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Weston Hammond",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Jackson Kreter",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Nate Lucera",
+      "number": "9",
+      "position": "Midfieldidfield",
+      "classYear": "Sophomore",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Griffin Dabbs",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Jack Snyder",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Mason  Lockwood",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Marquay Cook",
+      "number": "15",
+      "position": "Defenseefense",
+      "classYear": "Sophomore",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Blake Rieger",
+      "number": "16",
+      "position": "Attack/MidfieldAttack/Midfield",
+      "classYear": "Sophomore",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Ben Vetti",
+      "number": "17",
+      "position": "Attack/Midfield",
+      "classYear": "Freshman",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Kai Hayami",
+      "number": "18",
+      "position": "Midfieldidfield",
+      "classYear": "Sophomore",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Colin Lasch",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Anthony Schultz",
+      "number": "20",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Pierce Oprandi",
+      "number": "21",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Connor Lockwood",
+      "number": "22",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Julian Kammerman",
+      "number": "23",
+      "position": "Midfield/Attack",
+      "classYear": "Senior",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Owen Ameo",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Preston Shields",
+      "number": "25",
+      "position": "Attackttack",
+      "classYear": "Sophomore",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Justin Marengo",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Evan Friend",
+      "number": "27",
+      "position": "Attack/Midfield",
+      "classYear": "Freshman",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Noah Bell",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Anthony Muniz",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Brady Kasabian",
+      "number": "30",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "TJ Harris",
+      "number": "31",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Ike Dutton",
+      "number": "32",
+      "position": "Long stick midfield/DefenseLong stick midfield/Defense",
+      "classYear": "Sophomore",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Chris Schwartz",
+      "number": "33",
+      "position": "GoalkeeperGoalkeeper",
+      "classYear": "Sophomore",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Drew Donato",
+      "number": "34",
+      "position": "Defenseefense",
+      "classYear": "Sophomore",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Noah Elazar",
+      "number": "35",
+      "position": "Long Stick Midfield",
+      "classYear": "Senior",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Christian Friedl",
+      "number": "36",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Xander Willis",
+      "number": "38",
+      "position": "Long Stick Midfield/Defense",
+      "classYear": "Freshman",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Jack Savoie",
+      "number": "39",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Clayton Bewick",
+      "number": "40",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Cole Devine",
+      "number": "41",
+      "position": "GoalkeeperGoalkeeper",
+      "classYear": "Sophomore",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Nate Lockard",
+      "number": "43",
+      "position": "Long Stick Midfield/Defense",
+      "classYear": "Freshman",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Michael Ormond",
+      "number": "44",
+      "position": "Midfieldidfield",
+      "classYear": "Sophomore",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Patrick Cullen",
+      "number": "45",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Brayden Phillips",
+      "number": "47",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Wes Schmidt",
+      "number": "48",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Grayson Kirby",
+      "number": "49",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Riley Andrake",
+      "number": "50",
+      "position": "Attack/MidfieldAttack/Midfield",
+      "classYear": "Sophomore",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Charlie Ryan",
+      "number": "51",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "David Hamilton",
+      "number": "52",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Karson Keating",
+      "number": "53",
+      "position": "Midfieldidfield",
+      "classYear": "Sophomore",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Landon Trail",
+      "number": "54",
+      "position": "Long Stick Midfield/Defense",
+      "classYear": "Junior",
+      "team": "Roanoke College"
+    },
+    {
+      "name": "Brandon Solomon",
+      "number": "55",
+      "position": "Long Stick Midfield/Defense",
+      "classYear": "Junior",
+      "team": "Roanoke College"
+    }
+  ]
+}

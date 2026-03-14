@@ -1,0 +1,301 @@
+{
+    "team": "Cleveland State University",
+    "scrapedAt": "2026-01-28T19:13:37.049Z",
+    "playerCount": 42,
+    "players": [
+      {
+        "name": "Chase Gettys",
+        "number": "0",
+        "position": "Defense",
+        "classYear": "Freshman",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Will Adair",
+        "number": "1",
+        "position": "Midfielder",
+        "classYear": "",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Griffin Burkey",
+        "number": "2",
+        "position": "Midfielder",
+        "classYear": "Senior",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Brennen Hickey",
+        "number": "3",
+        "position": "Attack",
+        "classYear": "Sophomore",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Adam Van Voorhis",
+        "number": "4",
+        "position": "Midfielder",
+        "classYear": "Sophomore",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Layton Speer",
+        "number": "5",
+        "position": "Midfielder",
+        "classYear": "Junior",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Oliver Vanyo",
+        "number": "6",
+        "position": "Goalie",
+        "classYear": "Sophomore",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Jack Dickson",
+        "number": "7",
+        "position": "Midfielder",
+        "classYear": "Senior",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Creed McDonald",
+        "number": "8",
+        "position": "Attack",
+        "classYear": "Sophomore",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Ever Whitaker",
+        "number": "9",
+        "position": "Defense",
+        "classYear": "Freshman",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Seth Alejandrino",
+        "number": "10",
+        "position": "Defense",
+        "classYear": "Sophomore",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Enrico Lombardo",
+        "number": "12",
+        "position": "LSM",
+        "classYear": "Sophomore",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Alec Blessing",
+        "number": "14",
+        "position": "LSM",
+        "classYear": "",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Maddox Johnson",
+        "number": "15",
+        "position": "Midfielder",
+        "classYear": "Sophomore",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Joel Brown",
+        "number": "16",
+        "position": "Defense",
+        "classYear": "Junior",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Jayvon Robinson",
+        "number": "17",
+        "position": "Goalie",
+        "classYear": "Freshman",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Ethan Brooks",
+        "number": "18",
+        "position": "Attack",
+        "classYear": "Junior",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Joe Ginnetti",
+        "number": "19",
+        "position": "Midfielder",
+        "classYear": "Junior",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Tavin Jones",
+        "number": "20",
+        "position": "FOGO",
+        "classYear": "Freshman",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Robbie Stewart",
+        "number": "21",
+        "position": "FOGO",
+        "classYear": "Senior",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Jameson Demarco",
+        "number": "22",
+        "position": "Attack",
+        "classYear": "Sophomore",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Evan Knickle",
+        "number": "23",
+        "position": "Midfielder",
+        "classYear": "Junior",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Jason Hilton",
+        "number": "24",
+        "position": "Midfielder",
+        "classYear": "Sophomore",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Payton Corpus",
+        "number": "25",
+        "position": "LSM",
+        "classYear": "Senior",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Blake Skifstad",
+        "number": "26",
+        "position": "FOGO",
+        "classYear": "Freshman",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Alex Long",
+        "number": "27",
+        "position": "Midfielder",
+        "classYear": "Sophomore",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Luke Ray",
+        "number": "28",
+        "position": "Attack",
+        "classYear": "",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Ethan Erker",
+        "number": "29",
+        "position": "Midfielder",
+        "classYear": "Sophomore",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Carson Cheek",
+        "number": "31",
+        "position": "FOGO",
+        "classYear": "Sophomore",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Logan Angel",
+        "number": "32",
+        "position": "Defense",
+        "classYear": "Senior",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Nikolas Federici",
+        "number": "33",
+        "position": "Goalie",
+        "classYear": "Freshman",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Drew Graves",
+        "number": "34",
+        "position": "Defense",
+        "classYear": "Senior",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Justin Dalum",
+        "number": "35",
+        "position": "Goalie",
+        "classYear": "Senior",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Liam Moffatt",
+        "number": "36",
+        "position": "Defense",
+        "classYear": "",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Xander Johnson",
+        "number": "41",
+        "position": "Attack",
+        "classYear": "",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Luke Mitchell",
+        "number": "43",
+        "position": "Defense",
+        "classYear": "Junior",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Mattix Groves",
+        "number": "47",
+        "position": "Midfielder",
+        "classYear": "Sophomore",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Sebastian West",
+        "number": "50",
+        "position": "Attack",
+        "classYear": "Junior",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Landon Whalen",
+        "number": "51",
+        "position": "Attack",
+        "classYear": "Freshman",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Mitchell Maibuecher",
+        "number": "82",
+        "position": "Midfielder",
+        "classYear": "Junior",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Griffin Valli",
+        "number": "88",
+        "position": "Defense",
+        "classYear": "Junior",
+        "team": "Cleveland State University"
+      },
+      {
+        "name": "Logan Leatherberry",
+        "number": "99",
+        "position": "Goalie",
+        "classYear": "Sophomore",
+        "team": "Cleveland State University"
+      }
+    ]
+  }

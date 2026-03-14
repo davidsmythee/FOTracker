@@ -1,0 +1,371 @@
+{
+  "team": "Washington & Lee University",
+  "scrapedAt": "2026-03-13T22:09:00.289609Z",
+  "playerCount": 52,
+  "players": [
+    {
+      "name": "Jack Dalton",
+      "number": "0",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Gabe Reiter",
+      "number": "1",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Willy Carpenter",
+      "number": "2",
+      "position": "DM",
+      "classYear": "Sophomore",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Ethan Villamater",
+      "number": "3",
+      "position": "DM",
+      "classYear": "Senior",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Jay O'Keefe",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Thomas Garcia",
+      "number": "5",
+      "position": "DM",
+      "classYear": "Sophomore",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Robert Bath",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Nick Garcia",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Nick De Cain",
+      "number": "8",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "James Haley",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Elliot Cohen",
+      "number": "10",
+      "position": "DM",
+      "classYear": "Senior",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Byron Newman",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Ben Irmscher",
+      "number": "12",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Israel Mikkelson",
+      "number": "13",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Emerson Manser",
+      "number": "14",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Jack Booth",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Spencer Surface",
+      "number": "16",
+      "position": "DM",
+      "classYear": "Junior",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Andrew Lehman",
+      "number": "17",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Andrew Keller",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "James Timmins",
+      "number": "19",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Luke Caldwell",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Eli Smink",
+      "number": "21",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Thomas Moxley",
+      "number": "22",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "James Meyer",
+      "number": "23",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Sam Bassett",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Tucker Davis",
+      "number": "25",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Max Fertels",
+      "number": "26",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Gray Kallen",
+      "number": "27",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Jay Seevers",
+      "number": "28",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "James Cardillo",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Lawson Marshall",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Zach Rosenberg",
+      "number": "31",
+      "position": "Goalie",
+      "classYear": "Fy.",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Colin Beatty",
+      "number": "32",
+      "position": "DM",
+      "classYear": "Senior",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Jack Bryant",
+      "number": "33",
+      "position": "DM",
+      "classYear": "Sophomore",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Carter Shallcross",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Harrison Hanson",
+      "number": "35",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Ryan Donahue",
+      "number": "36",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Avery Richardson",
+      "number": "37",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "JD Matson",
+      "number": "38",
+      "position": "DM",
+      "classYear": "Sophomore",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Blair Brennan",
+      "number": "39",
+      "position": "DM",
+      "classYear": "Junior",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "JJ Kim",
+      "number": "40",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Chris Datz",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Will Abramson",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Ryan Boyd",
+      "number": "44",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Matt Blanton",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Jack Ege",
+      "number": "46",
+      "position": "LSM",
+      "classYear": "Fy.",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Garrett Ferguson",
+      "number": "48",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "John Nagy",
+      "number": "49",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Charlie Hodulik",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Jack Payne",
+      "number": "52",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Jeremy Horne",
+      "number": "54",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Washington & Lee University"
+    },
+    {
+      "name": "Hunter Hodges",
+      "number": "56",
+      "position": "FOGO",
+      "classYear": "Fy.",
+      "team": "Washington & Lee University"
+    }
+  ]
+}

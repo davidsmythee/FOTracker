@@ -1,0 +1,315 @@
+{
+  "team": "Massachusetts Maritime Academy",
+  "scrapedAt": "2026-03-14T00:50:40.810942Z",
+  "playerCount": 44,
+  "players": [
+    {
+      "name": "Andy Aguado-Scheyer",
+      "number": "0",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Michael Ryan",
+      "number": "1",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Griffin Starr",
+      "number": "2",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Chilton Cabot",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Quinn Mucha",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Carson Percival",
+      "number": "5",
+      "position": "Long Stick Midfield",
+      "classYear": "Junior",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Ronan Kearney",
+      "number": "8",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Teddy Lynch",
+      "number": "9",
+      "position": "Attack/Midfield",
+      "classYear": "Sophomore",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Eli Ikkela",
+      "number": "11",
+      "position": "Attack/Midfield",
+      "classYear": "Sophomore",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Chris Sullivan",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Daniel Kane",
+      "number": "14",
+      "position": "Attack/Midfield",
+      "classYear": "Senior",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Liam Cogavin",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Zach Arnpriester",
+      "number": "16",
+      "position": "Long Stick Midfield",
+      "classYear": "Freshman",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Cooper Barrett",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Mason McNulty",
+      "number": "18",
+      "position": "Midfield/Attack",
+      "classYear": "Freshman",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "James Sullivan",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Cooper McIntire",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Thomas Spillane",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Benjamin Archer",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Sawyer McCutchen",
+      "number": "24",
+      "position": "Attack/Midfield",
+      "classYear": "Freshman",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Cole Jenkins",
+      "number": "25",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Sam Freedman",
+      "number": "26",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Dylan Taylor",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Jonathan Visser",
+      "number": "30",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Jayson Kelleher",
+      "number": "31",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Colin Fitzsimmons",
+      "number": "32",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Aidan Callahan",
+      "number": "33",
+      "position": "Defense/Long Stick Midfield",
+      "classYear": "Junior",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Nico St. George",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Nicholas Hall",
+      "number": "35",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Brady Hofeman",
+      "number": "36",
+      "position": "Long Stick Midfield",
+      "classYear": "Freshman",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Jack Kenny",
+      "number": "38",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Camden Stern",
+      "number": "39",
+      "position": "Midfield/Attack",
+      "classYear": "Freshman",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Walker Groves",
+      "number": "40",
+      "position": "Defense/Long Stick Midfield",
+      "classYear": "Freshman",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Will Dykeman",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Seamus Buckley",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Eddie Keller",
+      "number": "44",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Lydon O'Brien",
+      "number": "45",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Joe Vricella",
+      "number": "48",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Aiden Bengtson",
+      "number": "49",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Kyle Shanahan",
+      "number": "50",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Scott MacKinnon",
+      "number": "51",
+      "position": "",
+      "classYear": "",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Zach Gambill",
+      "number": "52",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Bodie Smith",
+      "number": "53",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Massachusetts Maritime Academy"
+    },
+    {
+      "name": "Ryan McDonough",
+      "number": "55",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Massachusetts Maritime Academy"
+    }
+  ]
+}

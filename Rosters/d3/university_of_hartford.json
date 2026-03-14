@@ -1,0 +1,308 @@
+{
+  "team": "University of Hartford",
+  "scrapedAt": "2026-03-13T22:08:24.163443Z",
+  "playerCount": 43,
+  "players": [
+    {
+      "name": "Lucas Chymbor",
+      "number": "1",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Freshman",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Drew Theriault",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Nick Ugolini",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Andrew Leibold",
+      "number": "5",
+      "position": "GoalieG",
+      "classYear": "Senior",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Cam Costanzo",
+      "number": "6",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Mario Alfieri",
+      "number": "7",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Junior",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Andrew Cardwell",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Nick Forgione",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Caleb LeVasseur",
+      "number": "10",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Junior",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Gavin Pelletier",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Aidan Kemp",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Thomas O'Toole",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Emil Johnson",
+      "number": "14",
+      "position": "Short Stick Defensive MidfielderSSDM",
+      "classYear": "Junior",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Jack Hart",
+      "number": "15",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Junior",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Shaun Wright",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Cooper Young",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Callum Labonte",
+      "number": "18",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Junior",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Andrew Willnus",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Andrew DiCianni",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Ian Reynolds",
+      "number": "21",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Mateo  Montano",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Thomas Brunelli",
+      "number": "24",
+      "position": "Short Stick Defensive MidfielderSSDM",
+      "classYear": "Junior",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Massimo Cappoza",
+      "number": "25",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Aidan Ezra",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "CJ Ledwick",
+      "number": "27",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Ben Costanzo",
+      "number": "28",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Sean Braunwart",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Graduate",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "John Hintze",
+      "number": "31",
+      "position": "GoalieG",
+      "classYear": "Junior",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Nick Donlon",
+      "number": "32",
+      "position": "GoalieG",
+      "classYear": "Freshman",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Trent Beggs",
+      "number": "33",
+      "position": "Short Stick Defensive MidfielderSSDM",
+      "classYear": "Junior",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Michael Novotny",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Patrick Giroux",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Liam Rainville",
+      "number": "36",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Maxton McPhee",
+      "number": "37",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Colin Reilly",
+      "number": "38",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Tarin Prior",
+      "number": "39",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Nick DiDomizio",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Graduate",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Eddie Sadowski",
+      "number": "43",
+      "position": "Short Stick Defensive MidfielderSSDM",
+      "classYear": "Junior",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Jaxson Vogel",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Tobias Ballester",
+      "number": "45",
+      "position": "Defense / Long Stick MidfielderD / LSM",
+      "classYear": "Senior",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Ryan Strait",
+      "number": "48",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "Ben Lukens",
+      "number": "49",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Hartford"
+    },
+    {
+      "name": "James Murphy",
+      "number": "50",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Hartford"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "team": "Northland College",
+  "scrapedAt": "2026-03-13T22:06:25.548962Z",
+  "playerCount": 15,
+  "players": [
+    {
+      "name": "Sam Lewis",
+      "number": "4",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Northland College"
+    },
+    {
+      "name": "Trey  Taylor",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Northland College"
+    },
+    {
+      "name": "Brodie Trollop",
+      "number": "6",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Northland College"
+    },
+    {
+      "name": "Seth Jonas",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Northland College"
+    },
+    {
+      "name": "Logan Gallagher",
+      "number": "8",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Northland College"
+    },
+    {
+      "name": "PJ Northrop",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Northland College"
+    },
+    {
+      "name": "Alex Walls",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Northland College"
+    },
+    {
+      "name": "Christian Shields",
+      "number": "21",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Northland College"
+    },
+    {
+      "name": "Avrey Roerick",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Northland College"
+    },
+    {
+      "name": "Rodrigo Chavez",
+      "number": "23",
+      "position": "6'2\"",
+      "classYear": "Freshman",
+      "team": "Northland College"
+    },
+    {
+      "name": "Andrew Study",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Northland College"
+    },
+    {
+      "name": "Sam  Holy",
+      "number": "25",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Northland College"
+    },
+    {
+      "name": "Keenan Bayer",
+      "number": "28",
+      "position": "5'8\"",
+      "classYear": "Freshman",
+      "team": "Northland College"
+    },
+    {
+      "name": "Dorian Neisius",
+      "number": "29",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Northland College"
+    },
+    {
+      "name": "Elijah Clark",
+      "number": "30",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Northland College"
+    }
+  ]
+}

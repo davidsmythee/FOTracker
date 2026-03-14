@@ -1,0 +1,308 @@
+{
+  "team": "Queens University of Charlotte",
+  "scrapedAt": "2026-01-28T20:53:55.894Z",
+  "playerCount": 43,
+  "players": [
+    {
+      "name": "Carson Hoewe",
+      "number": "1",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Dylan Behnke",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Caden Cinotti",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Brooks Stankavage",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Dylan Murphy",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Ian Rodriguez",
+      "number": "7",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Ethan Scaffidi",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Ben Dorbish",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Hudson  Karasek",
+      "number": "11",
+      "position": "Midfielder",
+      "classYear": "",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Ryan  Lightsey",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Tanner Bachelor",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Cooper Van Dyke",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Ryan McDaniel",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Michael  White",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Santino Giachetti",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Will Corbett",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Carter Petersen",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Alex  Lemieux",
+      "number": "23",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Ty Schreck",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Josh Buse",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Lincoln Huskey",
+      "number": "27",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Jake  Coldwell",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Zach Miller",
+      "number": "29",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Blake Falco",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Cole Purcell",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Braden McNamara",
+      "number": "32",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Parker Beiland",
+      "number": "33",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Ryder Goldhammer",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Jake  Berman",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Ben Weir",
+      "number": "39",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Aden Isika",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Ty Faucher",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Kyle Brady",
+      "number": "42",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Will Brown",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Marcus Acevedo",
+      "number": "45",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Cassius Groves",
+      "number": "48",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Hutch Gumbinner",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Reid Hinds Macdonald",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Carston Shepherd",
+      "number": "52",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Gunnar Bick",
+      "number": "55",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Aidan Chambers",
+      "number": "66",
+      "position": "Midfielder",
+      "classYear": "Junior",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Kelley Lamb",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Queens University of Charlotte"
+    },
+    {
+      "name": "Central Memorial",
+      "number": "88",
+      "position": "Attack",
+      "classYear": "",
+      "team": "Queens University of Charlotte"
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "team": "Carroll University",
+  "scrapedAt": "2026-03-13T22:03:06.275124Z",
+  "playerCount": 33,
+  "players": [
+    {
+      "name": "Anthony  Defilippis",
+      "number": "0",
+      "position": "MidfieldID",
+      "classYear": "Senior",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Jake  Wright",
+      "number": "1",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Jake Gehl",
+      "number": "2",
+      "position": "Goal KeeperGK",
+      "classYear": "Senior",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Walt Schoepel",
+      "number": "5",
+      "position": "MidfielderLSM",
+      "classYear": "Senior",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Brady Mollsen",
+      "number": "6",
+      "position": "MidfieldID",
+      "classYear": "Senior",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Jack McNamara",
+      "number": "7",
+      "position": "MidfieldID",
+      "classYear": "Freshman",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Matthew Hehr",
+      "number": "8",
+      "position": "MidfieldID",
+      "classYear": "Senior",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Brady  Raczkowski",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Roman DeAngelis",
+      "number": "10",
+      "position": "AttackTT",
+      "classYear": "Sophomore",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Sam McGoon",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Declan McMahon",
+      "number": "12",
+      "position": "MidfieldID",
+      "classYear": "Sophomore",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Keegan  Phillips",
+      "number": "13",
+      "position": "MidfieldID",
+      "classYear": "Senior",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Nolan Snider",
+      "number": "14",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Zachary Szuba",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Kj Keyfauver",
+      "number": "16",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Junior",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Caden Dohm",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Jacob Stertz",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Caleb Wier",
+      "number": "20",
+      "position": "Long Stick MidfielderLSM",
+      "classYear": "Sophomore",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Russell Therres",
+      "number": "21",
+      "position": "MidfieldID",
+      "classYear": "Freshman",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Desmond Nguyen",
+      "number": "22",
+      "position": "MidfieldID",
+      "classYear": "Freshman",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Luke Bridges",
+      "number": "23",
+      "position": "MidfieldID",
+      "classYear": "Junior",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Jake Kopocis",
+      "number": "24",
+      "position": "MidfieldID",
+      "classYear": "Senior",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Connor Coty",
+      "number": "25",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Antonio Rodriguez",
+      "number": "28",
+      "position": "MidfieldID",
+      "classYear": "Junior",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Waide Moravek",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Aiden Klick",
+      "number": "32",
+      "position": "MidfieldID",
+      "classYear": "Freshman",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Ethan Phillips",
+      "number": "33",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Jonas Malmanger",
+      "number": "35",
+      "position": "Goal KeeperGK",
+      "classYear": "Sophomore",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Kelley Gassner",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Brady Conwell",
+      "number": "79",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Cole Phillips",
+      "number": "88",
+      "position": "MidfieldID",
+      "classYear": "Junior",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Nick White",
+      "number": "97",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Carroll University"
+    },
+    {
+      "name": "Caleb Trewyn",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Carroll University"
+    }
+  ]
+}

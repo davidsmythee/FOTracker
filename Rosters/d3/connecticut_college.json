@@ -1,0 +1,427 @@
+{
+  "team": "Connecticut College",
+  "scrapedAt": "2026-03-13T22:03:30.269028Z",
+  "playerCount": 60,
+  "players": [
+    {
+      "name": "Dylan McGuirk",
+      "number": "1",
+      "position": "LSMLSM",
+      "classYear": "Junior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Josh Kozub",
+      "number": "2",
+      "position": "A/MA/M",
+      "classYear": "Senior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Chris Travers",
+      "number": "3",
+      "position": "DD",
+      "classYear": "Junior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Isaiah Kozub",
+      "number": "4",
+      "position": "MM",
+      "classYear": "Junior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Daniel Smith",
+      "number": "5",
+      "position": "MM",
+      "classYear": "Senior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Grady Brandstatter",
+      "number": "6",
+      "position": "MM",
+      "classYear": "Junior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Jack Anglim",
+      "number": "7",
+      "position": "MM",
+      "classYear": "Junior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Joey DeMarzo",
+      "number": "8",
+      "position": "GG",
+      "classYear": "Junior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Michael Moran",
+      "number": "9",
+      "position": "MM",
+      "classYear": "Senior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Andrew Rainville",
+      "number": "10",
+      "position": "AA",
+      "classYear": "Sophomore",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Liam Schwartz",
+      "number": "11",
+      "position": "MM",
+      "classYear": "Junior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Graydon Diamond",
+      "number": "12",
+      "position": "MM",
+      "classYear": "Senior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Trevor Perkins",
+      "number": "13",
+      "position": "MM",
+      "classYear": "Sophomore",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Jack Walker",
+      "number": "14",
+      "position": "LSMLSM",
+      "classYear": "Freshman",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Patrick Hogan",
+      "number": "15",
+      "position": "GG",
+      "classYear": "Sophomore",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Will Zaslow",
+      "number": "16",
+      "position": "AA",
+      "classYear": "Junior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Kiran Singh-Andrews",
+      "number": "17",
+      "position": "MM",
+      "classYear": "Sophomore",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Sam Harley",
+      "number": "18",
+      "position": "DD",
+      "classYear": "Junior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Conor Matthews",
+      "number": "19",
+      "position": "DD",
+      "classYear": "Senior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Sean Horkan",
+      "number": "20",
+      "position": "AA",
+      "classYear": "Sophomore",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Henry Dumler",
+      "number": "21",
+      "position": "DD",
+      "classYear": "Sophomore",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Quinn Walenta",
+      "number": "22",
+      "position": "AA",
+      "classYear": "Freshman",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Becan O'Brien",
+      "number": "23",
+      "position": "MM",
+      "classYear": "Junior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Austin Moore",
+      "number": "24",
+      "position": "MM",
+      "classYear": "Junior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Braeden Saunders",
+      "number": "25",
+      "position": "MM",
+      "classYear": "Sophomore",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Nate Elkin",
+      "number": "26",
+      "position": "LSMLSM",
+      "classYear": "Senior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "James Brennan",
+      "number": "27",
+      "position": "DD",
+      "classYear": "Senior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Liam Doyle",
+      "number": "28",
+      "position": "MM",
+      "classYear": "Sophomore",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Sean McCarthy",
+      "number": "29",
+      "position": "AA",
+      "classYear": "Sophomore",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Harrison Zmijewski",
+      "number": "30",
+      "position": "AA",
+      "classYear": "Freshman",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Joseph Mainente",
+      "number": "31",
+      "position": "LSMLSM",
+      "classYear": "Freshman",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Josh Haarmann",
+      "number": "32",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Connor Devir",
+      "number": "33",
+      "position": "MM",
+      "classYear": "Senior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Brayden Warde",
+      "number": "34",
+      "position": "A/MA/M",
+      "classYear": "Junior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Matthew Sofarelli",
+      "number": "35",
+      "position": "AA",
+      "classYear": "Freshman",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Nick Schiliro",
+      "number": "36",
+      "position": "GG",
+      "classYear": "Freshman",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Lorenzo Vogliano",
+      "number": "37",
+      "position": "A/MA/M",
+      "classYear": "Senior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Liam Horkan",
+      "number": "38",
+      "position": "AA",
+      "classYear": "Senior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Peyton Gray",
+      "number": "40",
+      "position": "MM",
+      "classYear": "Sophomore",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Aidan Shea",
+      "number": "41",
+      "position": "DD",
+      "classYear": "Senior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Jack Halpin",
+      "number": "42",
+      "position": "MM",
+      "classYear": "Sophomore",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Jimmy Carlin",
+      "number": "43",
+      "position": "DD",
+      "classYear": "Sophomore",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Ryan Breheny",
+      "number": "44",
+      "position": "MM",
+      "classYear": "Senior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Jeffrey Hernandez",
+      "number": "45",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Cooper Growney",
+      "number": "46",
+      "position": "DD",
+      "classYear": "Junior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Liam Doherty",
+      "number": "47",
+      "position": "DD",
+      "classYear": "Senior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Danny Magoon",
+      "number": "48",
+      "position": "DD",
+      "classYear": "Freshman",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Max Garro",
+      "number": "49",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Hugh Gates",
+      "number": "50",
+      "position": "AA",
+      "classYear": "Freshman",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Aidan Valeiko",
+      "number": "51",
+      "position": "MM",
+      "classYear": "Junior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Carmelo Higgins",
+      "number": "52",
+      "position": "MM",
+      "classYear": "Senior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Tatum  Walker",
+      "number": "54",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Trevor Potenti",
+      "number": "55",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Ardem Sarajian",
+      "number": "56",
+      "position": "MM",
+      "classYear": "Freshman",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Ryan Frank",
+      "number": "57",
+      "position": "DD",
+      "classYear": "Senior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Noah Macielag",
+      "number": "58",
+      "position": "MM",
+      "classYear": "Sophomore",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Tyler  Zilinski",
+      "number": "59",
+      "position": "DD",
+      "classYear": "Freshman",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Hayden Carpenter",
+      "number": "60",
+      "position": "DD",
+      "classYear": "Junior",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Jack Colman",
+      "number": "61",
+      "position": "GG",
+      "classYear": "Freshman",
+      "team": "Connecticut College"
+    },
+    {
+      "name": "Jacob Yakatan",
+      "number": "62",
+      "position": "AA",
+      "classYear": "Freshman",
+      "team": "Connecticut College"
+    }
+  ]
+}

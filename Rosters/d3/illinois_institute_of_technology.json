@@ -1,0 +1,224 @@
+{
+  "team": "Illinois Institute of Technology",
+  "scrapedAt": "2026-03-13T22:04:53.396056Z",
+  "playerCount": 31,
+  "players": [
+    {
+      "name": "Diego Sosa",
+      "number": "0",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Joseph Beaudoin",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Alexander Stokrp",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Luke Fougere",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Cooper Leonard",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Tomas Shefrin",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Connor Montgomery",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Owen Silverman",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Luke  Chapman",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Jonah Brenner",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Drake Doubek",
+      "number": "13",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Ryan Littler",
+      "number": "14",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Duwayne Aikins",
+      "number": "15",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Allen Rossignol",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Kevin Konopacki",
+      "number": "17",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Will Von Eyser",
+      "number": "18",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Altan Brown",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Andrew Potter",
+      "number": "21",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Thailer Simmons",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Andrei Gran",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Jaeger Breault",
+      "number": "24",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Issac Gainey",
+      "number": "25",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Aaron Johnston",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Jordan Wadford",
+      "number": "33",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Canyon Kuchel",
+      "number": "34",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Colin Markoski",
+      "number": "37",
+      "position": "Midfielder",
+      "classYear": "Freshman",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Owen Dewysockie",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Victor Bivona",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Tyler Drexel",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Bodey Goertzen",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Illinois Institute of Technology"
+    },
+    {
+      "name": "Marc Rebusi",
+      "number": "",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Illinois Institute of Technology"
+    }
+  ]
+}

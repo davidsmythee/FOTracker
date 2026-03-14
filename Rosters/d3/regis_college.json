@@ -1,0 +1,126 @@
+{
+  "team": "Regis College",
+  "scrapedAt": "2026-03-14T00:50:41.183415Z",
+  "playerCount": 17,
+  "players": [
+    {
+      "name": "Ian Brown",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Fy.",
+      "team": "Regis College"
+    },
+    {
+      "name": "Luke Meelia",
+      "number": "2",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Regis College"
+    },
+    {
+      "name": "Nathan Chaput",
+      "number": "3",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Regis College"
+    },
+    {
+      "name": "Colin McGarry",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Regis College"
+    },
+    {
+      "name": "Nick Haffty",
+      "number": "5",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Regis College"
+    },
+    {
+      "name": "Nick Klein",
+      "number": "6",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Regis College"
+    },
+    {
+      "name": "Logan Crowell",
+      "number": "7",
+      "position": "Midfielder",
+      "classYear": "Fy.",
+      "team": "Regis College"
+    },
+    {
+      "name": "Matt Cabassa",
+      "number": "8",
+      "position": "Midfielder",
+      "classYear": "Senior",
+      "team": "Regis College"
+    },
+    {
+      "name": "Owen Harney",
+      "number": "10",
+      "position": "Midfielder",
+      "classYear": "Graduate",
+      "team": "Regis College"
+    },
+    {
+      "name": "James Glowacz",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Regis College"
+    },
+    {
+      "name": "Jack Glowacz",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Regis College"
+    },
+    {
+      "name": "Dylan Slichko",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Regis College"
+    },
+    {
+      "name": "Aiden Moulton",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Fy.",
+      "team": "Regis College"
+    },
+    {
+      "name": "Alex Dougenik",
+      "number": "18",
+      "position": "Midfielder",
+      "classYear": "Sophomore",
+      "team": "Regis College"
+    },
+    {
+      "name": "Jack Jaynes",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Regis College"
+    },
+    {
+      "name": "Devin Hammon",
+      "number": "28",
+      "position": "GK",
+      "classYear": "Senior",
+      "team": "Regis College"
+    },
+    {
+      "name": "Owen MacDonald",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Regis College"
+    }
+  ]
+}
