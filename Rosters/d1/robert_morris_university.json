@@ -1,6 +1,6 @@
 {
   "team": "Robert Morris University",
-  "scrapedAt": "2026-03-14T20:35:53.836709Z",
+  "scrapedAt": "2026-03-14T21:17:41.666433Z",
   "playerCount": 48,
   "players": [
     {
@@ -41,7 +41,7 @@
     {
       "name": "River Oudemool",
       "number": "5",
-      "position": "Attack / Midfield",
+      "position": "Attack/Midfield",
       "classYear": "Junior",
       "team": "Robert Morris University"
     },
@@ -202,7 +202,7 @@
     {
       "name": "Tommy  Rush",
       "number": "29",
-      "position": "Face Off Specialist",
+      "position": "FOGO",
       "classYear": "Freshman",
       "team": "Robert Morris University"
     },
@@ -223,7 +223,7 @@
     {
       "name": "Kyle McMillan",
       "number": "32",
-      "position": "Long Stick Midfield",
+      "position": "LSM",
       "classYear": "Senior",
       "team": "Robert Morris University"
     },
@@ -237,7 +237,7 @@
     {
       "name": "Brad  Hill",
       "number": "34",
-      "position": "Faceoff Specialist",
+      "position": "FOGO",
       "classYear": "Freshman",
       "team": "Robert Morris University"
     },
@@ -258,7 +258,7 @@
     {
       "name": "Colin Davis",
       "number": "37",
-      "position": "Long Stick Midfield",
+      "position": "LSM",
       "classYear": "Junior",
       "team": "Robert Morris University"
     },
@@ -314,7 +314,7 @@
     {
       "name": "Cristian Davis",
       "number": "49",
-      "position": "Faceoff Specialist",
+      "position": "FOGO",
       "classYear": "Sophomore",
       "team": "Robert Morris University"
     },

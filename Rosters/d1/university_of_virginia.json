@@ -1,7 +1,7 @@
 {
   "team": "University of Virginia",
-  "scrapedAt": "2026-03-14T20:39:35.604339Z",
-  "playerCount": 49,
+  "scrapedAt": "2026-03-14T21:18:51.380570Z",
+  "playerCount": 44,
   "players": [
     {
       "name": "Charles Balsamo",
@@ -308,41 +308,6 @@
       "name": "Cole Webber",
       "number": "91",
       "position": "Defense",
-      "classYear": "",
-      "team": "University of Virginia"
-    },
-    {
-      "name": "Lars Tiffany",
-      "number": "",
-      "position": "Head Coach",
-      "classYear": "",
-      "team": "University of Virginia"
-    },
-    {
-      "name": "Kevin Cassese",
-      "number": "",
-      "position": "Associate Head Coach",
-      "classYear": "",
-      "team": "University of Virginia"
-    },
-    {
-      "name": "Logan Greco",
-      "number": "",
-      "position": "Assistant Coach",
-      "classYear": "",
-      "team": "University of Virginia"
-    },
-    {
-      "name": "Connor Shellenberger",
-      "number": "",
-      "position": "Assistant Coach",
-      "classYear": "",
-      "team": "University of Virginia"
-    },
-    {
-      "name": "Brian Wilberger",
-      "number": "",
-      "position": "Director of Operations",
       "classYear": "",
       "team": "University of Virginia"
     }

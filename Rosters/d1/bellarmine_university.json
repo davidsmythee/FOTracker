@@ -1,7 +1,7 @@
 {
   "team": "Bellarmine University",
-  "scrapedAt": "2026-03-14T20:34:29.130599Z",
-  "playerCount": 60,
+  "scrapedAt": "2026-03-14T21:16:09.111177Z",
+  "playerCount": 57,
   "players": [
     {
       "name": "Maxton Messner",
@@ -104,7 +104,7 @@
     {
       "name": "Ziggy Iannessa",
       "number": "17",
-      "position": "Midfield/Face Off",
+      "position": "FOGO/Midfield",
       "classYear": "Senior",
       "team": "Bellarmine University"
     },
@@ -342,7 +342,7 @@
     {
       "name": "Garrett Groves",
       "number": "55",
-      "position": "Midfield/Defense",
+      "position": "Defense/Midfield",
       "classYear": "Freshman",
       "team": "Bellarmine University"
     },
@@ -400,27 +400,6 @@
       "number": "99",
       "position": "Defense",
       "classYear": "Freshman",
-      "team": "Bellarmine University"
-    },
-    {
-      "name": "Ava Hawkins",
-      "number": "",
-      "position": "Manager",
-      "classYear": "Junior",
-      "team": "Bellarmine University"
-    },
-    {
-      "name": "Lina Ngo",
-      "number": "",
-      "position": "Manager",
-      "classYear": "Junior",
-      "team": "Bellarmine University"
-    },
-    {
-      "name": "Bianca Pazmiño",
-      "number": "",
-      "position": "Manager",
-      "classYear": "Senior",
       "team": "Bellarmine University"
     }
   ]

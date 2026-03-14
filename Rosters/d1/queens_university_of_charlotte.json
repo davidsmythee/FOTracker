@@ -1,12 +1,12 @@
 {
   "team": "Queens University of Charlotte",
-  "scrapedAt": "2026-03-14T20:35:49.774822Z",
+  "scrapedAt": "2026-03-14T21:17:36.800343Z",
   "playerCount": 49,
   "players": [
     {
       "name": "Carson Hoewe",
       "number": "1",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Sophomore",
       "team": "Queens University of Charlotte"
     },
@@ -27,7 +27,7 @@
     {
       "name": "Grant Isika",
       "number": "4",
-      "position": "Faceoff Specialist/Midfield",
+      "position": "FOGO/Midfield",
       "classYear": "RS-Sr.",
       "team": "Queens University of Charlotte"
     },
@@ -146,7 +146,7 @@
     {
       "name": "Alex  Lemieux",
       "number": "23",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Senior",
       "team": "Queens University of Charlotte"
     },
@@ -160,7 +160,7 @@
     {
       "name": "Joe Ferlanti",
       "number": "25",
-      "position": "Faceoff Specialist/Midfield",
+      "position": "FOGO/Midfield",
       "classYear": "Freshman",
       "team": "Queens University of Charlotte"
     },
@@ -286,14 +286,14 @@
     {
       "name": "Marcus Acevedo",
       "number": "45",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Sophomore",
       "team": "Queens University of Charlotte"
     },
     {
       "name": "Cassius Groves",
       "number": "48",
-      "position": "Faceoff Specialist",
+      "position": "FOGO",
       "classYear": "Freshman",
       "team": "Queens University of Charlotte"
     },
@@ -314,7 +314,7 @@
     {
       "name": "Carston Shepherd",
       "number": "52",
-      "position": "Attacker",
+      "position": "Attack",
       "classYear": "Freshman",
       "team": "Queens University of Charlotte"
     },

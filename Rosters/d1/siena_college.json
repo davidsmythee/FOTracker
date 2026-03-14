@@ -1,6 +1,6 @@
 {
   "team": "Siena College",
-  "scrapedAt": "2026-03-14T20:36:02.750003Z",
+  "scrapedAt": "2026-03-14T21:17:52.192710Z",
   "playerCount": 53,
   "players": [
     {
@@ -90,7 +90,7 @@
     {
       "name": "Caden Kramer",
       "number": "12",
-      "position": "Long",
+      "position": "LSM",
       "classYear": "Senior",
       "team": "Siena College"
     },
@@ -230,14 +230,14 @@
     {
       "name": "Joe Valenza",
       "number": "32",
-      "position": "Long",
+      "position": "LSM",
       "classYear": "Junior",
       "team": "Siena College"
     },
     {
       "name": "R.J.  Ihlefeld",
       "number": "33",
-      "position": "Long",
+      "position": "LSM",
       "classYear": "Senior",
       "team": "Siena College"
     },
@@ -335,7 +335,7 @@
     {
       "name": "Brody Corless",
       "number": "48",
-      "position": "Long",
+      "position": "LSM",
       "classYear": "Freshman",
       "team": "Siena College"
     },

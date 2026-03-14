@@ -1,6 +1,6 @@
 {
   "team": "University of Denver",
-  "scrapedAt": "2026-03-14T20:36:27.543305Z",
+  "scrapedAt": "2026-03-14T21:18:19.954948Z",
   "playerCount": 49,
   "players": [
     {
@@ -41,7 +41,7 @@
     {
       "name": "Cade Eldred",
       "number": "6",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Senior",
       "team": "University of Denver"
     },
@@ -83,7 +83,7 @@
     {
       "name": "Colm  Barnett",
       "number": "14",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Senior",
       "team": "University of Denver"
     },
@@ -97,7 +97,7 @@
     {
       "name": "Sam Trumble",
       "number": "16",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "R-Jr.",
       "team": "University of Denver"
     },
@@ -167,7 +167,7 @@
     {
       "name": "Patrick  Reilly",
       "number": "26",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "R-Sr.",
       "team": "University of Denver"
     },
@@ -195,7 +195,7 @@
     {
       "name": "Blake Benton",
       "number": "30",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Sophomore",
       "team": "University of Denver"
     },
@@ -230,7 +230,7 @@
     {
       "name": "Sawyer Hudgins",
       "number": "35",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Sophomore",
       "team": "University of Denver"
     },
@@ -335,14 +335,14 @@
     {
       "name": "Brendan  Bateman",
       "number": "56",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "R-So.",
       "team": "University of Denver"
     },
     {
       "name": "Kaysey  Choudry",
       "number": "60",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Sophomore",
       "team": "University of Denver"
     }

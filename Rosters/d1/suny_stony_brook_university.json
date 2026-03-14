@@ -1,6 +1,6 @@
 {
   "team": "SUNY Stony Brook University",
-  "scrapedAt": "2026-03-14T20:36:11.087009Z",
+  "scrapedAt": "2026-03-14T21:18:01.362384Z",
   "playerCount": 54,
   "players": [
     {
@@ -34,7 +34,7 @@
     {
       "name": "Jack  Delli-Pizzi",
       "number": "4",
-      "position": "Long Stick Midfield",
+      "position": "LSM",
       "classYear": "Senior",
       "team": "SUNY Stony Brook University"
     },
@@ -55,7 +55,7 @@
     {
       "name": "Michael Fagen",
       "number": "7",
-      "position": "Defensive Midfield",
+      "position": "Defense/Midfield",
       "classYear": "Junior",
       "team": "SUNY Stony Brook University"
     },
@@ -69,7 +69,7 @@
     {
       "name": "Will Ginch",
       "number": "9",
-      "position": "Defensive Midfield",
+      "position": "Defense/Midfield",
       "classYear": "Junior",
       "team": "SUNY Stony Brook University"
     },
@@ -83,7 +83,7 @@
     {
       "name": "Brian Bradley",
       "number": "11",
-      "position": "Defensive Midfield",
+      "position": "Defense/Midfield",
       "classYear": "Graduate",
       "team": "SUNY Stony Brook University"
     },
@@ -97,7 +97,7 @@
     {
       "name": "Will Birney",
       "number": "13",
-      "position": "Defensive Midfield",
+      "position": "Defense/Midfield",
       "classYear": "Junior",
       "team": "SUNY Stony Brook University"
     },
@@ -125,7 +125,7 @@
     {
       "name": "Jaden  Baldwin",
       "number": "17",
-      "position": "Defensive Midfield",
+      "position": "Defense/Midfield",
       "classYear": "Senior",
       "team": "SUNY Stony Brook University"
     },
@@ -181,7 +181,7 @@
     {
       "name": "Will  Anderson",
       "number": "26",
-      "position": "Defensive Midfield",
+      "position": "Defense/Midfield",
       "classYear": "Senior",
       "team": "SUNY Stony Brook University"
     },
@@ -195,7 +195,7 @@
     {
       "name": "Ronnie  Kraemer",
       "number": "29",
-      "position": "Defensive Midfield",
+      "position": "Defense/Midfield",
       "classYear": "Senior",
       "team": "SUNY Stony Brook University"
     },
@@ -230,21 +230,21 @@
     {
       "name": "Brady McKean",
       "number": "34",
-      "position": "Defensive Midfield",
+      "position": "Defense/Midfield",
       "classYear": "Freshman",
       "team": "SUNY Stony Brook University"
     },
     {
       "name": "Tanner Radogna",
       "number": "35",
-      "position": "Defensive Midfield",
+      "position": "Defense/Midfield",
       "classYear": "Sophomore",
       "team": "SUNY Stony Brook University"
     },
     {
       "name": "Arek Cellura",
       "number": "36",
-      "position": "Long-Stick Midfield",
+      "position": "LSM",
       "classYear": "Freshman",
       "team": "SUNY Stony Brook University"
     },
@@ -265,7 +265,7 @@
     {
       "name": "Jack Crosby",
       "number": "39",
-      "position": "Long Stick Midfield",
+      "position": "LSM",
       "classYear": "Graduate",
       "team": "SUNY Stony Brook University"
     },
@@ -279,7 +279,7 @@
     {
       "name": "Cameron Foley",
       "number": "41",
-      "position": "Long Stick Midfield",
+      "position": "LSM",
       "classYear": "Freshman",
       "team": "SUNY Stony Brook University"
     },
@@ -321,7 +321,7 @@
     {
       "name": "Thomas Cieleski",
       "number": "50",
-      "position": "Long Stick Midfield",
+      "position": "LSM",
       "classYear": "Sophomore",
       "team": "SUNY Stony Brook University"
     },
@@ -349,7 +349,7 @@
     {
       "name": "Kyan East",
       "number": "77",
-      "position": "Long Stick Midfield",
+      "position": "LSM",
       "classYear": "Freshman",
       "team": "SUNY Stony Brook University"
     },

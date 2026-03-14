@@ -1,7 +1,7 @@
 {
   "team": "Marist College",
-  "scrapedAt": "2026-03-14T20:35:25.353282Z",
-  "playerCount": 44,
+  "scrapedAt": "2026-03-14T21:17:03.839413Z",
+  "playerCount": 42,
   "players": [
     {
       "name": "Dylan Rocchio",
@@ -27,7 +27,7 @@
     {
       "name": "Josh Smith",
       "number": "6",
-      "position": "Faceoff Specialist",
+      "position": "FOGO",
       "classYear": "Sophomore",
       "team": "Marist College"
     },
@@ -181,14 +181,14 @@
     {
       "name": "Gavin Marzigliano",
       "number": "29",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Freshman",
       "team": "Marist College"
     },
     {
       "name": "Matthew Chadwick",
       "number": "30",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Freshman",
       "team": "Marist College"
     },
@@ -293,22 +293,8 @@
     {
       "name": "Nico Wang",
       "number": "49",
-      "position": "Faceoff Specialist",
+      "position": "FOGO",
       "classYear": "Freshman",
-      "team": "Marist College"
-    },
-    {
-      "name": "Jared Effinger",
-      "number": "",
-      "position": "Student Assistant",
-      "classYear": "Sophomore",
-      "team": "Marist College"
-    },
-    {
-      "name": "Jack Kermanshahi",
-      "number": "",
-      "position": "Student Manager",
-      "classYear": "Senior",
       "team": "Marist College"
     }
   ]

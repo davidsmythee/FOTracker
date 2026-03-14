@@ -1,12 +1,12 @@
 {
   "team": "University of Maryland - Baltimore County",
-  "scrapedAt": "2026-03-14T20:36:33.367104Z",
+  "scrapedAt": "2026-03-14T21:18:26.046587Z",
   "playerCount": 43,
   "players": [
     {
       "name": "Noah Hall",
       "number": "0",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Junior",
       "team": "University of Maryland - Baltimore County"
     },
@@ -41,7 +41,7 @@
     {
       "name": "Justin Webber",
       "number": "5",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Junior",
       "team": "University of Maryland - Baltimore County"
     },
@@ -153,7 +153,7 @@
     {
       "name": "Kevin Bredeck",
       "number": "22",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Junior",
       "team": "University of Maryland - Baltimore County"
     },
@@ -223,7 +223,7 @@
     {
       "name": "Drew Lapointe",
       "number": "34",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Freshman",
       "team": "University of Maryland - Baltimore County"
     },
@@ -300,7 +300,7 @@
     {
       "name": "Jameson Coffman",
       "number": "55",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Sophomore",
       "team": "University of Maryland - Baltimore County"
     }

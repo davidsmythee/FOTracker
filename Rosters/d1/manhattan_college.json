@@ -1,12 +1,12 @@
 {
   "team": "Manhattan College",
-  "scrapedAt": "2026-03-14T20:35:23.679359Z",
+  "scrapedAt": "2026-03-14T21:17:02.245912Z",
   "playerCount": 41,
   "players": [
     {
       "name": "Matthew Bove",
       "number": "2",
-      "position": "Defender",
+      "position": "Defense",
       "classYear": "R-So.",
       "team": "Manhattan College"
     },
@@ -48,7 +48,7 @@
     {
       "name": "Timothy Monzon",
       "number": "9",
-      "position": "Defender",
+      "position": "Defense",
       "classYear": "R-Fr.",
       "team": "Manhattan College"
     },
@@ -90,7 +90,7 @@
     {
       "name": "Patrick  Otts",
       "number": "15",
-      "position": "Defender",
+      "position": "Defense",
       "classYear": "R-So.",
       "team": "Manhattan College"
     },
@@ -125,21 +125,21 @@
     {
       "name": "Michael Medici",
       "number": "20",
-      "position": "Defender",
+      "position": "Defense",
       "classYear": "Freshman",
       "team": "Manhattan College"
     },
     {
       "name": "Matthew Pantorno",
       "number": "21",
-      "position": "Defender",
+      "position": "Defense",
       "classYear": "Junior",
       "team": "Manhattan College"
     },
     {
       "name": "Andrew Giandonato",
       "number": "22",
-      "position": "Defender",
+      "position": "Defense",
       "classYear": "Senior",
       "team": "Manhattan College"
     },
@@ -167,14 +167,14 @@
     {
       "name": "Darian Johnstone",
       "number": "26",
-      "position": "Defender",
+      "position": "Defense",
       "classYear": "Senior",
       "team": "Manhattan College"
     },
     {
       "name": "Sean Pellegrino",
       "number": "27",
-      "position": "Defender",
+      "position": "Defense",
       "classYear": "Freshman",
       "team": "Manhattan College"
     },
@@ -237,7 +237,7 @@
     {
       "name": "Sean Mannion",
       "number": "37",
-      "position": "Defender",
+      "position": "Defense",
       "classYear": "R-Fr.",
       "team": "Manhattan College"
     },
@@ -279,7 +279,7 @@
     {
       "name": "Eli Ray",
       "number": "77",
-      "position": "Defender",
+      "position": "Defense",
       "classYear": "Freshman",
       "team": "Manhattan College"
     },

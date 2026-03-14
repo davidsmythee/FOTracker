@@ -1,12 +1,12 @@
 {
   "team": "Wagner College",
-  "scrapedAt": "2026-03-14T20:37:01.602524Z",
+  "scrapedAt": "2026-03-14T21:18:57.957982Z",
   "playerCount": 49,
   "players": [
     {
       "name": "Sam Beamer",
       "number": "1",
-      "position": "Defense/Long Stick Midfield",
+      "position": "Defense/LSM",
       "classYear": "Junior",
       "team": "Wagner College"
     },
@@ -97,7 +97,7 @@
     {
       "name": "Griffin Edwards",
       "number": "14",
-      "position": "Midfield/Attack",
+      "position": "Attack/Midfield",
       "classYear": "Junior",
       "team": "Wagner College"
     },
@@ -181,7 +181,7 @@
     {
       "name": "Dylan Dwyer",
       "number": "26",
-      "position": "Faceoff/Midfield",
+      "position": "FOGO/Midfield",
       "classYear": "Junior",
       "team": "Wagner College"
     },
@@ -272,7 +272,7 @@
     {
       "name": "Ian Muchineuta",
       "number": "42",
-      "position": "Short Stick Defense Midfield",
+      "position": "Defense/Midfield",
       "classYear": "Junior",
       "team": "Wagner College"
     },
@@ -300,7 +300,7 @@
     {
       "name": "Logan Hyde",
       "number": "47",
-      "position": "Short Stick Defense Midfield",
+      "position": "Defense/Midfield",
       "classYear": "Sophomore",
       "team": "Wagner College"
     },
@@ -314,7 +314,7 @@
     {
       "name": "Terry Farrell",
       "number": "50",
-      "position": "Short Stick Defense Midfield",
+      "position": "Defense/Midfield",
       "classYear": "Junior",
       "team": "Wagner College"
     },
@@ -328,7 +328,7 @@
     {
       "name": "Colin Sabia",
       "number": "52",
-      "position": "Long Stick Midfield",
+      "position": "LSM",
       "classYear": "Junior",
       "team": "Wagner College"
     },

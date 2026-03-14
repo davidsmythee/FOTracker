@@ -1,6 +1,6 @@
 {
   "team": "Cornell University",
-  "scrapedAt": "2026-03-14T20:34:46.036332Z",
+  "scrapedAt": "2026-03-14T21:16:27.374015Z",
   "playerCount": 49,
   "players": [
     {
@@ -111,7 +111,7 @@
     {
       "name": "Jack Cascadden",
       "number": "20",
-      "position": "Faceoff/Midfield",
+      "position": "FOGO/Midfield",
       "classYear": "Senior",
       "team": "Cornell University"
     },
@@ -153,7 +153,7 @@
     {
       "name": "John Rodehorst",
       "number": "27",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Freshman",
       "team": "Cornell University"
     },
@@ -188,7 +188,7 @@
     {
       "name": "Brendan Staub",
       "number": "33",
-      "position": "Long Stick Midfielder/Defense",
+      "position": "Defense/LSM",
       "classYear": "Senior",
       "team": "Cornell University"
     },
@@ -265,7 +265,7 @@
     {
       "name": "Eddie Rayhill",
       "number": "46",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Senior",
       "team": "Cornell University"
     },
@@ -307,7 +307,7 @@
     {
       "name": "Walker Schwartz",
       "number": "53",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Junior",
       "team": "Cornell University"
     },

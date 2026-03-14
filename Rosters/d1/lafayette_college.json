@@ -1,6 +1,6 @@
 {
   "team": "Lafayette College",
-  "scrapedAt": "2026-03-14T20:35:15.247193Z",
+  "scrapedAt": "2026-03-14T21:16:54.082494Z",
   "playerCount": 52,
   "players": [
     {
@@ -349,7 +349,7 @@
     {
       "name": "Talan Smith",
       "number": "66",
-      "position": "Faceoff/Midfield",
+      "position": "FOGO/Midfield",
       "classYear": "Freshman",
       "team": "Lafayette College"
     },
@@ -363,7 +363,7 @@
     {
       "name": "Christian Tapia",
       "number": "88",
-      "position": "Midfield/Faceoff",
+      "position": "FOGO/Midfield",
       "classYear": "Sophomore",
       "team": "Lafayette College"
     }

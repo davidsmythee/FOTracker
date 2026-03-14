@@ -1,6 +1,6 @@
 {
   "team": "St. Bonaventure University",
-  "scrapedAt": "2026-03-14T20:36:04.430221Z",
+  "scrapedAt": "2026-03-14T21:17:54.143917Z",
   "playerCount": 47,
   "players": [
     {
@@ -13,7 +13,7 @@
     {
       "name": "Simon Kowal",
       "number": "1",
-      "position": "Short Stick Defensive Midfielder",
+      "position": "Defense/Midfield",
       "classYear": "Freshman",
       "team": "St. Bonaventure University"
     },
@@ -62,7 +62,7 @@
     {
       "name": "Jake Argue",
       "number": "9",
-      "position": "Short Stick Defensive Midfield",
+      "position": "Defense/Midfield",
       "classYear": "Junior",
       "team": "St. Bonaventure University"
     },
@@ -83,7 +83,7 @@
     {
       "name": "Jake Engel",
       "number": "12",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "R-So.",
       "team": "St. Bonaventure University"
     },
@@ -125,7 +125,7 @@
     {
       "name": "Rory O'Brien",
       "number": "19",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Junior",
       "team": "St. Bonaventure University"
     },
@@ -139,7 +139,7 @@
     {
       "name": "Jake Polizzi",
       "number": "21",
-      "position": "Short Stick Defensive Midfielder",
+      "position": "Defense/Midfield",
       "classYear": "Freshman",
       "team": "St. Bonaventure University"
     },
@@ -188,7 +188,7 @@
     {
       "name": "Brandan Buncke",
       "number": "28",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Junior",
       "team": "St. Bonaventure University"
     },
@@ -230,7 +230,7 @@
     {
       "name": "Kenyon Whitney",
       "number": "35",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Freshman",
       "team": "St. Bonaventure University"
     },
@@ -251,14 +251,14 @@
     {
       "name": "Benny  Carter",
       "number": "43",
-      "position": "Short Stick Defensive Midfielder",
+      "position": "Defense/Midfield",
       "classYear": "Junior",
       "team": "St. Bonaventure University"
     },
     {
       "name": "Alex Polisoto",
       "number": "44",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "R-Jr.",
       "team": "St. Bonaventure University"
     },
@@ -272,7 +272,7 @@
     {
       "name": "Jake Patrei",
       "number": "48",
-      "position": "Short Stick Defensive Midfielder",
+      "position": "Defense/Midfield",
       "classYear": "Sophomore",
       "team": "St. Bonaventure University"
     },
@@ -286,7 +286,7 @@
     {
       "name": "Kaeden Burger",
       "number": "51",
-      "position": "Short Stick Defensive Midfielder",
+      "position": "Defense/Midfield",
       "classYear": "Sophomore",
       "team": "St. Bonaventure University"
     },
@@ -328,7 +328,7 @@
     {
       "name": "Kenneth Porter",
       "number": "88",
-      "position": "Midifeld",
+      "position": "Midfield",
       "classYear": "Freshman",
       "team": "St. Bonaventure University"
     }

@@ -1,7 +1,7 @@
 {
   "team": "Penn State",
-  "scrapedAt": "2026-03-14T20:39:33.428277Z",
-  "playerCount": 55,
+  "scrapedAt": "2026-03-14T21:17:27.652457Z",
+  "playerCount": 48,
   "players": [
     {
       "name": "Ben Johnson",
@@ -13,7 +13,7 @@
     {
       "name": "Brendan Leary",
       "number": "2",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Junior",
       "team": "Penn State"
     },
@@ -34,7 +34,7 @@
     {
       "name": "Roman DiBartolomeo",
       "number": "5",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Redshirt Freshman",
       "team": "Penn State"
     },
@@ -55,7 +55,7 @@
     {
       "name": "Peri DiBartolomeo",
       "number": "8",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Sophomore",
       "team": "Penn State"
     },
@@ -76,7 +76,7 @@
     {
       "name": "Jon King",
       "number": "11",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Senior",
       "team": "Penn State"
     },
@@ -188,7 +188,7 @@
     {
       "name": "Mark McKeon",
       "number": "29",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Senior",
       "team": "Penn State"
     },
@@ -230,7 +230,7 @@
     {
       "name": "Joe Calandrino",
       "number": "36",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Junior",
       "team": "Penn State"
     },
@@ -244,7 +244,7 @@
     {
       "name": "Luke Scarpello",
       "number": "40",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Senior",
       "team": "Penn State"
     },
@@ -272,7 +272,7 @@
     {
       "name": "Sammy McAvoy",
       "number": "45",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Junior",
       "team": "Penn State"
     },
@@ -337,55 +337,6 @@
       "number": "91",
       "position": "Midfield",
       "classYear": "Junior",
-      "team": "Penn State"
-    },
-    {
-      "name": "Jeff Tambroni",
-      "number": "",
-      "position": "Head Coach",
-      "classYear": "",
-      "team": "Penn State"
-    },
-    {
-      "name": "John Haus",
-      "number": "",
-      "position": "Associate Head Coach",
-      "classYear": "",
-      "team": "Penn State"
-    },
-    {
-      "name": "Joe Bucci",
-      "number": "",
-      "position": "Associate Head Coach",
-      "classYear": "",
-      "team": "Penn State"
-    },
-    {
-      "name": "Nick Cardile",
-      "number": "",
-      "position": "Assistant Coach",
-      "classYear": "",
-      "team": "Penn State"
-    },
-    {
-      "name": "Jourdan Fraser",
-      "number": "",
-      "position": "Director of Lacrosse Operations",
-      "classYear": "",
-      "team": "Penn State"
-    },
-    {
-      "name": "Steven Murray",
-      "number": "",
-      "position": "Athletic Trainer (MLAX)",
-      "classYear": "",
-      "team": "Penn State"
-    },
-    {
-      "name": "Evan Hanberry",
-      "number": "",
-      "position": "Athletic Performance Coach (MLAX, WTEN)",
-      "classYear": "",
       "team": "Penn State"
     }
   ]

@@ -1,6 +1,6 @@
 {
   "team": "Canisius College",
-  "scrapedAt": "2026-03-14T20:34:38.863406Z",
+  "scrapedAt": "2026-03-14T21:16:19.395601Z",
   "playerCount": 52,
   "players": [
     {
@@ -41,7 +41,7 @@
     {
       "name": "Trotter Hughes",
       "number": "7",
-      "position": "Defense/Long Stick Midfielder",
+      "position": "Defense/LSM",
       "classYear": "Sophomore",
       "team": "Canisius College"
     },
@@ -139,7 +139,7 @@
     {
       "name": "Alexis Simard",
       "number": "22",
-      "position": "Long-Stick Midfielder",
+      "position": "LSM",
       "classYear": "Senior",
       "team": "Canisius College"
     },
@@ -174,7 +174,7 @@
     {
       "name": "Dylan Jagow",
       "number": "27",
-      "position": "Face-Off Specialist",
+      "position": "FOGO",
       "classYear": "Freshman",
       "team": "Canisius College"
     },
@@ -265,14 +265,14 @@
     {
       "name": "Camden De Tolla",
       "number": "40",
-      "position": "Face-Off Specialist",
+      "position": "FOGO",
       "classYear": "R-So.",
       "team": "Canisius College"
     },
     {
       "name": "Ben Morrison Philips",
       "number": "41",
-      "position": "Face-Off Specialist",
+      "position": "FOGO",
       "classYear": "Freshman",
       "team": "Canisius College"
     },
@@ -293,7 +293,7 @@
     {
       "name": "Hunter Roy",
       "number": "44",
-      "position": "Long-Stick Midfielder",
+      "position": "LSM",
       "classYear": "Sophomore",
       "team": "Canisius College"
     },
@@ -321,7 +321,7 @@
     {
       "name": "Micah  Hanson",
       "number": "48",
-      "position": "Face-Off Specialist",
+      "position": "FOGO",
       "classYear": "Senior",
       "team": "Canisius College"
     },

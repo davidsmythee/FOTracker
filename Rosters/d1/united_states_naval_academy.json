@@ -1,6 +1,6 @@
 {
   "team": "United States Naval Academy",
-  "scrapedAt": "2026-03-14T20:36:23.529771Z",
+  "scrapedAt": "2026-03-14T21:18:15.562184Z",
   "playerCount": 63,
   "players": [
     {
@@ -48,14 +48,14 @@
     {
       "name": "Danny Aiello",
       "number": "7",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Freshman",
       "team": "United States Naval Academy"
     },
     {
       "name": "Chase Green",
       "number": "8",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Sophomore",
       "team": "United States Naval Academy"
     },
@@ -69,7 +69,7 @@
     {
       "name": "Max Thomas",
       "number": "10",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Senior",
       "team": "United States Naval Academy"
     },
@@ -90,7 +90,7 @@
     {
       "name": "Harrison Richards",
       "number": "13",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Freshman",
       "team": "United States Naval Academy"
     },
@@ -111,7 +111,7 @@
     {
       "name": "Preston Lugar",
       "number": "16",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Senior",
       "team": "United States Naval Academy"
     },
@@ -132,7 +132,7 @@
     {
       "name": "Chad Connolly",
       "number": "19",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Senior",
       "team": "United States Naval Academy"
     },
@@ -146,7 +146,7 @@
     {
       "name": "Ryan Trafford",
       "number": "21",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Sophomore",
       "team": "United States Naval Academy"
     },
@@ -167,7 +167,7 @@
     {
       "name": "Joshua Nagy",
       "number": "24",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Sophomore",
       "team": "United States Naval Academy"
     },
@@ -195,7 +195,7 @@
     {
       "name": "Graham Parker",
       "number": "28",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Junior",
       "team": "United States Naval Academy"
     },
@@ -251,7 +251,7 @@
     {
       "name": "Justin Queen",
       "number": "36",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Junior",
       "team": "United States Naval Academy"
     },
@@ -307,7 +307,7 @@
     {
       "name": "Rory Blanchard",
       "number": "44",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Sophomore",
       "team": "United States Naval Academy"
     },

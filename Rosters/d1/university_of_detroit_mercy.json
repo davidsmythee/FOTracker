@@ -1,6 +1,6 @@
 {
   "team": "University of Detroit Mercy",
-  "scrapedAt": "2026-03-14T20:36:29.397888Z",
+  "scrapedAt": "2026-03-14T21:18:21.739480Z",
   "playerCount": 43,
   "players": [
     {
@@ -34,7 +34,7 @@
     {
       "name": "Zane Hitch",
       "number": "5",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Senior",
       "team": "University of Detroit Mercy"
     },
@@ -48,21 +48,21 @@
     {
       "name": "Tristen Davis",
       "number": "7",
-      "position": "Face Off",
+      "position": "FOGO",
       "classYear": "R-So.",
       "team": "University of Detroit Mercy"
     },
     {
       "name": "Lance Poole",
       "number": "8",
-      "position": "Defensive Midfield",
+      "position": "Defense/Midfield",
       "classYear": "Junior",
       "team": "University of Detroit Mercy"
     },
     {
       "name": "Gavin Moore",
       "number": "9",
-      "position": "Defensive Midfield",
+      "position": "Defense/Midfield",
       "classYear": "Junior",
       "team": "University of Detroit Mercy"
     },
@@ -104,7 +104,7 @@
     {
       "name": "Sam Rochowiak",
       "number": "16",
-      "position": "Defense/Long Stick Midfielder",
+      "position": "Defense/LSM",
       "classYear": "Freshman",
       "team": "University of Detroit Mercy"
     },
@@ -118,7 +118,7 @@
     {
       "name": "Canton Lanham",
       "number": "18",
-      "position": "Face Off",
+      "position": "FOGO",
       "classYear": "Sophomore",
       "team": "University of Detroit Mercy"
     },
@@ -146,7 +146,7 @@
     {
       "name": "Tommy Thompson",
       "number": "23",
-      "position": "Defensive Midfield",
+      "position": "Defense/Midfield",
       "classYear": "Freshman",
       "team": "University of Detroit Mercy"
     },
@@ -174,7 +174,7 @@
     {
       "name": "Jack Reed",
       "number": "27",
-      "position": "Defensive Midfield",
+      "position": "Defense/Midfield",
       "classYear": "Junior",
       "team": "University of Detroit Mercy"
     },
@@ -209,7 +209,7 @@
     {
       "name": "Conner Kunce",
       "number": "40",
-      "position": "Face Off",
+      "position": "FOGO",
       "classYear": "Sophomore",
       "team": "University of Detroit Mercy"
     },
@@ -223,7 +223,7 @@
     {
       "name": "Tyler Francis-Renner",
       "number": "42",
-      "position": "Defense/Long Stick Midfielder",
+      "position": "Defense/LSM",
       "classYear": "Freshman",
       "team": "University of Detroit Mercy"
     },
@@ -251,7 +251,7 @@
     {
       "name": "Malakhi Berry",
       "number": "49",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Sophomore",
       "team": "University of Detroit Mercy"
     },
@@ -265,7 +265,7 @@
     {
       "name": "DJ Wojciechowski",
       "number": "55",
-      "position": "Midfield/Attack",
+      "position": "Attack/Midfield",
       "classYear": "Freshman",
       "team": "University of Detroit Mercy"
     },
@@ -279,14 +279,14 @@
     {
       "name": "Giovanni Delissio",
       "number": "81",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Freshman",
       "team": "University of Detroit Mercy"
     },
     {
       "name": "Jackson Ewald",
       "number": "88",
-      "position": "Defensive Midfield",
+      "position": "Defense/Midfield",
       "classYear": "Senior",
       "team": "University of Detroit Mercy"
     },
@@ -300,7 +300,7 @@
     {
       "name": "Whales Racette",
       "number": "93",
-      "position": "Defensive Midfield",
+      "position": "Defense/Midfield",
       "classYear": "Freshman",
       "team": "University of Detroit Mercy"
     }

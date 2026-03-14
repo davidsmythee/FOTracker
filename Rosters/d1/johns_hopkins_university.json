@@ -1,6 +1,6 @@
 {
   "team": "Johns Hopkins University",
-  "scrapedAt": "2026-03-14T20:35:12.627859Z",
+  "scrapedAt": "2026-03-14T21:16:52.359719Z",
   "playerCount": 53,
   "players": [
     {
@@ -34,7 +34,7 @@
     {
       "name": "Liam Burke",
       "number": "5",
-      "position": "Short Stick",
+      "position": "Midfield",
       "classYear": "Sophomore",
       "team": "Johns Hopkins University"
     },
@@ -55,7 +55,7 @@
     {
       "name": "Nicholas Lane",
       "number": "8",
-      "position": "Faceoff Specialist",
+      "position": "FOGO",
       "classYear": "Senior",
       "team": "Johns Hopkins University"
     },
@@ -76,7 +76,7 @@
     {
       "name": "Alex Lacey",
       "number": "11",
-      "position": "Short Stick",
+      "position": "Midfield",
       "classYear": "Sophomore",
       "team": "Johns Hopkins University"
     },
@@ -90,14 +90,14 @@
     {
       "name": "Luke Martin",
       "number": "13",
-      "position": "Long Stick Middie",
+      "position": "LSM",
       "classYear": "Junior",
       "team": "Johns Hopkins University"
     },
     {
       "name": "Charlie Hazard",
       "number": "14",
-      "position": "Long Stick Middie",
+      "position": "LSM",
       "classYear": "Junior",
       "team": "Johns Hopkins University"
     },
@@ -118,7 +118,7 @@
     {
       "name": "Reece DiCicco",
       "number": "18",
-      "position": "Short Stick",
+      "position": "Midfield",
       "classYear": "Sophomore",
       "team": "Johns Hopkins University"
     },
@@ -132,14 +132,14 @@
     {
       "name": "Zach Claiborne",
       "number": "20",
-      "position": "Short Stick",
+      "position": "Midfield",
       "classYear": "Junior",
       "team": "Johns Hopkins University"
     },
     {
       "name": "Triston Jewell",
       "number": "22",
-      "position": "Short Stick",
+      "position": "Midfield",
       "classYear": "Junior",
       "team": "Johns Hopkins University"
     },
@@ -195,7 +195,7 @@
     {
       "name": "Carter Kryszak",
       "number": "32",
-      "position": "Faceoff Specialist",
+      "position": "FOGO",
       "classYear": "Sophomore",
       "team": "Johns Hopkins University"
     },
@@ -230,7 +230,7 @@
     {
       "name": "Warry Colhoun",
       "number": "40",
-      "position": "Short Stick",
+      "position": "Midfield",
       "classYear": "Junior",
       "team": "Johns Hopkins University"
     },
@@ -244,21 +244,21 @@
     {
       "name": "Jos Chois",
       "number": "42",
-      "position": "Short Stick",
+      "position": "Midfield",
       "classYear": "Freshman",
       "team": "Johns Hopkins University"
     },
     {
       "name": "Joey Levenberg",
       "number": "44",
-      "position": "Short Stick",
+      "position": "Midfield",
       "classYear": "Freshman",
       "team": "Johns Hopkins University"
     },
     {
       "name": "Eric McDonald",
       "number": "45",
-      "position": "Short Stick",
+      "position": "Midfield",
       "classYear": "Senior",
       "team": "Johns Hopkins University"
     },
@@ -272,7 +272,7 @@
     {
       "name": "Tyler Eye",
       "number": "48",
-      "position": "Long Stick Middie",
+      "position": "LSM",
       "classYear": "Sophomore",
       "team": "Johns Hopkins University"
     },
@@ -286,7 +286,7 @@
     {
       "name": "Alec Billings",
       "number": "50",
-      "position": "Short Stick",
+      "position": "Midfield",
       "classYear": "Senior",
       "team": "Johns Hopkins University"
     },
@@ -307,7 +307,7 @@
     {
       "name": "Alexander Swinnie",
       "number": "53",
-      "position": "Faceoff Specialist",
+      "position": "FOGO",
       "classYear": "Freshman",
       "team": "Johns Hopkins University"
     },
@@ -328,7 +328,7 @@
     {
       "name": "Carmelo Pace",
       "number": "77",
-      "position": "Short Stick",
+      "position": "Midfield",
       "classYear": "Sophomore",
       "team": "Johns Hopkins University"
     },

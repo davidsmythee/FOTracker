@@ -1,6 +1,6 @@
 {
   "team": "Jacksonville University",
-  "scrapedAt": "2026-03-14T20:35:10.499423Z",
+  "scrapedAt": "2026-03-14T21:16:50.576919Z",
   "playerCount": 60,
   "players": [
     {
@@ -188,7 +188,7 @@
     {
       "name": "Kyle Gonsiorek",
       "number": "27",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Graduate",
       "team": "Jacksonville University"
     },
@@ -300,14 +300,14 @@
     {
       "name": "Noah Seabolt",
       "number": "44",
-      "position": "Long Stick Midfield",
+      "position": "LSM",
       "classYear": "Freshman",
       "team": "Jacksonville University"
     },
     {
       "name": "Lucas Fraser",
       "number": "45",
-      "position": "Long-Stick Midfielder",
+      "position": "LSM",
       "classYear": "Sophomore",
       "team": "Jacksonville University"
     },

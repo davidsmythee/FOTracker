@@ -1,6 +1,6 @@
 {
   "team": "Villanova University",
-  "scrapedAt": "2026-03-14T20:36:55.918283Z",
+  "scrapedAt": "2026-03-14T21:18:53.123521Z",
   "playerCount": 44,
   "players": [
     {
@@ -41,7 +41,7 @@
     {
       "name": "Scot Mackie",
       "number": "6",
-      "position": "Defensive Midfield",
+      "position": "Defense/Midfield",
       "classYear": "Senior",
       "team": "Villanova University"
     },
@@ -104,7 +104,7 @@
     {
       "name": "Michael Berkery",
       "number": "15",
-      "position": "Defensive Midfield",
+      "position": "Defense/Midfield",
       "classYear": "Freshman",
       "team": "Villanova University"
     },
@@ -153,7 +153,7 @@
     {
       "name": "Jack Koch",
       "number": "23",
-      "position": "Defensive Midfield",
+      "position": "Defense/Midfield",
       "classYear": "Sophomore",
       "team": "Villanova University"
     },
@@ -195,7 +195,7 @@
     {
       "name": "Parker Harms",
       "number": "31",
-      "position": "Defense/Long Stick Midfield",
+      "position": "Defense/LSM",
       "classYear": "Freshman",
       "team": "Villanova University"
     },
@@ -209,7 +209,7 @@
     {
       "name": "Jake  Melchionni",
       "number": "33",
-      "position": "Long Stick Midfield",
+      "position": "LSM",
       "classYear": "Junior",
       "team": "Villanova University"
     },
@@ -251,7 +251,7 @@
     {
       "name": "Julian Glantz",
       "number": "41",
-      "position": "Defense/Long Stick Midfield",
+      "position": "Defense/LSM",
       "classYear": "Senior",
       "team": "Villanova University"
     },
@@ -293,7 +293,7 @@
     {
       "name": "Tate Seeman",
       "number": "77",
-      "position": "Defense/Long Stick Midfield",
+      "position": "Defense/LSM",
       "classYear": "Senior",
       "team": "Villanova University"
     },

@@ -1,6 +1,6 @@
 {
   "team": "University of Maryland",
-  "scrapedAt": "2026-03-14T20:36:31.229502Z",
+  "scrapedAt": "2026-03-14T21:18:24.385654Z",
   "playerCount": 50,
   "players": [
     {
@@ -132,7 +132,7 @@
     {
       "name": "Oli Skeean",
       "number": "20",
-      "position": "Long Stick Midfield",
+      "position": "LSM",
       "classYear": "Freshman",
       "team": "University of Maryland"
     },
@@ -153,7 +153,7 @@
     {
       "name": "Luca Pompeii",
       "number": "24",
-      "position": "Midfield / Attack",
+      "position": "Attack/Midfield",
       "classYear": "Freshman",
       "team": "University of Maryland"
     },
@@ -167,7 +167,7 @@
     {
       "name": "AJ  Larkin",
       "number": "26",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Senior",
       "team": "University of Maryland"
     },
@@ -300,14 +300,14 @@
     {
       "name": "Kyle  Hata",
       "number": "48",
-      "position": "Faceoff / Midfield",
+      "position": "FOGO/Midfield",
       "classYear": "Freshman",
       "team": "University of Maryland"
     },
     {
       "name": "Trevor Owens",
       "number": "52",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Sophomore",
       "team": "University of Maryland"
     },

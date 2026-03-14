@@ -1,6 +1,6 @@
 {
   "team": "University of Pennsylvania",
-  "scrapedAt": "2026-03-14T20:36:44.437581Z",
+  "scrapedAt": "2026-03-14T21:18:37.794064Z",
   "playerCount": 47,
   "players": [
     {
@@ -76,7 +76,7 @@
     {
       "name": "PJ McKeigue",
       "number": "15",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Senior",
       "team": "University of Pennsylvania"
     },
@@ -286,7 +286,7 @@
     {
       "name": "Paul vanBastelaar",
       "number": "49",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Sophomore",
       "team": "University of Pennsylvania"
     },
@@ -300,7 +300,7 @@
     {
       "name": "Jacob Pacheco",
       "number": "51",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Junior",
       "team": "University of Pennsylvania"
     },
@@ -314,14 +314,14 @@
     {
       "name": "Anthony McMullan",
       "number": "54",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Junior",
       "team": "University of Pennsylvania"
     },
     {
       "name": "Henry Zabierek",
       "number": "59",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Senior",
       "team": "University of Pennsylvania"
     },

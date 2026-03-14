@@ -1,7 +1,7 @@
 {
   "team": "University of Notre Dame",
-  "scrapedAt": "2026-03-14T20:39:34.192409Z",
-  "playerCount": 58,
+  "scrapedAt": "2026-03-14T21:18:36.091641Z",
+  "playerCount": 53,
   "players": [
     {
       "name": "Colin Kenney",
@@ -372,41 +372,6 @@
       "number": "",
       "position": "Midfield",
       "classYear": "6-5",
-      "team": "University of Notre Dame"
-    },
-    {
-      "name": "Kevin Corrigan",
-      "number": "",
-      "position": "",
-      "classYear": "",
-      "team": "University of Notre Dame"
-    },
-    {
-      "name": "Ryan Wellner",
-      "number": "",
-      "position": "",
-      "classYear": "",
-      "team": "University of Notre Dame"
-    },
-    {
-      "name": "Chris Wojcik",
-      "number": "",
-      "position": "",
-      "classYear": "",
-      "team": "University of Notre Dame"
-    },
-    {
-      "name": "Ryder Garnsey",
-      "number": "",
-      "position": "",
-      "classYear": "",
-      "team": "University of Notre Dame"
-    },
-    {
-      "name": "Rob Simpson",
-      "number": "",
-      "position": "",
-      "classYear": "",
       "team": "University of Notre Dame"
     }
   ]

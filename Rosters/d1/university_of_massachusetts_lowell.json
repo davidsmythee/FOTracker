@@ -1,6 +1,6 @@
 {
   "team": "University of Massachusetts - Lowell",
-  "scrapedAt": "2026-03-14T20:36:36.900993Z",
+  "scrapedAt": "2026-03-14T21:18:29.994175Z",
   "playerCount": 46,
   "players": [
     {
@@ -20,7 +20,7 @@
     {
       "name": "Jack Jimenez",
       "number": "2",
-      "position": "Long-Stick Midfield",
+      "position": "LSM",
       "classYear": "Sophomore",
       "team": "University of Massachusetts - Lowell"
     },
@@ -76,7 +76,7 @@
     {
       "name": "Joe Girardi",
       "number": "10",
-      "position": "Long-Stick Midfield",
+      "position": "LSM",
       "classYear": "Junior",
       "team": "University of Massachusetts - Lowell"
     },
@@ -251,7 +251,7 @@
     {
       "name": "Dylan Rummel",
       "number": "36",
-      "position": "Long-Stick Midfield",
+      "position": "LSM",
       "classYear": "Junior",
       "team": "University of Massachusetts - Lowell"
     },
@@ -300,7 +300,7 @@
     {
       "name": "Owen Fitzgerald",
       "number": "55",
-      "position": "Defense/Long-Stick Midfielder",
+      "position": "Defense/LSM",
       "classYear": "Junior",
       "team": "University of Massachusetts - Lowell"
     },

@@ -1,6 +1,6 @@
 {
   "team": "Loyola University Maryland",
-  "scrapedAt": "2026-03-14T20:35:21.920899Z",
+  "scrapedAt": "2026-03-14T21:17:00.271327Z",
   "playerCount": 55,
   "players": [
     {
@@ -34,14 +34,14 @@
     {
       "name": "Michael Callahan",
       "number": "4",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Graduate",
       "team": "Loyola University Maryland"
     },
     {
       "name": "Vinnie Trujillo",
       "number": "5",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Senior",
       "team": "Loyola University Maryland"
     },
@@ -76,14 +76,14 @@
     {
       "name": "Jacob Sullivan",
       "number": "11",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Graduate",
       "team": "Loyola University Maryland"
     },
     {
       "name": "Tyler Olsen",
       "number": "12",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Sophomore",
       "team": "Loyola University Maryland"
     },
@@ -139,7 +139,7 @@
     {
       "name": "Will Rheude",
       "number": "21",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Freshman",
       "team": "Loyola University Maryland"
     },
@@ -244,7 +244,7 @@
     {
       "name": "Briggs McGuckin",
       "number": "38",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Sophomore",
       "team": "Loyola University Maryland"
     },
@@ -272,7 +272,7 @@
     {
       "name": "Marek Seaman",
       "number": "42",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Junior",
       "team": "Loyola University Maryland"
     },
@@ -321,7 +321,7 @@
     {
       "name": "Matthias Beals",
       "number": "49",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Freshman",
       "team": "Loyola University Maryland"
     },
@@ -377,7 +377,7 @@
     {
       "name": "Chase Brody",
       "number": "82",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Junior",
       "team": "Loyola University Maryland"
     },

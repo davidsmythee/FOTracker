@@ -1,6 +1,6 @@
 {
   "team": "Monmouth University",
-  "scrapedAt": "2026-03-14T20:35:33.589499Z",
+  "scrapedAt": "2026-03-14T21:17:13.572012Z",
   "playerCount": 55,
   "players": [
     {
@@ -27,7 +27,7 @@
     {
       "name": "Hayden Chester",
       "number": "3",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Senior",
       "team": "Monmouth University"
     },
@@ -132,7 +132,7 @@
     {
       "name": "Gavin Seaman",
       "number": "18",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Sophomore",
       "team": "Monmouth University"
     },
@@ -174,7 +174,7 @@
     {
       "name": "Dominick Giglio",
       "number": "25",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Junior",
       "team": "Monmouth University"
     },
@@ -202,7 +202,7 @@
     {
       "name": "JD Steidle",
       "number": "29",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Freshman",
       "team": "Monmouth University"
     },
@@ -370,7 +370,7 @@
     {
       "name": "Lincoln Oles",
       "number": "80",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Freshman",
       "team": "Monmouth University"
     },

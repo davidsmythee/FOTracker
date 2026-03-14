@@ -1,6 +1,6 @@
 {
   "team": "Towson University",
-  "scrapedAt": "2026-03-14T20:36:17.030692Z",
+  "scrapedAt": "2026-03-14T21:18:09.017343Z",
   "playerCount": 47,
   "players": [
     {
@@ -48,7 +48,7 @@
     {
       "name": "Alex Vieni",
       "number": "6",
-      "position": "Midfield/Attack",
+      "position": "Attack/Midfield",
       "classYear": "Senior",
       "team": "Towson University"
     },
@@ -97,14 +97,14 @@
     {
       "name": "James Azbill",
       "number": "15",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Senior",
       "team": "Towson University"
     },
     {
       "name": "Nick Sweeney",
       "number": "16",
-      "position": "LSM/Defense",
+      "position": "Defense/LSM",
       "classYear": "Sophomore",
       "team": "Towson University"
     },
@@ -125,7 +125,7 @@
     {
       "name": "Nick Chan",
       "number": "19",
-      "position": "LSM/Defense",
+      "position": "Defense/LSM",
       "classYear": "Sophomore",
       "team": "Towson University"
     },
@@ -160,7 +160,7 @@
     {
       "name": "Austin Welch",
       "number": "25",
-      "position": "Faceoff/SSDM",
+      "position": "FOGO/Midfield",
       "classYear": "R-Jr.",
       "team": "Towson University"
     },
@@ -181,7 +181,7 @@
     {
       "name": "Joe Meidling",
       "number": "28",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Senior",
       "team": "Towson University"
     },
@@ -209,7 +209,7 @@
     {
       "name": "Roman Dodson",
       "number": "32",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Freshman",
       "team": "Towson University"
     },
@@ -279,7 +279,7 @@
     {
       "name": "Berkley Horoba",
       "number": "49",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Freshman",
       "team": "Towson University"
     },
@@ -321,14 +321,14 @@
     {
       "name": "Ben Ellis",
       "number": "57",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Junior",
       "team": "Towson University"
     },
     {
       "name": "Matthew Wolfington",
       "number": "58",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Sophomore",
       "team": "Towson University"
     }

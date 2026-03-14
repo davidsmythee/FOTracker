@@ -1,6 +1,6 @@
 {
   "team": "College of the Holy Cross",
-  "scrapedAt": "2026-03-14T20:34:44.358712Z",
+  "scrapedAt": "2026-03-14T21:16:25.339329Z",
   "playerCount": 49,
   "players": [
     {
@@ -125,14 +125,14 @@
     {
       "name": "Jack Durnan",
       "number": "17",
-      "position": "Goal",
+      "position": "Goalie",
       "classYear": "Freshman",
       "team": "College of the Holy Cross"
     },
     {
       "name": "Matthew Marchetta",
       "number": "18",
-      "position": "Long Stick Midfield",
+      "position": "LSM",
       "classYear": "Sophomore",
       "team": "College of the Holy Cross"
     },
@@ -167,7 +167,7 @@
     {
       "name": "Crosby Thurmond",
       "number": "23",
-      "position": "Midfield/Defense",
+      "position": "Defense/Midfield",
       "classYear": "Freshman",
       "team": "College of the Holy Cross"
     },
@@ -181,7 +181,7 @@
     {
       "name": "Jaydon Franklin",
       "number": "25",
-      "position": "Long Stick Midfield/Defense",
+      "position": "Defense/LSM",
       "classYear": "Sophomore",
       "team": "College of the Holy Cross"
     },
@@ -209,14 +209,14 @@
     {
       "name": "Michael Rincon",
       "number": "30",
-      "position": "Long Stick Midfield/Defense",
+      "position": "Defense/LSM",
       "classYear": "Senior",
       "team": "College of the Holy Cross"
     },
     {
       "name": "Joe Arizin",
       "number": "31",
-      "position": "Long Stick Midfield/Defense",
+      "position": "Defense/LSM",
       "classYear": "Freshman",
       "team": "College of the Holy Cross"
     },
@@ -251,7 +251,7 @@
     {
       "name": "Sean Miller",
       "number": "36",
-      "position": "Goal",
+      "position": "Goalie",
       "classYear": "Senior",
       "team": "College of the Holy Cross"
     },
@@ -265,7 +265,7 @@
     {
       "name": "Aiden Froh",
       "number": "41",
-      "position": "Long Stick Midfield/Defense",
+      "position": "Defense/LSM",
       "classYear": "Sophomore",
       "team": "College of the Holy Cross"
     },
@@ -293,7 +293,7 @@
     {
       "name": "Riley Stanton",
       "number": "46",
-      "position": "Goal",
+      "position": "Goalie",
       "classYear": "Junior",
       "team": "College of the Holy Cross"
     },
@@ -321,7 +321,7 @@
     {
       "name": "JR Long",
       "number": "77",
-      "position": "Goal",
+      "position": "Goalie",
       "classYear": "Senior",
       "team": "College of the Holy Cross"
     },

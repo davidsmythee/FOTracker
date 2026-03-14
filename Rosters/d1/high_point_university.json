@@ -1,6 +1,6 @@
 {
   "team": "High Point University",
-  "scrapedAt": "2026-03-14T20:35:02.586731Z",
+  "scrapedAt": "2026-03-14T21:16:43.489454Z",
   "playerCount": 52,
   "players": [
     {
@@ -27,14 +27,14 @@
     {
       "name": "James Westbrooks",
       "number": "4",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Sophomore",
       "team": "High Point University"
     },
     {
       "name": "Cole Motter",
       "number": "6",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Sophomore",
       "team": "High Point University"
     },
@@ -48,7 +48,7 @@
     {
       "name": "Caio Stephens",
       "number": "8",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Junior",
       "team": "High Point University"
     },
@@ -104,7 +104,7 @@
     {
       "name": "Hunt Sands",
       "number": "17",
-      "position": "Defensive Midfielder",
+      "position": "Defense/Midfield",
       "classYear": "Sophomore",
       "team": "High Point University"
     },
@@ -125,7 +125,7 @@
     {
       "name": "Charlie Paxton",
       "number": "20",
-      "position": "Defensive Midfielder",
+      "position": "Defense/Midfield",
       "classYear": "Junior",
       "team": "High Point University"
     },
@@ -167,7 +167,7 @@
     {
       "name": "Jack McAdams",
       "number": "26",
-      "position": "Defensive Midfielder",
+      "position": "Defense/Midfield",
       "classYear": "Senior",
       "team": "High Point University"
     },
@@ -195,14 +195,14 @@
     {
       "name": "Ryan Marengo",
       "number": "32",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Junior",
       "team": "High Point University"
     },
     {
       "name": "Brody Rhee",
       "number": "33",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Junior",
       "team": "High Point University"
     },
@@ -342,7 +342,7 @@
     {
       "name": "Luke Dermon",
       "number": "72",
-      "position": "Defensive Midfielder",
+      "position": "Defense/Midfield",
       "classYear": "Senior",
       "team": "High Point University"
     },

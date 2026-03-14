@@ -1,6 +1,6 @@
 {
   "team": "Colgate University",
-  "scrapedAt": "2026-03-14T20:34:42.602837Z",
+  "scrapedAt": "2026-03-14T21:16:23.529542Z",
   "playerCount": 47,
   "players": [
     {
@@ -48,7 +48,7 @@
     {
       "name": "Sam Erickson",
       "number": "7",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Senior",
       "team": "Colgate University"
     },
@@ -125,7 +125,7 @@
     {
       "name": "Ben Thomas",
       "number": "19",
-      "position": "Long Stick Midfielder",
+      "position": "LSM",
       "classYear": "Senior",
       "team": "Colgate University"
     },
@@ -188,7 +188,7 @@
     {
       "name": "Parker  Barhydt",
       "number": "31",
-      "position": "Defense/ Long Stick Midfielder",
+      "position": "Defense/LSM",
       "classYear": "Fy.",
       "team": "Colgate University"
     },
@@ -223,7 +223,7 @@
     {
       "name": "Andrew Heubeck",
       "number": "37",
-      "position": "Midfield/Attack",
+      "position": "Attack/Midfield",
       "classYear": "Junior",
       "team": "Colgate University"
     },
@@ -258,7 +258,7 @@
     {
       "name": "Graham Coakley",
       "number": "45",
-      "position": "Defense/ Midfield",
+      "position": "Defense/Midfield",
       "classYear": "Fy.",
       "team": "Colgate University"
     },
@@ -300,7 +300,7 @@
     {
       "name": "Rett  Zeigler",
       "number": "51",
-      "position": "Long Stick Midfielder/Defense",
+      "position": "Defense/LSM",
       "classYear": "Sophomore",
       "team": "Colgate University"
     },
@@ -328,7 +328,7 @@
     {
       "name": "Thomas  Lala",
       "number": "88",
-      "position": "Defense/Long Stick Midfielder",
+      "position": "Defense/LSM",
       "classYear": "Junior",
       "team": "Colgate University"
     }

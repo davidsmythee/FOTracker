@@ -1,6 +1,6 @@
 {
   "team": "Iona University",
-  "scrapedAt": "2026-03-14T20:35:08.575427Z",
+  "scrapedAt": "2026-03-14T21:16:48.627395Z",
   "playerCount": 51,
   "players": [
     {
@@ -27,7 +27,7 @@
     {
       "name": "Tochi Agwamba",
       "number": "3",
-      "position": "Long Stick Midfield",
+      "position": "LSM",
       "classYear": "Sophomore",
       "team": "Iona University"
     },
@@ -83,7 +83,7 @@
     {
       "name": "Jaxson Davis",
       "number": "12",
-      "position": "Defense / Midfield",
+      "position": "Defense/Midfield",
       "classYear": "Sophomore",
       "team": "Iona University"
     },
@@ -146,7 +146,7 @@
     {
       "name": "Kevin  Sheehy",
       "number": "21",
-      "position": "Long Stick Midfield",
+      "position": "LSM",
       "classYear": "R-So.",
       "team": "Iona University"
     },
@@ -195,7 +195,7 @@
     {
       "name": "Colin  Culver-Andreoli",
       "number": "28",
-      "position": "Attack / Midfield",
+      "position": "Attack/Midfield",
       "classYear": "R-So.",
       "team": "Iona University"
     },

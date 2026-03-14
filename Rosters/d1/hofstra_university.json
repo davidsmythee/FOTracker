@@ -1,6 +1,6 @@
 {
   "team": "Hofstra University",
-  "scrapedAt": "2026-03-14T20:35:06.869097Z",
+  "scrapedAt": "2026-03-14T21:16:46.886576Z",
   "playerCount": 50,
   "players": [
     {
@@ -132,7 +132,7 @@
     {
       "name": "Will Militello",
       "number": "21",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Sophomore",
       "team": "Hofstra University"
     },
@@ -230,7 +230,7 @@
     {
       "name": "Grant Wille",
       "number": "37",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Junior",
       "team": "Hofstra University"
     },
@@ -272,14 +272,14 @@
     {
       "name": "Kaden Major",
       "number": "44",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "R-So.",
       "team": "Hofstra University"
     },
     {
       "name": "Matthew Vilas",
       "number": "45",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "R-Sr.",
       "team": "Hofstra University"
     },

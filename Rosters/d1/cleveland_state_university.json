@@ -1,6 +1,6 @@
 {
   "team": "Cleveland State University",
-  "scrapedAt": "2026-03-14T20:34:40.735157Z",
+  "scrapedAt": "2026-03-14T21:16:21.035882Z",
   "playerCount": 43,
   "players": [
     {
@@ -55,7 +55,7 @@
     {
       "name": "Jack Dickson",
       "number": "7",
-      "position": "Short Stick",
+      "position": "Midfield",
       "classYear": "Senior",
       "team": "Cleveland State University"
     },
@@ -83,14 +83,14 @@
     {
       "name": "Enrico Lombardo",
       "number": "12",
-      "position": "Long Stick Middie",
+      "position": "LSM",
       "classYear": "Sophomore",
       "team": "Cleveland State University"
     },
     {
       "name": "Alec Blessing",
       "number": "14",
-      "position": "Short Stick",
+      "position": "Midfield",
       "classYear": "R-Jr.",
       "team": "Cleveland State University"
     },
@@ -104,7 +104,7 @@
     {
       "name": "Joel Brown",
       "number": "16",
-      "position": "Short Stick",
+      "position": "Midfield",
       "classYear": "Junior",
       "team": "Cleveland State University"
     },
@@ -146,7 +146,7 @@
     {
       "name": "Jameson Demarco",
       "number": "22",
-      "position": "Short Stick",
+      "position": "Midfield",
       "classYear": "Sophomore",
       "team": "Cleveland State University"
     },
@@ -167,7 +167,7 @@
     {
       "name": "Payton Corpus",
       "number": "25",
-      "position": "Long Stick Middie",
+      "position": "LSM",
       "classYear": "Senior",
       "team": "Cleveland State University"
     },
@@ -251,7 +251,7 @@
     {
       "name": "Luke Mitchell",
       "number": "43",
-      "position": "Long Stick Middie",
+      "position": "LSM",
       "classYear": "Junior",
       "team": "Cleveland State University"
     },
@@ -286,7 +286,7 @@
     {
       "name": "Mitchell Maibuecher",
       "number": "82",
-      "position": "Short Stick",
+      "position": "Midfield",
       "classYear": "Junior",
       "team": "Cleveland State University"
     },

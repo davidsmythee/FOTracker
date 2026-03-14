@@ -1,6 +1,6 @@
 {
   "team": "Hobart & William Smith College",
-  "scrapedAt": "2026-03-14T20:35:04.806805Z",
+  "scrapedAt": "2026-03-14T21:16:45.223322Z",
   "playerCount": 52,
   "players": [
     {
@@ -41,14 +41,14 @@
     {
       "name": "Julian Race",
       "number": "5",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Graduate",
       "team": "Hobart & William Smith College"
     },
     {
       "name": "Brandon Penn",
       "number": "6",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "FY",
       "team": "Hobart & William Smith College"
     },
@@ -139,7 +139,7 @@
     {
       "name": "Sheldon Broughton",
       "number": "20",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Sophomore",
       "team": "Hobart & William Smith College"
     },
@@ -174,7 +174,7 @@
     {
       "name": "Jacob Janke",
       "number": "25",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "FY",
       "team": "Hobart & William Smith College"
     },
@@ -216,7 +216,7 @@
     {
       "name": "Jack Schleicher",
       "number": "31",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Junior",
       "team": "Hobart & William Smith College"
     },
@@ -314,14 +314,14 @@
     {
       "name": "James Hamilton",
       "number": "55",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "Sophomore",
       "team": "Hobart & William Smith College"
     },
     {
       "name": "Jack Moye",
       "number": "56",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "FY",
       "team": "Hobart & William Smith College"
     },
@@ -356,7 +356,7 @@
     {
       "name": "Cole Bryant",
       "number": "91",
-      "position": "SSDM",
+      "position": "Defense/Midfield",
       "classYear": "FY",
       "team": "Hobart & William Smith College"
     },
