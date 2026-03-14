@@ -1,0 +1,301 @@
+{
+  "team": "SUNY Binghamton University",
+  "scrapedAt": "2026-03-14T20:36:08.975805Z",
+  "playerCount": 42,
+  "players": [
+    {
+      "name": "Zacc McDonald",
+      "number": "1",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Austin Constable",
+      "number": "2",
+      "position": "Attack/Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Brandon Berozi",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Liam Byrne",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Eoin Mackay",
+      "number": "5",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Connor Kowalewski",
+      "number": "6",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Will Feldmann",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "John Angelicola",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Jojo Provenzano",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Carson Corona",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Brady Sharkey",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Nico Spaziani",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Gavin Jacobsen",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Garrett Taylor",
+      "number": "14",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Connor Winters",
+      "number": "15",
+      "position": "Goalie",
+      "classYear": "Graduate",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Greg Marinelli",
+      "number": "16",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Jack Mellen",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "CJ Mangio",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Danny Healy",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Ryan Meyers",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Colin DeLay",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Tyler Martini",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Wyatt Walters",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Andrew Girolamo",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Julian Ramos",
+      "number": "25",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Drew Filanowski",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Brody Secker",
+      "number": "27",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Riley Jenkins",
+      "number": "28",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Luke LeSueur",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Ty Duchouquette",
+      "number": "30",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Ben Purcell",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Troeger Lombardini",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Anthony Bilello",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Mason Shenk",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Nick Jaferis",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Aidan O'Connell",
+      "number": "38",
+      "position": "Attack/Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Brody Crowley",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Ronan Crowley",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Flynn Wilson",
+      "number": "41",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Matthew Rincon",
+      "number": "42",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Aidan McMinn",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Binghamton University"
+    },
+    {
+      "name": "Nolan Sharkey",
+      "number": "45",
+      "position": "Long Stick Midfielder",
+      "classYear": "Junior",
+      "team": "SUNY Binghamton University"
+    }
+  ]
+}

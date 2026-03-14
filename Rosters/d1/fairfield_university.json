@@ -1,0 +1,392 @@
+{
+  "team": "Fairfield University",
+  "scrapedAt": "2026-03-14T20:34:54.687056Z",
+  "playerCount": 55,
+  "players": [
+    {
+      "name": "Will Consoli",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "John Okupski",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Thomas Connolly",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Colin Kenney",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Devin Lampron",
+      "number": "5",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Brendan Gallagher",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "KJ Delane",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Walker Hunter",
+      "number": "8",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Justin Brown",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Owen Michaud",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "R-Fr.",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Jason LaMay Jr.",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Andrew Kasten",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Jake Gilbert",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Declan Reilly",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Cooper Consoli",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Owen Hirsch",
+      "number": "16",
+      "position": "Goalie",
+      "classYear": "Graduate",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Nate Livingston",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Landon Whitney",
+      "number": "18",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Daniel Davis",
+      "number": "19",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "John Flynn",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Keegan Lynch",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Carson Dyl",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Shane Elliott",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Gavin McCarthy",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Jonathan Lewis",
+      "number": "25",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Bodie Cannata",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Julian Radossich",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Andrew Scully",
+      "number": "28",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Luke Patchen",
+      "number": "29",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Lars Heimlich",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Mark Durling",
+      "number": "31",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Bryce Hrubiec",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Trey Ordway",
+      "number": "33",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Kevin Dolan",
+      "number": "34",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Logan Bryant",
+      "number": "35",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Andrew Tilton",
+      "number": "36",
+      "position": "FOGO",
+      "classYear": "R-Fr.",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Jack Cox",
+      "number": "37",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Austin McClintic",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Jeremiah Wade",
+      "number": "40",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Alex Meier",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Mickey Faulkner",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Tyler Frampton",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Will Snyder",
+      "number": "44",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Cole Kennett",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Brady Stangle",
+      "number": "46",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Ronan Schipani",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Hudson Jenner",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Hunter Moriarity",
+      "number": "49",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Rob Moore",
+      "number": "50",
+      "position": "Midfield",
+      "classYear": "Graduate",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Eli Adams",
+      "number": "51",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Jackson Newell",
+      "number": "52",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Chris Sloma",
+      "number": "53",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Jimmy Grieve",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Max Murray",
+      "number": "56",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Fairfield University"
+    },
+    {
+      "name": "Chase Noyes",
+      "number": "60",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Fairfield University"
+    }
+  ]
+}

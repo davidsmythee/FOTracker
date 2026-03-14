@@ -1,0 +1,392 @@
+{
+  "team": "Bryant University",
+  "scrapedAt": "2026-03-14T20:34:34.847651Z",
+  "playerCount": 55,
+  "players": [
+    {
+      "name": "Patrick Walsh",
+      "number": "1",
+      "position": "Attack/Midfield",
+      "classYear": "Junior",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Anderson Davis",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Nick Pisano",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "R-Jr.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "John Tomsheck",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Tiernan Lathrop",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "R-Jr.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Richie Reid",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "R-So.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Owen West",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Ben Dufoe",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "R-Fr.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Erik Heimlich",
+      "number": "9",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Zac Amend",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Luke Aasheim",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "R-Fr.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Evan Anastas",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Dante Mariani",
+      "number": "13",
+      "position": "Attack/Midfield",
+      "classYear": "R-Fr.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Kyle Bacso",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "R-So.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Luke Bayne",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "R-Fr.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Dawson Rielly",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "R-Jr.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Nate Patterson",
+      "number": "17",
+      "position": "LSM",
+      "classYear": "R-So.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "JJ Murphy",
+      "number": "18",
+      "position": "FOGO",
+      "classYear": "R-Jr.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Quinn  McKay",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Jake Carbone",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "R-Fr.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Luca Elmaleh",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Sam Beach",
+      "number": "22",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Tom Caito",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Bryant University"
+    },
+    {
+      "name": "AJ Monaco",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "R-So.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Matt Groeninger",
+      "number": "25",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Zack Bender",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "R-Jr.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Ronan McNamara",
+      "number": "27",
+      "position": "Defense/LSM",
+      "classYear": "Freshman",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Will Bufkin",
+      "number": "28",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Kyle Fedorcha",
+      "number": "29",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Mikey Hoarle",
+      "number": "31",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Alec Furtado",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Sam Klein",
+      "number": "33",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Kyle Capodanno",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "R-Fr.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Nick Sheremetta",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Graduate",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Max Dantona",
+      "number": "36",
+      "position": "Midfield",
+      "classYear": "R-So.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "JT Werkmeister",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "R-Fr.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Jordan Hernando",
+      "number": "38",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Brayden Fuller",
+      "number": "39",
+      "position": "Defense",
+      "classYear": "R-So.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Caden Lennon",
+      "number": "40",
+      "position": "Attack/Midfield",
+      "classYear": "R-Fr.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Kijana Lloyd",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "R-So.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Gabe Chinitz",
+      "number": "42",
+      "position": "LSM",
+      "classYear": "R-Jr.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Austin Daigneault",
+      "number": "43",
+      "position": "Midfield",
+      "classYear": "R-Jr.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Jake Mangio",
+      "number": "44",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Justin Haverly",
+      "number": "45",
+      "position": "FOGO",
+      "classYear": "Graduate",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Will Murphy",
+      "number": "46",
+      "position": "Goalie",
+      "classYear": "R-Fr.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Trevor Preston",
+      "number": "47",
+      "position": "Defense/LSM",
+      "classYear": "R-So.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Jack McCloskey",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "R-So.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Connor Ruppert",
+      "number": "49",
+      "position": "Midfield",
+      "classYear": "R-Jr.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "AJ Babony",
+      "number": "50",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Jackson Estes",
+      "number": "51",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Sam Baker",
+      "number": "52",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Bryant University"
+    },
+    {
+      "name": "James Carr",
+      "number": "54",
+      "position": "Goalie",
+      "classYear": "R-Jr.",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Scott Einarson",
+      "number": "55",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Luke Krebs",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Bryant University"
+    },
+    {
+      "name": "Luke Mead",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Bryant University"
+    }
+  ]
+}

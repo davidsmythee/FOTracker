@@ -1,0 +1,343 @@
+{
+  "team": "Virginia Military Institute",
+  "scrapedAt": "2026-03-14T20:36:58.566269Z",
+  "playerCount": 48,
+  "players": [
+    {
+      "name": "Jack Duncan-Bloom",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Will Gormsen",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Jack Myhre",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Gage Kirkwood",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Sebastien Chicas",
+      "number": "5",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Beau Durkin",
+      "number": "6",
+      "position": "Attack/Midfielder",
+      "classYear": "Sophomore",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Warner Lewis",
+      "number": "8",
+      "position": "Attack/Midfielder",
+      "classYear": "Sophomore",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Charlie Gormsen",
+      "number": "9",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Cole Jones",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Nate Golding",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Brooks Chatlos",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Jack Rogers",
+      "number": "13",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Alex Ordoqui",
+      "number": "14",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Jake McClure",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Matt Nichols",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Tyler Hicks",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Miller Tatum",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Greg Peters",
+      "number": "19",
+      "position": "Long Stick Midfielder",
+      "classYear": "Sophomore",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Theo Ley",
+      "number": "20",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Franklin Schulhofer",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Ty Yonas",
+      "number": "22",
+      "position": "Attack/Midfielder",
+      "classYear": "Junior",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Sean Berzins",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Kevin Berzins",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Luca Minniti",
+      "number": "25",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Adam Norris",
+      "number": "26",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Landon Sonnenfeld",
+      "number": "27",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Jake Cooper",
+      "number": "28",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Ward Jenkins",
+      "number": "29",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Joseph Weinburgh",
+      "number": "30",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Zach Laperriere",
+      "number": "31",
+      "position": "Long Stick Midfielder",
+      "classYear": "Senior",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "RJ Wyrick",
+      "number": "32",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Charlie Faul",
+      "number": "33",
+      "position": "Attack/Midfielder",
+      "classYear": "Sophomore",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Joe Morrin",
+      "number": "36",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Ethan Ostrowski",
+      "number": "40",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Zach Connerty",
+      "number": "41",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Aidan Questell",
+      "number": "42",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Luke Hobbs",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Sean Ely",
+      "number": "45",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Josh Hallam",
+      "number": "46",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Jake Zeman",
+      "number": "49",
+      "position": "Long Stick Midfielder",
+      "classYear": "Sophomore",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Tyler Richards",
+      "number": "50",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Connor Jung",
+      "number": "51",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Dayton Bagwell",
+      "number": "55",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Alex Seaton",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Zac Creel",
+      "number": "77",
+      "position": "Long Stick Midfielder",
+      "classYear": "Sophomore",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Mason Tull",
+      "number": "88",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Thomas Finta",
+      "number": "91",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Virginia Military Institute"
+    },
+    {
+      "name": "Sam Morginstin",
+      "number": "99",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Virginia Military Institute"
+    }
+  ]
+}

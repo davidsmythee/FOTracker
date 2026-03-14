@@ -1,0 +1,336 @@
+{
+  "team": "University of Pennsylvania",
+  "scrapedAt": "2026-03-14T20:36:44.437581Z",
+  "playerCount": 47,
+  "players": [
+    {
+      "name": "Ethan Costanzo",
+      "number": "2",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Chris Patterson",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Marco Firmender",
+      "number": "4",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Leo Hoffman",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Paulie Fortino",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Reece Childs",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Davis Provost",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Justin McMahon",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Matt McMillen",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Devin Stewart",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "PJ McKeigue",
+      "number": "15",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Chuck Cacciutti",
+      "number": "16",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Ben Beacham",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Travis Smith",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Mac Eldridge",
+      "number": "19",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Pasha Hakimi",
+      "number": "20",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Isaac Korus",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Grayson McClements",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Griffin Scane",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Jackson Maher",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Pearse MacDonald",
+      "number": "25",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Declan Monahan",
+      "number": "26",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Owen Watts",
+      "number": "27",
+      "position": "Attack/Midfield",
+      "classYear": "Freshman",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Jack Follette",
+      "number": "28",
+      "position": "Attack/Midfield",
+      "classYear": "Sophomore",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Quinn Langton",
+      "number": "29",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Nate Lucchesi",
+      "number": "30",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Alex Martin",
+      "number": "31",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Stevie Davis",
+      "number": "33",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Matt McCarthy",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Chandler McClements",
+      "number": "35",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Quinn Ball",
+      "number": "36",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Quinn Whipple",
+      "number": "37",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Charlie Angell",
+      "number": "39",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Will Roberts",
+      "number": "40",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Ryan Sullivan",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Ryan McLaughlin",
+      "number": "43",
+      "position": "Defense/LSM",
+      "classYear": "Senior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Logan Cassidy",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Tucker Mack",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Dante Vardaro",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Matthew Till",
+      "number": "48",
+      "position": "Defense/LSM",
+      "classYear": "Junior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Paul vanBastelaar",
+      "number": "49",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Cal Wyatt",
+      "number": "50",
+      "position": "Attack/Midfield",
+      "classYear": "Freshman",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Jacob Pacheco",
+      "number": "51",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Jack Pelot",
+      "number": "53",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Anthony McMullan",
+      "number": "54",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Henry Zabierek",
+      "number": "59",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "University of Pennsylvania"
+    },
+    {
+      "name": "Matt Wills",
+      "number": "66",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Pennsylvania"
+    }
+  ]
+}

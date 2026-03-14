@@ -1,0 +1,350 @@
+{
+  "team": "Harvard University",
+  "scrapedAt": "2026-03-14T20:35:00.776969Z",
+  "playerCount": 49,
+  "players": [
+    {
+      "name": "Harry Luong",
+      "number": "0",
+      "position": "FOGO",
+      "classYear": "Fy",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Jared Maznik",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Mac Mohn",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Logan Ip",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Jack Speidell",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Jackson Greene",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Nick Bruckner",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Charlie  Muller",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Finn Pokorny",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Andrew Van Stone",
+      "number": "10",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Patrick Grimley",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Owen Umansky",
+      "number": "12",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Zachary Marco",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Fy",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Jackson Henehan",
+      "number": "14",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Miles Barakett",
+      "number": "15",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Andrew Glinski",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Michael Savadove",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Cole Goodwillie",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Fy",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Quinn Kelly",
+      "number": "19",
+      "position": "Defense",
+      "classYear": "Fy",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Finn Jensen",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Callan McLaughlin",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Fy",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Hudson McCarthy",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Fy",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Wyatt Wiggins",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Logan Turley",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Fy",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Trevor Sardis",
+      "number": "25",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Teddy Malone",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Harvard University"
+    },
+    {
+      "name": "James Canipe",
+      "number": "27",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Teddy Kim",
+      "number": "28",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Matt Barraco",
+      "number": "29",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Nathan Cobery",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Brock Getson",
+      "number": "31",
+      "position": "LSM",
+      "classYear": "Fy",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Jack Petersen",
+      "number": "32",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Matthew Moore",
+      "number": "33",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Jack Weissenburger",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Fy",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Chase McCann",
+      "number": "35",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Liam O'Keefe",
+      "number": "36",
+      "position": "Goalie",
+      "classYear": "Fy",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Owen Guest",
+      "number": "39",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Tyler Mininno",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Andrew Perry",
+      "number": "41",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Jack Baade",
+      "number": "42",
+      "position": "Attack",
+      "classYear": "Fy",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Michael Smyth",
+      "number": "43",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Blake Hetherington",
+      "number": "44",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Joost de Koning",
+      "number": "45",
+      "position": "LSM",
+      "classYear": "Junior",
+      "team": "Harvard University"
+    },
+    {
+      "name": "John Aurandt IV",
+      "number": "49",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Oscar Woloson",
+      "number": "50",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Brandon DeBerardinis",
+      "number": "51",
+      "position": "Midfield",
+      "classYear": "Fy",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Sean Jordan",
+      "number": "52",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Francisco  Cortes",
+      "number": "55",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Harvard University"
+    },
+    {
+      "name": "Graham Stevens",
+      "number": "56",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Harvard University"
+    }
+  ]
+}

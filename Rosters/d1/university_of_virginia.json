@@ -1,0 +1,350 @@
+{
+  "team": "University of Virginia",
+  "scrapedAt": "2026-03-14T20:39:35.604339Z",
+  "playerCount": 49,
+  "players": [
+    {
+      "name": "Charles Balsamo",
+      "number": "00",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Truitt Sunderland",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Ryan Duenkel",
+      "number": "4",
+      "position": "Attack/Midfield",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Joey Terenzi",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Will Inderlied",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Brendan Millon",
+      "number": "7",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Robby Hopper",
+      "number": "8",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "McCabe Millon",
+      "number": "9",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Wills Burt",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Caulley Deringer",
+      "number": "11",
+      "position": "Attack/Midfield",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Chase Band",
+      "number": "12",
+      "position": "Attack/Midfield",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Ryan Colsey",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Andrew Greenspan",
+      "number": "14",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Hudson Hausmann",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Owen Crann",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Mack Till",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Christian Grosso",
+      "number": "18",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Tim Myers",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Will Erdmann",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Wes Martin",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Eli Petty",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Johnny Hackett",
+      "number": "23",
+      "position": "Attack/Midfield",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Sean Browne",
+      "number": "24",
+      "position": "Attack/Midfield",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Henry Metz",
+      "number": "25",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Jake Marek",
+      "number": "27",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Griff Meyer",
+      "number": "30",
+      "position": "FOGO",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Colin Hook",
+      "number": "31",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Brayden Lahey",
+      "number": "32",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Ben Boyer",
+      "number": "33",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Charlie Halpert",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Burke McFarlane",
+      "number": "35",
+      "position": "Attack",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Michael Meredith",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Patrick Biese",
+      "number": "37",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Kyle Morris",
+      "number": "38",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Luke Jamin",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Tommy Snyder",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "JP Lagunowich",
+      "number": "45",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Reese Stepanian",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "John Schroter",
+      "number": "49",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Lindan Verville",
+      "number": "50",
+      "position": "Midfield",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Troy Capstraw",
+      "number": "77",
+      "position": "Goalie",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Aidan Murnane",
+      "number": "81",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Luke Hublitz",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Cole Webber",
+      "number": "91",
+      "position": "Defense",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Lars Tiffany",
+      "number": "",
+      "position": "Head Coach",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Kevin Cassese",
+      "number": "",
+      "position": "Associate Head Coach",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Logan Greco",
+      "number": "",
+      "position": "Assistant Coach",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Connor Shellenberger",
+      "number": "",
+      "position": "Assistant Coach",
+      "classYear": "",
+      "team": "University of Virginia"
+    },
+    {
+      "name": "Brian Wilberger",
+      "number": "",
+      "position": "Director of Operations",
+      "classYear": "",
+      "team": "University of Virginia"
+    }
+  ]
+}

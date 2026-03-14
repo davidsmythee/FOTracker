@@ -1,0 +1,413 @@
+{
+  "team": "University of Notre Dame",
+  "scrapedAt": "2026-03-14T20:39:34.192409Z",
+  "playerCount": 58,
+  "players": [
+    {
+      "name": "Colin Kenney",
+      "number": "",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Thomas Ricciardelli",
+      "number": "",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Brady Pokorny",
+      "number": "",
+      "position": "Attack",
+      "classYear": "6-0",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Declan Cooke",
+      "number": "",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Matt Jeffery",
+      "number": "",
+      "position": "Midfield",
+      "classYear": "5-11",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Teddy Lally",
+      "number": "",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Fisher Finley",
+      "number": "",
+      "position": "Midfield",
+      "classYear": "Graduate Student",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Joey Bambrick",
+      "number": "",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Andrew Donovan",
+      "number": "",
+      "position": "Midfield",
+      "classYear": "6-0",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Aidan Diaz-Matos",
+      "number": "",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Will Angrick",
+      "number": "",
+      "position": "Midfield",
+      "classYear": "Graduate Student",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Cam Kelley",
+      "number": "",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Josh Yago",
+      "number": "",
+      "position": "Attack",
+      "classYear": "Graduate Student",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Andrew Gryzenia",
+      "number": "",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Dylan Faison",
+      "number": "",
+      "position": "Midfield",
+      "classYear": "6-1",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Anderson Davis",
+      "number": "",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Will Maheras",
+      "number": "",
+      "position": "Attack/Midfield",
+      "classYear": "Senior",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Drew Wynocker",
+      "number": "",
+      "position": "Midfield",
+      "classYear": "6-3",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Jake Vasquez",
+      "number": "",
+      "position": "Midfield",
+      "classYear": "6-5",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Christian Alacqua",
+      "number": "",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Miguel Iglesias",
+      "number": "",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Brock Behrman",
+      "number": "",
+      "position": "Attack",
+      "classYear": "5-9",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Gavin Lynch",
+      "number": "",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Max Busenkell",
+      "number": "",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Chris Reinhardt",
+      "number": "",
+      "position": "Midfield",
+      "classYear": "6-3",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Tyler Spano",
+      "number": "",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Jalen Seymour",
+      "number": "",
+      "position": "Midfield",
+      "classYear": "Graduate Student",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Nate Schwitzenberg",
+      "number": "",
+      "position": "Defense",
+      "classYear": "6-2",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Dylan Kellan",
+      "number": "",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "George Guyton",
+      "number": "",
+      "position": "Defense",
+      "classYear": "6-3",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Will Ohnmacht",
+      "number": "",
+      "position": "Goalie",
+      "classYear": "6-2",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Jake Sommer",
+      "number": "",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Karter Williams",
+      "number": "",
+      "position": "Defense",
+      "classYear": "6-5",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Matt McKane",
+      "number": "",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Christian Gallaher",
+      "number": "",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Bo Popham",
+      "number": "",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Kyle Bergen",
+      "number": "",
+      "position": "Midfield",
+      "classYear": "6-0",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Ryan Sforzo",
+      "number": "",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Kellen Gardner",
+      "number": "",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Will Gallagher",
+      "number": "",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Ben Burmeister",
+      "number": "",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Brendan Mullahy",
+      "number": "",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Alex Zepf",
+      "number": "",
+      "position": "Goalie",
+      "classYear": "Graduate Student",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Jimmy Kenney",
+      "number": "",
+      "position": "LSM",
+      "classYear": "6-2",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Christopher Iuliano",
+      "number": "",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Luke Stickler",
+      "number": "",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Thomas Porell",
+      "number": "",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Luke Miller",
+      "number": "",
+      "position": "Attack",
+      "classYear": "5-11",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Will Donovan",
+      "number": "",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Luke Crowe",
+      "number": "",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Shawn Lyght",
+      "number": "",
+      "position": "Defense",
+      "classYear": "6-3",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Griffin Grant",
+      "number": "",
+      "position": "Attack/Midfield",
+      "classYear": "Senior",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Gavin Burlace",
+      "number": "",
+      "position": "Midfield",
+      "classYear": "6-5",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Kevin Corrigan",
+      "number": "",
+      "position": "",
+      "classYear": "",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Ryan Wellner",
+      "number": "",
+      "position": "",
+      "classYear": "",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Chris Wojcik",
+      "number": "",
+      "position": "",
+      "classYear": "",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Ryder Garnsey",
+      "number": "",
+      "position": "",
+      "classYear": "",
+      "team": "University of Notre Dame"
+    },
+    {
+      "name": "Rob Simpson",
+      "number": "",
+      "position": "",
+      "classYear": "",
+      "team": "University of Notre Dame"
+    }
+  ]
+}

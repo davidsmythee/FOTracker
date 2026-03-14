@@ -1,0 +1,371 @@
+{
+  "team": "Canisius College",
+  "scrapedAt": "2026-03-14T20:34:38.863406Z",
+  "playerCount": 52,
+  "players": [
+    {
+      "name": "Johnny Kalman",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Jordan Meech",
+      "number": "3",
+      "position": "Attack/Midfield",
+      "classYear": "R-So.",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Evan McDougall",
+      "number": "4",
+      "position": "Attack/Midfield",
+      "classYear": "Freshman",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Jacob  Lambert",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Greyson Turner",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Trotter Hughes",
+      "number": "7",
+      "position": "Defense/Long Stick Midfielder",
+      "classYear": "Sophomore",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Quinn Little",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Mark Matott",
+      "number": "9",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Robbie Karalus",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Kaiden Libby",
+      "number": "11",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Reid Ciocca",
+      "number": "13",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Jackson Hill",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Mike Belles",
+      "number": "15",
+      "position": "Attack/Midfield",
+      "classYear": "Freshman",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Cooper Tindle",
+      "number": "16",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Brady Robinson",
+      "number": "17",
+      "position": "Goalie",
+      "classYear": "R-So.",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Bryden Pitt",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Dawson Wade",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Tommy Kunz",
+      "number": "20",
+      "position": "Goalie",
+      "classYear": "Graduate",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Dylan Collins",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Alexis Simard",
+      "number": "22",
+      "position": "Long-Stick Midfielder",
+      "classYear": "Senior",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Peter Biglin",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Rhys Ursell",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Devin Collins",
+      "number": "25",
+      "position": "Attack/Midfield",
+      "classYear": "Senior",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Shane McDonough",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "R-Jr.",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Dylan Jagow",
+      "number": "27",
+      "position": "Face-Off Specialist",
+      "classYear": "Freshman",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Quinn Huber",
+      "number": "28",
+      "position": "Midfield",
+      "classYear": "R-So.",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Jack Littauer",
+      "number": "29",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Canisius College"
+    },
+    {
+      "name": "TJ Ward",
+      "number": "30",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Sam Kosloski",
+      "number": "31",
+      "position": "Goalie",
+      "classYear": "R-Fr.",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Nick  Fry",
+      "number": "32",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Cooper  Anderson",
+      "number": "33",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Josh Verhagen",
+      "number": "34",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Evan Proud",
+      "number": "35",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Max Wojtowicz",
+      "number": "36",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Nikolias Spewock",
+      "number": "37",
+      "position": "Attack",
+      "classYear": "R-Jr.",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Owen Daley",
+      "number": "38",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Dane Kinney",
+      "number": "39",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Camden De Tolla",
+      "number": "40",
+      "position": "Face-Off Specialist",
+      "classYear": "R-So.",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Ben Morrison Philips",
+      "number": "41",
+      "position": "Face-Off Specialist",
+      "classYear": "Freshman",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Chase Fromson",
+      "number": "42",
+      "position": "Midfield",
+      "classYear": "R-Fr.",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Ashton Burian",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Hunter Roy",
+      "number": "44",
+      "position": "Long-Stick Midfielder",
+      "classYear": "Sophomore",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Tighe McMahon",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Justin Relosky",
+      "number": "46",
+      "position": "Attack/Midfield",
+      "classYear": "Freshman",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Matt Drivet-Legault",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "R-So.",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Micah  Hanson",
+      "number": "48",
+      "position": "Face-Off Specialist",
+      "classYear": "Senior",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Ben McGrath",
+      "number": "49",
+      "position": "Defense",
+      "classYear": "R-So.",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Austin  Nindorf",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Carson Christy",
+      "number": "51",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Lowen Martin",
+      "number": "52",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Canisius College"
+    },
+    {
+      "name": "TJ Buono",
+      "number": "54",
+      "position": "Attack",
+      "classYear": "Graduate",
+      "team": "Canisius College"
+    },
+    {
+      "name": "Beck Lewis",
+      "number": "55",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Canisius College"
+    }
+  ]
+}

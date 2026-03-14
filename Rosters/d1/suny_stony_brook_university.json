@@ -1,0 +1,385 @@
+{
+  "team": "SUNY Stony Brook University",
+  "scrapedAt": "2026-03-14T20:36:11.087009Z",
+  "playerCount": 54,
+  "players": [
+    {
+      "name": "Tanner Williams",
+      "number": "0",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Owen Donnellan",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Luke Forde",
+      "number": "2",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Sean Ralph",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Jack  Delli-Pizzi",
+      "number": "4",
+      "position": "Long Stick Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Tommy  Wilk",
+      "number": "5",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Sean Forde",
+      "number": "6",
+      "position": "Goalie",
+      "classYear": "R-Fr.",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Michael Fagen",
+      "number": "7",
+      "position": "Defensive Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Caleb Yeung",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Will Ginch",
+      "number": "9",
+      "position": "Defensive Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Reid Metler",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Brian Bradley",
+      "number": "11",
+      "position": "Defensive Midfield",
+      "classYear": "Graduate",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Clyde Bresnahan",
+      "number": "12",
+      "position": "Midfield",
+      "classYear": "Graduate",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Will Birney",
+      "number": "13",
+      "position": "Defensive Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Hayden Whitney",
+      "number": "14",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Nick Diadema",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Collin Williamson",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Jaden  Baldwin",
+      "number": "17",
+      "position": "Defensive Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Ryan Dodge",
+      "number": "18",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Brendan Marino",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Jack Cavalieri",
+      "number": "20",
+      "position": "Attack/Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Gary Correa",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "R-So.",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Jack Caine",
+      "number": "22",
+      "position": "Attack/Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Carson Boyle",
+      "number": "23",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Robbie  Smith",
+      "number": "25",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Will  Anderson",
+      "number": "26",
+      "position": "Defensive Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Sean Carlo",
+      "number": "27",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Ronnie  Kraemer",
+      "number": "29",
+      "position": "Defensive Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Matt Roughgarden",
+      "number": "30",
+      "position": "Goalie",
+      "classYear": "R-Fr.",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Michael Kloepfer",
+      "number": "31",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Jack Cooper",
+      "number": "32",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Declan Mitchell",
+      "number": "33",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Brady McKean",
+      "number": "34",
+      "position": "Defensive Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Tanner Radogna",
+      "number": "35",
+      "position": "Defensive Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Arek Cellura",
+      "number": "36",
+      "position": "Long-Stick Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Kian McCoy",
+      "number": "37",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Joey Rice",
+      "number": "38",
+      "position": "Goalie",
+      "classYear": "Junior",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Jack Crosby",
+      "number": "39",
+      "position": "Long Stick Midfield",
+      "classYear": "Graduate",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Carson Forney",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Cameron Foley",
+      "number": "41",
+      "position": "Long Stick Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Colin Langton",
+      "number": "42",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Justin Bonacci",
+      "number": "44",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Richie  Dechiaro",
+      "number": "45",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Brendan Owens",
+      "number": "46",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Michael Kelton",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Thomas Cieleski",
+      "number": "50",
+      "position": "Long Stick Midfield",
+      "classYear": "Sophomore",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Ryan Barker",
+      "number": "51",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Kyle Newbrough",
+      "number": "53",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Aiden Clinkscales",
+      "number": "55",
+      "position": "Midfield",
+      "classYear": "R-Fr.",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Kyan East",
+      "number": "77",
+      "position": "Long Stick Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Tanner Parlette",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Jake Lewis",
+      "number": "91",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Cooper Brannon",
+      "number": "92",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "SUNY Stony Brook University"
+    },
+    {
+      "name": "Jack Kalinowski",
+      "number": "99",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "SUNY Stony Brook University"
+    }
+  ]
+}

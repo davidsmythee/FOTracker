@@ -1,0 +1,392 @@
+{
+  "team": "Penn State",
+  "scrapedAt": "2026-03-14T20:39:33.428277Z",
+  "playerCount": 55,
+  "players": [
+    {
+      "name": "Ben Johnson",
+      "number": "1",
+      "position": "Goalie",
+      "classYear": "Redshirt Sophomore",
+      "team": "Penn State"
+    },
+    {
+      "name": "Brendan Leary",
+      "number": "2",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "Penn State"
+    },
+    {
+      "name": "Max Grube",
+      "number": "3",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Penn State"
+    },
+    {
+      "name": "Kyle Lehman",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Penn State"
+    },
+    {
+      "name": "Roman DiBartolomeo",
+      "number": "5",
+      "position": "SSDM",
+      "classYear": "Redshirt Freshman",
+      "team": "Penn State"
+    },
+    {
+      "name": "Alex Ross",
+      "number": "6",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Penn State"
+    },
+    {
+      "name": "Luke Danna",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Penn State"
+    },
+    {
+      "name": "Peri DiBartolomeo",
+      "number": "8",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Penn State"
+    },
+    {
+      "name": "Colby Baldwin",
+      "number": "9",
+      "position": "FOGO",
+      "classYear": "Junior",
+      "team": "Penn State"
+    },
+    {
+      "name": "Jack Iannantuono",
+      "number": "10",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Penn State"
+    },
+    {
+      "name": "Jon King",
+      "number": "11",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Penn State"
+    },
+    {
+      "name": "Luke Marra",
+      "number": "12",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Penn State"
+    },
+    {
+      "name": "Mac Hobbs",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Penn State"
+    },
+    {
+      "name": "Kris Henning",
+      "number": "15",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Penn State"
+    },
+    {
+      "name": "Ryan O'Connor",
+      "number": "16",
+      "position": "LSM",
+      "classYear": "Senior",
+      "team": "Penn State"
+    },
+    {
+      "name": "Patrick Carragher",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Redshirt Sophomore",
+      "team": "Penn State"
+    },
+    {
+      "name": "Lucca DiBartolomeo",
+      "number": "18",
+      "position": "LSM",
+      "classYear": "Sophomore",
+      "team": "Penn State"
+    },
+    {
+      "name": "Wesley Scurci",
+      "number": "19",
+      "position": "Attack",
+      "classYear": "Redshirt Junior",
+      "team": "Penn State"
+    },
+    {
+      "name": "Luke Walstrum",
+      "number": "21",
+      "position": "Midfield",
+      "classYear": "Redshirt Senior",
+      "team": "Penn State"
+    },
+    {
+      "name": "Chase Robertson",
+      "number": "22",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Penn State"
+    },
+    {
+      "name": "Hunter Aquino",
+      "number": "23",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Penn State"
+    },
+    {
+      "name": "Enzo Grieco",
+      "number": "24",
+      "position": "Attack",
+      "classYear": "Redshirt Freshman",
+      "team": "Penn State"
+    },
+    {
+      "name": "Beckett Vance",
+      "number": "25",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Penn State"
+    },
+    {
+      "name": "Mark McNamara",
+      "number": "26",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Penn State"
+    },
+    {
+      "name": "Brad Piffath",
+      "number": "27",
+      "position": "Defense",
+      "classYear": "Redshirt Freshman",
+      "team": "Penn State"
+    },
+    {
+      "name": "Will Costin",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Penn State"
+    },
+    {
+      "name": "Mark McKeon",
+      "number": "29",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Penn State"
+    },
+    {
+      "name": "Matthew Beachley",
+      "number": "30",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Penn State"
+    },
+    {
+      "name": "Patrick Keenan",
+      "number": "31",
+      "position": "Defense",
+      "classYear": "Redshirt Sophomore",
+      "team": "Penn State"
+    },
+    {
+      "name": "Reid Gills",
+      "number": "32",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Penn State"
+    },
+    {
+      "name": "Michael Faraone",
+      "number": "34",
+      "position": "Midfield",
+      "classYear": "Redshirt Senior",
+      "team": "Penn State"
+    },
+    {
+      "name": "Preston Hawkins",
+      "number": "35",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Penn State"
+    },
+    {
+      "name": "Joe Calandrino",
+      "number": "36",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "Penn State"
+    },
+    {
+      "name": "Jake Anzelone",
+      "number": "39",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Penn State"
+    },
+    {
+      "name": "Luke Scarpello",
+      "number": "40",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Penn State"
+    },
+    {
+      "name": "John Jude Considine",
+      "number": "41",
+      "position": "Midfield",
+      "classYear": "Graduate Student",
+      "team": "Penn State"
+    },
+    {
+      "name": "Paul Bruder",
+      "number": "43",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Penn State"
+    },
+    {
+      "name": "Billy Henderson",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Penn State"
+    },
+    {
+      "name": "Sammy McAvoy",
+      "number": "45",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "Penn State"
+    },
+    {
+      "name": "Will Mitchell",
+      "number": "46",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Penn State"
+    },
+    {
+      "name": "Dillon Torggler",
+      "number": "48",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Penn State"
+    },
+    {
+      "name": "Andrew Beard",
+      "number": "50",
+      "position": "Midfield",
+      "classYear": "Redshirt Freshman",
+      "team": "Penn State"
+    },
+    {
+      "name": "Liam Matthews",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "Redshirt Sophomore",
+      "team": "Penn State"
+    },
+    {
+      "name": "Zach Arbuckle",
+      "number": "55",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Penn State"
+    },
+    {
+      "name": "Ryan DiRocco",
+      "number": "77",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Penn State"
+    },
+    {
+      "name": "Aharon Bloshuk",
+      "number": "84",
+      "position": "LSM",
+      "classYear": "Freshman",
+      "team": "Penn State"
+    },
+    {
+      "name": "Hayes Schreiner",
+      "number": "88",
+      "position": "Goalie",
+      "classYear": "Redshirt Freshman",
+      "team": "Penn State"
+    },
+    {
+      "name": "Mark Watters",
+      "number": "91",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Penn State"
+    },
+    {
+      "name": "Jeff Tambroni",
+      "number": "",
+      "position": "Head Coach",
+      "classYear": "",
+      "team": "Penn State"
+    },
+    {
+      "name": "John Haus",
+      "number": "",
+      "position": "Associate Head Coach",
+      "classYear": "",
+      "team": "Penn State"
+    },
+    {
+      "name": "Joe Bucci",
+      "number": "",
+      "position": "Associate Head Coach",
+      "classYear": "",
+      "team": "Penn State"
+    },
+    {
+      "name": "Nick Cardile",
+      "number": "",
+      "position": "Assistant Coach",
+      "classYear": "",
+      "team": "Penn State"
+    },
+    {
+      "name": "Jourdan Fraser",
+      "number": "",
+      "position": "Director of Lacrosse Operations",
+      "classYear": "",
+      "team": "Penn State"
+    },
+    {
+      "name": "Steven Murray",
+      "number": "",
+      "position": "Athletic Trainer (MLAX)",
+      "classYear": "",
+      "team": "Penn State"
+    },
+    {
+      "name": "Evan Hanberry",
+      "number": "",
+      "position": "Athletic Performance Coach (MLAX, WTEN)",
+      "classYear": "",
+      "team": "Penn State"
+    }
+  ]
+}

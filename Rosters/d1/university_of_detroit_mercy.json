@@ -1,0 +1,308 @@
+{
+  "team": "University of Detroit Mercy",
+  "scrapedAt": "2026-03-14T20:36:29.397888Z",
+  "playerCount": 43,
+  "players": [
+    {
+      "name": "Marcus Thundercloud",
+      "number": "1",
+      "position": "Attack/Midfield",
+      "classYear": "R-So.",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Landon Kruse",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Carter Kaul",
+      "number": "3",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Kyle Grant",
+      "number": "4",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Zane Hitch",
+      "number": "5",
+      "position": "Long Stick Midfielder",
+      "classYear": "Senior",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Cooper St. Clair",
+      "number": "6",
+      "position": "Goalie",
+      "classYear": "R-Jr.",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Tristen Davis",
+      "number": "7",
+      "position": "Face Off",
+      "classYear": "R-So.",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Lance Poole",
+      "number": "8",
+      "position": "Defensive Midfield",
+      "classYear": "Junior",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Gavin Moore",
+      "number": "9",
+      "position": "Defensive Midfield",
+      "classYear": "Junior",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Andrew Parker",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Luke Grasso",
+      "number": "12",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Jacob Czarnota",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Jay Howat",
+      "number": "14",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Matt Firth",
+      "number": "15",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Sam Rochowiak",
+      "number": "16",
+      "position": "Defense/Long Stick Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Christian Tucker",
+      "number": "17",
+      "position": "Goalie",
+      "classYear": "R-So.",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Canton Lanham",
+      "number": "18",
+      "position": "Face Off",
+      "classYear": "Sophomore",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Brett Goldstein",
+      "number": "20",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Julian Greendeer",
+      "number": "21",
+      "position": "Attack/Midfield",
+      "classYear": "Junior",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Zach Snider",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Tommy Thompson",
+      "number": "23",
+      "position": "Defensive Midfield",
+      "classYear": "Freshman",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Luke Zajdel",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Nolan Moore",
+      "number": "25",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Lucas Goeller",
+      "number": "26",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Jack Reed",
+      "number": "27",
+      "position": "Defensive Midfield",
+      "classYear": "Junior",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Ian Greenwell",
+      "number": "28",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Harold Skinner",
+      "number": "29",
+      "position": "Attack/Midfield",
+      "classYear": "Graduate",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Caden Loken",
+      "number": "32",
+      "position": "Midfield",
+      "classYear": "Graduate",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Riley Bissett",
+      "number": "33",
+      "position": "Attack/Midfield",
+      "classYear": "Freshman",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Conner Kunce",
+      "number": "40",
+      "position": "Face Off",
+      "classYear": "Sophomore",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Ethan Conover",
+      "number": "41",
+      "position": "Attack/Midfield",
+      "classYear": "Sophomore",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Tyler Francis-Renner",
+      "number": "42",
+      "position": "Defense/Long Stick Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Sean Henige",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "Graduate",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Zach Gleason",
+      "number": "45",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Danton Molotky",
+      "number": "47",
+      "position": "Attack/Midfield",
+      "classYear": "Senior",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Malakhi Berry",
+      "number": "49",
+      "position": "Long Stick Midfielder",
+      "classYear": "Sophomore",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Dylan Belliveau",
+      "number": "51",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "DJ Wojciechowski",
+      "number": "55",
+      "position": "Midfield/Attack",
+      "classYear": "Freshman",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "PJ O'Hanlon",
+      "number": "77",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Giovanni Delissio",
+      "number": "81",
+      "position": "Long Stick Midfielder",
+      "classYear": "Freshman",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Jackson Ewald",
+      "number": "88",
+      "position": "Defensive Midfield",
+      "classYear": "Senior",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Jackson Murphy",
+      "number": "91",
+      "position": "Attack/Midfield",
+      "classYear": "Freshman",
+      "team": "University of Detroit Mercy"
+    },
+    {
+      "name": "Whales Racette",
+      "number": "93",
+      "position": "Defensive Midfield",
+      "classYear": "Freshman",
+      "team": "University of Detroit Mercy"
+    }
+  ]
+}

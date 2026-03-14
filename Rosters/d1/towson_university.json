@@ -1,0 +1,336 @@
+{
+  "team": "Towson University",
+  "scrapedAt": "2026-03-14T20:36:17.030692Z",
+  "playerCount": 47,
+  "players": [
+    {
+      "name": "Alex Roussel",
+      "number": "0",
+      "position": "Attack/Midfield",
+      "classYear": "Senior",
+      "team": "Towson University"
+    },
+    {
+      "name": "Mikey Weisshaar",
+      "number": "1",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Towson University"
+    },
+    {
+      "name": "Ryan Schrier",
+      "number": "2",
+      "position": "Attack",
+      "classYear": "R-Jr.",
+      "team": "Towson University"
+    },
+    {
+      "name": "Myles Quandt",
+      "number": "3",
+      "position": "FOGO",
+      "classYear": "R-So.",
+      "team": "Towson University"
+    },
+    {
+      "name": "Mac Sullivan",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "R-Fr.",
+      "team": "Towson University"
+    },
+    {
+      "name": "Evan Boswell",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Towson University"
+    },
+    {
+      "name": "Alex Vieni",
+      "number": "6",
+      "position": "Midfield/Attack",
+      "classYear": "Senior",
+      "team": "Towson University"
+    },
+    {
+      "name": "Kai Lopez",
+      "number": "7",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Towson University"
+    },
+    {
+      "name": "Andrew Goldt",
+      "number": "8",
+      "position": "Attack/Midfield",
+      "classYear": "Sophomore",
+      "team": "Towson University"
+    },
+    {
+      "name": "Matt Burnam",
+      "number": "9",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Towson University"
+    },
+    {
+      "name": "Logan Meighan",
+      "number": "11",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Towson University"
+    },
+    {
+      "name": "Colin Mendicino",
+      "number": "12",
+      "position": "Attack",
+      "classYear": "R-Fr.",
+      "team": "Towson University"
+    },
+    {
+      "name": "Michael Katz",
+      "number": "13",
+      "position": "Attack",
+      "classYear": "R-So.",
+      "team": "Towson University"
+    },
+    {
+      "name": "James Azbill",
+      "number": "15",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Towson University"
+    },
+    {
+      "name": "Nick Sweeney",
+      "number": "16",
+      "position": "LSM/Defense",
+      "classYear": "Sophomore",
+      "team": "Towson University"
+    },
+    {
+      "name": "Jimmy Conner",
+      "number": "17",
+      "position": "Defense",
+      "classYear": "Graduate",
+      "team": "Towson University"
+    },
+    {
+      "name": "Chase Morgan",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Towson University"
+    },
+    {
+      "name": "Nick Chan",
+      "number": "19",
+      "position": "LSM/Defense",
+      "classYear": "Sophomore",
+      "team": "Towson University"
+    },
+    {
+      "name": "Rocky Grossman",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Towson University"
+    },
+    {
+      "name": "Drexton Frank",
+      "number": "22",
+      "position": "Defense",
+      "classYear": "R-Fr.",
+      "team": "Towson University"
+    },
+    {
+      "name": "Ryder John",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "R-Fr.",
+      "team": "Towson University"
+    },
+    {
+      "name": "Dominick Paone",
+      "number": "24",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Towson University"
+    },
+    {
+      "name": "Austin Welch",
+      "number": "25",
+      "position": "Faceoff/SSDM",
+      "classYear": "R-Jr.",
+      "team": "Towson University"
+    },
+    {
+      "name": "Joaquin Villagomez",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "R-Jr.",
+      "team": "Towson University"
+    },
+    {
+      "name": "Brody Morgan",
+      "number": "27",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Towson University"
+    },
+    {
+      "name": "Joe Meidling",
+      "number": "28",
+      "position": "SSDM",
+      "classYear": "Senior",
+      "team": "Towson University"
+    },
+    {
+      "name": "Ronan Fitzpatrick",
+      "number": "29",
+      "position": "Attack",
+      "classYear": "R-So.",
+      "team": "Towson University"
+    },
+    {
+      "name": "Hayden Goscinski",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "R-Fr.",
+      "team": "Towson University"
+    },
+    {
+      "name": "Matt Nilan",
+      "number": "31",
+      "position": "Goalie",
+      "classYear": "R-Jr.",
+      "team": "Towson University"
+    },
+    {
+      "name": "Roman Dodson",
+      "number": "32",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "Towson University"
+    },
+    {
+      "name": "Danny Domeniconi",
+      "number": "33",
+      "position": "Goalie",
+      "classYear": "R-Fr.",
+      "team": "Towson University"
+    },
+    {
+      "name": "Andrew Cavanaugh",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Towson University"
+    },
+    {
+      "name": "Jake Law",
+      "number": "35",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Towson University"
+    },
+    {
+      "name": "Elijah Smith",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Senior",
+      "team": "Towson University"
+    },
+    {
+      "name": "Owen Scott",
+      "number": "40",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Towson University"
+    },
+    {
+      "name": "Connor Curran",
+      "number": "41",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Towson University"
+    },
+    {
+      "name": "Jackson Kennedy",
+      "number": "42",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Towson University"
+    },
+    {
+      "name": "David Bertoline Jr.",
+      "number": "44",
+      "position": "Defense",
+      "classYear": "R-Fr.",
+      "team": "Towson University"
+    },
+    {
+      "name": "Tanner Levin",
+      "number": "45",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Towson University"
+    },
+    {
+      "name": "Berkley Horoba",
+      "number": "49",
+      "position": "SSDM",
+      "classYear": "Freshman",
+      "team": "Towson University"
+    },
+    {
+      "name": "Ashby Shepherd",
+      "number": "50",
+      "position": "Goalie",
+      "classYear": "R-So.",
+      "team": "Towson University"
+    },
+    {
+      "name": "Will Schoonmaker",
+      "number": "51",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Towson University"
+    },
+    {
+      "name": "Jack Bowman",
+      "number": "52",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Towson University"
+    },
+    {
+      "name": "Joe'll Spagnuolo",
+      "number": "54",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Towson University"
+    },
+    {
+      "name": "Trevor Phipps",
+      "number": "55",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Towson University"
+    },
+    {
+      "name": "Ben Ellis",
+      "number": "57",
+      "position": "SSDM",
+      "classYear": "Junior",
+      "team": "Towson University"
+    },
+    {
+      "name": "Matthew Wolfington",
+      "number": "58",
+      "position": "SSDM",
+      "classYear": "Sophomore",
+      "team": "Towson University"
+    }
+  ]
+}

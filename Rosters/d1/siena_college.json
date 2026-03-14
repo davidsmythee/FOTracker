@@ -1,0 +1,378 @@
+{
+  "team": "Siena College",
+  "scrapedAt": "2026-03-14T20:36:02.750003Z",
+  "playerCount": 53,
+  "players": [
+    {
+      "name": "Jack Lamarca",
+      "number": "0",
+      "position": "Defense",
+      "classYear": "R-So.",
+      "team": "Siena College"
+    },
+    {
+      "name": "Patrick Linton",
+      "number": "1",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Siena College"
+    },
+    {
+      "name": "Gavin Blenk",
+      "number": "2",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Siena College"
+    },
+    {
+      "name": "Thomas Brennan",
+      "number": "3",
+      "position": "Midfield",
+      "classYear": "R-Fr.",
+      "team": "Siena College"
+    },
+    {
+      "name": "Caden Olmstead",
+      "number": "4",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Siena College"
+    },
+    {
+      "name": "Colin Lennon",
+      "number": "5",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Siena College"
+    },
+    {
+      "name": "Jake McMahon",
+      "number": "6",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Siena College"
+    },
+    {
+      "name": "Logan Cash",
+      "number": "7",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Siena College"
+    },
+    {
+      "name": "Hans Hoerschelmann",
+      "number": "8",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Siena College"
+    },
+    {
+      "name": "Vito DeBellis",
+      "number": "9",
+      "position": "Goalie",
+      "classYear": "Senior",
+      "team": "Siena College"
+    },
+    {
+      "name": "Brandon Blenk",
+      "number": "10",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Siena College"
+    },
+    {
+      "name": "Conor Hufnagel",
+      "number": "11",
+      "position": "Attack",
+      "classYear": "Graduate",
+      "team": "Siena College"
+    },
+    {
+      "name": "Caden Kramer",
+      "number": "12",
+      "position": "Long",
+      "classYear": "Senior",
+      "team": "Siena College"
+    },
+    {
+      "name": "Finn Moran",
+      "number": "13",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Siena College"
+    },
+    {
+      "name": "Patrick Radomski",
+      "number": "14",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Siena College"
+    },
+    {
+      "name": "Adam Rayfield",
+      "number": "15",
+      "position": "Attack",
+      "classYear": "R-Fr.",
+      "team": "Siena College"
+    },
+    {
+      "name": "Nikolas  Barbero",
+      "number": "16",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Siena College"
+    },
+    {
+      "name": "Liam Lennon",
+      "number": "17",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Siena College"
+    },
+    {
+      "name": "Carter Fort",
+      "number": "18",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Siena College"
+    },
+    {
+      "name": "Tim McDonald",
+      "number": "19",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Siena College"
+    },
+    {
+      "name": "Ryan Vogel",
+      "number": "20",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Siena College"
+    },
+    {
+      "name": "Tommy Carroll",
+      "number": "21",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Siena College"
+    },
+    {
+      "name": "Michael Felicetti",
+      "number": "22",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Siena College"
+    },
+    {
+      "name": "Cameron Golding",
+      "number": "23",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Siena College"
+    },
+    {
+      "name": "Colby LeBlanc",
+      "number": "24",
+      "position": "Midfield",
+      "classYear": "Senior",
+      "team": "Siena College"
+    },
+    {
+      "name": "Tyler Kuprianchik",
+      "number": "25",
+      "position": "FOGO",
+      "classYear": "Senior",
+      "team": "Siena College"
+    },
+    {
+      "name": "Travis Fry",
+      "number": "26",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Siena College"
+    },
+    {
+      "name": "Derek Busking",
+      "number": "27",
+      "position": "Attack",
+      "classYear": "Freshman",
+      "team": "Siena College"
+    },
+    {
+      "name": "Leo Cataldo",
+      "number": "28",
+      "position": "FOGO",
+      "classYear": "Freshman",
+      "team": "Siena College"
+    },
+    {
+      "name": "Doug Annicelli",
+      "number": "29",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Siena College"
+    },
+    {
+      "name": "Ben Diemer",
+      "number": "30",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Siena College"
+    },
+    {
+      "name": "Johnny Carrington",
+      "number": "31",
+      "position": "Goalie",
+      "classYear": "Sophomore",
+      "team": "Siena College"
+    },
+    {
+      "name": "Joe Valenza",
+      "number": "32",
+      "position": "Long",
+      "classYear": "Junior",
+      "team": "Siena College"
+    },
+    {
+      "name": "R.J.  Ihlefeld",
+      "number": "33",
+      "position": "Long",
+      "classYear": "Senior",
+      "team": "Siena College"
+    },
+    {
+      "name": "Caden Padelford",
+      "number": "34",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Siena College"
+    },
+    {
+      "name": "Logan Banek",
+      "number": "35",
+      "position": "FOGO",
+      "classYear": "Sophomore",
+      "team": "Siena College"
+    },
+    {
+      "name": "Chris Landers",
+      "number": "36",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Siena College"
+    },
+    {
+      "name": "Jacob Wells",
+      "number": "37",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Siena College"
+    },
+    {
+      "name": "Shea Hogan",
+      "number": "39",
+      "position": "Attack",
+      "classYear": "Sophomore",
+      "team": "Siena College"
+    },
+    {
+      "name": "Tyler Strohm",
+      "number": "40",
+      "position": "Defense",
+      "classYear": "Freshman",
+      "team": "Siena College"
+    },
+    {
+      "name": "PJ Mackey",
+      "number": "41",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Siena College"
+    },
+    {
+      "name": "William Sniffen",
+      "number": "42",
+      "position": "Midfield",
+      "classYear": "Junior",
+      "team": "Siena College"
+    },
+    {
+      "name": "Fallou Faye",
+      "number": "43",
+      "position": "Midfield",
+      "classYear": "Freshman",
+      "team": "Siena College"
+    },
+    {
+      "name": "Nolan Cadieux",
+      "number": "44",
+      "position": "Attack",
+      "classYear": "Junior",
+      "team": "Siena College"
+    },
+    {
+      "name": "Will Miller",
+      "number": "45",
+      "position": "FOGO",
+      "classYear": "R-So.",
+      "team": "Siena College"
+    },
+    {
+      "name": "James O'Hara",
+      "number": "46",
+      "position": "Goalie",
+      "classYear": "Freshman",
+      "team": "Siena College"
+    },
+    {
+      "name": "Riley Hegarty",
+      "number": "47",
+      "position": "Defense",
+      "classYear": "Graduate",
+      "team": "Siena College"
+    },
+    {
+      "name": "Brody Corless",
+      "number": "48",
+      "position": "Long",
+      "classYear": "Freshman",
+      "team": "Siena College"
+    },
+    {
+      "name": "Johnny Accardo",
+      "number": "50",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Siena College"
+    },
+    {
+      "name": "Ryan Wilson",
+      "number": "55",
+      "position": "Midfield",
+      "classYear": "Sophomore",
+      "team": "Siena College"
+    },
+    {
+      "name": "Anthony Nicolucci",
+      "number": "77",
+      "position": "Defense",
+      "classYear": "Sophomore",
+      "team": "Siena College"
+    },
+    {
+      "name": "Daniel Craig",
+      "number": "88",
+      "position": "Defense",
+      "classYear": "Junior",
+      "team": "Siena College"
+    },
+    {
+      "name": "Xander Derkatz",
+      "number": "91",
+      "position": "Attack",
+      "classYear": "Senior",
+      "team": "Siena College"
+    }
+  ]
+}
