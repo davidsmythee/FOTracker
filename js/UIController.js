@@ -66,10 +66,8 @@ class UIController {
             deselectAllTeamB: document.getElementById('deselect-all-team-b'),
             teamAPlayerFilters: document.getElementById('team-a-player-filters'),
             teamBPlayerFilters: document.getElementById('team-b-player-filters'),
-            saveGameBtn: document.getElementById('save-game-btn'),
             undoBtn: document.getElementById('undo-btn'),
             clearBtn: document.getElementById('clear-btn'),
-            unsavedIndicator: document.getElementById('unsaved-indicator'),
             canvas: document.getElementById('lacrosse-field'),
             modal: document.getElementById('new-game-modal'),
             newGameForm: document.getElementById('new-game-form'),
@@ -257,18 +255,12 @@ class UIController {
             this.hideAddToRosterModal();
         });
 
-        // Save game button
-        this.elements.saveGameBtn.addEventListener('click', async () => {
-            await this.tracker.manualSaveGame();
-            this.updateUnsavedIndicator();
-        });
-
         // Undo button
         this.elements.undoBtn.addEventListener('click', () => {
             if (this.tracker.removeLastPin()) {
                 this.render();
                 this.updateStats();
-                this.updateUnsavedIndicator();
+                this.autoSave();
             }
         });
 
@@ -289,7 +281,7 @@ class UIController {
                 this.tracker.clearAllPins();
                 this.render();
                 this.updateStats();
-                this.updateUnsavedIndicator();
+                this.autoSave();
             }
         });
 
@@ -1237,7 +1229,7 @@ class UIController {
                 this.updateRosterList();
                 this.updatePlayerViewList();
                 this.updateAvailablePlayersList();
-                this.updateUnsavedIndicator();
+                this.autoSave();
             });
 
             container.appendChild(item);
@@ -1475,7 +1467,7 @@ class UIController {
         
         this.hideAddPlayerModal();
         this.updateRosterList();
-        this.updateUnsavedIndicator();
+        this.autoSave();
         this.updatePlayerViewList();
         this.updateAvailablePlayersList();
     }
@@ -1657,9 +1649,8 @@ class UIController {
             teamASelect.appendChild(option);
         });
 
-        // Build Team B dropdown with "Unknown" option
+        // Build Team B dropdown
         teamBSelect.innerHTML = '<option value="">Select Player</option>';
-        teamBSelect.innerHTML += '<option value="unknown">Unknown</option>';
         teamBPlayers.forEach(player => {
             const option = document.createElement('option');
             option.value = player.id;
@@ -1677,7 +1668,7 @@ class UIController {
             if (teamASelect.onchange) teamASelect.onchange();
         }
         if (this.lastTeamBPlayer) {
-            const isInTeamB = teamBPlayers.some(p => p.id === this.lastTeamBPlayer) || this.lastTeamBPlayer === 'unknown';
+            const isInTeamB = teamBPlayers.some(p => p.id === this.lastTeamBPlayer);
             if (isInTeamB) {
                 teamBSelect.value = this.lastTeamBPlayer;
                 // Trigger change event to update labels
@@ -1765,7 +1756,7 @@ class UIController {
         this.render();
         this.updateStats();
         this.populatePlayerFilters();
-        this.updateUnsavedIndicator();
+        this.autoSave();
 
         // Hide modal
         this.hidePinDetailsModal();
@@ -2019,7 +2010,7 @@ class UIController {
                 this.updatePlayerViewList();
                 this.updateAvailablePlayersList();
                 this.updateStats();
-                this.updateUnsavedIndicator();
+                this.autoSave();
                 this.updateSeasonStats();
                 this.render();
             }
@@ -2764,14 +2755,13 @@ class UIController {
         }
     }
 
-    updateUnsavedIndicator() {
-        if (this.tracker.hasUnsavedChanges) {
-            this.elements.unsavedIndicator.style.display = 'flex';
-            this.elements.saveGameBtn.classList.add('btn-pulse');
-        } else {
-            this.elements.unsavedIndicator.style.display = 'none';
-            this.elements.saveGameBtn.classList.remove('btn-pulse');
-        }
+    autoSave() {
+        clearTimeout(this._autoSaveTimer);
+        this._autoSaveTimer = setTimeout(async () => {
+            if (this.tracker.hasUnsavedChanges) {
+                await this.tracker.manualSaveGame();
+            }
+        }, 800);
     }
 
     updateGameControls() {
@@ -2875,7 +2865,7 @@ class UIController {
         this.populatePlayerFilters(); // Populate player filter checkboxes
         this.updateStats();
         this.updateSeasonStats();
-        this.updateUnsavedIndicator();
+        this.autoSave();
         this.render();
     }
 

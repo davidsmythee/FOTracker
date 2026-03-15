@@ -134,19 +134,27 @@ body {
 }
 
 .sidebar-header {
-    padding: 20px;
-    border-bottom: 2px solid var(--border-color);
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--border-color);
     background: var(--bg-primary);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
 }
 
 .sidebar-header h2 {
-    margin-bottom: 15px;
-    font-size: 1.25rem;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
 }
 
 .btn-block {
     width: 100%;
     display: block;
+    text-align: center;
 }
 
 /* ===== Games List Divider ===== */
@@ -677,14 +685,14 @@ body {
 
 /* ===== Buttons ===== */
 .btn {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 8px;
-    font-size: 1rem;
-    font-weight: 600;
+    padding: 7px 14px;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    font-weight: 500;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: background 0.15s, border-color 0.15s;
     white-space: nowrap;
+    letter-spacing: 0.01em;
 }
 
 .btn-primary {
@@ -696,7 +704,6 @@ body {
 .btn-primary:hover {
     background: var(--primary-hover);
     border-color: var(--primary-hover);
-    box-shadow: var(--shadow);
 }
 
 .btn-secondary {
@@ -707,23 +714,22 @@ body {
 
 .btn-secondary:hover {
     background: var(--bg-secondary);
-    border-color: var(--primary-color);
+    border-color: #9CA3AF;
 }
 
 .btn-danger {
     background: var(--danger-color);
     color: white;
+    border: 1px solid var(--danger-color);
 }
 
 .btn-danger:hover {
     background: #dc2626;
-    transform: translateY(-2px);
 }
 
 .btn:disabled {
-    opacity: 0.5;
+    opacity: 0.4;
     cursor: not-allowed;
-    transform: none !important;
 }
 
 /* ===== Dual Toggle Container ===== */
@@ -782,11 +788,14 @@ body {
     box-shadow: var(--shadow-lg);
 }
 
-.control-section h3 {
-    margin: 0 0 10px 0;
-    color: var(--primary-color);
-    font-size: 0.95rem;
+.control-section h3,
+.control-section .section-label {
+    margin: 0 0 8px 0;
+    color: var(--text-secondary);
+    font-size: 0.7rem;
     font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
 }
 
 .game-only-control {
@@ -875,31 +884,27 @@ body {
 }
 
 .view-btn {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    padding: 10px 18px;
+    padding: 6px 14px;
     background: white;
     border: 1px solid var(--border-color);
-    border-radius: 8px;
+    border-radius: 4px;
     color: var(--text-primary);
-    font-size: 0.95rem;
-    font-weight: 600;
+    font-size: 0.82rem;
+    font-weight: 500;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: background 0.15s, border-color 0.15s;
     white-space: nowrap;
 }
 
 .view-btn:hover {
-    border-color: var(--primary-color);
-    box-shadow: var(--shadow);
+    background: var(--bg-secondary);
+    border-color: #9CA3AF;
 }
 
 .view-btn.active {
     background: var(--primary-color);
     border-color: var(--primary-color);
     color: white;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .action-buttons {
@@ -912,56 +917,6 @@ body {
     width: 100%;
 }
 
-.unsaved-indicator {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 10px 15px;
-    margin-top: 10px;
-    background: rgba(255, 165, 0, 0.1);
-    border: 2px solid var(--primary-color);
-    border-radius: 8px;
-    color: var(--primary-color);
-    font-size: 0.9rem;
-    font-weight: 600;
-    animation: pulse 2s ease-in-out infinite;
-}
-
-.unsaved-indicator span {
-    font-size: 1.2rem;
-    animation: blink 1.5s ease-in-out infinite;
-}
-
-@keyframes pulse {
-    0%, 100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0.7;
-    }
-}
-
-@keyframes blink {
-    0%, 100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0.3;
-    }
-}
-
-.btn-pulse {
-    animation: button-pulse 2s ease-in-out infinite;
-}
-
-@keyframes button-pulse {
-    0%, 100% {
-        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
-    }
-    50% {
-        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
-    }
-}
 
 /* ===== Player Selection ===== */
 .player-select {
