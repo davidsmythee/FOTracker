@@ -207,62 +207,55 @@ body {
     background: var(--bg-tertiary);
     border: 1px solid var(--border-color);
     border-radius: 4px;
-    padding: 4px 6px;
-    margin-bottom: 3px;
+    padding: 5px 8px;
+    margin-bottom: 2px;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: all 0.15s ease;
 }
 
 .game-card:hover {
-    transform: translateX(5px);
     border-color: var(--primary-color);
-    box-shadow: var(--shadow);
+    background: var(--bg-secondary);
 }
 
 .game-card.active {
     border-color: var(--primary-color);
-    background: linear-gradient(135deg, var(--bg-tertiary) 0%, rgba(37, 99, 235, 0.1) 100%);
-    box-shadow: 0 0 20px rgba(37, 99, 235, 0.2);
+    background: rgba(37, 99, 235, 0.08);
 }
 
 .game-card-header {
     display: flex;
     justify-content: space-between;
-    align-items: start;
-    margin-bottom: 2px;
+    align-items: center;
 }
 
 .game-card-title {
     font-weight: 600;
-    font-size: 0.8rem;
+    font-size: 0.78rem;
     color: var(--text-primary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .game-card-date {
     font-size: 0.65rem;
     color: var(--text-secondary);
-    margin-bottom: 2px;
+    margin-top: 1px;
 }
 
-.game-card-stats {
-    display: flex;
-    gap: 6px;
-    font-size: 0.7rem;
-}
-
-.game-card-stat {
-    display: flex;
-    align-items: center;
-    gap: 3px;
-}
-
-.stat-badge {
-    padding: 1px 4px;
-    border-radius: 3px;
+.cumulative-badge {
+    font-size: 0.6rem;
     font-weight: 600;
-    font-size: 0.65rem;
-    background: rgba(37, 99, 235, 0.15);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
     color: var(--primary-color);
+    background: rgba(37, 99, 235, 0.12);
+    padding: 1px 5px;
+    border-radius: 3px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-left: 6px;
 }
 
 /* ===== Sidebar Breadcrumb Navigation ===== */
@@ -446,17 +439,7 @@ body {
 }
 
 /* ===== Cumulative Game Badge ===== */
-.cumulative-badge {
-    font-size: 0.6rem;
-    color: var(--primary-color);
-    font-weight: 600;
-    margin-left: 4px;
-}
-
 .cumulative-game {
-    background: linear-gradient(135deg,
-        var(--bg-tertiary) 0%,
-        rgba(37, 99, 235, 0.05) 100%);
     border-left: 3px solid var(--primary-color);
 }
 

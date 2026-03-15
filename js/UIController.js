@@ -2246,8 +2246,6 @@ class UIController {
         }
         card.dataset.gameId = game.id;
 
-        const total = game.pins ? game.pins.length : 0;
-
         const date = new Date(game.date).toLocaleDateString('en-US', {
             month: 'short',
             day: 'numeric',
@@ -2261,7 +2259,7 @@ class UIController {
         } else {
             gameTitle = game.opponent || `${game.teamA} vs ${game.teamB}`;
         }
-        const cumulativeBadge = (isCumulative || game.isCumulativeFolder) ? '<div class="cumulative-badge">📊 Cumulative</div>' : '';
+        const cumulativeBadge = (isCumulative || game.isCumulativeFolder) ? '<span class="cumulative-badge">Cumulative</span>' : '';
 
         card.innerHTML = `
             <div class="game-card-header">
@@ -2269,11 +2267,6 @@ class UIController {
                 ${cumulativeBadge}
             </div>
             <div class="game-card-date">${date}</div>
-            <div class="game-card-stats">
-                <div class="game-card-stat">
-                    <span class="stat-badge">${total} Face-Off${total !== 1 ? 's' : ''}</span>
-                </div>
-            </div>
         `;
 
         card.addEventListener('click', () => {
@@ -2431,7 +2424,7 @@ class UIController {
             title: 'Delete Folder?',
             html: `
                 <p>Are you sure you want to delete "${folder.name}"?</p>
-                <p class="text-secondary">${gamesInFolder.length} game(s) will be moved to Unfiled Games</p>
+                <p class="text-secondary">${gamesInFolder.length} game(s) inside will also be permanently deleted</p>
             `,
             icon: 'warning',
             showCancelButton: true,
@@ -2516,10 +2509,10 @@ class UIController {
         }
 
         // Display game title
-        if (game.id === this.tracker.SEASON_TOTAL_ID) {
-            this.elements.currentOpponent.textContent = game.opponent || `${game.teamA} ${game.teamB}`;
+        if (game.isCumulativeFolder) {
+            const folder = game.folderId ? this.tracker.folders[game.folderId] : null;
+            this.elements.currentOpponent.textContent = folder ? `${folder.name} Total Tracker` : 'Total Tracker';
         } else {
-            // Show team matchup
             const gameTitle = game.opponent ? `vs ${game.opponent}` : `${game.teamA} vs ${game.teamB}`;
             this.elements.currentOpponent.textContent = gameTitle;
         }

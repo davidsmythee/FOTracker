@@ -637,12 +637,14 @@ export default class FaceOffTracker {
         const folder = this.folders[folderId];
         if (!folder) return;
 
-        // Remove folder reference from all games
-        Object.values(this.games).forEach(game => {
-            if (game.folderId === folderId) {
-                game.folderId = null;
+        // Delete all games in this folder (including cumulative)
+        const gameIdsToDelete = Object.keys(this.games).filter(id => this.games[id].folderId === folderId);
+        for (const id of gameIdsToDelete) {
+            delete this.games[id];
+            if (this.useFirebase && firebaseService.getUserId()) {
+                await firebaseService.deleteGame(id);
             }
-        });
+        }
 
         // Delete cumulative game if exists
         const cumulativeId = `${this.CUMULATIVE_ID_PREFIX}${folderId}`;
