@@ -717,24 +717,23 @@ class UIController {
         const teamA = document.getElementById('team-a-name').value;
         const teamB = document.getElementById('team-b-name').value;
         const date = document.getElementById('game-date').value;
-        const notes = document.getElementById('game-notes').value;
 
         // Pass selectedFolderId to auto-file the game in the selected folder
-        await this.tracker.createGame(teamA, teamB, date, notes, this.selectedFolderId);
+        await this.tracker.createGame(teamA, teamB, date, '', this.selectedFolderId);
 
         // Auto-add FOGO players from both teams
         const currentGame = this.tracker.getCurrentGame();
         if (currentGame) {
             // Load Team A roster and add FOGOs (accept both "FOGO" and "FO")
             const teamARoster = await this.loadTeamRoster(teamA);
-            const teamAFogos = teamARoster.filter(p => p.position === 'FOGO' || p.position === 'FO');
+            const teamAFogos = teamARoster.filter(p => p.position && /\bFOGO\b|\bFO\b/i.test(p.position));
             for (const fogo of teamAFogos) {
                 await this.addRosterPlayerToGame(fogo, 'A');
             }
 
             // Load Team B roster and add FOGOs (accept both "FOGO" and "FO")
             const teamBRoster = await this.loadTeamRoster(teamB);
-            const teamBFogos = teamBRoster.filter(p => p.position === 'FOGO' || p.position === 'FO');
+            const teamBFogos = teamBRoster.filter(p => p.position && /\bFOGO\b|\bFO\b/i.test(p.position));
             for (const fogo of teamBFogos) {
                 await this.addRosterPlayerToGame(fogo, 'B');
             }
