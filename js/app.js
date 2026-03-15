@@ -14,8 +14,8 @@ async function initializeApp() {
     appInstance.tracker.onDataChange((type) => {
         if (type === 'games' || type === 'players') {
             appInstance.updateUI();
-        } else if (type === 'unsaved' || type === 'saved') {
-            appInstance.updateUnsavedIndicator();
+        } else if (type === 'unsaved') {
+            appInstance.autoSave();
         }
     });
 
