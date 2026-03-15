@@ -143,6 +143,10 @@
                         <!-- Display Options -->
                         <div class="filter-section">
                             <label class="filter-label">Display Options</label>
+                            <div class="toggle-buttons" style="margin-bottom: 8px;">
+                                <button id="view-pins" class="view-btn active" data-view="pins">Pins</button>
+                                <button id="view-heatmap" class="view-btn" data-view="heatmap">Heat Map</button>
+                            </div>
                             <div class="checkbox-option">
                                 <input type="checkbox" id="show-clamp-rings" checked>
                                 <label for="show-clamp-rings">Show Clamp Rings</label>
@@ -160,20 +164,10 @@
                         </div>
                     </div>
 
-                    <div class="control-section">
-                        <h3 class="section-label">Display</h3>
-                        <div class="view-toggle">
-                            <div class="toggle-buttons">
-                                <button id="view-pins" class="view-btn active" data-view="pins">Pins</button>
-                                <button id="view-heatmap" class="view-btn" data-view="heatmap">Heat Map</button>
-                            </div>
-                        </div>
-                    </div>
-
                     <div class="control-section game-only-control">
                         <h3 class="section-label">Actions</h3>
                         <div class="action-buttons">
-                            <button id="save-game-btn" class="btn btn-primary">Save</button>
+                            <button id="save-game-btn" class="btn btn-primary">Save <span id="unsaved-dot" class="unsaved-dot" style="display:none;">●</span></button>
                             <button id="undo-btn" class="btn btn-secondary">Undo</button>
                             <button id="clear-btn" class="btn btn-secondary">Clear All</button>
                         </div>

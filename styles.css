@@ -917,6 +917,12 @@ body {
     width: 100%;
 }
 
+.unsaved-dot {
+    color: #f59e0b;
+    font-size: 0.65rem;
+    vertical-align: middle;
+    margin-left: 2px;
+}
 
 /* ===== Player Selection ===== */
 .player-select {

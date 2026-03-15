@@ -259,6 +259,8 @@ class UIController {
         // Save game button
         this.elements.saveGameBtn.addEventListener('click', async () => {
             await this.tracker.manualSaveGame();
+            const dot = document.getElementById('unsaved-dot');
+            if (dot) dot.style.display = 'none';
         });
 
         // Undo button
@@ -2762,11 +2764,14 @@ class UIController {
     }
 
     autoSave() {
+        const dot = document.getElementById('unsaved-dot');
+        if (dot) dot.style.display = 'inline';
         clearTimeout(this._autoSaveTimer);
         this._autoSaveTimer = setTimeout(async () => {
             if (this.tracker.hasUnsavedChanges) {
                 await this.tracker.manualSaveGame();
             }
+            if (dot) dot.style.display = 'none';
         }, 800);
     }
 
