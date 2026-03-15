@@ -66,6 +66,7 @@ class UIController {
             deselectAllTeamB: document.getElementById('deselect-all-team-b'),
             teamAPlayerFilters: document.getElementById('team-a-player-filters'),
             teamBPlayerFilters: document.getElementById('team-b-player-filters'),
+            saveGameBtn: document.getElementById('save-game-btn'),
             undoBtn: document.getElementById('undo-btn'),
             clearBtn: document.getElementById('clear-btn'),
             canvas: document.getElementById('lacrosse-field'),
@@ -253,6 +254,11 @@ class UIController {
         // Roster and player modals
         this.elements.cancelRosterModal.addEventListener('click', () => {
             this.hideAddToRosterModal();
+        });
+
+        // Save game button
+        this.elements.saveGameBtn.addEventListener('click', async () => {
+            await this.tracker.manualSaveGame();
         });
 
         // Undo button
