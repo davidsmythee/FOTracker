@@ -574,12 +574,16 @@ export default class FaceOffTracker {
 
         if (!cumulativeGame) return;
 
-        // Collect all pins from games in this folder
+        // Collect all pins from games in this folder, tagging each with source team names
         const folderPins = [];
         Object.values(this.games).forEach(game => {
             if (game.folderId === folderId && !game.isCumulativeFolder) {
                 if (game.pins) {
-                    folderPins.push(...game.pins.map(pin => ({...pin})));
+                    folderPins.push(...game.pins.map(pin => ({
+                        ...pin,
+                        _sourceGameTeamA: game.teamA,
+                        _sourceGameTeamB: game.teamB || game.opponent
+                    })));
                 }
             }
         });

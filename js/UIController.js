@@ -445,6 +445,19 @@ class UIController {
 
     populatePlayerFilters() {
         const game = this.tracker.getCurrentGame();
+        const standardFilter = document.getElementById('standard-player-filter');
+        const cumulativeFilter = document.getElementById('cumulative-player-filter');
+
+        if (game?.isCumulativeFolder) {
+            if (standardFilter) standardFilter.style.display = 'none';
+            if (cumulativeFilter) cumulativeFilter.style.display = 'block';
+            this._populateCumulativePlayerFilters(game);
+            return;
+        }
+
+        // Standard per-game filter
+        if (standardFilter) standardFilter.style.display = 'block';
+        if (cumulativeFilter) cumulativeFilter.style.display = 'none';
 
         if (!game) {
             this.elements.teamAPlayerFilters.innerHTML = '<p style="font-size: 0.7rem; color: var(--text-secondary); padding: 8px;">No face-offs yet</p>';
@@ -452,118 +465,193 @@ class UIController {
             return;
         }
 
-        // Update team labels — for cumulative games, derive team names from folder games
-        let teamALabel = game.teamA || 'Team A';
-        let teamBLabel = game.teamB || 'Team B';
-        if (game.isCumulativeFolder && game.folderId) {
-            const folderGames = Object.values(this.tracker.games)
-                .filter(g => g.folderId === game.folderId && !g.isCumulativeFolder);
-            if (folderGames.length > 0) {
-                teamALabel = folderGames[0].teamA || 'Team A';
-                teamBLabel = 'Opponents';
-            }
-        }
-        this.elements.teamAFilterLabel.textContent = `${teamALabel} Players`;
-        this.elements.teamBFilterLabel.textContent = `${teamBLabel}`;
+        this.elements.teamAFilterLabel.textContent = `${game.teamA || 'Team A'} Players`;
+        this.elements.teamBFilterLabel.textContent = `${game.teamB || 'Team B'} Players`;
 
-        // Get all pins and extract unique players who have been involved in face-offs
         const pins = game.pins || [];
-
         const teamAPlayerIds = new Set();
         const teamBPlayerIds = new Set();
 
         pins.forEach(pin => {
-            const teamAPlayerId = pin.teamAPlayerId || pin.player1Id;
-            const teamBPlayerId = pin.teamBPlayerId || pin.player2Id;
-
-            if (teamAPlayerId) teamAPlayerIds.add(teamAPlayerId);
-            if (teamBPlayerId && teamBPlayerId !== 'unknown') teamBPlayerIds.add(teamBPlayerId);
+            const a = pin.teamAPlayerId || pin.player1Id;
+            const b = pin.teamBPlayerId || pin.player2Id;
+            if (a) teamAPlayerIds.add(a);
+            if (b && b !== 'unknown') teamBPlayerIds.add(b);
         });
 
-        // Convert sets to arrays and get player objects
-        const teamAPlayers = Array.from(teamAPlayerIds)
-            .map(id => this.tracker.getPlayerById(id))
-            .filter(p => p !== undefined)
-            .sort((a, b) => {
-                const numA = parseInt(a.number) || 999;
-                const numB = parseInt(b.number) || 999;
-                return numA - numB;
-            });
+        const sortByNumber = players => players.sort((a, b) => (parseInt(a.number) || 999) - (parseInt(b.number) || 999));
+        const teamAPlayers = sortByNumber(Array.from(teamAPlayerIds).map(id => this.tracker.getPlayerById(id)).filter(Boolean));
+        const teamBPlayers = sortByNumber(Array.from(teamBPlayerIds).map(id => this.tracker.getPlayerById(id)).filter(Boolean));
 
-        const teamBPlayers = Array.from(teamBPlayerIds)
-            .map(id => this.tracker.getPlayerById(id))
-            .filter(p => p !== undefined)
-            .sort((a, b) => {
-                const numA = parseInt(a.number) || 999;
-                const numB = parseInt(b.number) || 999;
-                return numA - numB;
-            });
+        teamAPlayers.forEach(p => { if (!this.selectedTeamAPlayers.has(p.id)) this.selectedTeamAPlayers.add(p.id); });
+        teamBPlayers.forEach(p => { if (!this.selectedTeamBPlayers.has(p.id)) this.selectedTeamBPlayers.add(p.id); });
 
-        // Initialize selected players - default all to checked
-        teamAPlayers.forEach(p => {
-            if (!this.selectedTeamAPlayers.has(p.id)) {
-                this.selectedTeamAPlayers.add(p.id);
+        const buildList = (container, players, team) => {
+            container.innerHTML = '';
+            if (players.length === 0) {
+                container.innerHTML = '<p style="font-size: 0.7rem; color: var(--text-secondary); padding: 8px;">No face-offs yet</p>';
+                return;
             }
-        });
-        teamBPlayers.forEach(p => {
-            if (!this.selectedTeamBPlayers.has(p.id)) {
-                this.selectedTeamBPlayers.add(p.id);
-            }
-        });
-
-        // Populate Team A filters
-        this.elements.teamAPlayerFilters.innerHTML = '';
-        if (teamAPlayers.length === 0) {
-            this.elements.teamAPlayerFilters.innerHTML = '<p style="font-size: 0.7rem; color: var(--text-secondary); padding: 8px;">No face-offs yet</p>';
-        } else {
-            teamAPlayers.forEach(player => {
+            const set = team === 'A' ? this.selectedTeamAPlayers : this.selectedTeamBPlayers;
+            players.forEach(player => {
                 const item = document.createElement('div');
                 item.className = 'player-filter-item';
-
-                const checkbox = document.createElement('input');
-                checkbox.type = 'checkbox';
-                checkbox.id = `filter-player-a-${player.id}`;
-                checkbox.checked = this.selectedTeamAPlayers.has(player.id);
-                checkbox.addEventListener('change', () => {
-                    this.togglePlayerFilter(player.id, 'A');
-                });
-
-                const label = document.createElement('label');
-                label.htmlFor = checkbox.id;
-                label.textContent = `${player.name} (#${player.number})`;
-
-                item.appendChild(checkbox);
-                item.appendChild(label);
-                this.elements.teamAPlayerFilters.appendChild(item);
+                const cb = document.createElement('input');
+                cb.type = 'checkbox';
+                cb.id = `filter-player-${team.toLowerCase()}-${player.id}`;
+                cb.checked = set.has(player.id);
+                cb.addEventListener('change', () => this.togglePlayerFilter(player.id, team));
+                const lbl = document.createElement('label');
+                lbl.htmlFor = cb.id;
+                lbl.textContent = `${player.name} (#${player.number})`;
+                item.append(cb, lbl);
+                container.appendChild(item);
             });
+        };
+
+        buildList(this.elements.teamAPlayerFilters, teamAPlayers, 'A');
+        buildList(this.elements.teamBPlayerFilters, teamBPlayers, 'B');
+    }
+
+    _populateCumulativePlayerFilters(game) {
+        const container = document.getElementById('cumulative-player-filter-groups');
+        if (!container) return;
+
+        // Clear selected sets and rebuild from scratch on each load
+        this.selectedTeamAPlayers.clear();
+        this.selectedTeamBPlayers.clear();
+        container.innerHTML = '';
+
+        const pins = game.pins || [];
+        if (pins.length === 0) {
+            container.innerHTML = '<p style="font-size: 0.7rem; color: var(--text-secondary); padding: 8px;">No face-offs yet</p>';
+            return;
         }
 
-        // Populate Team B filters
-        this.elements.teamBPlayerFilters.innerHTML = '';
-        if (teamBPlayers.length === 0) {
-            this.elements.teamBPlayerFilters.innerHTML = '<p style="font-size: 0.7rem; color: var(--text-secondary); padding: 8px;">No face-offs yet</p>';
-        } else {
-            teamBPlayers.forEach(player => {
-                const item = document.createElement('div');
-                item.className = 'player-filter-item';
+        // Build: teamA group and per-opponent groups
+        const teamAName = pins[0]?._sourceGameTeamA || game.teamA || 'Team A';
+        const teamAPlayerIds = new Set();
+        const opponentMap = new Map(); // opponentName → Set<playerId>
 
-                const checkbox = document.createElement('input');
-                checkbox.type = 'checkbox';
-                checkbox.id = `filter-player-b-${player.id}`;
-                checkbox.checked = this.selectedTeamBPlayers.has(player.id);
-                checkbox.addEventListener('change', () => {
-                    this.togglePlayerFilter(player.id, 'B');
-                });
+        pins.forEach(pin => {
+            const a = pin.teamAPlayerId || pin.player1Id;
+            const b = pin.teamBPlayerId || pin.player2Id;
+            if (a) teamAPlayerIds.add(a);
+            if (b && b !== 'unknown') {
+                const opp = pin._sourceGameTeamB || 'Opponent';
+                if (!opponentMap.has(opp)) opponentMap.set(opp, new Set());
+                opponentMap.get(opp).add(b);
+            }
+        });
 
-                const label = document.createElement('label');
-                label.htmlFor = checkbox.id;
-                label.textContent = `${player.name} (#${player.number})`;
+        // Initialize all as selected
+        teamAPlayerIds.forEach(id => this.selectedTeamAPlayers.add(id));
+        opponentMap.forEach(ids => ids.forEach(id => this.selectedTeamBPlayers.add(id)));
 
-                item.appendChild(checkbox);
-                item.appendChild(label);
-                this.elements.teamBPlayerFilters.appendChild(item);
+        // Render Team A group
+        this._renderCumulativeFilterGroup(container, teamAName, Array.from(teamAPlayerIds), 'A');
+
+        // Opponents separator
+        if (opponentMap.size > 0) {
+            const sep = document.createElement('div');
+            sep.className = 'filter-group-separator';
+            sep.textContent = 'Opponents';
+            container.appendChild(sep);
+
+            opponentMap.forEach((playerIds, teamName) => {
+                this._renderCumulativeFilterGroup(container, teamName, Array.from(playerIds), 'B');
             });
         }
+    }
+
+    _renderCumulativeFilterGroup(container, teamName, playerIds, team) {
+        const set = team === 'A' ? this.selectedTeamAPlayers : this.selectedTeamBPlayers;
+        const sortByNumber = players => players.sort((a, b) => (parseInt(a.number) || 999) - (parseInt(b.number) || 999));
+        const players = sortByNumber(playerIds.map(id => this.tracker.getPlayerById(id)).filter(Boolean));
+        if (players.length === 0) return;
+
+        const group = document.createElement('div');
+        group.className = 'filter-group';
+
+        const header = document.createElement('div');
+        header.className = 'filter-group-header';
+
+        const chevron = document.createElement('span');
+        chevron.className = 'filter-group-chevron';
+        chevron.textContent = '▶';
+
+        const nameSpan = document.createElement('span');
+        nameSpan.className = 'filter-group-name';
+        nameSpan.textContent = teamName;
+
+        const countSpan = document.createElement('span');
+        countSpan.className = 'filter-group-count';
+        const updateCount = () => {
+            countSpan.textContent = `${players.filter(p => set.has(p.id)).length}/${players.length}`;
+        };
+        updateCount();
+
+        const controls = document.createElement('div');
+        controls.className = 'filter-controls';
+        const allBtn = document.createElement('button');
+        allBtn.className = 'filter-control-btn';
+        allBtn.textContent = 'All';
+        const noneBtn = document.createElement('button');
+        noneBtn.className = 'filter-control-btn';
+        noneBtn.textContent = 'None';
+        controls.append(allBtn, noneBtn);
+
+        header.append(chevron, nameSpan, countSpan, controls);
+
+        const playerList = document.createElement('div');
+        playerList.className = 'filter-group-players';
+        playerList.style.display = 'none';
+
+        players.forEach(player => {
+            const item = document.createElement('div');
+            item.className = 'player-filter-item';
+            const cb = document.createElement('input');
+            cb.type = 'checkbox';
+            cb.id = `cf-${team}-${player.id}`;
+            cb.checked = set.has(player.id);
+            cb.addEventListener('change', () => {
+                if (cb.checked) set.add(player.id); else set.delete(player.id);
+                updateCount();
+                this.render();
+            });
+            const lbl = document.createElement('label');
+            lbl.htmlFor = cb.id;
+            lbl.textContent = `${player.name} (#${player.number})`;
+            item.append(cb, lbl);
+            playerList.appendChild(item);
+        });
+
+        // Toggle expand/collapse
+        header.addEventListener('click', e => {
+            if (e.target === allBtn || e.target === noneBtn) return;
+            const collapsed = playerList.style.display === 'none';
+            playerList.style.display = collapsed ? 'block' : 'none';
+            chevron.textContent = collapsed ? '▼' : '▶';
+        });
+
+        allBtn.addEventListener('click', e => {
+            e.stopPropagation();
+            players.forEach(p => set.add(p.id));
+            playerList.querySelectorAll('input').forEach(cb => cb.checked = true);
+            updateCount();
+            this.render();
+        });
+
+        noneBtn.addEventListener('click', e => {
+            e.stopPropagation();
+            players.forEach(p => set.delete(p.id));
+            playerList.querySelectorAll('input').forEach(cb => cb.checked = false);
+            updateCount();
+            this.render();
+        });
+
+        group.append(header, playerList);
+        container.appendChild(group);
     }
 
     setStatsTeam(team) {
@@ -2731,22 +2819,24 @@ class UIController {
         // REMOVED: Season Total game filtering (cumulative tracking now only via folders)
 
         // Filter pins based on selected players
-        // Only show pins where both players are in the selected sets
+        const isCumulativeGame = game?.isCumulativeFolder;
         pins = pins.filter(pin => {
             const teamAPlayerId = pin.teamAPlayerId || pin.player1Id;
             const teamBPlayerId = pin.teamBPlayerId || pin.player2Id;
 
-            // Check if the pin's players are in the selected sets
-            // If the set is empty (no filters yet), show all
-            const teamAMatch = this.selectedTeamAPlayers.size === 0 || this.selectedTeamAPlayers.has(teamAPlayerId);
-            const teamBMatch = this.selectedTeamBPlayers.size === 0 || this.selectedTeamBPlayers.has(teamBPlayerId);
+            // Cumulative: empty set = nothing selected = show nothing
+            // Regular: empty set = no filter applied = show all
+            const teamAMatch = isCumulativeGame
+                ? this.selectedTeamAPlayers.has(teamAPlayerId)
+                : (this.selectedTeamAPlayers.size === 0 || this.selectedTeamAPlayers.has(teamAPlayerId));
+            const teamBMatch = isCumulativeGame
+                ? this.selectedTeamBPlayers.has(teamBPlayerId)
+                : (this.selectedTeamBPlayers.size === 0 || this.selectedTeamBPlayers.has(teamBPlayerId));
 
-            // Only show pin if both players are selected
             return teamAMatch && teamBMatch;
         });
 
         // Get team colors via shared resolver (D1 → D3 → TeamColors + conflict resolution)
-        const isCumulativeGame = game?.isCumulativeFolder;
         const teamAName = game ? game.teamA : null;
         const teamBName = game ? (game.teamB || game.opponent) : null;
         const { teamAColor, teamBColor } = this._resolveTeamColors(teamAName, teamBName);

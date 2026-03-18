@@ -115,28 +115,36 @@
                         <div class="filter-section">
                             <label class="filter-label">Player Filter</label>
 
-                            <!-- Team A Players -->
-                            <div class="player-filter-team">
-                                <div class="player-filter-header">
-                                    <span id="team-a-filter-label" class="team-filter-label">Team A Players</span>
-                                    <div class="filter-controls">
-                                        <button id="select-all-team-a" class="filter-control-btn">All</button>
-                                        <button id="deselect-all-team-a" class="filter-control-btn">None</button>
+                            <!-- Standard (per-game) player filter -->
+                            <div id="standard-player-filter">
+                                <!-- Team A Players -->
+                                <div class="player-filter-team">
+                                    <div class="player-filter-header">
+                                        <span id="team-a-filter-label" class="team-filter-label">Team A Players</span>
+                                        <div class="filter-controls">
+                                            <button id="select-all-team-a" class="filter-control-btn">All</button>
+                                            <button id="deselect-all-team-a" class="filter-control-btn">None</button>
+                                        </div>
                                     </div>
+                                    <div id="team-a-player-filters" class="player-filter-list"></div>
                                 </div>
-                                <div id="team-a-player-filters" class="player-filter-list"></div>
+
+                                <!-- Team B Players -->
+                                <div class="player-filter-team">
+                                    <div class="player-filter-header">
+                                        <span id="team-b-filter-label" class="team-filter-label">Team B Players</span>
+                                        <div class="filter-controls">
+                                            <button id="select-all-team-b" class="filter-control-btn">All</button>
+                                            <button id="deselect-all-team-b" class="filter-control-btn">None</button>
+                                        </div>
+                                    </div>
+                                    <div id="team-b-player-filters" class="player-filter-list"></div>
+                                </div>
                             </div>
 
-                            <!-- Team B Players -->
-                            <div class="player-filter-team">
-                                <div class="player-filter-header">
-                                    <span id="team-b-filter-label" class="team-filter-label">Team B Players</span>
-                                    <div class="filter-controls">
-                                        <button id="select-all-team-b" class="filter-control-btn">All</button>
-                                        <button id="deselect-all-team-b" class="filter-control-btn">None</button>
-                                    </div>
-                                </div>
-                                <div id="team-b-player-filters" class="player-filter-list"></div>
+                            <!-- Cumulative grouped player filter -->
+                            <div id="cumulative-player-filter" style="display:none;">
+                                <div id="cumulative-player-filter-groups"></div>
                             </div>
                         </div>
 
