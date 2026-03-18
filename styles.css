@@ -1519,6 +1519,23 @@ body {
     flex: 1;
 }
 
+/* Cumulative perspective dropdown */
+.perspective-select {
+    width: 100%;
+    padding: 6px 8px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    color: var(--text-primary);
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.perspective-select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
 /* Cumulative grouped player filter */
 .filter-group {
     margin-bottom: 2px;
@@ -1538,6 +1555,15 @@ body {
 
 .filter-group-header:hover {
     border-color: var(--primary-color);
+}
+
+.filter-group-header.filter-group-relevant {
+    border-color: var(--primary-color);
+    background: rgba(37, 99, 235, 0.06);
+}
+
+.filter-group-irrelevant {
+    opacity: 0.45;
 }
 
 .filter-group-chevron {

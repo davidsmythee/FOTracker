@@ -22,6 +22,7 @@ class UIController {
         this.selectedFolderId = null; // Currently selected folder for auto-filing new games
         this.currentFolderView = null; // Folder currently being viewed in sidebar (null = root)
         this.cumulativeWinLossFilter = 'both'; // 'both' | 'wins' | 'losses'
+        this.cumulativePerspectiveTeam = null; // team name selected as win/loss reference
         this.initializeElements();
         this.attachEventListeners();
         this.updateUI();
@@ -196,6 +197,11 @@ class UIController {
                 document.querySelectorAll('.winloss-btn').forEach(b => b.classList.toggle('active', b === btn));
                 this.render();
             });
+        });
+
+        // Cumulative perspective dropdown
+        document.getElementById('cumulative-perspective-select')?.addEventListener('change', e => {
+            this._setCumulativePerspective(e.target.value || null);
         });
 
         // Add player to roster button
@@ -516,10 +522,6 @@ class UIController {
     _populateCumulativePlayerFilters(game) {
         const container = document.getElementById('cumulative-player-filter-groups');
         if (!container) return;
-
-        // Clear selected sets and rebuild from scratch on each load
-        this.selectedTeamAPlayers.clear();
-        this.selectedTeamBPlayers.clear();
         container.innerHTML = '';
 
         const pins = game.pins || [];
@@ -528,43 +530,125 @@ class UIController {
             return;
         }
 
-        // Build: teamA group and per-opponent groups
-        const teamAName = pins[0]?._sourceGameTeamA || game.teamA || 'Team A';
-        const teamAPlayerIds = new Set();
-        const opponentMap = new Map(); // opponentName → Set<playerId>
-
+        // Build per-team groups: teamName → { playerIds: Set, side: 'A'|'B' }
+        // A team's "side" is determined by whether its players appear as teamAPlayerId or teamBPlayerId
+        const teamGroups = new Map();
         pins.forEach(pin => {
             const a = pin.teamAPlayerId || pin.player1Id;
             const b = pin.teamBPlayerId || pin.player2Id;
-            if (a) teamAPlayerIds.add(a);
-            if (b && b !== 'unknown') {
-                const opp = pin._sourceGameTeamB || 'Opponent';
-                if (!opponentMap.has(opp)) opponentMap.set(opp, new Set());
-                opponentMap.get(opp).add(b);
+            const tA = pin._sourceGameTeamA;
+            const tB = pin._sourceGameTeamB;
+            if (tA) {
+                if (!teamGroups.has(tA)) teamGroups.set(tA, { playerIds: new Set(), side: 'A' });
+                if (a) teamGroups.get(tA).playerIds.add(a);
+            }
+            if (tB) {
+                if (!teamGroups.has(tB)) teamGroups.set(tB, { playerIds: new Set(), side: 'B' });
+                if (b && b !== 'unknown') teamGroups.get(tB).playerIds.add(b);
             }
         });
 
-        // Initialize all as selected
-        teamAPlayerIds.forEach(id => this.selectedTeamAPlayers.add(id));
-        opponentMap.forEach(ids => ids.forEach(id => this.selectedTeamBPlayers.add(id)));
+        // Populate perspective dropdown with all unique teams
+        this._populatePerspectiveDropdown(Array.from(teamGroups.keys()));
 
-        // Render Team A group
-        this._renderCumulativeFilterGroup(container, teamAName, Array.from(teamAPlayerIds), 'A');
-
-        // Opponents separator
-        if (opponentMap.size > 0) {
-            const sep = document.createElement('div');
-            sep.className = 'filter-group-separator';
-            sep.textContent = 'Opponents';
-            container.appendChild(sep);
-
-            opponentMap.forEach((playerIds, teamName) => {
-                this._renderCumulativeFilterGroup(container, teamName, Array.from(playerIds), 'B');
+        // On initial load (no perspective set): select all players
+        if (!this.cumulativePerspectiveTeam) {
+            this.selectedTeamAPlayers.clear();
+            this.selectedTeamBPlayers.clear();
+            teamGroups.forEach(({ playerIds, side }) => {
+                const set = side === 'A' ? this.selectedTeamAPlayers : this.selectedTeamBPlayers;
+                playerIds.forEach(id => set.add(id));
             });
         }
+
+        // Determine which teams are "relevant" to the current perspective
+        const relevantTeams = new Set();
+        if (this.cumulativePerspectiveTeam) {
+            pins.forEach(pin => {
+                if (pin._sourceGameTeamA === this.cumulativePerspectiveTeam ||
+                    pin._sourceGameTeamB === this.cumulativePerspectiveTeam) {
+                    if (pin._sourceGameTeamA) relevantTeams.add(pin._sourceGameTeamA);
+                    if (pin._sourceGameTeamB) relevantTeams.add(pin._sourceGameTeamB);
+                }
+            });
+        }
+
+        // Render one group per team
+        teamGroups.forEach(({ playerIds, side }, teamName) => {
+            const isRelevant = !this.cumulativePerspectiveTeam || relevantTeams.has(teamName);
+            this._renderCumulativeFilterGroup(container, teamName, Array.from(playerIds), side, isRelevant);
+        });
     }
 
-    _renderCumulativeFilterGroup(container, teamName, playerIds, team) {
+    _populatePerspectiveDropdown(teams) {
+        const sel = document.getElementById('cumulative-perspective-select');
+        if (!sel) return;
+        const current = this.cumulativePerspectiveTeam;
+        sel.innerHTML = '<option value="">— Select a team —</option>';
+        teams.forEach(name => {
+            const opt = document.createElement('option');
+            opt.value = name;
+            opt.textContent = name;
+            if (name === current) opt.selected = true;
+            sel.appendChild(opt);
+        });
+    }
+
+    _setCumulativePerspective(team) {
+        this.cumulativePerspectiveTeam = team || null;
+        this.cumulativeWinLossFilter = 'both';
+        document.querySelectorAll('.winloss-btn').forEach(b => b.classList.toggle('active', b.dataset.filter === 'both'));
+
+        const resultFilter = document.getElementById('cumulative-result-filter');
+        if (resultFilter) resultFilter.style.display = team ? 'block' : 'none';
+
+        const game = this.tracker.getCurrentGame();
+        if (!game?.isCumulativeFolder) return;
+
+        const pins = game.pins || [];
+        this.selectedTeamAPlayers.clear();
+        this.selectedTeamBPlayers.clear();
+
+        // Build team groups to know each team's side
+        const teamGroups = new Map();
+        pins.forEach(pin => {
+            const a = pin.teamAPlayerId || pin.player1Id;
+            const b = pin.teamBPlayerId || pin.player2Id;
+            if (pin._sourceGameTeamA) {
+                if (!teamGroups.has(pin._sourceGameTeamA)) teamGroups.set(pin._sourceGameTeamA, { playerIds: new Set(), side: 'A' });
+                if (a) teamGroups.get(pin._sourceGameTeamA).playerIds.add(a);
+            }
+            if (pin._sourceGameTeamB) {
+                if (!teamGroups.has(pin._sourceGameTeamB)) teamGroups.set(pin._sourceGameTeamB, { playerIds: new Set(), side: 'B' });
+                if (b && b !== 'unknown') teamGroups.get(pin._sourceGameTeamB).playerIds.add(b);
+            }
+        });
+
+        if (!team) {
+            // No perspective: select all
+            teamGroups.forEach(({ playerIds, side }) => {
+                const set = side === 'A' ? this.selectedTeamAPlayers : this.selectedTeamBPlayers;
+                playerIds.forEach(id => set.add(id));
+            });
+        } else {
+            // Select only players involved in face-offs with the perspective team
+            pins.forEach(pin => {
+                const involving = pin._sourceGameTeamA === team || pin._sourceGameTeamB === team;
+                if (involving) {
+                    const a = pin.teamAPlayerId || pin.player1Id;
+                    const b = pin.teamBPlayerId || pin.player2Id;
+                    if (a) this.selectedTeamAPlayers.add(a);
+                    if (b && b !== 'unknown') this.selectedTeamBPlayers.add(b);
+                }
+            });
+        }
+
+        this._populateCumulativePlayerFilters(game);
+        this.updateLegend();
+        this.render();
+    }
+
+    _renderCumulativeFilterGroup(container, teamName, playerIds, team, isRelevant = true) {
         const set = team === 'A' ? this.selectedTeamAPlayers : this.selectedTeamBPlayers;
         const sortByNumber = players => players.sort((a, b) => (parseInt(a.number) || 999) - (parseInt(b.number) || 999));
         const players = sortByNumber(playerIds.map(id => this.tracker.getPlayerById(id)).filter(Boolean));
@@ -572,9 +656,11 @@ class UIController {
 
         const group = document.createElement('div');
         group.className = 'filter-group';
+        if (!isRelevant) group.classList.add('filter-group-irrelevant');
 
         const header = document.createElement('div');
         header.className = 'filter-group-header';
+        if (isRelevant && this.cumulativePerspectiveTeam) header.classList.add('filter-group-relevant');
 
         const chevron = document.createElement('span');
         chevron.className = 'filter-group-chevron';
@@ -2384,13 +2470,12 @@ class UIController {
     }
 
     selectGame(gameId) {
-        this.tracker.currentGameId = gameId;
-        
-        // If switching to Season Total, rebuild it to ensure it has latest pins
-        if (gameId === this.tracker.SEASON_TOTAL_ID) {
-            this.tracker.rebuildSeasonTotal();
+        // Reset cumulative state when switching games
+        if (gameId !== this.tracker.currentGameId) {
+            this.cumulativePerspectiveTeam = null;
+            this.cumulativeWinLossFilter = 'both';
         }
-        
+        this.tracker.currentGameId = gameId;
         this.tracker.saveCurrentGameId();
         this.updateUI();
     }
@@ -2650,15 +2735,19 @@ class UIController {
             return;
         }
 
-        // Cumulative view: always show green = win, red = loss
+        // Cumulative view: use perspective team for legend
         if (game.isCumulativeFolder) {
-            const folderGames = Object.values(this.tracker.games)
-                .filter(g => g.folderId === game.folderId && !g.isCumulativeFolder);
-            const teamALabel = folderGames.length > 0 ? folderGames[0].teamA : 'Team A';
-            legendTeamALabel.textContent = `${teamALabel} Win`;
-            legendTeamBLabel.textContent = `${teamALabel} Loss`;
-            legendTeamAMarker.style.backgroundColor = '#22c55e';
-            legendTeamBMarker.style.backgroundColor = '#ef4444';
+            if (this.cumulativePerspectiveTeam) {
+                legendTeamALabel.textContent = `${this.cumulativePerspectiveTeam} Win`;
+                legendTeamBLabel.textContent = `${this.cumulativePerspectiveTeam} Loss`;
+                legendTeamAMarker.style.backgroundColor = '#22c55e';
+                legendTeamBMarker.style.backgroundColor = '#ef4444';
+            } else {
+                legendTeamALabel.textContent = 'Select a perspective';
+                legendTeamBLabel.textContent = '';
+                legendTeamAMarker.style.backgroundColor = '#808080';
+                legendTeamBMarker.style.backgroundColor = 'transparent';
+            }
             return;
         }
 
@@ -2847,26 +2936,50 @@ class UIController {
 
         // Convert new pin format with team colors for FieldRenderer
         const renderPins = pins.map(pin => {
-            // Determine win/loss for Team A
+            // Determine win/loss
             let faceoffWonByTeamA, clampWonByTeamA;
             if (pin.faceoffWinnerId || pin.clampWinnerId) {
-                // For cumulative pins: use stored teamAPlayerId to determine winner side
-                faceoffWonByTeamA = isCumulativeGame
-                    ? pin.faceoffWinnerId === (pin.teamAPlayerId || pin.player1Id)
-                    : teamAPlayerIds.includes(pin.faceoffWinnerId);
-                clampWonByTeamA = isCumulativeGame
-                    ? pin.clampWinnerId === (pin.teamAPlayerId || pin.player1Id)
-                    : teamAPlayerIds.includes(pin.clampWinnerId);
+                faceoffWonByTeamA = teamAPlayerIds.includes(pin.faceoffWinnerId);
+                clampWonByTeamA = teamAPlayerIds.includes(pin.clampWinnerId);
             } else {
                 faceoffWonByTeamA = pin.faceoffResult === 'win';
                 clampWonByTeamA = pin.clampResult === 'win';
             }
 
-            // Apply win/loss color override for cumulative view
+            // Cumulative: use perspective-based win/loss coloring
             let faceoffColor, clampColor;
             if (isCumulativeGame) {
-                faceoffColor = faceoffWonByTeamA ? WIN_COLOR : LOSS_COLOR;
-                clampColor = clampWonByTeamA ? WIN_COLOR : LOSS_COLOR;
+                if (this.cumulativePerspectiveTeam) {
+                    // Determine if perspective team won this specific pin
+                    const perspIsTeamA = pin._sourceGameTeamA === this.cumulativePerspectiveTeam;
+                    const perspIsTeamB = pin._sourceGameTeamB === this.cumulativePerspectiveTeam;
+                    let perspWonFaceoff, perspWonClamp;
+                    if (perspIsTeamA || perspIsTeamB) {
+                        const perspFOId = perspIsTeamA ? (pin.teamAPlayerId || pin.player1Id) : (pin.teamBPlayerId || pin.player2Id);
+                        if (pin.faceoffWinnerId) {
+                            perspWonFaceoff = pin.faceoffWinnerId === perspFOId;
+                        } else {
+                            perspWonFaceoff = perspIsTeamA ? pin.faceoffResult === 'win' : pin.faceoffResult === 'loss';
+                        }
+                        if (pin.clampWinnerId) {
+                            perspWonClamp = pin.clampWinnerId === perspFOId;
+                        } else {
+                            perspWonClamp = perspIsTeamA ? pin.clampResult === 'win' : pin.clampResult === 'loss';
+                        }
+                        faceoffColor = perspWonFaceoff ? WIN_COLOR : LOSS_COLOR;
+                        clampColor = perspWonClamp ? WIN_COLOR : LOSS_COLOR;
+                        // Override faceoffWonByTeamA for win/loss filter
+                        faceoffWonByTeamA = perspWonFaceoff;
+                        clampWonByTeamA = perspWonClamp;
+                    } else {
+                        faceoffColor = '#808080';
+                        clampColor = '#606060';
+                    }
+                } else {
+                    // No perspective selected: neutral gray
+                    faceoffColor = '#808080';
+                    clampColor = '#606060';
+                }
             } else {
                 faceoffColor = faceoffWonByTeamA ? teamAColor : teamBColor;
                 clampColor = clampWonByTeamA ? teamAColor : teamBColor;
@@ -2922,6 +3035,14 @@ class UIController {
         // Show/hide cumulative win/loss filter
         const winLossSection = document.getElementById('cumulative-winloss-filter');
         if (winLossSection) winLossSection.style.display = isCumulative ? 'block' : 'none';
+
+        // Reset perspective UI when leaving cumulative
+        if (!isCumulative) {
+            const sel = document.getElementById('cumulative-perspective-select');
+            if (sel) sel.value = '';
+            const rf = document.getElementById('cumulative-result-filter');
+            if (rf) rf.style.display = 'none';
+        }
 
         const gameOnlyControls = document.querySelectorAll('.game-only-control');
 
