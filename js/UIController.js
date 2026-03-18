@@ -21,6 +21,7 @@ class UIController {
         this.lastTeamBPlayer = null; // Last selected Team B player ID
         this.selectedFolderId = null; // Currently selected folder for auto-filing new games
         this.currentFolderView = null; // Folder currently being viewed in sidebar (null = root)
+        this.cumulativeWinLossFilter = 'both'; // 'both' | 'wins' | 'losses'
         this.initializeElements();
         this.attachEventListeners();
         this.updateUI();
@@ -188,6 +189,14 @@ class UIController {
             this.setDisplayType('heatmap');
         });
 
+        // Cumulative win/loss filter buttons
+        document.querySelectorAll('.winloss-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                this.cumulativeWinLossFilter = btn.dataset.filter;
+                document.querySelectorAll('.winloss-btn').forEach(b => b.classList.toggle('active', b === btn));
+                this.render();
+            });
+        });
 
         // Add player to roster button
         this.elements.addToRosterBtn.addEventListener('click', () => {
@@ -443,9 +452,19 @@ class UIController {
             return;
         }
 
-        // Update team labels
-        this.elements.teamAFilterLabel.textContent = `${game.teamA || 'Team A'} Players`;
-        this.elements.teamBFilterLabel.textContent = `${game.teamB || 'Team B'} Players`;
+        // Update team labels — for cumulative games, derive team names from folder games
+        let teamALabel = game.teamA || 'Team A';
+        let teamBLabel = game.teamB || 'Team B';
+        if (game.isCumulativeFolder && game.folderId) {
+            const folderGames = Object.values(this.tracker.games)
+                .filter(g => g.folderId === game.folderId && !g.isCumulativeFolder);
+            if (folderGames.length > 0) {
+                teamALabel = folderGames[0].teamA || 'Team A';
+                teamBLabel = 'Opponents';
+            }
+        }
+        this.elements.teamAFilterLabel.textContent = `${teamALabel} Players`;
+        this.elements.teamBFilterLabel.textContent = `${teamBLabel}`;
 
         // Get all pins and extract unique players who have been involved in face-offs
         const pins = game.pins || [];
@@ -2543,6 +2562,18 @@ class UIController {
             return;
         }
 
+        // Cumulative view: always show green = win, red = loss
+        if (game.isCumulativeFolder) {
+            const folderGames = Object.values(this.tracker.games)
+                .filter(g => g.folderId === game.folderId && !g.isCumulativeFolder);
+            const teamALabel = folderGames.length > 0 ? folderGames[0].teamA : 'Team A';
+            legendTeamALabel.textContent = `${teamALabel} Win`;
+            legendTeamBLabel.textContent = `${teamALabel} Loss`;
+            legendTeamAMarker.style.backgroundColor = '#22c55e';
+            legendTeamBMarker.style.backgroundColor = '#ef4444';
+            return;
+        }
+
         // Get team names
         const teamAName = game.teamA || 'Team A';
         const teamBName = game.teamB || game.opponent || 'Team B';
@@ -2715,35 +2746,59 @@ class UIController {
         });
 
         // Get team colors via shared resolver (D1 → D3 → TeamColors + conflict resolution)
+        const isCumulativeGame = game?.isCumulativeFolder;
         const teamAName = game ? game.teamA : null;
         const teamBName = game ? (game.teamB || game.opponent) : null;
         const { teamAColor, teamBColor } = this._resolveTeamColors(teamAName, teamBName);
 
+        // Colors for cumulative win/loss mode
+        const WIN_COLOR = '#22c55e';
+        const LOSS_COLOR = '#ef4444';
+
         // Convert new pin format with team colors for FieldRenderer
         const renderPins = pins.map(pin => {
+            // Determine win/loss for Team A
+            let faceoffWonByTeamA, clampWonByTeamA;
             if (pin.faceoffWinnerId || pin.clampWinnerId) {
-                // New format - add team colors based on winner
-                const faceoffWonByTeamA = teamAPlayerIds.includes(pin.faceoffWinnerId);
-                const clampWonByTeamA = teamAPlayerIds.includes(pin.clampWinnerId);
-
-                return {
-                    x: pin.x,
-                    y: pin.y,
-                    faceoffColor: faceoffWonByTeamA ? teamAColor : teamBColor,
-                    clampColor: clampWonByTeamA ? teamAColor : teamBColor,
-                    faceoffResult: faceoffWonByTeamA ? 'win' : 'loss', // Keep for backward compatibility
-                    clampResult: clampWonByTeamA ? 'win' : 'loss', // Keep for backward compatibility
-                    isWhistleViolation: pin.isWhistleViolation || false, // Whistle violation (no faceoff)
-                    isPostWhistleViolation: pin.isPostWhistleViolation || false, // Post-whistle violation
-                    timestamp: pin.timestamp
-                };
+                // For cumulative pins: use stored teamAPlayerId to determine winner side
+                faceoffWonByTeamA = isCumulativeGame
+                    ? pin.faceoffWinnerId === (pin.teamAPlayerId || pin.player1Id)
+                    : teamAPlayerIds.includes(pin.faceoffWinnerId);
+                clampWonByTeamA = isCumulativeGame
+                    ? pin.clampWinnerId === (pin.teamAPlayerId || pin.player1Id)
+                    : teamAPlayerIds.includes(pin.clampWinnerId);
+            } else {
+                faceoffWonByTeamA = pin.faceoffResult === 'win';
+                clampWonByTeamA = pin.clampResult === 'win';
             }
-            // Old format - add default team colors
+
+            // Apply win/loss color override for cumulative view
+            let faceoffColor, clampColor;
+            if (isCumulativeGame) {
+                faceoffColor = faceoffWonByTeamA ? WIN_COLOR : LOSS_COLOR;
+                clampColor = clampWonByTeamA ? WIN_COLOR : LOSS_COLOR;
+            } else {
+                faceoffColor = faceoffWonByTeamA ? teamAColor : teamBColor;
+                clampColor = clampWonByTeamA ? teamAColor : teamBColor;
+            }
+
             return {
-                ...pin,
-                faceoffColor: pin.faceoffResult === 'win' ? teamAColor : teamBColor,
-                clampColor: pin.clampResult === 'win' ? teamAColor : teamBColor
+                x: pin.x,
+                y: pin.y,
+                faceoffColor,
+                clampColor,
+                faceoffResult: faceoffWonByTeamA ? 'win' : 'loss',
+                clampResult: clampWonByTeamA ? 'win' : 'loss',
+                isWhistleViolation: pin.isWhistleViolation || false,
+                isPostWhistleViolation: pin.isPostWhistleViolation || false,
+                timestamp: pin.timestamp
             };
+        }).filter(pin => {
+            // Apply win/loss filter for cumulative view
+            if (!isCumulativeGame || this.cumulativeWinLossFilter === 'both') return true;
+            if (this.cumulativeWinLossFilter === 'wins') return pin.faceoffResult === 'win';
+            if (this.cumulativeWinLossFilter === 'losses') return pin.faceoffResult === 'loss';
+            return true;
         });
 
         if (this.displayType === 'heatmap') {
@@ -2773,6 +2828,10 @@ class UIController {
         const game = this.tracker.getCurrentGame();
         const isCumulative = game?.isCumulativeFolder;
         const isReadOnly = isCumulative; // Only cumulative folders are read-only now
+
+        // Show/hide cumulative win/loss filter
+        const winLossSection = document.getElementById('cumulative-winloss-filter');
+        if (winLossSection) winLossSection.style.display = isCumulative ? 'block' : 'none';
 
         const gameOnlyControls = document.querySelectorAll('.game-only-control');
 

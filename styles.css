@@ -890,6 +890,41 @@ body {
     color: white;
 }
 
+.winloss-btn {
+    flex: 1;
+    padding: 5px 8px;
+    background: white;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    color: var(--text-primary);
+    font-size: 0.78rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.winloss-btn:hover {
+    background: var(--bg-secondary);
+}
+
+.winloss-btn[data-filter="both"].active {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+
+.winloss-btn[data-filter="wins"].active {
+    background: #22c55e;
+    border-color: #16a34a;
+    color: white;
+}
+
+.winloss-btn[data-filter="losses"].active {
+    background: #ef4444;
+    border-color: #dc2626;
+    color: white;
+}
+
 .action-buttons {
     display: flex;
     flex-direction: column;
