@@ -524,6 +524,12 @@ class UIController {
         if (!container) return;
         container.innerHTML = '';
 
+        // Rebuild in memory so pins always have _sourceGameTeamA/_sourceGameTeamB tags,
+        // even for cumulative games that were saved before those fields existed
+        if (game.folderId) {
+            this.tracker.rebuildCumulativeFolder(game.folderId);
+        }
+
         const pins = game.pins || [];
         if (pins.length === 0) {
             container.innerHTML = '<p style="font-size: 0.7rem; color: var(--text-secondary); padding: 8px;">No face-offs yet</p>';
