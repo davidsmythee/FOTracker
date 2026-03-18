@@ -463,7 +463,7 @@ class UIController {
 
         // Standard per-game filter
         if (standardFilter) standardFilter.style.display = 'block';
-        if (cumulativeFilter) cumulativeFilter.style.display = 'none';
+        if (cumulativeFilter) { cumulativeFilter.style.display = 'none'; }
 
         if (!game) {
             this.elements.teamAPlayerFilters.innerHTML = '<p style="font-size: 0.7rem; color: var(--text-secondary); padding: 8px;">No face-offs yet</p>';
