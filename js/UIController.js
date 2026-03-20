@@ -2991,9 +2991,21 @@ class UIController {
                 clampColor = clampWonByTeamA ? teamAColor : teamBColor;
             }
 
+            // For cumulative: flip coordinates 180° when perspective team was Team B
+            // so all pins are shown from the same attacking direction (upfield)
+            let pinX = pin.x;
+            let pinY = pin.y;
+            if (isCumulativeGame && this.cumulativePerspectiveTeam &&
+                pin._sourceGameTeamB === this.cumulativePerspectiveTeam) {
+                const cw = this.fieldRenderer.canvas.width;
+                const ch = this.fieldRenderer.canvas.height;
+                pinX = cw - pin.x;
+                pinY = ch - pin.y;
+            }
+
             return {
-                x: pin.x,
-                y: pin.y,
+                x: pinX,
+                y: pinY,
                 faceoffColor,
                 clampColor,
                 faceoffResult: faceoffWonByTeamA ? 'win' : 'loss',
@@ -3010,13 +3022,22 @@ class UIController {
             return true;
         });
 
-        if (this.displayType === 'heatmap') {
-            const teamAName = game?.teamA || 'Team A';
-            const teamBName = game?.teamB || game?.opponent || 'Team B';
-            this.fieldRenderer.renderHeatmap(renderPins, teamAColor, teamBColor, teamAName, teamBName);
+        // For cumulative with perspective: show perspective team's letter/arrow pointing upfield
+        let displayTeamAName, displayTeamAColor;
+        if (isCumulativeGame && this.cumulativePerspectiveTeam) {
+            displayTeamAName = this.cumulativePerspectiveTeam;
+            const { teamAColor: pColor } = this._resolveTeamColors(this.cumulativePerspectiveTeam, null);
+            displayTeamAColor = pColor;
         } else {
-            const teamAName = game?.teamA || 'Team A';
-            this.fieldRenderer.render(renderPins, this.showClampRings, teamAName, teamAColor);
+            displayTeamAName = game?.teamA || 'Team A';
+            displayTeamAColor = teamAColor;
+        }
+
+        if (this.displayType === 'heatmap') {
+            const teamBName = game?.teamB || game?.opponent || 'Team B';
+            this.fieldRenderer.renderHeatmap(renderPins, displayTeamAColor, teamBColor, displayTeamAName, teamBName);
+        } else {
+            this.fieldRenderer.render(renderPins, this.showClampRings, displayTeamAName, displayTeamAColor);
         }
     }
 
