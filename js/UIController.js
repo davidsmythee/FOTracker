@@ -1959,10 +1959,11 @@ class UIController {
         this.lastTeamAPlayer = teamAPlayerId;
         this.lastTeamBPlayer = teamBPlayerId;
 
-        // Update UI
+        // Update UI — populatePlayerFilters must run before render so the new
+        // player is in the selected sets before the filter is applied
+        this.populatePlayerFilters();
         this.render();
         this.updateStats();
-        this.populatePlayerFilters();
         this.autoSave();
 
         // Hide modal
