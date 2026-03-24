@@ -2481,6 +2481,7 @@ class UIController {
         if (gameId !== this.tracker.currentGameId) {
             this.cumulativePerspectiveTeam = null;
             this.cumulativeWinLossFilter = 'both';
+            this._setSaveStatus('saved');
         }
         this.tracker.currentGameId = gameId;
         this.tracker.saveCurrentGameId();
@@ -2536,6 +2537,18 @@ class UIController {
             const divider = document.createElement('div');
             divider.className = 'context-menu-divider';
             menu.appendChild(divider);
+        }
+
+        // Duplicate option (don't allow duplicating cumulative folders)
+        if (!game.isCumulativeFolder) {
+            const duplicateOption = document.createElement('div');
+            duplicateOption.className = 'context-menu-item';
+            duplicateOption.textContent = '⧉ Duplicate Game';
+            duplicateOption.addEventListener('click', async () => {
+                menu.remove();
+                await this.duplicateGame(gameId);
+            });
+            menu.appendChild(duplicateOption);
         }
 
         // Delete game option (don't allow deleting cumulative folders)
@@ -2695,6 +2708,15 @@ class UIController {
                 timer: 1500,
                 showConfirmButton: false
             });
+        }
+    }
+
+    async duplicateGame(gameId) {
+        const newId = await this.tracker.duplicateGame(gameId);
+        if (newId) {
+            this.tracker.currentGameId = newId;
+            await this.tracker.saveCurrentGameId();
+            this.updateUI();
         }
     }
 
@@ -3043,15 +3065,26 @@ class UIController {
     }
 
     autoSave() {
-        const dot = document.getElementById('unsaved-dot');
-        if (dot) dot.style.display = 'inline';
+        this._setSaveStatus('unsaved');
         clearTimeout(this._autoSaveTimer);
         this._autoSaveTimer = setTimeout(async () => {
             if (this.tracker.hasUnsavedChanges) {
                 await this.tracker.manualSaveGame();
             }
-            if (dot) dot.style.display = 'none';
+            this._setSaveStatus('saved');
         }, 800);
+    }
+
+    _setSaveStatus(status) {
+        const label = document.getElementById('save-status-label');
+        if (!label) return;
+        if (status === 'unsaved') {
+            label.textContent = 'Unsaved changes';
+            label.className = 'save-status-label save-status-unsaved';
+        } else {
+            label.textContent = 'Saved ✓';
+            label.className = 'save-status-label save-status-saved';
+        }
     }
 
     updateGameControls() {

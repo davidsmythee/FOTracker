@@ -942,6 +942,29 @@ body {
     margin-left: 2px;
 }
 
+.save-status-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.save-status-saved {
+    color: #10b981;
+    background: rgba(16, 185, 129, 0.12);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.save-status-unsaved {
+    color: #f59e0b;
+    background: rgba(245, 158, 11, 0.12);
+    border: 1px solid rgba(245, 158, 11, 0.4);
+}
+
 /* ===== Player Selection ===== */
 .player-select {
     width: 100%;

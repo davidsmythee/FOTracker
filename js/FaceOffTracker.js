@@ -474,6 +474,41 @@ export default class FaceOffTracker {
         return id;
     }
 
+    async duplicateGame(id) {
+        const source = this.games[id];
+        if (!source || source.isCumulativeFolder) return null;
+
+        const newId = Date.now().toString();
+        const copy = JSON.parse(JSON.stringify(source)); // deep clone
+        copy.id = newId;
+        copy.teamA = source.teamA;
+        copy.teamB = source.teamB;
+        copy.date = source.date;
+        copy.notes = source.notes || '';
+        copy.pins = source.pins.map(p => ({ ...p }));
+        copy.roster = (source.roster || []).map(r => ({ ...r }));
+        copy.folderId = source.folderId;
+        copy.createdAt = new Date().toISOString();
+        // Mark it as a copy (no isCumulativeFolder)
+        delete copy.isCumulativeFolder;
+
+        this.games[newId] = copy;
+
+        if (this.useFirebase && firebaseService.getUserId()) {
+            await this.saveGame(newId);
+        } else {
+            this.saveGames();
+        }
+
+        // Rebuild cumulative folder if needed
+        if (copy.folderId && this.folders[copy.folderId]?.hasCumulativeTracker) {
+            this.rebuildCumulativeFolder(copy.folderId);
+            await this.saveGame(`${this.CUMULATIVE_ID_PREFIX}${copy.folderId}`);
+        }
+
+        return newId;
+    }
+
     async deleteGame(id) {
         // Don't allow deleting season total or cumulative folders
         if (id === this.SEASON_TOTAL_ID) return;
